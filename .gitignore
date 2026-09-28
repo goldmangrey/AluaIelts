@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+backend/.venv/
+backend/.env
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+*.pyc
+
+# Xcode
+frontend/DerivedData/
+frontend/*.xcworkspace/xcuserdata/
+frontend/*.xcodeproj/xcuserdata/
+frontend/**/xcuserdata/
+frontend/.build/
+
+# Secrets
+GoogleService-Info.plist
+*.p8
+*.p12
+*.mobileprovision
+
+# IDE
+.idea/
+.vscode/

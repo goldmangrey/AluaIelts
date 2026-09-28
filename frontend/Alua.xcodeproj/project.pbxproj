@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4BB8F752BA82EC11FB9444 /* AluaWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98985AA5C456F9211363A1D8 /* AluaWidgetsBundle.swift */; };
+		1C5845B3C76E4A207FE599DC /* AluaWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1140048FC8507CC0DD610C01 /* AluaWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		300FEA15C179C981A75670D7 /* AluaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FFF8DF387666326A7B7904 /* AluaApp.swift */; };
+		407ACF6FCF0AF2C34BE54AA1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 19568EE673CFEFCBD829809B /* FirebaseMessaging */; };
+		5373D6A9809E6A4A136A5191 /* DailyLearningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECD4D2F1D64BB9FEA7A29CA /* DailyLearningWidget.swift */; };
+		A9FAA062DDB06EF2D071F368 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1758B8FB95CC67DD43C79 /* RootView.swift */; };
+		F1E51300C55A30F4654BD434 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 675554251D1A34AD097987CE /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5B3D2701C4C164F155D42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2590B3F805F1142330A3C7E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA7D5D48C5D989A7DE68CC7;
+			remoteInfo = AluaWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B9109E28B2AF8CE045C1B6B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1C5845B3C76E4A207FE599DC /* AluaWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1140048FC8507CC0DD610C01 /* AluaWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AluaWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F1758B8FB95CC67DD43C79 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		79E6159D569755C8694DC75A /* Alua.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Alua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98985AA5C456F9211363A1D8 /* AluaWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaWidgetsBundle.swift; sourceTree = "<group>"; };
+		BECD4D2F1D64BB9FEA7A29CA /* DailyLearningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLearningWidget.swift; sourceTree = "<group>"; };
+		E1FFF8DF387666326A7B7904 /* AluaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD007DB8109E19E9D9BA155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E51300C55A30F4654BD434 /* FirebaseAuth in Frameworks */,
+				407ACF6FCF0AF2C34BE54AA1 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F43BC55D6EB278D9BD3F86 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CED1EEF61C8D9FC1FAAC188A /* Root */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2C527FA78AA7E76DD42FA76F = {
+			isa = PBXGroup;
+			children = (
+				95B53A85D67ABC9A66D7F076 /* Alua */,
+				CB7AED9803AF7255319734E4 /* AluaWidgets */,
+				48259CC5854BC2845A1CFE59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48259CC5854BC2845A1CFE59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E6159D569755C8694DC75A /* Alua.app */,
+				1140048FC8507CC0DD610C01 /* AluaWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B53A85D67ABC9A66D7F076 /* Alua */ = {
+			isa = PBXGroup;
+			children = (
+				9805BE08919851C55FC93307 /* App */,
+				15F43BC55D6EB278D9BD3F86 /* Features */,
+			);
+			path = Alua;
+			sourceTree = "<group>";
+		};
+		9805BE08919851C55FC93307 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E1FFF8DF387666326A7B7904 /* AluaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CB7AED9803AF7255319734E4 /* AluaWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				98985AA5C456F9211363A1D8 /* AluaWidgetsBundle.swift */,
+				BECD4D2F1D64BB9FEA7A29CA /* DailyLearningWidget.swift */,
+			);
+			path = AluaWidgets;
+			sourceTree = "<group>";
+		};
+		CED1EEF61C8D9FC1FAAC188A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				19F1758B8FB95CC67DD43C79 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA7D5D48C5D989A7DE68CC7 /* AluaWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D710E07FD5658550B6E2BC35 /* Build configuration list for PBXNativeTarget "AluaWidgets" */;
+			buildPhases = (
+				586702781F34CEB1C95CD09F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AluaWidgets;
+			packageProductDependencies = (
+			);
+			productName = AluaWidgets;
+			productReference = 1140048FC8507CC0DD610C01 /* AluaWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D0ED592AFA0D9ADC72BBA6B1 /* Alua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AE4B962BF4F05C5A8CB69AB /* Build configuration list for PBXNativeTarget "Alua" */;
+			buildPhases = (
+				9F139B195E8D7AB229EA6517 /* Sources */,
+				ECD007DB8109E19E9D9BA155 /* Frameworks */,
+				7B9109E28B2AF8CE045C1B6B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8C868E152393A80AF36C6C /* PBXTargetDependency */,
+			);
+			name = Alua;
+			packageProductDependencies = (
+				675554251D1A34AD097987CE /* FirebaseAuth */,
+				19568EE673CFEFCBD829809B /* FirebaseMessaging */,
+			);
+			productName = Alua;
+			productReference = 79E6159D569755C8694DC75A /* Alua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2590B3F805F1142330A3C7E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 663049CEDD8837C5DFD4A75F /* Build configuration list for PBXProject "Alua" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2C527FA78AA7E76DD42FA76F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E26BEBD462D3F3905215DE73 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 48259CC5854BC2845A1CFE59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0ED592AFA0D9ADC72BBA6B1 /* Alua */,
+				6FA7D5D48C5D989A7DE68CC7 /* AluaWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586702781F34CEB1C95CD09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4BB8F752BA82EC11FB9444 /* AluaWidgetsBundle.swift in Sources */,
+				5373D6A9809E6A4A136A5191 /* DailyLearningWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F139B195E8D7AB229EA6517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300FEA15C179C981A75670D7 /* AluaApp.swift in Sources */,
+				A9FAA062DDB06EF2D071F368 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8C868E152393A80AF36C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA7D5D48C5D989A7DE68CC7 /* AluaWidgets */;
+			targetProxy = FD5B3D2701C4C164F155D42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		061BC74D73C8CF4C50C4F3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40D28C9B519C73DD2AE76E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alua.app;
+				PRODUCT_NAME = Alua;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7CC99F95AFBEA1CF3D633CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alua.app.widgets;
+				PRODUCT_NAME = AluaWidgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E27F4A13E2D879A95661F32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alua.app.widgets;
+				PRODUCT_NAME = AluaWidgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA246B581B2081C4454663DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF31BC39ABD33B0B3E0ADF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alua.app;
+				PRODUCT_NAME = Alua;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AE4B962BF4F05C5A8CB69AB /* Build configuration list for PBXNativeTarget "Alua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D28C9B519C73DD2AE76E89 /* Debug */,
+				FF31BC39ABD33B0B3E0ADF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		663049CEDD8837C5DFD4A75F /* Build configuration list for PBXProject "Alua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA246B581B2081C4454663DD /* Debug */,
+				061BC74D73C8CF4C50C4F3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D710E07FD5658550B6E2BC35 /* Build configuration list for PBXNativeTarget "AluaWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27F4A13E2D879A95661F32D /* Debug */,
+				7CC99F95AFBEA1CF3D633CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E26BEBD462D3F3905215DE73 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 12.19.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19568EE673CFEFCBD829809B /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E26BEBD462D3F3905215DE73 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		675554251D1A34AD097987CE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E26BEBD462D3F3905215DE73 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2590B3F805F1142330A3C7E8 /* Project object */;
+}
