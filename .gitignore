@@ -19,6 +19,10 @@ frontend/.build/
 
 # Secrets
 GoogleService-Info.plist
+/.secrets/
+firebase-admin*.json
+service-account*.json
+*-firebase-adminsdk-*.json
 *.p8
 *.p12
 *.mobileprovision

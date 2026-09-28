@@ -8,12 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		0E4BB8F752BA82EC11FB9444 /* AluaWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98985AA5C456F9211363A1D8 /* AluaWidgetsBundle.swift */; };
+		113356630AEB3471AB49E3EB /* AccessTokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD657B0EC9DAA8805972520F /* AccessTokenProvider.swift */; };
+		14DE3C76E597A3B45E367F65 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D922A99A16BCD28FE733C4E6 /* DependencyContainer.swift */; };
+		1543DBCF06D37535F556E2C2 /* AluaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DEB9ECEDDFF68F84A6AB96 /* AluaColors.swift */; };
+		16BE82EDC2F685D7A940428C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3066B6784288683971E220FB /* SignUpView.swift */; };
+		1B0686B4A3136E7052A32C08 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D3322E6A8C806EFAEC3F1E /* HTTPMethod.swift */; };
 		1C5845B3C76E4A207FE599DC /* AluaWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1140048FC8507CC0DD610C01 /* AluaWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EE765C9649DC24F188919A7 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57977DDF968BA80E589A9C68 /* FirebaseAuthService.swift */; };
+		253FD51EBEA25299197FBCAD /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFCE467BE8F4CE9B896D621 /* PrimaryButton.swift */; };
+		25C265E8C509B44317FAD592 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D221450B40509A3C9AC52F9 /* APIClient.swift */; };
 		300FEA15C179C981A75670D7 /* AluaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FFF8DF387666326A7B7904 /* AluaApp.swift */; };
-		407ACF6FCF0AF2C34BE54AA1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 19568EE673CFEFCBD829809B /* FirebaseMessaging */; };
+		3372FB2D7AA1F1B2ED05D8FE /* AluaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6685956891F1F89DCD89C /* AluaCard.swift */; };
+		401BCA9BB34A7C372A3DDD45 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 19568EE673CFEFCBD829809B /* FirebaseMessaging */; };
+		407ACF6FCF0AF2C34BE54AA1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 675554251D1A34AD097987CE /* FirebaseAuth */; };
+		4192AA3ECAE80E171B8A78C9 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A17180153C8FBA70C14288C /* APIError.swift */; };
+		4B9C8746D78A1C20BF65B5FB /* AluaSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42497E9F046FF18DB896E6 /* AluaSpacing.swift */; };
+		50BD238276CDF1DAD002E084 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48A7CF7FBD7BBBCC9771FE /* APIEndpoint.swift */; };
 		5373D6A9809E6A4A136A5191 /* DailyLearningWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECD4D2F1D64BB9FEA7A29CA /* DailyLearningWidget.swift */; };
+		60F0FF0BF4CEF7A50B7FBD42 /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422A87CA2EDAB588DBAB58C /* APIClientProtocol.swift */; };
+		6231A5314586A85CE388B359 /* AluaSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597FB68E1D9F8BB29818F4D /* AluaSectionHeader.swift */; };
+		624BFED27C62931F2D9C0BE6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4D46D551A86EA4B3FE2DC /* MainTabView.swift */; };
+		63E52D2AFFAB409A405198E9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1262F2D14ECA0C75C5F06D /* SignInView.swift */; };
+		6557740ADAE8BCB2EF0EDE86 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B872CD909AD977D4FE264F7 /* AppEnvironment.swift */; };
+		66A0E33AE03FF503E32D28B3 /* FirebaseBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818AA76CF261FC8D3A76B469 /* FirebaseBootstrap.swift */; };
+		71CDFC9BC9429CD1BB003615 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFFA6FA9DF57B17E2F185A7 /* TodayView.swift */; };
+		745422CB816E68019880C91A /* AluaRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32C0615101D9C19D996E8B /* AluaRadius.swift */; };
+		765483AD7F2E3A891B09A18B /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B371C9232BD9169F89073 /* AuthView.swift */; };
+		8522C1F63D70F144430CA396 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EBF8A3430F1CEF10444F4A /* AppTab.swift */; };
+		8790C2B8633995DD61F99087 /* AluaProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A422CDB39B7FA6B396A90 /* AluaProgressBar.swift */; };
+		8C9E96A36BF0471D110C30C5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEB73ABBFD078FD61951999 /* UserService.swift */; };
+		9773ED094FBA8CD3B3838CCB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05903B876EDE7718F326901 /* AppState.swift */; };
+		A373D4DE72E2B92D610C8D7E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B40B7F3AB52456785F29C11 /* UserProfile.swift */; };
+		A6005F09E0623DBEA4079680 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E992E786F9AF8F051C458 /* SettingsView.swift */; };
+		A99CD9610C6B820CBA2B4AE8 /* AuthServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E871C661D6A87648B51E6 /* AuthServiceProtocol.swift */; };
 		A9FAA062DDB06EF2D071F368 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1758B8FB95CC67DD43C79 /* RootView.swift */; };
-		F1E51300C55A30F4654BD434 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 675554251D1A34AD097987CE /* FirebaseAuth */; };
+		AAA4E709B93E200EFB4B3F40 /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE69B986BC8EC4C0C553B3 /* AuthSession.swift */; };
+		AAAD4C0284BFF89781971C55 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B6215BE6B1F9D9470DC4FC /* LearnView.swift */; };
+		C111E6985ADD3654037FCB6D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E8267368294F3C851EBC91 /* ProgressView.swift */; };
+		CD0461F9E78D0E551D11BB51 /* AluaTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209FCBB98417666F17CC5470 /* AluaTypography.swift */; };
+		E7955CA154FBB3DE16853CE2 /* PartnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F164CD2BBDCAD5D0156C77F6 /* PartnerView.swift */; };
+		F1E51300C55A30F4654BD434 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0C8F9BB7633C16AA92528AAD /* FirebaseCore */; };
+		F97328A4D8F326EEF771506D /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67DA38E241035BF8C71137F /* EditProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +76,46 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01B6215BE6B1F9D9470DC4FC /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		0CB4D46D551A86EA4B3FE2DC /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		1140048FC8507CC0DD610C01 /* AluaWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = AluaWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F1758B8FB95CC67DD43C79 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1B40B7F3AB52456785F29C11 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		1B872CD909AD977D4FE264F7 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		209FCBB98417666F17CC5470 /* AluaTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaTypography.swift; sourceTree = "<group>"; };
+		20E8267368294F3C851EBC91 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		2422A87CA2EDAB588DBAB58C /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		2A17180153C8FBA70C14288C /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		3066B6784288683971E220FB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3EEB73ABBFD078FD61951999 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		4D221450B40509A3C9AC52F9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		4ECE69B986BC8EC4C0C553B3 /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
+		57977DDF968BA80E589A9C68 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		5F32C0615101D9C19D996E8B /* AluaRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaRadius.swift; sourceTree = "<group>"; };
+		7597FB68E1D9F8BB29818F4D /* AluaSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaSectionHeader.swift; sourceTree = "<group>"; };
+		79DEB9ECEDDFF68F84A6AB96 /* AluaColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaColors.swift; sourceTree = "<group>"; };
 		79E6159D569755C8694DC75A /* Alua.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Alua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818AA76CF261FC8D3A76B469 /* FirebaseBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseBootstrap.swift; sourceTree = "<group>"; };
+		92EBF8A3430F1CEF10444F4A /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
 		98985AA5C456F9211363A1D8 /* AluaWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaWidgetsBundle.swift; sourceTree = "<group>"; };
+		9F48A7CF7FBD7BBBCC9771FE /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		AB42497E9F046FF18DB896E6 /* AluaSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaSpacing.swift; sourceTree = "<group>"; };
+		AE1B371C9232BD9169F89073 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		BD657B0EC9DAA8805972520F /* AccessTokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenProvider.swift; sourceTree = "<group>"; };
+		BDFCE467BE8F4CE9B896D621 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		BECD4D2F1D64BB9FEA7A29CA /* DailyLearningWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLearningWidget.swift; sourceTree = "<group>"; };
+		BF7E871C661D6A87648B51E6 /* AuthServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocol.swift; sourceTree = "<group>"; };
+		CA1E992E786F9AF8F051C458 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF1262F2D14ECA0C75C5F06D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D67DA38E241035BF8C71137F /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		D7C6685956891F1F89DCD89C /* AluaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaCard.swift; sourceTree = "<group>"; };
+		D922A99A16BCD28FE733C4E6 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		D9D3322E6A8C806EFAEC3F1E /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		E1FFF8DF387666326A7B7904 /* AluaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaApp.swift; sourceTree = "<group>"; };
+		E39A422CDB39B7FA6B396A90 /* AluaProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluaProgressBar.swift; sourceTree = "<group>"; };
+		EBFFA6FA9DF57B17E2F185A7 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		F05903B876EDE7718F326901 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F164CD2BBDCAD5D0156C77F6 /* PartnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E51300C55A30F4654BD434 /* FirebaseAuth in Frameworks */,
-				407ACF6FCF0AF2C34BE54AA1 /* FirebaseMessaging in Frameworks */,
+				F1E51300C55A30F4654BD434 /* FirebaseCore in Frameworks */,
+				407ACF6FCF0AF2C34BE54AA1 /* FirebaseAuth in Frameworks */,
+				401BCA9BB34A7C372A3DDD45 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +135,14 @@
 		15F43BC55D6EB278D9BD3F86 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				8557585C7AA4CFD96F876D6A /* Auth */,
+				C2BDFB10AA9E4120C7A6F4E9 /* Learn */,
+				C7BB6499E7FA686DE9541D2E /* Partner */,
+				7673C3F29A19457606249AB5 /* Profile */,
+				D92DBB71AE3E63CA334A6185 /* Progress */,
 				CED1EEF61C8D9FC1FAAC188A /* Root */,
+				48D403C7393FC8BCD6BF6A71 /* Settings */,
+				DEB1F49046B14564B7A6B75C /* Today */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -88,11 +165,76 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		48D403C7393FC8BCD6BF6A71 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CA1E992E786F9AF8F051C458 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4EB19F23002A2DF7F21EFD9C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4D221450B40509A3C9AC52F9 /* APIClient.swift */,
+				2422A87CA2EDAB588DBAB58C /* APIClientProtocol.swift */,
+				9F48A7CF7FBD7BBBCC9771FE /* APIEndpoint.swift */,
+				2A17180153C8FBA70C14288C /* APIError.swift */,
+				D9D3322E6A8C806EFAEC3F1E /* HTTPMethod.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		554D6D1145637CB288F0B132 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				79DEB9ECEDDFF68F84A6AB96 /* AluaColors.swift */,
+				5F32C0615101D9C19D996E8B /* AluaRadius.swift */,
+				AB42497E9F046FF18DB896E6 /* AluaSpacing.swift */,
+				209FCBB98417666F17CC5470 /* AluaTypography.swift */,
+				8067B01C57770B181F8BC3EE /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		7673C3F29A19457606249AB5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D67DA38E241035BF8C71137F /* EditProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8067B01C57770B181F8BC3EE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D7C6685956891F1F89DCD89C /* AluaCard.swift */,
+				E39A422CDB39B7FA6B396A90 /* AluaProgressBar.swift */,
+				7597FB68E1D9F8BB29818F4D /* AluaSectionHeader.swift */,
+				BDFCE467BE8F4CE9B896D621 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8557585C7AA4CFD96F876D6A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AE1B371C9232BD9169F89073 /* AuthView.swift */,
+				CF1262F2D14ECA0C75C5F06D /* SignInView.swift */,
+				3066B6784288683971E220FB /* SignUpView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		95B53A85D67ABC9A66D7F076 /* Alua */ = {
 			isa = PBXGroup;
 			children = (
 				9805BE08919851C55FC93307 /* App */,
+				F4CDB010BB22A57CB7760FC1 /* Core */,
 				15F43BC55D6EB278D9BD3F86 /* Features */,
+				9C19AD2636619AD1A2EA2EEB /* Models */,
+				E13065E76AC541EF320A4EFF /* Navigation */,
+				F858720EE7CF49C8B3C2D7F7 /* Services */,
 			);
 			path = Alua;
 			sourceTree = "<group>";
@@ -101,8 +243,47 @@
 			isa = PBXGroup;
 			children = (
 				E1FFF8DF387666326A7B7904 /* AluaApp.swift */,
+				1B872CD909AD977D4FE264F7 /* AppEnvironment.swift */,
+				F05903B876EDE7718F326901 /* AppState.swift */,
+				4ECE69B986BC8EC4C0C553B3 /* AuthSession.swift */,
+				D922A99A16BCD28FE733C4E6 /* DependencyContainer.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		9C19AD2636619AD1A2EA2EEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B40B7F3AB52456785F29C11 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2BDFB10AA9E4120C7A6F4E9 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				01B6215BE6B1F9D9470DC4FC /* LearnView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		C5AB36542A347F2E1877CC6A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BD657B0EC9DAA8805972520F /* AccessTokenProvider.swift */,
+				BF7E871C661D6A87648B51E6 /* AuthServiceProtocol.swift */,
+				57977DDF968BA80E589A9C68 /* FirebaseAuthService.swift */,
+				818AA76CF261FC8D3A76B469 /* FirebaseBootstrap.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C7BB6499E7FA686DE9541D2E /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				F164CD2BBDCAD5D0156C77F6 /* PartnerView.swift */,
+			);
+			path = Partner;
 			sourceTree = "<group>";
 		};
 		CB7AED9803AF7255319734E4 /* AluaWidgets */ = {
@@ -120,6 +301,49 @@
 				19F1758B8FB95CC67DD43C79 /* RootView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		D92DBB71AE3E63CA334A6185 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				20E8267368294F3C851EBC91 /* ProgressView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		DEB1F49046B14564B7A6B75C /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				EBFFA6FA9DF57B17E2F185A7 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		E13065E76AC541EF320A4EFF /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				92EBF8A3430F1CEF10444F4A /* AppTab.swift */,
+				0CB4D46D551A86EA4B3FE2DC /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F4CDB010BB22A57CB7760FC1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5AB36542A347F2E1877CC6A /* Auth */,
+				554D6D1145637CB288F0B132 /* DesignSystem */,
+				4EB19F23002A2DF7F21EFD9C /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F858720EE7CF49C8B3C2D7F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3EEB73ABBFD078FD61951999 /* UserService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +381,7 @@
 			);
 			name = Alua;
 			packageProductDependencies = (
+				0C8F9BB7633C16AA92528AAD /* FirebaseCore */,
 				675554251D1A34AD097987CE /* FirebaseAuth */,
 				19568EE673CFEFCBD829809B /* FirebaseMessaging */,
 			);
@@ -212,8 +437,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C265E8C509B44317FAD592 /* APIClient.swift in Sources */,
+				60F0FF0BF4CEF7A50B7FBD42 /* APIClientProtocol.swift in Sources */,
+				50BD238276CDF1DAD002E084 /* APIEndpoint.swift in Sources */,
+				4192AA3ECAE80E171B8A78C9 /* APIError.swift in Sources */,
+				113356630AEB3471AB49E3EB /* AccessTokenProvider.swift in Sources */,
 				300FEA15C179C981A75670D7 /* AluaApp.swift in Sources */,
+				3372FB2D7AA1F1B2ED05D8FE /* AluaCard.swift in Sources */,
+				1543DBCF06D37535F556E2C2 /* AluaColors.swift in Sources */,
+				8790C2B8633995DD61F99087 /* AluaProgressBar.swift in Sources */,
+				745422CB816E68019880C91A /* AluaRadius.swift in Sources */,
+				6231A5314586A85CE388B359 /* AluaSectionHeader.swift in Sources */,
+				4B9C8746D78A1C20BF65B5FB /* AluaSpacing.swift in Sources */,
+				CD0461F9E78D0E551D11BB51 /* AluaTypography.swift in Sources */,
+				6557740ADAE8BCB2EF0EDE86 /* AppEnvironment.swift in Sources */,
+				9773ED094FBA8CD3B3838CCB /* AppState.swift in Sources */,
+				8522C1F63D70F144430CA396 /* AppTab.swift in Sources */,
+				A99CD9610C6B820CBA2B4AE8 /* AuthServiceProtocol.swift in Sources */,
+				AAA4E709B93E200EFB4B3F40 /* AuthSession.swift in Sources */,
+				765483AD7F2E3A891B09A18B /* AuthView.swift in Sources */,
+				14DE3C76E597A3B45E367F65 /* DependencyContainer.swift in Sources */,
+				F97328A4D8F326EEF771506D /* EditProfileView.swift in Sources */,
+				1EE765C9649DC24F188919A7 /* FirebaseAuthService.swift in Sources */,
+				66A0E33AE03FF503E32D28B3 /* FirebaseBootstrap.swift in Sources */,
+				1B0686B4A3136E7052A32C08 /* HTTPMethod.swift in Sources */,
+				AAAD4C0284BFF89781971C55 /* LearnView.swift in Sources */,
+				624BFED27C62931F2D9C0BE6 /* MainTabView.swift in Sources */,
+				E7955CA154FBB3DE16853CE2 /* PartnerView.swift in Sources */,
+				253FD51EBEA25299197FBCAD /* PrimaryButton.swift in Sources */,
+				C111E6985ADD3654037FCB6D /* ProgressView.swift in Sources */,
 				A9FAA062DDB06EF2D071F368 /* RootView.swift in Sources */,
+				A6005F09E0623DBEA4079680 /* SettingsView.swift in Sources */,
+				63E52D2AFFAB409A405198E9 /* SignInView.swift in Sources */,
+				16BE82EDC2F685D7A940428C /* SignUpView.swift in Sources */,
+				71CDFC9BC9429CD1BB003615 /* TodayView.swift in Sources */,
+				A373D4DE72E2B92D610C8D7E /* UserProfile.swift in Sources */,
+				8C9E96A36BF0471D110C30C5 /* UserService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +546,11 @@
 		40D28C9B519C73DD2AE76E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_BASE_URL = "http://127.0.0.1:8000";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_API_BASE_URL = "$(API_BASE_URL)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,9 +662,11 @@
 		FF31BC39ABD33B0B3E0ADF86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_BASE_URL = "https://api.alua.app";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_API_BASE_URL = "$(API_BASE_URL)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +722,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0C8F9BB7633C16AA92528AAD /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E26BEBD462D3F3905215DE73 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
 		19568EE673CFEFCBD829809B /* FirebaseMessaging */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E26BEBD462D3F3905215DE73 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

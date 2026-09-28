@@ -25,9 +25,18 @@ targets:
         PRODUCT_NAME: Alua
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_API_BASE_URL: "$(API_BASE_URL)"
+      configs:
+        Debug:
+          API_BASE_URL: http://127.0.0.1:8000
+        Release:
+          API_BASE_URL: https://api.alua.app
 
     dependencies:
       - target: AluaWidgets
+
+      - package: Firebase
+        product: FirebaseCore
 
       - package: Firebase
         product: FirebaseAuth
