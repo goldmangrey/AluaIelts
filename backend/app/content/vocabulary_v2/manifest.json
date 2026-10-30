@@ -1,0 +1,238 @@
+{
+  "counts": {
+    "collocation": 2395,
+    "phrasal_verb": 155,
+    "phrase": 2247,
+    "synonym_upgrade": 10,
+    "word": 6389
+  },
+  "dataset_version": "vocabulary-v2-local-ru-2026-09",
+  "duplicates_merged": 22193,
+  "inflected_forms_collapsed": 7246,
+  "input_policy": "Only files whose filename contains _RU",
+  "inventory": [
+    {
+      "content_type": "word",
+      "file": "01_general/NGSL_1.2_alphabetized_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 2807,
+      "physical_rows": 2828
+    },
+    {
+      "content_type": "word",
+      "file": "01_general/NGSL_1.2_lemmatized_for_teaching_RU.csv",
+      "format": "csv",
+      "learner_input": true,
+      "lexical_records": 2807,
+      "physical_rows": 2822
+    },
+    {
+      "content_type": "word",
+      "file": "01_general/NGSL_1.2_stats_RU.csv",
+      "format": "csv",
+      "learner_input": true,
+      "lexical_records": 2807,
+      "physical_rows": 2810
+    },
+    {
+      "content_type": "word",
+      "file": "01_general/NGSL_1.2_supplementary_RU.csv",
+      "format": "csv",
+      "learner_input": true,
+      "lexical_records": 51,
+      "physical_rows": 52
+    },
+    {
+      "content_type": "word",
+      "file": "02_academic/NAWL_1.2_alphabetized_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 956,
+      "physical_rows": 963
+    },
+    {
+      "content_type": "word",
+      "file": "02_academic/NAWL_1.2_lemmatized_for_teaching_RU.csv",
+      "format": "csv",
+      "learner_input": true,
+      "lexical_records": 957,
+      "physical_rows": 959
+    },
+    {
+      "content_type": "word",
+      "file": "02_academic/NAWL_1.2_with_English_definitions_RU.csv",
+      "format": "csv",
+      "learner_input": true,
+      "lexical_records": 946,
+      "physical_rows": 948
+    },
+    {
+      "content_type": "phrase",
+      "file": "03_collocations/Pearson_Academic_Collocation_List_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 2393,
+      "physical_rows": 3380
+    },
+    {
+      "content_type": "phrase",
+      "file": "04_oxford_reference/OPAL_spoken_phrases_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 235,
+      "physical_rows": 280
+    },
+    {
+      "content_type": "word",
+      "file": "04_oxford_reference/OPAL_spoken_words_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 591,
+      "physical_rows": 623
+    },
+    {
+      "content_type": "phrase",
+      "file": "04_oxford_reference/OPAL_written_phrases_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 346,
+      "physical_rows": 408
+    },
+    {
+      "content_type": "word",
+      "file": "04_oxford_reference/OPAL_written_words_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 1194,
+      "physical_rows": 1233
+    },
+    {
+      "content_type": "word",
+      "file": "04_oxford_reference/Oxford_3000_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 2863,
+      "physical_rows": 3029
+    },
+    {
+      "content_type": "word",
+      "file": "04_oxford_reference/Oxford_3000_by_CEFR_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 3163,
+      "physical_rows": 3339
+    },
+    {
+      "content_type": "word",
+      "file": "04_oxford_reference/Oxford_5000_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 1982,
+      "physical_rows": 2017
+    },
+    {
+      "content_type": "word",
+      "file": "04_oxford_reference/Oxford_5000_by_CEFR_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 2000,
+      "physical_rows": 2035
+    },
+    {
+      "content_type": "phrase",
+      "file": "04_oxford_reference/Oxford_Phrase_List_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 867,
+      "physical_rows": 1020
+    },
+    {
+      "content_type": "phrase",
+      "file": "05_phrase_list/PHRASE_List_505_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 486,
+      "physical_rows": 3628
+    },
+    {
+      "content_type": "phrase",
+      "file": "06_academic_formulas/AFL_607_Appendices_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 606,
+      "physical_rows": 4310
+    },
+    {
+      "content_type": "phrase",
+      "file": "07_phave/PHaVE_List_150_RU.txt",
+      "format": "txt",
+      "learner_input": true,
+      "lexical_records": 150,
+      "physical_rows": 1091
+    },
+    {
+      "content_type": "word",
+      "file": "08_ngsl_gr/NGSL-GR_1.0_rank_RU.csv",
+      "format": "csv",
+      "learner_input": true,
+      "lexical_records": 5047,
+      "physical_rows": 5051
+    }
+  ],
+  "items_with_ipa": 8678,
+  "items_with_ru_translation": 11196,
+  "legacy_merged": 185,
+  "legacy_records": 320,
+  "legacy_unique_preserved": 135,
+  "raw_records": 33254,
+  "schema_version": 2,
+  "source_contributions_raw": {
+    "AFL_607_Appendices": 606,
+    "NAWL_1.2_alphabetized": 956,
+    "NAWL_1.2_lemmatized_for_teaching": 957,
+    "NAWL_1.2_with_English_definitions": 946,
+    "NGSL-GR_1.0_rank": 5047,
+    "NGSL_1.2_alphabetized": 2807,
+    "NGSL_1.2_lemmatized_for_teaching": 2807,
+    "NGSL_1.2_stats": 2807,
+    "NGSL_1.2_supplementary": 51,
+    "OPAL_spoken_phrases": 235,
+    "OPAL_spoken_words": 591,
+    "OPAL_written_phrases": 346,
+    "OPAL_written_words": 1194,
+    "Oxford_3000": 2863,
+    "Oxford_3000_by_CEFR": 3163,
+    "Oxford_5000": 1982,
+    "Oxford_5000_by_CEFR": 2000,
+    "Oxford_Phrase_List": 867,
+    "PHRASE_List_505": 486,
+    "PHaVE_List_150": 150,
+    "Pearson_Academic_Collocation_List": 2393
+  },
+  "source_coverage_unique": {
+    "AFL_607_Appendices": 606,
+    "NAWL_1.2_alphabetized": 956,
+    "NAWL_1.2_lemmatized_for_teaching": 957,
+    "NAWL_1.2_with_English_definitions": 946,
+    "NGSL-GR_1.0_rank": 5047,
+    "NGSL_1.2_alphabetized": 2807,
+    "NGSL_1.2_lemmatized_for_teaching": 2807,
+    "NGSL_1.2_stats": 2807,
+    "NGSL_1.2_supplementary": 51,
+    "OPAL_spoken_phrases": 235,
+    "OPAL_spoken_words": 591,
+    "OPAL_written_phrases": 346,
+    "OPAL_written_words": 1194,
+    "Oxford_3000": 2863,
+    "Oxford_3000_by_CEFR": 3162,
+    "Oxford_5000": 1982,
+    "Oxford_5000_by_CEFR": 2000,
+    "Oxford_Phrase_List": 866,
+    "PHRASE_List_505": 486,
+    "PHaVE_List_150": 150,
+    "Pearson_Academic_Collocation_List": 2393,
+    "alua_legacy_v1": 318
+  },
+  "unique_canonical_items": 11196
+}

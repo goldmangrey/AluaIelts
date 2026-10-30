@@ -1,0 +1,686 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project Alua.xcodeproj -scheme AluaQA -configuration QA -destination "platform=iOS Simulator,id=63E0EDB7-782F-4A8D-962C-649B0F5DC632" -derivedDataPath /tmp/alua-stage5-qa-build -parallel-testing-enabled NO DEVELOPMENT_TEAM=A8DD9HJC4H CODE_SIGN_IDENTITY=- "-only-testing:AluaUITests/AluaProductQATests/testBookAndRecallViews" "-only-testing:AluaUITests/AluaProductQATests/testLockScreenWidgetSetup" test
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = -
+    DEVELOPMENT_TEAM = A8DD9HJC4H
+
+note: Using codesigning identity override: -
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (3 targets)
+    Target 'AluaUITests' in project 'Alua'
+        ➜ Explicit dependency on target 'Alua' in project 'Alua'
+    Target 'Alua' in project 'Alua'
+        ➜ Explicit dependency on target 'AluaWidgets' in project 'Alua'
+    Target 'AluaWidgets' in project 'Alua' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+Build description signature: 15dd31422aefb3a6d5d4f2c8b47cc0fc
+Build description path: /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/XCBuildData/15dd31422aefb3a6d5d4f2c8b47cc0fc.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache
+    cd /Users/yeskendir/Projects/Alua/frontend/Alua.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -o /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache
+
+ProcessInfoPlistFile /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaWidgets.appex/Info.plist /Users/yeskendir/Projects/Alua/frontend/AluaWidgets/Info.plist (in target 'AluaWidgets' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-infoPlistUtility /Users/yeskendir/Projects/Alua/frontend/AluaWidgets/Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform iphonesimulator -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaWidgets.appex/Info.plist
+
+WriteAuxiliaryFile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftConstValuesFileList (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    write-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftFileList (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    write-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftFileList
+
+WriteAuxiliaryFile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-OutputFileMap.json (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    write-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-OutputFileMap.json
+
+WriteAuxiliaryFile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.LinkFileList (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    write-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.LinkFileList
+
+WriteAuxiliaryFile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-generated-files.hmap (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    write-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-generated-files.hmap
+
+GenerateAssetSymbols /Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets --compile /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app --output-format human-readable-text --notices --warnings --export-dependency-info /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_dependencies --output-partial-info-plist /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.alua.app --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.document.warnings */
+/Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: The file "AppIcon.png" for the image set "AppIcon" does not exist.
+/Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: The file "AppIcon.png" for the image set "AppIcon" does not exist.
+/* com.apple.actool.compilation-results */
+/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols.h
+/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+MkDir /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/unthinned (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /bin/mkdir -p /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/unthinned
+
+MkDir /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/thinned (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /bin/mkdir -p /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/thinned
+
+CompileAssetCatalogVariant thinned /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app /Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets --compile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_dependencies_thinned --output-partial-info-plist /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --filter-for-thinning-device-configuration iPhone19,2 --filter-for-device-os-version 27.0 --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.document.warnings */
+/Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: The file "AppIcon.png" for the image set "AppIcon" does not exist.
+/Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets:./AppIcon.appiconset/[ios][universal][1024x1024][][][][][][][]: warning: The file "AppIcon.png" for the image set "AppIcon" does not exist.
+/* com.apple.actool.compilation-results */
+/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist_thinned
+
+
+SwiftDriver Alua normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Alua -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Alua (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile GeneratedAssetSymbols.swift
+
+LinkAssetCatalog /Users/yeskendir/Projects/Alua/frontend/Alua/Assets.xcassets (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-linkAssetCatalog --thinned /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/thinned --thinned-dependencies /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist_thinned --unthinned /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_output/unthinned --unthinned-dependencies /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist_unthinned --output /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app --plist-output /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 Compiling\ CurriculumStageView.swift,\ DailyPlanActivityView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Curriculum/CurriculumStageView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Exercises/DailyPlanActivityView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Curriculum/CurriculumStageView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile CurriculumStageView.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Exercises/DailyPlanActivityView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile DailyPlanActivityView.swift
+
+SwiftCompile normal arm64 Compiling\ CurriculumNodeView.swift,\ CurriculumRoadmapView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Curriculum/CurriculumNodeView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Curriculum/CurriculumRoadmapView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Curriculum/CurriculumNodeView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile CurriculumNodeView.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Curriculum/CurriculumRoadmapView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile CurriculumRoadmapView.swift
+
+SwiftCompile normal arm64 Compiling\ GrammarLibraryView.swift,\ LearnView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Grammar/GrammarLibraryView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Learn/LearnView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Grammar/GrammarLibraryView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile GrammarLibraryView.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Learn/LearnView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile LearnView.swift
+
+SwiftCompile normal arm64 Compiling\ PartnerView.swift,\ ProgressView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Partner/PartnerView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Progress/ProgressView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Partner/PartnerView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile PartnerView.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Progress/ProgressView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile ProgressView.swift
+
+SwiftCompile normal arm64 Compiling\ ExerciseSessionView.swift,\ GrammarLessonView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Exercises/ExerciseSessionView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Grammar/GrammarLessonView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Exercises/ExerciseSessionView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile ExerciseSessionView.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Grammar/GrammarLessonView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile GrammarLessonView.swift
+
+SwiftCompile normal arm64 Compiling\ AIProgressReportView.swift,\ AluaColors.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Partner/AIProgressReportView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Core/DesignSystem/AluaColors.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Partner/AIProgressReportView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile AIProgressReportView.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Core/DesignSystem/AluaColors.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile AluaColors.swift
+
+SwiftCompile normal arm64 Compiling\ StudyComponents.swift,\ VocabularyLibraryView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Core/DesignSystem/Components/StudyComponents.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Vocabulary/VocabularyLibraryView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Core/DesignSystem/Components/StudyComponents.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile StudyComponents.swift
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Vocabulary/VocabularyLibraryView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile VocabularyLibraryView.swift
+
+SwiftCompile normal arm64 Compiling\ VocabularyWordDetailView.swift /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Vocabulary/VocabularyWordDetailView.swift (in target 'Alua' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/Alua/Features/Vocabulary/VocabularyWordDetailView.swift (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile VocabularyWordDetailView.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling AIProgressReportView.swift, AluaColors.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Compiling CurriculumStageView.swift, DailyPlanActivityView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Compiling CurriculumNodeView.swift, CurriculumRoadmapView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Compiling VocabularyWordDetailView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Compiling StudyComponents.swift, VocabularyLibraryView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ExerciseSessionView.swift, GrammarLessonView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Compiling GrammarLibraryView.swift, LearnView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Alua (in target 'Alua' from project 'Alua')
+
+SwiftDriver\ Compilation\ Requirements Alua normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Alua -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.swiftmodule/arm64-apple-ios-simulator.swiftmodule /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftmodule (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftmodule /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftsourceinfo (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftsourceinfo /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.abi.json (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.abi.json /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftDriverJobDiscovery normal arm64 Compiling PartnerView.swift, ProgressView.swift (in target 'Alua' from project 'Alua')
+
+SwiftDriver\ Compilation Alua normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Alua -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+Ld /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib normal (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/EagerLinkingTBDs/QA-iphonesimulator -L/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/EagerLinkingTBDs/QA-iphonesimulator -F/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -filelist /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.LinkFileList -install_name @rpath/Alua.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib
+
+ConstructStubExecutorLinkFileList /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-ExecutorLinkFileList-normal-arm64.txt (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    construct-stub-executor-link-file-list /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'Alua' from project 'Alua')
+
+Ld /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua normal (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua-ExecutorLinkFileList-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua.app-Simulated.xcent.der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib -Xlinker -no_adhoc_codesign -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PlugIns/AluaWidgets.appex /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaWidgets.appex (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks -remove-static-executable /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaWidgets.appex /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PlugIns
+
+ExtractAppIntentsMetadata (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name Alua --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 17.0 --bundle-identifier com.alua.app --output /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app --target-triple arm64-apple-ios17.0-simulator --binary-file /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua --dependency-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua_dependency_info.dat --stringsdata-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftFileList --metadata-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua.DependencyMetadataFileList --static-metadata-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Objects-normal/arm64/Alua.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-29 23:54:01.503 appintentsmetadataprocessor[53898:273400] Starting appintentsmetadataprocessor export
+2026-10-29 23:54:01.606 appintentsmetadataprocessor[53898:273400] Extracted no relevant App Intents symbols, skipping writing output
+
+CopySwiftLibs /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Frameworks --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PlugIns --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/SystemExtensions --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+SwiftDriver AluaUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AluaUITests -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -parse-as-library -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+ProcessInfoPlistFile /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Info.plist /Users/yeskendir/Projects/Alua/frontend/Alua/Info.plist (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-infoPlistUtility /Users/yeskendir/Projects/Alua/frontend/Alua/Info.plist -producttype com.apple.product-type.application -genpkginfo /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/assetcatalog_generated_info.plist -scanforprivacyfile /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PlugIns/AluaWidgets.appex -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Info.plist
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Alua.debug.dylib
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/__preview.dylib (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/__preview.dylib
+/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/__preview.dylib: replacing existing signature
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/Alua.build/Alua.app.xcent --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app
+
+Validate /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-validationUtility /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app -shallow-bundle -infoplist-subpath Info.plist
+
+ValidateEmbeddedBinary /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PlugIns/AluaWidgets.appex (in target 'Alua' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/usr/bin/embeddedBinaryValidationUtility /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/PlugIns/AluaWidgets.appex -signing-cert - -info-plist-path /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/Alua.app/Info.plist
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ AluaUITests (in target 'AluaUITests' from project 'Alua')
+
+SwiftCompile normal arm64 (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+
+SwiftCompile normal arm64 Compiling\ AluaProductQATests.swift /Users/yeskendir/Projects/Alua/frontend/AluaUITests/AluaProductQATests.swift (in target 'AluaUITests' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/AluaUITests/AluaProductQATests.swift (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile AluaProductQATests.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for AluaUITests (in target 'AluaUITests' from project 'Alua')
+
+SwiftDriver\ Compilation\ Requirements AluaUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AluaUITests -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -parse-as-library -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftsourceinfo (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftsourceinfo /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/arm64-apple-ios-simulator.swiftmodule /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.abi.json (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.abi.json /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftDriverJobDiscovery normal arm64 Compiling AluaProductQATests.swift (in target 'AluaUITests' from project 'Alua')
+
+SwiftDriver\ Compilation AluaUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AluaUITests -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -parse-as-library -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+ProcessInfoPlistFile /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Info.plist /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/empty-AluaUITests.plist (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-infoPlistUtility /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/empty-AluaUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/ProductTypeInfoPlistAdditions.plist -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Info.plist
+
+Ld /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests normal (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/EagerLinkingTBDs/QA-iphonesimulator -L/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/EagerLinkingTBDs/QA-iphonesimulator -F/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -filelist /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.xctest-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.xctest-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests
+
+CopySwiftLibs /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Frameworks --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/PlugIns --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/SystemExtensions --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ExtractAppIntentsMetadata (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name AluaUITests --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 17.0 --bundle-identifier com.alua.app.uitests --output /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests --dependency-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_dependency_info.dat --stringsdata-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList --metadata-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.DependencyMetadataFileList --static-metadata-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-29 23:54:04.908 appintentsmetadataprocessor[53918:273502] Starting appintentsmetadataprocessor export
+2026-10-29 23:54:04.912 appintentsmetadataprocessor[53918:273502] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app
+/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app: replacing existing signature
+
+PruneExplicitPrecompiledModules /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+2026-10-29 23:54:12.347954+0500 AluaUITests-Runner[53946:273784] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-29 23:54:19.703.
+Test Suite 'AluaUITests.xctest' started at 2026-10-29 23:54:19.709.
+Test Suite 'AluaProductQATests' started at 2026-10-29 23:54:19.709.
+Test Case '-[AluaUITests.AluaProductQATests testBookAndRecallViews]' started.
+    t =     0.00s Start Test at 2026-10-29 23:54:19.712
+    t =     0.13s Set Up
+    t =     0.13s     Open com.alua.app
+    t =     0.13s         Launch com.alua.app
+2026-10-29 23:54:20.363 xcodebuild[53757:272818] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-10-29 23:54:20.363 xcodebuild[53757:272818] [MT] IDELaunchParametersSnapshot: no debugger version
+objc[53946]: Class UIAccessibilityLoaderWebShared is implemented in both /private/var/run/com.apple.security.cryptexd/mnt/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.FA4n2t/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x102fe4398) and /private/var/run/com.apple.security.cryptexd/mnt/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.FA4n2t/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x106580310). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     4.18s             Setting up automation session
+    t =    10.98s             Wait for com.alua.app to idle
+    t =    17.25s Waiting 5.0s for SecureTextField (First Match) to exist
+    t =    18.29s     Checking `Expect predicate `existsNoRetry == 1` for object SecureTextField (First Match)`
+    t =    18.29s         Checking existence of `SecureTextField (First Match)`
+    t =    18.82s         Capturing element debug description
+    t =    19.32s     Checking `Expect predicate `existsNoRetry == 1` for object SecureTextField (First Match)`
+    t =    19.33s         Checking existence of `SecureTextField (First Match)`
+    t =    19.39s         Capturing element debug description
+    t =    20.31s     Checking `Expect predicate `existsNoRetry == 1` for object SecureTextField (First Match)`
+    t =    20.31s         Checking existence of `SecureTextField (First Match)`
+    t =    20.37s         Capturing element debug description
+    t =    21.29s     Checking `Expect predicate `existsNoRetry == 1` for object SecureTextField (First Match)`
+    t =    21.29s         Checking existence of `SecureTextField (First Match)`
+    t =    21.36s         Capturing element debug description
+    t =    22.27s     Checking `Expect predicate `existsNoRetry == 1` for object SecureTextField (First Match)`
+    t =    22.27s         Checking existence of `SecureTextField (First Match)`
+    t =    22.33s         Capturing element debug description
+    t =    22.33s     Checking existence of `SecureTextField (First Match)`
+    t =    22.39s Collecting debug information to assist test failure triage
+    t =    22.40s     Requesting snapshot of accessibility hierarchy for app with pid 54039
+    t =    22.89s Waiting 20.0s for "Сегодня" Button to exist
+    t =    23.92s     Checking `Expect predicate `existsNoRetry == 1` for object "Сегодня" Button`
+    t =    23.92s         Checking existence of `"Сегодня" Button`
+    t =    24.01s Tap "Моя книга" Button
+    t =    24.01s     Wait for com.alua.app to idle
+    t =    24.01s     Find the "Моя книга" Button
+    t =    24.05s     Check for interrupting elements affecting "book.closed" Button
+    t =    24.18s     Synthesize event
+    t =    24.70s     Wait for com.alua.app to idle
+    t =    27.94s Find the Target Application 'com.alua.app'
+    t =    28.81s Added attachment named '08-book-days-modern'
+    t =    28.82s Tap "Мои слова" Button
+    t =    28.82s     Wait for com.alua.app to idle
+    t =    28.82s     Find the "Мои слова" Button
+    t =    28.96s     Check for interrupting elements affecting "Мои слова" Button
+    t =    29.12s     Synthesize event
+    t =    29.51s     Wait for com.alua.app to idle
+    t =    30.60s Find the Target Application 'com.alua.app'
+    t =    30.79s Added attachment named '09-book-words-modern'
+    t =    30.80s Waiting 10.0s for Button (First Match) to exist
+    t =    31.82s     Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    31.83s         Checking existence of `Button (First Match)`
+    t =    31.92s Tap Button (First Match)
+    t =    31.92s     Wait for com.alua.app to idle
+    t =    31.93s     Find the Button (First Match)
+    t =    32.00s     Check for interrupting elements affecting "book.card.src-003872" Button
+    t =    32.07s     Synthesize event
+    t =    32.40s     Wait for com.alua.app to idle
+    t =    32.92s Find the Target Application 'com.alua.app'
+    t =    33.17s Added attachment named '10-card-detail-modern'
+    t =    33.17s Find the "Повторить" Button
+    t =    33.31s Waiting 12.0s for "Повторить" Button to exist
+    t =    34.34s     Checking `Expect predicate `existsNoRetry == 1` for object "Повторить" Button`
+    t =    34.45s         Checking existence of `"Повторить" Button`
+    t =    34.68s Tap "Повторить" Button
+    t =    34.68s     Wait for com.alua.app to idle
+    t =    34.68s     Find the "Повторить" Button
+    t =    34.72s     Check for interrupting elements affecting "Повторить" Button
+    t =    34.85s     Synthesize event
+    t =    35.16s     Wait for com.alua.app to idle
+    t =    35.48s Find the Target Application 'com.alua.app'
+    t =    35.64s Added attachment named '11-review-modern'
+    t =    35.64s Find the "Не знаю" Button
+    t =    35.69s Waiting 12.0s for "Не знаю" Button to exist
+    t =    36.71s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    36.72s         Checking existence of `"Не знаю" Button`
+    t =    36.88s Tap "Не знаю" Button
+    t =    36.88s     Wait for com.alua.app to idle
+    t =    36.88s     Find the "Не знаю" Button
+    t =    36.91s     Check for interrupting elements affecting "Не знаю" Button
+    t =    37.04s     Synthesize event
+    t =    37.35s     Wait for com.alua.app to idle
+    t =    37.58s Waiting 10.0s for Any (First Match) to exist
+    t =    38.67s     Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    38.71s         Checking existence of `Any (First Match)`
+    t =    38.84s Find the Target Application 'com.alua.app'
+    t =    39.07s Added attachment named '12-review-feedback'
+    t =    39.07s Find the "Закрыть" Button
+    t =    39.11s Waiting 12.0s for "xmark" Button to exist
+    t =    40.13s     Checking `Expect predicate `existsNoRetry == 1` for object "xmark" Button`
+    t =    40.13s         Checking existence of `"xmark" Button`
+    t =    40.18s Tap "xmark" Button
+    t =    40.18s     Wait for com.alua.app to idle
+    t =    40.19s     Find the "xmark" Button
+    t =    40.20s     Check for interrupting elements affecting "xmark" Button
+    t =    40.25s     Synthesize event
+    t =    40.57s     Wait for com.alua.app to idle
+    t =    41.36s Tap Button (Element at index 0)
+    t =    41.36s     Wait for com.alua.app to idle
+    t =    41.36s     Find the Button (Element at index 0)
+    t =    41.42s     Check for interrupting elements affecting "BackButton" Button
+    t =    41.45s     Synthesize event
+    t =    41.75s     Wait for com.alua.app to idle
+    t =    42.41s Tap "Прогресс" Button
+    t =    42.41s     Wait for com.alua.app to idle
+    t =    42.63s     Find the "Прогресс" Button
+    t =    42.77s     Check for interrupting elements affecting "chart.bar" Button
+    t =    42.81s     Synthesize event
+    t =    43.11s     Wait for com.alua.app to idle
+    t =    45.33s Find the Target Application 'com.alua.app'
+    t =    45.58s Added attachment named '13-progress-modern'
+    t =    45.58s Tear Down
+Test Case '-[AluaUITests.AluaProductQATests testBookAndRecallViews]' passed (46.115 seconds).
+Test Case '-[AluaUITests.AluaProductQATests testLockScreenWidgetSetup]' started.
+    t =     0.00s Start Test at 2026-10-29 23:55:05.830
+    t =     0.05s Set Up
+    t =     0.05s     Open com.alua.app
+    t =     0.06s         Launch com.alua.app
+    t =     0.06s             Terminate com.alua.app:54039
+2026-10-29 23:55:06.938 xcodebuild[53757:272818] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-10-29 23:55:06.938 xcodebuild[53757:272818] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.73s             Setting up automation session
+    t =     8.93s             Wait for com.alua.app to idle
+    t =    12.01s Pressing Home button
+    t =    12.55s Press Application 'com.apple.springboard'[0.50, 0.01] for 0.1 seconds, then drag to Application 'com.apple.springboard'[0.50, 0.80] with velocity of 500.00 pixels per second, and then hold for 0.0 seconds 
+    t =    12.56s     Wait for com.apple.springboard to idle
+    t =    15.43s     Find the Application 'com.apple.springboard'
+    t =    16.18s     Check for interrupting elements affecting " " Application
+    t =    16.40s     Synthesize event
+    t =    16.41s         Find the Application 'com.apple.springboard'
+    t =    16.44s         Find the Application 'com.apple.springboard'
+    t =    16.49s         Find the Application 'com.apple.springboard'
+    t =    16.52s         Find the Application 'com.apple.springboard'
+    t =    16.55s         Find the Application 'com.apple.springboard'
+    t =    19.01s     Wait for com.apple.springboard to idle
+    t =    20.15s Added attachment named 'lock-screen-before-customizing'
+    t =    20.16s Press Application 'com.apple.springboard'[0.50, 0.50] for 2.0 seconds
+    t =    20.16s     Wait for com.apple.springboard to idle
+    t =    20.16s     Find the Application 'com.apple.springboard'
+    t =    20.28s     Check for interrupting elements affecting " " Application
+    t =    20.31s     Synthesize event
+    t =    20.32s         Find the Application 'com.apple.springboard'
+    t =    20.34s         Find the Application 'com.apple.springboard'
+    t =    20.36s         Find the Application 'com.apple.springboard'
+    t =    22.61s     Wait for com.apple.springboard to idle
+    t =    22.61s Requesting snapshot of accessibility hierarchy for app with pid 49601
+    t =    23.08s Requesting snapshot of accessibility hierarchy for app with pid 49601
+Attributes: Application, 0x106a15f40, pid: 49601, label: ' '
+Element subtree:
+ →Application, 0x106a15f40, pid: 49601, label: ' '
+    Window, 0x106a16580, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a157c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a16300, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x106a16440, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x106a16080, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x106a17840, {{153.7, 14.0}, {94.7, 36.7}}
+            Other, 0x106a161c0, {{153.7, 14.0}, {94.7, 36.7}}
+    Window, 0x106a15e00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a15540, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a15680, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x106a152c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x106a15400, {{153.7, 14.0}, {94.7, 36.7}}
+              Other, 0x106a15040, {{153.7, 14.0}, {94.7, 36.7}}
+              Other, 0x106a15900, {{153.7, 14.0}, {94.7, 36.7}}
+                Other, 0x106a17480, {{153.7, 14.0}, {94.7, 36.7}}
+              Other, 0x106a175c0, {{154.7, 15.0}, {92.7, 34.7}}
+          Other, 0x106a17700, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x106a17c00, {{153.7, 14.0}, {94.7, 36.7}}
+              Other, 0x106a17d40, {{153.7, 14.0}, {94.7, 36.7}}
+            Other, 0x106a17980, {{153.7, 14.0}, {94.7, 36.7}}
+              Other, 0x106a17ac0, {{154.3, 14.7}, {93.3, 35.3}}
+          Other, 0x106a15a40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x106a15b80, {{153.7, 14.0}, {94.7, 36.7}}
+              Other, 0x106a15cc0, {{143.7, 10.0}, {114.7, 52.0}}
+              Other, 0x106a16940, {{153.7, 14.0}, {94.7, 36.7}}
+                Other, 0x106a16a80, {{153.7, 14.0}, {94.7, 36.7}}
+                  Other, 0x106a16d00, {{153.7, 14.0}, {94.7, 36.7}}
+                Other, 0x106a15180, {{153.7, 14.0}, {94.7, 36.7}}
+          Other, 0x106a14f00, {{202.7, 28.0}, {9.0, 9.0}}
+    Window, 0x106a148c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a14dc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a14c80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a14b40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a14a00, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x106a14280, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a14780, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x106a14640, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a14500, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a143c0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x106a14140, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a14000, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1033d8c80, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x1033d8dc0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x1033d9180, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x1033d8f00, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x1033d92c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1033d9e00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1033d9f40, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x1033da300, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1033da080, {{153.7, 14.0}, {94.7, 36.7}}
+    Window, 0x1033da440, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1033dad00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1033dbe80, {{0.0, 0.0}, {0.0, 0.0}}
+    Window (Main), 0x1033da580, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBCoverSheetWindow'
+      Other, 0x1033d8500, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1033db840, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1033dbd40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1033db980, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1033dbc00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1033dbac0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1033db480, {{0.0, 0.0}, {402.0, 1748.0}}
+              Other, 0x1033db700, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1033db5c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1033db340, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1033db0c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1033db200, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1033daf80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1033dae40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1033daa80, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1033da940, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1033dabc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1033da1c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1033da6c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1033da800, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1033d97c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1033d9b80, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1033d9900, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1033d9cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10321ed00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10321f0c0, {{0.0, 0.0}, {402.0, 100.0}}
+                Other, 0x10321f200, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10321f5c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10321f840, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10321f980, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10321f700, {{295.8, 47.0}, {47.7, 2.3}}
+                        Other, 0x10321c8c0, {{295.8, 47.0}, {47.7, 2.3}}
+                      Other, 0x10321d040, {{295.8, 75.5}, {47.7, 2.3}}
+                    Other, 0x10321f480, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x106aa4000, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x106aa4140, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x106aa4280, {{129.0, 861.0}, {144.0, 5.0}}, label: 'Индикатор экрана «Домой»', Disabled
+                            Other, 0x106aa43c0, {{129.0, 861.0}, {144.0, 5.0}}
+                              Other, 0x106aa4500, {{129.0, 861.0}, {144.0, 5.0}}
+                                Other, 0x106aa4640, {{129.0, 861.0}, {144.0, 5.0}}
+                                  Other, 0x106aa4780, {{129.0, 861.0}, {144.0, 5.0}}
+                    Other, 0x106aa48c0, {{138.2, 778.3}, {125.7, 51.7}}
+                Other, 0x106aa4a00, {{0.0, 0.0}, {402.0, 874.0}}
+                  StatusBar, 0x106aa4b40, {{0.0, 0.0}, {402.0, 54.0}}
+                    Other, 0x106aa4c80, {{0.0, 0.0}, {402.0, 54.0}}
+                      Other, 0x106aa4dc0, {{0.0, 0.0}, {402.0, 54.0}}
+                        Other, 0x106aa4f00, {{277.0, 25.0}, {20.7, 13.7}}, label: 'Сотовая связь', value: Нет сигнала
+                        Other, 0x106aa5040, {{306.7, 26.0}, {17.3, 12.7}}, identifier: '3 из 3 полосы Wi-Fi', value: SSID, 3 из 3 полос...
+                          Image, 0x106aa5180, {{304.0, 23.7}, {23.0, 17.7}}, identifier: 'wifi', label: 'Wi‑Fi'
+                        Other, 0x106aa52c0, {{333.0, 25.3}, {29.3, 13.7}}, label: 'Заряд аккумулятора 100 %', value: Не заряжается
+              Other, 0x106aa5400, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x106aa5540, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x106aa5680, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'poster-switcher-view'
+                    Other, 0x106aa57c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x106aa5900, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x106aa5a40, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x106aa5b80, {{0.0, 0.0}, {402.0, 874.0}}
+                            Other, 0x106aa5cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x106aa5e00, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x106aa5f40, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x106aa6080, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x106aa61c0, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x106aa6300, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x106aa6440, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106aa6580, {{0.0, 0.0}, {402.0, 1748.0}}
+    Window, 0x106aa66c0, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x106aa6800, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x106aa6940, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106aa6a80, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x106aa6bc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106aa6d00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x106a15f40, pid: 49601, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x106aa6e40, pid: 49601, label: ' '
+  }
+
+    t =    23.12s Requesting snapshot of accessibility hierarchy for app with pid 49601
+    t =    23.38s Requesting snapshot of accessibility hierarchy for app with pid 49601
+    t =    23.47s Added attachment named 'lock-screen-accessibility'
+    t =    23.70s Added attachment named 'lock-screen-customizing'
+    t =    23.70s Tear Down
+Test Case '-[AluaUITests.AluaProductQATests testLockScreenWidgetSetup]' passed (24.039 seconds).
+Test Suite 'AluaProductQATests' passed at 2026-10-29 23:55:29.869.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 70.154 (70.160) seconds
+Test Suite 'AluaUITests.xctest' passed at 2026-10-29 23:55:29.873.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 70.154 (70.165) seconds
+Test Suite 'Selected tests' passed at 2026-10-29 23:55:29.874.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 70.154 (70.171) seconds
+2026-10-29 23:55:30.630 xcodebuild[53757:272818] [MT] IDETestOperationsObserverDebug: 85.557 elapsed -- Testing started completed.
+2026-10-29 23:55:30.630 xcodebuild[53757:272818] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-29 23:55:30.630 xcodebuild[53757:272818] [MT] IDETestOperationsObserverDebug: 85.557 sec, +85.557 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/alua-stage5-qa-build/Logs/Test/Test-AluaQA-2026.10.29_23-53-51-+0500.xcresult
+
+** TEST SUCCEEDED ** [98.958 sec]
+
+Testing started

@@ -1,0 +1,626 @@
+[
+  {
+    "id": "vocab_track_relationships_a2",
+    "stage_id": "core_a2",
+    "title": "Relationships",
+    "description": "Build accurate, usable vocabulary for relationships.",
+    "cefr_level": "A2",
+    "topic": "family_relationships",
+    "items": [
+      {
+        "id": "vocab_core_a2_get_along",
+        "lemma": "get along",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "ладить",
+        "definition_en": "to have a friendly relationship",
+        "example": "I get along well with my cousins.",
+        "collocations": [
+          "get along"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_support",
+        "lemma": "support",
+        "part_of_speech": "verb",
+        "translation_ru": "поддерживать",
+        "definition_en": "to help someone emotionally or practically",
+        "example": "Good friends support each other.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_trust",
+        "lemma": "trust",
+        "part_of_speech": "noun",
+        "translation_ru": "доверие",
+        "definition_en": "belief that someone is honest and reliable",
+        "example": "Trust takes time to develop.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_argument",
+        "lemma": "argument",
+        "part_of_speech": "noun",
+        "translation_ru": "ссора",
+        "definition_en": "an angry disagreement",
+        "example": "They had an argument about money.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_course",
+      "vocab_core_a2_assignment"
+    ]
+  },
+  {
+    "id": "vocab_track_education_a2",
+    "stage_id": "core_a2",
+    "title": "Education",
+    "description": "Build accurate, usable vocabulary for education.",
+    "cefr_level": "A2",
+    "topic": "education",
+    "items": [
+      {
+        "id": "vocab_core_a2_course",
+        "lemma": "course",
+        "part_of_speech": "noun",
+        "translation_ru": "курс",
+        "definition_en": "a series of lessons in a subject",
+        "example": "She enrolled in an evening course.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_assignment",
+        "lemma": "assignment",
+        "part_of_speech": "noun",
+        "translation_ru": "задание",
+        "definition_en": "a piece of work given to a student",
+        "example": "The assignment is due on Monday.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_improve",
+        "lemma": "improve",
+        "part_of_speech": "verb",
+        "translation_ru": "улучшать",
+        "definition_en": "to become or make something better",
+        "example": "Reading daily will improve your vocabulary.",
+        "collocations": [
+          "improve significantly",
+          "improve performance"
+        ],
+        "word_family": [
+          { "lemma": "improvement", "part_of_speech": "noun" }
+        ]
+      },
+      {
+        "id": "vocab_core_a2_grade",
+        "lemma": "grade",
+        "part_of_speech": "noun",
+        "translation_ru": "оценка",
+        "definition_en": "a mark given for academic work",
+        "example": "He received a high grade in science.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_apply",
+      "vocab_core_a2_salary"
+    ]
+  },
+  {
+    "id": "vocab_track_jobs_careers_a2",
+    "stage_id": "core_a2",
+    "title": "Jobs and Careers",
+    "description": "Build accurate, usable vocabulary for jobs and careers.",
+    "cefr_level": "A2",
+    "topic": "work",
+    "items": [
+      {
+        "id": "vocab_core_a2_apply",
+        "lemma": "apply",
+        "part_of_speech": "verb",
+        "translation_ru": "подавать заявление",
+        "definition_en": "to formally ask for a job",
+        "example": "She applied for a teaching position.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_salary",
+        "lemma": "salary",
+        "part_of_speech": "noun",
+        "translation_ru": "зарплата",
+        "definition_en": "regular payment for professional work",
+        "example": "The job offers a competitive salary.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_experience",
+        "lemma": "experience",
+        "part_of_speech": "noun",
+        "translation_ru": "опыт",
+        "definition_en": "knowledge gained by doing something",
+        "example": "Work experience can strengthen your application.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_responsibility",
+        "lemma": "responsibility",
+        "part_of_speech": "noun",
+        "translation_ru": "обязанность",
+        "definition_en": "a duty that you are expected to perform",
+        "example": "Managing the schedule is my responsibility.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_accommodation",
+      "vocab_core_a2_departure"
+    ]
+  },
+  {
+    "id": "vocab_track_travel_a2",
+    "stage_id": "core_a2",
+    "title": "Travel",
+    "description": "Build accurate, usable vocabulary for travel.",
+    "cefr_level": "A2",
+    "topic": "travel",
+    "items": [
+      {
+        "id": "vocab_core_a2_accommodation",
+        "lemma": "accommodation",
+        "part_of_speech": "noun",
+        "translation_ru": "жильё",
+        "definition_en": "a place to stay while travelling",
+        "example": "We booked affordable accommodation near the centre.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_departure",
+        "lemma": "departure",
+        "part_of_speech": "noun",
+        "translation_ru": "отправление",
+        "definition_en": "the act or time of leaving",
+        "example": "Our departure is scheduled for noon.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_destination",
+        "lemma": "destination",
+        "part_of_speech": "noun",
+        "translation_ru": "место назначения",
+        "definition_en": "the place to which someone travels",
+        "example": "Rome was our final destination.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_sightseeing",
+        "lemma": "sightseeing",
+        "part_of_speech": "noun",
+        "translation_ru": "осмотр достопримечательностей",
+        "definition_en": "visiting interesting places as a tourist",
+        "example": "We spent the afternoon sightseeing.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_device",
+      "vocab_core_a2_download"
+    ]
+  },
+  {
+    "id": "vocab_track_technology_a2",
+    "stage_id": "core_a2",
+    "title": "Technology Basics",
+    "description": "Build accurate, usable vocabulary for technology basics.",
+    "cefr_level": "A2",
+    "topic": "technology",
+    "items": [
+      {
+        "id": "vocab_core_a2_device",
+        "lemma": "device",
+        "part_of_speech": "noun",
+        "translation_ru": "устройство",
+        "definition_en": "a piece of electronic equipment",
+        "example": "This device measures your heart rate.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_download",
+        "lemma": "download",
+        "part_of_speech": "verb",
+        "translation_ru": "скачивать",
+        "definition_en": "to copy data from the internet",
+        "example": "Download the document before the lesson.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_password",
+        "lemma": "password",
+        "part_of_speech": "noun",
+        "translation_ru": "пароль",
+        "definition_en": "a secret set of characters used for access",
+        "example": "Choose a strong password for your account.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_connect",
+        "lemma": "connect",
+        "part_of_speech": "verb",
+        "translation_ru": "подключать",
+        "definition_en": "to join a device to a network",
+        "example": "Connect the laptop to the wireless network.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_recycle",
+      "vocab_core_a2_pollution"
+    ]
+  },
+  {
+    "id": "vocab_track_environment_a2",
+    "stage_id": "core_a2",
+    "title": "Environment Basics",
+    "description": "Build accurate, usable vocabulary for environment basics.",
+    "cefr_level": "A2",
+    "topic": "environment",
+    "items": [
+      {
+        "id": "vocab_core_a2_recycle",
+        "lemma": "recycle",
+        "part_of_speech": "verb",
+        "translation_ru": "перерабатывать",
+        "definition_en": "to process waste so it can be used again",
+        "example": "Our building recycles paper and glass.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_pollution",
+        "lemma": "pollution",
+        "part_of_speech": "noun",
+        "translation_ru": "загрязнение",
+        "definition_en": "harmful substances in the environment",
+        "example": "Traffic causes serious air pollution.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_protect",
+        "lemma": "protect",
+        "part_of_speech": "verb",
+        "translation_ru": "защищать",
+        "definition_en": "to keep someone or something safe",
+        "example": "These rules protect local wildlife.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_waste",
+        "lemma": "waste",
+        "part_of_speech": "noun",
+        "translation_ru": "отходы",
+        "definition_en": "unwanted material that is thrown away",
+        "example": "The restaurant is reducing food waste.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_afford",
+      "vocab_core_a2_budget"
+    ]
+  },
+  {
+    "id": "vocab_track_money_a2",
+    "stage_id": "core_a2",
+    "title": "Money",
+    "description": "Build accurate, usable vocabulary for money.",
+    "cefr_level": "A2",
+    "topic": "shopping_money",
+    "items": [
+      {
+        "id": "vocab_core_a2_afford",
+        "lemma": "afford",
+        "part_of_speech": "verb",
+        "translation_ru": "позволить себе",
+        "definition_en": "to have enough money for something",
+        "example": "We cannot afford a larger apartment.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_budget",
+        "lemma": "budget",
+        "part_of_speech": "noun",
+        "translation_ru": "бюджет",
+        "definition_en": "a plan for spending available money",
+        "example": "The family follows a monthly budget.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_borrow",
+        "lemma": "borrow",
+        "part_of_speech": "verb",
+        "translation_ru": "брать взаймы",
+        "definition_en": "to take something and return it later",
+        "example": "Can I borrow some money for the ticket?",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_save",
+        "lemma": "save",
+        "part_of_speech": "verb",
+        "translation_ru": "копить",
+        "definition_en": "to keep money for future use",
+        "example": "She saves part of her salary each month.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_mention",
+      "vocab_core_a2_reply"
+    ]
+  },
+  {
+    "id": "vocab_track_communication_a2",
+    "stage_id": "core_a2",
+    "title": "Communication",
+    "description": "Build accurate, usable vocabulary for communication.",
+    "cefr_level": "A2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_core_a2_mention",
+        "lemma": "mention",
+        "part_of_speech": "verb",
+        "translation_ru": "упоминать",
+        "definition_en": "to speak briefly about something",
+        "example": "He mentioned the problem during lunch.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_reply",
+        "lemma": "reply",
+        "part_of_speech": "verb",
+        "translation_ru": "отвечать",
+        "definition_en": "to answer someone",
+        "example": "Please reply to the email by Friday.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_opinion",
+        "lemma": "opinion",
+        "part_of_speech": "noun",
+        "translation_ru": "мнение",
+        "definition_en": "a belief or judgement",
+        "example": "Everyone expressed an opinion in the discussion.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_interrupt",
+        "lemma": "interrupt",
+        "part_of_speech": "verb",
+        "translation_ru": "перебивать",
+        "definition_en": "to stop someone while they are speaking",
+        "example": "It is rude to interrupt a speaker.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_confident",
+      "vocab_core_a2_patient"
+    ]
+  },
+  {
+    "id": "vocab_track_emotions_personality_a2",
+    "stage_id": "core_a2",
+    "title": "Emotions and Personality",
+    "description": "Build accurate, usable vocabulary for emotions and personality.",
+    "cefr_level": "A2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_core_a2_confident",
+        "lemma": "confident",
+        "part_of_speech": "adjective",
+        "translation_ru": "уверенный",
+        "definition_en": "feeling sure about your abilities",
+        "example": "She felt confident before the interview.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_patient",
+        "lemma": "patient",
+        "part_of_speech": "adjective",
+        "translation_ru": "терпеливый",
+        "definition_en": "able to wait without becoming annoyed",
+        "example": "A good teacher is calm and patient.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_disappointed",
+        "lemma": "disappointed",
+        "part_of_speech": "adjective",
+        "translation_ru": "разочарованный",
+        "definition_en": "unhappy because hopes were not met",
+        "example": "He was disappointed with the result.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_generous",
+        "lemma": "generous",
+        "part_of_speech": "adjective",
+        "translation_ru": "щедрый",
+        "definition_en": "willing to give time or money",
+        "example": "It was generous of her to offer help.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_delay",
+      "vocab_core_a2_repair"
+    ]
+  },
+  {
+    "id": "vocab_track_daily_problems_a2",
+    "stage_id": "core_a2",
+    "title": "Daily Problems",
+    "description": "Build accurate, usable vocabulary for daily problems.",
+    "cefr_level": "A2",
+    "topic": "everyday_life",
+    "items": [
+      {
+        "id": "vocab_core_a2_delay",
+        "lemma": "delay",
+        "part_of_speech": "noun",
+        "translation_ru": "задержка",
+        "definition_en": "a period of waiting caused by lateness",
+        "example": "A traffic delay made us late.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_repair",
+        "lemma": "repair",
+        "part_of_speech": "verb",
+        "translation_ru": "ремонтировать",
+        "definition_en": "to fix something that is damaged",
+        "example": "A technician repaired the washing machine.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_complain",
+        "lemma": "complain",
+        "part_of_speech": "verb",
+        "translation_ru": "жаловаться",
+        "definition_en": "to say that you are dissatisfied",
+        "example": "Customers complained about the slow service.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_core_a2_solution",
+        "lemma": "solution",
+        "part_of_speech": "noun",
+        "translation_ru": "решение",
+        "definition_en": "a way to solve a problem",
+        "example": "We found a simple solution to the issue.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_find_out",
+      "vocab_core_a2_look_after"
+    ]
+  },
+  {
+    "id": "vocab_track_phrasal_verbs_a2",
+    "stage_id": "core_a2",
+    "title": "Common Phrasal Verbs",
+    "description": "Build accurate, usable vocabulary for common phrasal verbs.",
+    "cefr_level": "A2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_core_a2_find_out",
+        "lemma": "find out",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "выяснять",
+        "definition_en": "to discover information",
+        "example": "I found out when the course begins.",
+        "collocations": [
+          "find out"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_look_after",
+        "lemma": "look after",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "присматривать",
+        "definition_en": "to take care of someone or something",
+        "example": "She looks after her younger brother.",
+        "collocations": [
+          "look after"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_give_up",
+        "lemma": "give up",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "сдаваться; бросать",
+        "definition_en": "to stop trying or doing something",
+        "example": "Do not give up after one mistake.",
+        "collocations": [
+          "give up"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_turn_on",
+        "lemma": "turn on",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "включать",
+        "definition_en": "to make a device start working",
+        "example": "Please turn on the lights.",
+        "collocations": [
+          "turn on"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_make_a_decision",
+      "vocab_core_a2_take_a_break"
+    ]
+  },
+  {
+    "id": "vocab_track_collocations_a2",
+    "stage_id": "core_a2",
+    "title": "Common Collocations",
+    "description": "Build accurate, usable vocabulary for common collocations.",
+    "cefr_level": "A2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_core_a2_make_a_decision",
+        "lemma": "make a decision",
+        "part_of_speech": "phrase",
+        "translation_ru": "принять решение",
+        "definition_en": "to choose after considering options",
+        "example": "We need to make a decision today.",
+        "collocations": [
+          "make a decision"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_take_a_break",
+        "lemma": "take a break",
+        "part_of_speech": "phrase",
+        "translation_ru": "сделать перерыв",
+        "definition_en": "to stop an activity briefly to rest",
+        "example": "Let us take a break after this task.",
+        "collocations": [
+          "take a break"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_pay_attention",
+        "lemma": "pay attention",
+        "part_of_speech": "phrase",
+        "translation_ru": "обращать внимание",
+        "definition_en": "to listen to or watch carefully",
+        "example": "Pay attention to the final instruction.",
+        "collocations": [
+          "pay attention"
+        ]
+      },
+      {
+        "id": "vocab_core_a2_keep_in_touch",
+        "lemma": "keep in touch",
+        "part_of_speech": "phrase",
+        "translation_ru": "поддерживать связь",
+        "definition_en": "to continue communicating",
+        "example": "We keep in touch by email.",
+        "collocations": [
+          "keep in touch"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_core_a2_get_along",
+      "vocab_core_a2_support"
+    ]
+  }
+]

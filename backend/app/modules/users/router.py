@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends
 from fastapi.concurrency import run_in_threadpool
 
 from app.core.auth import AuthenticatedUser, get_current_user
-from app.integrations.firebase.firestore import get_firestore_client
+from app.db.database import get_database
 from app.modules.users.repository import UserRepository
 from app.modules.users.schemas import UserProfileResponse, UserProfileUpdate
 from app.modules.users.service import UserService
@@ -13,7 +13,7 @@ router = APIRouter(tags=["users"])
 
 
 def get_user_service() -> UserService:
-    return UserService(UserRepository(get_firestore_client()))
+    return UserService(UserRepository(get_database()))
 
 
 @router.get("/me", response_model=UserProfileResponse)

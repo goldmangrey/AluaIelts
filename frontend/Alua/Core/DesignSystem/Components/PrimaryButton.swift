@@ -16,9 +16,9 @@ struct PrimaryButton: View {
             }
             .font(AluaTypography.headline)
             .frame(maxWidth: .infinity)
-            .frame(minHeight: 50)
+
         }
-        .buttonStyle(.borderedProminent)
+        .buttonStyle(AluaPrimaryStyle())
         .tint(AluaColors.accent)
         .disabled(isDisabled)
     }

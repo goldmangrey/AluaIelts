@@ -1,75 +1,58 @@
 import SwiftUI
 
 struct TodayView: View {
+    let studyStore: StudyStore?
     let environment: AppEnvironment
     let authSession: AuthSession
+    let curriculumStore: CurriculumStore
+    let vocabularyStore: VocabularyStore
+    let grammarStore: GrammarStore
+    let studentModelStore: StudentModelStore
+    let dailyPlanStore: DailyPlanStore
+    let vocabularyService: any VocabularyServiceProtocol
+    let learningEventService: any LearningEventServiceProtocol
+    let exerciseService: any ExerciseServiceProtocol
+    let onOpenVocabulary: () -> Void
 
-    private var greeting: String {
-        guard let name = authSession.profile?.displayName, !name.isEmpty else {
-            return "Good morning"
-        }
-        return "Good morning, \(name)"
+    private var todayDate: String {
+        var format = Date.FormatStyle().day().month(.wide)
+        format.locale = Locale(identifier: "ru_RU")
+        format.timeZone = TimeZone(identifier: "Asia/Almaty") ?? .current
+        return Date.now.formatted(format)
     }
-
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: AluaSpacing.lg) {
-                VStack(alignment: .leading, spacing: AluaSpacing.xs) {
-                    Text(greeting)
-                        .font(AluaTypography.largeTitle)
-                    Text("A focused session is ready when you are.")
-                        .font(AluaTypography.body)
-                        .foregroundStyle(AluaColors.secondaryText)
-                }
-
-                AluaCard {
-                    VStack(alignment: .leading, spacing: AluaSpacing.md) {
-                        HStack(alignment: .firstTextBaseline) {
-                            Text("Daily progress").font(AluaTypography.headline)
-                            Spacer()
-                            Text("18 / 42").font(AluaTypography.headline.monospacedDigit())
-                        }
-                        AluaProgressBar(value: 18.0 / 42.0)
-                        VStack(spacing: AluaSpacing.sm) {
-                            metricRow("Vocabulary", value: "12 / 20")
-                            metricRow("Grammar", value: "4 / 12")
-                            metricRow("Review", value: "2 / 10")
-                        }
-                    }
-                }
-
-                PrimaryButton(title: "Continue Learning", systemImage: "arrow.right") {}
-
-                VStack(alignment: .leading, spacing: AluaSpacing.sm) {
-                    AluaSectionHeader(title: "Current focus")
-                    AluaCard {
-                        Label("Present Perfect", systemImage: "text.book.closed")
-                            .font(AluaTypography.headline)
-                    }
-                }
+        AluaPage {
+            VStack(alignment: .leading, spacing: 8) {
+                Text("alua.").font(.largeTitle.weight(.bold)).accessibilityLabel("Alua")
+                Text(todayDate)
+                    .font(.subheadline).foregroundStyle(AluaColors.secondaryText)
             }
-            .padding(AluaSpacing.md)
-        }
-        .background(AluaColors.groupedBackground)
-        .navigationTitle("Today")
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
+            if let studyStore {
+                StudyHome(store: studyStore, onOpenBook: onOpenVocabulary)
+            } else { StudyLoading(store: nil) }
+            Divider()
+            VStack(spacing: 0) {
                 NavigationLink {
-                    SettingsView(environment: environment, authSession: authSession)
-                } label: {
-                    Image(systemName: "gearshape")
+                    GrammarLibraryView(store: grammarStore, curriculumStore: curriculumStore, learningEventService: learningEventService)
+                } label: { AluaRouteRow(title: "Грамматика", subtitle: "Правила, примеры и практика", symbol: "text.book.closed") }.accessibilityIdentifier("today.grammar")
+                if let studyStore {
+                    NavigationLink {
+                        DiagnosticView(service: LearningQualityService(apiClient: studyStore.api))
+                    } label: { AluaRouteRow(title: "Стартовая проверка", subtitle: "12 вопросов · можно пройти позже", symbol: "slider.horizontal.3") }.accessibilityIdentifier("today.diagnostic")
                 }
-                .accessibilityLabel("Settings")
-            }
+                if let plan = dailyPlanStore.plan, !plan.items.isEmpty {
+                    NavigationLink("Практика по учебному плану") {
+                        List(plan.items) { item in
+                            NavigationLink(item.title) {
+                                DailyPlanActivityView(planDate: plan.localDate, item: item, curriculumStore: curriculumStore, vocabularyStore: vocabularyStore, grammarStore: grammarStore, dailyPlanStore: dailyPlanStore, studentModelStore: studentModelStore, vocabularyService: vocabularyService, learningEventService: learningEventService, exerciseService: exerciseService)
+                            }
+                        }.navigationTitle("Практика")
+                    }.frame(minHeight: 44)
+                }
+            }.buttonStyle(.plain)
         }
-    }
-
-    private func metricRow(_ title: String, value: String) -> some View {
-        HStack {
-            Text(title).foregroundStyle(AluaColors.secondaryText)
-            Spacer()
-            Text(value).monospacedDigit()
-        }
-        .font(AluaTypography.subheadline)
+        .navigationBarTitleDisplayMode(.inline)
+        .refreshable { await studyStore?.sync() }
+        .task { await dailyPlanStore.ensureToday() }
     }
 }

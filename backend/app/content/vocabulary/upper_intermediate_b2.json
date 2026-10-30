@@ -1,0 +1,882 @@
+[
+  {
+    "id": "vocab_track_academic_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Academic Vocabulary",
+    "description": "Build accurate, usable vocabulary for academic vocabulary.",
+    "cefr_level": "B2",
+    "topic": "education",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_framework",
+        "lemma": "framework",
+        "part_of_speech": "noun",
+        "translation_ru": "структура",
+        "definition_en": "a system of ideas used to organise a subject",
+        "example": "The paper proposes a framework for analysis.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_assumption",
+        "lemma": "assumption",
+        "part_of_speech": "noun",
+        "translation_ru": "предположение",
+        "definition_en": "a belief accepted without proof",
+        "example": "The model rests on a questionable assumption.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_interpret",
+        "lemma": "interpret",
+        "part_of_speech": "verb",
+        "translation_ru": "интерпретировать",
+        "definition_en": "to explain the meaning of information",
+        "example": "Researchers interpreted the findings cautiously.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_valid",
+        "lemma": "valid",
+        "part_of_speech": "adjective",
+        "translation_ru": "обоснованный",
+        "definition_en": "supported by facts or logical reasoning",
+        "example": "The criticism remains valid today.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_biodiversity",
+      "vocab_upper_intermediate_b2_degradation"
+    ]
+  },
+  {
+    "id": "vocab_track_environment_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Environment Advanced",
+    "description": "Build accurate, usable vocabulary for environment advanced.",
+    "cefr_level": "B2",
+    "topic": "environment",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_biodiversity",
+        "lemma": "biodiversity",
+        "part_of_speech": "noun",
+        "translation_ru": "биоразнообразие",
+        "definition_en": "the variety of living species in an area",
+        "example": "Intensive farming can reduce biodiversity.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_degradation",
+        "lemma": "degradation",
+        "part_of_speech": "noun",
+        "translation_ru": "деградация",
+        "definition_en": "damage that reduces quality or value",
+        "example": "Soil degradation threatens food production.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_sustainable",
+        "lemma": "sustainable",
+        "part_of_speech": "adjective",
+        "translation_ru": "устойчивый",
+        "definition_en": "able to continue without exhausting resources",
+        "example": "The city needs a sustainable transport system.",
+        "collocations": [
+          "sustainable development",
+          "environmentally sustainable"
+        ],
+        "word_family": [
+          { "lemma": "sustainability", "part_of_speech": "noun" }
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_emission",
+        "lemma": "emission",
+        "part_of_speech": "noun",
+        "translation_ru": "выброс",
+        "definition_en": "gas or substance released into the air",
+        "example": "The law sets limits on carbon emissions.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_pedagogy",
+      "vocab_upper_intermediate_b2_attainment"
+    ]
+  },
+  {
+    "id": "vocab_track_education_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Education Advanced",
+    "description": "Build accurate, usable vocabulary for education advanced.",
+    "cefr_level": "B2",
+    "topic": "education",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_pedagogy",
+        "lemma": "pedagogy",
+        "part_of_speech": "noun",
+        "translation_ru": "педагогика",
+        "definition_en": "the theory and practice of teaching",
+        "example": "Digital tools can support effective pedagogy.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_attainment",
+        "lemma": "attainment",
+        "part_of_speech": "noun",
+        "translation_ru": "успеваемость",
+        "definition_en": "the level achieved in education",
+        "example": "Family income can affect academic attainment.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_literacy",
+        "lemma": "literacy",
+        "part_of_speech": "noun",
+        "translation_ru": "грамотность",
+        "definition_en": "the ability to read and write",
+        "example": "The initiative promotes adult literacy.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_vocational",
+        "lemma": "vocational",
+        "part_of_speech": "adjective",
+        "translation_ru": "профессиональный",
+        "definition_en": "related to skills for a particular job",
+        "example": "Vocational training may improve employment prospects.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_automation",
+      "vocab_upper_intermediate_b2_algorithm"
+    ]
+  },
+  {
+    "id": "vocab_track_technology_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Technology",
+    "description": "Build accurate, usable vocabulary for technology.",
+    "cefr_level": "B2",
+    "topic": "technology",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_automation",
+        "lemma": "automation",
+        "part_of_speech": "noun",
+        "translation_ru": "автоматизация",
+        "definition_en": "use of machines to perform work automatically",
+        "example": "Automation has transformed manufacturing.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_algorithm",
+        "lemma": "algorithm",
+        "part_of_speech": "noun",
+        "translation_ru": "алгоритм",
+        "definition_en": "a set of rules for solving a problem",
+        "example": "The platform uses an algorithm to rank results.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_privacy",
+        "lemma": "privacy",
+        "part_of_speech": "noun",
+        "translation_ru": "конфиденциальность",
+        "definition_en": "freedom from unwanted access to personal information",
+        "example": "Users are concerned about data privacy.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_digital_divide",
+        "lemma": "digital divide",
+        "part_of_speech": "phrase",
+        "translation_ru": "цифровое неравенство",
+        "definition_en": "inequality in access to digital technology",
+        "example": "Rural investment could narrow the digital divide.",
+        "collocations": [
+          "digital divide"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_inflation",
+      "vocab_upper_intermediate_b2_revenue"
+    ]
+  },
+  {
+    "id": "vocab_track_economics_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Economics",
+    "description": "Build accurate, usable vocabulary for economics.",
+    "cefr_level": "B2",
+    "topic": "business",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_inflation",
+        "lemma": "inflation",
+        "part_of_speech": "noun",
+        "translation_ru": "инфляция",
+        "definition_en": "a general rise in prices",
+        "example": "High inflation reduces household purchasing power.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_revenue",
+        "lemma": "revenue",
+        "part_of_speech": "noun",
+        "translation_ru": "выручка",
+        "definition_en": "income received by an organisation",
+        "example": "Tax revenue funds public services.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_subsidy",
+        "lemma": "subsidy",
+        "part_of_speech": "noun",
+        "translation_ru": "субсидия",
+        "definition_en": "money given to support an activity",
+        "example": "The government introduced a renewable-energy subsidy.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_consumption",
+        "lemma": "consumption",
+        "part_of_speech": "noun",
+        "translation_ru": "потребление",
+        "definition_en": "the use of goods, services, or resources",
+        "example": "Energy consumption fell during the summer.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_regulation",
+      "vocab_upper_intermediate_b2_implement"
+    ]
+  },
+  {
+    "id": "vocab_track_public_policy_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Government and Public Policy",
+    "description": "Build accurate, usable vocabulary for government and public policy.",
+    "cefr_level": "B2",
+    "topic": "government",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_regulation",
+        "lemma": "regulation",
+        "part_of_speech": "noun",
+        "translation_ru": "регулирование",
+        "definition_en": "an official rule controlling an activity",
+        "example": "New regulation protects consumers.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_implement",
+        "lemma": "implement",
+        "part_of_speech": "verb",
+        "translation_ru": "внедрять",
+        "definition_en": "to put a plan or policy into effect",
+        "example": "The council will implement the policy next year.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_accountability",
+        "lemma": "accountability",
+        "part_of_speech": "noun",
+        "translation_ru": "подотчётность",
+        "definition_en": "responsibility for decisions and results",
+        "example": "Transparent reporting improves public accountability.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_legislation",
+        "lemma": "legislation",
+        "part_of_speech": "noun",
+        "translation_ru": "законодательство",
+        "definition_en": "laws considered collectively",
+        "example": "The legislation sets stricter safety standards.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_interdependence",
+      "vocab_upper_intermediate_b2_multinational"
+    ]
+  },
+  {
+    "id": "vocab_track_globalisation_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Globalisation",
+    "description": "Build accurate, usable vocabulary for globalisation.",
+    "cefr_level": "B2",
+    "topic": "society",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_interdependence",
+        "lemma": "interdependence",
+        "part_of_speech": "noun",
+        "translation_ru": "взаимозависимость",
+        "definition_en": "mutual dependence between people or countries",
+        "example": "Trade creates economic interdependence.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_multinational",
+        "lemma": "multinational",
+        "part_of_speech": "adjective",
+        "translation_ru": "многонациональный",
+        "definition_en": "operating in several countries",
+        "example": "A multinational company opened a local office.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_outsourcing",
+        "lemma": "outsourcing",
+        "part_of_speech": "noun",
+        "translation_ru": "аутсорсинг",
+        "definition_en": "using an external company to perform work",
+        "example": "Outsourcing reduced operating costs.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_cross_border",
+        "lemma": "cross-border",
+        "part_of_speech": "adjective",
+        "translation_ru": "трансграничный",
+        "definition_en": "taking place between different countries",
+        "example": "Online services enable cross-border trade.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_healthcare_provision",
+      "vocab_upper_intermediate_b2_diagnosis"
+    ]
+  },
+  {
+    "id": "vocab_track_health_systems_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Health Systems",
+    "description": "Build accurate, usable vocabulary for health systems.",
+    "cefr_level": "B2",
+    "topic": "health",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_healthcare_provision",
+        "lemma": "healthcare provision",
+        "part_of_speech": "phrase",
+        "translation_ru": "оказание медицинской помощи",
+        "definition_en": "the delivery of health services",
+        "example": "Rural healthcare provision remains uneven.",
+        "collocations": [
+          "healthcare provision"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_diagnosis",
+        "lemma": "diagnosis",
+        "part_of_speech": "noun",
+        "translation_ru": "диагноз",
+        "definition_en": "identification of an illness",
+        "example": "Early diagnosis improves survival rates.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_preventive_care",
+        "lemma": "preventive care",
+        "part_of_speech": "phrase",
+        "translation_ru": "профилактическая помощь",
+        "definition_en": "medical action intended to prevent illness",
+        "example": "Preventive care can lower long-term costs.",
+        "collocations": [
+          "preventive care"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_accessibility",
+        "lemma": "accessibility",
+        "part_of_speech": "noun",
+        "translation_ru": "доступность",
+        "definition_en": "the quality of being easy to reach or use",
+        "example": "Clinics improved the accessibility of treatment.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_urban_sprawl",
+      "vocab_upper_intermediate_b2_population_density"
+    ]
+  },
+  {
+    "id": "vocab_track_urbanisation_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Urbanisation",
+    "description": "Build accurate, usable vocabulary for urbanisation.",
+    "cefr_level": "B2",
+    "topic": "society",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_urban_sprawl",
+        "lemma": "urban sprawl",
+        "part_of_speech": "phrase",
+        "translation_ru": "разрастание городов",
+        "definition_en": "uncontrolled expansion of a city",
+        "example": "Urban sprawl increases dependence on cars.",
+        "collocations": [
+          "urban sprawl"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_population_density",
+        "lemma": "population density",
+        "part_of_speech": "phrase",
+        "translation_ru": "плотность населения",
+        "definition_en": "the number of people living in an area",
+        "example": "Population density is highest near the centre.",
+        "collocations": [
+          "population density"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_municipal",
+        "lemma": "municipal",
+        "part_of_speech": "adjective",
+        "translation_ru": "муниципальный",
+        "definition_en": "related to a city government",
+        "example": "Municipal authorities manage waste collection.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_redevelopment",
+        "lemma": "redevelopment",
+        "part_of_speech": "noun",
+        "translation_ru": "реконструкция",
+        "definition_en": "building an area again in a new way",
+        "example": "The waterfront redevelopment created public space.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_social_exclusion",
+      "vocab_upper_intermediate_b2_discrimination"
+    ]
+  },
+  {
+    "id": "vocab_track_social_issues_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Social Issues",
+    "description": "Build accurate, usable vocabulary for social issues.",
+    "cefr_level": "B2",
+    "topic": "society",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_social_exclusion",
+        "lemma": "social exclusion",
+        "part_of_speech": "phrase",
+        "translation_ru": "социальная изоляция",
+        "definition_en": "being prevented from participating in society",
+        "example": "Unemployment may lead to social exclusion.",
+        "collocations": [
+          "social exclusion"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_discrimination",
+        "lemma": "discrimination",
+        "part_of_speech": "noun",
+        "translation_ru": "дискриминация",
+        "definition_en": "unfair treatment based on personal characteristics",
+        "example": "The law prohibits workplace discrimination.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_vulnerable",
+        "lemma": "vulnerable",
+        "part_of_speech": "adjective",
+        "translation_ru": "уязвимый",
+        "definition_en": "at risk of harm or disadvantage",
+        "example": "The programme supports vulnerable families.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_welfare",
+        "lemma": "welfare",
+        "part_of_speech": "noun",
+        "translation_ru": "социальное обеспечение",
+        "definition_en": "support intended to protect people's well-being",
+        "example": "Welfare payments provide temporary assistance.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_hypothesis",
+      "vocab_upper_intermediate_b2_variable"
+    ]
+  },
+  {
+    "id": "vocab_track_scientific_research_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Scientific Research",
+    "description": "Build accurate, usable vocabulary for scientific research.",
+    "cefr_level": "B2",
+    "topic": "science",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_hypothesis",
+        "lemma": "hypothesis",
+        "part_of_speech": "noun",
+        "translation_ru": "гипотеза",
+        "definition_en": "a proposed explanation that can be tested",
+        "example": "The results support the original hypothesis.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_variable",
+        "lemma": "variable",
+        "part_of_speech": "noun",
+        "translation_ru": "переменная",
+        "definition_en": "a factor that can change in an experiment",
+        "example": "Researchers controlled every relevant variable.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_replicate",
+        "lemma": "replicate",
+        "part_of_speech": "verb",
+        "translation_ru": "воспроизводить",
+        "definition_en": "to repeat a study and obtain comparable results",
+        "example": "Another laboratory failed to replicate the finding.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_empirical",
+        "lemma": "empirical",
+        "part_of_speech": "adjective",
+        "translation_ru": "эмпирический",
+        "definition_en": "based on observation or experiment",
+        "example": "The claim lacks empirical evidence.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_workforce",
+      "vocab_upper_intermediate_b2_job_security"
+    ]
+  },
+  {
+    "id": "vocab_track_employment_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Employment",
+    "description": "Build accurate, usable vocabulary for employment.",
+    "cefr_level": "B2",
+    "topic": "work",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_workforce",
+        "lemma": "workforce",
+        "part_of_speech": "noun",
+        "translation_ru": "рабочая сила",
+        "definition_en": "all people available for work",
+        "example": "Older workers form a growing share of the workforce.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_job_security",
+        "lemma": "job security",
+        "part_of_speech": "phrase",
+        "translation_ru": "гарантия занятости",
+        "definition_en": "the likelihood that employment will continue",
+        "example": "Temporary contracts offer little job security.",
+        "collocations": [
+          "job security"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_recruitment",
+        "lemma": "recruitment",
+        "part_of_speech": "noun",
+        "translation_ru": "наём персонала",
+        "definition_en": "the process of finding new employees",
+        "example": "Online recruitment has widened the applicant pool.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_remuneration",
+        "lemma": "remuneration",
+        "part_of_speech": "noun",
+        "translation_ru": "вознаграждение",
+        "definition_en": "payment received for work",
+        "example": "The role offers fair remuneration.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_deterrent",
+      "vocab_upper_intermediate_b2_rehabilitation"
+    ]
+  },
+  {
+    "id": "vocab_track_crime_justice_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Crime and Justice",
+    "description": "Build accurate, usable vocabulary for crime and justice.",
+    "cefr_level": "B2",
+    "topic": "government",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_deterrent",
+        "lemma": "deterrent",
+        "part_of_speech": "noun",
+        "translation_ru": "сдерживающий фактор",
+        "definition_en": "something that discourages an action",
+        "example": "Visible policing can act as a deterrent.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_rehabilitation",
+        "lemma": "rehabilitation",
+        "part_of_speech": "noun",
+        "translation_ru": "реабилитация",
+        "definition_en": "helping an offender return to normal life",
+        "example": "Education is central to prisoner rehabilitation.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_prosecution",
+        "lemma": "prosecution",
+        "part_of_speech": "noun",
+        "translation_ru": "уголовное преследование",
+        "definition_en": "legal action against an accused person",
+        "example": "The evidence was insufficient for prosecution.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_juvenile",
+        "lemma": "juvenile",
+        "part_of_speech": "adjective",
+        "translation_ru": "несовершеннолетний",
+        "definition_en": "related to young people who are not adults",
+        "example": "The city introduced a juvenile crime programme.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_assimilation",
+      "vocab_upper_intermediate_b2_cultural_norm"
+    ]
+  },
+  {
+    "id": "vocab_track_culture_identity_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Culture and Identity",
+    "description": "Build accurate, usable vocabulary for culture and identity.",
+    "cefr_level": "B2",
+    "topic": "culture",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_assimilation",
+        "lemma": "assimilation",
+        "part_of_speech": "noun",
+        "translation_ru": "ассимиляция",
+        "definition_en": "adoption of another group's culture",
+        "example": "Rapid assimilation may weaken minority languages.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_cultural_norm",
+        "lemma": "cultural norm",
+        "part_of_speech": "phrase",
+        "translation_ru": "культурная норма",
+        "definition_en": "a shared expectation within a culture",
+        "example": "Ideas about punctuality are a cultural norm.",
+        "collocations": [
+          "cultural norm"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_belonging",
+        "lemma": "belonging",
+        "part_of_speech": "noun",
+        "translation_ru": "чувство принадлежности",
+        "definition_en": "the feeling of being accepted by a group",
+        "example": "Community events create a sense of belonging.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_multicultural",
+        "lemma": "multicultural",
+        "part_of_speech": "adjective",
+        "translation_ru": "мультикультурный",
+        "definition_en": "including several cultures",
+        "example": "The school serves a multicultural neighbourhood.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_draw_a_distinction",
+      "vocab_upper_intermediate_b2_pose_a_challenge"
+    ]
+  },
+  {
+    "id": "vocab_track_academic_collocations_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Academic Collocations",
+    "description": "Build accurate, usable vocabulary for academic collocations.",
+    "cefr_level": "B2",
+    "topic": "education",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_draw_a_distinction",
+        "lemma": "draw a distinction",
+        "part_of_speech": "phrase",
+        "translation_ru": "провести различие",
+        "definition_en": "to identify an important difference",
+        "example": "The article draws a distinction between need and demand.",
+        "collocations": [
+          "draw a distinction"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_pose_a_challenge",
+        "lemma": "pose a challenge",
+        "part_of_speech": "phrase",
+        "translation_ru": "создавать трудность",
+        "definition_en": "to create a difficult problem",
+        "example": "Rapid growth poses a challenge for planners.",
+        "collocations": [
+          "pose a challenge"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_underlying_cause",
+        "lemma": "underlying cause",
+        "part_of_speech": "phrase",
+        "translation_ru": "первопричина",
+        "definition_en": "a basic cause hidden beneath visible effects",
+        "example": "The policy does not address the underlying cause.",
+        "collocations": [
+          "underlying cause"
+        ]
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_compelling_argument",
+        "lemma": "compelling argument",
+        "part_of_speech": "phrase",
+        "translation_ru": "убедительный аргумент",
+        "definition_en": "a line of reasoning that strongly persuades",
+        "example": "The author presents a compelling argument for reform.",
+        "collocations": [
+          "compelling argument"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_diminish",
+      "vocab_upper_intermediate_b2_substantial"
+    ]
+  },
+  {
+    "id": "vocab_track_lexical_precision_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Lexical Precision",
+    "description": "Build accurate, usable vocabulary for lexical precision.",
+    "cefr_level": "B2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_diminish",
+        "lemma": "diminish",
+        "part_of_speech": "verb",
+        "translation_ru": "уменьшаться",
+        "definition_en": "to become or make something smaller",
+        "example": "Public confidence diminished after the scandal.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_substantial",
+        "lemma": "substantial",
+        "part_of_speech": "adjective",
+        "translation_ru": "существенный",
+        "definition_en": "large in amount or importance",
+        "example": "The project requires substantial investment.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_negligible",
+        "lemma": "negligible",
+        "part_of_speech": "adjective",
+        "translation_ru": "незначительный",
+        "definition_en": "too small to be important",
+        "example": "The change had a negligible effect.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_allocate",
+        "lemma": "allocate",
+        "part_of_speech": "verb",
+        "translation_ru": "распределять",
+        "definition_en": "to assign resources for a purpose",
+        "example": "The council allocated funds to housing.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_constitute",
+      "vocab_upper_intermediate_b2_demonstrate"
+    ]
+  },
+  {
+    "id": "vocab_track_paraphrasing_b2",
+    "stage_id": "upper_intermediate_b2",
+    "title": "Paraphrasing Vocabulary",
+    "description": "Build accurate, usable vocabulary for paraphrasing vocabulary.",
+    "cefr_level": "B2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_upper_intermediate_b2_constitute",
+        "lemma": "constitute",
+        "part_of_speech": "verb",
+        "translation_ru": "составлять",
+        "definition_en": "to form or be considered as something",
+        "example": "Small firms constitute most local businesses.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_demonstrate",
+        "lemma": "demonstrate",
+        "part_of_speech": "verb",
+        "translation_ru": "показывать",
+        "definition_en": "to show something clearly with evidence",
+        "example": "The figures demonstrate a consistent trend.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_predominantly",
+        "lemma": "predominantly",
+        "part_of_speech": "adverb",
+        "translation_ru": "преимущественно",
+        "definition_en": "mainly or mostly",
+        "example": "The region is predominantly rural.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_upper_intermediate_b2_consequence",
+        "lemma": "consequence",
+        "part_of_speech": "noun",
+        "translation_ru": "последствие",
+        "definition_en": "a result of an action or condition",
+        "example": "Higher costs were an unintended consequence.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_upper_intermediate_b2_framework",
+      "vocab_upper_intermediate_b2_assumption"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[Unit]
+Description=Hourly Alua backup freshness check
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=1h
+Unit=alua-backup-check.service
+[Install]
+WantedBy=timers.target

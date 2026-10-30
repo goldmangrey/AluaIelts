@@ -16,9 +16,9 @@ struct AluaProgressBar: View {
                     .frame(width: geometry.size.width * normalizedValue)
             }
         }
-        .frame(height: 8)
+        .frame(height: 3)
         .accessibilityElement()
-        .accessibilityLabel("Progress")
+        .accessibilityLabel("Прогресс")
         .accessibilityValue(Text(normalizedValue, format: .percent))
     }
 }

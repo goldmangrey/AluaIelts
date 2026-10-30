@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv
+.mypy_cache
+.ruff_cache
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+.DS_Store
+.secrets
+.git
+.gitignore

@@ -1,0 +1,22 @@
+[Unit]
+Description=Alua FastAPI service
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=alua
+Group=alua
+WorkingDirectory=/opt/alua/backend
+EnvironmentFile=/etc/alua/alua.env
+ExecStart=/usr/local/bin/uv run uvicorn app.main:app --host 127.0.0.1 --port 8101 --workers 2
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/alua
+
+[Install]
+WantedBy=multi-user.target

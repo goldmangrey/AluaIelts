@@ -1,0 +1,12 @@
+[Unit]
+Description=Check freshness of Alua local backups
+[Service]
+Type=oneshot
+ExecStart=/usr/local/libexec/alua-backup-check
+User=root
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+LogNamespace=alua
+MemoryMax=64M

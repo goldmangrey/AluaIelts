@@ -1,24 +1,9 @@
-enum AppTab: Hashable {
-    case today
-    case learn
-    case progress
-    case partner
-
+enum AppTab: Hashable, CaseIterable {
+    case today, book, progress
     var title: String {
-        switch self {
-        case .today: "Today"
-        case .learn: "Learn"
-        case .progress: "Progress"
-        case .partner: "Partner"
-        }
+        switch self { case .today: "Сегодня"; case .book: "Моя книга"; case .progress: "Прогресс" }
     }
-
     var systemImage: String {
-        switch self {
-        case .today: "sun.max"
-        case .learn: "book.closed"
-        case .progress: "chart.line.uptrend.xyaxis"
-        case .partner: "person.2"
-        }
+        switch self { case .today: "sun.max"; case .book: "book.closed"; case .progress: "chart.bar" }
     }
 }

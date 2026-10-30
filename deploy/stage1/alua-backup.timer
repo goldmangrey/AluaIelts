@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily Alua database backup at 04:30 Asia/Almaty
+[Timer]
+OnCalendar=*-*-* 04:30:00 Asia/Almaty
+RandomizedDelaySec=10min
+Persistent=true
+Unit=alua-backup.service
+[Install]
+WantedBy=timers.target

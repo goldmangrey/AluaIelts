@@ -1,0 +1,14 @@
+..............                                                           [100%]
+=============================== warnings summary ===============================
+tests/test_household_bootstrap.py: 6 warnings
+tests/test_learning_quality.py: 3 warnings
+tests/test_study.py: 6 warnings
+  /Users/yeskendir/Projects/Alua/backend/.venv/lib/python3.12/site-packages/alembic/config.py:604: DeprecationWarning: No path_separator found in configuration; falling back to legacy splitting on spaces, commas, and colons for prepend_sys_path.  Consider adding path_separator=os to Alembic config.
+    util.warn_deprecated(
+
+tests/test_household_bootstrap.py::test_concurrent_retries_and_constraints
+  /Users/yeskendir/Projects/Alua/backend/app/modules/vocabulary_review/models.py:49: UserWarning: Field name "register" in "LexicalItem" shadows an attribute in parent "BaseModel"
+    class LexicalItem(BaseModel):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+14 passed, 16 warnings in 158.52s (0:02:38)

@@ -25,25 +25,25 @@ struct EditProfileView: View {
 
     var body: some View {
         Form {
-            Section("Profile") {
-                TextField("Display Name", text: $displayName)
+            Section("Профиль") {
+                TextField("Имя", text: $displayName)
                     .textContentType(.name)
             }
 
-            Section("Learning Preferences") {
-                Picker("Current Level", selection: $level) {
+            Section("Учебные предпочтения") {
+                Picker("Уровень по самооценке", selection: $level) {
                     ForEach(EnglishLevel.allCases) { level in
                         Text(level.rawValue).tag(level)
                     }
                 }
-                Picker("Target IELTS", selection: $targetBand) {
+                Picker("Цель IELTS", selection: $targetBand) {
                     ForEach(Array(stride(from: 4.0, through: 9.0, by: 0.5)), id: \.self) { band in
                         Text(band.formatted(.number.precision(.fractionLength(1)))).tag(band)
                     }
                 }
-                Picker("Daily Study", selection: $studyMinutes) {
+                Picker("Время на занятия", selection: $studyMinutes) {
                     ForEach(studyOptions, id: \.self) { minutes in
-                        Text("\(minutes) minutes").tag(minutes)
+                        Text("\(minutes) мин").tag(minutes)
                     }
                 }
             }
@@ -55,11 +55,11 @@ struct EditProfileView: View {
                 }
             }
         }
-        .navigationTitle("Edit Profile")
+        .navigationTitle("Изменить профиль")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .confirmationAction) {
-                Button(isSaving ? "Saving…" : "Save") {
+                Button(isSaving ? "Сохраняем…" : "Сохранить") {
                     Task { await save() }
                 }
                 .disabled(
@@ -89,7 +89,7 @@ struct EditProfileView: View {
             {
                 errorMessage = message
             } else {
-                errorMessage = "The profile could not be saved."
+                errorMessage = "Не удалось сохранить профиль."
             }
         }
     }

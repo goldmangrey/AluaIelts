@@ -1,0 +1,8 @@
+backend pytest: exit 5; no tests ran in 0.03s
+backend ruff check app scripts: exit 0; all checks passed
+backend mypy app: exit 0; success, no issues in 118 source files
+backend compileall app scripts: exit 0
+pip-audit: not installed (exit 127)
+Xcode: 27.0 (27A266a)
+xcodebuild Alua Debug, generic iOS Simulator, CODE_SIGNING_ALLOWED=NO: BUILD SUCCEEDED in 14.449s
+Xcode test targets: none found

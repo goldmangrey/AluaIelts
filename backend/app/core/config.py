@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import Annotated, Any, Literal
 
-from pydantic import AliasChoices, BeforeValidator, Field
+from pydantic import BeforeValidator, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -44,16 +44,44 @@ class Settings(BaseSettings):
     openai_exercise_model: str = Field(
         default="gpt-5.6-luna", validation_alias="OPENAI_EXERCISE_MODEL"
     )
+    openai_exercise_generation_enabled: bool = Field(
+        default=True, validation_alias="OPENAI_EXERCISE_GENERATION_ENABLED"
+    )
+    openai_exercise_timeout_seconds: float = Field(
+        default=20, ge=1, le=120, validation_alias="OPENAI_EXERCISE_TIMEOUT_SECONDS"
+    )
+    openai_exercise_max_retries: int = Field(
+        default=1, ge=0, le=3, validation_alias="OPENAI_EXERCISE_MAX_RETRIES"
+    )
+    openai_exercise_max_output_tokens: int = Field(
+        default=2500, ge=256, le=10000, validation_alias="OPENAI_EXERCISE_MAX_OUTPUT_TOKENS"
+    )
     openai_analysis_model: str = Field(
         default="gpt-5.6-terra", validation_alias="OPENAI_ANALYSIS_MODEL"
     )
-    firebase_project_id: str | None = Field(default=None, validation_alias="FIREBASE_PROJECT_ID")
-    google_application_credentials: str | None = Field(
-        default=None,
-        validation_alias=AliasChoices(
-            "GOOGLE_APPLICATION_CREDENTIALS",
-            "FIREBASE_CREDENTIALS_PATH",
-        ),
+    openai_progress_analysis_enabled: bool = Field(
+        default=True, validation_alias="OPENAI_PROGRESS_ANALYSIS_ENABLED"
+    )
+    openai_progress_timeout_seconds: float = Field(
+        default=30, ge=1, le=120, validation_alias="OPENAI_PROGRESS_TIMEOUT_SECONDS"
+    )
+    openai_progress_max_retries: int = Field(
+        default=1, ge=0, le=3, validation_alias="OPENAI_PROGRESS_MAX_RETRIES"
+    )
+    openai_progress_max_output_tokens: int = Field(
+        default=3000, ge=256, le=10000, validation_alias="OPENAI_PROGRESS_MAX_OUTPUT_TOKENS"
+    )
+    openai_progress_chat_history_limit: int = Field(
+        default=8, ge=1, le=20, validation_alias="OPENAI_PROGRESS_CHAT_HISTORY_LIMIT"
+    )
+    database_url: str = Field(
+        default="postgresql+psycopg://alua@localhost/alua",
+        validation_alias="DATABASE_URL",
+    )
+    database_pool_size: int = Field(default=5, ge=1, le=50, validation_alias="DB_POOL_SIZE")
+    database_max_overflow: int = Field(default=10, ge=0, le=100, validation_alias="DB_MAX_OVERFLOW")
+    enrollment_code_ttl_minutes: int = Field(
+        default=30, ge=5, le=1440, validation_alias="ENROLLMENT_CODE_TTL_MINUTES"
     )
     allowed_origins: Origins = Field(default_factory=list, validation_alias="ALLOWED_ORIGINS")
 

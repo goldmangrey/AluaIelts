@@ -1,0 +1,4 @@
+Command: run selector_probe.py twenty times in separate Python processes and compare SHA-256.
+Result: 20/20 outputs had hash bd5eded53d4c24a6ccd977af5ea80b3f7a37a720d6703130e81fc09d6960152c.
+Status: deterministic for the audited B1/due=9 fixture.
+Note: each process emitted a Pydantic warning that LexicalItem.register shadows BaseModel.register.

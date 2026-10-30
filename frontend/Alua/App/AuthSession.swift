@@ -1,33 +1,39 @@
 import Foundation
 import Observation
+import UIKit
 
 @MainActor
 @Observable
 final class AuthSession {
     enum State: Equatable {
         case unknown
-        case signedOut
+        case needsProfileSelection
         case loadingProfile
         case authenticated(UserProfile)
         case profileLoadFailed(String)
     }
 
     private(set) var state: State = .unknown
-    private(set) var isAuthenticating = false
-    var authenticationError: String?
+    private(set) var isSelectingProfile = false
+    private var isSwitchingProfile = false
+    var selectionError: String?
 
-    @ObservationIgnored private let authService: any AuthServiceProtocol
+    @ObservationIgnored private let tokenStore: DeviceTokenStore
+    @ObservationIgnored private let enrollmentService: any EnrollmentServiceProtocol
     @ObservationIgnored private let userService: any UserServiceProtocol
-    @ObservationIgnored private var authHandle: AnyObject?
-    @ObservationIgnored private var pendingDisplayName: String?
+    @ObservationIgnored private let widgetSyncService: any WidgetSyncServiceProtocol
     @ObservationIgnored private var hasStarted = false
 
     init(
-        authService: any AuthServiceProtocol,
-        userService: any UserServiceProtocol
+        tokenStore: DeviceTokenStore,
+        enrollmentService: any EnrollmentServiceProtocol,
+        userService: any UserServiceProtocol,
+        widgetSyncService: any WidgetSyncServiceProtocol
     ) {
-        self.authService = authService
+        self.tokenStore = tokenStore
+        self.enrollmentService = enrollmentService
         self.userService = userService
+        self.widgetSyncService = widgetSyncService
     }
 
     var profile: UserProfile? {
@@ -38,42 +44,49 @@ final class AuthSession {
     func start() {
         guard !hasStarted else { return }
         hasStarted = true
-        guard authService.isConfigured else {
-            authenticationError = AuthServiceError.notConfigured.localizedDescription
-            state = .signedOut
-            return
-        }
-        authHandle = authService.observeAuthState { [weak self] identity in
-            guard let self else { return }
-            Task { await self.handleAuthChange(identity) }
-        }
-    }
-
-    func signIn(email: String, password: String) async {
-        await authenticate {
-            try await authService.signIn(
-                email: email.trimmingCharacters(in: .whitespacesAndNewlines),
-                password: password
-            )
+        do {
+            if try tokenStore.read() == nil {
+                state = .needsProfileSelection
+            } else {
+                Task { await loadProfile() }
+            }
+        } catch {
+            state = .profileLoadFailed(readableMessage(for: error))
         }
     }
 
-    func signUp(displayName: String, email: String, password: String) async {
-        pendingDisplayName = displayName.trimmingCharacters(in: .whitespacesAndNewlines)
-        await authenticate {
-            try await authService.signUp(
-                email: email.trimmingCharacters(in: .whitespacesAndNewlines),
-                password: password
+    func enroll(code: String) async {
+        guard state == .needsProfileSelection, !isSelectingProfile else { return }
+        isSelectingProfile = true
+        selectionError = nil
+        defer { isSelectingProfile = false }
+        do {
+            let enrollment = try await enrollmentService.enroll(
+                code: code.trimmingCharacters(in: .whitespacesAndNewlines), deviceName: UIDevice.current.name
             )
+            try tokenStore.save(enrollment.token)
+            widgetSyncService.clear()
+            state = .authenticated(enrollment.profile)
+            await widgetSyncService.sync()
+        } catch {
+            selectionError = readableMessage(for: error) + " Если код уже использован, попросите владельца выпустить новый."
         }
+    }
+
+    func currentDeviceID() async throws -> String {
+        try await enrollmentService.currentDeviceID()
     }
 
     func retryProfileLoad() async {
-        guard authService.currentUser != nil else {
-            state = .signedOut
-            return
+        do {
+            guard try tokenStore.read() != nil else {
+                state = .needsProfileSelection
+                return
+            }
+            await loadProfile()
+        } catch {
+            state = .profileLoadFailed(readableMessage(for: error))
         }
-        await loadProfile()
     }
 
     func updateProfile(_ update: UserProfileUpdate) async throws {
@@ -81,53 +94,31 @@ final class AuthSession {
         state = .authenticated(profile)
     }
 
-    func signOut() {
+    func switchProfile() async {
+        guard !isSwitchingProfile else { return }
+        isSwitchingProfile = true
+        defer { isSwitchingProfile = false }
+        selectionError = nil
         do {
-            try authService.signOut()
-            pendingDisplayName = nil
-            authenticationError = nil
-            state = .signedOut
+            do { try await enrollmentService.revokeCurrentDevice() }
+            catch APIError.unauthorized { /* Already revoked remotely. */ }
+            widgetSyncService.clear()
+            try tokenStore.clear()
+            state = .needsProfileSelection
         } catch {
-            authenticationError = readableMessage(for: error)
+            selectionError = readableMessage(for: error)
         }
-    }
-
-    private func authenticate(_ operation: () async throws -> Void) async {
-        isAuthenticating = true
-        authenticationError = nil
-        do {
-            try await operation()
-        } catch {
-            authenticationError = readableMessage(for: error)
-            pendingDisplayName = nil
-        }
-        isAuthenticating = false
-    }
-
-    private func handleAuthChange(_ identity: FirebaseIdentity?) async {
-        guard identity != nil else {
-            state = .signedOut
-            return
-        }
-        await loadProfile()
     }
 
     private func loadProfile() async {
         state = .loadingProfile
         do {
-            var profile = try await userService.getCurrentUserProfile()
-            if let displayName = pendingDisplayName, !displayName.isEmpty {
-                profile = try await userService.updateCurrentUserProfile(
-                    UserProfileUpdate(
-                        displayName: displayName,
-                        currentLevel: profile.currentLevel,
-                        targetIELTSBand: profile.targetIELTSBand,
-                        dailyStudyMinutes: profile.dailyStudyMinutes
-                    )
-                )
-                pendingDisplayName = nil
-            }
-            state = .authenticated(profile)
+            state = .authenticated(try await userService.getCurrentUserProfile())
+        } catch APIError.unauthorized(let message) {
+            widgetSyncService.clear()
+            try? tokenStore.clear()
+            selectionError = message
+            state = .needsProfileSelection
         } catch {
             state = .profileLoadFailed(readableMessage(for: error))
         }

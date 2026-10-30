@@ -1,0 +1,1 @@
+"""Curated vocabulary content module."""

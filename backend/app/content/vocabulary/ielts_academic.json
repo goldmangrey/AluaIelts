@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "vocab_track_academic_core_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Academic Core",
+    "description": "Build accurate, usable vocabulary for academic core.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_paradigm",
+        "lemma": "paradigm",
+        "part_of_speech": "noun",
+        "translation_ru": "парадигма",
+        "definition_en": "a typical model or pattern of thought",
+        "example": "The findings challenge the dominant paradigm.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_criterion",
+        "lemma": "criterion",
+        "part_of_speech": "noun",
+        "translation_ru": "критерий",
+        "definition_en": "a standard used to make a judgement",
+        "example": "Cost should not be the sole criterion.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_inherent",
+        "lemma": "inherent",
+        "part_of_speech": "adjective",
+        "translation_ru": "неотъемлемый",
+        "definition_en": "existing as a natural or permanent quality",
+        "example": "Uncertainty is inherent in long-term forecasts.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_coherent",
+        "lemma": "coherent",
+        "part_of_speech": "adjective",
+        "translation_ru": "последовательный",
+        "definition_en": "logical and internally consistent",
+        "example": "The essay develops a coherent argument.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_exacerbate",
+      "vocab_ielts_academic_mitigate"
+    ]
+  },
+  {
+    "id": "vocab_track_high_value_verbs_ielts",
+    "stage_id": "ielts_academic",
+    "title": "High-value IELTS Verbs",
+    "description": "Build accurate, usable vocabulary for high-value ielts verbs.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_exacerbate",
+        "lemma": "exacerbate",
+        "part_of_speech": "verb",
+        "translation_ru": "усугублять",
+        "definition_en": "to make a problem more severe",
+        "example": "Poor planning may exacerbate housing shortages.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_mitigate",
+        "lemma": "mitigate",
+        "part_of_speech": "verb",
+        "translation_ru": "смягчать",
+        "definition_en": "to reduce the harmful effect of something",
+        "example": "Green spaces can mitigate urban heat.",
+        "collocations": [
+          "mitigate risk",
+          "mitigate the impact"
+        ],
+        "word_family": [
+          { "lemma": "mitigation", "part_of_speech": "noun" }
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_facilitate",
+        "lemma": "facilitate",
+        "part_of_speech": "verb",
+        "translation_ru": "содействовать",
+        "definition_en": "to make an action or process easier",
+        "example": "Public investment can facilitate innovation.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_undermine",
+        "lemma": "undermine",
+        "part_of_speech": "verb",
+        "translation_ru": "подрывать",
+        "definition_en": "to gradually weaken something",
+        "example": "Misinformation can undermine public trust.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_pervasive",
+      "vocab_ielts_academic_detrimental"
+    ]
+  },
+  {
+    "id": "vocab_track_high_value_adjectives_ielts",
+    "stage_id": "ielts_academic",
+    "title": "High-value IELTS Adjectives",
+    "description": "Build accurate, usable vocabulary for high-value ielts adjectives.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_pervasive",
+        "lemma": "pervasive",
+        "part_of_speech": "adjective",
+        "translation_ru": "повсеместный",
+        "definition_en": "spreading widely through an area or group",
+        "example": "Digital technology has a pervasive influence.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_detrimental",
+        "lemma": "detrimental",
+        "part_of_speech": "adjective",
+        "translation_ru": "вредный",
+        "definition_en": "causing harm or damage",
+        "example": "Long commutes are detrimental to well-being.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_feasible",
+        "lemma": "feasible",
+        "part_of_speech": "adjective",
+        "translation_ru": "осуществимый",
+        "definition_en": "possible and practical to achieve",
+        "example": "The proposal is financially feasible.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_ambiguous",
+        "lemma": "ambiguous",
+        "part_of_speech": "adjective",
+        "translation_ru": "двусмысленный",
+        "definition_en": "open to more than one interpretation",
+        "example": "The survey question was ambiguous.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_implication",
+      "vocab_ielts_academic_consensus"
+    ]
+  },
+  {
+    "id": "vocab_track_academic_nouns_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Academic Nouns",
+    "description": "Build accurate, usable vocabulary for academic nouns.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_implication",
+        "lemma": "implication",
+        "part_of_speech": "noun",
+        "translation_ru": "следствие",
+        "definition_en": "a likely effect or meaning",
+        "example": "The policy has major implications for schools.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_consensus",
+        "lemma": "consensus",
+        "part_of_speech": "noun",
+        "translation_ru": "консенсус",
+        "definition_en": "general agreement among a group",
+        "example": "There is broad consensus on the need for reform.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_constraint",
+        "lemma": "constraint",
+        "part_of_speech": "noun",
+        "translation_ru": "ограничение",
+        "definition_en": "a factor that limits action",
+        "example": "Time was the main constraint on the research.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_disparity",
+        "lemma": "disparity",
+        "part_of_speech": "noun",
+        "translation_ru": "неравенство",
+        "definition_en": "a noticeable and often unfair difference",
+        "example": "The data reveals a regional disparity in income.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_a_compelling_case",
+      "vocab_ielts_academic_a_flawed_premise"
+    ]
+  },
+  {
+    "id": "vocab_track_argumentation_collocations_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Collocations for Argumentation",
+    "description": "Build accurate, usable vocabulary for collocations for argumentation.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_a_compelling_case",
+        "lemma": "a compelling case",
+        "part_of_speech": "phrase",
+        "translation_ru": "убедительное обоснование",
+        "definition_en": "a strongly persuasive set of reasons",
+        "example": "The evidence makes a compelling case for intervention.",
+        "collocations": [
+          "a compelling case"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_a_flawed_premise",
+        "lemma": "a flawed premise",
+        "part_of_speech": "phrase",
+        "translation_ru": "ошибочная предпосылка",
+        "definition_en": "an incorrect basis for an argument",
+        "example": "The conclusion follows from a flawed premise.",
+        "collocations": [
+          "a flawed premise"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_counter_an_argument",
+        "lemma": "counter an argument",
+        "part_of_speech": "phrase",
+        "translation_ru": "опровергнуть аргумент",
+        "definition_en": "to respond to a claim with opposing reasons",
+        "example": "Recent evidence counters the argument effectively.",
+        "collocations": [
+          "counter an argument"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_substantiate_a_claim",
+        "lemma": "substantiate a claim",
+        "part_of_speech": "phrase",
+        "translation_ru": "подтвердить утверждение",
+        "definition_en": "to support a statement with evidence",
+        "example": "The author fails to substantiate the claim.",
+        "collocations": [
+          "substantiate a claim"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_give_rise_to",
+      "vocab_ielts_academic_stem_from"
+    ]
+  },
+  {
+    "id": "vocab_track_cause_effect_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Cause and Effect Vocabulary",
+    "description": "Build accurate, usable vocabulary for cause and effect vocabulary.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_give_rise_to",
+        "lemma": "give rise to",
+        "part_of_speech": "phrase",
+        "translation_ru": "приводить к",
+        "definition_en": "to cause something to happen",
+        "example": "Rapid migration can give rise to housing pressure.",
+        "collocations": [
+          "give rise to"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_stem_from",
+        "lemma": "stem from",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "проистекать из",
+        "definition_en": "to be caused by something",
+        "example": "The decline stems from weak demand.",
+        "collocations": [
+          "stem from"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_a_contributing_factor",
+        "lemma": "a contributing factor",
+        "part_of_speech": "phrase",
+        "translation_ru": "способствующий фактор",
+        "definition_en": "one cause among several",
+        "example": "Poor maintenance was a contributing factor.",
+        "collocations": [
+          "a contributing factor"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_a_knock_on_effect",
+        "lemma": "a knock-on effect",
+        "part_of_speech": "phrase",
+        "translation_ru": "цепной эффект",
+        "definition_en": "an indirect result caused by an earlier event",
+        "example": "Fuel prices have a knock-on effect on food costs.",
+        "collocations": [
+          "a knock-on effect"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_comparable",
+      "vocab_ielts_academic_in_contrast_to"
+    ]
+  },
+  {
+    "id": "vocab_track_comparison_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Comparison Vocabulary",
+    "description": "Build accurate, usable vocabulary for comparison vocabulary.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_comparable",
+        "lemma": "comparable",
+        "part_of_speech": "adjective",
+        "translation_ru": "сопоставимый",
+        "definition_en": "similar enough to allow comparison",
+        "example": "The two samples are broadly comparable.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_in_contrast_to",
+        "lemma": "in contrast to",
+        "part_of_speech": "phrase",
+        "translation_ru": "в отличие от",
+        "definition_en": "used to show a clear difference",
+        "example": "In contrast to cities, rural areas lost population.",
+        "collocations": [
+          "in contrast to"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_respectively",
+        "lemma": "respectively",
+        "part_of_speech": "adverb",
+        "translation_ru": "соответственно",
+        "definition_en": "in the same order as previously mentioned",
+        "example": "The figures were 40 and 55 percent, respectively.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_outweigh",
+        "lemma": "outweigh",
+        "part_of_speech": "verb",
+        "translation_ru": "перевешивать",
+        "definition_en": "to be greater or more important than",
+        "example": "The long-term benefits outweigh the initial costs.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_fluctuate",
+      "vocab_ielts_academic_plateau"
+    ]
+  },
+  {
+    "id": "vocab_track_trend_change_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Trend and Change Vocabulary",
+    "description": "Build accurate, usable vocabulary for trend and change vocabulary.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_fluctuate",
+        "lemma": "fluctuate",
+        "part_of_speech": "verb",
+        "translation_ru": "колебаться",
+        "definition_en": "to rise and fall irregularly",
+        "example": "Oil prices fluctuated throughout the period.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_plateau",
+        "lemma": "plateau",
+        "part_of_speech": "verb",
+        "translation_ru": "стабилизироваться",
+        "definition_en": "to stop increasing after a period of growth",
+        "example": "Demand plateaued at around 60 percent.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_a_marked_decline",
+        "lemma": "a marked decline",
+        "part_of_speech": "phrase",
+        "translation_ru": "заметное снижение",
+        "definition_en": "a clear and significant reduction",
+        "example": "The chart shows a marked decline in exports.",
+        "collocations": [
+          "a marked decline"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_incremental",
+        "lemma": "incremental",
+        "part_of_speech": "adjective",
+        "translation_ru": "постепенный",
+        "definition_en": "increasing through small regular steps",
+        "example": "The programme delivered incremental improvements.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_address_an_issue",
+      "vocab_ielts_academic_viable_solution"
+    ]
+  },
+  {
+    "id": "vocab_track_problem_solution_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Problem and Solution Vocabulary",
+    "description": "Build accurate, usable vocabulary for problem and solution vocabulary.",
+    "cefr_level": "C2",
+    "topic": "ielts_academic",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_address_an_issue",
+        "lemma": "address an issue",
+        "part_of_speech": "phrase",
+        "translation_ru": "решать проблему",
+        "definition_en": "to take action concerning a problem",
+        "example": "The strategy addresses the issue of affordability.",
+        "collocations": [
+          "address an issue"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_viable_solution",
+        "lemma": "viable solution",
+        "part_of_speech": "phrase",
+        "translation_ru": "жизнеспособное решение",
+        "definition_en": "an answer that can work successfully",
+        "example": "Public transport offers a viable solution.",
+        "collocations": [
+          "viable solution"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_root_cause",
+        "lemma": "root cause",
+        "part_of_speech": "phrase",
+        "translation_ru": "коренная причина",
+        "definition_en": "the fundamental origin of a problem",
+        "example": "Enforcement alone ignores the root cause.",
+        "collocations": [
+          "root cause"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_remedial_measure",
+        "lemma": "remedial measure",
+        "part_of_speech": "phrase",
+        "translation_ru": "корректирующая мера",
+        "definition_en": "an action intended to correct harm",
+        "example": "The agency introduced a remedial measure.",
+        "collocations": [
+          "remedial measure"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_policy_intervention",
+      "vocab_ielts_academic_regulatory_framework"
+    ]
+  },
+  {
+    "id": "vocab_track_policy_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Policy Vocabulary",
+    "description": "Build accurate, usable vocabulary for policy vocabulary.",
+    "cefr_level": "C2",
+    "topic": "government",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_policy_intervention",
+        "lemma": "policy intervention",
+        "part_of_speech": "phrase",
+        "translation_ru": "мера государственной политики",
+        "definition_en": "government action intended to change an outcome",
+        "example": "Targeted policy intervention reduced child poverty.",
+        "collocations": [
+          "policy intervention"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_regulatory_framework",
+        "lemma": "regulatory framework",
+        "part_of_speech": "phrase",
+        "translation_ru": "нормативная база",
+        "definition_en": "the system of rules governing an activity",
+        "example": "A clear regulatory framework encourages investment.",
+        "collocations": [
+          "regulatory framework"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_public_expenditure",
+        "lemma": "public expenditure",
+        "part_of_speech": "phrase",
+        "translation_ru": "государственные расходы",
+        "definition_en": "money spent by government",
+        "example": "Public expenditure on health increased.",
+        "collocations": [
+          "public expenditure"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_enforce",
+        "lemma": "enforce",
+        "part_of_speech": "verb",
+        "translation_ru": "обеспечивать соблюдение",
+        "definition_en": "to make sure a law or rule is obeyed",
+        "example": "Authorities must enforce safety standards.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_educational_equity",
+      "vocab_ielts_academic_standardised_assessment"
+    ]
+  },
+  {
+    "id": "vocab_track_education_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Education",
+    "description": "Build accurate, usable vocabulary for education.",
+    "cefr_level": "C2",
+    "topic": "education",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_educational_equity",
+        "lemma": "educational equity",
+        "part_of_speech": "phrase",
+        "translation_ru": "равенство в образовании",
+        "definition_en": "fair access to learning opportunities",
+        "example": "Funding reform may improve educational equity.",
+        "collocations": [
+          "educational equity"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_standardised_assessment",
+        "lemma": "standardised assessment",
+        "part_of_speech": "phrase",
+        "translation_ru": "стандартизированное оценивание",
+        "definition_en": "a test administered under consistent conditions",
+        "example": "Standardised assessment enables broad comparison.",
+        "collocations": [
+          "standardised assessment"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_knowledge_acquisition",
+        "lemma": "knowledge acquisition",
+        "part_of_speech": "phrase",
+        "translation_ru": "приобретение знаний",
+        "definition_en": "the process of gaining knowledge",
+        "example": "Active practice supports knowledge acquisition.",
+        "collocations": [
+          "knowledge acquisition"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_tertiary_education",
+        "lemma": "tertiary education",
+        "part_of_speech": "phrase",
+        "translation_ru": "высшее образование",
+        "definition_en": "education after secondary school",
+        "example": "Participation in tertiary education has expanded.",
+        "collocations": [
+          "tertiary education"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_ecological_footprint",
+      "vocab_ielts_academic_resource_depletion"
+    ]
+  },
+  {
+    "id": "vocab_track_environment_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Environment",
+    "description": "Build accurate, usable vocabulary for environment.",
+    "cefr_level": "C2",
+    "topic": "environment",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_ecological_footprint",
+        "lemma": "ecological footprint",
+        "part_of_speech": "phrase",
+        "translation_ru": "экологический след",
+        "definition_en": "the environmental impact of a person or activity",
+        "example": "Public transport reduces a city's ecological footprint.",
+        "collocations": [
+          "ecological footprint"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_resource_depletion",
+        "lemma": "resource depletion",
+        "part_of_speech": "phrase",
+        "translation_ru": "истощение ресурсов",
+        "definition_en": "the use of resources faster than replacement",
+        "example": "Overconsumption accelerates resource depletion.",
+        "collocations": [
+          "resource depletion"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_environmental_stewardship",
+        "lemma": "environmental stewardship",
+        "part_of_speech": "phrase",
+        "translation_ru": "ответственное природопользование",
+        "definition_en": "responsible protection of the natural world",
+        "example": "Schools can promote environmental stewardship.",
+        "collocations": [
+          "environmental stewardship"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_carbon_intensive",
+        "lemma": "carbon-intensive",
+        "part_of_speech": "adjective",
+        "translation_ru": "углеродоёмкий",
+        "definition_en": "producing a large amount of carbon emissions",
+        "example": "Heavy industry remains carbon-intensive.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_technological_displacement",
+      "vocab_ielts_academic_data_driven"
+    ]
+  },
+  {
+    "id": "vocab_track_technology_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Technology",
+    "description": "Build accurate, usable vocabulary for technology.",
+    "cefr_level": "C2",
+    "topic": "technology",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_technological_displacement",
+        "lemma": "technological displacement",
+        "part_of_speech": "phrase",
+        "translation_ru": "технологическое вытеснение труда",
+        "definition_en": "loss of jobs caused by new technology",
+        "example": "Automation may cause technological displacement.",
+        "collocations": [
+          "technological displacement"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_data_driven",
+        "lemma": "data-driven",
+        "part_of_speech": "adjective",
+        "translation_ru": "основанный на данных",
+        "definition_en": "guided by the analysis of data",
+        "example": "Hospitals increasingly use data-driven decisions.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_digital_literacy",
+        "lemma": "digital literacy",
+        "part_of_speech": "phrase",
+        "translation_ru": "цифровая грамотность",
+        "definition_en": "ability to use digital tools effectively",
+        "example": "Digital literacy is essential in modern workplaces.",
+        "collocations": [
+          "digital literacy"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_surveillance",
+        "lemma": "surveillance",
+        "part_of_speech": "noun",
+        "translation_ru": "наблюдение",
+        "definition_en": "close monitoring of people or activity",
+        "example": "Facial recognition enables extensive surveillance.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_health_outcome",
+      "vocab_ielts_academic_chronic_condition"
+    ]
+  },
+  {
+    "id": "vocab_track_health_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Health",
+    "description": "Build accurate, usable vocabulary for health.",
+    "cefr_level": "C2",
+    "topic": "health",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_health_outcome",
+        "lemma": "health outcome",
+        "part_of_speech": "phrase",
+        "translation_ru": "результат для здоровья",
+        "definition_en": "a measurable result of healthcare or behaviour",
+        "example": "Early treatment improves the health outcome.",
+        "collocations": [
+          "health outcome"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_chronic_condition",
+        "lemma": "chronic condition",
+        "part_of_speech": "phrase",
+        "translation_ru": "хроническое заболевание",
+        "definition_en": "an illness that continues for a long time",
+        "example": "Diabetes is a common chronic condition.",
+        "collocations": [
+          "chronic condition"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_public_health_burden",
+        "lemma": "public health burden",
+        "part_of_speech": "phrase",
+        "translation_ru": "нагрузка на здравоохранение",
+        "definition_en": "the overall impact of disease on society",
+        "example": "Smoking creates a substantial public health burden.",
+        "collocations": [
+          "public health burden"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_health_disparity",
+        "lemma": "health disparity",
+        "part_of_speech": "phrase",
+        "translation_ru": "неравенство в здоровье",
+        "definition_en": "an avoidable difference in health between groups",
+        "example": "Rural communities face a persistent health disparity.",
+        "collocations": [
+          "health disparity"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_social_cohesion",
+      "vocab_ielts_academic_demographic_shift"
+    ]
+  },
+  {
+    "id": "vocab_track_society_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Society",
+    "description": "Build accurate, usable vocabulary for society.",
+    "cefr_level": "C2",
+    "topic": "society",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_social_cohesion",
+        "lemma": "social cohesion",
+        "part_of_speech": "phrase",
+        "translation_ru": "социальная сплочённость",
+        "definition_en": "the strength of relationships within society",
+        "example": "Shared public spaces support social cohesion.",
+        "collocations": [
+          "social cohesion"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_demographic_shift",
+        "lemma": "demographic shift",
+        "part_of_speech": "phrase",
+        "translation_ru": "демографический сдвиг",
+        "definition_en": "a change in the structure of a population",
+        "example": "Ageing represents a major demographic shift.",
+        "collocations": [
+          "demographic shift"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_social_mobility",
+        "lemma": "social mobility",
+        "part_of_speech": "phrase",
+        "translation_ru": "социальная мобильность",
+        "definition_en": "movement between social or economic positions",
+        "example": "Education can promote social mobility.",
+        "collocations": [
+          "social mobility"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_marginalisation",
+        "lemma": "marginalisation",
+        "part_of_speech": "noun",
+        "translation_ru": "маргинализация",
+        "definition_en": "treatment of a group as unimportant",
+        "example": "Language barriers can deepen marginalisation.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_economic_resilience",
+      "vocab_ielts_academic_fiscal_policy"
+    ]
+  },
+  {
+    "id": "vocab_track_economics_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Economics",
+    "description": "Build accurate, usable vocabulary for economics.",
+    "cefr_level": "C2",
+    "topic": "business",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_economic_resilience",
+        "lemma": "economic resilience",
+        "part_of_speech": "phrase",
+        "translation_ru": "экономическая устойчивость",
+        "definition_en": "ability to recover from economic shocks",
+        "example": "Diverse industries strengthen economic resilience.",
+        "collocations": [
+          "economic resilience"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_fiscal_policy",
+        "lemma": "fiscal policy",
+        "part_of_speech": "phrase",
+        "translation_ru": "бюджетная политика",
+        "definition_en": "government decisions about taxation and spending",
+        "example": "Fiscal policy can stimulate demand.",
+        "collocations": [
+          "fiscal policy"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_purchasing_power",
+        "lemma": "purchasing power",
+        "part_of_speech": "phrase",
+        "translation_ru": "покупательная способность",
+        "definition_en": "the amount that money can buy",
+        "example": "Inflation erodes household purchasing power.",
+        "collocations": [
+          "purchasing power"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_market_failure",
+        "lemma": "market failure",
+        "part_of_speech": "phrase",
+        "translation_ru": "провал рынка",
+        "definition_en": "inefficient distribution of goods by a market",
+        "example": "Pollution is often treated as a market failure.",
+        "collocations": [
+          "market failure"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_urban_resilience",
+      "vocab_ielts_academic_affordable_housing"
+    ]
+  },
+  {
+    "id": "vocab_track_cities_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Cities",
+    "description": "Build accurate, usable vocabulary for cities.",
+    "cefr_level": "C2",
+    "topic": "society",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_urban_resilience",
+        "lemma": "urban resilience",
+        "part_of_speech": "phrase",
+        "translation_ru": "устойчивость города",
+        "definition_en": "a city's ability to withstand disruption",
+        "example": "Flood planning improves urban resilience.",
+        "collocations": [
+          "urban resilience"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_affordable_housing",
+        "lemma": "affordable housing",
+        "part_of_speech": "phrase",
+        "translation_ru": "доступное жильё",
+        "definition_en": "housing reasonably priced for local incomes",
+        "example": "The city faces a shortage of affordable housing.",
+        "collocations": [
+          "affordable housing"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_mixed_use_development",
+        "lemma": "mixed-use development",
+        "part_of_speech": "phrase",
+        "translation_ru": "многофункциональная застройка",
+        "definition_en": "development combining homes, shops, and services",
+        "example": "Mixed-use development can shorten daily journeys.",
+        "collocations": [
+          "mixed-use development"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_liveability",
+        "lemma": "liveability",
+        "part_of_speech": "noun",
+        "translation_ru": "комфортность проживания",
+        "definition_en": "the quality of a place as somewhere to live",
+        "example": "Green space improves urban liveability.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_institutional_capacity",
+      "vocab_ielts_academic_democratic_legitimacy"
+    ]
+  },
+  {
+    "id": "vocab_track_government_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Government",
+    "description": "Build accurate, usable vocabulary for government.",
+    "cefr_level": "C2",
+    "topic": "government",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_institutional_capacity",
+        "lemma": "institutional capacity",
+        "part_of_speech": "phrase",
+        "translation_ru": "институциональный потенциал",
+        "definition_en": "an institution's ability to perform effectively",
+        "example": "Reform depends on sufficient institutional capacity.",
+        "collocations": [
+          "institutional capacity"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_democratic_legitimacy",
+        "lemma": "democratic legitimacy",
+        "part_of_speech": "phrase",
+        "translation_ru": "демократическая легитимность",
+        "definition_en": "public acceptance of democratic authority",
+        "example": "Transparency strengthens democratic legitimacy.",
+        "collocations": [
+          "democratic legitimacy"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_policy_coherence",
+        "lemma": "policy coherence",
+        "part_of_speech": "phrase",
+        "translation_ru": "согласованность политики",
+        "definition_en": "consistency among different public policies",
+        "example": "Cross-agency planning improves policy coherence.",
+        "collocations": [
+          "policy coherence"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_civic_participation",
+        "lemma": "civic participation",
+        "part_of_speech": "phrase",
+        "translation_ru": "гражданское участие",
+        "definition_en": "public involvement in community and government",
+        "example": "Local forums encourage civic participation.",
+        "collocations": [
+          "civic participation"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_methodological_rigour",
+      "vocab_ielts_academic_peer_review"
+    ]
+  },
+  {
+    "id": "vocab_track_research_science_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Research and Science",
+    "description": "Build accurate, usable vocabulary for research and science.",
+    "cefr_level": "C2",
+    "topic": "science",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_methodological_rigour",
+        "lemma": "methodological rigour",
+        "part_of_speech": "phrase",
+        "translation_ru": "методологическая строгость",
+        "definition_en": "careful and exact use of research methods",
+        "example": "The trial demonstrates methodological rigour.",
+        "collocations": [
+          "methodological rigour"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_peer_review",
+        "lemma": "peer review",
+        "part_of_speech": "phrase",
+        "translation_ru": "рецензирование",
+        "definition_en": "evaluation of research by experts",
+        "example": "The paper underwent independent peer review.",
+        "collocations": [
+          "peer review"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_causal_inference",
+        "lemma": "causal inference",
+        "part_of_speech": "phrase",
+        "translation_ru": "вывод о причинности",
+        "definition_en": "a conclusion that one factor causes another",
+        "example": "The small sample limits causal inference.",
+        "collocations": [
+          "causal inference"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_robust_finding",
+        "lemma": "robust finding",
+        "part_of_speech": "phrase",
+        "translation_ru": "надёжный результат",
+        "definition_en": "a result that remains valid under scrutiny",
+        "example": "The association appears to be a robust finding.",
+        "collocations": [
+          "robust finding"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_corroborate",
+      "vocab_ielts_academic_contend"
+    ]
+  },
+  {
+    "id": "vocab_track_lexical_precision_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Lexical Precision",
+    "description": "Build accurate, usable vocabulary for lexical precision.",
+    "cefr_level": "C2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_corroborate",
+        "lemma": "corroborate",
+        "part_of_speech": "verb",
+        "translation_ru": "подтверждать",
+        "definition_en": "to support a statement with additional evidence",
+        "example": "Later studies corroborate the initial result.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_contend",
+        "lemma": "contend",
+        "part_of_speech": "verb",
+        "translation_ru": "утверждать",
+        "definition_en": "to argue that a claim is true",
+        "example": "Critics contend that the reform is premature.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_sporadic",
+        "lemma": "sporadic",
+        "part_of_speech": "adjective",
+        "translation_ru": "нерегулярный",
+        "definition_en": "occurring at irregular intervals",
+        "example": "The region experienced sporadic rainfall.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_profound",
+        "lemma": "profound",
+        "part_of_speech": "adjective",
+        "translation_ru": "глубокий",
+        "definition_en": "very great or far-reaching",
+        "example": "Migration had a profound social impact.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_account_for",
+      "vocab_ielts_academic_be_indicative_of"
+    ]
+  },
+  {
+    "id": "vocab_track_paraphrasing_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Paraphrasing",
+    "description": "Build accurate, usable vocabulary for paraphrasing.",
+    "cefr_level": "C2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_account_for",
+        "lemma": "account for",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "составлять; объяснять",
+        "definition_en": "to form a proportion or explain a result",
+        "example": "Transport accounts for a third of emissions.",
+        "collocations": [
+          "account for"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_be_indicative_of",
+        "lemma": "be indicative of",
+        "part_of_speech": "phrase",
+        "translation_ru": "свидетельствовать о",
+        "definition_en": "to serve as a sign of something",
+        "example": "The decline may be indicative of lower demand.",
+        "collocations": [
+          "be indicative of"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_a_considerable_proportion",
+        "lemma": "a considerable proportion",
+        "part_of_speech": "phrase",
+        "translation_ru": "значительная доля",
+        "definition_en": "a notably large share of a whole",
+        "example": "A considerable proportion chose public transport.",
+        "collocations": [
+          "a considerable proportion"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_undergo_a_transformation",
+        "lemma": "undergo a transformation",
+        "part_of_speech": "phrase",
+        "translation_ru": "претерпеть преобразование",
+        "definition_en": "to experience a major change",
+        "example": "The district underwent a rapid transformation.",
+        "collocations": [
+          "undergo a transformation"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_nevertheless",
+      "vocab_ielts_academic_with_regard_to"
+    ]
+  },
+  {
+    "id": "vocab_track_register_formality_ielts",
+    "stage_id": "ielts_academic",
+    "title": "Register and Formality",
+    "description": "Build accurate, usable vocabulary for register and formality.",
+    "cefr_level": "C2",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_ielts_academic_nevertheless",
+        "lemma": "nevertheless",
+        "part_of_speech": "adverb",
+        "translation_ru": "тем не менее",
+        "definition_en": "despite what has just been stated",
+        "example": "The sample was small; nevertheless, the pattern was clear.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_ielts_academic_with_regard_to",
+        "lemma": "with regard to",
+        "part_of_speech": "phrase",
+        "translation_ru": "в отношении",
+        "definition_en": "concerning a particular subject",
+        "example": "With regard to cost, the second option is preferable.",
+        "collocations": [
+          "with regard to"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_it_is_noteworthy_that",
+        "lemma": "it is noteworthy that",
+        "part_of_speech": "phrase",
+        "translation_ru": "примечательно, что",
+        "definition_en": "used to identify an important observation",
+        "example": "It is noteworthy that participation doubled.",
+        "collocations": [
+          "it is noteworthy that"
+        ]
+      },
+      {
+        "id": "vocab_ielts_academic_a_matter_of_concern",
+        "lemma": "a matter of concern",
+        "part_of_speech": "phrase",
+        "translation_ru": "предмет беспокойства",
+        "definition_en": "an issue that causes justified worry",
+        "example": "Air quality remains a matter of concern.",
+        "collocations": [
+          "a matter of concern"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_ielts_academic_paradigm",
+      "vocab_ielts_academic_criterion"
+    ]
+  }
+]

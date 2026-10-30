@@ -9,9 +9,9 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
 
     init(
         baseURL: URL,
-        session: URLSession = .shared,
+        session: URLSession = URLSession(configuration: .ephemeral),
         decoder: JSONDecoder = APIClient.makeDecoder(),
-        encoder: JSONEncoder = JSONEncoder(),
+        encoder: JSONEncoder = APIClient.makeEncoder(),
         tokenProvider: any AccessTokenProvider
     ) {
         self.baseURL = baseURL
@@ -25,6 +25,7 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
         _ endpoint: APIEndpoint,
         responseType: Response.Type
     ) async throws -> Response {
+        try Task.checkCancellation()
         let request = try await makeRequest(for: endpoint)
         let data: Data
         let response: URLResponse
@@ -35,6 +36,13 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
             throw APIError.transport
         }
 
+        try Task.checkCancellation()
+        if endpoint.requiresAuthentication {
+            let currentToken = try await tokenProvider.accessToken()
+            guard request.value(forHTTPHeaderField: "Authorization") == currentToken.map({ "Bearer \($0)" }) else {
+                throw CancellationError()
+            }
+        }
         guard let httpResponse = response as? HTTPURLResponse else {
             throw APIError.invalidResponse
         }
@@ -45,6 +53,16 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
         do {
             return try decoder.decode(responseType, from: data)
         } catch {
+            #if DEBUG
+            print("===== API DECODING ERROR =====")
+            print("Endpoint:", endpoint.path)
+            print("Response type:", String(describing: Response.self))
+            print("Error:", String(reflecting: error))
+
+            // Never log response bodies: bootstrap responses contain device credentials.
+
+            print("==============================")
+            #endif
             throw APIError.decoding
         }
     }
@@ -74,7 +92,7 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
         request.setValue("application/json", forHTTPHeaderField: "Accept")
         if endpoint.requiresAuthentication {
             guard let token = try await tokenProvider.accessToken(), !token.isEmpty else {
-                throw APIError.unauthorized(message: "Please sign in to continue.")
+                throw APIError.unauthorized(message: "This device is not linked.")
             }
             request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         }
@@ -96,7 +114,42 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
 
     private static func makeDecoder() -> JSONDecoder {
         let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .iso8601
+
+        decoder.dateDecodingStrategy = .custom { decoder in
+            let container = try decoder.singleValueContainer()
+            let value = try container.decode(String.self)
+
+            let fractionalFormatter = ISO8601DateFormatter()
+            fractionalFormatter.formatOptions = [
+                .withInternetDateTime,
+                .withFractionalSeconds
+            ]
+
+            if let date = fractionalFormatter.date(from: value) {
+                return date
+            }
+
+            let standardFormatter = ISO8601DateFormatter()
+            standardFormatter.formatOptions = [
+                .withInternetDateTime
+            ]
+
+            if let date = standardFormatter.date(from: value) {
+                return date
+            }
+
+            throw DecodingError.dataCorruptedError(
+                in: container,
+                debugDescription: "Invalid ISO8601 date: \(value)"
+            )
+        }
+
         return decoder
+    }
+
+    private static func makeEncoder() -> JSONEncoder {
+        let encoder = JSONEncoder()
+        encoder.dateEncodingStrategy = .iso8601
+        return encoder
     }
 }

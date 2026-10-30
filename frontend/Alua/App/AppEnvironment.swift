@@ -22,9 +22,9 @@ enum AppEnvironment: String, Sendable {
 
         switch self {
         case .development:
-            return Self.url("http://127.0.0.1:8000")
+            return Self.url("https://alua-api.flora-flowers.kz")
         case .production:
-            return Self.url("https://api.alua.app")
+            return Self.url("https://alua-api.flora-flowers.kz")
         }
     }
 

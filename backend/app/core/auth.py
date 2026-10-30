@@ -6,13 +6,15 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel
 
 from app.core.exceptions import UnauthorizedError
-from app.integrations.firebase.auth import verify_firebase_token
+from app.db.database import get_database
+from app.modules.enrollment.repository import DeviceEnrollmentRepository
 
 bearer_scheme = HTTPBearer(auto_error=False)
 
 
 class AuthenticatedUser(BaseModel):
     uid: str
+    enrollment_id: str
     email: str | None = None
     name: str | None = None
 
@@ -29,14 +31,12 @@ async def get_current_user(
     if not token:
         raise UnauthorizedError(message="A bearer token is required.", code="unauthorized")
 
-    decoded_token = await run_in_threadpool(verify_firebase_token, token)
-    uid = decoded_token.get("uid") or decoded_token.get("sub")
-    if not isinstance(uid, str) or not uid:
-        raise UnauthorizedError(message="The authentication token is invalid.", code="unauthorized")
-    email = decoded_token.get("email")
-    name = decoded_token.get("name")
+    enrollment = await run_in_threadpool(DeviceEnrollmentRepository(get_database()).resolve, token)
+    if enrollment is None:
+        raise UnauthorizedError(
+            message="The device token is invalid or revoked.", code="unauthorized"
+        )
     return AuthenticatedUser(
-        uid=uid,
-        email=email if isinstance(email, str) else None,
-        name=name if isinstance(name, str) else None,
+        uid=enrollment.learner_id,
+        enrollment_id=enrollment.enrollment_id,
     )

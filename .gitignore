@@ -8,6 +8,10 @@ backend/__pycache__/
 backend/.pytest_cache/
 backend/.mypy_cache/
 backend/.ruff_cache/
+backend/data/lexicon_raw/*
+!backend/data/lexicon_raw/README.md
+backend/data/lexicon_sources/
+backend/data/lexicon_staging/
 *.pyc
 
 # Xcode
@@ -30,3 +34,6 @@ service-account*.json
 # IDE
 .idea/
 .vscode/
+
+# Local release candidates (signed binaries and embedded device profiles)
+/artifacts/stage5/

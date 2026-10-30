@@ -1,0 +1,514 @@
+[
+  {
+    "id": "vocab_track_everyday_life_a1",
+    "stage_id": "foundation_a1",
+    "title": "Everyday Life",
+    "description": "Build accurate, usable vocabulary for everyday life.",
+    "cefr_level": "A1",
+    "topic": "everyday_life",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_daily_routine",
+        "lemma": "daily routine",
+        "part_of_speech": "phrase",
+        "translation_ru": "распорядок дня",
+        "definition_en": "the activities you usually do each day",
+        "example": "My daily routine starts with a short walk.",
+        "collocations": [
+          "daily routine"
+        ]
+      },
+      {
+        "id": "vocab_foundation_a1_wake_up",
+        "lemma": "wake up",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "просыпаться",
+        "definition_en": "to stop sleeping",
+        "example": "I wake up at seven on weekdays.",
+        "collocations": [
+          "wake up"
+        ]
+      },
+      {
+        "id": "vocab_foundation_a1_neighbour",
+        "lemma": "neighbour",
+        "part_of_speech": "noun",
+        "translation_ru": "сосед",
+        "definition_en": "a person who lives near you",
+        "example": "Our neighbour always says hello.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_usually",
+        "lemma": "usually",
+        "part_of_speech": "adverb",
+        "translation_ru": "обычно",
+        "definition_en": "on most days or in most situations",
+        "example": "I usually cook dinner at home.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_parent",
+      "vocab_foundation_a1_relative"
+    ]
+  },
+  {
+    "id": "vocab_track_family_a1",
+    "stage_id": "foundation_a1",
+    "title": "Family",
+    "description": "Build accurate, usable vocabulary for family.",
+    "cefr_level": "A1",
+    "topic": "family_relationships",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_parent",
+        "lemma": "parent",
+        "part_of_speech": "noun",
+        "translation_ru": "родитель",
+        "definition_en": "a mother or father",
+        "example": "Each parent came to the school meeting.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_relative",
+        "lemma": "relative",
+        "part_of_speech": "noun",
+        "translation_ru": "родственник",
+        "definition_en": "a person in the same family",
+        "example": "A relative is visiting us this weekend.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_married",
+        "lemma": "married",
+        "part_of_speech": "adjective",
+        "translation_ru": "женатый; замужняя",
+        "definition_en": "having a husband or wife",
+        "example": "My sister is married and lives nearby.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_grow_up",
+        "lemma": "grow up",
+        "part_of_speech": "phrasal_verb",
+        "translation_ru": "вырасти",
+        "definition_en": "to develop from a child into an adult",
+        "example": "I grew up in a small town.",
+        "collocations": [
+          "grow up"
+        ]
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_apartment",
+      "vocab_foundation_a1_comfortable"
+    ]
+  },
+  {
+    "id": "vocab_track_home_a1",
+    "stage_id": "foundation_a1",
+    "title": "Home",
+    "description": "Build accurate, usable vocabulary for home.",
+    "cefr_level": "A1",
+    "topic": "home",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_apartment",
+        "lemma": "apartment",
+        "part_of_speech": "noun",
+        "translation_ru": "квартира",
+        "definition_en": "a set of rooms for living in",
+        "example": "They rent a quiet apartment near the park.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_comfortable",
+        "lemma": "comfortable",
+        "part_of_speech": "adjective",
+        "translation_ru": "удобный",
+        "definition_en": "making you feel relaxed",
+        "example": "This chair is comfortable for reading.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_furniture",
+        "lemma": "furniture",
+        "part_of_speech": "noun",
+        "translation_ru": "мебель",
+        "definition_en": "movable objects such as tables and chairs",
+        "example": "The apartment has simple wooden furniture.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_tidy",
+        "lemma": "tidy",
+        "part_of_speech": "adjective",
+        "translation_ru": "аккуратный",
+        "definition_en": "clean and arranged in order",
+        "example": "Please keep your room tidy.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_meal",
+      "vocab_foundation_a1_fresh"
+    ]
+  },
+  {
+    "id": "vocab_track_food_a1",
+    "stage_id": "foundation_a1",
+    "title": "Food",
+    "description": "Build accurate, usable vocabulary for food.",
+    "cefr_level": "A1",
+    "topic": "food",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_meal",
+        "lemma": "meal",
+        "part_of_speech": "noun",
+        "translation_ru": "приём пищи",
+        "definition_en": "food eaten at one time",
+        "example": "Breakfast is my first meal of the day.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_fresh",
+        "lemma": "fresh",
+        "part_of_speech": "adjective",
+        "translation_ru": "свежий",
+        "definition_en": "recently produced or prepared",
+        "example": "The market sells fresh fruit.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_ingredient",
+        "lemma": "ingredient",
+        "part_of_speech": "noun",
+        "translation_ru": "ингредиент",
+        "definition_en": "one food used to make a dish",
+        "example": "Tomato is the main ingredient in this soup.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_order",
+        "lemma": "order",
+        "part_of_speech": "verb",
+        "translation_ru": "заказывать",
+        "definition_en": "to ask for food or goods",
+        "example": "We ordered tea and a salad.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_task",
+      "vocab_foundation_a1_lesson"
+    ]
+  },
+  {
+    "id": "vocab_track_work_study_a1",
+    "stage_id": "foundation_a1",
+    "title": "Work and Study Basics",
+    "description": "Build accurate, usable vocabulary for work and study basics.",
+    "cefr_level": "A1",
+    "topic": "education",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_task",
+        "lemma": "task",
+        "part_of_speech": "noun",
+        "translation_ru": "задача",
+        "definition_en": "a piece of work that must be done",
+        "example": "I finished the first task before lunch.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_lesson",
+        "lemma": "lesson",
+        "part_of_speech": "noun",
+        "translation_ru": "урок",
+        "definition_en": "a period of learning or teaching",
+        "example": "Our English lesson begins at nine.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_practice",
+        "lemma": "practice",
+        "part_of_speech": "verb",
+        "translation_ru": "практиковаться",
+        "definition_en": "to do something repeatedly to improve",
+        "example": "I practise speaking every evening.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_colleague",
+        "lemma": "colleague",
+        "part_of_speech": "noun",
+        "translation_ru": "коллега",
+        "definition_en": "a person you work with",
+        "example": "My colleague helped me with the report.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_weekday",
+      "vocab_foundation_a1_appointment"
+    ]
+  },
+  {
+    "id": "vocab_track_time_date_a1",
+    "stage_id": "foundation_a1",
+    "title": "Time and Date",
+    "description": "Build accurate, usable vocabulary for time and date.",
+    "cefr_level": "A1",
+    "topic": "everyday_life",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_weekday",
+        "lemma": "weekday",
+        "part_of_speech": "noun",
+        "translation_ru": "будний день",
+        "definition_en": "a day from Monday to Friday",
+        "example": "The library closes early on weekdays.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_appointment",
+        "lemma": "appointment",
+        "part_of_speech": "noun",
+        "translation_ru": "назначенная встреча",
+        "definition_en": "an arranged time to meet someone",
+        "example": "I have a dental appointment on Friday.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_early",
+        "lemma": "early",
+        "part_of_speech": "adverb",
+        "translation_ru": "рано",
+        "definition_en": "before the expected time",
+        "example": "We arrived early for the meeting.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_last",
+        "lemma": "last",
+        "part_of_speech": "adjective",
+        "translation_ru": "прошлый",
+        "definition_en": "most recent before the present",
+        "example": "I visited them last month.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_journey",
+      "vocab_foundation_a1_station"
+    ]
+  },
+  {
+    "id": "vocab_track_transport_a1",
+    "stage_id": "foundation_a1",
+    "title": "Transport",
+    "description": "Build accurate, usable vocabulary for transport.",
+    "cefr_level": "A1",
+    "topic": "travel",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_journey",
+        "lemma": "journey",
+        "part_of_speech": "noun",
+        "translation_ru": "поездка",
+        "definition_en": "travel from one place to another",
+        "example": "The train journey takes two hours.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_station",
+        "lemma": "station",
+        "part_of_speech": "noun",
+        "translation_ru": "станция",
+        "definition_en": "a place where trains or buses stop",
+        "example": "Meet me outside the bus station.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_ticket",
+        "lemma": "ticket",
+        "part_of_speech": "noun",
+        "translation_ru": "билет",
+        "definition_en": "a document that permits travel or entry",
+        "example": "I bought a return ticket online.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_arrive",
+        "lemma": "arrive",
+        "part_of_speech": "verb",
+        "translation_ru": "прибывать",
+        "definition_en": "to reach a place",
+        "example": "The bus arrives at half past eight.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_healthy",
+      "vocab_foundation_a1_pain"
+    ]
+  },
+  {
+    "id": "vocab_track_health_a1",
+    "stage_id": "foundation_a1",
+    "title": "Health Basics",
+    "description": "Build accurate, usable vocabulary for health basics.",
+    "cefr_level": "A1",
+    "topic": "health",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_healthy",
+        "lemma": "healthy",
+        "part_of_speech": "adjective",
+        "translation_ru": "здоровый",
+        "definition_en": "in good physical or mental condition",
+        "example": "Walking every day is a healthy habit.",
+        "collocations": [
+          "healthy lifestyle",
+          "healthy diet"
+        ],
+        "word_family": [
+          { "lemma": "health", "part_of_speech": "noun" }
+        ]
+      },
+      {
+        "id": "vocab_foundation_a1_pain",
+        "lemma": "pain",
+        "part_of_speech": "noun",
+        "translation_ru": "боль",
+        "definition_en": "an unpleasant physical feeling",
+        "example": "She felt a sharp pain in her back.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_medicine",
+        "lemma": "medicine",
+        "part_of_speech": "noun",
+        "translation_ru": "лекарство",
+        "definition_en": "a substance used to treat illness",
+        "example": "Take this medicine after meals.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_rest",
+        "lemma": "rest",
+        "part_of_speech": "verb",
+        "translation_ru": "отдыхать",
+        "definition_en": "to relax so your body can recover",
+        "example": "You should rest if you feel tired.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_useful",
+      "vocab_foundation_a1_different"
+    ]
+  },
+  {
+    "id": "vocab_track_common_adjectives_a1",
+    "stage_id": "foundation_a1",
+    "title": "Common Adjectives",
+    "description": "Build accurate, usable vocabulary for common adjectives.",
+    "cefr_level": "A1",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_useful",
+        "lemma": "useful",
+        "part_of_speech": "adjective",
+        "translation_ru": "полезный",
+        "definition_en": "helping you do or achieve something",
+        "example": "This dictionary is useful for beginners.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_different",
+        "lemma": "different",
+        "part_of_speech": "adjective",
+        "translation_ru": "разный",
+        "definition_en": "not the same",
+        "example": "The two answers are different.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_possible",
+        "lemma": "possible",
+        "part_of_speech": "adjective",
+        "translation_ru": "возможный",
+        "definition_en": "able to happen or be done",
+        "example": "Is it possible to change the date?",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_important",
+        "lemma": "important",
+        "part_of_speech": "adjective",
+        "translation_ru": "важный",
+        "definition_en": "having great value or effect",
+        "example": "Sleep is important for good health.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_need",
+      "vocab_foundation_a1_choose"
+    ]
+  },
+  {
+    "id": "vocab_track_high_frequency_verbs_a1",
+    "stage_id": "foundation_a1",
+    "title": "High-frequency Verbs",
+    "description": "Build accurate, usable vocabulary for high-frequency verbs.",
+    "cefr_level": "A1",
+    "topic": "communication",
+    "items": [
+      {
+        "id": "vocab_foundation_a1_need",
+        "lemma": "need",
+        "part_of_speech": "verb",
+        "translation_ru": "нуждаться",
+        "definition_en": "to require something",
+        "example": "We need more time to finish.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_choose",
+        "lemma": "choose",
+        "part_of_speech": "verb",
+        "translation_ru": "выбирать",
+        "definition_en": "to decide which thing you want",
+        "example": "You can choose one of three courses.",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_explain",
+        "lemma": "explain",
+        "part_of_speech": "verb",
+        "translation_ru": "объяснять",
+        "definition_en": "to make something clear",
+        "example": "Could you explain this word again?",
+        "collocations": []
+      },
+      {
+        "id": "vocab_foundation_a1_remember",
+        "lemma": "remember",
+        "part_of_speech": "verb",
+        "translation_ru": "помнить",
+        "definition_en": "to keep information in your mind",
+        "example": "Remember to bring your notebook.",
+        "collocations": []
+      }
+    ],
+    "related_item_ids": [
+      "vocab_foundation_a1_daily_routine",
+      "vocab_foundation_a1_wake_up"
+    ]
+  }
+]

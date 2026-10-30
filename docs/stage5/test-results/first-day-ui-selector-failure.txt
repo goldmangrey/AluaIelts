@@ -1,0 +1,1095 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project Alua.xcodeproj -scheme AluaQA -configuration QA -destination "platform=iOS Simulator,id=63E0EDB7-782F-4A8D-962C-649B0F5DC632" -derivedDataPath /tmp/alua-stage5-qa-build -parallel-testing-enabled NO DEVELOPMENT_TEAM=A8DD9HJC4H CODE_SIGN_IDENTITY=- "-only-testing:AluaUITests/AluaProductQATests/testFirstDay" test
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = -
+    DEVELOPMENT_TEAM = A8DD9HJC4H
+
+note: Using codesigning identity override: -
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (3 targets)
+    Target 'AluaUITests' in project 'Alua'
+        ➜ Explicit dependency on target 'Alua' in project 'Alua'
+    Target 'Alua' in project 'Alua'
+        ➜ Explicit dependency on target 'AluaWidgets' in project 'Alua'
+    Target 'AluaWidgets' in project 'Alua' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache
+    cd /Users/yeskendir/Projects/Alua/frontend/Alua.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -o /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache
+
+SwiftDriver AluaUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AluaUITests -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -parse-as-library -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ AluaProductQATests.swift /Users/yeskendir/Projects/Alua/frontend/AluaUITests/AluaProductQATests.swift (in target 'AluaUITests' from project 'Alua')
+
+SwiftCompile normal arm64 /Users/yeskendir/Projects/Alua/frontend/AluaUITests/AluaProductQATests.swift (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-SwiftPerFileCompile AluaProductQATests.swift
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ AluaUITests (in target 'AluaUITests' from project 'Alua')
+
+SwiftCompile normal arm64 (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for AluaUITests (in target 'AluaUITests' from project 'Alua')
+
+SwiftDriver\ Compilation\ Requirements AluaUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AluaUITests -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -parse-as-library -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftsourceinfo (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftsourceinfo /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+Copy /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/arm64-apple-ios-simulator.abi.json /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.abi.json (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.abi.json /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftDriverJobDiscovery normal arm64 Compiling AluaProductQATests.swift (in target 'AluaUITests' from project 'Alua')
+
+SwiftDriver\ Compilation AluaUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AluaUITests -Onone @/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/alua-stage5-qa-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -parse-as-library -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/alua-stage5-qa-build/SDKStatCaches.noindex/iphonesimulator27.0-24A430-8dc58220667be655e1bcc261a7455254.sdkstatcache -output-file-map /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/alua-stage5-qa-build/ModuleCache.noindex -sdk-module-cache-path /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/alua-stage5-qa-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-generated-files.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-own-target-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests-project-headers.hmap -Xcc -I/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/include -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources-normal/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources/arm64 -Xcc -I/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests-Swift.h -working-directory /Users/yeskendir/Projects/Alua/frontend -experimental-emit-module-separately -disable-cmo
+
+Ld /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests normal (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/EagerLinkingTBDs/QA-iphonesimulator -L/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/tmp/alua-stage5-qa-build/Build/Intermediates.noindex/EagerLinkingTBDs/QA-iphonesimulator -F/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk/Developer/Library/Frameworks -filelist /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.swiftmodule -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.xctest-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.xctest-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests
+
+ExtractAppIntentsMetadata (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name AluaUITests --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 17.0 --bundle-identifier com.alua.app.uitests --output /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests --dependency-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests_dependency_info.dat --stringsdata-file /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftFileList --metadata-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.DependencyMetadataFileList --static-metadata-file-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/AluaUITests.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/Objects-normal/arm64/AluaUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-29 23:49:13.608 appintentsmetadataprocessor[51953:261886] Starting appintentsmetadataprocessor export
+2026-10-29 23:49:13.628 appintentsmetadataprocessor[51953:261886] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+CopySwiftLibs /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/AluaUITests --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Frameworks --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/PlugIns --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/SystemExtensions --scan-folder /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Extensions --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/Alua.build/QA-iphonesimulator/AluaUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app/PlugIns/AluaUITests.xctest
+
+CodeSign /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app (in target 'AluaUITests' from project 'Alua')
+    cd /Users/yeskendir/Projects/Alua/frontend
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app
+/tmp/alua-stage5-qa-build/Build/Products/QA-iphonesimulator/AluaUITests-Runner.app: replacing existing signature
+
+PruneExplicitPrecompiledModules /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/alua-stage5-qa-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/alua-stage5-qa-build/SDKExplicitPrecompiledModules
+
+2026-10-29 23:49:24.300468+0500 AluaUITests-Runner[52009:262469] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-29 23:49:32.584.
+2026-10-29 23:49:33.498 xcodebuild[51840:261034] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-10-29 23:49:33.499 xcodebuild[51840:261034] [MT] IDELaunchParametersSnapshot: no debugger version
+Test Suite 'AluaUITests.xctest' started at 2026-10-29 23:49:32.610.
+Test Suite 'AluaProductQATests' started at 2026-10-29 23:49:32.610.
+Test Case '-[AluaUITests.AluaProductQATests testFirstDay]' started.
+    t =     0.06s Start Test at 2026-10-29 23:49:32.667
+    t =     0.24s Set Up
+    t =     0.25s     Open com.alua.app
+    t =     0.25s         Launch com.alua.app
+objc[52009]: Class UIAccessibilityLoaderWebShared is implemented in both /private/var/run/com.apple.security.cryptexd/mnt/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.FA4n2t/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x1021f8398) and /private/var/run/com.apple.security.cryptexd/mnt/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.FA4n2t/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 27.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x105c28310). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =    11.65s             Setting up automation session
+    t =    13.36s             Wait for com.alua.app to idle
+    t =    16.62s Waiting 5.0s for SecureTextField (First Match) to exist
+    t =    17.65s     Checking `Expect predicate `existsNoRetry == 1` for object SecureTextField (First Match)`
+    t =    17.66s         Checking existence of `SecureTextField (First Match)`
+    t =    18.19s Tap SecureTextField (First Match)
+    t =    18.19s     Wait for com.alua.app to idle
+    t =    18.23s     Find the SecureTextField (First Match)
+    t =    18.32s     Check for interrupting elements affecting "Одноразовый код" SecureTextField
+    t =    18.42s     Synthesize event
+    t =    18.75s     Wait for com.alua.app to idle
+    t =    19.76s Type '111111111111111111...' into "Одноразовый код" SecureTextField
+    t =    19.76s     Wait for com.alua.app to idle
+    t =    20.03s     Find the "Одноразовый код" SecureTextField
+    t =    20.12s     Check for interrupting elements affecting "Одноразовый код" SecureTextField
+    t =    20.15s     Synthesize event
+    t =    20.90s     Wait for com.alua.app to idle
+    t =    20.91s Find the "Продолжить" Button
+    t =    20.99s Swipe up Target Application 'com.alua.app'
+    t =    20.99s     Wait for com.alua.app to idle
+    t =    20.99s     Find the Target Application 'com.alua.app'
+    t =    21.02s     Check for interrupting elements affecting "Alua" Application
+    t =    21.06s     Synthesize event
+    t =    21.50s     Wait for com.alua.app to idle
+    t =    21.98s Find the "Продолжить" Button
+    t =    22.06s Find the "Продолжить" Button
+    t =    22.11s Find the "Продолжить" Button
+    t =    22.19s Find the "Продолжить" Button
+    t =    22.24s Find the "Продолжить" Button
+    t =    22.29s Find the "Продолжить" Button
+    t =    22.34s Find the "Продолжить" Button
+    t =    22.40s Waiting 12.0s for "Продолжить" Button to exist
+    t =    23.45s     Checking `Expect predicate `existsNoRetry == 1` for object "Продолжить" Button`
+    t =    23.46s         Checking existence of `"Продолжить" Button`
+    t =    23.55s Tap "Продолжить" Button
+    t =    23.55s     Wait for com.alua.app to idle
+    t =    23.55s     Find the "Продолжить" Button
+    t =    23.60s     Check for interrupting elements affecting "Продолжить" Button
+    t =    23.65s     Synthesize event
+    t =    23.96s     Wait for com.alua.app to idle
+    t =    24.37s Waiting 20.0s for "Сегодня" Button to exist
+    t =    25.40s     Checking `Expect predicate `existsNoRetry == 1` for object "Сегодня" Button`
+    t =    25.41s         Checking existence of `"Сегодня" Button`
+    t =    26.95s Find the Target Application 'com.alua.app'
+    t =    27.57s Added attachment named '01-today-0-modern'
+    t =    27.58s Find the "today.diagnostic" Button
+    t =    27.73s Swipe up Target Application 'com.alua.app'
+    t =    27.73s     Wait for com.alua.app to idle
+    t =    27.74s     Find the Target Application 'com.alua.app'
+    t =    27.76s     Check for interrupting elements affecting "Alua" Application
+    t =    27.80s     Synthesize event
+    t =    28.22s     Wait for com.alua.app to idle
+    t =    28.95s Find the "today.diagnostic" Button
+    t =    29.03s Find the "today.diagnostic" Button
+    t =    29.08s Find the "today.diagnostic" Button
+    t =    29.15s Find the "today.diagnostic" Button
+    t =    29.24s Find the "today.diagnostic" Button
+    t =    29.31s Find the "today.diagnostic" Button
+    t =    29.38s Find the "today.diagnostic" Button
+    t =    29.44s Waiting 12.0s for "today.diagnostic" Button to exist
+    t =    30.47s     Checking `Expect predicate `existsNoRetry == 1` for object "today.diagnostic" Button`
+    t =    30.47s         Checking existence of `"today.diagnostic" Button`
+    t =    30.54s Tap "today.diagnostic" Button
+    t =    30.54s     Wait for com.alua.app to idle
+    t =    30.54s     Find the "today.diagnostic" Button
+    t =    30.59s     Check for interrupting elements affecting "today.diagnostic" Button
+    t =    30.64s     Synthesize event
+    t =    30.95s     Wait for com.alua.app to idle
+    t =    31.47s Find the "Не знаю" Button
+    t =    31.56s Find the "Не знаю" Button
+    t =    31.63s Find the "Не знаю" Button
+    t =    31.70s Find the "Не знаю" Button
+    t =    31.78s Find the "Не знаю" Button
+    t =    31.85s Find the "Не знаю" Button
+    t =    31.90s Find the "Не знаю" Button
+    t =    31.96s Find the "Не знаю" Button
+    t =    32.02s Waiting 12.0s for "Не знаю" Button to exist
+    t =    33.05s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    33.05s         Checking existence of `"Не знаю" Button`
+    t =    33.13s Tap "Не знаю" Button
+    t =    33.13s     Wait for com.alua.app to idle
+    t =    33.13s     Find the "Не знаю" Button
+    t =    33.19s     Check for interrupting elements affecting "Не знаю" Button
+    t =    33.23s     Synthesize event
+    t =    33.53s     Wait for com.alua.app to idle
+    t =    33.54s Find the "Не знаю" Button
+    t =    33.60s Find the "Не знаю" Button
+    t =    33.67s Find the "Не знаю" Button
+    t =    33.74s Find the "Не знаю" Button
+    t =    33.82s Find the "Не знаю" Button
+    t =    33.89s Find the "Не знаю" Button
+    t =    33.96s Find the "Не знаю" Button
+    t =    34.04s Find the "Не знаю" Button
+    t =    34.11s Waiting 12.0s for "Не знаю" Button to exist
+    t =    35.13s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    35.15s         Checking existence of `"Не знаю" Button`
+    t =    35.24s Tap "Не знаю" Button
+    t =    35.24s     Wait for com.alua.app to idle
+    t =    35.24s     Find the "Не знаю" Button
+    t =    35.29s     Check for interrupting elements affecting "Не знаю" Button
+    t =    35.36s     Synthesize event
+    t =    35.67s     Wait for com.alua.app to idle
+    t =    35.67s Find the "Не знаю" Button
+    t =    35.77s Find the "Не знаю" Button
+    t =    35.87s Find the "Не знаю" Button
+    t =    35.94s Find the "Не знаю" Button
+    t =    36.00s Find the "Не знаю" Button
+    t =    36.06s Find the "Не знаю" Button
+    t =    36.11s Find the "Не знаю" Button
+    t =    36.17s Find the "Не знаю" Button
+    t =    36.22s Waiting 12.0s for "Не знаю" Button to exist
+    t =    37.25s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    37.25s         Checking existence of `"Не знаю" Button`
+    t =    37.40s Tap "Не знаю" Button
+    t =    37.40s     Wait for com.alua.app to idle
+    t =    37.41s     Find the "Не знаю" Button
+    t =    37.46s     Check for interrupting elements affecting "Не знаю" Button
+    t =    37.54s     Synthesize event
+    t =    37.91s     Wait for com.alua.app to idle
+    t =    37.91s Find the "Не знаю" Button
+    t =    37.98s Find the "Не знаю" Button
+    t =    38.07s Find the "Не знаю" Button
+    t =    38.13s Find the "Не знаю" Button
+    t =    38.18s Find the "Не знаю" Button
+    t =    38.24s Find the "Не знаю" Button
+    t =    38.33s Find the "Не знаю" Button
+    t =    38.38s Find the "Не знаю" Button
+    t =    38.44s Waiting 12.0s for "Не знаю" Button to exist
+    t =    39.47s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    39.47s         Checking existence of `"Не знаю" Button`
+    t =    39.52s Tap "Не знаю" Button
+    t =    39.52s     Wait for com.alua.app to idle
+    t =    39.52s     Find the "Не знаю" Button
+    t =    39.57s     Check for interrupting elements affecting "Не знаю" Button
+    t =    39.61s     Synthesize event
+    t =    39.90s     Wait for com.alua.app to idle
+    t =    39.91s Find the "Не знаю" Button
+    t =    39.97s Find the "Не знаю" Button
+    t =    40.07s Find the "Не знаю" Button
+    t =    40.13s Find the "Не знаю" Button
+    t =    40.19s Find the "Не знаю" Button
+    t =    40.25s Find the "Не знаю" Button
+    t =    40.31s Find the "Не знаю" Button
+    t =    40.36s Find the "Не знаю" Button
+    t =    40.42s Waiting 12.0s for "Не знаю" Button to exist
+    t =    41.45s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    41.47s         Checking existence of `"Не знаю" Button`
+    t =    41.54s Tap "Не знаю" Button
+    t =    41.54s     Wait for com.alua.app to idle
+    t =    41.54s     Find the "Не знаю" Button
+    t =    41.59s     Check for interrupting elements affecting "Не знаю" Button
+    t =    41.64s     Synthesize event
+    t =    41.94s     Wait for com.alua.app to idle
+    t =    41.95s Find the "Не знаю" Button
+    t =    42.01s Find the "Не знаю" Button
+    t =    42.06s Find the "Не знаю" Button
+    t =    42.12s Find the "Не знаю" Button
+    t =    42.17s Find the "Не знаю" Button
+    t =    42.23s Find the "Не знаю" Button
+    t =    42.28s Find the "Не знаю" Button
+    t =    42.33s Find the "Не знаю" Button
+    t =    42.38s Waiting 12.0s for "Не знаю" Button to exist
+    t =    43.41s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    43.41s         Checking existence of `"Не знаю" Button`
+    t =    43.49s Tap "Не знаю" Button
+    t =    43.49s     Wait for com.alua.app to idle
+    t =    43.50s     Find the "Не знаю" Button
+    t =    43.54s     Check for interrupting elements affecting "Не знаю" Button
+    t =    43.59s     Synthesize event
+    t =    43.88s     Wait for com.alua.app to idle
+    t =    43.89s Find the "Не знаю" Button
+    t =    43.96s Find the "Не знаю" Button
+    t =    44.01s Find the "Не знаю" Button
+    t =    44.06s Find the "Не знаю" Button
+    t =    44.12s Find the "Не знаю" Button
+    t =    44.17s Find the "Не знаю" Button
+    t =    44.22s Find the "Не знаю" Button
+    t =    44.27s Find the "Не знаю" Button
+    t =    44.32s Waiting 12.0s for "Не знаю" Button to exist
+    t =    45.35s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    45.36s         Checking existence of `"Не знаю" Button`
+    t =    45.51s Tap "Не знаю" Button
+    t =    45.51s     Wait for com.alua.app to idle
+    t =    45.52s     Find the "Не знаю" Button
+    t =    45.56s     Check for interrupting elements affecting "Не знаю" Button
+    t =    45.88s     Synthesize event
+    t =    46.19s     Wait for com.alua.app to idle
+    t =    46.19s Find the "Не знаю" Button
+    t =    46.28s Find the "Не знаю" Button
+    t =    46.33s Find the "Не знаю" Button
+    t =    46.39s Find the "Не знаю" Button
+    t =    46.44s Find the "Не знаю" Button
+    t =    46.50s Find the "Не знаю" Button
+    t =    46.55s Find the "Не знаю" Button
+    t =    46.60s Find the "Не знаю" Button
+    t =    46.67s Waiting 12.0s for "Не знаю" Button to exist
+    t =    47.70s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    47.70s         Checking existence of `"Не знаю" Button`
+    t =    47.89s Tap "Не знаю" Button
+    t =    47.89s     Wait for com.alua.app to idle
+    t =    47.89s     Find the "Не знаю" Button
+    t =    47.94s     Check for interrupting elements affecting "Не знаю" Button
+    t =    48.04s     Synthesize event
+    t =    48.33s     Wait for com.alua.app to idle
+    t =    48.34s Find the "Не знаю" Button
+    t =    48.41s Find the "Не знаю" Button
+    t =    48.46s Find the "Не знаю" Button
+    t =    48.52s Find the "Не знаю" Button
+    t =    48.57s Find the "Не знаю" Button
+    t =    48.63s Find the "Не знаю" Button
+    t =    48.69s Find the "Не знаю" Button
+    t =    48.79s Find the "Не знаю" Button
+    t =    48.85s Waiting 12.0s for "Не знаю" Button to exist
+    t =    49.88s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    49.88s         Checking existence of `"Не знаю" Button`
+    t =    50.05s Tap "Не знаю" Button
+    t =    50.05s     Wait for com.alua.app to idle
+    t =    50.05s     Find the "Не знаю" Button
+    t =    50.10s     Check for interrupting elements affecting "Не знаю" Button
+    t =    50.20s     Synthesize event
+    t =    50.51s     Wait for com.alua.app to idle
+    t =    50.51s Find the "Не знаю" Button
+    t =    50.58s Find the "Не знаю" Button
+    t =    50.63s Find the "Не знаю" Button
+    t =    50.68s Find the "Не знаю" Button
+    t =    50.74s Find the "Не знаю" Button
+    t =    50.79s Find the "Не знаю" Button
+    t =    51.01s Find the "Не знаю" Button
+    t =    51.11s Find the "Не знаю" Button
+    t =    51.16s Waiting 12.0s for "Не знаю" Button to exist
+    t =    52.22s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    52.25s         Checking existence of `"Не знаю" Button`
+    t =    52.41s Tap "Не знаю" Button
+    t =    52.41s     Wait for com.alua.app to idle
+    t =    52.42s     Find the "Не знаю" Button
+    t =    52.46s     Check for interrupting elements affecting "Не знаю" Button
+    t =    52.56s     Synthesize event
+    t =    52.88s     Wait for com.alua.app to idle
+    t =    52.88s Find the "Не знаю" Button
+    t =    52.94s Find the "Не знаю" Button
+    t =    53.00s Find the "Не знаю" Button
+    t =    53.05s Find the "Не знаю" Button
+    t =    53.10s Find the "Не знаю" Button
+    t =    53.15s Find the "Не знаю" Button
+    t =    53.20s Find the "Не знаю" Button
+    t =    53.26s Find the "Не знаю" Button
+    t =    53.31s Waiting 12.0s for "Не знаю" Button to exist
+    t =    54.33s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    54.36s         Checking existence of `"Не знаю" Button`
+    t =    54.52s Tap "Не знаю" Button
+    t =    54.52s     Wait for com.alua.app to idle
+    t =    54.52s     Find the "Не знаю" Button
+    t =    54.57s     Check for interrupting elements affecting "Не знаю" Button
+    t =    54.69s     Synthesize event
+    t =    55.00s     Wait for com.alua.app to idle
+    t =    55.06s Find the "Не знаю" Button
+    t =    55.11s Find the "Не знаю" Button
+    t =    55.17s Find the "Не знаю" Button
+    t =    55.22s Find the "Не знаю" Button
+    t =    55.27s Find the "Не знаю" Button
+    t =    55.35s Find the "Не знаю" Button
+    t =    55.40s Find the "Не знаю" Button
+    t =    55.45s Find the "Не знаю" Button
+    t =    55.50s Waiting 12.0s for "Не знаю" Button to exist
+    t =    56.55s     Checking `Expect predicate `existsNoRetry == 1` for object "Не знаю" Button`
+    t =    56.58s         Checking existence of `"Не знаю" Button`
+    t =    56.76s Tap "Не знаю" Button
+    t =    56.76s     Wait for com.alua.app to idle
+    t =    56.77s     Find the "Не знаю" Button
+    t =    56.81s     Check for interrupting elements affecting "Не знаю" Button
+    t =    57.32s     Synthesize event
+    t =    57.68s     Wait for com.alua.app to idle
+    t =    57.77s Waiting 10.0s for "Отправная точка" StaticText to exist
+    t =    58.78s     Checking `Expect predicate `existsNoRetry == 1` for object "Отправная точка" StaticText`
+    t =    58.79s         Checking existence of `"Отправная точка" StaticText`
+    t =    58.93s Find the Target Application 'com.alua.app'
+    t =    59.22s Added attachment named '02-diagnostic-result'
+    t =    59.22s Tap Button (Element at index 0)
+    t =    59.22s     Wait for com.alua.app to idle
+    t =    59.22s     Find the Button (Element at index 0)
+    t =    59.26s     Check for interrupting elements affecting "BackButton" Button
+    t =    59.30s     Synthesize event
+    t =    59.64s     Wait for com.alua.app to idle
+    t =    60.71s Find the "study.start" Button
+    t =    60.90s Find the "study.start" Button
+    t =    60.96s Find the "study.start" Button
+    t =    61.05s Find the "study.start" Button
+    t =    61.10s Find the "study.start" Button
+    t =    61.15s Find the "study.start" Button
+    t =    61.39s Find the "study.start" Button
+    t =    61.48s Find the "study.start" Button
+    t =    61.53s Waiting 12.0s for "study.start" Button to exist
+    t =    62.54s     Checking `Expect predicate `existsNoRetry == 1` for object "study.start" Button`
+    t =    62.57s         Checking existence of `"study.start" Button`
+    t =    62.66s Tap "study.start" Button
+    t =    62.66s     Wait for com.alua.app to idle
+    t =    62.67s     Find the "study.start" Button
+    t =    62.71s     Check for interrupting elements affecting "study.start" Button
+    t =    62.80s     Synthesize event
+    t =    63.13s     Wait for com.alua.app to idle
+    t =    63.87s Find the "lesson.next" Button
+    t =    64.80s Find the "lesson.next" Button
+    t =    64.85s Find the "lesson.next" Button
+    t =    64.91s Find the "lesson.next" Button
+    t =    64.97s Find the "lesson.next" Button
+    t =    65.02s Find the "lesson.next" Button
+    t =    65.08s Find the "lesson.next" Button
+    t =    65.13s Find the "lesson.next" Button
+    t =    65.18s Waiting 10.0s for "lesson.next" Button to exist
+    t =    66.18s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    66.18s         Checking existence of `"lesson.next" Button`
+    t =    66.38s Tap "lesson.next" Button
+    t =    66.38s     Wait for com.alua.app to idle
+    t =    66.38s     Find the "lesson.next" Button
+    t =    66.43s     Check for interrupting elements affecting "lesson.next" Button
+    t =    66.77s     Synthesize event
+    t =    67.07s     Wait for com.alua.app to idle
+    t =    67.33s Find the "lesson.next" Button
+    t =    67.40s Find the "lesson.next" Button
+    t =    67.45s Find the "lesson.next" Button
+    t =    67.51s Find the "lesson.next" Button
+    t =    67.57s Find the "lesson.next" Button
+    t =    67.62s Find the "lesson.next" Button
+    t =    67.67s Find the "lesson.next" Button
+    t =    67.72s Find the "lesson.next" Button
+    t =    67.79s Waiting 10.0s for "lesson.next" Button to exist
+    t =    68.83s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    68.84s         Checking existence of `"lesson.next" Button`
+    t =    68.92s Tap "lesson.next" Button
+    t =    68.92s     Wait for com.alua.app to idle
+    t =    68.92s     Find the "lesson.next" Button
+    t =    68.97s     Check for interrupting elements affecting "lesson.next" Button
+    t =    69.01s     Synthesize event
+    t =    69.32s     Wait for com.alua.app to idle
+    t =    69.58s Find the "lesson.next" Button
+    t =    69.84s Find the "lesson.next" Button
+    t =    69.89s Find the "lesson.next" Button
+    t =    69.95s Find the "lesson.next" Button
+    t =    70.00s Find the "lesson.next" Button
+    t =    70.13s Find the "lesson.next" Button
+    t =    70.18s Find the "lesson.next" Button
+    t =    70.23s Find the "lesson.next" Button
+    t =    70.29s Waiting 10.0s for "lesson.next" Button to exist
+    t =    71.33s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    71.38s         Checking existence of `"lesson.next" Button`
+    t =    71.53s Tap "lesson.next" Button
+    t =    71.53s     Wait for com.alua.app to idle
+    t =    71.53s     Find the "lesson.next" Button
+    t =    71.59s     Check for interrupting elements affecting "lesson.next" Button
+    t =    71.65s     Synthesize event
+    t =    71.97s     Wait for com.alua.app to idle
+    t =    72.26s Find the "lesson.next" Button
+    t =    72.38s Find the "lesson.next" Button
+    t =    72.43s Find the "lesson.next" Button
+    t =    72.48s Find the "lesson.next" Button
+    t =    72.54s Find the "lesson.next" Button
+    t =    72.59s Find the "lesson.next" Button
+    t =    72.67s Find the "lesson.next" Button
+    t =    72.73s Find the "lesson.next" Button
+    t =    72.78s Waiting 10.0s for "lesson.next" Button to exist
+    t =    73.81s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    73.86s         Checking existence of `"lesson.next" Button`
+    t =    73.95s Tap "lesson.next" Button
+    t =    73.95s     Wait for com.alua.app to idle
+    t =    73.95s     Find the "lesson.next" Button
+    t =    73.99s     Check for interrupting elements affecting "lesson.next" Button
+    t =    74.03s     Synthesize event
+    t =    74.33s     Wait for com.alua.app to idle
+    t =    74.61s Find the "lesson.next" Button
+    t =    74.82s Find the "lesson.next" Button
+    t =    74.88s Find the "lesson.next" Button
+    t =    74.93s Find the "lesson.next" Button
+    t =    75.01s Find the "lesson.next" Button
+    t =    75.06s Find the "lesson.next" Button
+    t =    75.12s Find the "lesson.next" Button
+    t =    75.17s Find the "lesson.next" Button
+    t =    75.22s Waiting 10.0s for "lesson.next" Button to exist
+    t =    76.28s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    76.29s         Checking existence of `"lesson.next" Button`
+    t =    76.46s Tap "lesson.next" Button
+    t =    76.46s     Wait for com.alua.app to idle
+    t =    76.47s     Find the "lesson.next" Button
+    t =    76.51s     Check for interrupting elements affecting "lesson.next" Button
+    t =    76.58s     Synthesize event
+    t =    76.92s     Wait for com.alua.app to idle
+    t =    77.24s Find the "lesson.next" Button
+    t =    77.34s Find the "lesson.next" Button
+    t =    77.39s Find the "lesson.next" Button
+    t =    77.45s Find the "lesson.next" Button
+    t =    77.50s Find the "lesson.next" Button
+    t =    77.78s Find the "lesson.next" Button
+    t =    77.92s Find the "lesson.next" Button
+    t =    77.97s Find the "lesson.next" Button
+    t =    78.03s Waiting 10.0s for "lesson.next" Button to exist
+    t =    79.05s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    79.07s         Checking existence of `"lesson.next" Button`
+    t =    79.24s Tap "lesson.next" Button
+    t =    79.24s     Wait for com.alua.app to idle
+    t =    79.25s     Find the "lesson.next" Button
+    t =    79.30s     Check for interrupting elements affecting "lesson.next" Button
+    t =    79.42s     Synthesize event
+    t =    79.75s     Wait for com.alua.app to idle
+    t =    80.01s Find the "lesson.next" Button
+    t =    80.07s Find the "lesson.next" Button
+    t =    80.13s Find the "lesson.next" Button
+    t =    80.19s Find the "lesson.next" Button
+    t =    80.24s Find the "lesson.next" Button
+    t =    80.30s Find the "lesson.next" Button
+    t =    80.35s Find the "lesson.next" Button
+    t =    80.41s Find the "lesson.next" Button
+    t =    80.47s Waiting 10.0s for "lesson.next" Button to exist
+    t =    81.48s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    81.49s         Checking existence of `"lesson.next" Button`
+    t =    81.88s Tap "lesson.next" Button
+    t =    81.88s     Wait for com.alua.app to idle
+    t =    81.89s     Find the "lesson.next" Button
+    t =    81.94s     Check for interrupting elements affecting "lesson.next" Button
+    t =    82.10s     Synthesize event
+    t =    82.44s     Wait for com.alua.app to idle
+    t =    82.86s Find the "lesson.next" Button
+    t =    82.91s Find the "lesson.next" Button
+    t =    82.97s Find the "lesson.next" Button
+    t =    83.02s Find the "lesson.next" Button
+    t =    83.18s Find the "lesson.next" Button
+    t =    83.29s Find the "lesson.next" Button
+    t =    83.36s Find the "lesson.next" Button
+    t =    83.44s Find the "lesson.next" Button
+    t =    83.55s Waiting 10.0s for "lesson.next" Button to exist
+    t =    84.58s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    84.60s         Checking existence of `"lesson.next" Button`
+    t =    84.74s Tap "lesson.next" Button
+    t =    84.74s     Wait for com.alua.app to idle
+    t =    84.74s     Find the "lesson.next" Button
+    t =    84.79s     Check for interrupting elements affecting "lesson.next" Button
+    t =    84.84s     Synthesize event
+    t =    85.15s     Wait for com.alua.app to idle
+    t =    85.41s Find the "lesson.next" Button
+    t =    85.65s Find the "lesson.next" Button
+    t =    85.70s Find the "lesson.next" Button
+    t =    85.75s Find the "lesson.next" Button
+    t =    85.91s Find the "lesson.next" Button
+    t =    85.96s Find the "lesson.next" Button
+    t =    86.01s Find the "lesson.next" Button
+    t =    86.06s Find the "lesson.next" Button
+    t =    86.12s Waiting 10.0s for "lesson.next" Button to exist
+    t =    87.13s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    87.13s         Checking existence of `"lesson.next" Button`
+    t =    87.26s Tap "lesson.next" Button
+    t =    87.26s     Wait for com.alua.app to idle
+    t =    87.27s     Find the "lesson.next" Button
+    t =    87.31s     Check for interrupting elements affecting "lesson.next" Button
+    t =    87.37s     Synthesize event
+    t =    87.67s     Wait for com.alua.app to idle
+    t =    87.93s Find the "lesson.next" Button
+    t =    88.04s Find the "lesson.next" Button
+    t =    88.13s Find the "lesson.next" Button
+    t =    88.19s Find the "lesson.next" Button
+    t =    88.24s Find the "lesson.next" Button
+    t =    88.29s Find the "lesson.next" Button
+    t =    88.45s Find the "lesson.next" Button
+    t =    88.61s Find the "lesson.next" Button
+    t =    88.66s Waiting 10.0s for "lesson.next" Button to exist
+    t =    89.75s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =    89.76s         Checking existence of `"lesson.next" Button`
+    t =    89.91s Tap "lesson.next" Button
+    t =    89.91s     Wait for com.alua.app to idle
+    t =    89.91s     Find the "lesson.next" Button
+    t =    89.96s     Check for interrupting elements affecting "lesson.next" Button
+    t =    90.01s     Synthesize event
+    t =    90.34s     Wait for com.alua.app to idle
+    t =    91.08s Waiting 8.0s for "Подход завершён" StaticText to exist
+    t =    92.17s     Checking `Expect predicate `existsNoRetry == 1` for object "Подход завершён" StaticText`
+    t =    92.18s         Checking existence of `"Подход завершён" StaticText`
+    t =    92.36s Find the Target Application 'com.alua.app'
+    t =    92.60s Added attachment named '03-lesson-pause-10'
+    t =    92.60s Find the "Закончить пока" Button
+    t =    92.65s Find the "Закончить пока" Button
+    t =    92.68s Find the "Закончить пока" Button
+    t =    92.72s Find the "Закончить пока" Button
+    t =    92.76s Find the "Закончить пока" Button
+    t =    92.79s Find the "Закончить пока" Button
+    t =    92.85s Find the "Закончить пока" Button
+    t =    92.96s Find the "Закончить пока" Button
+    t =    93.00s Waiting 12.0s for "Закончить пока" Button to exist
+    t =    94.02s     Checking `Expect predicate `existsNoRetry == 1` for object "Закончить пока" Button`
+    t =    94.04s         Checking existence of `"Закончить пока" Button`
+    t =    94.11s Tap "Закончить пока" Button
+    t =    94.11s     Wait for com.alua.app to idle
+    t =    94.11s     Find the "Закончить пока" Button
+    t =    94.14s     Check for interrupting elements affecting "Закончить пока" Button
+    t =    94.26s     Synthesize event
+    t =    94.57s     Wait for com.alua.app to idle
+    t =    95.12s Find the "study.start" Button
+    t =    95.32s Find the "study.start" Button
+    t =    95.37s Find the "study.start" Button
+    t =    95.41s Find the "study.start" Button
+    t =    95.56s Find the "study.start" Button
+    t =    95.64s Find the "study.start" Button
+    t =    95.69s Find the "study.start" Button
+    t =    95.74s Find the "study.start" Button
+    t =    95.78s Waiting 12.0s for "study.start" Button to exist
+    t =    96.80s     Checking `Expect predicate `existsNoRetry == 1` for object "study.start" Button`
+    t =    96.83s         Checking existence of `"study.start" Button`
+    t =    96.97s Tap "study.start" Button
+    t =    96.97s     Wait for com.alua.app to idle
+    t =    96.97s     Find the "study.start" Button
+    t =    97.01s     Check for interrupting elements affecting "study.start" Button
+    t =    97.08s     Synthesize event
+    t =    97.40s     Wait for com.alua.app to idle
+    t =    98.12s Waiting 8.0s for "job" StaticText to exist
+    t =    99.15s     Checking `Expect predicate `existsNoRetry == 1` for object "job" StaticText`
+    t =    99.16s         Checking existence of `"job" StaticText`
+    t =    99.39s Find the "lesson.next" Button
+    t =    99.47s Find the "lesson.next" Button
+    t =    99.52s Find the "lesson.next" Button
+    t =    99.61s Find the "lesson.next" Button
+    t =    99.77s Find the "lesson.next" Button
+    t =    99.82s Find the "lesson.next" Button
+    t =    99.87s Find the "lesson.next" Button
+    t =    99.92s Find the "lesson.next" Button
+    t =   100.03s Waiting 10.0s for "lesson.next" Button to exist
+    t =   101.07s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   101.07s         Checking existence of `"lesson.next" Button`
+    t =   101.24s Tap "lesson.next" Button
+    t =   101.24s     Wait for com.alua.app to idle
+    t =   101.25s     Find the "lesson.next" Button
+    t =   101.29s     Check for interrupting elements affecting "lesson.next" Button
+    t =   101.36s     Synthesize event
+    t =   101.66s     Wait for com.alua.app to idle
+    t =   101.92s Find the "lesson.next" Button
+    t =   101.99s Find the "lesson.next" Button
+    t =   102.04s Find the "lesson.next" Button
+    t =   102.24s Find the "lesson.next" Button
+    t =   102.29s Find the "lesson.next" Button
+    t =   102.35s Find the "lesson.next" Button
+    t =   102.45s Find the "lesson.next" Button
+    t =   102.51s Find the "lesson.next" Button
+    t =   102.57s Waiting 10.0s for "lesson.next" Button to exist
+    t =   103.57s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   103.58s         Checking existence of `"lesson.next" Button`
+    t =   103.70s Tap "lesson.next" Button
+    t =   103.70s     Wait for com.alua.app to idle
+    t =   103.70s     Find the "lesson.next" Button
+    t =   103.74s     Check for interrupting elements affecting "lesson.next" Button
+    t =   103.79s     Synthesize event
+    t =   104.08s     Wait for com.alua.app to idle
+    t =   104.35s Find the "lesson.next" Button
+    t =   104.48s Find the "lesson.next" Button
+    t =   104.53s Find the "lesson.next" Button
+    t =   104.59s Find the "lesson.next" Button
+    t =   104.65s Find the "lesson.next" Button
+    t =   104.71s Find the "lesson.next" Button
+    t =   104.77s Find the "lesson.next" Button
+    t =   104.84s Find the "lesson.next" Button
+    t =   104.91s Waiting 10.0s for "lesson.next" Button to exist
+    t =   105.91s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   105.91s         Checking existence of `"lesson.next" Button`
+    t =   106.01s Tap "lesson.next" Button
+    t =   106.01s     Wait for com.alua.app to idle
+    t =   106.01s     Find the "lesson.next" Button
+    t =   106.06s     Check for interrupting elements affecting "lesson.next" Button
+    t =   106.11s     Synthesize event
+    t =   106.42s     Wait for com.alua.app to idle
+    t =   106.68s Find the "lesson.next" Button
+    t =   106.77s Find the "lesson.next" Button
+    t =   106.83s Find the "lesson.next" Button
+    t =   106.92s Find the "lesson.next" Button
+    t =   106.98s Find the "lesson.next" Button
+    t =   107.03s Find the "lesson.next" Button
+    t =   107.08s Find the "lesson.next" Button
+    t =   107.14s Find the "lesson.next" Button
+    t =   107.24s Waiting 10.0s for "lesson.next" Button to exist
+    t =   108.25s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   108.26s         Checking existence of `"lesson.next" Button`
+    t =   108.39s Tap "lesson.next" Button
+    t =   108.39s     Wait for com.alua.app to idle
+    t =   108.40s     Find the "lesson.next" Button
+    t =   108.44s     Check for interrupting elements affecting "lesson.next" Button
+    t =   108.48s     Synthesize event
+    t =   108.78s     Wait for com.alua.app to idle
+    t =   109.04s Find the "lesson.next" Button
+    t =   109.14s Find the "lesson.next" Button
+    t =   109.31s Find the "lesson.next" Button
+    t =   109.50s Find the "lesson.next" Button
+    t =   109.57s Find the "lesson.next" Button
+    t =   109.77s Find the "lesson.next" Button
+    t =   110.26s Find the "lesson.next" Button
+    t =   110.36s Find the "lesson.next" Button
+    t =   110.43s Waiting 10.0s for "lesson.next" Button to exist
+    t =   111.51s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   111.51s         Checking existence of `"lesson.next" Button`
+    t =   111.63s Tap "lesson.next" Button
+    t =   111.63s     Wait for com.alua.app to idle
+    t =   111.63s     Find the "lesson.next" Button
+    t =   111.68s     Check for interrupting elements affecting "lesson.next" Button
+    t =   111.85s     Synthesize event
+    t =   112.28s     Wait for com.alua.app to idle
+    t =   113.63s Find the "lesson.next" Button
+    t =   114.04s Find the "lesson.next" Button
+    t =   114.13s Find the "lesson.next" Button
+    t =   114.21s Find the "lesson.next" Button
+    t =   114.68s Find the "lesson.next" Button
+    t =   114.83s Find the "lesson.next" Button
+    t =   114.96s Find the "lesson.next" Button
+    t =   115.12s Find the "lesson.next" Button
+    t =   115.22s Waiting 10.0s for "lesson.next" Button to exist
+    t =   116.23s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   116.23s         Checking existence of `"lesson.next" Button`
+    t =   116.30s Tap "lesson.next" Button
+    t =   116.30s     Wait for com.alua.app to idle
+    t =   116.32s     Find the "lesson.next" Button
+    t =   116.46s     Check for interrupting elements affecting "lesson.next" Button
+    t =   116.74s     Synthesize event
+    t =   117.12s     Wait for com.alua.app to idle
+    t =   118.13s Find the "lesson.next" Button
+    t =   118.51s Find the "lesson.next" Button
+    t =   118.57s Find the "lesson.next" Button
+    t =   118.63s Find the "lesson.next" Button
+    t =   118.68s Find the "lesson.next" Button
+    t =   118.74s Find the "lesson.next" Button
+    t =   118.79s Find the "lesson.next" Button
+    t =   118.84s Find the "lesson.next" Button
+    t =   118.89s Waiting 10.0s for "lesson.next" Button to exist
+    t =   119.97s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   120.00s         Checking existence of `"lesson.next" Button`
+    t =   120.44s Tap "lesson.next" Button
+    t =   120.44s     Wait for com.alua.app to idle
+    t =   120.45s     Find the "lesson.next" Button
+    t =   120.49s     Check for interrupting elements affecting "lesson.next" Button
+    t =   120.57s     Synthesize event
+    t =   120.98s     Wait for com.alua.app to idle
+    t =   121.24s Find the "lesson.next" Button
+    t =   121.34s Find the "lesson.next" Button
+    t =   121.40s Find the "lesson.next" Button
+    t =   121.45s Find the "lesson.next" Button
+    t =   121.74s Find the "lesson.next" Button
+    t =   121.87s Find the "lesson.next" Button
+    t =   121.94s Find the "lesson.next" Button
+    t =   121.99s Find the "lesson.next" Button
+    t =   122.11s Waiting 10.0s for "lesson.next" Button to exist
+    t =   123.16s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   123.16s         Checking existence of `"lesson.next" Button`
+    t =   123.49s Tap "lesson.next" Button
+    t =   123.49s     Wait for com.alua.app to idle
+    t =   123.50s     Find the "lesson.next" Button
+    t =   123.55s     Check for interrupting elements affecting "lesson.next" Button
+    t =   123.61s     Synthesize event
+    t =   123.96s     Wait for com.alua.app to idle
+    t =   124.22s Find the "Закрыть" Button
+    t =   124.28s Find the "xmark" Button
+    t =   124.31s Find the "xmark" Button
+    t =   124.34s Find the "xmark" Button
+    t =   124.38s Find the "xmark" Button
+    t =   124.41s Find the "xmark" Button
+    t =   124.50s Find the "xmark" Button
+    t =   124.53s Find the "xmark" Button
+    t =   124.56s Waiting 12.0s for "xmark" Button to exist
+    t =   125.59s     Checking `Expect predicate `existsNoRetry == 1` for object "xmark" Button`
+    t =   125.60s         Checking existence of `"xmark" Button`
+    t =   125.93s Tap "xmark" Button
+    t =   125.93s     Wait for com.alua.app to idle
+    t =   125.97s     Find the "xmark" Button
+    t =   126.00s     Check for interrupting elements affecting "xmark" Button
+    t =   126.32s     Synthesize event
+    t =   126.67s     Wait for com.alua.app to idle
+    t =   128.23s Find the Target Application 'com.alua.app'
+    t =   128.53s Added attachment named '04-today-18-modern'
+    t =   128.53s Terminate com.alua.app:52185
+    t =   135.61s Open com.alua.app
+    t =   135.61s     Launch com.alua.app
+2026-10-29 23:51:48.249 xcodebuild[51840:261034] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-10-29 23:51:48.249 xcodebuild[51840:261034] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =   138.12s         Setting up automation session
+    t =   144.85s         Wait for com.alua.app to idle
+    t =   148.34s Find the "study.start" Button
+    t =   150.72s Find the "study.start" Button
+    t =   150.78s Find the "study.start" Button
+    t =   150.85s Find the "study.start" Button
+    t =   150.91s Find the "study.start" Button
+    t =   150.97s Find the "study.start" Button
+    t =   151.02s Find the "study.start" Button
+    t =   151.07s Find the "study.start" Button
+    t =   151.13s Waiting 12.0s for "study.start" Button to exist
+    t =   152.13s     Checking `Expect predicate `existsNoRetry == 1` for object "study.start" Button`
+    t =   152.19s         Checking existence of `"study.start" Button`
+    t =   152.39s Tap "study.start" Button
+    t =   152.39s     Wait for com.alua.app to idle
+    t =   152.40s     Find the "study.start" Button
+    t =   152.44s     Check for interrupting elements affecting "study.start" Button
+    t =   152.67s     Synthesize event
+    t =   153.02s     Wait for com.alua.app to idle
+    t =   153.25s Waiting 10.0s for "street" StaticText to exist
+    t =   154.26s     Checking `Expect predicate `existsNoRetry == 1` for object "street" StaticText`
+    t =   154.27s         Checking existence of `"street" StaticText`
+    t =   154.87s Find the "lesson.next" Button
+    t =   154.95s Find the "lesson.next" Button
+    t =   155.01s Find the "lesson.next" Button
+    t =   155.06s Find the "lesson.next" Button
+    t =   155.13s Find the "lesson.next" Button
+    t =   155.18s Find the "lesson.next" Button
+    t =   155.23s Find the "lesson.next" Button
+    t =   155.41s Find the "lesson.next" Button
+    t =   155.51s Waiting 10.0s for "lesson.next" Button to exist
+    t =   156.53s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   156.55s         Checking existence of `"lesson.next" Button`
+    t =   156.73s Tap "lesson.next" Button
+    t =   156.73s     Wait for com.alua.app to idle
+    t =   156.73s     Find the "lesson.next" Button
+    t =   156.78s     Check for interrupting elements affecting "lesson.next" Button
+    t =   156.88s     Synthesize event
+    t =   157.22s     Wait for com.alua.app to idle
+    t =   157.92s Find the "lesson.next" Button
+    t =   157.99s Find the "lesson.next" Button
+    t =   158.06s Find the "lesson.next" Button
+    t =   158.12s Find the "lesson.next" Button
+    t =   158.18s Find the "lesson.next" Button
+    t =   158.26s Find the "lesson.next" Button
+    t =   158.33s Find the "lesson.next" Button
+    t =   158.38s Find the "lesson.next" Button
+    t =   158.44s Waiting 10.0s for "lesson.next" Button to exist
+    t =   159.48s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   159.51s         Checking existence of `"lesson.next" Button`
+    t =   159.75s Tap "lesson.next" Button
+    t =   159.75s     Wait for com.alua.app to idle
+    t =   159.75s     Find the "lesson.next" Button
+    t =   159.80s     Check for interrupting elements affecting "lesson.next" Button
+    t =   159.87s     Synthesize event
+    t =   160.18s     Wait for com.alua.app to idle
+    t =   160.73s Find the Target Application 'com.alua.app'
+    t =   161.06s Added attachment named '05-lesson-pause-20'
+    t =   161.06s Find the "Продолжить" Button
+    t =   161.11s Find the "Продолжить" Button
+    t =   161.14s Find the "Продолжить" Button
+    t =   161.18s Find the "Продолжить" Button
+    t =   161.21s Find the "Продолжить" Button
+    t =   161.25s Find the "Продолжить" Button
+    t =   161.28s Find the "Продолжить" Button
+    t =   161.34s Find the "Продолжить" Button
+    t =   161.44s Waiting 12.0s for "Продолжить" Button to exist
+    t =   162.47s     Checking `Expect predicate `existsNoRetry == 1` for object "Продолжить" Button`
+    t =   162.56s         Checking existence of `"Продолжить" Button`
+    t =   162.79s Tap "Продолжить" Button
+    t =   162.79s     Wait for com.alua.app to idle
+    t =   162.80s     Find the "Продолжить" Button
+    t =   162.82s     Check for interrupting elements affecting "Продолжить" Button
+    t =   163.02s     Synthesize event
+    t =   163.41s     Wait for com.alua.app to idle
+    t =   164.00s Find the "lesson.next" Button
+    t =   164.14s Find the "lesson.next" Button
+    t =   164.21s Find the "lesson.next" Button
+    t =   164.26s Find the "lesson.next" Button
+    t =   164.42s Find the "lesson.next" Button
+    t =   164.50s Find the "lesson.next" Button
+    t =   164.55s Find the "lesson.next" Button
+    t =   164.65s Find the "lesson.next" Button
+    t =   164.70s Waiting 10.0s for "lesson.next" Button to exist
+    t =   165.71s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   165.72s         Checking existence of `"lesson.next" Button`
+    t =   165.81s Tap "lesson.next" Button
+    t =   165.81s     Wait for com.alua.app to idle
+    t =   165.81s     Find the "lesson.next" Button
+    t =   165.86s     Check for interrupting elements affecting "lesson.next" Button
+    t =   165.90s     Synthesize event
+    t =   166.25s     Wait for com.alua.app to idle
+    t =   166.51s Find the "lesson.next" Button
+    t =   166.73s Find the "lesson.next" Button
+    t =   166.79s Find the "lesson.next" Button
+    t =   166.84s Find the "lesson.next" Button
+    t =   167.03s Find the "lesson.next" Button
+    t =   167.13s Find the "lesson.next" Button
+    t =   167.18s Find the "lesson.next" Button
+    t =   167.30s Find the "lesson.next" Button
+    t =   167.38s Waiting 10.0s for "lesson.next" Button to exist
+    t =   168.40s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   168.44s         Checking existence of `"lesson.next" Button`
+    t =   168.58s Tap "lesson.next" Button
+    t =   168.58s     Wait for com.alua.app to idle
+    t =   168.58s     Find the "lesson.next" Button
+    t =   168.63s     Check for interrupting elements affecting "lesson.next" Button
+    t =   168.67s     Synthesize event
+    t =   168.98s     Wait for com.alua.app to idle
+    t =   169.34s Find the "lesson.next" Button
+    t =   169.58s Find the "lesson.next" Button
+    t =   169.63s Find the "lesson.next" Button
+    t =   169.68s Find the "lesson.next" Button
+    t =   170.03s Find the "lesson.next" Button
+    t =   170.11s Find the "lesson.next" Button
+    t =   170.16s Find the "lesson.next" Button
+    t =   170.21s Find the "lesson.next" Button
+    t =   170.36s Waiting 10.0s for "lesson.next" Button to exist
+    t =   171.42s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   171.42s         Checking existence of `"lesson.next" Button`
+    t =   171.71s Tap "lesson.next" Button
+    t =   171.71s     Wait for com.alua.app to idle
+    t =   171.71s     Find the "lesson.next" Button
+    t =   171.76s     Check for interrupting elements affecting "lesson.next" Button
+    t =   171.83s     Synthesize event
+    t =   172.16s     Wait for com.alua.app to idle
+    t =   172.42s Find the "lesson.next" Button
+    t =   172.53s Find the "lesson.next" Button
+    t =   172.58s Find the "lesson.next" Button
+    t =   172.63s Find the "lesson.next" Button
+    t =   172.68s Find the "lesson.next" Button
+    t =   172.85s Find the "lesson.next" Button
+    t =   172.90s Find the "lesson.next" Button
+    t =   172.96s Find the "lesson.next" Button
+    t =   173.01s Waiting 10.0s for "lesson.next" Button to exist
+    t =   174.03s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   174.03s         Checking existence of `"lesson.next" Button`
+    t =   174.11s Tap "lesson.next" Button
+    t =   174.11s     Wait for com.alua.app to idle
+    t =   174.11s     Find the "lesson.next" Button
+    t =   174.16s     Check for interrupting elements affecting "lesson.next" Button
+    t =   174.24s     Synthesize event
+    t =   174.56s     Wait for com.alua.app to idle
+    t =   174.82s Find the "lesson.next" Button
+    t =   174.94s Find the "lesson.next" Button
+    t =   174.99s Find the "lesson.next" Button
+    t =   175.04s Find the "lesson.next" Button
+    t =   175.10s Find the "lesson.next" Button
+    t =   175.22s Find the "lesson.next" Button
+    t =   175.28s Find the "lesson.next" Button
+    t =   175.33s Find the "lesson.next" Button
+    t =   175.39s Waiting 10.0s for "lesson.next" Button to exist
+    t =   176.45s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   176.49s         Checking existence of `"lesson.next" Button`
+    t =   176.76s Tap "lesson.next" Button
+    t =   176.76s     Wait for com.alua.app to idle
+    t =   176.76s     Find the "lesson.next" Button
+    t =   176.81s     Check for interrupting elements affecting "lesson.next" Button
+    t =   176.94s     Synthesize event
+    t =   177.30s     Wait for com.alua.app to idle
+    t =   177.73s Find the "lesson.next" Button
+    t =   177.80s Find the "lesson.next" Button
+    t =   177.93s Find the "lesson.next" Button
+    t =   177.98s Find the "lesson.next" Button
+    t =   178.03s Find the "lesson.next" Button
+    t =   178.09s Find the "lesson.next" Button
+    t =   178.15s Find the "lesson.next" Button
+    t =   178.20s Find the "lesson.next" Button
+    t =   178.25s Waiting 10.0s for "lesson.next" Button to exist
+    t =   179.27s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   179.28s         Checking existence of `"lesson.next" Button`
+    t =   179.40s Tap "lesson.next" Button
+    t =   179.40s     Wait for com.alua.app to idle
+    t =   179.40s     Find the "lesson.next" Button
+    t =   179.44s     Check for interrupting elements affecting "lesson.next" Button
+    t =   179.48s     Synthesize event
+    t =   179.77s     Wait for com.alua.app to idle
+    t =   180.07s Find the "lesson.next" Button
+    t =   180.41s Find the "lesson.next" Button
+    t =   180.53s Find the "lesson.next" Button
+    t =   180.58s Find the "lesson.next" Button
+    t =   180.63s Find the "lesson.next" Button
+    t =   180.68s Find the "lesson.next" Button
+    t =   181.03s Find the "lesson.next" Button
+    t =   181.13s Find the "lesson.next" Button
+    t =   181.18s Waiting 10.0s for "lesson.next" Button to exist
+    t =   182.19s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   182.19s         Checking existence of `"lesson.next" Button`
+    t =   182.31s Tap "lesson.next" Button
+    t =   182.31s     Wait for com.alua.app to idle
+    t =   182.35s     Find the "lesson.next" Button
+    t =   182.41s     Check for interrupting elements affecting "lesson.next" Button
+    t =   182.46s     Synthesize event
+    t =   182.75s     Wait for com.alua.app to idle
+    t =   183.02s Find the "lesson.next" Button
+    t =   183.18s Find the "lesson.next" Button
+    t =   183.27s Find the "lesson.next" Button
+    t =   183.33s Find the "lesson.next" Button
+    t =   183.50s Find the "lesson.next" Button
+    t =   183.55s Find the "lesson.next" Button
+    t =   183.60s Find the "lesson.next" Button
+    t =   183.65s Find the "lesson.next" Button
+    t =   183.70s Waiting 10.0s for "lesson.next" Button to exist
+    t =   184.71s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   184.71s         Checking existence of `"lesson.next" Button`
+    t =   184.79s Tap "lesson.next" Button
+    t =   184.79s     Wait for com.alua.app to idle
+    t =   184.79s     Find the "lesson.next" Button
+    t =   184.84s     Check for interrupting elements affecting "lesson.next" Button
+    t =   184.88s     Synthesize event
+    t =   185.17s     Wait for com.alua.app to idle
+    t =   185.47s Find the "lesson.next" Button
+    t =   185.54s Find the "lesson.next" Button
+    t =   185.60s Find the "lesson.next" Button
+    t =   185.65s Find the "lesson.next" Button
+    t =   185.71s Find the "lesson.next" Button
+    t =   185.85s Find the "lesson.next" Button
+    t =   185.92s Find the "lesson.next" Button
+    t =   185.97s Find the "lesson.next" Button
+    t =   186.10s Waiting 10.0s for "lesson.next" Button to exist
+    t =   187.12s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   187.20s         Checking existence of `"lesson.next" Button`
+    t =   187.49s Tap "lesson.next" Button
+    t =   187.49s     Wait for com.alua.app to idle
+    t =   187.49s     Find the "lesson.next" Button
+    t =   187.54s     Check for interrupting elements affecting "lesson.next" Button
+    t =   187.60s     Synthesize event
+    t =   187.93s     Wait for com.alua.app to idle
+    t =   188.26s Find the "lesson.next" Button
+    t =   188.37s Find the "lesson.next" Button
+    t =   188.44s Find the "lesson.next" Button
+    t =   188.49s Find the "lesson.next" Button
+    t =   188.54s Find the "lesson.next" Button
+    t =   188.59s Find the "lesson.next" Button
+    t =   188.74s Find the "lesson.next" Button
+    t =   188.79s Find the "lesson.next" Button
+    t =   188.84s Waiting 10.0s for "lesson.next" Button to exist
+    t =   189.86s     Checking `Expect predicate `existsNoRetry == 1` for object "lesson.next" Button`
+    t =   189.90s         Checking existence of `"lesson.next" Button`
+    t =   190.16s Tap "lesson.next" Button
+    t =   190.16s     Wait for com.alua.app to idle
+    t =   190.17s     Find the "lesson.next" Button
+    t =   190.21s     Check for interrupting elements affecting "lesson.next" Button
+    t =   190.27s     Synthesize event
+    t =   190.59s     Wait for com.alua.app to idle
+    t =   192.08s Waiting 8.0s for "День завершён" StaticText to exist
+    t =   193.17s     Checking `Expect predicate `existsNoRetry == 1` for object "День завершён" StaticText`
+    t =   193.17s         Checking existence of `"День завершён" StaticText`
+    t =   193.55s Find the Target Application 'com.alua.app'
+    t =   193.85s Added attachment named '06-day-completed'
+    t =   193.86s Find the "Открыть в моей книге" Button
+    t =   193.92s Find the "Открыть в моей книге" Button
+    t =   193.95s Find the "Открыть в моей книге" Button
+    t =   193.99s Find the "Открыть в моей книге" Button
+    t =   194.02s Find the "Открыть в моей книге" Button
+    t =   194.06s Find the "Открыть в моей книге" Button
+    t =   194.12s Find the "Открыть в моей книге" Button
+    t =   194.17s Find the "Открыть в моей книге" Button
+    t =   194.20s Waiting 12.0s for "Открыть в моей книге" Button to exist
+    t =   195.22s     Checking `Expect predicate `existsNoRetry == 1` for object "Открыть в моей книге" Button`
+    t =   195.23s         Checking existence of `"Открыть в моей книге" Button`
+    t =   195.33s Tap "Открыть в моей книге" Button
+    t =   195.33s     Wait for com.alua.app to idle
+    t =   195.34s     Find the "Открыть в моей книге" Button
+    t =   195.37s     Check for interrupting elements affecting "Открыть в моей книге" Button
+    t =   195.50s     Synthesize event
+    t =   195.83s     Wait for com.alua.app to idle
+    t =   197.83s Waiting 8.0s for "learn" StaticText to exist
+    t =   198.85s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   198.85s         Checking existence of `"learn" StaticText`
+    t =   199.07s         Capturing element debug description
+    t =   199.88s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   199.88s         Checking existence of `"learn" StaticText`
+    t =   199.95s         Capturing element debug description
+    t =   200.92s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   201.01s         Checking existence of `"learn" StaticText`
+    t =   201.32s         Capturing element debug description
+    t =   201.83s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   201.83s         Checking existence of `"learn" StaticText`
+    t =   202.00s         Capturing element debug description
+    t =   202.91s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   202.92s         Checking existence of `"learn" StaticText`
+    t =   203.02s         Capturing element debug description
+    t =   203.85s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   203.87s         Checking existence of `"learn" StaticText`
+    t =   203.99s         Capturing element debug description
+    t =   204.90s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   204.93s         Checking existence of `"learn" StaticText`
+    t =   205.01s         Capturing element debug description
+    t =   205.86s     Checking `Expect predicate `existsNoRetry == 1` for object "learn" StaticText`
+    t =   205.91s         Checking existence of `"learn" StaticText`
+    t =   206.07s         Capturing element debug description
+    t =   206.08s     Checking existence of `"learn" StaticText`
+    t =   206.16s Collecting debug information to assist test failure triage
+    t =   206.16s     Requesting snapshot of accessibility hierarchy for app with pid 52990
+/Users/yeskendir/Projects/Alua/frontend/AluaUITests/AluaProductQATests.swift:63: error: -[AluaUITests.AluaProductQATests testFirstDay] : XCTAssertTrue failed
+    t =   206.61s Tear Down
+Test Case '-[AluaUITests.AluaProductQATests testFirstDay]' failed (207.052 seconds).
+Test Suite 'AluaProductQATests' failed at 2026-10-29 23:52:59.721.
+	 Executed 1 test, with 1 failure (0 unexpected) in 207.052 (207.110) seconds
+Test Suite 'AluaUITests.xctest' failed at 2026-10-29 23:52:59.725.
+	 Executed 1 test, with 1 failure (0 unexpected) in 207.052 (207.115) seconds
+Test Suite 'Selected tests' failed at 2026-10-29 23:52:59.725.
+	 Executed 1 test, with 1 failure (0 unexpected) in 207.052 (207.142) seconds

@@ -5,10 +5,10 @@ options:
     iOS: "17.0"
   createIntermediateGroups: true
 
-packages:
-  Firebase:
-    url: https://github.com/firebase/firebase-ios-sdk.git
-    exactVersion: 12.19.2
+configs:
+  Debug: debug
+  Release: release
+  QA: debug
 
 targets:
 
@@ -18,32 +18,39 @@ targets:
 
     sources:
       - path: Alua
+      - path: AluaShared
 
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.alua.app
         PRODUCT_NAME: Alua
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
         TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_API_BASE_URL: "$(API_BASE_URL)"
+        CODE_SIGN_ENTITLEMENTS: Alua/Alua.entitlements
       configs:
+        QA:
+          API_BASE_URL: http://127.0.0.1:8765
         Debug:
-          API_BASE_URL: http://127.0.0.1:8000
+          API_BASE_URL: https://alua-api.flora-flowers.kz
         Release:
-          API_BASE_URL: https://api.alua.app
+          API_BASE_URL: https://alua-api.flora-flowers.kz
+
+    info:
+      path: Alua/Info.plist
+      properties:
+        API_BASE_URL: "$(API_BASE_URL)"
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CFBundleURLTypes:
+          - CFBundleURLName: com.alua.app
+            CFBundleURLSchemes: [alua]
 
     dependencies:
       - target: AluaWidgets
-
-      - package: Firebase
-        product: FirebaseCore
-
-      - package: Firebase
-        product: FirebaseAuth
-
-      - package: Firebase
-        product: FirebaseMessaging
-
 
   AluaWidgets:
     type: app-extension
@@ -51,11 +58,59 @@ targets:
 
     sources:
       - path: AluaWidgets
+      - path: AluaShared
 
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.alua.app.widgets
         PRODUCT_NAME: AluaWidgets
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: AluaWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: AluaWidgets/AluaWidgets.entitlements
+
+  AluaTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AluaTests
+    dependencies:
+      - target: Alua
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.alua.app.tests
         GENERATE_INFOPLIST_FILE: YES
 
-        INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier: com.apple.widgetkit-extension
+  AluaUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: AluaUITests
+    dependencies:
+      - target: Alua
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.alua.app.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: Alua
+
+schemes:
+  AluaQA:
+    build:
+      targets:
+        Alua: all
+        AluaUITests: [test]
+    run:
+      config: QA
+    test:
+      config: QA
+      targets: [AluaUITests]
+  Alua:
+    build:
+      targets:
+        Alua: all
+        AluaTests: [test]
+    test:
+      targets:
+        - AluaTests
