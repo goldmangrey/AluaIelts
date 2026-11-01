@@ -6,8 +6,6 @@ struct SettingsView: View {
     var studyStore: StudyStore? = nil
     var partnerStore: PartnerStore? = nil
     var aiStore: AIProgressStore? = nil
-    @State private var enrollmentID: String?
-    @State private var deviceError: String?
     private var appVersion: String { Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "—" }
     var body: some View {
         List {
@@ -33,13 +31,12 @@ struct SettingsView: View {
                 Text("Редакторский каталог для закрытого использования. Независимая проверка преподавателем ещё не завершена.").font(.footnote).foregroundStyle(AluaColors.secondaryText)
             }
             Section {
-                DisclosureGroup("Привязка устройства") {
-                    if let uid = authSession.profile?.uid { LabeledContent("Learner ID") { Text(uid).textSelection(.enabled) } }
-                    if let enrollmentID { LabeledContent("Устройство") { Text(enrollmentID).textSelection(.enabled) } }
-                    if let deviceError { Text(deviceError).foregroundStyle(.red) }
-                    Button("Проверить устройство") { Task { await loadDeviceID() } }.frame(minHeight: 44)
-                    Text("Для смены профиля нужна доверенная повторная привязка. История обучения остаётся у вашего профиля.").font(.footnote).foregroundStyle(AluaColors.secondaryText)
-                }
+                Button("Выйти из аккаунта", role: .destructive) {
+                    Task { await authSession.switchProfile() }
+                }.accessibilityIdentifier("auth.logout")
+                Text("Несинхронизированные ответы остаются на этом iPhone и будут доступны после входа в тот же профиль.")
+                    .font(.footnote).foregroundStyle(AluaColors.secondaryText)
+                if let error = authSession.selectionError { Text(error).foregroundStyle(.red) }
             }
             #if DEBUG
             Section {
@@ -51,11 +48,6 @@ struct SettingsView: View {
             #endif
         }.listStyle(.insetGrouped).scrollContentBackground(.hidden).background(AluaColors.cardBackground)
             .navigationTitle("Настройки").navigationBarTitleDisplayMode(.inline)
-            .task { await loadDeviceID() }
-    }
-    private func loadDeviceID() async {
-        enrollmentID = nil; deviceError = nil
-        do { enrollmentID = try await authSession.currentDeviceID() }
-        catch { deviceError = "Не удалось проверить устройство. Повторите при доступной сети." }
+
     }
 }

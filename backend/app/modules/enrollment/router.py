@@ -4,7 +4,8 @@ from fastapi import APIRouter, Depends, Response
 from fastapi.concurrency import run_in_threadpool
 
 from app.core.auth import AuthenticatedUser, get_current_user
-from app.core.exceptions import NotFoundError
+from app.core.config import get_settings
+from app.core.exceptions import ForbiddenError, NotFoundError
 from app.db.database import Database, get_database
 from app.modules.enrollment.repository import DeviceEnrollmentRepository
 from app.modules.enrollment.schemas import (
@@ -25,6 +26,8 @@ async def enroll_device(
     response: Response,
     database: Annotated[Database, Depends(get_database)],
 ) -> EnrollDeviceResponse:
+    if not get_settings().legacy_auth_enabled:
+        raise ForbiddenError("Device enrollment is disabled.")
     response.headers["Cache-Control"] = "no-store"
     return await run_in_threadpool(
         DeviceEnrollmentService(database).enroll, request.code, request.device_name
@@ -70,6 +73,8 @@ async def revoke_current_device(
     identity: Annotated[AuthenticatedUser, Depends(get_current_user)],
     database: Annotated[Database, Depends(get_database)],
 ) -> DeviceRevocationResponse:
+    if identity.enrollment_id is None:
+        raise NotFoundError("No legacy device session.")
     revoked = await run_in_threadpool(
         DeviceEnrollmentRepository(database).revoke, identity.uid, identity.enrollment_id
     )

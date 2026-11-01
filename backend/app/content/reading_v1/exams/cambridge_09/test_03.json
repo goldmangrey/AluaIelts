@@ -1,0 +1,2677 @@
+{
+  "id": "cambridge-09-test-03",
+  "dataset_version": "1.0.0",
+  "source_book": 9,
+  "source_test_number": 3,
+  "test_ordinal": 3,
+  "module": "academic_reading",
+  "duration_seconds": 3600,
+  "passages": [
+    {
+      "id": "cambridge-09-test-03-p-1",
+      "number": 1,
+      "title": "Attitudes to Language",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Attitudes to Language It is not easy to be systematic and objective about language study. Popular\nlinguistic debate regularly deteriorates into invective and polemic. Language belongs to everyone,\nso most people feel they have a right to hold an option about it. And when options differ, emotions\ncan run high. Arguments can start as easily over minor points of usage as over major policies of\nlinguistic education. Language, moreover, is a very public behavior, so it is easy for different\nusages to be noted and criticised. No part of society or social behavior is exempt. Linguistic\nfactors influence how we judge personality, intelligence, social status, educational standards, job\naptitude, and many other areas of identity and social survival. As a result, it is easy to hurt, and\nto be hurt, when language use is unfeelingly attacked.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In its most general sense, prescriptivism is the view that one variety of language has an inherently\nhigher value than others and that this ought to be imposed on the whole of the speech community. The\nview is propounded especially in relation to grammar and vocabulary, and frequently with reference\nto pronunciation. The variety which is favoured, in this account, is usually a version of the\n‘standard’ written language,",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "especially as encountered in literature, or in the formal spoken language which most closely\nreflects this style. Adherents to this variety are said to speak or write ‘correctly’ deviations\nfrom it are said to be ‘incorrect’.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "All the main languages have been studied prescriptively, especially in the 18th century approach to\nthe writing of grammar and dictionaries. The aims of these early grammarians were threefold: (a)\nthey wanted to codify the principles of their languages, to show that there was a system beneath the\napparent chaos of usage; (b) they wanted a means of settling disputes over usage, and (c) they\nwanted to point out what they felt to be common errors, in order to ‘improve’ the language. The\nauthoritarian nature of the approach is best characterized by its reliance on ‘rules’ of grammar.\nSome usages are ‘prescribed’, to be learnt and followed accurately; others are ‘proscribed’, to be\navoided. In this early period, there were no half-measures: usage was either right or wrong, and it\nwas the task of the grammarian not simply to record alternatives, but to pronounce judgment upon\nthem. These attitudes are still with us, and they motivate a widespread concern that linguistic\nstandards should be maintained. Nevertheless, there is an alternative point of view that is\nconcerned less with standards than with the facts of linguistic usage. This approach is summarized\nin the statement that it is the task of the grammarian to describe, not prescribe–to record the\nfacts of linguistic diversity, and not to attempt the impossible tasks of evaluating language\nvariation or halting language change. In the second half of the 18th century, we already find\nadvocates of this view, such as Joseph Priestley, whose Rudiments of English Grammar (1761) insists\nthat ‘the",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "custom of speaking is the original and only just standard of any language’. Linguistic issues, it is\nargued, cannot be solved by logic and legislation. And this view has become the tenet of the modern\nlinguistic approach to grammatical analysis.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In our own time, the opposition between ‘descriptivists’ and ‘prescriptivists’ has often become\nextreme, with both sides painting unreal pictures of the other. Descriptive grammarians have been\npresented as people who do not care about standards, because of the way they see all forms of usage\nas equally valid. Prescriptive grammarians have been presented as blind adherents to a historical\ntradition. The opposition has even been presented in quasi-political terms–of radical liberalism vs\nelitist conservatism.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-09-test-03-p-1-g-01-08",
+          "type": "true_false_not_given",
+          "instructions": "Question 1–8 Do the following statements agree with the information given in Reading Passage 1? In\n    boxes 1–8 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "question_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question 1–8 Do the following statements agree with the information given in Reading Passage 1? In\n    boxes 1–8 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this\n1 There are understandable reasons why arguments occur about language.\n2 People feel more strongly about language education than about small differences in language\n    usage.\n3 our assessment of a person’s intelligence is affected by the way he or she uses language.\n\n4 Prescriptive grammar books cost a lot of money to buy in the 18th century.\n5 Prescriptivism still exists today.\n6 According to descriptivist it is pointless to try to stop language change.\n7 Descriptivism only appeared after the 18th century.\n8 Both descriptivists and prescriptivists have been misrepresented."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-01",
+              "number": 1,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "There are understandable reasons why arguments occur about language.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-02",
+              "number": 2,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "People feel more strongly about language education than about small differences in language\n    usage.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-03",
+              "number": 3,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "our assessment of a person’s intelligence is affected by the way he or she uses language.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-04",
+              "number": 4,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "Prescriptive grammar books cost a lot of money to buy in the 18th century.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-05",
+              "number": 5,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "Prescriptivism still exists today.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-06",
+              "number": 6,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "According to descriptivist it is pointless to try to stop language change.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-07",
+              "number": 7,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "Descriptivism only appeared after the 18th century.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-08",
+              "number": 8,
+              "group_id": "cambridge-09-test-03-p-1-g-01-08",
+              "type": "true_false_not_given",
+              "prompt": "Both descriptivists and prescriptivists have been misrepresented.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 879,
+            "line_end": 972,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-09-test-03-p-1-g-09-12",
+          "type": "summary_completion",
+          "instructions": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+          "question_numbers": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as Joseph Priestley, is that grammar should be based on 12 __________."
+            },
+            {
+              "label": "A",
+              "text": "descriptivists"
+            },
+            {
+              "label": "B",
+              "text": "language experts"
+            },
+            {
+              "label": "C",
+              "text": "popular speech"
+            },
+            {
+              "label": "D",
+              "text": "formal language"
+            },
+            {
+              "label": "E",
+              "text": "evaluation"
+            },
+            {
+              "label": "F",
+              "text": "rules"
+            },
+            {
+              "label": "G",
+              "text": "modern linguists"
+            },
+            {
+              "label": "H",
+              "text": "prescriptivists"
+            },
+            {
+              "label": "I",
+              "text": "change"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to "
+                },
+                {
+                  "type": "blank",
+                  "number": 9
+                },
+                {
+                  "type": "text",
+                  "text": "., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical "
+                },
+                {
+                  "type": "blank",
+                  "number": 10
+                },
+                {
+                  "type": "text",
+                  "text": ".. Conversely, the view of "
+                },
+                {
+                  "type": "blank",
+                  "number": 11
+                },
+                {
+                  "type": "text",
+                  "text": "., such as\n    Joseph Priestley, is that grammar should be based on "
+                },
+                {
+                  "type": "blank",
+                  "number": 12
+                },
+                {
+                  "type": "text",
+                  "text": ".\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-09",
+              "number": 9,
+              "group_id": "cambridge-09-test-03-p-1-g-09-12",
+              "type": "summary_completion",
+              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-10",
+              "number": 10,
+              "group_id": "cambridge-09-test-03-p-1-g-09-12",
+              "type": "summary_completion",
+              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-11",
+              "number": 11,
+              "group_id": "cambridge-09-test-03-p-1-g-09-12",
+              "type": "summary_completion",
+              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-12",
+              "number": 12,
+              "group_id": "cambridge-09-test-03-p-1-g-09-12",
+              "type": "summary_completion",
+              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 879,
+            "line_end": 972,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-09-test-03-p-1-g-13-13",
+          "type": "multiple_choice_single",
+          "instructions": "Question 13 Choose the correct letter, A, B, C or D. Write the correct letter in box 13 on your\n    answer sheet.\n\nWhat is the writer’s purpose in Reading Passage 1?\nA to argue in favour of a particular approach to writing dictionaries and grammar books\nB to present a historical account of differing views of language\nC to describe the differences between spoken and written language\nD to show how a certain view of language has been discredited.",
+          "question_numbers": [
+            13
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question 13 Choose the correct letter, A, B, C or D. Write the correct letter in box 13 on your\n    answer sheet.\n\nWhat is the writer’s purpose in Reading Passage 1?\nA to argue in favour of a particular approach to writing dictionaries and grammar books\nB to present a historical account of differing views of language\nC to describe the differences between spoken and written language\nD to show how a certain view of language has been discredited."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-13",
+              "number": 13,
+              "group_id": "cambridge-09-test-03-p-1-g-13-13",
+              "type": "multiple_choice_single",
+              "prompt": "Question 13 Choose the correct letter, A, B, C or D. Write the correct letter in box 13 on your\n    answer sheet.\n\nWhat is the writer’s purpose in Reading Passage 1?\nA to argue in favour of a particular approach to writing dictionaries and grammar books\nB to present a historical account of differing views of language\nC to describe the differences between spoken and written language\nD to show how a certain view of language has been discredited.",
+              "answer_input_type": "single_select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "to argue in favour of a particular approach to writing dictionaries and grammar books"
+                },
+                {
+                  "label": "B",
+                  "text": "to present a historical account of differing views of language"
+                },
+                {
+                  "label": "C",
+                  "text": "to describe the differences between spoken and written language"
+                },
+                {
+                  "label": "D",
+                  "text": "to show how a certain view of language has been discredited."
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 879,
+                "line_end": 972,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  64,
+                  65,
+                  66,
+                  67,
+                  68
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 879,
+            "line_end": 972,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_pages": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "source_question_range": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+        "line_start": 879,
+        "line_end": 972,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+        "pdf_pages": [
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-09-test-03-p-2",
+      "number": 2,
+      "title": "Tidal Power",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tidal Power Undersea turbines which produce electricity from the tides are set to become an\nimportant source of renewable energy for Britain. It is still too early to predict the extent of the\nimpact they may have, but all the signs are that they will play a significant role in the future",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating on the same principle as wind turbines, the power in sea turbines comes from tidal\ncurrents which turn blades similar to ships propellers, but, unlike wind, the tides are predictable\nand the power input is constant. The technology raises the prospect of Britain becoming self-\nsufficient in renewable energy and drastically reducing its carbon dioxide emissions. If tide, wind\nand wave-power are all developed, Britain would be able to close gas, coal and nuclear plants and\nexport renewable power to other parts of Europe. Unlike wind power which Britain originally\ndeveloped and then abandoned for 20 years allowing the Dutch to make it a major industry, undersea\nturbines could become a big export earner to island nations such as Japan and New Zealand.",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tidal sites have already been identified that will produce one sixth or more of the UK’s\npower–and at prices competitive with modern gas turbines and",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "undercutting those of the already ailing nuclear industry. One site alone, the Pentland Firth,\nbetween Orkney and mainland Scotland, could produce 10% of the country’s electricity with banks of\nturbines under the sea, and another at Alderney in the Channel Islands three times the 1,2000\nmegawatts of Britain’s largest and newest nuclear plant, Sizewell B, in Suffolk. Other sites\nidentified include the Bristol Channel and the west coast of Scotland, particularly the channel\nbetween Campbelttown and Northern Irealand.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Work on designs for the new turbine blades and sites are well advanced at the university of\nSouthampton’s sustainable energy research group. The first station is expected to be installed off\nLynmouth in Devon shortly to test the technology in a venture jointly funded by the department of\nTrade and Industry and the European Union. AbuBakn Bahaj, in charge of the Southampton research,\nsaid: ‘The prospects for energy from tidal currents are far better than from wind because the flows\nof water are predictable and constant. The technology for dealing with the hostile saline\nenvironment under the sea has been developed in the North Sea oil industry and much is already known\nabout turbine blade design, because of wind power and ship propellers. There are a few technical\ndifficulties, but I believe in the next five to ten years we will be installing commercial marine\nturbine farm. Southampton has been rewarded £215,000 over three years to develop the turbines and is\nworking with Marine Current Turbines, a subsidiary of IT power, on the Lynmouth project. EU research\nhas now identified 106 potential sites for tidal power, 80% round the coasts of Britain. The best\nsites are between",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "islands or around heavily indented coasts where there are strong tidal currents.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A marine turbine blade needs to be only one third of the size of a wind generator to produce\nthree times as much power. The blades will be about 20 meters in diameter, so around 30 meters of\nwater is required. Unlike wind power, there are unlikely to be environmental objections. Fish and\nother creatures are thought unlikely to be at risk from the relatively slow-turning blades. Each\nturbine will be mounted on a tower which will connect to the national power supply grid via\nunderwater cables. The towers will stick out of the water and be lit, to warn shipping, and also be\ndesigned to be lifted out of the water for maintenance and to clean seaweed from the blades.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr Bahaj has done most work on the Alderney site, where there are powerful currents. The single\nundersea turbine farm would produce far more power than needed for the Channel Isalands and most\nwould be fed into the French Grid and be re-imported into Britain via the cable under the Channel.",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "One technical difficulty is cavitation, where low pressure behind a turning blade causes air\nbubbles. These can cause vibration and damage the blades of the turbines. Dr Bahaj said: ‘We have to\ntest a number of blade types to avoid this happening or at least make sure it does not damage the\nturbines or reduce performance. Another slight concern is submerged debris floating into the blades.",
+          "label": "F"
+        },
+        {
+          "type": "paragraph",
+          "text": "So far we do not know how much of a problem it might be. We will have to make the turbines robust\nbecause the sea is a hostile environment, but all the signs that we can do it are good.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-09-test-03-p-2-g-14-17",
+          "type": "matching_information",
+          "instructions": "Question14-17\n\nReading Passage 2 has six paragraphs, A–F. Which paragraph contains the following information?\n    Write the correct letter, A–F, in boxes 14–17 on your answer sheet.\nNB You may use any letter more than once.",
+          "question_numbers": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "A"
+            },
+            {
+              "label": "B",
+              "text": "B"
+            },
+            {
+              "label": "C",
+              "text": "C"
+            },
+            {
+              "label": "D",
+              "text": "D"
+            },
+            {
+              "label": "E",
+              "text": "E"
+            },
+            {
+              "label": "F",
+              "text": "F"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question14-17\n\nReading Passage 2 has six paragraphs, A–F. Which paragraph contains the following information?\n    Write the correct letter, A–F, in boxes 14–17 on your answer sheet.\nNB You may use any letter more than once.\n14 The location of the first test site\n15 a way of bringing the power produced on one site back into Britain\n16 a reference to a previous attempt by Britain to find an alternative source of energy\n17 mention of the possibility of applying technology from another industry"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "reuse_allowed": true,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-14",
+              "number": 14,
+              "group_id": "cambridge-09-test-03-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "The location of the first test site",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-15",
+              "number": 15,
+              "group_id": "cambridge-09-test-03-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "a way of bringing the power produced on one site back into Britain",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-16",
+              "number": 16,
+              "group_id": "cambridge-09-test-03-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "a reference to a previous attempt by Britain to find an alternative source of energy",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-17",
+              "number": 17,
+              "group_id": "cambridge-09-test-03-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "mention of the possibility of applying technology from another industry",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 972,
+            "line_end": 1074,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              69,
+              70,
+              71,
+              72,
+              73
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-09-test-03-p-2-g-18-22",
+          "type": "multiple_choice_multiple",
+          "instructions": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features.",
+          "question_numbers": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "It is a more reliable source of energy than wind power."
+            },
+            {
+              "label": "B",
+              "text": "It would replace all other forms of energy in Britain"
+            },
+            {
+              "label": "C",
+              "text": "Its introduction has come as a result of public pressure."
+            },
+            {
+              "label": "D",
+              "text": "It would cut down on air pollution."
+            },
+            {
+              "label": "E",
+              "text": "It could contribute to the closure of many existing power stations in Britain."
+            },
+            {
+              "label": "F",
+              "text": "It could be a means of increasing national income."
+            },
+            {
+              "label": "G",
+              "text": "It could face a lot of resistance from other fuel industries."
+            },
+            {
+              "label": "H",
+              "text": "It could be sold more cheaply than any other type of fuel."
+            },
+            {
+              "label": "I",
+              "text": "It could compensate for the shortage of inland sites for energy production."
+            },
+            {
+              "label": "J",
+              "text": "It is best produced in the vicinity of coastlines with particular features."
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J"
+            ],
+            "reuse_allowed": false,
+            "selection_count": 5
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-18",
+              "number": 18,
+              "group_id": "cambridge-09-test-03-p-2-g-18-22",
+              "type": "multiple_choice_multiple",
+              "prompt": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 5
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-19",
+              "number": 19,
+              "group_id": "cambridge-09-test-03-p-2-g-18-22",
+              "type": "multiple_choice_multiple",
+              "prompt": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 5
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-20",
+              "number": 20,
+              "group_id": "cambridge-09-test-03-p-2-g-18-22",
+              "type": "multiple_choice_multiple",
+              "prompt": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 5
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-21",
+              "number": 21,
+              "group_id": "cambridge-09-test-03-p-2-g-18-22",
+              "type": "multiple_choice_multiple",
+              "prompt": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 5
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-22",
+              "number": 22,
+              "group_id": "cambridge-09-test-03-p-2-g-18-22",
+              "type": "multiple_choice_multiple",
+              "prompt": "Question18-22 Choose FIVE letters, A–J. Write the correct letters in boxes 18–22 on your answer\n    sheet. Which FIVE of the following claims about tidal power are made by the writer?\n\nA It is a more reliable source of energy than wind power.\nB It would replace all other forms of energy in Britain\nC Its introduction has come as a result of public pressure.\nD It would cut down on air pollution.\n\nE It could contribute to the closure of many existing power stations in Britain.\nF It could be a means of increasing national income.\nG It could face a lot of resistance from other fuel industries.\nH It could be sold more cheaply than any other type of fuel.\nI It could compensate for the shortage of inland sites for energy production.\nJ It is best produced in the vicinity of coastlines with particular features.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 5
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 972,
+            "line_end": 1074,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              69,
+              70,
+              71,
+              72,
+              73
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-09-test-03-p-2-g-23-26",
+          "type": "diagram_labelling",
+          "instructions": "Question 23–26 Label the diagram below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 23–26 on your answer sheet. [Diagram transcribed from PDF\n    page 73 – turbine and underwater blades]",
+          "question_numbers": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question 23–26 Label the diagram below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 23–26 on your answer sheet. [Diagram transcribed from PDF\n    page 73 – turbine and underwater blades]\n\n23 Whole tower can be raised for __________ and the extraction of seaweed from the blades.\n24 Sea life not in danger due to the fact that blades are comparatively __________.\n25 Air bubbles result from the __________ behind blades.\n26 This is known as __________. [The spatial layout and arrows are shown in the original diagram\n    on PDF page 73.]"
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "asset_id": "cambridge-09-test-03-p-2-g-23-26-asset-73-0",
+              "alt": "Original task, questions [23, 24, 25, 26]"
+            }
+          ],
+          "assets": [
+            {
+              "id": "cambridge-09-test-03-p-2-g-23-26-asset-73-0",
+              "path": "assets/cambridge_09/cambridge-09-test-03-p-2-g-23-26-pdf-073-0.png",
+              "mime_type": "image/png",
+              "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+              "pdf_page": 73,
+              "crop_box": [
+                41.67,
+                326.5,
+                589.37,
+                787.2
+              ],
+              "coordinate_system": "pdf_points_top_left",
+              "render_scale": 2.5,
+              "width": 1370,
+              "height": 1152,
+              "sha256": "3654647e3875f63a846de83ceb18f02c16cb73fd5381048b35ee1f0a1aff0d8c",
+              "verification_status": "extracted_needs_visual_review",
+              "question_numbers": [
+                23,
+                24,
+                25,
+                26
+              ]
+            }
+          ],
+          "constraints": {
+            "max_words": 2,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-23",
+              "number": 23,
+              "group_id": "cambridge-09-test-03-p-2-g-23-26",
+              "type": "diagram_labelling",
+              "prompt": "Whole tower can be raised for __________ and the extraction of seaweed from the blades.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-24",
+              "number": 24,
+              "group_id": "cambridge-09-test-03-p-2-g-23-26",
+              "type": "diagram_labelling",
+              "prompt": "Sea life not in danger due to the fact that blades are comparatively __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-25",
+              "number": 25,
+              "group_id": "cambridge-09-test-03-p-2-g-23-26",
+              "type": "diagram_labelling",
+              "prompt": "Air bubbles result from the __________ behind blades.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-26",
+              "number": 26,
+              "group_id": "cambridge-09-test-03-p-2-g-23-26",
+              "type": "diagram_labelling",
+              "prompt": "This is known as __________. [The spatial layout and arrows are shown in the original diagram\n    on PDF page 73.]",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 972,
+                "line_end": 1074,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  69,
+                  70,
+                  71,
+                  72,
+                  73
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 972,
+            "line_end": 1074,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              69,
+              70,
+              71,
+              72,
+              73
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "source_image_with_inputs",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_pages": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "source_question_range": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+        "line_start": 972,
+        "line_end": 1074,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+        "pdf_pages": [
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-09-test-03-p-3",
+      "number": 3,
+      "title": "Information theory — the big idea",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Information theory – the big idea Information theory lies at the heart of everything–from DVD\nplayers and the genetic code of DNA to the physics of the universe at its most fundamental. It has\nbeen central t the development of the science of communication, which enables data to be sent\nelectronically and has therefore had a major impact on our lives",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In April 2002 an event took place which demonstrated one of the many applications of information\ntheory. The space probe Voyager I, launched in 1977, had sent back spectacular images of Jupiter and\nSaturn and then soared out of the Solar System on a one-way mission to the stars. After 25 years of\nexposure to the freezing temperatures of deep space, the probe was beginning to show its age.\nSensors and circuits were on the brink of failing and NASA experts realized that they had to do\nsomething or lose contact with their probe forever. The solution was to get a message to Voyager I\nto instruct it to use spares to change the failing parts. With the probe 12 billion kilometers from\nEarth, this was not an easy task. By means of a radio dish belonging to NASA’s Deep Space Network,\nthe message was sent out into the depths of space. Even travelling at the speed of light, it took\nover 11 hours to reach its target, far beyond the orbit of Pluto. Yet, incredibly, the little probe\nmanaged to hear the faint call from its home planet and successfully made the switchover.",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "It was the longest-distance repair job history, and a triumph for the NASA engineers. But it also\nhighlighted the astonishing power of the techniques developed by American communications engineer\nClaude Shannon, who had died just a year earlier. Born in 1916 in Petoskey, Michigan, Shannon showed\nan early talent for maths and for building gadgets, and made breakthroughs in the foundations of\ncomputer technology when still a student. While at Bell Laboratories, Shannon developed information\ntheory, but shunned the resulting acclaim. In the 1940s, he singe-handedly created an entire science\nof communication which has since inveigled its way into a host of applications, from DVDs to\nsatellite communications to bar codes– any area, in short, where data has to be conveyed rapidly yet\naccurately.",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "This all seems light years away from the down-to earth uses Shannon originally had for his work,\nwhich began when he was a 22-year-old graduate engineering student at the prestigious Massachusetts\nInstitute of Technology in 1939. He set out with an apparently simple aim: to pin down the precise\nmeaning of the concept of ‘information’. The most basic form of information, Shannon argued, is\nwhether something is true or false–which can be captured in the binary unit, or ‘bit’, of the form 1\nor 0. Having identified this fundamental unit, Shannon set about defining otherwise vague ideas\nabout information and how to transit it from place to place. In the process he discovered something\nsurprising: it is always possible to guarantee information will get through random\ninterference–‘noise’–intact.",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noise usually means unwanted sounds which interfere with genuine information.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "Information theory generalizes this idea via theorems that capture the effects of noise with\nmathematical precise. In particular,Shannon showed that noise sets a limit on the rate at which\ninformation can pass along communication channels while remaining error-free. This rate depends on\nthe relative strengths of the signal and noise travelling down the communication channel, and on its\ncapacity (its ‘bandwidth’). The resulting limit, given in units of bits per second, is the absolute\nmaximum rate of error-free communication given signal strength and noise level. The trick, Shannon\nshowed, is to find ways of packaging up–‘coding’–information to cope with the ravages of noise,\nwhile staying within the information-carrying capacity–‘bandwidth’–of the communication system being\nused.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Over the years scientists have devised many such coding methods, and they have proved crucial in\nmany technological feats. The voyager spacecraft transmitted data using codes which added one extra\nbit for every single bit of information; the result was an error rate of just one bit in 10,000–and\nstunningly clear pictures of the planets. Other codes have become part of everyday life–such as the\nUniversal Product Code, or bar code. Which uses a simple error–detecting systems that ensures\nsupermarket check-out lasers can read the price even on, say, a crumpled bag of crisps. As recently\nas 1993, engineers made a major breakthrough by discovering so-called turbo–which come very close to\nShannon’s ultimate limit for the maximum rate that data can be transmitted reliably, and now play a\nkey role in the mobile videophone revolution.",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "Shannon also laid the foundations of more efficient ways of storing information, by stripping out\nsuperfluous (‘redundant’) bits from data which contributed little real information. As mobile phone\ntext messages like ‘ I CN C U’ show, it is often possible to leave out a lot of data without losing\nmuch meaning. As with error correction, however, there’s a limit beyond which message become too\nambiguous. Shannon showed how to calculate this limit, opening the way to the design of compression\nmethods that cram maximum information into the minimum space.",
+          "label": "F"
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-09-test-03-p-3-g-27-32",
+          "type": "matching_information",
+          "instructions": "Question27-32\n\nReading Passage 3 has six paragraphs, A–F. Which paragraph contains the following information?\n    Write the correct letter, A–F, in boxes 27–32 on your answer sheet.",
+          "question_numbers": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "A"
+            },
+            {
+              "label": "B",
+              "text": "B"
+            },
+            {
+              "label": "C",
+              "text": "C"
+            },
+            {
+              "label": "D",
+              "text": "D"
+            },
+            {
+              "label": "E",
+              "text": "E"
+            },
+            {
+              "label": "F",
+              "text": "F"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question27-32\n\nReading Passage 3 has six paragraphs, A–F. Which paragraph contains the following information?\n    Write the correct letter, A–F, in boxes 27–32 on your answer sheet.\n27 an explanation of the factors affecting the transmission of the information\n28 an example of how unnecessary information can be omitted\n29 a reference to Shannon’s attitude to fame\n30 details of a machine capable of interpreting incomplete information\n31 a detailed account of an incident involving information theory\n32 a reference to what Shannon initially intended to achieve in his research"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-27",
+              "number": 27,
+              "group_id": "cambridge-09-test-03-p-3-g-27-32",
+              "type": "matching_information",
+              "prompt": "an explanation of the factors affecting the transmission of the information",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-28",
+              "number": 28,
+              "group_id": "cambridge-09-test-03-p-3-g-27-32",
+              "type": "matching_information",
+              "prompt": "an example of how unnecessary information can be omitted",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-29",
+              "number": 29,
+              "group_id": "cambridge-09-test-03-p-3-g-27-32",
+              "type": "matching_information",
+              "prompt": "a reference to Shannon’s attitude to fame",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-30",
+              "number": 30,
+              "group_id": "cambridge-09-test-03-p-3-g-27-32",
+              "type": "matching_information",
+              "prompt": "details of a machine capable of interpreting incomplete information",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-31",
+              "number": 31,
+              "group_id": "cambridge-09-test-03-p-3-g-27-32",
+              "type": "matching_information",
+              "prompt": "a detailed account of an incident involving information theory",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-32",
+              "number": 32,
+              "group_id": "cambridge-09-test-03-p-3-g-27-32",
+              "type": "matching_information",
+              "prompt": "a reference to what Shannon initially intended to achieve in his research",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1074,
+            "line_end": 1184,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              74,
+              75,
+              76,
+              77,
+              78,
+              79
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-09-test-03-p-3-g-33-37",
+          "type": "note_completion",
+          "instructions": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both 33 __________ and  __________., then left the 34\n    __________.. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the 35 __________ and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with 36 __________.–but\n    distance made communication with probe difficult. •  A 37 __________..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place.",
+          "question_numbers": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both "
+                },
+                {
+                  "type": "blank",
+                  "number": 33
+                },
+                {
+                  "type": "text",
+                  "text": " and  __________., then left the "
+                },
+                {
+                  "type": "blank",
+                  "number": 34
+                },
+                {
+                  "type": "text",
+                  "text": ".. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the "
+                },
+                {
+                  "type": "blank",
+                  "number": 35
+                },
+                {
+                  "type": "text",
+                  "text": " and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with "
+                },
+                {
+                  "type": "blank",
+                  "number": 36
+                },
+                {
+                  "type": "text",
+                  "text": ".–but\n    distance made communication with probe difficult. •  A "
+                },
+                {
+                  "type": "blank",
+                  "number": 37
+                },
+                {
+                  "type": "text",
+                  "text": "..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 2,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-33",
+              "number": 33,
+              "group_id": "cambridge-09-test-03-p-3-g-33-37",
+              "type": "note_completion",
+              "prompt": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both 33 __________ and  __________., then left the 34\n    __________.. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the 35 __________ and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with 36 __________.–but\n    distance made communication with probe difficult. •  A 37 __________..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-34",
+              "number": 34,
+              "group_id": "cambridge-09-test-03-p-3-g-33-37",
+              "type": "note_completion",
+              "prompt": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both 33 __________ and  __________., then left the 34\n    __________.. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the 35 __________ and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with 36 __________.–but\n    distance made communication with probe difficult. •  A 37 __________..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-35",
+              "number": 35,
+              "group_id": "cambridge-09-test-03-p-3-g-33-37",
+              "type": "note_completion",
+              "prompt": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both 33 __________ and  __________., then left the 34\n    __________.. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the 35 __________ and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with 36 __________.–but\n    distance made communication with probe difficult. •  A 37 __________..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-36",
+              "number": 36,
+              "group_id": "cambridge-09-test-03-p-3-g-33-37",
+              "type": "note_completion",
+              "prompt": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both 33 __________ and  __________., then left the 34\n    __________.. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the 35 __________ and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with 36 __________.–but\n    distance made communication with probe difficult. •  A 37 __________..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-37",
+              "number": 37,
+              "group_id": "cambridge-09-test-03-p-3-g-33-37",
+              "type": "note_completion",
+              "prompt": "Question33-37 Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each\n    answer. Write your answers in boxes 33–37 on your answer sheet. The Voyager 1 Space Probe •\n    The probe transmitted pictures of both 33 __________ and  __________., then left the 34\n    __________.. •  The freezing temperatures were found to have a negative effect on parts of the\n    space probe. •  Scientists feared that both the 35 __________ and  __________..were about to\n    stop working. •  The only hope was to tell the probe to replace them with 36 __________.–but\n    distance made communication with probe difficult. •  A 37 __________..was used to transmit the\n    message at the speed of light. •  The message was picked up by the probe and the switchover\n    toll place.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1074,
+            "line_end": 1184,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              74,
+              75,
+              76,
+              77,
+              78,
+              79
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-09-test-03-p-3-g-38-40",
+          "type": "true_false_not_given",
+          "instructions": "Question38-40 Do the following statements agree with the information given in Reading Passage 3?\n    In boxes 38–40 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "question_numbers": [
+            38,
+            39,
+            40
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question38-40 Do the following statements agree with the information given in Reading Passage 3?\n    In boxes 38–40 on your answer sheet, write\n\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this\n38 The concept of describing something as true or false was the starting point for Shannon in his\n    attempts to send message over distances.\n39 The amount of information that can be sent in a given time period is determined with reference\n    to the signal strength and poise level.\n40 Products have now been developed which can convey more information than Shannon had anticipated\n    as possible."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-09-test-03-q-38",
+              "number": 38,
+              "group_id": "cambridge-09-test-03-p-3-g-38-40",
+              "type": "true_false_not_given",
+              "prompt": "The concept of describing something as true or false was the starting point for Shannon in his\n    attempts to send message over distances.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-39",
+              "number": 39,
+              "group_id": "cambridge-09-test-03-p-3-g-38-40",
+              "type": "true_false_not_given",
+              "prompt": "The amount of information that can be sent in a given time period is determined with reference\n    to the signal strength and poise level.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-09-test-03-q-40",
+              "number": 40,
+              "group_id": "cambridge-09-test-03-p-3-g-38-40",
+              "type": "true_false_not_given",
+              "prompt": "Products have now been developed which can convey more information than Shannon had anticipated\n    as possible.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1074,
+                "line_end": 1184,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+                "pdf_pages": [
+                  74,
+                  75,
+                  76,
+                  77,
+                  78,
+                  79
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1074,
+            "line_end": 1184,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+            "pdf_pages": [
+              74,
+              75,
+              76,
+              77,
+              78,
+              79
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "source_question_range": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+        "line_start": 1074,
+        "line_end": 1184,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+        "pdf_pages": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    }
+  ],
+  "question_count": 40,
+  "content_status": "needs_review",
+  "source_verified": false,
+  "verification": {
+    "text": "transcribed_unverified",
+    "questions": "transcribed_unverified",
+    "keys": "transcribed_unverified"
+  },
+  "source_references": [
+    {
+      "txt_file": "ieltsReading/Cambridge_IELTS_09_Reading_All_Tests_With_Answers.txt",
+      "line_start": 875,
+      "line_end": 1239,
+      "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
+      "pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "line_coordinate_space": "original_txt"
+    }
+  ]
+}

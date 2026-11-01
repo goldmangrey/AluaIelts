@@ -1,0 +1,2554 @@
+{
+  "id": "cambridge-15-test-02",
+  "dataset_version": "1.0.0",
+  "source_book": 15,
+  "source_test_number": 2,
+  "test_ordinal": 2,
+  "module": "academic_reading",
+  "duration_seconds": 3600,
+  "passages": [
+    {
+      "id": "cambridge-15-test-02-p-1",
+      "number": 1,
+      "title": "Could urban engineers learn from dance?",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The way we travel around cities has a major impact on whether they are sustainable. Transportation is estimated to account for 30% of energy consumption in most of the world’s most developed nations, so lowering the need for energy-using vehicles is essential for decreasing the environmental impact of mobility. But as more and more people move to cities, it is important to think about other kinds of sustainable travel too. The ways we travel affect our physical and mental health, our social lives, our access to work and culture, and the air we breathe. Engineers are tasked with changing how we travel round cities through urban design, but the engineering industry still works on the assumptions that led to the creation of the energy-consuming transport systems we have now: the emphasis placed solely on efficiency, speed, and quantitative data. We need radical changes, to make it healthier, more enjoyable, and less environmentally damaging to travel around cities.",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dance might hold some of the answers. That is not to suggest everyone should dance their way to work, however healthy and happy it might make us, but rather that the techniques used by choreographers to experiment with and design movement in dance could provide engineers with tools to stimulate new ideas in city-making. Richard Sennett, an influential urbanist and sociologist who has transformed ideas about the way cities are made, argues that urban design has suffered from a separation between mind and body since the introduction of the architectural blueprint.",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whereas medieval builders improvised and adapted construction through their intimate knowledge of materials and personal experience of the conditions on a site, building designs are now conceived and stored in media technologies that detach the designer from the physical and social realities they are creating. While the design practices created by these new technologies are essential for managing the technical complexity of the modern city, they have the drawback of simplifying reality in the process.",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "To illustrate, Sennett discusses the Peachtree Center in Atlanta, USA, a development typical of the modernist approach to urban planning prevalent in the 1970s. Peachtree created a grid of streets and towers intended as a new pedestrian-friendly downtown for Atlanta. According to Sennett, this failed because its designers had invested too much faith in computer-aided design to tell them how it would operate. They failed to take into account that purpose-built street cafés could not operate in the hot sun without the protective awnings common in older buildings, and would need energy-consuming air conditioning instead, or that its giant car park would feel so unwelcoming that it would put people off getting out of their cars. What seems entirely predictable and controllable on screen has unexpected results when translated into reality.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "The same is true in transport engineering, which uses models to predict and shape the way people move through the city. Again, these models are necessary, but they are built on specific world views in which certain forms of efficiency and safety are considered and other experiences of the city ignored. Designs that seem logical in models appear counter-intuitive in the actual experience of their users. The guard rails that will be familiar to anyone who has attempted to cross a British road, for example, were an engineering solution to pedestrian safety based on models that prioritise the smooth flow of traffic. On wide major roads, they often guide pedestrians to specific crossing points and slow down their progress across the road by using staggered access points to divide the crossing into two — one for each carriageway. In doing so they make crossings feel longer, introducing psychological barriers greatly impacting those that are the least mobile, and encouraging others to make dangerous crossings to get around the guard rails. These barriers don’t just make it harder to cross the road: they divide communities and decrease opportunities for healthy transport. As a result, many are now being removed, causing disruption, cost, and waste.",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "If their designers had had the tools to think with their bodies — like dancers — and imagine how these barriers would feel, there might have been a better solution. In order to bring about fundamental changes to the ways we use our cities, engineering will need to develop a richer understanding of why people move in certain ways, and how this movement affects them. Choreography may not seem an obvious choice for tackling this problem. Yet it shares with engineering the aim of designing patterns of movement within limitations of space.",
+          "label": "F"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is an art form developed almost entirely by trying out ideas with the body, and gaining instant feedback on how the results feel. Choreographers have deep understanding of the psychological, aesthetic, and physical implications of different ways of moving.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Observing the choreographer Wayne McGregor, cognitive scientist David Kirsh described how he ‘thinks with the body’. Kirsh argues that by using the body to simulate outcomes, McGregor is able to imagine solutions that would not be possible using purely abstract thought. This kind of physical knowledge is valued in many areas of expertise, but currently has no place in formal engineering design processes. A suggested method for transport engineers is to improvise design solutions and get instant feedback about how they",
+          "label": "G"
+        },
+        {
+          "type": "paragraph",
+          "text": "would work from their own experience of them, or model designs at full scale in the way choreographers experiment with groups of dancers. Above all, perhaps, they might learn to design for emotional as well as functional effects.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-15-test-02-p-1-g-01-06",
+          "type": "matching_information",
+          "instructions": "Questions 1–6\nReading Passage 1 has seven paragraphs, A–G. Which paragraph contains the following information?",
+          "question_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "A"
+            },
+            {
+              "label": "B",
+              "text": "B"
+            },
+            {
+              "label": "C",
+              "text": "C"
+            },
+            {
+              "label": "D",
+              "text": "D"
+            },
+            {
+              "label": "E",
+              "text": "E"
+            },
+            {
+              "label": "F",
+              "text": "F"
+            },
+            {
+              "label": "G",
+              "text": "G"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–6\nReading Passage 1 has seven paragraphs, A–G. Which paragraph contains the following information?\n\n1. reference to an appealing way of using dance that the writer is not proposing\n2. an example of a contrast between past and present approaches to building\n3. mention of an objective of both dance and engineering\n4. reference to an unforeseen problem arising from ignoring the climate\n5. why some measures intended to help people are being reversed\n6. reference to how transport has an impact on human lives"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-01",
+              "number": 1,
+              "group_id": "cambridge-15-test-02-p-1-g-01-06",
+              "type": "matching_information",
+              "prompt": "reference to an appealing way of using dance that the writer is not proposing",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-02",
+              "number": 2,
+              "group_id": "cambridge-15-test-02-p-1-g-01-06",
+              "type": "matching_information",
+              "prompt": "an example of a contrast between past and present approaches to building",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-03",
+              "number": 3,
+              "group_id": "cambridge-15-test-02-p-1-g-01-06",
+              "type": "matching_information",
+              "prompt": "mention of an objective of both dance and engineering",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-04",
+              "number": 4,
+              "group_id": "cambridge-15-test-02-p-1-g-01-06",
+              "type": "matching_information",
+              "prompt": "reference to an unforeseen problem arising from ignoring the climate",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-05",
+              "number": 5,
+              "group_id": "cambridge-15-test-02-p-1-g-01-06",
+              "type": "matching_information",
+              "prompt": "why some measures intended to help people are being reversed",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-06",
+              "number": 6,
+              "group_id": "cambridge-15-test-02-p-1-g-01-06",
+              "type": "matching_information",
+              "prompt": "reference to how transport has an impact on human lives",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 347,
+            "line_end": 393,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              39,
+              40,
+              41
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-15-test-02-p-1-g-07-13",
+          "type": "summary_completion",
+          "instructions": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+          "question_numbers": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the "
+                },
+                {
+                  "type": "blank",
+                  "number": 7
+                },
+                {
+                  "type": "text",
+                  "text": " of pedestrians, while ensuring that the movement of "
+                },
+                {
+                  "type": "blank",
+                  "number": 8
+                },
+                {
+                  "type": "text",
+                  "text": " is not disrupted. Pedestrians are led to access points, and encouraged to cross one "
+                },
+                {
+                  "type": "blank",
+                  "number": 9
+                },
+                {
+                  "type": "text",
+                  "text": " at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less "
+                },
+                {
+                  "type": "blank",
+                  "number": 10
+                },
+                {
+                  "type": "text",
+                  "text": " people. Another result is that some people cross the road in a "
+                },
+                {
+                  "type": "blank",
+                  "number": 11
+                },
+                {
+                  "type": "text",
+                  "text": " way. The guard rails separate "
+                },
+                {
+                  "type": "blank",
+                  "number": 12
+                },
+                {
+                  "type": "text",
+                  "text": ", and make it more difficult to introduce forms of transport that are "
+                },
+                {
+                  "type": "blank",
+                  "number": 13
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 1,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-07",
+              "number": 7,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-08",
+              "number": 8,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-09",
+              "number": 9,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-10",
+              "number": 10,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-11",
+              "number": 11,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-12",
+              "number": 12,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-13",
+              "number": 13,
+              "group_id": "cambridge-15-test-02-p-1-g-07-13",
+              "type": "summary_completion",
+              "prompt": "Questions 7–13\nComplete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n\nGuard rails\nGuard rails were introduced on British roads to improve the 7 __________ of pedestrians, while ensuring that the movement of 8 __________ is not disrupted. Pedestrians are led to access points, and encouraged to cross one 9 __________ at a time.\n\nAn unintended effect is to create psychological difficulties in crossing the road, particularly for less 10 __________ people. Another result is that some people cross the road in a 11 __________ way. The guard rails separate 12 __________, and make it more difficult to introduce forms of transport that are 13 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 347,
+                "line_end": 393,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  39,
+                  40,
+                  41
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 347,
+            "line_end": 393,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              39,
+              40,
+              41
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_pages": [
+        39,
+        40,
+        41
+      ],
+      "source_question_range": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+        "line_start": 347,
+        "line_end": 393,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+        "pdf_pages": [
+          39,
+          40,
+          41
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-15-test-02-p-2",
+      "number": 2,
+      "title": "Should we try to bring extinct species back to life?",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The passenger pigeon was a legendary species. Flying in vast numbers across North America, with potentially many millions within a single flock, their migration was once one of nature’s great spectacles. Sadly, the passenger pigeon’s existence came to an end on 1 September 1914, when the last living specimen died at Cincinnati Zoo. Geneticist Ben Novak is lead researcher on an ambitious project which now aims to bring the bird back to life through a process known as ‘de- extinction’. The basic premise involves using cloning technology to turn the DNA of extinct animals into a fertilised embryo, which is carried by the nearest relative still in existence — in this case, the abundant band-tailed pigeon — before being born as a living, breathing animal. Passenger pigeons are one of the pioneering species in this field, but they are far from the only ones on which this cutting-edge technology is being trialled.",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "In Australia, the thylacine, more commonly known as the Tasmanian tiger, is another extinct creature which genetic scientists are striving to bring back to life. ‘There is no carnivore now in Tasmania that fills the niche which thylacines once occupied,’ explains Michael Archer of the University of New South Wales. He points out that in the decades since the thylacine went extinct, there has been a spread in a ‘dangerously debilitating’ facial tumour syndrome which threatens the existence of the Tasmanian devils, the island’s other notorious resident. Thylacines would have prevented this spread because they would have killed significant numbers",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "of Tasmanian devils. ‘If that contagious cancer had popped up previously, it would have burned out in whatever region it started. The return of thylacines to Tasmania could help to ensure that devils are never again subjected to risks of this kind.’",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If extinct species can be brought back to life, can humanity begin to correct the damage it has caused to the natural world over the past few millennia? ‘The idea of de-extinction is that we can reverse this process, bringing species that no longer exist back to life,’ says Beth Shapiro of University of California Santa Cruz’s Genomics Institute. ‘I don’t think that we can do this. There is no way to bring back something that is 100 per cent identical to a species that went extinct a long time ago.’ A more practical approach for long-extinct species is to take the DNA of existing species as a template, ready for the insertion of strands of extinct animal DNA to create something new; a hybrid, based on the living species, but which looks and/or acts like the animal which died out.",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "This complicated process and questionable outcome begs the question: what is the actual point of this technology? ‘For us, the goal has always been replacing the extinct species with a suitable replacement,’ explains Novak. ‘When it comes to breeding, band-tailed pigeons scatter and make maybe one or two nests per hectare, whereas passenger pigeons were very social and would make 10,000 or more nests in one hectare.’ Since the disappearance of this key species, ecosystems in the eastern US have suffered, as the lack of disturbance caused by thousands of passenger pigeons wrecking trees and branches means there has been minimal need for regrowth. This has left forests stagnant and therefore unwelcoming to the plants and animals which evolved to help regenerate the forest after a disturbance. According to Novak, a hybridised band-tailed pigeon, with the added nesting habits of a passenger pigeon, could, in theory, re-establish that forest disturbance, thereby creating a habitat necessary for a great many other native species to thrive.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another popular candidate for this technology is the woolly mammoth. George Church, professor at Harvard Medical School and leader of the Woolly Mammoth Revival Project, has been focusing on cold resistance, the main way in which the extinct woolly mammoth and its nearest living relative, the Asian elephant, differ. By pinpointing which genetic traits made it possible for mammoths to survive the icy climate of the tundra, the project’s goal is to return mammoths, or a mammoth- like species, to the area. ‘My highest priority would be preserving the endangered Asian elephant,’ says Church, ‘expanding their range to the huge ecosystem of the tundra. Necessary adaptations would include smaller ears, thicker hair, and extra insulating fat, all for the purpose of reducing heat loss in the tundra, and all traits found in the now extinct woolly mammoth.’ This repopulation of the tundra and boreal forests of Eurasia and North America with large mammals could also be a useful factor in reducing carbon emissions — elephants punch holes through snow and knock down trees, which encourages grass growth. This grass growth would reduce temperatures, and mitigate emissions from melting permafrost.",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the prospect of bringing extinct animals back to life might capture imaginations, it is, of course, far easier to try to save an existing species which is merely threatened with extinction. ‘Many of the technologies that people have in mind when they think about de-extinction can be used as a form of “genetic rescue”,’ explains Shapiro. She prefers to focus the debate on how this emerging technology could be used to fully understand why various species went extinct in the first place, and therefore how we could use it to make genetic modifications which could prevent mass extinctions in the future. ‘I! would also say there's an incredible moral hazard to not do anything at all,’ she continues. ‘We know that what we are doing today is not enough, and we have to be willing to take some",
+          "label": "F"
+        },
+        {
+          "type": "paragraph",
+          "text": "calculated and measured risks.’",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-15-test-02-p-2-g-14-17",
+          "type": "matching_information",
+          "instructions": "Questions 14–17\nReading Passage 2 has six paragraphs, A–F. Which paragraph contains the following information?\nYou may use any letter more than once.",
+          "question_numbers": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "A"
+            },
+            {
+              "label": "B",
+              "text": "B"
+            },
+            {
+              "label": "C",
+              "text": "C"
+            },
+            {
+              "label": "D",
+              "text": "D"
+            },
+            {
+              "label": "E",
+              "text": "E"
+            },
+            {
+              "label": "F",
+              "text": "F"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–17\nReading Passage 2 has six paragraphs, A–F. Which paragraph contains the following information?\nYou may use any letter more than once.\n\n14. a reference to how further disappearance of multiple species could be avoided\n15. explanation of a way of reproducing an extinct animal using the DNA of only that species\n16. reference to a habitat which has suffered following the extinction of a species\n17. mention of the exact point at which a particular species became extinct"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "reuse_allowed": true,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-14",
+              "number": 14,
+              "group_id": "cambridge-15-test-02-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "a reference to how further disappearance of multiple species could be avoided",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-15",
+              "number": 15,
+              "group_id": "cambridge-15-test-02-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "explanation of a way of reproducing an extinct animal using the DNA of only that species",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-16",
+              "number": 16,
+              "group_id": "cambridge-15-test-02-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "reference to a habitat which has suffered following the extinction of a species",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-17",
+              "number": 17,
+              "group_id": "cambridge-15-test-02-p-2-g-14-17",
+              "type": "matching_information",
+              "prompt": "mention of the exact point at which a particular species became extinct",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 393,
+            "line_end": 462,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              42,
+              43,
+              44,
+              45
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-15-test-02-p-2-g-18-22",
+          "type": "summary_completion",
+          "instructions": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the 18 __________ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 __________. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 __________ of a reduced size and more 21 __________.\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 __________.",
+          "question_numbers": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the "
+                },
+                {
+                  "type": "blank",
+                  "number": 18
+                },
+                {
+                  "type": "text",
+                  "text": " which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise "
+                },
+                {
+                  "type": "blank",
+                  "number": 19
+                },
+                {
+                  "type": "text",
+                  "text": ". To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, "
+                },
+                {
+                  "type": "blank",
+                  "number": 20
+                },
+                {
+                  "type": "text",
+                  "text": " of a reduced size and more "
+                },
+                {
+                  "type": "blank",
+                  "number": 21
+                },
+                {
+                  "type": "text",
+                  "text": ".\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease "
+                },
+                {
+                  "type": "blank",
+                  "number": 22
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 2,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-18",
+              "number": 18,
+              "group_id": "cambridge-15-test-02-p-2-g-18-22",
+              "type": "summary_completion",
+              "prompt": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the 18 __________ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 __________. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 __________ of a reduced size and more 21 __________.\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-19",
+              "number": 19,
+              "group_id": "cambridge-15-test-02-p-2-g-18-22",
+              "type": "summary_completion",
+              "prompt": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the 18 __________ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 __________. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 __________ of a reduced size and more 21 __________.\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-20",
+              "number": 20,
+              "group_id": "cambridge-15-test-02-p-2-g-18-22",
+              "type": "summary_completion",
+              "prompt": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the 18 __________ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 __________. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 __________ of a reduced size and more 21 __________.\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-21",
+              "number": 21,
+              "group_id": "cambridge-15-test-02-p-2-g-18-22",
+              "type": "summary_completion",
+              "prompt": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the 18 __________ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 __________. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 __________ of a reduced size and more 21 __________.\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-22",
+              "number": 22,
+              "group_id": "cambridge-15-test-02-p-2-g-18-22",
+              "type": "summary_completion",
+              "prompt": "Questions 18–22\nComplete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.\n\nThe woolly mammoth revival project\nProfessor George Church and his team are trying to identify the 18 __________ which enabled mammoths to live in the tundra. The findings could help preserve the mammoth's close relative, the endangered Asian elephant.\n\nAccording to Church, introducing Asian elephants to the tundra would involve certain physical adaptations to minimise 19 __________. To survive in the tundra, the species would need to have the mammoth-like features of thicker hair, 20 __________ of a reduced size and more 21 __________.\n\nRepopulating the tundra with mammoths or Asian elephant/mammoth hybrids would also have an impact on the environment, which could help to reduce temperatures and decrease 22 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 393,
+            "line_end": 462,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              42,
+              43,
+              44,
+              45
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-15-test-02-p-2-g-23-26",
+          "type": "matching_features",
+          "instructions": "Questions 23-26\n\nLook at the following statements (Questions 23-26) and the list of people below.\nMatch each statement with the correct person, A, B or C.\n\nWrite the correct letter, A, B or C, in boxes 23-26 on your answer sheet.\n\nNB You may use any letter more than once.",
+          "question_numbers": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "Ben Novak"
+            },
+            {
+              "label": "B",
+              "text": "Michael Archer"
+            },
+            {
+              "label": "C",
+              "text": "Beth Shapiro"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 23-26\n\nLook at the following statements (Questions 23-26) and the list of people below.\nMatch each statement with the correct person, A, B or C.\n\nWrite the correct letter, A, B or C, in boxes 23-26 on your answer sheet.\n\nNB You may use any letter more than once.\n\n23 Reintroducing an extinct species to its original habitat could improve the health of a\nparticular species living there.\n\n24 It is important to concentrate on the causes of an animal’s extinction.\n\n25 Aspecies brought back from extinction could have an important beneficial impact\non the vegetation of its habitat.\n\n26 Our current efforts at preserving biodiversity are insufficient.\n\nList of People\nA Ben Novak\nB_ Michael Archer\nC_ Beth Shapiro"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C"
+            ],
+            "reuse_allowed": true,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-23",
+              "number": 23,
+              "group_id": "cambridge-15-test-02-p-2-g-23-26",
+              "type": "matching_features",
+              "prompt": "Reintroducing an extinct species to its original habitat could improve the health of a\nparticular species living there.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-24",
+              "number": 24,
+              "group_id": "cambridge-15-test-02-p-2-g-23-26",
+              "type": "matching_features",
+              "prompt": "It is important to concentrate on the causes of an animal’s extinction.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-25",
+              "number": 25,
+              "group_id": "cambridge-15-test-02-p-2-g-23-26",
+              "type": "matching_features",
+              "prompt": "Aspecies brought back from extinction could have an important beneficial impact\non the vegetation of its habitat.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-26",
+              "number": 26,
+              "group_id": "cambridge-15-test-02-p-2-g-23-26",
+              "type": "matching_features",
+              "prompt": "Our current efforts at preserving biodiversity are insufficient.\n\nList of People\nA Ben Novak\nB_ Michael Archer\nC_ Beth Shapiro",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 393,
+                "line_end": 462,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  42,
+                  43,
+                  44,
+                  45
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 393,
+            "line_end": 462,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              42,
+              43,
+              44,
+              45
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_pages": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "source_question_range": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+        "line_start": 393,
+        "line_end": 462,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+        "pdf_pages": [
+          42,
+          43,
+          44,
+          45
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-15-test-02-p-3",
+      "number": 3,
+      "title": "Having a laugh",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The findings of psychological scientists reveal the importance of humour",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Humans start developing a sense of humour as early as six weeks old, when babies begin to laugh and smile in response to stimuli. Laughter is universal across all human cultures and even exists in some form in rats, chimps, and bonobos. Like other human emotions and expressions, laughter and humour provide psychological scientists with rich resources for studying human psychology, ranging from the development of language to the neuroscience of social perception.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Theories focusing on the evolution of laughter point to it as an important adaptation for social communication. Take, for example, the recorded laughter in TV comedy shows. Back in 1950, US sound engineer Charley Douglass hated dealing with the unpredictable laughter of live audiences, so started recording his own ‘laugh tracks’. These were intended to help people at home feel like they were in a social situation, such as a crowded theatre. Douglass even recorded various types of laughter, as well as mixtures of laughter from men, women, and children. In doing so, he picked up on a quality of laughter that is now interesting researchers: a simple ‘haha’ communicates a remarkable amount of socially relevant information.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In one study conducted in 2016, samples of laughter from pairs of English-speaking students were recorded at the University of California, Santa Cruz. A team made up of more than 30 psychological scientists, anthropologists, and biologists then played these recordings to listeners from 24 diverse societies, from indigenous tribes in New Guinea to city-dwellers in India and Europe. Participants were asked whether they thought the people laughing were friends or strangers. On average, the results were remarkably consistent: worldwide, people’s guesses were correct approximately 60% of the time.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers have also found that different types of laughter serve as codes to complex human social hierarchies. A team led by Christopher Oveis from the University of California, San Diego, found that high-status individuals had different laughs from low-status individuals, and that strangers’ judgements of an individual’s social status were influenced by the dominant or submissive quality of their laughter. In their study, 48 male college students were randomly assigned to groups of four, with each group composed of two low-status members, who had just joined their college fraternity group, and two high-status members, older students who had been active in the fraternity for at least two years. Laughter was recorded as each student took a turn at being teased by the others, involving the use of mildly insulting nicknames. Analysis revealed that, as expected, high-status individuals produced more dominant laughs and fewer submissive laughs relative to the low-status individuals. Meanwhile, low-status individuals were more likely to change their laughter based on their position of power; that is, the newcomers produced more",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "dominant laughs when they were in the ‘powerful’ role of teasers. Dominant laughter was higher in pitch, louder, and more variable in tone than submissive laughter.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "A random group of volunteers then listened to an equal number of dominant and submissive laughs from both the high- and low-status individuals, and were asked to estimate the social status of the laugher. In line with predictions, laughers producing dominant laughs were perceived to be significantly higher in status than laughers producing submissive laughs. ‘This was particularly true for low-status individuals, who were rated as significantly higher in status when displaying a dominant versus submissive laugh,’ Oveis and colleagues note. ‘Thus, by strategically displaying more dominant laughter when the context allows, low-status individuals may achieve higher status in the eyes of others.’ However, high-status individuals were rated as high-status whether they produced their natural dominant laugh or tried to do a submissive one.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Another study, conducted by David Cheng and Lu Wang of Australian National University,",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "was based on the hypothesis that humour might provide a respite from tedious situations in the workplace. This ‘mental break’ might facilitate the replenishment of mental resources. To test this theory, the researchers recruited 74 business students, ostensibly for an experiment on perception. First, the students performed a tedious task in which they had to cross out every instance of the letter ‘e’ over two pages of text. The students then were randomly assigned to watch a video",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "clip eliciting either humour, contentment, or neutral feelings. Some watched a clip of the BBC comedy Mr. Bean, others a relaxing scene with dolphins swimming in the ocean, and others a factual video about the management profession.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The students then completed a task requiring persistence in which they were asked to guess the potential performance of employees based on provided profiles, and were told that making 10 correct assessments in a row would lead to a win. However, the software was programmed such that it was nearly impossible to achieve 10 consecutive correct answers. Participants were allowed to quit the task at any point. Students who had watched the Mr. Bean video ended up spending significantly more time working on the task, making twice as many predictions as the other two groups.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Cheng and Wang then replicated these results in a second study, during which they had participants complete long multiplication questions by hand. Again, participants who watched the humorous video spent significantly more time working on this tedious task and completed more questions correctly than did the students in either of the other groups.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "“Although humour has been found to help relieve stress and facilitate social relationships, the traditional view of task performance implies that individuals should avoid things such as humour that may distract them from the accomplishment of task goals,’ Cheng and Wang conclude. ‘We suggest that humour is not only enjoyable but more importantly, energising.’",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-15-test-02-p-3-g-27-31",
+          "type": "multiple_choice_single",
+          "instructions": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing.",
+          "question_numbers": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing."
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "asset_id": "cambridge-15-test-02-p-3-g-27-31-asset-48-0",
+              "alt": "Original task, questions [27, 28, 29, 30, 31]"
+            }
+          ],
+          "assets": [
+            {
+              "id": "cambridge-15-test-02-p-3-g-27-31-asset-48-0",
+              "path": "assets/cambridge_15/cambridge-15-test-02-p-3-g-27-31-pdf-048-0.png",
+              "mime_type": "image/png",
+              "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+              "pdf_page": 48,
+              "crop_box": [
+                41.67,
+                116.5,
+                589.32,
+                787.17
+              ],
+              "coordinate_system": "pdf_points_top_left",
+              "render_scale": 2.5,
+              "width": 1370,
+              "height": 1677,
+              "sha256": "3fda4c97e103b16b60983ac27f2394d6943efe44d0b3f12f034b4066415fb824",
+              "verification_status": "extracted_needs_visual_review",
+              "question_numbers": [
+                27,
+                28,
+                29,
+                30,
+                31
+              ]
+            }
+          ],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-27",
+              "number": 27,
+              "group_id": "cambridge-15-test-02-p-3-g-27-31",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-28",
+              "number": 28,
+              "group_id": "cambridge-15-test-02-p-3-g-27-31",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-29",
+              "number": 29,
+              "group_id": "cambridge-15-test-02-p-3-g-27-31",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-30",
+              "number": 30,
+              "group_id": "cambridge-15-test-02-p-3-g-27-31",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-31",
+              "number": 31,
+              "group_id": "cambridge-15-test-02-p-3-g-27-31",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 27-31\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 27-31 on your answer sheet.\n\nWhen referring to laughter in the first paragraph, the writer emphasises\n\nA _ its impact on language.\n\nB _ its function in human culture.\n\nC _ its value to scientific research.\n\nD _ its universality in animal societies.\n\nWhat does the writer suggest about Charley Douglass?\n\nA He understood the importance of enjoying humour in a group setting.\n\nB_ He believed that TV viewers at home needed to be told when to laugh.\n\nC He wanted his shows to appeal to audiences across the social spectrum.\nD He preferred shows where audiences were present in the recording studio.\n\nWhat makes the Santa Cruz study particularly significant?\n\nA _ the various different types of laughter that were studied\nB the similar results produced by a wide range of cultures\nC the number of different academic disciplines involved\n\nD_ the many kinds of people whose laughter was recorded\n\nWhich of the following happened in the San Diego study?\n\nA Some participants became very upset.\n\nB_ Participants exchanged roles.\n\nC Participants who had not met before became friends.\nD_ Some participants were unable to laugh.\n\nIn the fifth paragraph, what did the results of the San Diego study suggest?\n\nA tis clear whether a dominant laugh is produced by a high- or low-status\n\nperson.\n\nB__Low-status individuals in a position of power will still produce submissive\nlaughs.\n\nC The submissive laughs of low- and high-status individuals are surprisingly\nsimilar.\n\nD High-status individuals can always be identified by their way of laughing.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 462,
+            "line_end": 593,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "source_image_with_inputs",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-15-test-02-p-3-g-32-36",
+          "type": "summary_completion",
+          "instructions": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+          "question_numbers": [
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind."
+            },
+            {
+              "label": "A",
+              "text": "laughter"
+            },
+            {
+              "label": "B",
+              "text": "relaxing"
+            },
+            {
+              "label": "C",
+              "text": "boring"
+            },
+            {
+              "label": "D",
+              "text": "anxiety"
+            },
+            {
+              "label": "E",
+              "text": "stimulating"
+            },
+            {
+              "label": "F",
+              "text": "emotion"
+            },
+            {
+              "label": "G",
+              "text": "enjoyment"
+            },
+            {
+              "label": "H",
+              "text": "amusing"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of "
+                },
+                {
+                  "type": "blank",
+                  "number": 32
+                },
+                {
+                  "type": "text",
+                  "text": ". When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the "
+                },
+                {
+                  "type": "blank",
+                  "number": 33
+                },
+                {
+                  "type": "text",
+                  "text": " video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly "
+                },
+                {
+                  "type": "blank",
+                  "number": 34
+                },
+                {
+                  "type": "text",
+                  "text": " task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces "
+                },
+                {
+                  "type": "blank",
+                  "number": 35
+                },
+                {
+                  "type": "text",
+                  "text": " and helps build social connections but it may also have a "
+                },
+                {
+                  "type": "blank",
+                  "number": 36
+                },
+                {
+                  "type": "text",
+                  "text": " effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-32",
+              "number": 32,
+              "group_id": "cambridge-15-test-02-p-3-g-32-36",
+              "type": "summary_completion",
+              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-33",
+              "number": 33,
+              "group_id": "cambridge-15-test-02-p-3-g-32-36",
+              "type": "summary_completion",
+              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-34",
+              "number": 34,
+              "group_id": "cambridge-15-test-02-p-3-g-32-36",
+              "type": "summary_completion",
+              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-35",
+              "number": 35,
+              "group_id": "cambridge-15-test-02-p-3-g-32-36",
+              "type": "summary_completion",
+              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-36",
+              "number": 36,
+              "group_id": "cambridge-15-test-02-p-3-g-32-36",
+              "type": "summary_completion",
+              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 462,
+            "line_end": 593,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-15-test-02-p-3-g-37-40",
+          "type": "yes_no_not_given",
+          "instructions": "Questions 37-40\n\nDo the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nParticipants in the Santa Cruz study were more accurate at identifying the laughs of\nfriends than those of strangers.\n\nThe researchers in the San Diego study were correct in their predictions regarding\nthe behaviour of the high-status individuals.\n\nThe participants in the Australian National University study were given a fixed\namount of time to complete the task focusing on employee profiles.\n\nCheng and Wang's conclusions were in line with established notions regarding task\nperformance.",
+          "question_numbers": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 37-40\n\nDo the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nParticipants in the Santa Cruz study were more accurate at identifying the laughs of\nfriends than those of strangers.\n\nThe researchers in the San Diego study were correct in their predictions regarding\nthe behaviour of the high-status individuals.\n\nThe participants in the Australian National University study were given a fixed\namount of time to complete the task focusing on employee profiles.\n\nCheng and Wang's conclusions were in line with established notions regarding task\nperformance."
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "asset_id": "cambridge-15-test-02-p-3-g-37-40-asset-50-0",
+              "alt": "Original task, questions [37, 38, 39, 40]"
+            }
+          ],
+          "assets": [
+            {
+              "id": "cambridge-15-test-02-p-3-g-37-40-asset-50-0",
+              "path": "assets/cambridge_15/cambridge-15-test-02-p-3-g-37-40-pdf-050-0.png",
+              "mime_type": "image/png",
+              "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+              "pdf_page": 50,
+              "crop_box": [
+                41.67,
+                118.0,
+                589.32,
+                787.17
+              ],
+              "coordinate_system": "pdf_points_top_left",
+              "render_scale": 2.5,
+              "width": 1370,
+              "height": 1673,
+              "sha256": "1a7053514bfba7f108e3936e142191d511c5b50465af8a86d49dca7bd4a903fb",
+              "verification_status": "extracted_needs_visual_review",
+              "question_numbers": [
+                37,
+                38,
+                39,
+                40
+              ]
+            }
+          ],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-15-test-02-q-37",
+              "number": 37,
+              "group_id": "cambridge-15-test-02-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 37-40\n\nDo the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nParticipants in the Santa Cruz study were more accurate at identifying the laughs of\nfriends than those of strangers.\n\nThe researchers in the San Diego study were correct in their predictions regarding\nthe behaviour of the high-status individuals.\n\nThe participants in the Australian National University study were given a fixed\namount of time to complete the task focusing on employee profiles.\n\nCheng and Wang's conclusions were in line with established notions regarding task\nperformance.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-38",
+              "number": 38,
+              "group_id": "cambridge-15-test-02-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 37-40\n\nDo the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nParticipants in the Santa Cruz study were more accurate at identifying the laughs of\nfriends than those of strangers.\n\nThe researchers in the San Diego study were correct in their predictions regarding\nthe behaviour of the high-status individuals.\n\nThe participants in the Australian National University study were given a fixed\namount of time to complete the task focusing on employee profiles.\n\nCheng and Wang's conclusions were in line with established notions regarding task\nperformance.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-39",
+              "number": 39,
+              "group_id": "cambridge-15-test-02-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 37-40\n\nDo the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nParticipants in the Santa Cruz study were more accurate at identifying the laughs of\nfriends than those of strangers.\n\nThe researchers in the San Diego study were correct in their predictions regarding\nthe behaviour of the high-status individuals.\n\nThe participants in the Australian National University study were given a fixed\namount of time to complete the task focusing on employee profiles.\n\nCheng and Wang's conclusions were in line with established notions regarding task\nperformance.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-15-test-02-q-40",
+              "number": 40,
+              "group_id": "cambridge-15-test-02-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 37-40\n\nDo the following statements agree with the claims of the writer in Reading Passage 3?\n\nIn boxes 37-40 on your answer sheet, write\n\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nParticipants in the Santa Cruz study were more accurate at identifying the laughs of\nfriends than those of strangers.\n\nThe researchers in the San Diego study were correct in their predictions regarding\nthe behaviour of the high-status individuals.\n\nThe participants in the Australian National University study were given a fixed\namount of time to complete the task focusing on employee profiles.\n\nCheng and Wang's conclusions were in line with established notions regarding task\nperformance.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+                "line_start": 462,
+                "line_end": 593,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+                "pdf_pages": [
+                  46,
+                  47,
+                  48,
+                  49,
+                  50
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+            "line_start": 462,
+            "line_end": 593,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+            "pdf_pages": [
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "source_image_with_inputs",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "source_question_range": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+        "line_start": 462,
+        "line_end": 593,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+        "pdf_pages": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    }
+  ],
+  "question_count": 40,
+  "content_status": "needs_review",
+  "source_verified": false,
+  "verification": {
+    "text": "transcribed_unverified",
+    "questions": "transcribed_unverified",
+    "keys": "transcribed_unverified"
+  },
+  "source_references": [
+    {
+      "txt_file": "ieltsReading/Cambridge_IELTS_15_Reading_All_Tests_With_Answers.txt",
+      "line_start": 343,
+      "line_end": 643,
+      "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "line_coordinate_space": "original_txt"
+    }
+  ]
+}

@@ -1,0 +1,3808 @@
+{
+  "counts": {
+    "exams": 72,
+    "passages": 216,
+    "questions": 2880,
+    "answers": 2880,
+    "ready": 0,
+    "needs_review": 65,
+    "blocked": 7,
+    "structurally_valid": 67,
+    "fully_converted": 67
+  },
+  "question_types": {
+    "true_false_not_given": 511,
+    "short_answer": 39,
+    "multiple_choice_single": 241,
+    "table_completion": 101,
+    "matching_features": 226,
+    "summary_completion": 435,
+    "yes_no_not_given": 280,
+    "matching_information": 277,
+    "multiple_choice_multiple": 90,
+    "matching_headings": 200,
+    "sentence_completion": 105,
+    "flow_chart_completion": 17,
+    "diagram_labelling": 42,
+    "matching_sentence_endings": 90,
+    "note_completion": 226
+  },
+  "source_verified": 0,
+  "answer_verification": {
+    "transcribed_unverified": 2840,
+    "source_verified": 40
+  },
+  "source_integrity_verified": true,
+  "schema_validation": "run validator.py; generation via generate.py validates before publication",
+  "graphics_found": 32,
+  "graphics_extracted": 32,
+  "png_assets_extracted": 60,
+  "question_groups_with_source_images": 58,
+  "graphic_count_definition": "A graphic element is a question group requiring a table, diagram or flow-chart; multi-page crops count as one graphic group. PNG count also includes task-layout fallbacks.",
+  "paragraph_labels_restored": 171,
+  "ocr_corrections": 200,
+  "issues": [
+    {
+      "code": "key_page_unlocated",
+      "detail": "Exact local PDF key page has not been established; original TXT key lines are preserved.",
+      "exam_id": "cambridge-04-test-01",
+      "book": 4,
+      "test": 1,
+      "passage": null,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": []
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-01",
+      "book": 4,
+      "test": 1,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-04-test-01",
+      "book": 4,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "pdf_pages": [
+        17,
+        18
+      ]
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-01",
+      "book": 4,
+      "test": 1,
+      "passage": 3,
+      "question": null,
+      "pdf_pages": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-04-test-01",
+      "book": 4,
+      "test": 1,
+      "passage": 3,
+      "question": [
+        30,
+        31,
+        32
+      ],
+      "pdf_pages": [
+        25
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-04-test-01",
+      "book": 4,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "code": "key_page_unlocated",
+      "detail": "Exact local PDF key page has not been established; original TXT key lines are preserved.",
+      "exam_id": "cambridge-04-test-02",
+      "book": 4,
+      "test": 2,
+      "passage": null,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": []
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-02",
+      "book": 4,
+      "test": 2,
+      "passage": 2,
+      "question": null,
+      "pdf_pages": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-04-test-02",
+      "book": 4,
+      "test": 2,
+      "passage": 2,
+      "question": [
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        53
+      ]
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-02",
+      "book": 4,
+      "test": 2,
+      "passage": 3,
+      "question": null,
+      "pdf_pages": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-04-test-02",
+      "book": 4,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "code": "source_range_typo",
+      "detail": "PDF p.82 prints Questions 13; actual numbered Section A–D tasks and answer boxes are 14–17. Metadata uses actual tasks.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "pdf_pages": [
+        82
+      ]
+    },
+    {
+      "code": "key_page_unlocated",
+      "detail": "Exact local PDF key page has not been established; original TXT key lines are preserved.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": null,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": []
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 1,
+      "question": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf_pages": [
+        79,
+        80
+      ]
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 2,
+      "question": null,
+      "pdf_pages": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 3,
+      "question": null,
+      "pdf_pages": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 3,
+      "question": null,
+      "pdf_pages": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": 3,
+      "question": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "pdf_pages": [
+        92
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-04-test-03",
+      "book": 4,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "code": "key_page_unlocated",
+      "detail": "Exact local PDF key page has not been established; original TXT key lines are preserved.",
+      "exam_id": "cambridge-04-test-04",
+      "book": 4,
+      "test": 4,
+      "passage": null,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": []
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-04-test-04",
+      "book": 4,
+      "test": 4,
+      "passage": 2,
+      "question": null,
+      "pdf_pages": [
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-04-test-04",
+      "book": 4,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-05-test-01",
+      "book": 5,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-05-test-02",
+      "book": 5,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf_pages": [
+        42
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-05-test-02",
+      "book": 5,
+      "test": 2,
+      "passage": 2,
+      "question": [
+        21,
+        22,
+        23
+      ],
+      "pdf_pages": [
+        47
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-05-test-02",
+      "book": 5,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": [
+        52
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-05-test-02",
+      "book": 5,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-05-test-03",
+      "book": 5,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-05-test-04",
+      "book": 5,
+      "test": 4,
+      "passage": 1,
+      "question": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        89
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-05-test-04",
+      "book": 5,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-01",
+      "book": 6,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "pdf_pages": [
+        25
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-01",
+      "book": 6,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "pdf_pages": [
+        25
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-06-test-01",
+      "book": 6,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-02",
+      "book": 6,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "pdf_pages": [
+        44
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-02",
+      "book": 6,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        44
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-02",
+      "book": 6,
+      "test": 2,
+      "passage": 2,
+      "question": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        48
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-02",
+      "book": 6,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "pdf_pages": [
+        51
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['A']",
+      "exam_id": "cambridge-06-test-02",
+      "book": 6,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-06-test-02",
+      "book": 6,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-06-test-03",
+      "book": 6,
+      "test": 3,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-03",
+      "book": 6,
+      "test": 3,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pdf_pages": [
+        66
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-03",
+      "book": 6,
+      "test": 3,
+      "passage": 1,
+      "question": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "pdf_pages": [
+        66
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-03",
+      "book": 6,
+      "test": 3,
+      "passage": 3,
+      "question": [
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": [
+        75
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-06-test-03",
+      "book": 6,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-04",
+      "book": 6,
+      "test": 4,
+      "passage": 1,
+      "question": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        89
+      ]
+    },
+    {
+      "code": "title_needs_review",
+      "detail": "Original title missing or not established; do not display an invented heading.",
+      "exam_id": "cambridge-06-test-04",
+      "book": 6,
+      "test": 4,
+      "passage": 3,
+      "question": null,
+      "pdf_pages": [
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-06-test-04",
+      "book": 6,
+      "test": 4,
+      "passage": 3,
+      "question": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "pdf_pages": [
+        97
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-06-test-04",
+      "book": 6,
+      "test": 4,
+      "passage": 3,
+      "question": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "pdf_pages": [
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-06-test-04",
+      "book": 6,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "code": "suspected_question_corruption",
+      "detail": "Question group contains OCR artifacts or explicit review note.",
+      "exam_id": "cambridge-07-test-01",
+      "book": 7,
+      "test": 1,
+      "passage": 1,
+      "question": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-01",
+      "book": 7,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "pdf_pages": [
+        26
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-01",
+      "book": 7,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        29
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-07-test-01",
+      "book": 7,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "code": "source_obscured_by_watermark",
+      "detail": "Blue advertising watermark over passage paragraph on page 45 obscures words. No guessed reconstruction supplied.",
+      "exam_id": "cambridge-07-test-02",
+      "book": 7,
+      "test": 2,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        45
+      ]
+    },
+    {
+      "code": "suspected_question_corruption",
+      "detail": "Question group contains OCR artifacts or explicit review note.",
+      "exam_id": "cambridge-07-test-02",
+      "book": 7,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-02",
+      "book": 7,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "pdf_pages": [
+        52
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-07-test-02",
+      "book": 7,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-03",
+      "book": 7,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        20,
+        21
+      ],
+      "pdf_pages": [
+        76
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-03",
+      "book": 7,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "pdf_pages": [
+        77
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-03",
+      "book": 7,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        26
+      ],
+      "pdf_pages": [
+        77
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-07-test-03",
+      "book": 7,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        26
+      ],
+      "pdf_pages": [
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-03",
+      "book": 7,
+      "test": 3,
+      "passage": 3,
+      "question": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "pdf_pages": [
+        81
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-07-test-03",
+      "book": 7,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-04",
+      "book": 7,
+      "test": 4,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "pdf_pages": [
+        98
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-07-test-04",
+      "book": 7,
+      "test": 4,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29
+      ],
+      "pdf_pages": [
+        102
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-07-test-04",
+      "book": 7,
+      "test": 4,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29
+      ],
+      "pdf_pages": [
+        100,
+        101,
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-07-test-04",
+      "book": 7,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-08-test-01",
+      "book": 8,
+      "test": 1,
+      "passage": 3,
+      "question": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": [
+        28
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-08-test-01",
+      "book": 8,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-08-test-02",
+      "book": 8,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf_pages": [
+        42
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-08-test-02",
+      "book": 8,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-08-test-03",
+      "book": 8,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-08-test-04",
+      "book": 8,
+      "test": 4,
+      "passage": 3,
+      "question": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": [
+        99
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-08-test-04",
+      "book": 8,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "code": "key_source_unavailable",
+      "detail": "TXT states keys came from an external copy, not supplied local PDF; cannot locally source-verify.",
+      "exam_id": "cambridge-09-test-01",
+      "book": 9,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": []
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-09-test-01",
+      "book": 9,
+      "test": 1,
+      "passage": 3,
+      "question": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "pdf_pages": [
+        22
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-09-test-01",
+      "book": 9,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "code": "key_source_unavailable",
+      "detail": "TXT states keys came from an external copy, not supplied local PDF; cannot locally source-verify.",
+      "exam_id": "cambridge-09-test-02",
+      "book": 9,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": []
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-09-test-02",
+      "book": 9,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "code": "key_source_unavailable",
+      "detail": "TXT states keys came from an external copy, not supplied local PDF; cannot locally source-verify.",
+      "exam_id": "cambridge-09-test-03",
+      "book": 9,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": []
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-09-test-03",
+      "book": 9,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        73
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-09-test-03",
+      "book": 9,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "code": "key_source_unavailable",
+      "detail": "TXT states keys came from an external copy, not supplied local PDF; cannot locally source-verify.",
+      "exam_id": "cambridge-09-test-04",
+      "book": 9,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": []
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-09-test-04",
+      "book": 9,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "code": "binding_obscures_text",
+      "detail": "Stepwells page 9 has partially obscured letters near binding; repaired transcription requires final proofreading.",
+      "exam_id": "cambridge-10-test-01",
+      "book": 10,
+      "test": 1,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-10-test-01",
+      "book": 10,
+      "test": 1,
+      "passage": 1,
+      "question": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['H', 'I']",
+      "exam_id": "cambridge-10-test-01",
+      "book": 10,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-10-test-01",
+      "book": 10,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-10-test-02",
+      "book": 10,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        36
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-10-test-02",
+      "book": 10,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "pdf_pages": [
+        44
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-10-test-02",
+      "book": 10,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['C', 'G']",
+      "exam_id": "cambridge-10-test-02",
+      "book": 10,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['A', 'B', 'C', 'D', 'E', 'F']",
+      "exam_id": "cambridge-10-test-02",
+      "book": 10,
+      "test": 2,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-10-test-02",
+      "book": 10,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-10-test-03",
+      "book": 10,
+      "test": 3,
+      "passage": 3,
+      "question": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "pdf_pages": [
+        67
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-10-test-03",
+      "book": 10,
+      "test": 3,
+      "passage": 3,
+      "question": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "pdf_pages": [
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['A', 'B', 'C']",
+      "exam_id": "cambridge-10-test-03",
+      "book": 10,
+      "test": 3,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['E', 'F', 'G', 'H', 'I']",
+      "exam_id": "cambridge-10-test-03",
+      "book": 10,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        60,
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-10-test-03",
+      "book": 10,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "code": "paragraph_labels_missing",
+      "detail": "Source labels not recovered: ['E', 'F', 'G', 'H']",
+      "exam_id": "cambridge-10-test-04",
+      "book": 10,
+      "test": 4,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        84,
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-10-test-04",
+      "book": 10,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-11-test-01",
+      "book": 11,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "pdf_pages": [
+        22
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-11-test-01",
+      "book": 11,
+      "test": 1,
+      "passage": 3,
+      "question": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "pdf_pages": [
+        26
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-11-test-01",
+      "book": 11,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-11-test-02",
+      "book": 11,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        42
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-11-test-02",
+      "book": 11,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-11-test-03",
+      "book": 11,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-11-test-04",
+      "book": 11,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-12-test-05",
+      "book": 12,
+      "test": 5,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-12-test-06",
+      "book": 12,
+      "test": 6,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "pdf_pages": [
+        48
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-12-test-06",
+      "book": 12,
+      "test": 6,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-12-test-07",
+      "book": 12,
+      "test": 7,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-12-test-08",
+      "book": 12,
+      "test": 8,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-13-test-01",
+      "book": 13,
+      "test": 1,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "pdf_pages": [
+        19
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-13-test-01",
+      "book": 13,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-13-test-02",
+      "book": 13,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-13-test-03",
+      "book": 13,
+      "test": 3,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "pdf_pages": [
+        63
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-13-test-03",
+      "book": 13,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-13-test-04",
+      "book": 13,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-14-test-01",
+      "book": 14,
+      "test": 1,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-14-test-01",
+      "book": 14,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-14-test-02",
+      "book": 14,
+      "test": 2,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-14-test-02",
+      "book": 14,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-14-test-03",
+      "book": 14,
+      "test": 3,
+      "passage": 2,
+      "question": null,
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-14-test-03",
+      "book": 14,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-14-test-04",
+      "book": 14,
+      "test": 4,
+      "passage": 1,
+      "question": null,
+      "pdf_pages": [
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-14-test-04",
+      "book": 14,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-15-test-01",
+      "book": 15,
+      "test": 1,
+      "passage": 1,
+      "question": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        21
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-15-test-01",
+      "book": 15,
+      "test": 1,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "pdf_pages": [
+        28
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-15-test-01",
+      "book": 15,
+      "test": 1,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "pdf_pages": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-15-test-01",
+      "book": 15,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-15-test-02",
+      "book": 15,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "pdf_pages": [
+        48
+      ]
+    },
+    {
+      "code": "options_via_source_image",
+      "detail": "OCR lost numeric labels or option labels; use the original task image and separate answer positions. Typed per-question options need review.",
+      "exam_id": "cambridge-15-test-02",
+      "book": 15,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "pdf_pages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-15-test-02",
+      "book": 15,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "pdf_pages": [
+        50
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-15-test-02",
+      "book": 15,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-15-test-03",
+      "book": 15,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-15-test-04",
+      "book": 15,
+      "test": 4,
+      "passage": 1,
+      "question": [
+        6,
+        7,
+        8
+      ],
+      "pdf_pages": [
+        84
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-15-test-04",
+      "book": 15,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-16-test-01",
+      "book": 16,
+      "test": 1,
+      "passage": 1,
+      "question": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        21
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-16-test-01",
+      "book": 16,
+      "test": 1,
+      "passage": 2,
+      "question": null,
+      "pdf_pages": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-16-test-01",
+      "book": 16,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-16-test-02",
+      "book": 16,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-16-test-03",
+      "book": 16,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-16-test-04",
+      "book": 16,
+      "test": 4,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pdf_pages": [
+        86
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-16-test-04",
+      "book": 16,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-17-test-01",
+      "book": 17,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-17-test-02",
+      "book": 17,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-17-test-03",
+      "book": 17,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-17-test-04",
+      "book": 17,
+      "test": 4,
+      "passage": 1,
+      "question": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "pdf_pages": [
+        77
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-17-test-04",
+      "book": 17,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-18-test-01",
+      "book": 18,
+      "test": 1,
+      "passage": 1,
+      "question": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "pdf_pages": [
+        20
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-18-test-01",
+      "book": 18,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-18-test-02",
+      "book": 18,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-18-test-03",
+      "book": 18,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-18-test-04",
+      "book": 18,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-19-test-01",
+      "book": 19,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-19-test-02",
+      "book": 19,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-19-test-03",
+      "book": 19,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-19-test-04",
+      "book": 19,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-20-test-01",
+      "book": 20,
+      "test": 1,
+      "passage": 2,
+      "question": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "pdf_pages": [
+        19
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-20-test-01",
+      "book": 20,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-20-test-02",
+      "book": 20,
+      "test": 2,
+      "passage": 3,
+      "question": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "pdf_pages": [
+        60
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-20-test-02",
+      "book": 20,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "code": "source_option_label_anomaly",
+      "detail": "PDF p.94 labels stem A and options B–F despite A–E instructions. Official key labels cannot be resolved safely.",
+      "exam_id": "cambridge-20-test-03",
+      "book": 20,
+      "test": 3,
+      "passage": 2,
+      "question": [
+        22,
+        23
+      ],
+      "pdf_pages": [
+        94
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-20-test-03",
+      "book": 20,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-20-test-04",
+      "book": 20,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-21-test-01",
+      "book": 21,
+      "test": 1,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-21-test-02",
+      "book": 21,
+      "test": 2,
+      "passage": 1,
+      "question": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pdf_pages": [
+        41
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-21-test-02",
+      "book": 21,
+      "test": 2,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-21-test-03",
+      "book": 21,
+      "test": 3,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "code": "asset_visual_review_required",
+      "detail": "Crop boundaries were found locally by OCR; compare crop with PDF before release.",
+      "exam_id": "cambridge-21-test-04",
+      "book": 21,
+      "test": 4,
+      "passage": 1,
+      "question": [
+        8,
+        9,
+        10
+      ],
+      "pdf_pages": [
+        85
+      ]
+    },
+    {
+      "code": "suspected_text_corruption",
+      "detail": "Passage contains OCR artifacts or an explicit uncertainty note; inspect referenced source pages.",
+      "exam_id": "cambridge-21-test-04",
+      "book": 21,
+      "test": 4,
+      "passage": 3,
+      "question": null,
+      "pdf_pages": [
+        90,
+        91,
+        92,
+        93,
+        94
+      ]
+    },
+    {
+      "code": "source_proofreading_required",
+      "detail": "TXT content and official keys have not been fully checked against local PDF page images.",
+      "exam_id": "cambridge-21-test-04",
+      "book": 21,
+      "test": 4,
+      "passage": null,
+      "question": null,
+      "pdf_pages": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ]
+    }
+  ],
+  "validation": {
+    "artifact_validation_passed": true,
+    "counts": {
+      "exams": 72,
+      "passages": 216,
+      "questions": 2880,
+      "answers": 2880,
+      "assets": 60
+    },
+    "errors": [],
+    "content_gate_issues": 7,
+    "source_hashes_verified": 36,
+    "schema_documents_validated": 144,
+    "release_ready": 0
+  }
+}

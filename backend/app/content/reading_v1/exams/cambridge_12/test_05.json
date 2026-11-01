@@ -1,0 +1,2334 @@
+{
+  "id": "cambridge-12-test-05",
+  "dataset_version": "1.0.0",
+  "source_book": 12,
+  "source_test_number": 5,
+  "test_ordinal": 1,
+  "module": "academic_reading",
+  "duration_seconds": 3600,
+  "passages": [
+    {
+      "id": "cambridge-12-test-05-p-1",
+      "number": 1,
+      "title": "Cork",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cork - the thick bark of the cork oak tree (Quercus suber) - is a remarkable material. It is\ntough, elastic, buoyant, and fire-resistant, and suitable for a wide range of purposes. It has\nalso been used for millennia: the ancient Egyptians sealed their sarcophagi (stone coffins)\nwith cork, while the ancient Greeks and Romans used it for anything from beehives to sandals.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "And the cork oak itself is an extraordinary tree. Its bark grows up to 20 cm in thickness,\ninsulating the tree like a coat wrapped around the trunk and branches and keeping the inside\nat a constant 20°C all year round. Developed most probably as a defence against forest fires,\nthe bark of the cork oak has a particular cellular structure — with about 40 million cells per\ncubic centimetre — that technology has never succeeded in replicating. The cells are filled\nwith air, which is why cork is so buoyant. It also has an elasticity that means you can squash\nit and watch it spring back to its original size and shape when you release the pressure.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Cork oaks grow in a number of Mediterranean countries, including Portugal, Spain, Italy,\nGreece and Morocco. They flourish in warm, sunny climates where there is a minimum of 400\nmillimetres of rain per year, and not more than 800 millimetres. Like grape vines, the trees\nthrive in poor soil, putting down deep roots in search of moisture and nutrients. Southern\nPortugal's Alentejo region meets all of these requirements, which explains why, by the early\n20th century, this region had become the world’s largest producer of cork, and why today it\naccounts for roughly half of all cork production around the world.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Most cork forests are family-owned. Many of these family businesses, and indeed many of the\ntrees themselves, are around 200 years old. Cork production is, above all, an exercise in\npatience. From the planting of a cork sapling to the first harvest takes 25 years, and a gap\nof approximately a decade must separate harvests from an individual tree. And for top-quality\ncork, it’s necessary to wait a further 15 or 20 years. You even have to wait for the right\nkind of summer’s day to harvest cork. If the bark is stripped on a day when it’s too cold - or\nwhen the air is damp - the tree will be damaged.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Cork harvesting is a very specialised profession. No mechanical means of stripping cork bark\nhas been invented, so the job is done by teams of highly skilled workers. First, they make\nvertical cuts down the bark using small sharp axes, then lever it away in pieces as large as\nthey can manage. The most skilful cork-strippers prise away a semi-circular husk that runs the\nlength of the trunk from just above ground level to the first branches. It is then dried on\nthe ground for about four months, before being taken to factories, where it is boiled to kill\nany insects that might remain in the cork. Over 60% of cork then goes on to be made into\ntraditional bottle stoppers, with most of the remainder being used in the construction trade.\nCorkboard and cork tiles are ideal for thermal and acoustic insulation, while granules of cork\nare used in the manufacture of concrete.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Recent years have seen the end of the virtual monopoly of cork as the material for bottle\nstoppers, due to concerns about the effect it may have on the contents of the bottle. This is\ncaused by a chemical compound called 2,4,6-trichloroanisole (TCA), which forms through the\ninteraction of plant phenols, chlorine and mould. The tiniest concentrations — as little as\nthree or four parts to a trillion - can spoil the taste of the product contained in the\nbottle. The result has been a gradual yet steady move first towards plastic stoppers and, more\nrecently, to aluminium screw caps. These substitutes are cheaper to manufacture and, in the\ncase of screw caps, more convenient for the user.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The classic cork stopper does have several advantages, however. Firstly, its traditional image\nis more in keeping with that of the type of high quality goods with which it has long been\nassociated. Secondly — and very importantly — cork is a sustainable product that can be\nrecycled without difficulty. Moreover, cork forests are a resource which support local\nbiodiversity, and prevent desertification in the regions where they are planted. So, given the\ncurrent concerns about environmental issues, the future of this ancient material once again\nlooks promising.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-12-test-05-p-1-g-01-05",
+          "type": "true_false_not_given",
+          "instructions": "Questions 1-5\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-5 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "question_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 1-5\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 1-5 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this\n1 The cork oak has the thickest bark of any living tree.\n2. Scientists have developed a synthetic cork with the same cellular structure as\nnatural cork.\n3 Individual cork oak trees must be left for 25 years between the first and second\nharvest.\n4 Cork bark should be stripped in dry atmospheric conditions.\n5 The only way to remove the bark from cork oak trees is by hand."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-01",
+              "number": 1,
+              "group_id": "cambridge-12-test-05-p-1-g-01-05",
+              "type": "true_false_not_given",
+              "prompt": "The cork oak has the thickest bark of any living tree.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-02",
+              "number": 2,
+              "group_id": "cambridge-12-test-05-p-1-g-01-05",
+              "type": "true_false_not_given",
+              "prompt": "Scientists have developed a synthetic cork with the same cellular structure as\nnatural cork.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-03",
+              "number": 3,
+              "group_id": "cambridge-12-test-05-p-1-g-01-05",
+              "type": "true_false_not_given",
+              "prompt": "Individual cork oak trees must be left for 25 years between the first and second\nharvest.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-04",
+              "number": 4,
+              "group_id": "cambridge-12-test-05-p-1-g-01-05",
+              "type": "true_false_not_given",
+              "prompt": "Cork bark should be stripped in dry atmospheric conditions.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-05",
+              "number": 5,
+              "group_id": "cambridge-12-test-05-p-1-g-01-05",
+              "type": "true_false_not_given",
+              "prompt": "The only way to remove the bark from cork oak trees is by hand.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 19,
+            "line_end": 123,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              16,
+              17,
+              18,
+              19
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-12-test-05-p-1-g-06-13",
+          "type": "note_completion",
+          "instructions": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+          "question_numbers": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the "
+                },
+                {
+                  "type": "blank",
+                  "number": 6
+                },
+                {
+                  "type": "text",
+                  "text": " of the bottle contents\n• are "
+                },
+                {
+                  "type": "blank",
+                  "number": 7
+                },
+                {
+                  "type": "text",
+                  "text": " to produce\n• are "
+                },
+                {
+                  "type": "blank",
+                  "number": 8
+                },
+                {
+                  "type": "text",
+                  "text": " to use\n\nAdvantages of cork bottle stoppers\n• suit the "
+                },
+                {
+                  "type": "blank",
+                  "number": 9
+                },
+                {
+                  "type": "text",
+                  "text": " of quality products\n• made from a "
+                },
+                {
+                  "type": "blank",
+                  "number": 10
+                },
+                {
+                  "type": "text",
+                  "text": " material\n• easily "
+                },
+                {
+                  "type": "blank",
+                  "number": 11
+                },
+                {
+                  "type": "text",
+                  "text": "\n• cork forests aid "
+                },
+                {
+                  "type": "blank",
+                  "number": 12
+                },
+                {
+                  "type": "text",
+                  "text": "\n• cork forests stop "
+                },
+                {
+                  "type": "blank",
+                  "number": 13
+                },
+                {
+                  "type": "text",
+                  "text": " happening"
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "items": [
+                [
+                  {
+                    "type": "text",
+                    "text": "do not affect the  of the bottle contents"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "are  to produce"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "are  to use"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "suit the  of quality products"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "made from a  material"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "easily"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "cork forests aid"
+                  }
+                ],
+                [
+                  {
+                    "type": "text",
+                    "text": "cork forests stop  happening"
+                  }
+                ]
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 1,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-06",
+              "number": 6,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-07",
+              "number": 7,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-08",
+              "number": 8,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-09",
+              "number": 9,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-10",
+              "number": 10,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-11",
+              "number": 11,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-12",
+              "number": 12,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-13",
+              "number": 13,
+              "group_id": "cambridge-12-test-05-p-1-g-06-13",
+              "type": "note_completion",
+              "prompt": "Questions 6–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nComparison of aluminium screw caps and cork bottle stoppers\n\nAdvantages of aluminium screw caps\n• do not affect the 6 __________ of the bottle contents\n• are 7 __________ to produce\n• are 8 __________ to use\n\nAdvantages of cork bottle stoppers\n• suit the 9 __________ of quality products\n• made from a 10 __________ material\n• easily 11 __________\n• cork forests aid 12 __________\n• cork forests stop 13 __________ happening",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 19,
+                "line_end": 123,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  16,
+                  17,
+                  18,
+                  19
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 19,
+            "line_end": 123,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              16,
+              17,
+              18,
+              19
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_pages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "source_question_range": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+        "line_start": 19,
+        "line_end": 123,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+        "pdf_pages": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-12-test-05-p-2",
+      "number": 2,
+      "title": "Collecting as a hobby",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Collecting must be one of the most varied\nof human activities, and it's one that many\nof us psychologists find fascinating. Many\nforms of collecting have been dignified\nwith a technical name: an archtophilist\ncollects teddy bears, a philatelist collects\npostage stamps, and a deltiologist\ncollects postcards. Amassing hundreds or\neven thousands of postcards, chocolate\nwrappers or whatever, takes time, energy\nand money that could surely be put to\nmuch more productive use. And yet there\nare millions of collectors around the world.\nWhy do they do it?",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are the people who collect because\nthey want to make money — this could be\ncalled an instrumental reason for collecting;\nthat is, collecting as a means to an end.\nThey'll look for, say, antiques that they",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "can buy cheaply and expect to be able",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "to sell at a profit. But there may well be a\npsychological element, too — buying cheap\nand selling dear can give the collector a\nsense of triumph. And as selling online is so\neasy, more and more people are joining in.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Many collectors collect to develop their\nsocial life, attending meetings of a group\nof collectors and exchanging information\non items. This is a variant on joining a\nbridge club or a gym, and similarly brings\nthem into contact with like-minded people.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Another motive for collecting is the desire\nto find something special, or a particular\nexample of the collected item, such as a\nrare early recording by a particular singer.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Some may spend their whole lives in a\nhunt for this. Psychologically, this can give\na purpose to a life that otherwise feels\naimless. There is a danger, though, that",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "if the individual is ever lucky enough to\nfind what they're looking for, rather than\ncelebrating their success, they may feel\nempty, now that the goal that drove them\non has gone.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "If you think about collecting postage\nstamps, another potential reason for",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "it — or, perhaps, a result of collecting — is\nits educational value. Stamp collecting\nopens a window to other countries, and\nto the plants, animals, or famous people\nshown on their stamps. Similarly, in the\n19 century, many collectors amassed\nfossils, animals and plants from around\nthe globe, and their collections provided\na vast amount of information about the\nnatural world. Without those collections,\nour understanding would be greatly inferior\nto what it is.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In the past — and nowadays, too, though\nto a lesser extent — a popular form of\ncollecting, particularly among boys",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "and men, was trainspotting. This might\ninvolve trying to see every locomotive of a\nparticular type, using published data that\nidentifies each one, and ticking off each\nengine as it is seen. Trainspotters exchange\ninformation, these days often by mobile\nphone, so they can work out where to go\nto, to see a particular engine. As a by-\nproduct, many practitioners of the hobby\nbecome very knowledgeable about railway",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "operations, or the technical specifications\nof different engine types.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Similarly, people who collect dolls may go\nbeyond simply enlarging their collection,\nand develop an interest in the way that\ndolls are made, or the materials that",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "are used. These have changed over the\ncenturies from the wood that was standard\nin 16th century Europe, through the wax\nand porcelain of later centuries, to the\nplastics of today’s dolls. Or collectors\nmight be inspired to study how dolls\nreflect notions of what children like, or\nought to like.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Not all collectors are interested in learning\nfrom their hobby, though, so what we\nmight call a psychological reason for\ncollecting is the need for a sense of\ncontrol, perhaps as a way of dealing with\ninsecurity. Stamp collectors, for instance,\narrange their stamps in albums, usually very\nneatly, organising their collection according\nto certain commonplace principles —",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "perhaps by country in alphabetical order,\nor grouping stamps by what they depict —\npeople, birds, maps, and so on.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "One reason, conscious or not, for what\nsomeone chooses to collect is to show",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "the collector's individualism. Someone\nwho decides to collect something as\nunexpected as dog collars, for instance,\nmay be conveying their belief that they\nmust be interesting themselves. And\nbelieve it or not, there is at least one dog\ncollar museum in existence, and it grew out\nof a personal collection.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Of course, all hobbies give pleasure, but\nthe common factor in collecting is usually\npassion: pleasure is putting it far too\nmildly. More than most other hobbies,\ncollecting can be totally engrossing,",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "and can give a strong sense of personal\nfulfilment. To non-collectors it may appear\nan eccentric, if harmless, way of spending\ntime, but potentially, collecting has a lot\ngoing for it.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-12-test-05-p-2-g-14-21",
+          "type": "sentence_completion",
+          "instructions": "Questions 14–21\nComplete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+          "question_numbers": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–21\nComplete the sentences below. Choose ONE WORD ONLY from the passage for each answer.\n\n14 The writer mentions collecting __________ as an example of collecting in order to make money.\n15 Collectors may get a feeling of __________ from buying and selling items.\n16 Collectors' clubs provide opportunities to share __________.\n17 Collectors' clubs offer __________ with people who have similar interests.\n18 Collecting sometimes involves a life-long __________ for a special item.\n19 Searching for something particular may prevent people from feeling their life is completely __________.\n20 Stamp collecting may be __________ because it provides facts about different countries.\n"
+                },
+                {
+                  "type": "blank",
+                  "number": 21
+                },
+                {
+                  "type": "text",
+                  "text": " tends to be mostly a male hobby."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 1,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-14",
+              "number": 14,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "The writer mentions collecting __________ as an example of collecting in order to make money.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-15",
+              "number": 15,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "Collectors may get a feeling of __________ from buying and selling items.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-16",
+              "number": 16,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "Collectors' clubs provide opportunities to share __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-17",
+              "number": 17,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "Collectors' clubs offer __________ with people who have similar interests.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-18",
+              "number": 18,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "Collecting sometimes involves a life-long __________ for a special item.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-19",
+              "number": 19,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "Searching for something particular may prevent people from feeling their life is completely __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-20",
+              "number": 20,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "Stamp collecting may be __________ because it provides facts about different countries.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-21",
+              "number": 21,
+              "group_id": "cambridge-12-test-05-p-2-g-14-21",
+              "type": "sentence_completion",
+              "prompt": "__________ tends to be mostly a male hobby.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 1,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 123,
+            "line_end": 298,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              20,
+              21,
+              22
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-12-test-05-p-2-g-22-26",
+          "type": "true_false_not_given",
+          "instructions": "Questions 22–26\nDo the following statements agree with the information given in the passage?\nWrite TRUE, FALSE or NOT GIVEN.",
+          "question_numbers": [
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 22–26\nDo the following statements agree with the information given in the passage?\nWrite TRUE, FALSE or NOT GIVEN.\n\n22 The number of people buying dolls has grown over the centuries.\n23 Sixteenth century European dolls were normally made of wax and porcelain.\n24 Arranging a stamp collection by the size of the stamps is less common than other methods.\n25 Someone who collects unusual objects may want others to think he or she is also unusual.\n26 Collecting gives a feeling that other hobbies are unlikely to inspire."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "TRUE",
+              "FALSE",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-22",
+              "number": 22,
+              "group_id": "cambridge-12-test-05-p-2-g-22-26",
+              "type": "true_false_not_given",
+              "prompt": "The number of people buying dolls has grown over the centuries.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-23",
+              "number": 23,
+              "group_id": "cambridge-12-test-05-p-2-g-22-26",
+              "type": "true_false_not_given",
+              "prompt": "Sixteenth century European dolls were normally made of wax and porcelain.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-24",
+              "number": 24,
+              "group_id": "cambridge-12-test-05-p-2-g-22-26",
+              "type": "true_false_not_given",
+              "prompt": "Arranging a stamp collection by the size of the stamps is less common than other methods.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-25",
+              "number": 25,
+              "group_id": "cambridge-12-test-05-p-2-g-22-26",
+              "type": "true_false_not_given",
+              "prompt": "Someone who collects unusual objects may want others to think he or she is also unusual.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-26",
+              "number": 26,
+              "group_id": "cambridge-12-test-05-p-2-g-22-26",
+              "type": "true_false_not_given",
+              "prompt": "Collecting gives a feeling that other hobbies are unlikely to inspire.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "TRUE",
+                  "text": "TRUE"
+                },
+                {
+                  "label": "FALSE",
+                  "text": "FALSE"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 123,
+                "line_end": 298,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  20,
+                  21,
+                  22
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 123,
+            "line_end": 298,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              20,
+              21,
+              22
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_pages": [
+        20,
+        21,
+        22
+      ],
+      "source_question_range": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+        "line_start": 123,
+        "line_end": 298,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+        "pdf_pages": [
+          20,
+          21,
+          22
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-12-test-05-p-3",
+      "number": 3,
+      "title": "What's the purpose of gaining knowledge?",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "What’s the purpose of gaining knowledge?",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "‘I would found an institution where any person can find instruction in any",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "subject.’ That was the founder's motto for Cornell University, and it seems an apt\ncharacterization of the different university, also in the USA, where I currently teach\nphilosophy. A student can prepare for a career in resort management, engineering,\ninterior design, accounting, music, law enforcement, you name it. But what would",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "the founders of these two institutions have thought of a course called ‘Arson for Profit?\nI kid you not: we have it on the books. Any undergraduates who have met the academic\nrequirements can sign up for the course in our program in ‘fire science’.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Naturally, the course is intended for prospective arson investigators, who can learn all\nthe tricks of the trade for detecting whether a fire was deliberately set, discovering who\ndid it, and establishing a chain of evidence for effective prosecution in a court of law.\nBut wouldn't this also be the perfect course for prospective arsonists to sign up for? My\npoint is not to criticize academic programs in fire science: they are highly welcome as\npart of the increasing professionalization of this and many other occupations. However,\nit’s not unknown for a firefighter to torch a building. This example suggests how\ndishonest and illegal behavior, with the help of higher education, can creep into every\naspect of public and business life.",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "I realized this anew when I was invited to speak before a class in marketing, which is\nanother of our degree programs. The regular instructor is a colleague who appreciates\nthe kind of ethical perspective I can bring as a philosopher. There are endless ways",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "I could have approached this assignment, but I took my cue from the title of the\ncourse: ‘Principles of Marketing’. It made me think to ask the students, ‘Is marketing\nprincipled?’ After all, a subject matter can have principles in the sense of being codified,\nhaving rules, as with football or chess, without being principled in the sense of being\nethical. Many of the students immediately assumed that the answer to my question\nabout marketing principles was obvious: vo. Just look at the ways in which everything\nunder the sun has been marketed; obviously it need not be done in a principled\n(=ethical) fashion.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Is that obvious? I made the suggestion, which may sound downright crazy in light of\nthe evidence, that perhaps marketing is by definition principled. My inspiration for this\njudgement is the philosopher Immanuel Kant, who argued that any body of knowledge\nconsists of an end (or purpose) and a means.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "Let us apply both the terms ‘means’ and ‘end’ to marketing. The students have signed\nup for a course in order to learn how to market effectively. But to what end? There seem\nto be two main attitudes toward that question. One is that the answer is obvious: the\npurpose of marketing is to sell things and to make money. The other attitude is that the\npurpose of marketing is irrelevant: Each person comes to the program and course with\nhis or her own plans, and these need not even concern the acquisition of marketing\nexpertise as such. My proposal, which I believe would also be Kant’s, is that neither of\nthese attitudes captures the significance of the end to the means for marketing. A field\nof knowledge or a professional endeavor is defined by both the means and the end;",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "hence both deserve scrutiny. Students need to study both how to achieve X, and also\nwhat X is.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Ic is at this point that ‘Arson for Profit’ becomes supremely relevant. That course is\npresumably all about means: how to detect and prosecute criminal activity. It is therefore\nassumed that the end is good in an ethical sense. When I ask fire science students to\narticulate the end, or purpose, of their field, they eventually generalize to something like,\n‘The safety and welfare of society, which seems right. As we have seen, someone could\nuse the very same knowledge of means to achieve a much less noble end, such as personal\nprofit via destructive, dangerous, reckless activity. But we would not call that firefighting.\nWe have a separate word for it: arson. Similarly, if you employed the ‘principles of\nmarketing’ in an unprincipled way, you would not be doing marketing. We have another\nterm for it: fraud. Kant gives the example of a doctor and a poisoner, who use the\nidentical knowledge to achieve their divergent ends. We would say that one is practicing\nmedicine, the other, murder.",
+          "label": "F"
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-12-test-05-p-3-g-27-32",
+          "type": "matching_headings",
+          "instructions": "Questions 27-32\nReading Passage 3 has six sections, A-F.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, i-viii, in boxes 27-32 on your answer sheet.\nList of Headings\n\ni Courses that require a high level of commitment\n\nii A course title with two meanings\n\niii The equal importance of two key issues\n\niv Applying a theory in an unexpected context\n\nv The financial benefits of studying\n\nvi A surprising course title\n\nvii Different names for different outcomes\n\nviii The possibility of attracting the wrong kind of student",
+          "question_numbers": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "options": [
+            {
+              "label": "i",
+              "text": "courses that require a high level of commitment"
+            },
+            {
+              "label": "ii",
+              "text": "a course title with two meanings"
+            },
+            {
+              "label": "iii",
+              "text": "the equal importance of two key issues"
+            },
+            {
+              "label": "iv",
+              "text": "applying a theory in an unexpected context"
+            },
+            {
+              "label": "v",
+              "text": "the financial benefits of studying"
+            },
+            {
+              "label": "vi",
+              "text": "a surprising course title"
+            },
+            {
+              "label": "vii",
+              "text": "different names for different outcomes"
+            },
+            {
+              "label": "viii",
+              "text": "the possibility of attracting the wrong kind of student"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 27-32\nReading Passage 3 has six sections, A-F.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, i-viii, in boxes 27-32 on your answer sheet.\nList of Headings\n\ni Courses that require a high level of commitment\n\nii A course title with two meanings\n\niii The equal importance of two key issues\n\niv Applying a theory in an unexpected context\n\nv The financial benefits of studying\n\nvi A surprising course title\n\nvii Different names for different outcomes\n\nviii The possibility of attracting the wrong kind of student\n27 SectionA\n28 Section B\n29 Section C\n30 Section D\n31 Section E\n32 Section F"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-27",
+              "number": 27,
+              "group_id": "cambridge-12-test-05-p-3-g-27-32",
+              "type": "matching_headings",
+              "prompt": "SectionA",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-28",
+              "number": 28,
+              "group_id": "cambridge-12-test-05-p-3-g-27-32",
+              "type": "matching_headings",
+              "prompt": "Section B",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-29",
+              "number": 29,
+              "group_id": "cambridge-12-test-05-p-3-g-27-32",
+              "type": "matching_headings",
+              "prompt": "Section C",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-30",
+              "number": 30,
+              "group_id": "cambridge-12-test-05-p-3-g-27-32",
+              "type": "matching_headings",
+              "prompt": "Section D",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-31",
+              "number": 31,
+              "group_id": "cambridge-12-test-05-p-3-g-27-32",
+              "type": "matching_headings",
+              "prompt": "Section E",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-32",
+              "number": 32,
+              "group_id": "cambridge-12-test-05-p-3-g-27-32",
+              "type": "matching_headings",
+              "prompt": "Section F",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 298,
+            "line_end": 434,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              23,
+              24,
+              25,
+              26
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-12-test-05-p-3-g-33-36",
+          "type": "summary_completion",
+          "instructions": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find",
+          "question_numbers": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 2,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-33",
+              "number": 33,
+              "group_id": "cambridge-12-test-05-p-3-g-33-36",
+              "type": "summary_completion",
+              "prompt": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-34",
+              "number": 34,
+              "group_id": "cambridge-12-test-05-p-3-g-33-36",
+              "type": "summary_completion",
+              "prompt": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-35",
+              "number": 35,
+              "group_id": "cambridge-12-test-05-p-3-g-33-36",
+              "type": "summary_completion",
+              "prompt": "of criminal intent, leading to successful 36 ............ in the courts.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-36",
+              "number": 36,
+              "group_id": "cambridge-12-test-05-p-3-g-33-36",
+              "type": "summary_completion",
+              "prompt": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 298,
+            "line_end": 434,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              23,
+              24,
+              25,
+              26
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-12-test-05-p-3-g-37-40",
+          "type": "yes_no_not_given",
+          "instructions": "Questions 37-40\nDo the following statements agree with the views of the writer in Reading Passage 3?\nIn boxes 37-40 on your answer sheet, write\nYES if the statement agrees with the views of the writer\nNO if the statement contradicts the views of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+          "question_numbers": [
+            37,
+            38,
+            39,
+            40
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 37-40\nDo the following statements agree with the views of the writer in Reading Passage 3?\nIn boxes 37-40 on your answer sheet, write\nYES if the statement agrees with the views of the writer\nNO if the statement contradicts the views of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this\n37 It is difficult to attract students onto courses that do not focus on a career.\n38 The ‘Arson for Profit’ course would be useful for people intending to set fire to\nbuildings.\n39 Fire science courses are too academic to help people to be good at the job of\nfirefighting.\n40 The writer's fire science students provided a detailed definition of the purpose of\ntheir studies."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-12-test-05-q-37",
+              "number": 37,
+              "group_id": "cambridge-12-test-05-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "It is difficult to attract students onto courses that do not focus on a career.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-38",
+              "number": 38,
+              "group_id": "cambridge-12-test-05-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "The ‘Arson for Profit’ course would be useful for people intending to set fire to\nbuildings.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-39",
+              "number": 39,
+              "group_id": "cambridge-12-test-05-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "Fire science courses are too academic to help people to be good at the job of\nfirefighting.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-12-test-05-q-40",
+              "number": 40,
+              "group_id": "cambridge-12-test-05-p-3-g-37-40",
+              "type": "yes_no_not_given",
+              "prompt": "The writer's fire science students provided a detailed definition of the purpose of\ntheir studies.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+                "line_start": 298,
+                "line_end": 434,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+                "pdf_pages": [
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+            "line_start": 298,
+            "line_end": 434,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+            "pdf_pages": [
+              23,
+              24,
+              25,
+              26
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_pages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_question_range": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+        "line_start": 298,
+        "line_end": 434,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+        "pdf_pages": [
+          23,
+          24,
+          25,
+          26
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    }
+  ],
+  "question_count": 40,
+  "content_status": "needs_review",
+  "source_verified": false,
+  "verification": {
+    "text": "transcribed_unverified",
+    "questions": "transcribed_unverified",
+    "keys": "transcribed_unverified"
+  },
+  "source_references": [
+    {
+      "txt_file": "ieltsReading/Cambridge_IELTS_12_Reading_All_Tests_With_Answers.txt",
+      "line_start": 15,
+      "line_end": 478,
+      "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
+      "pdf_pages": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "line_coordinate_space": "original_txt"
+    }
+  ]
+}

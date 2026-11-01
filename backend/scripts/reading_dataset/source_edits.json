@@ -1,0 +1,413 @@
+[
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_07_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 893
+    },
+    "old_value": "Questions 18-2]",
+    "new_value": "Questions 18–21",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-07.pdf",
+    "pdf_pages": [
+      50
+    ],
+    "reason": "OCR corrupted final digit of question range; image reads 18–21.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_08_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1138
+    },
+    "old_value": "Questions 14-78",
+    "new_value": "Questions 14–18",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
+    "pdf_pages": [
+      71
+    ],
+    "reason": "Image confirms 18, not 78.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_10_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 2455
+    },
+    "old_value": "zuestions 27-31\nShoose the correct letter, A, B, C or D.\nAttite the correct letter in boxes 27-31 on your answer sheet.",
+    "new_value": "Questions 27–31\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27–31 on your answer sheet.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-10.pdf",
+    "pdf_pages": [
+      91
+    ],
+    "reason": "Restore clipped OCR question heading and instructions from image.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_14_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 181
+    },
+    "old_value": "PASSAGE 2: 24",
+    "new_value": "PASSAGE 2: The growth of bike-sharing schemes around the world",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-14.pdf",
+    "pdf_pages": [
+      20
+    ],
+    "reason": "Page number was used as passage title; replace with visible printed title.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_14_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1387
+    },
+    "old_value": "PASSAGE 3: 71",
+    "new_value": "PASSAGE 3: The power of play",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-14.pdf",
+    "pdf_pages": [
+      67
+    ],
+    "reason": "Page number was used as passage title; replace with visible printed title.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_08_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 773
+    },
+    "old_value": "Questions 33-36\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 33-36 on your answer sheet.\n33 According to the introduction, we become aware of the importance of smell when\nA wediscover a new smell.\nB we experience a powerful smell.\nC our ability to smell is damaged.\nD we are surrounded by odours.\n34 The experiment described in paragraph B\nA shows how we make use of smell without realising it.\nB demonstrates that family members have a similar smell.\nC proves that a sense of smell is learnt.\nD compares the sense of smell in males and females.",
+    "new_value": "",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
+    "pdf_pages": [
+      50
+    ],
+    "reason": "Question 33–34 text belongs to questions, not passage; relocate without changing wording.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_08_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 811
+    },
+    "old_value": "[Questions source: PDF page 51]\n35 What",
+    "new_value": "[Questions source: PDF page 50, 51]\nQuestions 33-36\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 33-36 on your answer sheet.\n33 According to the introduction, we become aware of the importance of smell when\nA wediscover a new smell.\nB we experience a powerful smell.\nC our ability to smell is damaged.\nD we are surrounded by odours.\n34 The experiment described in paragraph B\nA shows how we make use of smell without realising it.\nB demonstrates that family members have a similar smell.\nC proves that a sense of smell is learnt.\nD compares the sense of smell in males and females.\n\n35 What",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
+    "pdf_pages": [
+      50,
+      51
+    ],
+    "reason": "Restore question group 33–36 with original Q33–34 preceding Q35–36.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_08_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 820
+    },
+    "old_value": "& The measurement of smell is becoming more accurate.",
+    "new_value": "A The measurement of smell is becoming more accurate.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
+    "pdf_pages": [
+      51
+    ],
+    "reason": "Source option label A was OCRed as &.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_20_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 915
+    },
+    "old_value": "Reading Passage 2 has six sections, A-F.\n\nChoose the correct heading",
+    "new_value": "Questions 14–19\nReading Passage 2 has six sections, A-F.\n\nChoose the correct heading",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-20.pdf",
+    "pdf_pages": [
+      91,
+      92,
+      93
+    ],
+    "reason": "Restore group range from visible numbered paragraph blanks 14–19; added range is structural metadata.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_20_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1026
+    },
+    "old_value": "Look at the following statements (Questions 27 - 33) and the list of experts below.",
+    "new_value": "Questions 27–33\nLook at the following statements (Questions 27 - 33) and the list of experts below.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-20.pdf",
+    "pdf_pages": [
+      99
+    ],
+    "reason": "Expose original inline question range as structural heading.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_20_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1054
+    },
+    "old_value": "Complete each sentence with the correct ending, A-D, below.",
+    "new_value": "Questions 34–36\nComplete each sentence with the correct ending, A-D, below.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-20.pdf",
+    "pdf_pages": [
+      100
+    ],
+    "reason": "Expose group range from actual numbered questions 34–36.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_10_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 28
+    },
+    "old_value": "[PASSAGE TEXT — PRINTED PAGE 17 | PDF PAGE 9]\nDuring the sixth and seventh centuries,\nthe inhabitants of the modern-day\nstates of Gujarat and Rajasthan in\nzorth-western India developed a\nmethod of gaining access to clean, fresh\ngroundwater during the dry season for\ngrinking, bathing, watering animals and\nrvigation. However, the significance\nif this invention ~ the stepwell — goes\nseyond its utilitarian application.\n_~zaique to this region, stepwells are\nsen architecturally complex and vary\nwidely in size and shape. During their\ntuesday, they were places of gathering,\na” leisure and relaxation and of worship\nsag Villagers of all but the lowest classes.\nwast stepwells are found dotted round\ntime desert areas of Gujarat (where they\nure called vav) and Rajasthan (where\n\\ues are called baori), while a few also\niu-viwe in Delhi. Some were located in\ni pear villages as public spaces for the\n“im=anity; others were positioned beside\n“hitu=$ as resting places for travellers.\n+ ieir name suggests, stepwells\n“amtrtse a series of stone steps\n«reading from ground level to the\n\nvater source (normally an underground =:\nquifer) as it recedes following the rains.\nNhen the water level was high, the user\nieeded only to descend a few steps to :\neach it; when it was low, several levels\nvould have to be negotiated. i\nome wells are vast, open craters with i\nundreds of steps paving each sloping :\nide, often in tiers. Others are more :\nlaborate, with long stepped passages i\neading to the water via several storeys.\nsuilt from stone and supported by pillars, :\nhey also included pavilions that sheltered :\nisitors from the relentless heat. But :\nyerhaps the most impressive features :\nwe the intricate decorative sculptures :\nhat embellish many stepwells, showing\ntivities from fighting and dancing to ;\nveryday acts such as women combing :\nheir hair or churning butter. :\nJown the centuries, thousands of wells :\nvere constructed throughout north- :\nvestern India, but the majority have now :\nallen into disuse; many are derelict and =:\nry, as groundwater has been diverted i\nor industrial use and the wells no longer :\neach the water table. Their condition ;\n\n[PASSAGE TEXT — PRINTED PAGE 18 | PDF PAGE 10]\nES NL NA IE ODSA ARENA NE OE On NA NANDAD ME NAL J NANO\nsouthern Rajasthan suffered an eight-yez\ndrought between 1996 and 2004.\nHowever, some important sites in\nGujarat have recently undergone major\nrestoration, and the state government\nannounced in June last year that it plans\nto restore the stepwells throughout the\nstate.\n\nin Patan, the state’s ancient capital, the\nstepwell of Rani Ki Vav (Queen’s Stepwell\nis perhaps the finest current example.\n\n[tt was built by Queen Udayamati during\nihe late 11th century, but became silted\nup following a flood during the 13th\nsentury. But the Archaeological Survey\nof India began restoring it in the 1960s,\nand today it is in pristine condition. At\n\n55 metres long, 20 metres wide and 27\nnetres deep, Rani Ki Vav features 500\nsculptures carved into niches throughout\nhe monument. Incredibly, in January\n2001, this ancient structure survived an\nsarthquake that measured 7.6 on the\ntichter scale.\n\nAnother example is the Surya Kund in\nModhera, northern Gujarat, next to the\nsun Temple, built by King Bhima I in 102:\no honour the sun god Surya. It actually\nesembles a tank (kund means reservoir\nwr pond) rather than a well, but displays\nhe hallmarks of stepwell architecture,\nncluding four sides of steps that descend\no the bottom in a stunning geometrical\normation. The terraces house 108 small,\nntricately carved shrines between the\nets of steps.\n\ntajasthan also has a wealth of wells.\n\n‘he ancient city of Bundi, 200 kilometres\nouth of Jaipur, is renowned for its\nxchitecture, including its stepwells..\n\nNALIN SAE ODN ONDE. EIR NG ERIRA PIAS AS AUC EE ANE\nBaori, which was built by the queen of the\nregion, Nathavatji, in 1699. At 46 metres\ndeep, 20 metres wide and 40 metres long\nthe intricately carved monument is one of\n21 baoris commissioned in the Bundi ares\nby Nathavaitji.\n\nIn the old ruined town of Abhaneri, about\n95 kilometres east of Jaipur, is Chand\nBaori, one of India’s oldest and deepest\nwells; aesthetically it’s perhaps one of the\nmost dramatic. Built in around 850 AD\nnext to the temple of Harshat Mata, the\nbaori comprises hundreds of zigzagging\nsteps that run along three of its sides,\nsteeply descending 11 storeys, resulting\nin a striking pattern when seen from afar.\nOn the fourth side, verandas which are\nsupported by ornate pillars overlook the\nsteps.\n\nStill in public use is Neemrana Ki Baori,\nlocated just off the Jaipur-Delhi highway.\nConstructed in around 1700, it is nine\nstoreys deep, with the last two being\nunderwater. At ground level, there are\n\n86 colonnaded openings from where the\nvisitor descends 170 steps to the deepest\nwaier source.\n\nToday, following years of neglect, many of\nthese monuments to medieval engineering\nhave been saved by the Archaeological\nSurvey of India, which has recognised the\nimportance of preserving them as part of\nthe country’s rich history. Tourists flock\n\nto wells in far-flung corners of north-\nwestern India to gaze in wonder at these\narchitectural marvels from hundreds of\nyears ago, which serve as a reminder of\nboth the ingenuity and artistry of ancient\ncivilisations and of the value of water to\nhuman existence.\n\n",
+    "new_value": "During the sixth and seventh centuries, the inhabitants of the modern-day states of Gujarat and Rajasthan in north-western India developed a method of gaining access to clean, fresh groundwater during the dry season for drinking, bathing, watering animals and irrigation. However, the significance of this invention – the stepwell – goes beyond its utilitarian application.\n\nUnique to this region, stepwells are often architecturally complex and vary widely in size and shape. During their heyday, they were places of gathering, of leisure and relaxation and of worship for villagers of all but the lowest classes. Most stepwells are found dotted round the desert areas of Gujarat (where they are called vav) and Rajasthan (where they are called baori), while a few also survive in Delhi. Some were located in or near villages as public spaces for the community; others were positioned beside roads as resting places for travellers.\n\nAs their name suggests, stepwells comprise a series of stone steps descending from ground level to the water source (normally an underground aquifer) as it recedes following the rains. When the water level was high, the user needed only to descend a few steps to reach it; when it was low, several levels would have to be negotiated.\n\nSome wells are vast, open craters with hundreds of steps paving each sloping side, often in tiers. Others are more elaborate, with long stepped passages leading to the water via several storeys. Built from stone and supported by pillars, they also included pavilions that sheltered visitors from the relentless heat. But perhaps the most impressive features are the intricate decorative sculptures that embellish many stepwells, showing activities from fighting and dancing to everyday acts such as women combing their hair or churning butter.\n\nDown the centuries, thousands of wells were constructed throughout north-western India, but the majority have now fallen into disuse; many are derelict and dry, as groundwater has been diverted for industrial use and the wells no longer reach the water table. Their condition hasn’t been helped by recent dry spells: southern Rajasthan suffered an eight-year drought between 1996 and 2004.\n\nHowever, some important sites in Gujarat have recently undergone major restoration, and the state government announced in June last year that it plans to restore the stepwells throughout the state.\n\nIn Patan, the state’s ancient capital, the stepwell of Rani Ki Vav (Queen’s Stepwell) is perhaps the finest current example. It was built by Queen Udayamati during the late 11th century, but became silted up following a flood during the 13th century. But the Archaeological Survey of India began restoring it in the 1960s, and today it is in pristine condition. At 65 metres long, 20 metres wide and 27 metres deep, Rani Ki Vav features 500 sculptures carved into niches throughout the monument. Incredibly, in January 2001, this ancient structure survived an earthquake that measured 7.6 on the Richter scale.\n\nAnother example is the Surya Kund in Modhera, northern Gujarat, next to the Sun Temple, built by King Bhima I in 1026 to honour the sun god Surya. It actually resembles a tank (kund means reservoir or pond) rather than a well, but displays the hallmarks of stepwell architecture, including four sides of steps that descend to the bottom in a stunning geometrical formation. The terraces house 108 small, intricately carved shrines between the sets of steps.\n\nRajasthan also has a wealth of wells. The ancient city of Bundi, 200 kilometres south of Jaipur, is renowned for its architecture, including its stepwells. One of the larger examples is Raniji Ki Baori, which was built by the queen of the region, Nathavatji, in 1699. At 46 metres deep, 20 metres wide and 40 metres long, the intricately carved monument is one of 21 baoris commissioned in the Bundi area by Nathavatji.\n\nIn the old ruined town of Abhaneri, about 95 kilometres east of Jaipur, is Chand Baori, one of India’s oldest and deepest wells; aesthetically it’s perhaps one of the most dramatic. Built in around 850 AD next to the temple of Harshat Mata, the baori comprises hundreds of zigzagging steps that run along three of its sides, steeply descending 11 storeys, resulting in a striking pattern when seen from afar. On the fourth side, verandas which are supported by ornate pillars overlook the steps.\n\nStill in public use is Neemrana Ki Baori, located just off the Jaipur–Delhi highway. Constructed in around 1700, it is nine storeys deep, with the last two being underwater. At ground level, there are 86 colonnaded openings from where the visitor descends 170 steps to the deepest water source.\n\nToday, following years of neglect, many of these monuments to medieval engineering have been saved by the Archaeological Survey of India, which has recognised the importance of preserving them as part of the country’s rich history. Tourists flock to wells in far-flung corners of north-western India to gaze in wonder at these architectural marvels from hundreds of years ago, which serve as a reminder of both the ingenuity and artistry of ancient civilisations and of the value of water to human existence.\n\n",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-10.pdf",
+    "pdf_pages": [
+      9,
+      10
+    ],
+    "reason": "Re-transcribe damaged two-column Stepwells article including numerical values from inspected page images. Left binding partially obscures page 9; this passage still needs review.",
+    "evidence": "local PDF page images visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 628
+    },
+    "old_value": "List of Descriptions\n\nsuccessfully uses a light rail transport system in hilly environment\nsuccessful public transport system despite cold winters\n\nprofitably moved from road to light rail transport system\nhilly and inappropriate for rail transport system\n\nheavily dependent on cars despite widespread poverty\ninefficient due to a limited public transport system\n\n",
+    "new_value": "List of Descriptions\n\nA successfully uses a light rail transport system in hilly environment\nB successful public transport system despite cold winters\nC profitably moved from road to light rail transport system\nD hilly and inappropriate for rail transport system\nE heavily dependent on cars despite widespread poverty\nF inefficient due to a limited public transport system\n\n",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+    "pdf_pages": [
+      44
+    ],
+    "reason": "Restore original option labels and list boundaries lost in TXT OCR.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1279
+    },
+    "old_value": "They judge promotion to be important.\nThey have less need of external goals.\n\nThey think that the quality of their work is important.\nThey resist goals which are imposed.\nThey have limited job options.",
+    "new_value": "A They judge promotion to be important.\nB They have less need of external goals.\nC They think that the quality of their work is important.\nD They resist goals which are imposed.\nE They have limited job options.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+    "pdf_pages": [
+      71
+    ],
+    "reason": "Restore option letters A–E from image.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_07_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1599
+    },
+    "old_value": "The results of the research into blood-variants\nDental evidence\nGreenberg’s analysis of the dental and linguistic evidence\n\nDevelopments in the methods used to study early population\nmovements\n\nIndian migration from Canada to the U.S.A.\n\nFurther genetic evidence relating to the three-wave theory\nLong-standing questions about prehistoric migration to America\n\nConflicting views of the three-wave theory, based on non-genetic\nevidence\nQuestions about the causes of prehistoric migration to America\n\nHow analysis of blood-variants measures the closeness of the\nrelationship between different populations",
+    "new_value": "i The results of the research into blood-variants\nii Dental evidence\niii Greenberg’s analysis of the dental and linguistic evidence\niv Developments in the methods used to study early population movements\nv Indian migration from Canada to the U.S.A.\nvi Further genetic evidence relating to the three-wave theory\nvii Long-standing questions about prehistoric migration to America\nviii Conflicting views of the three-wave theory, based on non-genetic evidence\nix Questions about the causes of prehistoric migration to America\nx How analysis of blood-variants measures the closeness of the relationship between different populations",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-07.pdf",
+    "pdf_pages": [
+      73
+    ],
+    "reason": "Restore Roman numerals i–x from original list of headings.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_07_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 2433
+    },
+    "old_value": "Glass and Singer\nBroadbent\n\nFinkelman and Glass\nCohen et al.\nNone of the above",
+    "new_value": "A Glass and Singer\nB Broadbent\nC Finkelman and Glass\nD Cohen et al.\nE None of the above",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-07.pdf",
+    "pdf_pages": [
+      104
+    ],
+    "reason": "Restore researcher option labels A–E from image.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_21_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1382
+    },
+    "old_value": "34 Analysis of a 4000-year-old Iberian leader indicates that",
+    "new_value": "34 Analysis of a 4000-year-old Iberian leader indicates that\n\nA Homo sapiens emerged at an earlier point in time than experts previously believed.\nB previous assumptions about who had power in the prehistoric world were inaccurate.\nC gender roles in extinct hominin species were different from those in Homo sapiens societies.\nD experts may have been mistaken about who looked for food in early human communities.\nE Homo sapiens was probably not the only species capable of sophisticated workmanship.\nF other species managed to survive in harsh environments before the arrival of Homo sapiens.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-21.pdf",
+    "pdf_pages": [
+      72
+    ],
+    "reason": "Restore entire omitted sentence-ending option box A–F from page image.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_07_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 695
+    },
+    "old_value": "Only two Japanese pagodas have collapsed in 1400 years.\nThe Hanshin earthquake of 1995 destroyed the pagoda at the Toji temple.\nThe other buildings near the Toji pagoda had been built in the last 30 years.\n\na2 BW N =\n\nThe builders of pagodas knew how to absorb some of the power produced by severe\nweather conditions.",
+    "new_value": "1 Only two Japanese pagodas have collapsed in 1400 years.\n2 The Hanshin earthquake of 1995 destroyed the pagoda at the Toji temple.\n3 The other buildings near the Toji pagoda had been built in the last 30 years.\n4 The builders of pagodas knew how to absorb some of the power produced by severe weather conditions.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-07.pdf",
+    "pdf_pages": [
+      46
+    ],
+    "reason": "Restore question numbers and correct association of statements from visible PDF page.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_07_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 714
+    },
+    "old_value": "easy interior access to top\n\ntiles on eaves\n\n5\n\n6\n\n7 use as observation post\n\n8 size of eaves up to half the width of the building\n9\n\noriginal religious purpose\n\n10 floors fitting loosely over each other",
+    "new_value": "5 easy interior access to top\n6 tiles on eaves\n7 use as observation post\n8 size of eaves up to half the width of the building\n9 original religious purpose\n10 floors fitting loosely over each other",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-07.pdf",
+    "pdf_pages": [
+      46
+    ],
+    "reason": "Restore question numbers and correct association of statements from visible PDF page.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1498
+    },
+    "old_value": "B\n\nA few months ago Kim Schaefer, sales representative of a major global pharmaceutical company, walked\ninto a medical center in New York to bring information and free samples of her company’s latest\nproducts. That day she was lucky — a doctor was available to see her. ‘The last rep offered me a trip to\nFlorida. What do you have?’ the physician asked. He was only half joking.\n\nWhat was on offer that day was a pair of tickets for a New York musical. But on any given day, what\nSchaefer can offer Is typical for today’s drugs rep — a car trunk full of promotional gifts and gadgets,\na budget that could buy lunches and dinners for a small country, hundreds of free drug samples and the\nfreedom to give a physician $200 to prescribe her new product to the next six patients who fit the\ndrug's profile. And she also has a few $1,000 honoraria to offer in exchange for doctors’ attendance at\nher company’s next educational lecture.\n\nSelling pharmaceuticals is a daily exercise in ethical judgement. Salespeople like Schaefer walk the\nline between the common practice of buying a prospect's time with a free meal, and bribing doctors to\nprescribe their drugs. They work in an industry highly criticized for its sales and marketing practices,\nbut find themselves in the middle of the age-old chicken-or-egg question — businesses won't use\nstrategles that don’t work, so are doctors to blame for the escalating extravagance of pharmaceutical\nmarketing? Or is it the industry's responsibility to decide the boundaries?\n\nThe explosion in the sheer number of salespeople in the field — and the amount of funding used to\npromote their causes — forces close examination of the pressures, influences and relationships between\ndrug reps and doctors, Salespeople provide much-needed Information and education to physicians. In many\ncases the glossy brochures, article reprints and prescriptions they deliver are primary sources of drug\neducation for healthcare givers. With the huge investment the industry has placed in face-to-face\nselling, salespeople have essentially become specialists in one drug or group of drugs — a tremendous\nadvantage in getting the attention of busy doctors in need of quick information.\n\nBut the sales push rarely stops in the office. The flashy brochures and pamphlets left by the sales reps\nare often followed up with meals at expensive restaurants, meetings in warm and sunny places, and an\ninundation of promotional gadgets. Rarely do patients watch a doctor write with a pen that isn't\nemblazoned with a drug's name, or see a\n\n[CONTINUED FROM PDF PAGE 87]\n\nF\n\nnurse use a tablet not bearing a pharmaceutical company’s logo, Millions of dollars are spent by\npharmaceutical companies on promotional products like coffee mugs, shirts, umbrellas, and golf balls.\nMoney well spent? It's hard to tell. ‘I've been the recipient of golf balls from one company and | use\nthem, but it doesn’t make me prescribe their medicine,’ says one doctor. ‘I tend to think I'm not\ninfluenced by what they give me.’\n\nFree samples of new and expensive drugs might be the single most effective way of getting doctors and\npatients to become loyal to a product. Salespeople hand out hundreds of dollars’ worth of samples each\nweek — $7.2 billion worth of them in one year. Though few comprehensive studies have been conducted, one\nby the University of Washington investigated how drug sample availability affected what physicians\nprescribe. A total of 131 doctors self-reported their prescribing patterns — the conclusion was that the\navailability of samples led them to dispense and prescribe drugs that differed from their preferred drug\nchoice.\n\nThe bottom line Is that pharmaceutical companies as a whole invest more In marketing than they do in\nresearch and development. And patients are the ones who pay ~ in the form of sky-rocketing prescription\nprices — for every pen that's handed out, every free theatre ticket, and every steak dinner eaten. In\nthe end the fact remains that pharmaceutical companies have every right to make a profit and will\ncontinue to find new ways to Increase sales. But as the medical world continues to grapple with what's\nacceptable and what's not, It is clear that companies must continue to be heavily scrutinized for their\nsales and marketing strategies.\n",
+    "new_value": "A A few months ago Kim Schaefer, sales representative of a major global pharmaceutical company, walked\ninto a medical center in New York to bring information and free samples of her company’s latest\nproducts. That day she was lucky — a doctor was available to see her. ‘The last rep offered me a trip to\nFlorida. What do you have?’ the physician asked. He was only half joking.\n\nB What was on offer that day was a pair of tickets for a New York musical. But on any given day, what\nSchaefer can offer Is typical for today’s drugs rep — a car trunk full of promotional gifts and gadgets,\na budget that could buy lunches and dinners for a small country, hundreds of free drug samples and the\nfreedom to give a physician $200 to prescribe her new product to the next six patients who fit the\ndrug's profile. And she also has a few $1,000 honoraria to offer in exchange for doctors’ attendance at\nher company’s next educational lecture.\n\nC Selling pharmaceuticals is a daily exercise in ethical judgement. Salespeople like Schaefer walk the\nline between the common practice of buying a prospect's time with a free meal, and bribing doctors to\nprescribe their drugs. They work in an industry highly criticized for its sales and marketing practices,\nbut find themselves in the middle of the age-old chicken-or-egg question — businesses won't use\nstrategles that don’t work, so are doctors to blame for the escalating extravagance of pharmaceutical\nmarketing? Or is it the industry's responsibility to decide the boundaries?\n\nD The explosion in the sheer number of salespeople in the field — and the amount of funding used to\npromote their causes — forces close examination of the pressures, influences and relationships between\ndrug reps and doctors, Salespeople provide much-needed Information and education to physicians. In many\ncases the glossy brochures, article reprints and prescriptions they deliver are primary sources of drug\neducation for healthcare givers. With the huge investment the industry has placed in face-to-face\nselling, salespeople have essentially become specialists in one drug or group of drugs — a tremendous\nadvantage in getting the attention of busy doctors in need of quick information.\n\nE But the sales push rarely stops in the office. The flashy brochures and pamphlets left by the sales reps\nare often followed up with meals at expensive restaurants, meetings in warm and sunny places, and an\ninundation of promotional gadgets. Rarely do patients watch a doctor write with a pen that isn't\nemblazoned with a drug's name, or see a nurse use a tablet not bearing a pharmaceutical company’s logo, Millions of dollars are spent by\npharmaceutical companies on promotional products like coffee mugs, shirts, umbrellas, and golf balls.\nMoney well spent? It's hard to tell. ‘I've been the recipient of golf balls from one company and | use\nthem, but it doesn’t make me prescribe their medicine,’ says one doctor. ‘I tend to think I'm not\ninfluenced by what they give me.’\n\nF Free samples of new and expensive drugs might be the single most effective way of getting doctors and\npatients to become loyal to a product. Salespeople hand out hundreds of dollars’ worth of samples each\nweek — $7.2 billion worth of them in one year. Though few comprehensive studies have been conducted, one\nby the University of Washington investigated how drug sample availability affected what physicians\nprescribe. A total of 131 doctors self-reported their prescribing patterns — the conclusion was that the\navailability of samples led them to dispense and prescribe drugs that differed from their preferred drug\nchoice.\n\nG The bottom line Is that pharmaceutical companies as a whole invest more In marketing than they do in\nresearch and development. And patients are the ones who pay ~ in the form of sky-rocketing prescription\nprices — for every pen that's handed out, every free theatre ticket, and every steak dinner eaten. In\nthe end the fact remains that pharmaceutical companies have every right to make a profit and will\ncontinue to find new ways to Increase sales. But as the medical world continues to grapple with what's\nacceptable and what's not, It is clear that companies must continue to be heavily scrutinized for their\nsales and marketing strategies.\n",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+    "pdf_pages": [
+      87,
+      88
+    ],
+    "reason": "Restore original paragraph labels A–G for heading matching; remove displaced B/F labels and join paragraph E continuation. Passage wording otherwise retained.",
+    "evidence": "local PDF page images visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_10_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 2439
+    },
+    "old_value": "[QUESTIONS — PRINTED PAGE 96 | PDF PAGE 88]\nQuestions 23-26\n\nReading Passage 2 has eight sections, A-H.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-H, in boxes 23-26 on your answer sheet.\n\n23 a mention of how rational thinking enabled someone to achieve physical goals\n24 an account of how someone overcame a sad experience\n25 adescription of how someone decided to rethink their academic career path\n\n26 an example of how someone risked his career out of a sense of duty\n\n",
+    "new_value": "",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-10.pdf",
+    "pdf_pages": [
+      88
+    ],
+    "reason": "Remove question block Q23–26 misplaced after Passage 3; PDF p.88 explicitly identifies Reading Passage 2.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_10_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 2256
+    },
+    "old_value": "CORRECT ANSWERS FOR PASSAGE 2\n14. transformation / change",
+    "new_value": "[QUESTIONS — PRINTED PAGE 96 | PDF PAGE 88]\nQuestions 23-26\n\nReading Passage 2 has eight sections, A-H.\n\nWhich section contains the following information?\n\nWrite the correct letter, A-H, in boxes 23-26 on your answer sheet.\n\n23 a mention of how rational thinking enabled someone to achieve physical goals\n24 an account of how someone overcame a sad experience\n25 adescription of how someone decided to rethink their academic career path\n\n26 an example of how someone risked his career out of a sense of duty\n\nCORRECT ANSWERS FOR PASSAGE 2\n14. transformation / change",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-10.pdf",
+    "pdf_pages": [
+      88
+    ],
+    "reason": "Place original Q23–26 under Passage 2, before its private answer key, as shown by PDF page 88.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+    "location": {
+      "line": 1183
+    },
+    "old_value": "Cc\nIt is generally acknowledged",
+    "new_value": "C\nIt is generally acknowledged",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+    "pdf_pages": [
+      63
+    ],
+    "reason": "Restore original margin label C from scan; OCR doubled the glyph.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+    "location": {
+      "line": 1387
+    },
+    "old_value": "€ Now, however",
+    "new_value": "C Now, however",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+    "pdf_pages": [
+      68
+    ],
+    "reason": "Restore original margin label C; OCR recognized it as a currency sign.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+    "location": {
+      "line": 1793
+    },
+    "old_value": "\nc\n\nStories about the problems",
+    "new_value": "\nC\n\nStories about the problems",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+    "pdf_pages": [
+      88
+    ],
+    "reason": "Restore upper-case original section label C.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 349
+    },
+    "old_value": "T :\n\n[CONTINUED FROM PDF PAGE 28]",
+    "new_value": "[CONTINUED FROM PDF PAGE 28]",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+    "pdf_pages": [
+      29
+    ],
+    "reason": "Remove isolated OCR debris before page continuation; original page has no T section.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_14_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1332
+    },
+    "old_value": "Reading Passage 2 has nine paragraphs, A-l.",
+    "new_value": "Reading Passage 2 has nine paragraphs, A-I.",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-14.pdf",
+    "pdf_pages": [
+      65
+    ],
+    "reason": "Original image identifies paragraphs A–I; OCR confused capital I with lower-case l.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_14_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1336
+    },
+    "old_value": "Write the correct letter, A-i, in boxes 14—20",
+    "new_value": "Write the correct letter, A-I, in boxes 14—20",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-14.pdf",
+    "pdf_pages": [
+      65
+    ],
+    "reason": "Restore capital I in the printed paragraph range.",
+    "evidence": "local PDF page image visually inspected"
+  },
+  {
+    "source_file": "ieltsReading/Cambridge_IELTS_08_Reading_All_Tests_With_Answers.txt",
+    "location": {
+      "line": 1428
+    },
+    "old_value": "} E Itis remarkable",
+    "new_value": "E It is remarkable",
+    "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
+    "pdf_pages": [
+      89
+    ],
+    "reason": "Remove OCR debris, restore original E label and word spacing from inspected scan.",
+    "evidence": "local PDF page image visually inspected"
+  }
+]

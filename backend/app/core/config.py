@@ -80,6 +80,19 @@ class Settings(BaseSettings):
     )
     database_pool_size: int = Field(default=5, ge=1, le=50, validation_alias="DB_POOL_SIZE")
     database_max_overflow: int = Field(default=10, ge=0, le=100, validation_alias="DB_MAX_OVERFLOW")
+    self_registration_enabled: bool = Field(
+        default=True, validation_alias="SELF_REGISTRATION_ENABLED"
+    )
+    registration_requests_per_minute: int = Field(
+        default=120, ge=1, le=10000, validation_alias="REGISTRATION_REQUESTS_PER_MINUTE"
+    )
+    registration_creations_per_hour: int = Field(
+        default=20, ge=1, le=10000, validation_alias="REGISTRATION_CREATIONS_PER_HOUR"
+    )
+    firebase_auth_enabled: bool = Field(default=False, validation_alias="FIREBASE_AUTH_ENABLED")
+    legacy_auth_enabled: bool = Field(default=True, validation_alias="LEGACY_AUTH_ENABLED")
+    firebase_project_id: str = Field(default="", validation_alias="FIREBASE_PROJECT_ID")
+    # Emulator trust is deliberately unsupported by the server, including local mode.
     enrollment_code_ttl_minutes: int = Field(
         default=30, ge=5, le=1440, validation_alias="ENROLLMENT_CODE_TTL_MINUTES"
     )

@@ -37,6 +37,61 @@ final class AluaProductQATests: XCTestCase {
         // Wait for a changed question/pause to be laid out before another tap.
         usleep(250_000)
     }
+    func testPracticeNavigation() {
+        verifyPracticeNavigation()
+    }
+    func testPracticeNavigationWithAccessibilityType() {
+        app.terminate()
+        app.launchArguments += ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
+        app.launch()
+        verifyPracticeNavigation(accessibilityType: true)
+    }
+    private func verifyPracticeNavigation(accessibilityType: Bool = false) {
+        enroll("HUSBAND")
+        XCTAssertEqual(app.tabBars.buttons.count, 3)
+        XCTAssertFalse(app.tabBars.buttons["Прогресс"].exists)
+        app.tabBars.buttons["Сегодня"].tap()
+        XCTAssertTrue(app.buttons["study.start"].waitForExistence(timeout: 10))
+        app.tabBars.buttons["Моя книга"].tap()
+        XCTAssertTrue(app.navigationBars["Моя книга"].waitForExistence(timeout: 10))
+        // Book intentionally uses a menu instead of segments at accessibility sizes.
+        if !accessibilityType {
+            XCTAssertTrue(app.segmentedControls.buttons["Мои слова"].waitForExistence(timeout: 10))
+            app.segmentedControls.buttons["Мои слова"].tap()
+        }
+        app.tabBars.buttons["Практика"].tap()
+        let descriptions = ["Чтение и понимание текстов", "Восприятие английской речи", "Академическое письмо", "Разговорная практика"]
+        for (index, title) in ["Reading", "Listening", "Writing", "Speaking"].enumerated() {
+            let row = app.buttons["practice.\(title.lowercased())"]
+            var attempts = 0
+            while !row.isHittable && attempts < 8 { app.swipeUp(); attempts += 1 }
+            XCTAssertTrue(row.isHittable)
+            XCTAssertEqual(row.label, "\(title), \(descriptions[index])")
+            XCTAssertGreaterThanOrEqual(row.frame.height, 44)
+            row.tap()
+            XCTAssertTrue(app.navigationBars[title].waitForExistence(timeout: 5))
+            if title == "Reading" {
+                XCTAssertTrue(app.staticTexts["IELTS Academic"].exists)
+            } else {
+                XCTAssertTrue(app.staticTexts["Скоро здесь появятся задания."].exists)
+            }
+            // The tab's NavigationStack and the book filter survive switching tabs.
+            app.tabBars.buttons["Моя книга"].tap()
+            XCTAssertTrue(app.navigationBars["Моя книга"].exists)
+            if !accessibilityType { XCTAssertTrue(app.segmentedControls.buttons["Мои слова"].isSelected) }
+            app.tabBars.buttons["Практика"].tap()
+            XCTAssertTrue(app.navigationBars[title].exists)
+            app.navigationBars.buttons.element(boundBy: 0).tap()
+            XCTAssertTrue(app.navigationBars["Практика"].waitForExistence(timeout: 5))
+        }
+        shot("practice-navigation")
+        app.tabBars.buttons["Сегодня"].tap()
+        tap("today.grammar")
+        XCTAssertTrue(app.navigationBars["Грамматика"].waitForExistence(timeout: 10))
+        app.navigationBars.buttons.element(boundBy: 0).tap()
+        tap("today.diagnostic")
+        XCTAssertTrue(app.navigationBars["Стартовая проверка"].waitForExistence(timeout: 10))
+    }
     func testFirstDay() {
         enroll("HUSBAND")
         shot("01-today-0-modern")
@@ -81,8 +136,8 @@ final class AluaProductQATests: XCTestCase {
         shot("12-review-feedback")
         tap("Закрыть")
         app.navigationBars.buttons.element(boundBy: 0).tap()
-        app.tabBars.buttons["Прогресс"].tap()
-        shot("13-progress-modern")
+        app.tabBars.buttons["Практика"].tap()
+        shot("13-practice-modern")
     }
     func testLongExpressionSmallPhone() {
         enroll("WIFE")
@@ -126,8 +181,8 @@ final class AluaProductQATests: XCTestCase {
         shot("12-review-feedback")
         tap("Закрыть")
         app.navigationBars.buttons.element(boundBy: 0).tap()
-        app.tabBars.buttons["Прогресс"].tap()
-        shot("13-progress-modern")
+        app.tabBars.buttons["Практика"].tap()
+        shot("13-practice-modern")
     }
     func testAccessibilitySmallPhone() {
         enroll("WIFE")

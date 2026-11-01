@@ -10,6 +10,11 @@ configs:
   Release: release
   QA: debug
 
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: 12.0.0
+
 targets:
 
   Alua:
@@ -51,6 +56,10 @@ targets:
 
     dependencies:
       - target: AluaWidgets
+      - package: Firebase
+        product: FirebaseCore
+      - package: Firebase
+        product: FirebaseAuth
 
   AluaWidgets:
     type: app-extension

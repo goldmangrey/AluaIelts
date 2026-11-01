@@ -27,7 +27,8 @@ struct AluaApp: App {
                 tokenStore: dependencies.tokenStore,
                 enrollmentService: dependencies.enrollmentService,
                 userService: dependencies.userService,
-                widgetSyncService: dependencies.widgetSyncService
+                widgetSyncService: dependencies.widgetSyncService,
+                firebase: dependencies.firebaseSession
             )
         )
         _curriculumStore = State(

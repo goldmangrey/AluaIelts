@@ -1,0 +1,4 @@
+# Build/validation tools only; not required by FastAPI at runtime.
+PyMuPDF==1.26.7
+jsonschema==4.26.0
+Pillow==13.0.0

@@ -1,0 +1,2815 @@
+{
+  "id": "cambridge-06-test-04",
+  "dataset_version": "1.0.0",
+  "source_book": 6,
+  "source_test_number": 4,
+  "test_ordinal": 4,
+  "module": "academic_reading",
+  "duration_seconds": 3600,
+  "passages": [
+    {
+      "id": "cambridge-06-test-04-p-1",
+      "number": 1,
+      "title": "Doctoring Sales",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A few months ago Kim Schaefer, sales representative of a major global pharmaceutical company, walked\ninto a medical center in New York to bring information and free samples of her company’s latest\nproducts. That day she was lucky — a doctor was available to see her. ‘The last rep offered me a trip to\nFlorida. What do you have?’ the physician asked. He was only half joking.",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "What was on offer that day was a pair of tickets for a New York musical. But on any given day, what\nSchaefer can offer Is typical for today’s drugs rep — a car trunk full of promotional gifts and gadgets,\na budget that could buy lunches and dinners for a small country, hundreds of free drug samples and the\nfreedom to give a physician $200 to prescribe her new product to the next six patients who fit the\ndrug's profile. And she also has a few $1,000 honoraria to offer in exchange for doctors’ attendance at\nher company’s next educational lecture.",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Selling pharmaceuticals is a daily exercise in ethical judgement. Salespeople like Schaefer walk the\nline between the common practice of buying a prospect's time with a free meal, and bribing doctors to\nprescribe their drugs. They work in an industry highly criticized for its sales and marketing practices,\nbut find themselves in the middle of the age-old chicken-or-egg question — businesses won't use\nstrategles that don’t work, so are doctors to blame for the escalating extravagance of pharmaceutical\nmarketing? Or is it the industry's responsibility to decide the boundaries?",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "The explosion in the sheer number of salespeople in the field — and the amount of funding used to\npromote their causes — forces close examination of the pressures, influences and relationships between\ndrug reps and doctors, Salespeople provide much-needed Information and education to physicians. In many\ncases the glossy brochures, article reprints and prescriptions they deliver are primary sources of drug\neducation for healthcare givers. With the huge investment the industry has placed in face-to-face\nselling, salespeople have essentially become specialists in one drug or group of drugs — a tremendous\nadvantage in getting the attention of busy doctors in need of quick information.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "But the sales push rarely stops in the office. The flashy brochures and pamphlets left by the sales reps\nare often followed up with meals at expensive restaurants, meetings in warm and sunny places, and an\ninundation of promotional gadgets. Rarely do patients watch a doctor write with a pen that isn't\nemblazoned with a drug's name, or see a nurse use a tablet not bearing a pharmaceutical company’s logo, Millions of dollars are spent by\npharmaceutical companies on promotional products like coffee mugs, shirts, umbrellas, and golf balls.\nMoney well spent? It's hard to tell. ‘I've been the recipient of golf balls from one company and | use\nthem, but it doesn’t make me prescribe their medicine,’ says one doctor. ‘I tend to think I'm not\ninfluenced by what they give me.’",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "Free samples of new and expensive drugs might be the single most effective way of getting doctors and\npatients to become loyal to a product. Salespeople hand out hundreds of dollars’ worth of samples each\nweek — $7.2 billion worth of them in one year. Though few comprehensive studies have been conducted, one\nby the University of Washington investigated how drug sample availability affected what physicians\nprescribe. A total of 131 doctors self-reported their prescribing patterns — the conclusion was that the\navailability of samples led them to dispense and prescribe drugs that differed from their preferred drug\nchoice.",
+          "label": "F"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bottom line Is that pharmaceutical companies as a whole invest more In marketing than they do in\nresearch and development. And patients are the ones who pay ~ in the form of sky-rocketing prescription\nprices — for every pen that's handed out, every free theatre ticket, and every steak dinner eaten. In\nthe end the fact remains that pharmaceutical companies have every right to make a profit and will\ncontinue to find new ways to Increase sales. But as the medical world continues to grapple with what's\nacceptable and what's not, It is clear that companies must continue to be heavily scrutinized for their\nsales and marketing strategies.",
+          "label": "G"
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-06-test-04-p-1-g-01-07",
+          "type": "matching_headings",
+          "instructions": "Questions 1–7\nReading Passage 1 has seven paragraphs, A–G.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–x, in boxes 1–7 on your answer sheet.\n\nList of Headings\n i. Not all doctors are persuaded\n ii. Choosing the best offers\n iii. Who is responsible for the increase in promotions?\n iv. Fighting the drug companies\n v. An example of what doctors expect from drug companies\n vi. Gifts include financial incentives\n vii. Research shows that promotion works\n viii. The high costs of research\n ix. The positive side of drugs promotion\n x. Who really pays for doctors' free gifts?",
+          "question_numbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "options": [
+            {
+              "label": "i",
+              "text": "not all doctors are persuaded"
+            },
+            {
+              "label": "ii",
+              "text": "choosing the best offers"
+            },
+            {
+              "label": "iii",
+              "text": "who is responsible for the increase in promotions?"
+            },
+            {
+              "label": "iv",
+              "text": "fighting the drug companies"
+            },
+            {
+              "label": "v",
+              "text": "an example of what doctors expect from drug companies"
+            },
+            {
+              "label": "vi",
+              "text": "gifts include financial incentives"
+            },
+            {
+              "label": "vii",
+              "text": "research shows that promotion works"
+            },
+            {
+              "label": "viii",
+              "text": "the high costs of research"
+            },
+            {
+              "label": "ix",
+              "text": "the positive side of drugs promotion"
+            },
+            {
+              "label": "x",
+              "text": "who really pays for doctors' free gifts?"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 1–7\nReading Passage 1 has seven paragraphs, A–G.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–x, in boxes 1–7 on your answer sheet.\n\nList of Headings\n i. Not all doctors are persuaded\n ii. Choosing the best offers\n iii. Who is responsible for the increase in promotions?\n iv. Fighting the drug companies\n v. An example of what doctors expect from drug companies\n vi. Gifts include financial incentives\n vii. Research shows that promotion works\n viii. The high costs of research\n ix. The positive side of drugs promotion\n x. Who really pays for doctors' free gifts?\n\n1. Paragraph A\n2. Paragraph B\n3. Paragraph C\n4. Paragraph D\n5. Paragraph E\n6. Paragraph F\n7. Paragraph G"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii",
+              "viii",
+              "ix",
+              "x"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-01",
+              "number": 1,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph A",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-02",
+              "number": 2,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph B",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-03",
+              "number": 3,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph C",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-04",
+              "number": 4,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph D",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-05",
+              "number": 5,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph E",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-06",
+              "number": 6,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph F",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-07",
+              "number": 7,
+              "group_id": "cambridge-06-test-04-p-1-g-01-07",
+              "type": "matching_headings",
+              "prompt": "Paragraph G",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii",
+                  "viii",
+                  "ix",
+                  "x"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1492,
+            "line_end": 1615,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              86,
+              87,
+              88,
+              89
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-06-test-04-p-1-g-08-13",
+          "type": "yes_no_not_given",
+          "instructions": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+          "question_numbers": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money."
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "asset_id": "cambridge-06-test-04-p-1-g-08-13-asset-89-0",
+              "alt": "Original task, questions [8, 9, 10, 11, 12, 13]"
+            }
+          ],
+          "assets": [
+            {
+              "id": "cambridge-06-test-04-p-1-g-08-13-asset-89-0",
+              "path": "assets/cambridge_06/cambridge-06-test-04-p-1-g-08-13-pdf-089-0.png",
+              "mime_type": "image/png",
+              "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+              "pdf_page": 89,
+              "crop_box": [
+                36.89,
+                60.5,
+                521.74,
+                651.62
+              ],
+              "coordinate_system": "pdf_points_top_left",
+              "render_scale": 2.5,
+              "width": 1213,
+              "height": 1479,
+              "sha256": "edb4c1a0410a4f6a4f9556f7d2364e4a1080814fdc14d5533a14a0fdba6a492d",
+              "verification_status": "extracted_needs_visual_review",
+              "question_numbers": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+              ]
+            }
+          ],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-08",
+              "number": 8,
+              "group_id": "cambridge-06-test-04-p-1-g-08-13",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-09",
+              "number": 9,
+              "group_id": "cambridge-06-test-04-p-1-g-08-13",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-10",
+              "number": 10,
+              "group_id": "cambridge-06-test-04-p-1-g-08-13",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-11",
+              "number": 11,
+              "group_id": "cambridge-06-test-04-p-1-g-08-13",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-12",
+              "number": 12,
+              "group_id": "cambridge-06-test-04-p-1-g-08-13",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-13",
+              "number": 13,
+              "group_id": "cambridge-06-test-04-p-1-g-08-13",
+              "type": "yes_no_not_given",
+              "prompt": "Questions 8-13\n\nDo the following statements agree with the views of the writer in Reading Passage 1?\n\nIn boxes 8-13 on your answer sheet, write\n\nil\n\nYES if the statement agrees with the views of the writer\n\nNO if the statement contradicts the views of the writer\n\nNOT GIVEN if it is impossible to say what the writer thinks about this\n\nSales representatives like Kim Schaefer work to a very limited budget.\n\nKim Schaefer’s marketing technique may be open to criticism on moral grounds.\nThe information provided by drug companies is of little use to doctors.\nEvidence of drug promotion is clearly visible in the healthcare environment.\n\nThe drug companies may give free drug samples to patients without doctors’\nprescriptions,\n\nIt is legitimate for drug companies to make money.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1492,
+                "line_end": 1615,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  86,
+                  87,
+                  88,
+                  89
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1492,
+            "line_end": 1615,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              86,
+              87,
+              88,
+              89
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "source_image_with_inputs",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_pages": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_question_range": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+        "line_start": 1492,
+        "line_end": 1615,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+        "pdf_pages": [
+          86,
+          87,
+          88,
+          89
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-06-test-04-p-2",
+      "number": 2,
+      "title": "Do Literate Women Make Better Mothers?",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "Do literate women make better mothers?",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Children in developing countries are healthier and more likely to survive past the age of five when\ntheir mothers can read and write. Experts in public health accepted this idea decades ago, but until now\nno one has been able to show that a woman's ability to read in itself improves her children's chances of\nsurvival.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Most literate women learnt to read in primary school, and the fact that a woman has had an education may\nsimply indicate her family’s wealth or that it values its children more highly. Now a long-term study\ncarried out in Nicaragua has eliminated these factors by showing that teaching reading to poor adult\nwomen, who would otherwise have remained illiterate, has a direct effect on their children’s health and\nsurvival.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In 1979, the government of Nicaragua established a number of social programmes, including a National\nLiteracy Crusade. By 1985, about 300,000 illiterate adults from all over the country, many of whom had\nnever attended primary school, had learnt how to read, write and use numbers.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "During this period, researchers from the Liverpool School of Tropical Medicine, the Central American\nInstitute of Health in Nicaragua, the National Autonomous University of Nicaragua and the Costa Rican\nInstitute of Health interviewed nearly 3,000 women, some of whom had learnt to read as children, some\nduring the literacy crusade and some who had never learnt at all. The women were asked how many children\nthey had given birth to and how many of them had died in infancy. The research teams also examined the\nsurviving children to find out how well-nourished they were.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The investigators’ findings were striking. In the late 1970s, the infant mortality rate for the children\nof illiterate mothers was around 110 deaths per thousand live births. At this point in their lives,\nthose mothers who later went on to learn to read had a similar level of child mortality (105/1000). For\nwomen educated in primary school, however, the infant mortality rate was significantly lower, at 80 per\nthousand.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": ".TopSage.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "In 1985, after the National Literacy Crusade had ended, the infant mortality figures for those who\nremained illiterate and for those educated in primary school remained more or less unchanged. For those\nwomen who learnt to read through the campaign, the infant mortality rate was 84 per thousand, an\nimpressive 21 points lower than for those women who were still illiterate. The children of the\nnewly-literate mothers were also better nourished than those of women who could not read.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Why are the children of literate mothers better off? According to Peter Sandiford of the Liverpool\nSchool of Tropical Medicine, no one knows for certain. Child health was not on the curriculum during the\nwomen’s lessons, so he and his colleagues are looking at other factors. They are working with the same\ngroup of 3,000 women, to try to find out whether reading mothers make better use of hospitals and\nclinics, opt for smaller families, exert more control at home, learn modern childcare techniques more\nquickly, or whether they merely have more respect for themselves and their children.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "The Nicaraguan study may have important implications for governments and aid agencies that need to know\nwhere to direct their resources. Sandiford says that there is increasing evidence that female education,\nat any age, is ‘an important health intervention in its own right’. The results of the study lend\nsupport to the World Bank's recommendation that education budgets in developing countries should be\nincreased, not just to help their economies, but also to improve child health.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "‘We've known for a long time that maternal education is important,’ says John Cleland of the London\nSchoo! of Hygiene and Tropical Medicine. ‘But we thought that even if we started educating girls today,\nwe'd have to wait a generation for the pay-off. The Nicaraguan study suggests we may be able to bypass\nthat.’",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Cleland warns that the Nicaraguan crusade was special in many ways, and similar campaigns elsewhere\nmight not work as well. It is notoriously difficult to teach adults skills that do not have an immediate\nimpact on their everyday lives, and many literacy campaigns in other countries have been much less\nsuccessful. ‘The crusade was part of a larger effort to bring a better life to the people,’ says\nCleland. Replicating these conditions in other countries will be a major challenge for development\nworkers.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-06-test-04-p-2-g-14-18",
+          "type": "summary_completion",
+          "instructions": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate 14 __________ to read and write. Public health experts have known for many years that there is a connection between child health and 15 __________. However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by 16 __________ in Nicaragua. As a result, factors such as 17 __________ and attitudes to children have been eliminated, and it has been shown that 18 __________ can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth",
+          "question_numbers": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "child literacy"
+            },
+            {
+              "label": "B",
+              "text": "men and women"
+            },
+            {
+              "label": "C",
+              "text": "an international research team"
+            },
+            {
+              "label": "D",
+              "text": "medical care"
+            },
+            {
+              "label": "E",
+              "text": "mortality"
+            },
+            {
+              "label": "F",
+              "text": "maternal literacy"
+            },
+            {
+              "label": "G",
+              "text": "adults and children"
+            },
+            {
+              "label": "H",
+              "text": "paternal literacy"
+            },
+            {
+              "label": "I",
+              "text": "a National Literacy Crusade"
+            },
+            {
+              "label": "J",
+              "text": "family wealth"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate "
+                },
+                {
+                  "type": "blank",
+                  "number": 14
+                },
+                {
+                  "type": "text",
+                  "text": " to read and write. Public health experts have known for many years that there is a connection between child health and "
+                },
+                {
+                  "type": "blank",
+                  "number": 15
+                },
+                {
+                  "type": "text",
+                  "text": ". However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by "
+                },
+                {
+                  "type": "blank",
+                  "number": 16
+                },
+                {
+                  "type": "text",
+                  "text": " in Nicaragua. As a result, factors such as "
+                },
+                {
+                  "type": "blank",
+                  "number": 17
+                },
+                {
+                  "type": "text",
+                  "text": " and attitudes to children have been eliminated, and it has been shown that "
+                },
+                {
+                  "type": "blank",
+                  "number": 18
+                },
+                {
+                  "type": "text",
+                  "text": " can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J"
+            ],
+            "reuse_allowed": true,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-14",
+              "number": 14,
+              "group_id": "cambridge-06-test-04-p-2-g-14-18",
+              "type": "summary_completion",
+              "prompt": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate 14 __________ to read and write. Public health experts have known for many years that there is a connection between child health and 15 __________. However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by 16 __________ in Nicaragua. As a result, factors such as 17 __________ and attitudes to children have been eliminated, and it has been shown that 18 __________ can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-15",
+              "number": 15,
+              "group_id": "cambridge-06-test-04-p-2-g-14-18",
+              "type": "summary_completion",
+              "prompt": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate 14 __________ to read and write. Public health experts have known for many years that there is a connection between child health and 15 __________. However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by 16 __________ in Nicaragua. As a result, factors such as 17 __________ and attitudes to children have been eliminated, and it has been shown that 18 __________ can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-16",
+              "number": 16,
+              "group_id": "cambridge-06-test-04-p-2-g-14-18",
+              "type": "summary_completion",
+              "prompt": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate 14 __________ to read and write. Public health experts have known for many years that there is a connection between child health and 15 __________. However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by 16 __________ in Nicaragua. As a result, factors such as 17 __________ and attitudes to children have been eliminated, and it has been shown that 18 __________ can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-17",
+              "number": 17,
+              "group_id": "cambridge-06-test-04-p-2-g-14-18",
+              "type": "summary_completion",
+              "prompt": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate 14 __________ to read and write. Public health experts have known for many years that there is a connection between child health and 15 __________. However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by 16 __________ in Nicaragua. As a result, factors such as 17 __________ and attitudes to children have been eliminated, and it has been shown that 18 __________ can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-18",
+              "number": 18,
+              "group_id": "cambridge-06-test-04-p-2-g-14-18",
+              "type": "summary_completion",
+              "prompt": "Questions 14–18\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n\nThe Nicaraguan National Literacy Crusade aimed to teach large numbers of illiterate 14 __________ to read and write. Public health experts have known for many years that there is a connection between child health and 15 __________. However, it has not previously been known whether these two factors were directly linked or not. This question has been investigated by 16 __________ in Nicaragua. As a result, factors such as 17 __________ and attitudes to children have been eliminated, and it has been shown that 18 __________ can in itself improve infant health and survival.\n\nA. child literacy\nB. men and women\nC. an international research team\nD. medical care\nE. mortality\nF. maternal literacy\nG. adults and children\nH. paternal literacy\nI. a National Literacy Crusade\nJ. family wealth",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
+                "reuse_allowed": true,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1615,
+            "line_end": 1735,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              90,
+              91,
+              92,
+              93
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-06-test-04-p-2-g-19-24",
+          "type": "yes_no_not_given",
+          "instructions": "Questions 19–24\nDo the following statements agree with the claims of the writer in Reading Passage 2?\nIn boxes 19–24 on your answer sheet, write:\n YES — if the statement agrees with the claims of the writer\n NO — if the statement contradicts the claims of the writer\n NOT GIVEN — if it is impossible to say what the writer thinks about this",
+          "question_numbers": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 19–24\nDo the following statements agree with the claims of the writer in Reading Passage 2?\nIn boxes 19–24 on your answer sheet, write:\n YES — if the statement agrees with the claims of the writer\n NO — if the statement contradicts the claims of the writer\n NOT GIVEN — if it is impossible to say what the writer thinks about this\n\n19. About a thousand of the women interviewed by the researchers had learnt to read when they were children.\n20. Before the National Literacy Crusade, illiterate women had approximately the same levels of infant mortality as those who had learnt to read in primary school.\n21. Before and after the National Literacy Crusade, the child mortality rate for the illiterate women stayed at about 110 deaths for each thousand live births.\n22. The women who had learnt to read through the National Literacy Crusade showed the greatest change in infant mortality levels.\n23. The women who had learnt to read through the National Literacy Crusade had the lowest rates of child mortality.\n24. After the National Literacy Crusade, the children of the women who remained illiterate were found to be severely malnourished."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "YES",
+              "NO",
+              "NOT GIVEN"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-19",
+              "number": 19,
+              "group_id": "cambridge-06-test-04-p-2-g-19-24",
+              "type": "yes_no_not_given",
+              "prompt": "About a thousand of the women interviewed by the researchers had learnt to read when they were children.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-20",
+              "number": 20,
+              "group_id": "cambridge-06-test-04-p-2-g-19-24",
+              "type": "yes_no_not_given",
+              "prompt": "Before the National Literacy Crusade, illiterate women had approximately the same levels of infant mortality as those who had learnt to read in primary school.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-21",
+              "number": 21,
+              "group_id": "cambridge-06-test-04-p-2-g-19-24",
+              "type": "yes_no_not_given",
+              "prompt": "Before and after the National Literacy Crusade, the child mortality rate for the illiterate women stayed at about 110 deaths for each thousand live births.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-22",
+              "number": 22,
+              "group_id": "cambridge-06-test-04-p-2-g-19-24",
+              "type": "yes_no_not_given",
+              "prompt": "The women who had learnt to read through the National Literacy Crusade showed the greatest change in infant mortality levels.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-23",
+              "number": 23,
+              "group_id": "cambridge-06-test-04-p-2-g-19-24",
+              "type": "yes_no_not_given",
+              "prompt": "The women who had learnt to read through the National Literacy Crusade had the lowest rates of child mortality.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-24",
+              "number": 24,
+              "group_id": "cambridge-06-test-04-p-2-g-19-24",
+              "type": "yes_no_not_given",
+              "prompt": "After the National Literacy Crusade, the children of the women who remained illiterate were found to be severely malnourished.",
+              "answer_input_type": "boolean",
+              "options": [
+                {
+                  "label": "YES",
+                  "text": "YES"
+                },
+                {
+                  "label": "NO",
+                  "text": "NO"
+                },
+                {
+                  "label": "NOT GIVEN",
+                  "text": "NOT GIVEN"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1615,
+            "line_end": 1735,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              90,
+              91,
+              92,
+              93
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-06-test-04-p-2-g-25-26",
+          "type": "multiple_choice_multiple",
+          "instructions": "Questions 25 and 26\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.\nWhich TWO important implications drawn from the Nicaraguan study are mentioned by the writer of the passage?\n A. It is better to educate mature women than young girls.\n B. Similar campaigns in other countries would be equally successful.\n C. The effects of maternal literacy programmes can be seen very quickly.\n D. Improving child health can quickly affect a country's economy.\n E. Money spent on female education will improve child health.",
+          "question_numbers": [
+            25,
+            26
+          ],
+          "options": [
+            {
+              "label": "A",
+              "text": "It is better to educate mature women than young girls."
+            },
+            {
+              "label": "B",
+              "text": "Similar campaigns in other countries would be equally successful."
+            },
+            {
+              "label": "C",
+              "text": "The effects of maternal literacy programmes can be seen very quickly."
+            },
+            {
+              "label": "D",
+              "text": "Improving child health can quickly affect a country's economy."
+            },
+            {
+              "label": "E",
+              "text": "Money spent on female education will improve child health."
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 25 and 26\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.\nWhich TWO important implications drawn from the Nicaraguan study are mentioned by the writer of the passage?\n A. It is better to educate mature women than young girls.\n B. Similar campaigns in other countries would be equally successful.\n C. The effects of maternal literacy programmes can be seen very quickly.\n D. Improving child health can quickly affect a country's economy.\n E. Money spent on female education will improve child health."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "reuse_allowed": false,
+            "selection_count": 2
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-25",
+              "number": 25,
+              "group_id": "cambridge-06-test-04-p-2-g-25-26",
+              "type": "multiple_choice_multiple",
+              "prompt": "Questions 25 and 26\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.\nWhich TWO important implications drawn from the Nicaraguan study are mentioned by the writer of the passage?\n A. It is better to educate mature women than young girls.\n B. Similar campaigns in other countries would be equally successful.\n C. The effects of maternal literacy programmes can be seen very quickly.\n D. Improving child health can quickly affect a country's economy.\n E. Money spent on female education will improve child health.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 2
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-26",
+              "number": 26,
+              "group_id": "cambridge-06-test-04-p-2-g-25-26",
+              "type": "multiple_choice_multiple",
+              "prompt": "Questions 25 and 26\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 25 and 26 on your answer sheet.\nWhich TWO important implications drawn from the Nicaraguan study are mentioned by the writer of the passage?\n A. It is better to educate mature women than young girls.\n B. Similar campaigns in other countries would be equally successful.\n C. The effects of maternal literacy programmes can be seen very quickly.\n D. Improving child health can quickly affect a country's economy.\n E. Money spent on female education will improve child health.",
+              "answer_input_type": "multi_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "reuse_allowed": false,
+                "selection_count": 2
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1615,
+                "line_end": 1735,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  90,
+                  91,
+                  92,
+                  93
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1615,
+            "line_end": 1735,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              90,
+              91,
+              92,
+              93
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_pages": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "source_question_range": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+        "line_start": 1615,
+        "line_end": 1735,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+        "pdf_pages": [
+          90,
+          91,
+          92,
+          93
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    },
+    {
+      "id": "cambridge-06-test-04-p-3",
+      "number": 3,
+      "title": "Untitled passage about bullying prevention",
+      "subtitle": null,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Persistent bullying is one of the worst experiences a child can face. How can it be prevented?",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Peter Smith, Professor of Psychology at the University of Sheffield, directed the Sheffield\nAnti-Bullying Intervention Project, funded by the Department for Education. Here he reports on his\nfindings.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Bullying can take a variety of forms, from the verbal — being taunted or called hurtful names — to the\nphysical — being kicked or shoved — as well as indirect forms, such as being excluded from social\ngroups. A survey | conducted with Irene Whitney found that in British primary schools up to a quarter of\npupils reported experience of bullying, which in about one in ten cases was persistent. There was less\nbullying in secondary schools, with about one in twenty-five suffering persistent bullying, but these\ncases may be particularly recalcitrant.",
+          "label": "A"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bullying is clearly unpleasant, and can make the child experiencing it feel unworthy and depressed. In\nextreme cases it can even lead to suicide, though this is thankfully rare, Victimised pupils are more\nlikely to experience difficulties with interpersonal relationships as adults, while children who\npersistently bully are more likely to grow up to be physically violent, and convicted of anti-social\noffences.",
+          "label": "B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Until recently, not much was known about the topic, and little help was available to teachers to deal\nwith bullying. Perhaps as a consequence, schools would often deny the problem. ‘There is no bullying at\nthis school’ has been a common refrain, almost certainly untrue. Fortunately more schools are now\nsaying: ‘There is not much bullying here, but when it occurs we have a clear policy for dealing with it’",
+          "label": "C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Three factors are involved in this change. First is an awareness of the severity of the problem. Second,\na number of resources to help tackle bullying have become available in Britain. For example, the\nScottish Council for Research in Education produced a package of materials, Action Against Bullying,\ncirculated to all schools in England and Wales as well as in Scotland in summer 1992, with a second\npack, Supporting Schools Against Bullying, produced the following year. In Ireland, Guidelines on\nCountering Bullying Behaviour in Post-Primary Schools was published in 1993. Third, there is evidence\nthat these materials work, and that schools can achieve something. This comes from carefully conducted\n‘before and after’ evaluations of interventions in schools, monitored by a research team. In Norway,\nafter an intervention campaign was introduced nationally, an evaluation of forty-two schools suggested\nthat, over a two-year period, bullying was halved. The Sheffield investigation, which involved sixteen\nprimary schools and seven secondary schools, found that most schools succeeded in reducing bullying.",
+          "label": "D"
+        },
+        {
+          "type": "paragraph",
+          "text": "‘Evidence suggests that a key step is to develop a policy on bullying, saying clearly",
+          "label": "E"
+        },
+        {
+          "type": "paragraph",
+          "text": "what is meant by bullying, and giving explicit guidelines on what will be done if it occurs, what\nrecords will be kept, who will be informed, what sanctions will be employed, The policy should be\ndeveloped through consultation, over a period of time — not just imposed from the head teacher's office!\nPupils, parents and staff should feel they have been involved in the policy, which needs to be\ndisseminated and implemented effectively.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Other actions can be taken to back up the policy. There are ways of dealing with the topic through the\ncurriculum, using video, drama and literature. These are useful for raising awareness, and can best be\ntied in to early phases of development, while the school is starting to discuss the issue of bullying.\nThey are also useful in renewing the policy for new pupils, or revising it in the light of experience.\nBut curriculum work alone may only have short-term effects; it should be an addition to policy work, not\na substitute.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "There are also ways of working with individual pupils, or in small groups. Assertiveness training for\npupils who are liable to be victims is worthwhile, and certain approaches to group bullying such as ‘no\nblame’, can be useful in changing the behaviour of bullying pupils without confronting them directly,\nalthough other sanctions may be needed for those who continue with persistent bullying.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "Work in the playground is important, too. One helpful step is to train lunchtime supervisors to\ndistinguish bullying from playful fighting, and help them break up conflicts. Another possibility is to\nimprove the playground environment, so that pupils are less likely to be led into bullying from boredom\nor frustration.",
+          "label": null
+        },
+        {
+          "type": "paragraph",
+          "text": "With these developments, schools can expect that at least the most serious kinds of bullying can largely\nbe prevented. The more effort put in and the wider the whole school involvement, the more substantial\nthe results are likely to be. The reduction in bullying — and the consequent improvement in pupil\nhappiness — is surely a worthwhile objective.",
+          "label": "F"
+        },
+        {
+          "type": "paragraph",
+          "text": ".TopSage.",
+          "label": null
+        }
+      ],
+      "question_groups": [
+        {
+          "id": "cambridge-06-test-04-p-3-g-27-30",
+          "type": "matching_headings",
+          "instructions": "Questions 27–30\nReading Passage 3 has six sections, A–F.\nChoose the correct heading for sections A–D from the list of headings below.\nWrite the correct number, i–vii, in boxes 27–30 on your answer sheet.\n\nList of Headings\n i. The role of video violence\n ii. The failure of government policy\n iii. Reasons for the increased rate of bullying\n iv. Research into how common bullying is in British schools\n v. The reaction from schools to enquiries about bullying\n vi. The effect of bullying on the children involved\n vii. Developments that have led to a new approach by schools",
+          "question_numbers": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "options": [
+            {
+              "label": "i",
+              "text": "the role of video violence"
+            },
+            {
+              "label": "ii",
+              "text": "the failure of government policy"
+            },
+            {
+              "label": "iii",
+              "text": "reasons for the increased rate of bullying"
+            },
+            {
+              "label": "iv",
+              "text": "research into how common bullying is in british schools"
+            },
+            {
+              "label": "v",
+              "text": "the reaction from schools to enquiries about bullying"
+            },
+            {
+              "label": "vi",
+              "text": "the effect of bullying on the children involved"
+            },
+            {
+              "label": "vii",
+              "text": "developments that have led to a new approach by schools"
+            }
+          ],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 27–30\nReading Passage 3 has six sections, A–F.\nChoose the correct heading for sections A–D from the list of headings below.\nWrite the correct number, i–vii, in boxes 27–30 on your answer sheet.\n\nList of Headings\n i. The role of video violence\n ii. The failure of government policy\n iii. Reasons for the increased rate of bullying\n iv. Research into how common bullying is in British schools\n v. The reaction from schools to enquiries about bullying\n vi. The effect of bullying on the children involved\n vii. Developments that have led to a new approach by schools\n\n27. Section A\n28. Section B\n29. Section C\n30. Section D"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "i",
+              "ii",
+              "iii",
+              "iv",
+              "v",
+              "vi",
+              "vii"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-27",
+              "number": 27,
+              "group_id": "cambridge-06-test-04-p-3-g-27-30",
+              "type": "matching_headings",
+              "prompt": "Section A",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-28",
+              "number": 28,
+              "group_id": "cambridge-06-test-04-p-3-g-27-30",
+              "type": "matching_headings",
+              "prompt": "Section B",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-29",
+              "number": 29,
+              "group_id": "cambridge-06-test-04-p-3-g-27-30",
+              "type": "matching_headings",
+              "prompt": "Section C",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-30",
+              "number": 30,
+              "group_id": "cambridge-06-test-04-p-3-g-27-30",
+              "type": "matching_headings",
+              "prompt": "Section D",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "i",
+                  "ii",
+                  "iii",
+                  "iv",
+                  "v",
+                  "vi",
+                  "vii"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1735,
+            "line_end": 1907,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-06-test-04-p-3-g-31-34",
+          "type": "multiple_choice_single",
+          "instructions": "Questions 31-34\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 31-34 on your answer sheet.\n\nA recent survey found that in British secondary schools\n\nA __ there was more bullying than had previously been the case.\n\nB there was less bullying than in primary schools.\n\nC cases of persistent bullying were very common,\n\nD__ indirect forms of bullying were particularly difficult to deal with.\n\nChildren who are bullied\n\nA are twice as likely to commit suicide as the average person.\nB find it more difficult to relate to adults.\n\nC are less likely to be violent in later life.\n\nD may have difficulty forming relationships in later life.\n\nThe writer thinks that the declaration ‘There is no bullying at this school’\n\nA __ isno longer true in many schools,\n\nB_ was not in fact made by many schools,\n\nC reflected the school’s lack of concern,\n\nD _ reflected a lack of knowledge and resources.\n\nWhat were the findings of research carried out in Norway?\n\nA Bullying declined by 50% after an anti-bullying campaign.\n\nB Twenty-one schools reduced bullying as a result of an anti-bullying campaign.\nC Two years is the optimum length for an anti-bullying campaign.\n\nD__ Bullying is a less serious problem in Norway than in the UK.",
+          "question_numbers": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 31-34\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 31-34 on your answer sheet.\n\nA recent survey found that in British secondary schools\n\nA __ there was more bullying than had previously been the case.\n\nB there was less bullying than in primary schools.\n\nC cases of persistent bullying were very common,\n\nD__ indirect forms of bullying were particularly difficult to deal with.\n\nChildren who are bullied\n\nA are twice as likely to commit suicide as the average person.\nB find it more difficult to relate to adults.\n\nC are less likely to be violent in later life.\n\nD may have difficulty forming relationships in later life.\n\nThe writer thinks that the declaration ‘There is no bullying at this school’\n\nA __ isno longer true in many schools,\n\nB_ was not in fact made by many schools,\n\nC reflected the school’s lack of concern,\n\nD _ reflected a lack of knowledge and resources.\n\nWhat were the findings of research carried out in Norway?\n\nA Bullying declined by 50% after an anti-bullying campaign.\n\nB Twenty-one schools reduced bullying as a result of an anti-bullying campaign.\nC Two years is the optimum length for an anti-bullying campaign.\n\nD__ Bullying is a less serious problem in Norway than in the UK."
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "asset_id": "cambridge-06-test-04-p-3-g-31-34-asset-97-0",
+              "alt": "Original task, questions [31, 32, 33, 34]"
+            }
+          ],
+          "assets": [
+            {
+              "id": "cambridge-06-test-04-p-3-g-31-34-asset-97-0",
+              "path": "assets/cambridge_06/cambridge-06-test-04-p-3-g-31-34-pdf-097-0.png",
+              "mime_type": "image/png",
+              "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+              "pdf_page": 97,
+              "crop_box": [
+                36.0,
+                65.0,
+                521.74,
+                651.62
+              ],
+              "coordinate_system": "pdf_points_top_left",
+              "render_scale": 2.5,
+              "width": 1215,
+              "height": 1468,
+              "sha256": "08f49e10146a712f536b7d976443fa82b9b91ac11983212235b00728876612b3",
+              "verification_status": "extracted_needs_visual_review",
+              "question_numbers": [
+                31,
+                32,
+                33,
+                34
+              ]
+            }
+          ],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D",
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-31",
+              "number": 31,
+              "group_id": "cambridge-06-test-04-p-3-g-31-34",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 31-34\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 31-34 on your answer sheet.\n\nA recent survey found that in British secondary schools\n\nA __ there was more bullying than had previously been the case.\n\nB there was less bullying than in primary schools.\n\nC cases of persistent bullying were very common,\n\nD__ indirect forms of bullying were particularly difficult to deal with.\n\nChildren who are bullied\n\nA are twice as likely to commit suicide as the average person.\nB find it more difficult to relate to adults.\n\nC are less likely to be violent in later life.\n\nD may have difficulty forming relationships in later life.\n\nThe writer thinks that the declaration ‘There is no bullying at this school’\n\nA __ isno longer true in many schools,\n\nB_ was not in fact made by many schools,\n\nC reflected the school’s lack of concern,\n\nD _ reflected a lack of knowledge and resources.\n\nWhat were the findings of research carried out in Norway?\n\nA Bullying declined by 50% after an anti-bullying campaign.\n\nB Twenty-one schools reduced bullying as a result of an anti-bullying campaign.\nC Two years is the optimum length for an anti-bullying campaign.\n\nD__ Bullying is a less serious problem in Norway than in the UK.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-32",
+              "number": 32,
+              "group_id": "cambridge-06-test-04-p-3-g-31-34",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 31-34\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 31-34 on your answer sheet.\n\nA recent survey found that in British secondary schools\n\nA __ there was more bullying than had previously been the case.\n\nB there was less bullying than in primary schools.\n\nC cases of persistent bullying were very common,\n\nD__ indirect forms of bullying were particularly difficult to deal with.\n\nChildren who are bullied\n\nA are twice as likely to commit suicide as the average person.\nB find it more difficult to relate to adults.\n\nC are less likely to be violent in later life.\n\nD may have difficulty forming relationships in later life.\n\nThe writer thinks that the declaration ‘There is no bullying at this school’\n\nA __ isno longer true in many schools,\n\nB_ was not in fact made by many schools,\n\nC reflected the school’s lack of concern,\n\nD _ reflected a lack of knowledge and resources.\n\nWhat were the findings of research carried out in Norway?\n\nA Bullying declined by 50% after an anti-bullying campaign.\n\nB Twenty-one schools reduced bullying as a result of an anti-bullying campaign.\nC Two years is the optimum length for an anti-bullying campaign.\n\nD__ Bullying is a less serious problem in Norway than in the UK.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-33",
+              "number": 33,
+              "group_id": "cambridge-06-test-04-p-3-g-31-34",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 31-34\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 31-34 on your answer sheet.\n\nA recent survey found that in British secondary schools\n\nA __ there was more bullying than had previously been the case.\n\nB there was less bullying than in primary schools.\n\nC cases of persistent bullying were very common,\n\nD__ indirect forms of bullying were particularly difficult to deal with.\n\nChildren who are bullied\n\nA are twice as likely to commit suicide as the average person.\nB find it more difficult to relate to adults.\n\nC are less likely to be violent in later life.\n\nD may have difficulty forming relationships in later life.\n\nThe writer thinks that the declaration ‘There is no bullying at this school’\n\nA __ isno longer true in many schools,\n\nB_ was not in fact made by many schools,\n\nC reflected the school’s lack of concern,\n\nD _ reflected a lack of knowledge and resources.\n\nWhat were the findings of research carried out in Norway?\n\nA Bullying declined by 50% after an anti-bullying campaign.\n\nB Twenty-one schools reduced bullying as a result of an anti-bullying campaign.\nC Two years is the optimum length for an anti-bullying campaign.\n\nD__ Bullying is a less serious problem in Norway than in the UK.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-34",
+              "number": 34,
+              "group_id": "cambridge-06-test-04-p-3-g-31-34",
+              "type": "multiple_choice_single",
+              "prompt": "Questions 31-34\n\nChoose the correct letter, A, B, C or D.\n\nWrite the correct letter in boxes 31-34 on your answer sheet.\n\nA recent survey found that in British secondary schools\n\nA __ there was more bullying than had previously been the case.\n\nB there was less bullying than in primary schools.\n\nC cases of persistent bullying were very common,\n\nD__ indirect forms of bullying were particularly difficult to deal with.\n\nChildren who are bullied\n\nA are twice as likely to commit suicide as the average person.\nB find it more difficult to relate to adults.\n\nC are less likely to be violent in later life.\n\nD may have difficulty forming relationships in later life.\n\nThe writer thinks that the declaration ‘There is no bullying at this school’\n\nA __ isno longer true in many schools,\n\nB_ was not in fact made by many schools,\n\nC reflected the school’s lack of concern,\n\nD _ reflected a lack of knowledge and resources.\n\nWhat were the findings of research carried out in Norway?\n\nA Bullying declined by 50% after an anti-bullying campaign.\n\nB Twenty-one schools reduced bullying as a result of an anti-bullying campaign.\nC Two years is the optimum length for an anti-bullying campaign.\n\nD__ Bullying is a less serious problem in Norway than in the UK.",
+              "answer_input_type": "single_select",
+              "options": [],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1735,
+            "line_end": 1907,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "source_image_with_inputs",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-06-test-04-p-3-g-35-39",
+          "type": "summary_completion",
+          "instructions": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a 35 __________ which makes the school's attitude towards bullying quite clear. It should include detailed 36 __________ as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the 37 __________. This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential 38 __________ of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere 39 __________.",
+          "question_numbers": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a "
+                },
+                {
+                  "type": "blank",
+                  "number": 35
+                },
+                {
+                  "type": "text",
+                  "text": " which makes the school's attitude towards bullying quite clear. It should include detailed "
+                },
+                {
+                  "type": "blank",
+                  "number": 36
+                },
+                {
+                  "type": "text",
+                  "text": " as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the "
+                },
+                {
+                  "type": "blank",
+                  "number": 37
+                },
+                {
+                  "type": "text",
+                  "text": ". This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential "
+                },
+                {
+                  "type": "blank",
+                  "number": 38
+                },
+                {
+                  "type": "text",
+                  "text": " of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere "
+                },
+                {
+                  "type": "blank",
+                  "number": 39
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": 2,
+            "allow_number": false,
+            "allowed_values": [],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-35",
+              "number": 35,
+              "group_id": "cambridge-06-test-04-p-3-g-35-39",
+              "type": "summary_completion",
+              "prompt": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a 35 __________ which makes the school's attitude towards bullying quite clear. It should include detailed 36 __________ as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the 37 __________. This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential 38 __________ of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere 39 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-36",
+              "number": 36,
+              "group_id": "cambridge-06-test-04-p-3-g-35-39",
+              "type": "summary_completion",
+              "prompt": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a 35 __________ which makes the school's attitude towards bullying quite clear. It should include detailed 36 __________ as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the 37 __________. This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential 38 __________ of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere 39 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-37",
+              "number": 37,
+              "group_id": "cambridge-06-test-04-p-3-g-35-39",
+              "type": "summary_completion",
+              "prompt": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a 35 __________ which makes the school's attitude towards bullying quite clear. It should include detailed 36 __________ as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the 37 __________. This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential 38 __________ of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere 39 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-38",
+              "number": 38,
+              "group_id": "cambridge-06-test-04-p-3-g-35-39",
+              "type": "summary_completion",
+              "prompt": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a 35 __________ which makes the school's attitude towards bullying quite clear. It should include detailed 36 __________ as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the 37 __________. This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential 38 __________ of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere 39 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            },
+            {
+              "id": "cambridge-06-test-04-q-39",
+              "number": 39,
+              "group_id": "cambridge-06-test-04-p-3-g-35-39",
+              "type": "summary_completion",
+              "prompt": "Questions 35–39\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 35–39 on your answer sheet.\n\nWHAT STEPS SHOULD SCHOOLS TAKE TO REDUCE BULLYING?\n\nThe most important step is for the school authorities to produce a 35 __________ which makes the school's attitude towards bullying quite clear. It should include detailed 36 __________ as to how the school and its staff will react if bullying occurs.\n\nIn addition, action can be taken through the 37 __________. This is particularly useful in the early part of the process, as a way of raising awareness and encouraging discussion. On its own, however, it is insufficient to bring about a permanent solution.\n\nEffective work can also be done with individual pupils and small groups. For example, potential 38 __________ of bullying can be trained to be more self-confident. Or again, in dealing with group bullying, a 'no blame' approach, which avoids confronting the offender too directly, is often effective.\n\nPlayground supervision will be more effective if members of staff are trained to recognise the difference between bullying and mere 39 __________.",
+              "answer_input_type": "text",
+              "options": [],
+              "constraints": {
+                "max_words": 2,
+                "allow_number": false,
+                "allowed_values": [],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1735,
+            "line_end": 1907,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        },
+        {
+          "id": "cambridge-06-test-04-p-3-g-40-40",
+          "type": "multiple_choice_single",
+          "instructions": "Question 40\nChoose the correct letter, A, B, C or D.\nWhich of the following is the most suitable title for Reading Passage 3?\n A. Bullying: what parents can do\n B. Bullying: are the media to blame?\n C. Bullying: the link with academic failure\n D. Bullying: from crisis management to prevention",
+          "question_numbers": [
+            40
+          ],
+          "options": [],
+          "content_blocks": [
+            {
+              "type": "rich_text",
+              "segments": [
+                {
+                  "type": "text",
+                  "text": "Question 40\nChoose the correct letter, A, B, C or D.\nWhich of the following is the most suitable title for Reading Passage 3?\n A. Bullying: what parents can do\n B. Bullying: are the media to blame?\n C. Bullying: the link with academic failure\n D. Bullying: from crisis management to prevention"
+                }
+              ]
+            }
+          ],
+          "assets": [],
+          "constraints": {
+            "max_words": null,
+            "allow_number": false,
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "reuse_allowed": false,
+            "selection_count": null
+          },
+          "questions": [
+            {
+              "id": "cambridge-06-test-04-q-40",
+              "number": 40,
+              "group_id": "cambridge-06-test-04-p-3-g-40-40",
+              "type": "multiple_choice_single",
+              "prompt": "Question 40\nChoose the correct letter, A, B, C or D.\nWhich of the following is the most suitable title for Reading Passage 3?\n A. Bullying: what parents can do\n B. Bullying: are the media to blame?\n C. Bullying: the link with academic failure\n D. Bullying: from crisis management to prevention",
+              "answer_input_type": "single_select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Bullying: what parents can do"
+                },
+                {
+                  "label": "B",
+                  "text": "Bullying: are the media to blame?"
+                },
+                {
+                  "label": "C",
+                  "text": "Bullying: the link with academic failure"
+                },
+                {
+                  "label": "D",
+                  "text": "Bullying: from crisis management to prevention"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "allow_number": false,
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "reuse_allowed": false,
+                "selection_count": null
+              },
+              "source_reference": {
+                "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+                "line_start": 1735,
+                "line_end": 1907,
+                "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+                "pdf_pages": [
+                  94,
+                  95,
+                  96,
+                  97,
+                  98
+                ],
+                "line_coordinate_space": "original_txt"
+              }
+            }
+          ],
+          "source_reference": {
+            "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+            "line_start": 1735,
+            "line_end": 1907,
+            "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+            "pdf_pages": [
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "line_coordinate_space": "original_txt"
+          },
+          "representation": "structured_text",
+          "source_verified": false
+        }
+      ],
+      "question_numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_pages": [
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "source_question_range": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+        "line_start": 1735,
+        "line_end": 1907,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+        "pdf_pages": [
+          94,
+          95,
+          96,
+          97,
+          98
+        ],
+        "line_coordinate_space": "original_txt"
+      }
+    }
+  ],
+  "question_count": 40,
+  "content_status": "needs_review",
+  "source_verified": false,
+  "verification": {
+    "text": "transcribed_unverified",
+    "questions": "transcribed_unverified",
+    "keys": "transcribed_unverified"
+  },
+  "source_references": [
+    {
+      "txt_file": "ieltsReading/Cambridge_IELTS_06_Reading_All_Tests_With_Answers.txt",
+      "line_start": 1487,
+      "line_end": 1966,
+      "pdf_file": "ieltsbooks/Cambridge-IELTS-06.pdf",
+      "pdf_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "line_coordinate_space": "original_txt"
+    }
+  ]
+}

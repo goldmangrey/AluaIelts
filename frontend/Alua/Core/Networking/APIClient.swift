@@ -26,7 +26,9 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
         responseType: Response.Type
     ) async throws -> Response {
         try Task.checkCancellation()
+        let identity = try await tokenProvider.sessionIdentifier()
         let request = try await makeRequest(for: endpoint)
+        guard identity == (try await tokenProvider.sessionIdentifier()) else { throw CancellationError() }
         let data: Data
         let response: URLResponse
 
@@ -38,8 +40,7 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
 
         try Task.checkCancellation()
         if endpoint.requiresAuthentication {
-            let currentToken = try await tokenProvider.accessToken()
-            guard request.value(forHTTPHeaderField: "Authorization") == currentToken.map({ "Bearer \($0)" }) else {
+            guard identity == (try await tokenProvider.sessionIdentifier()) else {
                 throw CancellationError()
             }
         }
@@ -47,6 +48,9 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
             throw APIError.invalidResponse
         }
         guard (200 ... 299).contains(httpResponse.statusCode) else {
+            if httpResponse.statusCode == 401, endpoint.requiresAuthentication {
+                await tokenProvider.authenticationRejected(session: identity)
+            }
             throw makeServerError(statusCode: httpResponse.statusCode, data: data)
         }
 
@@ -65,6 +69,10 @@ final class APIClient: APIClientProtocol, @unchecked Sendable {
             #endif
             throw APIError.decoding
         }
+    }
+
+    func cancelAuthenticatedRequests() {
+        session.getAllTasks { tasks in tasks.forEach { $0.cancel() } }
     }
 
     private func makeRequest(for endpoint: APIEndpoint) async throws -> URLRequest {

@@ -15,10 +15,10 @@ struct MainTabView: View {
     let vocabularyLearningStore: VocabularyLearningStore
     let dependencies: DependencyContainer
     @State private var studyStore: StudyStore?
+    let readingStore: ReadingStore?
     @Environment(\.scenePhase) private var scenePhase
     @State private var focusedLink: DeepLink?
 
-    private var quality: LearningQualityService { LearningQualityService(apiClient: dependencies.apiClient) }
     var body: some View {
         TabView(selection: $appState.selectedTab) {
             NavigationStack {
@@ -31,11 +31,8 @@ struct MainTabView: View {
                 }.toolbar { settingsButton }
             }.tabItem { Label(AppTab.book.title, systemImage: AppTab.book.systemImage) }.tag(AppTab.book)
             NavigationStack {
-                Group {
-                    if let studyStore { StudyProgressView(store: studyStore, quality: quality) }
-                    else { StudyLoading(store: nil) }
-                }.toolbar { settingsButton }
-            }.tabItem { Label(AppTab.progress.title, systemImage: AppTab.progress.systemImage) }.tag(AppTab.progress)
+                PracticeView(readingStore: readingStore).toolbar { settingsButton }
+            }.tabItem { Label(AppTab.practice.title, systemImage: AppTab.practice.systemImage) }.tag(AppTab.practice)
         }
         .tint(AluaColors.accent).preferredColorScheme(.light)
         .task(id: authSession.profile?.uid) {

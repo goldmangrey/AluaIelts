@@ -1,0 +1,1351 @@
+{
+  "exam_id": "cambridge-05-test-02",
+  "dataset_version": "1.0.0",
+  "answers": [
+    {
+      "question_id": "cambridge-05-test-02-q-01",
+      "number": 1,
+      "canonical_answer": "candlewax",
+      "accepted_answers": [
+        "candlewax"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1076,
+        "line_end": 1076,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-02",
+      "number": 2,
+      "canonical_answer": "synthetic",
+      "accepted_answers": [
+        "synthetic"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1077,
+        "line_end": 1077,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-03",
+      "number": 3,
+      "canonical_answer": "chemistry",
+      "accepted_answers": [
+        "chemistry"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1078,
+        "line_end": 1078,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-04",
+      "number": 4,
+      "canonical_answer": "Novalak",
+      "accepted_answers": [
+        "Novalak"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1079,
+        "line_end": 1079,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-05",
+      "number": 5,
+      "canonical_answer": "fillers",
+      "accepted_answers": [
+        "fillers"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1080,
+        "line_end": 1080,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-06",
+      "number": 6,
+      "canonical_answer": "hexa",
+      "accepted_answers": [
+        "hexa"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1081,
+        "line_end": 1081,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-07",
+      "number": 7,
+      "canonical_answer": "raw",
+      "accepted_answers": [
+        "raw"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1082,
+        "line_end": 1082,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-08",
+      "number": 8,
+      "canonical_answer": "pressure",
+      "accepted_answers": [
+        "pressure"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1083,
+        "line_end": 1083,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-09",
+      "number": 9,
+      "canonical_answer": "B",
+      "accepted_answers": [
+        "B"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": {
+        "id": "cambridge-05-test-02-p-1-g-09-10",
+        "mode": "unordered_unique",
+        "question_numbers": [
+          9,
+          10
+        ],
+        "expected_units": [
+          [
+            "B"
+          ],
+          [
+            "C"
+          ]
+        ]
+      },
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1084,
+        "line_end": 1084,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-10",
+      "number": 10,
+      "canonical_answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": {
+        "id": "cambridge-05-test-02-p-1-g-09-10",
+        "mode": "unordered_unique",
+        "question_numbers": [
+          9,
+          10
+        ],
+        "expected_units": [
+          [
+            "B"
+          ],
+          [
+            "C"
+          ]
+        ]
+      },
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1085,
+        "line_end": 1085,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-11",
+      "number": 11,
+      "canonical_answer": "TRUE",
+      "accepted_answers": [
+        "TRUE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1086,
+        "line_end": 1086,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-12",
+      "number": 12,
+      "canonical_answer": "FALSE",
+      "accepted_answers": [
+        "FALSE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1087,
+        "line_end": 1087,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-13",
+      "number": 13,
+      "canonical_answer": "FALSE",
+      "accepted_answers": [
+        "FALSE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1088,
+        "line_end": 1088,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-14",
+      "number": 14,
+      "canonical_answer": "FALSE",
+      "accepted_answers": [
+        "FALSE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1091,
+        "line_end": 1091,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-15",
+      "number": 15,
+      "canonical_answer": "NOT GIVEN",
+      "accepted_answers": [
+        "NOT GIVEN"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1092,
+        "line_end": 1092,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-16",
+      "number": 16,
+      "canonical_answer": "TRUE",
+      "accepted_answers": [
+        "TRUE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1093,
+        "line_end": 1093,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-17",
+      "number": 17,
+      "canonical_answer": "FALSE",
+      "accepted_answers": [
+        "FALSE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1094,
+        "line_end": 1094,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-18",
+      "number": 18,
+      "canonical_answer": "TRUE",
+      "accepted_answers": [
+        "TRUE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1095,
+        "line_end": 1095,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-19",
+      "number": 19,
+      "canonical_answer": "NOT GIVEN",
+      "accepted_answers": [
+        "NOT GIVEN"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1096,
+        "line_end": 1096,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-20",
+      "number": 20,
+      "canonical_answer": "TRUE",
+      "accepted_answers": [
+        "TRUE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1097,
+        "line_end": 1097,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-21",
+      "number": 21,
+      "canonical_answer": "problem solving",
+      "accepted_answers": [
+        "problem solving"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1098,
+        "line_end": 1098,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-22",
+      "number": 22,
+      "canonical_answer": "temporal lobes",
+      "accepted_answers": [
+        "temporal lobes"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1099,
+        "line_end": 1099,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-23",
+      "number": 23,
+      "canonical_answer": "evaluating information",
+      "accepted_answers": [
+        "evaluating information"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1100,
+        "line_end": 1100,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-24",
+      "number": 24,
+      "canonical_answer": "C",
+      "accepted_answers": [
+        "C"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1101,
+        "line_end": 1101,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-25",
+      "number": 25,
+      "canonical_answer": "A",
+      "accepted_answers": [
+        "A"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1102,
+        "line_end": 1102,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-26",
+      "number": 26,
+      "canonical_answer": "F",
+      "accepted_answers": [
+        "F"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1103,
+        "line_end": 1103,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-27",
+      "number": 27,
+      "canonical_answer": "D",
+      "accepted_answers": [
+        "D"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1104,
+        "line_end": 1104,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-28",
+      "number": 28,
+      "canonical_answer": "Latin",
+      "accepted_answers": [
+        "Latin"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1107,
+        "line_end": 1107,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-29",
+      "number": 29,
+      "canonical_answer": "doctors",
+      "accepted_answers": [
+        "doctors"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1108,
+        "line_end": 1108,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-30",
+      "number": 30,
+      "canonical_answer": "technical vocabulary",
+      "accepted_answers": [
+        "technical vocabulary"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": {
+        "id": "cambridge-05-test-02-grading-30-31",
+        "mode": "unordered_unique",
+        "question_numbers": [
+          30,
+          31
+        ],
+        "expected_units": [
+          [
+            "technical vocabulary"
+          ],
+          [
+            "grammatical resources"
+          ]
+        ]
+      },
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1109,
+        "line_end": 1109,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-31",
+      "number": 31,
+      "canonical_answer": "grammatical resources",
+      "accepted_answers": [
+        "grammatical resources"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": {
+        "id": "cambridge-05-test-02-grading-30-31",
+        "mode": "unordered_unique",
+        "question_numbers": [
+          30,
+          31
+        ],
+        "expected_units": [
+          [
+            "technical vocabulary"
+          ],
+          [
+            "grammatical resources"
+          ]
+        ]
+      },
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1110,
+        "line_end": 1110,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-32",
+      "number": 32,
+      "canonical_answer": "Royal Society",
+      "accepted_answers": [
+        "Royal Society"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1111,
+        "line_end": 1111,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-33",
+      "number": 33,
+      "canonical_answer": "German",
+      "accepted_answers": [
+        "German"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1112,
+        "line_end": 1112,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-34",
+      "number": 34,
+      "canonical_answer": "industrial revolution",
+      "accepted_answers": [
+        "industrial revolution"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1113,
+        "line_end": 1113,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-35",
+      "number": 35,
+      "canonical_answer": "NOT GIVEN",
+      "accepted_answers": [
+        "NOT GIVEN"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1114,
+        "line_end": 1114,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-36",
+      "number": 36,
+      "canonical_answer": "FALSE",
+      "accepted_answers": [
+        "FALSE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1115,
+        "line_end": 1115,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-37",
+      "number": 37,
+      "canonical_answer": "TRUE",
+      "accepted_answers": [
+        "TRUE"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1116,
+        "line_end": 1116,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-38",
+      "number": 38,
+      "canonical_answer": "popular",
+      "accepted_answers": [
+        "popular"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1117,
+        "line_end": 1117,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-39",
+      "number": 39,
+      "canonical_answer": "Principia / the Principia / Newton’s Principia / mathematical treatise",
+      "accepted_answers": [
+        "Newton’s Principia",
+        "Principia",
+        "mathematical treatise",
+        "the Principia"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1118,
+        "line_end": 1118,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    },
+    {
+      "question_id": "cambridge-05-test-02-q-40",
+      "number": 40,
+      "canonical_answer": "local / more local / local audience",
+      "accepted_answers": [
+        "local",
+        "local audience",
+        "more local"
+      ],
+      "normalization_rules": [
+        "unicode_nfkc",
+        "casefold",
+        "trim",
+        "collapse_whitespace",
+        "normalize_apostrophe",
+        "numeric_thousands_separator"
+      ],
+      "grading_group": null,
+      "source_reference": {
+        "txt_file": "ieltsReading/Cambridge_IELTS_05_Reading_Full_RECREATED.txt",
+        "line_start": 1119,
+        "line_end": 1119,
+        "pdf_file": "ieltsbooks/Cambridge-IELTS-05.pdf",
+        "pdf_pages": [
+          156
+        ],
+        "line_coordinate_space": "original_txt"
+      },
+      "verification_status": "transcribed_unverified",
+      "grading": {
+        "mode": "variants",
+        "parts": []
+      }
+    }
+  ]
+}

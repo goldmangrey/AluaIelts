@@ -181,7 +181,7 @@ def test_authorization_and_existing_features(system):
             response = client.request(method, url, json={})
             assert response.status_code == 401, (method, path, response.text)
             count += 1
-    assert count == 55  # Includes learning-quality and three Stage 3 study endpoints.
+    assert count == 69  # Existing 68 endpoints plus authenticated Firebase registration.
     assert client.post("/api/v1/enrollment", json={"code": "0" * 32}).status_code == 401
     assert (
         client.post(

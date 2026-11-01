@@ -19,6 +19,8 @@ dependencies = [
     "sqlalchemy>=2.0.43",
     "tenacity>=9.1.4",
     "uvicorn[standard]>=0.54.0",
+    "jsonschema>=4.26.0",
+    "firebase-admin>=7.0,<8",
 ]
 
 [project.scripts]

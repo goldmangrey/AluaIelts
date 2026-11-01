@@ -294,3 +294,14 @@ class StudyEventRow(Base):
     )
     event_id: Mapped[str] = mapped_column(String(36), primary_key=True)
     payload: Mapped[dict[str, Any]] = mapped_column(JSONDocument)
+
+
+class FirebaseIdentityRow(Base):
+    """Administrative allowlist: one Firebase identity per existing learner."""
+
+    __tablename__ = "firebase_identities"
+    firebase_uid: Mapped[str] = mapped_column(String(128), primary_key=True)
+    learner_id: Mapped[str] = mapped_column(
+        ForeignKey("learner_profiles.learner_id", ondelete="RESTRICT"), unique=True
+    )
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))

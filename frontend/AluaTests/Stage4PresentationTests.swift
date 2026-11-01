@@ -22,7 +22,7 @@ private struct Stage4OfflineAPI: APIClientProtocol {
         return value
     }
     func testExactlyThreeTabsAndHonestPresentation() {
-        XCTAssertEqual(AppTab.allCases.map(\.title), ["Сегодня", "Моя книга", "Прогресс"])
+        XCTAssertEqual(AppTab.allCases.map(\.title), ["Сегодня", "Моя книга", "Практика"])
         for count in [0, 10, 18, 20, 30] {
             let s = snapshot(count: count)
             let p = StudyPresentation(snapshot: s)
@@ -76,6 +76,14 @@ private struct Stage4OfflineAPI: APIClientProtocol {
         try await render(NavigationStack { StudyCardDetail(store: value, original: card(18)) }.environment(\.dynamicTypeSize, .accessibility3), name: "card-accessibility", size: CGSize(width: 320, height: 568))
         try await render(NavigationStack { StudyProgressView(store: value, quality: LearningQualityService(apiClient: Stage4OfflineAPI())) }, name: "progress", size: CGSize(width: 390, height: 844))
         try await render(NavigationStack { StudyReviews(store: value) }, name: "review", size: CGSize(width: 375, height: 812))
+    }
+    func testPracticeViewsAtSmallWidthAndAccessibilityType() async throws {
+        try await render(NavigationStack { PracticeView() }, name: "practice", size: CGSize(width: 390, height: 844))
+        try await render(NavigationStack { PracticeView() }.environment(\.dynamicTypeSize, .accessibility3), name: "practice-accessibility", size: CGSize(width: 320, height: 568))
+        try await render(NavigationStack { ReadingView(store: ReadingStore(api: ReadingOfflineAPI(), uid: "presentation-test", root: FileManager.default.temporaryDirectory.appendingPathComponent("reading-presentation"), monitorNetwork: false)) }, name: "reading", size: CGSize(width: 390, height: 844))
+        try await render(NavigationStack { ListeningView() }, name: "listening", size: CGSize(width: 390, height: 844))
+        try await render(NavigationStack { WritingView() }, name: "writing", size: CGSize(width: 390, height: 844))
+        try await render(NavigationStack { SpeakingView() }.environment(\.dynamicTypeSize, .accessibility3), name: "speaking-accessibility", size: CGSize(width: 320, height: 568))
     }
     private func render<V: View>(_ view: V, name: String, size: CGSize) async throws {
         let host = UIHostingController(rootView: view.preferredColorScheme(.light).tint(AluaColors.accent))

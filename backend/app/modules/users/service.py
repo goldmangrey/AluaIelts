@@ -2,8 +2,8 @@ from datetime import UTC, datetime
 from typing import Any
 
 from app.core.auth import AuthenticatedUser
-from app.core.exceptions import ConflictError, NotFoundError
-from app.modules.users.models import UserProfile, UserRole
+from app.core.exceptions import NotFoundError
+from app.modules.users.models import UserProfile
 from app.modules.users.repository import UserRepository
 from app.modules.users.schemas import UserProfileUpdate
 
@@ -13,23 +13,9 @@ class UserService:
         self._repository = repository
 
     def get_or_create_profile(self, identity: AuthenticatedUser) -> UserProfile:
-        existing = self._repository.get_by_uid(identity.uid)
-        if existing is not None:
-            return existing
-
-        now = datetime.now(UTC)
-        profile = UserProfile(
-            uid=identity.uid,
-            email=identity.email,
-            display_name=identity.name,
-            role=UserRole.LEARNER,
-            created_at=now,
-            updated_at=now,
-        )
-        try:
-            return self._repository.create(profile)
-        except ConflictError:
-            return self.get_profile(identity.uid)
+        # Both authentication mechanisms resolve an existing PostgreSQL learner.
+        # Provisioning is exclusively an explicit private administrative operation.
+        return self.get_profile(identity.uid)
 
     def get_profile(self, uid: str) -> UserProfile:
         profile = self._repository.get_by_uid(uid)

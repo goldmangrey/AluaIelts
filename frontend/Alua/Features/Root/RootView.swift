@@ -14,6 +14,7 @@ struct RootView: View {
     let deepLinkRouter: DeepLinkRouter
     let vocabularyLearningStore: VocabularyLearningStore
     let dependencies: DependencyContainer
+    @State private var readingStore: ReadingStore?
 
     var body: some View {
         Group {
@@ -36,14 +37,25 @@ struct RootView: View {
                     aiProgressStore: aiProgressStore,
                     deepLinkRouter: deepLinkRouter,
                     vocabularyLearningStore: vocabularyLearningStore,
-                    dependencies: dependencies
+                    dependencies: dependencies,
+                    readingStore: readingStore
                 )
             case let .profileLoadFailed(message):
                 profileErrorView(message: message)
             }
         }
+        .task(id: authSession.profile?.uid) {
+            guard let uid = authSession.profile?.uid else { return }
+            if readingStore?.uid != uid {
+                readingStore?.deactivate()
+                readingStore = ReadingStore(api: dependencies.readingAPI, uid: uid)
+            }
+        }
         .onChange(of: authSession.state) { _, state in
             if state == .needsProfileSelection {
+                readingStore?.deactivate()
+                readingStore = nil
+                try? ReadingFiles.clearSynchronizedCaches()
                 appState.selectedTab = .today
                 _ = deepLinkRouter.consume()
                 dependencies.vocabularyNotificationService.disable()
@@ -80,6 +92,7 @@ struct RootView: View {
                 Task { await authSession.retryProfileLoad() }
             }
             .buttonStyle(.borderedProminent)
+            Button("Выйти") { Task { await authSession.switchProfile() } }
         }
     }
 }

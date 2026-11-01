@@ -3,6 +3,7 @@ import Foundation
 struct DependencyContainer {
     let environment: AppEnvironment
     let apiClient: any APIClientProtocol
+    var firebaseSession: FirebaseSession? = nil
     let tokenStore: DeviceTokenStore
     let enrollmentService: any EnrollmentServiceProtocol
     let userService: any UserServiceProtocol
@@ -20,17 +21,24 @@ struct DependencyContainer {
     let vocabularyLearningService: any VocabularyLearningServiceProtocol
     let vocabularyNotificationService: VocabularyNotificationService
 
+    var readingAPI: ReadingAPI {
+        ReadingAPI(client: apiClient, baseURL: environment.apiBaseURL, tokens: (firebaseSession as (any AccessTokenProvider)?) ?? tokenStore)
+    }
+
     @MainActor
     static func live(environment: AppEnvironment = .current) -> DependencyContainer {
         let tokenStore = DeviceTokenStore()
+        let firebase = FirebaseSession(legacy: tokenStore)
         let apiClient = APIClient(
             baseURL: environment.apiBaseURL,
-            tokenProvider: tokenStore
+            tokenProvider: firebase
         )
+        firebase.onSessionChange = { [weak apiClient] in apiClient?.cancelAuthenticatedRequests() }
         let vocabularyNotifications = VocabularyNotificationService()
         return DependencyContainer(
             environment: environment,
             apiClient: apiClient,
+            firebaseSession: firebase,
             tokenStore: tokenStore,
             enrollmentService: EnrollmentService(apiClient: apiClient),
             userService: UserService(apiClient: apiClient),
