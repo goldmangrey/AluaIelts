@@ -1,0 +1,12 @@
+# These packages' install hooks are unnecessary for the browser-only Auth SDK
+# and prebuilt native binaries used here. Keep installation deterministic.
+allowBuilds:
+  '@firebase/util': false
+  protobufjs: false
+  unrs-resolver: false
+  sharp: false
+
+# Firebase's unused Firestore dependency pins grpc-js below security fixes.
+# Auth-only browser imports do not bundle gRPC; keep the installed tree patched.
+overrides:
+  '@firebase/firestore>@grpc/grpc-js': '^1.14.7'

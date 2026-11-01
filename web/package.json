@@ -1,0 +1,38 @@
+{
+  "name": "alua-web",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "pnpm test:phase-b",
+    "test:contracts": "playwright test tests/contracts.spec.ts --project=contracts",
+    "test:phase-b": "node scripts/test-phase-b.mjs",
+    "test:phase-c": "node scripts/test-phase-c.mjs",
+    "test:reading-release": "node scripts/test-reading-release.mjs"
+  },
+  "dependencies": {
+    "firebase": "^13.1.0",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.3",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9.3"
+  }
+}
