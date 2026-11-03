@@ -151,12 +151,17 @@ def enrich_exam(e, k, base):
                     q["options"] = [
                         {"label": v, "text": v} for v in q["constraints"]["allowed_values"]
                     ]
+    from repairs import apply_repairs
+
+    apply_repairs(e)
     e["source_references"][0]["pdf_pages"] = sorted(
         {n for p in e["passages"] for n in p["source_pages"]}
     )
 
 
 def content_issues(e, k):
+    from repairs import blocked_reviews
+
     issues = []
 
     def add(code, detail, p=None, q=None, pp=None):
@@ -173,6 +178,12 @@ def content_issues(e, k):
             }
         )
 
+    for review in blocked_reviews(e["id"]):
+        group = next(g for p in e["passages"] for g in p["question_groups"]
+                     if g["id"] == review["group_id"])
+        passage = next(p for p in e["passages"] if group in p["question_groups"])
+        add("source_required", review["reason"], passage["number"],
+            group["question_numbers"], review["pdf_pages"])
     if e["id"] == "cambridge-07-test-02":
         add(
             "source_obscured_by_watermark",

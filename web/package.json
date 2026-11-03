@@ -15,7 +15,14 @@
     "test:contracts": "playwright test tests/contracts.spec.ts --project=contracts",
     "test:phase-b": "node scripts/test-phase-b.mjs",
     "test:phase-c": "node scripts/test-phase-c.mjs",
-    "test:reading-release": "node scripts/test-reading-release.mjs"
+    "test:reading-release": "node scripts/test-reading-release.mjs",
+    "build:workers": "opennextjs-cloudflare build",
+    "preview": "pnpm run build:workers && opennextjs-cloudflare preview",
+    "preview:workers": "opennextjs-cloudflare preview",
+    "deploy:workers": "opennextjs-cloudflare deploy -- --keep-vars",
+    "upload:workers": "opennextjs-cloudflare upload -- --keep-vars",
+    "cf:typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "test:workers": "node scripts/test-workers.mjs"
   },
   "dependencies": {
     "firebase": "^13.1.0",
@@ -24,6 +31,7 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "1.20.15",
     "@playwright/test": "^1.64.1",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^22.20.5",
@@ -33,6 +41,8 @@
     "eslint-config-next": "^16.4.3",
     "postcss": "^8.5.32",
     "tailwindcss": "^4.3.3",
-    "typescript": "~5.9.3"
-  }
+    "typescript": "~5.9.3",
+    "wrangler": "4.156.0"
+  },
+  "packageManager": "pnpm@12.14.0"
 }

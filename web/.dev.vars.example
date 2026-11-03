@@ -1,0 +1,3 @@
+# Optional local Workers override; public config continues to come from .env.local.
+# Production-like Next environment is the default for OpenNext preview.
+NEXTJS_ENV=production

@@ -1,0 +1,29 @@
+.comfort { max-width: 68ch; line-height: 1.7; }
+.comfort h1 { font-size: 1.55em; letter-spacing: -.025em; margin: 16px 0 26px; }
+.comfort > :global(.eyebrow), .comfort > div > :global(.eyebrow) { font-size: 11px; letter-spacing: .12em; }
+.toolbar { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; flex-wrap: wrap; gap: 3px; padding: 5px; margin: 0 0 25px; border: 1px solid #e5e7eb; border-radius: 11px; background: #fff; font-size: 12px; line-height: 1.2; }
+.toolbar button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 32px; padding: 6px 7px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: #626b68; font: inherit; cursor: pointer; transition: background 180ms, color 180ms; }
+.toolbar button:hover:not(:disabled) { background: #f5f7f6; }
+.toolbar button[aria-pressed="true"] { background: #e9f4ee; color: #0b6b4a; border-color: #d8e9df; }
+.toolbar button:disabled { opacity: .4; cursor: default; }
+.toolbar button:focus-visible, .bookmark:focus-visible { outline: 2px solid #0b6b4a; outline-offset: 2px; }
+.sizes { display: flex; align-items: center; gap: 1px; border-right: 1px solid #e5e7eb; padding-right: 4px; margin-right: 2px; }
+.sizes > span { padding: 0 6px; color: #8a928f; font-size: 14px; }
+.paragraph { position: relative; scroll-margin-block: 100px; border-radius: 5px; transition: background 180ms; outline: none; }
+.paragraph:focus-visible { outline: 1px solid #b2d2c2; outline-offset: 5px; }
+.focused { background: #f0f7f3; }
+.focused::before { content: ""; position: absolute; left: -8px; top: 2px; bottom: 2px; width: 2px; border-radius: 2px; background: #0b6b4a; }
+.bookmark { position: absolute; left: -28px; top: 1px; display: flex; justify-content: center; align-items: center; width: 24px; height: 27px; padding: 0; border: 0; border-radius: 5px; background: transparent; color: #a9b2ad; cursor: pointer; }
+.bookmark:hover { background: #f0f5f2; color: #0b6b4a; }
+.bookmark[aria-pressed="true"] { color: #0b6b4a; }
+.bookmark[aria-pressed="true"] svg { fill: #e0eee6; }
+.comfort mark { background: #fff0b5; color: inherit; }
+@media (max-width: 759px) {
+  .comfort { padding-left: 7px; }
+  .toolbar { margin-left: -7px; gap: 2px; }
+  .toolbar button { padding-inline: 6px; }
+  .sizes > span { padding-inline: 4px; }
+  .bookmark { left: -25px; width: 21px; }
+}
+
+.comfort::highlight(alua-translation) { background-color: #dcefe3; color: inherit; }

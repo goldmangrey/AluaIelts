@@ -59,6 +59,8 @@ class ReadingService:
 
     def create(self, uid, request):
         payload = request.model_dump(mode="json")
+        if not request.reuse_active:
+            payload.pop("reuse_active")
         fingerprint = self.mutation_hash("create", None, payload)
         with self.repo.transaction(uid) as session:
             replay = self.replay(session, uid, request.event_id, fingerprint)
@@ -66,6 +68,30 @@ class ReadingService:
                 return replay
             entry = self.catalog.enabled(request.exam_id)
             now = self.clock()
+            # Optional web safety mode; legacy iOS create semantics remain unchanged.
+            # The repository's learner transaction lock also covers concurrent devices.
+            if request.reuse_active:
+                active = session.scalars(
+                    select(ReadingAttemptRow)
+                    .where(
+                        ReadingAttemptRow.learner_id == uid,
+                        ReadingAttemptRow.exam_id == request.exam_id,
+                        ReadingAttemptRow.mode == request.mode,
+                        ReadingAttemptRow.selected_passage == request.selected_passage,
+                        ReadingAttemptRow.status == "in_progress",
+                    )
+                    .order_by(ReadingAttemptRow.started_at.desc(), ReadingAttemptRow.id)
+                    .with_for_update()
+                ).all()
+                for existing in active:
+                    self.expire(existing, now)
+                existing = next((r for r in active if r.status == "in_progress"), None)
+                if existing is not None:
+                    response = self.view(existing, now)
+                    self.record(
+                        session, uid, request.event_id, existing.id, fingerprint, response, now
+                    )
+                    return response
             selected = request.selected_passage or 1
             snapshot = {
                 "exam": self.catalog.exams[request.exam_id],

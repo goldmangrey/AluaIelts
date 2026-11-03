@@ -993,7 +993,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 14-17\nChoose the correct /etter, A, B, C, or D.\nWrite the correct letter in boxes 14—17 on your answer sheet.\n14 The use of pesticides has contributed to\nA achange in the way ecologies are classified by agroecologists.\nBs animbalance in many ecologies around the world.\nC the prevention of ecological disasters in some parts of the world.\nD_anincrease in the range of ecologies which can be usefully farmed.\n15 The Food and Agriculture Organisation has counted more than 300 agricultural\npests which\nA are no longer responding to most pesticides in use.\nBscan be easily controlled through the use of pesticides.\nC continue to spread disease in a wide range of crops.\nD may be used as part of bio-control’s replacement of pesticides.\n16 Cotton farmers in Central America began to use pesticides\nA because of an intensive government advertising campaign.\nB_sinresponse to the appearance of new varieties of pest.\nC as aresult of changes in the seasons and the climate.\nD_ to ensure more cotton was harvested from each crop.\n17 By the mid-1960s, cotton farmers in Central America found that pesticides\nA were wiping out 50% of the pests plaguing the crops.\nB_ were destroying 50% of the crops they were meant to protect.\nC were causing a 50% increase in the number of new pests reported.\nD were costing 50% of the total amount they spent on their crops."
+                  "text": "Questions 14-17\nChoose the correct /etter, A, B, C, or D.\nWrite the correct letter in boxes 14—17 on your answer sheet.\n\n14 The use of pesticides has contributed to\nA a change in the way ecologies are classified by agroecologists.\nB an imbalance in many ecologies around the world.\nC the prevention of ecological disasters in some parts of the world.\nD an increase in the range of ecologies which can be usefully farmed.\n\n15 The Food and Agriculture Organisation has counted more than 300 agricultural pests which\nA are no longer responding to most pesticides in use.\nB can be easily controlled through the use of pesticides.\nC continue to spread disease in a wide range of crops.\nD may be used as part of bio-control’s replacement of pesticides.\n\n16 Cotton farmers in Central America began to use pesticides\nA because of an intensive government advertising campaign.\nB in response to the appearance of new varieties of pest.\nC as a result of changes in the seasons and the climate.\nD to ensure more cotton was harvested from each crop.\n\n17 By the mid-1960s, cotton farmers in Central America found that pesticides\nA were wiping out 50% of the pests plaguing the crops.\nB were destroying 50% of the crops they were meant to protect.\nC were causing a 50% increase in the number of new pests reported.\nD were costing 50% of the total amount they spent on their crops."
                 }
               ]
             }
@@ -1003,16 +1003,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
-              "C",
-              "D",
-              "A",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
               "A",
               "B",
               "C",
@@ -1032,7 +1022,11 @@
               "options": [
                 {
                   "label": "A",
-                  "text": "achange in the way ecologies are classified by agroecologists. Bs animbalance in many ecologies around the world."
+                  "text": "a change in the way ecologies are classified by agroecologists."
+                },
+                {
+                  "label": "B",
+                  "text": "an imbalance in many ecologies around the world."
                 },
                 {
                   "label": "C",
@@ -1040,23 +1034,13 @@
                 },
                 {
                   "label": "D",
-                  "text": "anincrease in the range of ecologies which can be usefully farmed."
+                  "text": "an increase in the range of ecologies which can be usefully farmed."
                 }
               ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1084,12 +1068,16 @@
               "number": 15,
               "group_id": "cambridge-08-test-04-p-2-g-14-17",
               "type": "multiple_choice_single",
-              "prompt": "The Food and Agriculture Organisation has counted more than 300 agricultural\npests which",
+              "prompt": "The Food and Agriculture Organisation has counted more than 300 agricultural pests which",
               "answer_input_type": "single_select",
               "options": [
                 {
                   "label": "A",
-                  "text": "are no longer responding to most pesticides in use. Bscan be easily controlled through the use of pesticides."
+                  "text": "are no longer responding to most pesticides in use."
+                },
+                {
+                  "label": "B",
+                  "text": "can be easily controlled through the use of pesticides."
                 },
                 {
                   "label": "C",
@@ -1104,16 +1092,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1150,11 +1128,11 @@
                 },
                 {
                   "label": "B",
-                  "text": "sinresponse to the appearance of new varieties of pest."
+                  "text": "in response to the appearance of new varieties of pest."
                 },
                 {
                   "label": "C",
-                  "text": "as aresult of changes in the seasons and the climate."
+                  "text": "as a result of changes in the seasons and the climate."
                 },
                 {
                   "label": "D",
@@ -1165,16 +1143,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1227,16 +1195,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "C",
-                  "D",
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
                   "B",
                   "C",
                   "D"
@@ -1265,15 +1223,12 @@
             "line_end": 1647,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
             "pdf_pages": [
-              92,
-              93,
-              94,
-              95
+              94
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-08-test-04-p-2-g-18-21",

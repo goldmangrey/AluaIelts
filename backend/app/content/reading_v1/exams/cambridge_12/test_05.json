@@ -1865,7 +1865,7 @@
         {
           "id": "cambridge-12-test-05-p-3-g-33-36",
           "type": "summary_completion",
-          "instructions": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find",
+          "instructions": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33–36 on your answer sheet.",
           "question_numbers": [
             33,
             34,
@@ -1879,7 +1879,39 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts."
+                  "text": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33–36 on your answer sheet.\n\nThe ‘Arson for Profit’ course\n\nThis is a university course intended for students who are undergraduates and who are studying "
+                },
+                {
+                  "type": "blank",
+                  "number": 33
+                },
+                {
+                  "type": "text",
+                  "text": ". The expectation is that they will become "
+                },
+                {
+                  "type": "blank",
+                  "number": 34
+                },
+                {
+                  "type": "text",
+                  "text": " specialising in arson. The course will help them to detect cases of arson and find "
+                },
+                {
+                  "type": "blank",
+                  "number": 35
+                },
+                {
+                  "type": "text",
+                  "text": " of criminal intent, leading to successful "
+                },
+                {
+                  "type": "blank",
+                  "number": 36
+                },
+                {
+                  "type": "text",
+                  "text": " in the courts."
                 }
               ]
             }
@@ -1898,7 +1930,7 @@
               "number": 33,
               "group_id": "cambridge-12-test-05-p-3-g-33-36",
               "type": "summary_completion",
-              "prompt": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts.",
+              "prompt": "The ‘Arson for Profit’ course\n\nThis is a university course intended for students who are undergraduates and who are studying {{33}}. The expectation is that they will become {{34}} specialising in arson. The course will help them to detect cases of arson and find {{35}} of criminal intent, leading to successful {{36}} in the courts.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1927,7 +1959,7 @@
               "number": 34,
               "group_id": "cambridge-12-test-05-p-3-g-33-36",
               "type": "summary_completion",
-              "prompt": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts.",
+              "prompt": "The ‘Arson for Profit’ course\n\nThis is a university course intended for students who are undergraduates and who are studying {{33}}. The expectation is that they will become {{34}} specialising in arson. The course will help them to detect cases of arson and find {{35}} of criminal intent, leading to successful {{36}} in the courts.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1956,7 +1988,7 @@
               "number": 35,
               "group_id": "cambridge-12-test-05-p-3-g-33-36",
               "type": "summary_completion",
-              "prompt": "of criminal intent, leading to successful 36 ............ in the courts.",
+              "prompt": "The ‘Arson for Profit’ course\n\nThis is a university course intended for students who are undergraduates and who are studying {{33}}. The expectation is that they will become {{34}} specialising in arson. The course will help them to detect cases of arson and find {{35}} of criminal intent, leading to successful {{36}} in the courts.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1985,7 +2017,7 @@
               "number": 36,
               "group_id": "cambridge-12-test-05-p-3-g-33-36",
               "type": "summary_completion",
-              "prompt": "Questions 33-36\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33-36 on your answer sheet.\nThe ‘Arson for Profit’ course\nThis is a university course intended for students who are undergraduates and who\nare studying 33 ............. The expectation is that they will become 34 ............\nspecialising in arson. The course will help them to detect cases of arson and find\n35 ............ of criminal intent, leading to successful 36 ............ in the courts.",
+              "prompt": "The ‘Arson for Profit’ course\n\nThis is a university course intended for students who are undergraduates and who are studying {{33}}. The expectation is that they will become {{34}} specialising in arson. The course will help them to detect cases of arson and find {{35}} of criminal intent, leading to successful {{36}} in the courts.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -2016,15 +2048,12 @@
             "line_end": 434,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
             "pdf_pages": [
-              23,
-              24,
-              25,
               26
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-12-test-05-p-3-g-37-40",

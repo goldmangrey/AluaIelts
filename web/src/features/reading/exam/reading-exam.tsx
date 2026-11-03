@@ -15,6 +15,8 @@ import type { ReliableAnswers, ReliableSnapshot } from "./reliable-answers";
 import type { Highlight } from "./draft-storage";
 import { elapsedSeconds,remainingSeconds } from "./clock";
 import type { ReadingResult } from "./results";
+import styles from "./exam.module.css";
+import { canTranslateAttempt } from "../translate/context";
 
 function Deadline({ deadline, serverNow, expired }: { deadline: string | null; serverNow: string; expired: () => void }) {
   const [elapsed, setElapsed] = useState(0);
@@ -32,9 +34,22 @@ function Deadline({ deadline, serverNow, expired }: { deadline: string | null; s
     {seconds === null ? "Untimed" : `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`}
   </span>;
 }
-export function ReadingExam({ attempt, uid, save, controller, result }: { attempt: Attempt; uid: string; save?: SaveAnswers; controller?:ReliableAnswers; result?:ReadingResult }) {
+export function ReadingExam({ attempt, uid, save, controller, result, reviewQuestionId }: { attempt: Attempt; uid: string; save?: SaveAnswers; controller?:ReliableAnswers; result?:ReadingResult; reviewQuestionId?:string }) {
   const router = useRouter();
   const exam = attempt.exam!;
+  const translationOwner = JSON.stringify([uid, attempt.id]);
+  const [translationCatalog, setTranslationCatalog] = useState<{ owner: string; value: unknown }>();
+  useEffect(() => {
+    const abort = new AbortController();
+    void readingApi(uid)("/reading/books", abort.signal).then(value => {
+      if (!abort.signal.aborted) setTranslationCatalog({ owner: translationOwner, value });
+    }).catch(() => { /* Translation stays unavailable until the private policy is verified. */ });
+    return () => abort.abort();
+  }, [uid, translationOwner]);
+  const translationAllowed = translationCatalog?.owner === translationOwner && canTranslateAttempt(attempt, translationCatalog.value);
+  // Review-only deep links resolve an exact ID against this attempt’s snapshot.
+  const reviewQuestion=result&&reviewQuestionId?allQuestions(exam).find(q=>q.id===reviewQuestionId):undefined;
+  const reviewPassage=reviewQuestion?exam.passages.find(p=>p.question_groups.some(g=>g.questions.some(q=>q.id===reviewQuestion.id)))?.number:undefined;
   const [legacy] = useState(() => new AnswerSession(attempt, save ?? (async (event) => parseAttempt(await readingApi(uid)(`/reading/attempts/${attempt.id}/sync`, undefined, { method: "POST", body: event })))));
   const editor=controller??legacy;
   const state = useSyncExternalStore<ReturnType<AnswerSession["snapshot"]>|ReliableSnapshot>(editor.subscribe, editor.snapshot, editor.snapshot);
@@ -57,19 +72,36 @@ export function ReadingExam({ attempt, uid, save, controller, result }: { attemp
     return()=>{window.removeEventListener("pagehide",controller.suspend);window.removeEventListener("pageshow",controller.resume);clearInterval(timer);window.removeEventListener("online",refresh);window.removeEventListener("focus",refresh);document.removeEventListener("visibilitychange",refresh)};
   },[controller]);
   useEffect(()=>{if(advanced?.phase==="terminal")router.replace(`/reading/attempts/${attempt.id}/result`)},[advanced?.phase,attempt.id,router]);
-  const [passage, setPassage] = useState(saved?.passage ?? exam.passages.find((p) => p.number === attempt.state.current_passage)?.number ?? exam.passages[0]!.number);
+  const [passage, setPassage] = useState(reviewPassage ?? saved?.passage ?? exam.passages.find((p) => p.number === attempt.state.current_passage)?.number ?? exam.passages[0]!.number);
   const [navigation, setNavigation] = useState(0);
-  const [visited, setVisited] = useState(() => new Set([saved?.passage ?? exam.passages.find((p) => p.number === attempt.state.current_passage)?.number ?? exam.passages[0]!.number]));
-  const [current, setCurrent] = useState<string | null>(saved?.current??null);
+  const [visited, setVisited] = useState(() => new Set([reviewPassage ?? saved?.passage ?? exam.passages.find((p) => p.number === attempt.state.current_passage)?.number ?? exam.passages[0]!.number]));
+  const [current, setCurrent] = useState<string | null>(reviewQuestion?.id??saved?.current??null);
   const [review, setReview] = useState<Set<string>>(() => new Set(saved?.review??[]));
-  const [size, setSize] = useState(saved?.size??16); const [split, setSplit] = useState(saved?.split??50);
-  const [mobile, setMobile] = useState<"passage" | "questions">(saved?.mobile??"passage");
+  const [size, setSize] = useState(result ? saved?.size??16 : 18); const [split, setSplit] = useState(saved?.split??50);
+  const sizeKey = `alua:reading:text-size:v2:${uid}`;
+  useEffect(() => {
+    if (result) return;
+    let active = true;
+    queueMicrotask(() => {
+      try {
+        const stored = Number(localStorage.getItem(sizeKey));
+        if (active && [16, 18, 20].includes(stored)) setSize(stored);
+      } catch { /* Reading preferences remain optional. */ }
+    });
+    return () => { active = false; };
+  }, [result, sizeKey]);
+  function changeSize(value: number) {
+    setSize(value);
+    try { localStorage.setItem(sizeKey, String(value)); } catch { /* Keep available in memory. */ }
+  }
+
+  const [mobile, setMobile] = useState<"passage" | "questions">(reviewQuestion?"questions":saved?.mobile??"passage");
   const [expiredRevision,setExpiredRevision]=useState(-1);
   const timeOver=expiredRevision===(advanced?.clock.revision??0);
   const left = useRef<HTMLDivElement>(null); const right = useRef<HTMLDivElement>(null); const workspace = useRef<HTMLDivElement>(null);
   const view = useRef(new Map<number, PassageViewState>(saved?.views??[]));
   const nodes = useRef(new Map<string, HTMLElement>());
-  const jump = useRef<string | null>(null); const modal = useRef<HTMLDialogElement>(null); const allButton = useRef<HTMLButtonElement>(null);
+  const jump = useRef<string | null>(reviewQuestion?.id??null); const modal = useRef<HTMLDialogElement>(null); const allButton = useRef<HTMLButtonElement>(null);
   const active = exam.passages.find((p) => p.number === passage)!;
   const questions = allQuestions(exam);
   const expired = useCallback(() => {setExpiredRevision(advanced?.clock.revision??0);if(controller)void controller.refresh()}, [controller,advanced?.clock.revision]);
@@ -121,7 +153,7 @@ export function ReadingExam({ attempt, uid, save, controller, result }: { attemp
     const answered = !!state.answers[q.id]?.trim(); const marked = review.has(q.id);
     return <button type="button" key={q.id} className={`question-nav-number ${answered ? "answered" : ""} ${marked ? "marked" : ""}`} aria-label={`Question ${q.number}${answered ? ", answered" : ", unanswered"}${marked ? ", marked for review" : ""}`} aria-current={current === q.id ? "true" : undefined} onClick={() => go(q)}>{q.number}{marked && <span aria-hidden="true">·</span>}</button>;
   }
-  return <main id="main" className="reading-exam" data-mobile-panel={mobile}>
+  return <main id="main" className={`reading-exam ${result?"":styles.focus}`} data-mobile-panel={mobile}>
     <header className="exam-header"><Link className="wordmark" href="/reading" aria-label="Back to Reading" onNavigate={(event) => {
       if (state.dirty || state.saving) {
         event.preventDefault();
@@ -129,15 +161,15 @@ export function ReadingExam({ attempt, uid, save, controller, result }: { attemp
       }
     }}>alua.</Link><span className="exam-title">Cambridge {exam.source_book} <span>· Test {exam.source_test_number}</span></span>{result?<Link className="text-link exam-result-link" href={`/reading/attempts/${attempt.id}/result`}>Result</Link>:<div className="exam-session-actions"><Deadline key={advanced?.clock.revision??0} deadline={advanced?.clock.deadline??attempt.deadline_at} serverNow={advanced?.clock.serverNow??attempt.server_now} expired={expired} />{controller&&<button type="button" className="text-button" ref={finishButton} disabled={state.terminal||advanced?.otherTab||advanced?.phase!=="in_progress"} onClick={()=>finishModal.current?.showModal()}>Finish</button>}</div>}</header>
     <nav className="passage-tabs" aria-label="Reading passages">{exam.passages.map((p) => <button type="button" key={p.id} aria-current={passage === p.number ? "true" : undefined} onClick={() => selectPassage(p.number)}>Passage {p.number}</button>)}</nav>
-    <div className="exam-tools"><div className="font-controls" aria-label="Passage text size"><button type="button" disabled={size <= 14} onClick={() => setSize((n) => n - 1)} aria-label="Decrease passage text size">A−</button><button type="button" disabled={size >= 22} onClick={() => setSize((n) => n + 1)} aria-label="Increase passage text size">A+</button></div>
-      <span className="save-status" role="status">{result?"Review · Read only":advanced?.otherTab?"Open in another tab · Read only":advanced?.localError?"Device save failed":advanced?.phase==="submission_unknown"?"Submission unknown — retry safely":advanced?.phase==="finalizing"?"Finishing…":advanced?.conflicts.length?"Conflict":advanced?.localSaving&&state.dirty?"Saving on this device…":state.saving?"Saving…":advanced?.offline?"Offline · Saved on this device":state.error?controller?"Save failed · Retry":"Not saved":state.dirty?controller?"Saved on this device":"Unsaved changes":"All answers saved"}</span>
+    <div className="exam-tools">{result&&<div className="font-controls" aria-label="Passage text size"><button type="button" disabled={size <= 14} onClick={() => setSize((n) => n - 1)} aria-label="Decrease passage text size">A−</button><button type="button" disabled={size >= 22} onClick={() => setSize((n) => n + 1)} aria-label="Increase passage text size">A+</button></div>}
+      <span className="save-status" role="status">{result?"Review · Read only":advanced?.otherTab?"Open in another tab · Read only":advanced?.localError?"Device save failed":advanced?.phase==="submission_unknown"?"Submission unknown — retry safely":advanced?.phase==="finalizing"?"Finishing…":advanced?.conflicts.length?"Conflict":advanced?.localSaving&&state.dirty?"Saving on this device…":state.saving?"Saving…":advanced?.offline?"Offline · Saved on this device":state.error?controller?"Save failed · Retry":"Not saved":state.dirty?controller?"Saved on this device":"Unsaved changes":""}</span>
       <div className="mobile-panels"><button type="button" aria-pressed={mobile === "passage"} onClick={() => { remember(); setMobile("passage"); }}>Passage</button><button type="button" aria-pressed={mobile === "questions"} onClick={() => { remember(); setMobile("questions"); }}>Questions</button></div>
     </div>
-    {(state.error || advanced?.localError || advanced?.otherTab || timeOver || attempt.not_fully_proofread) && <div className="exam-notice">
+    {(state.error || advanced?.localError || advanced?.otherTab || timeOver || result && attempt.not_fully_proofread) && <div className="exam-notice">
       {advanced?.localError?<><span role="alert">Local storage failed. Keep this page open; answers are not safely stored on this device. Reload only after server save is confirmed.</span><button type="button" onClick={()=>void controller?.retryStorage()}>Retry device save</button></>:advanced?.otherTab?<span role="alert">This attempt is being edited in another tab. Close that tab, then reload here to continue.</span>:state.error ? <><span role="alert">{readingMessage(state.error)}</span>{(!advanced?.conflicts.length && (controller || !(state.error instanceof ApiError && state.error.status === 409))) && <button type="button" onClick={() => void editor.flush()}>Retry save</button>}{controller?.canReturnToTest()&&<button type="button" onClick={controller.returnToTest}>Return to test</button>}</> : timeOver ? <span>Time has elapsed. Editing is paused while the server confirms expiry. Local unsent answers may not be included.</span> : <span>Private practice · This test has not been fully proofread.</span>}
     </div>}
     <div className="exam-workspace" ref={workspace} style={{ "--passage-width": `${split}%` } as React.CSSProperties}>
-      <div className="passage-scroll exam-scroll" ref={left} onScroll={()=>{remember();clearTimeout(scrollTimer.current);scrollTimer.current=setTimeout(()=>changeView(n=>n+1),200)}} aria-label="Reading passage" tabIndex={0}><PassagePane passage={active} size={size} highlights={highlights} onHighlights={controller?setHighlights:undefined} /></div>
+      <div className="passage-scroll exam-scroll" ref={left} onScroll={()=>{remember();clearTimeout(scrollTimer.current);scrollTimer.current=setTimeout(()=>changeView(n=>n+1),200)}} aria-label="Reading passage" tabIndex={0}><PassagePane comfort={!result?{uid,attemptId:attempt.id,onSizeChange:changeSize}:undefined} passage={active} translation={translationAllowed?{uid,attemptId:attempt.id}:undefined} size={size} highlights={highlights} onHighlights={controller?setHighlights:undefined} /></div>
       <div className="column-separator" role="separator" aria-label="Resize passage and questions" aria-orientation="vertical" aria-valuemin={40} aria-valuemax={60} aria-valuenow={Math.round(split)} tabIndex={0}
         onKeyDown={(e) => { if (["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) { e.preventDefault(); setSplit((n) => e.key === "Home" ? 40 : e.key === "End" ? 60 : Math.max(40, Math.min(60, n + (e.key === "ArrowRight" ? 2 : -2)))); } }}
         onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); }} onPointerMove={(e) => { if (!e.currentTarget.hasPointerCapture(e.pointerId) || !workspace.current) return; const rect = workspace.current.getBoundingClientRect(); setSplit(Math.max(40, Math.min(60, (e.clientX - rect.left) / rect.width * 100))); }} onPointerUp={(e) => e.currentTarget.releasePointerCapture(e.pointerId)} />
@@ -149,15 +181,17 @@ export function ReadingExam({ attempt, uid, save, controller, result }: { attemp
       </div>
     </div>
     <footer className="question-navigation"><nav aria-label="Questions in current passage">{questions.filter((q) => active.question_numbers.includes(q.number)).map(numberButton)}</nav><button type="button" className="all-questions" ref={allButton} onClick={() => modal.current?.showModal()}>All {questions.length}</button></footer>
-    <dialog ref={modal} className="all-questions-dialog" aria-labelledby="all-questions-title" onClose={() => allButton.current?.focus({ preventScroll: true })}>
+    <dialog ref={modal} className={`all-questions-dialog ${result?"":styles.navigator}`} aria-labelledby="all-questions-title" onClose={() => allButton.current?.focus({ preventScroll: true })}>
       <div className="dialog-title"><h2 id="all-questions-title">All questions</h2><button type="button" onClick={() => modal.current?.close()} aria-label="Close question overview">×</button></div>
+      {!result&&<p className={styles.progress}>{questions.filter(q=>state.answers[q.id]?.trim()).length} of {questions.length} answered</p>}
       {exam.passages.map((p) => <section key={p.id}><h3>Passage {p.number}</h3><div className="question-overview-grid">{questions.filter((q) => p.question_numbers.includes(q.number)).map(numberButton)}</div></section>)}
-      <p className="small-note">Review marks are saved on this device when local drafts are available.</p>
+      {result?<p className="small-note">Review marks are saved on this device when local drafts are available.</p>:<div className={styles.legend} aria-label="Question status legend"><span><i className={styles.answeredKey} aria-hidden="true"/>Answered</span><span><i className={styles.unansweredKey} aria-hidden="true"/>Unanswered</span><span><i className={styles.reviewKey} aria-hidden="true"/>Review</span></div>}
     </dialog>
-    {controller&&<dialog ref={finishModal} className="all-questions-dialog" aria-labelledby="finish-title" onClose={()=>finishButton.current?.focus({preventScroll:true})}>
-      <h2 id="finish-title">Finish test?</h2><p>{questions.filter(q=>state.answers[q.id]?.trim()).length} of {questions.length} questions answered.</p>
+    {controller&&<dialog ref={finishModal} className={`all-questions-dialog ${styles.finish}`} aria-labelledby="finish-title" aria-describedby="finish-summary finish-warning" onClose={()=>finishButton.current?.focus({preventScroll:true})}>
+      <h2 id="finish-title">Finish your test?</h2><p id="finish-summary" className={styles.finishSummary}>{questions.filter(q=>state.answers[q.id]?.trim()).length} of {questions.length} questions answered.</p>
       <p>{questions.filter(q=>!state.answers[q.id]?.trim()).length} unanswered · {review.size} marked for review.</p>
-      <p>Pending answers must be accepted by the server before submission. This cannot be undone.</p>
+      <p id="finish-warning" className={styles.finishWarning}>Once submitted, this attempt cannot be reopened.</p>
+      {(state.dirty>0||state.saving||advanced?.localSaving)&&<p className={styles.pending} role="status">Pending answers must be accepted by the server before submission.</p>}
       <div className="dialog-actions"><button type="button" autoFocus onClick={()=>finishModal.current?.close()}>Return to test</button><button type="button" disabled={!!advanced?.localError||!!advanced?.conflicts.length||advanced?.phase!=="in_progress"} onClick={()=>{finishModal.current?.close();void controller.finish()}}>Finish test</button></div>
     </dialog>}
     {controller&&<dialog ref={conflictModal} className="all-questions-dialog" aria-labelledby="conflict-title" onCancel={e=>e.preventDefault()}>

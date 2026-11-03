@@ -1900,7 +1900,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n27 What point does the writer make in the first paragraph?\nA Wisdom appears to be unique to the human race.\nB~ Abasic assumption about wisdom may be wrong.\nC Concepts of wisdom may depend on the society we belong to.\nD_ There is still much to be discovered about the nature of wisdom.\n28 What does Igor Grossmann suggest about the ability to make wise decisions?\nA _ Itcan vary greatly from one person to another.\nB Earlier research into it was based on unreliable data.\nC_ The importance of certain influences on it was underestimated.\nD_ Various branches of psychology define it according to their own criteria.\n29 According to the third paragraph, Grossmann claims that the level of wisdom an\nindividual shows\nA can be greater than they think it is.\nB will be different in different circumstances.\nC_ may be determined by particular aspects of their personality.\nD __ should develop over time as a result of their life experiences.\n30 What is described in the fifth paragraph?\nA __ adifficulty encountered when attempting to reason wisely\nB anexample of the type of person who is likely to reason wisely\nC acontroversial view about the benefits of reasoning wisely\nD  arecommended strategy that can help people to reason wisely"
+                  "text": "Questions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n\n27 What point does the writer make in the first paragraph?\nA Wisdom appears to be unique to the human race.\nB A basic assumption about wisdom may be wrong.\nC Concepts of wisdom may depend on the society we belong to.\nD There is still much to be discovered about the nature of wisdom.\n\n28 What does Igor Grossmann suggest about the ability to make wise decisions?\nA It can vary greatly from one person to another.\nB Earlier research into it was based on unreliable data.\nC The importance of certain influences on it was underestimated.\nD Various branches of psychology define it according to their own criteria.\n\n29 According to the third paragraph, Grossmann claims that the level of wisdom an individual shows\nA can be greater than they think it is.\nB will be different in different circumstances.\nC may be determined by particular aspects of their personality.\nD should develop over time as a result of their life experiences.\n\n30 What is described in the fifth paragraph?\nA a difficulty encountered when attempting to reason wisely\nB an example of the type of person who is likely to reason wisely\nC a controversial view about the benefits of reasoning wisely\nD a recommended strategy that can help people to reason wisely"
                 }
               ]
             }
@@ -1910,17 +1910,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
               "A",
               "B",
               "C",
@@ -1940,7 +1929,11 @@
               "options": [
                 {
                   "label": "A",
-                  "text": "Wisdom appears to be unique to the human race. B~ Abasic assumption about wisdom may be wrong."
+                  "text": "Wisdom appears to be unique to the human race."
+                },
+                {
+                  "label": "B",
+                  "text": "A basic assumption about wisdom may be wrong."
                 },
                 {
                   "label": "C",
@@ -1955,17 +1948,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1999,7 +1981,7 @@
               "options": [
                 {
                   "label": "A",
-                  "text": "Itcan vary greatly from one person to another."
+                  "text": "It can vary greatly from one person to another."
                 },
                 {
                   "label": "B",
@@ -2018,17 +2000,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -2057,7 +2028,7 @@
               "number": 29,
               "group_id": "cambridge-16-test-02-p-3-g-27-30",
               "type": "multiple_choice_single",
-              "prompt": "According to the third paragraph, Grossmann claims that the level of wisdom an\nindividual shows",
+              "prompt": "According to the third paragraph, Grossmann claims that the level of wisdom an individual shows",
               "answer_input_type": "single_select",
               "options": [
                 {
@@ -2081,17 +2052,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -2125,36 +2085,25 @@
               "options": [
                 {
                   "label": "A",
-                  "text": "adifficulty encountered when attempting to reason wisely"
+                  "text": "a difficulty encountered when attempting to reason wisely"
                 },
                 {
                   "label": "B",
-                  "text": "anexample of the type of person who is likely to reason wisely"
+                  "text": "an example of the type of person who is likely to reason wisely"
                 },
                 {
                   "label": "C",
-                  "text": "acontroversial view about the benefits of reasoning wisely"
+                  "text": "a controversial view about the benefits of reasoning wisely"
                 },
                 {
                   "label": "D",
-                  "text": "arecommended strategy that can help people to reason wisely"
+                  "text": "a recommended strategy that can help people to reason wisely"
                 }
               ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -2185,16 +2134,12 @@
             "line_end": 969,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-16.pdf",
             "pdf_pages": [
-              49,
-              50,
-              51,
-              52,
-              53
+              51
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-16-test-02-p-3-g-31-35",

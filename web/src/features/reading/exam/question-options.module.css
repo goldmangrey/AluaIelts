@@ -1,0 +1,15 @@
+.access { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 0; background: #fff; border-bottom: 1px solid #e5e7eb; color: #65716a; font-size: 12px; }
+.access button, .dialog header button { border: 1px solid #e5e7eb; border-radius: 7px; background: #fff; color: #0b6b4a; padding: 6px 10px; font: inherit; cursor: pointer; }
+.access button:hover { background: #f1f7f4; }
+.access button:focus-visible, .dialog header button:focus-visible { outline: 2px solid #0b6b4a; outline-offset: 2px; }
+.list { margin: 16px 0 24px; font-size: 14px; line-height: 1.65; }
+.list > div { display: grid; grid-template-columns: minmax(24px, auto) 1fr; gap: 12px; margin: 9px 0; }
+.list dt { min-width: 24px; color: #0b6b4a; font-weight: 600; }
+.list dd { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.dialog { width: min(600px, calc(100vw - 32px)); max-height: 75svh; padding: 20px 24px; border: 1px solid #e5e7eb; border-radius: 16px; color: inherit; }
+.dialog::backdrop { background: #18251e50; }
+.dialog header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.dialog header h3 { margin: 0; font-size: 18px; }
+.dialog header button { font-size: 20px; padding: 1px 8px; }
+.warning { padding: 12px 14px; border: 1px solid #e6d7b7; border-radius: 8px; background: #fcfaf4; color: #705d36; font-size: 13px; line-height: 1.6; }
+.warning code { display: block; margin-top: 6px; overflow-wrap: anywhere; font-size: 11px; }

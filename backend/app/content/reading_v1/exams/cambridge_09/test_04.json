@@ -1218,10 +1218,6 @@
           "options": [
             {
               "label": "A",
-              "text": "E, in boxes 20–23 on your answer sheet."
-            },
-            {
-              "label": "A",
               "text": "James"
             },
             {
@@ -1247,7 +1243,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Question 20-23 Look at the following findings (Question 20-23) and the list of researchers below.\n    Match each finding with the correct researcher or researchers. A–E. Write the correct letter,\n    A–E, in boxes 20–23 on your answer sheet.\n\n20 A sense of identity can never be formed without relationships with other people.\n21 A child’s awareness of self is related to a sense of mastery over things and people.\n22 At a certain age, children’s sense of identity leads to aggressive behaviour.\n23 Observing their own reflection contributes to children’s self awareness.\nList of Researchers\n\nA James\nB Cooley\nC Lewis and Brooks-Gunn\nD Mead\nE Bronson"
+                  "text": "Question 20-23 Look at the following findings (Question 20-23) and the list of researchers below.\n    Match each finding with the correct researcher or researchers. A–E. Write the correct letter,\n    A–E, in boxes 20–23 on your answer sheet.\n\n20 A sense of identity can never be formed without relationships with other people.\n21 A child’s awareness of self is related to a sense of mastery over things and people.\n22 At a certain age, children’s sense of identity leads to aggressive behaviour.\n23 Observing their own reflection contributes to children’s self awareness.\n\nA James\nB Cooley\nC Lewis and Brooks-Gunn\nD Mead\nE Bronson"
                 }
               ]
             }
@@ -1257,7 +1253,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
               "A",
               "B",
               "C",
@@ -1280,7 +1275,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1319,7 +1313,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "A",
                   "B",
                   "C",
                   "D",
@@ -1357,7 +1350,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "A",
                   "B",
                   "C",
                   "D",
@@ -1387,14 +1379,13 @@
               "number": 23,
               "group_id": "cambridge-09-test-04-p-2-g-20-23",
               "type": "matching_features",
-              "prompt": "Observing their own reflection contributes to children’s self awareness.\nList of Researchers\n\nA James\nB Cooley\nC Lewis and Brooks-Gunn\nD Mead\nE Bronson",
+              "prompt": "Observing their own reflection contributes to children’s self awareness.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1427,22 +1418,17 @@
             "line_end": 1482,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
             "pdf_pages": [
-              98,
-              99,
-              100,
-              101,
-              102,
-              103
+              102
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-09-test-04-p-2-g-24-26",
           "type": "summary_completion",
-          "instructions": "Questions 24–26 Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n    Write your answers in boxes 24–26 on your answer sheet. How children acquire a sense of\n    identity First, children come to realize that they can have an effect on the world around\n    them, for example by handling objects, or causing the image to move when they face a",
+          "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.",
           "question_numbers": [
             24,
             25,
@@ -1455,7 +1441,31 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 24–26 Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n    Write your answers in boxes 24–26 on your answer sheet. How children acquire a sense of\n    identity First, children come to realize that they can have an effect on the world around\n    them, for example by handling objects, or causing the image to move when they face a\n\n24. This aspect of self-awareness is difficult to research directly, because of\n25 problems. Secondly, children start to become aware of how they are viewed by others. One\n    important stage in this process is the visual recognition of themselves which usually occurs\n    when they reach the age of two. In Western societies at least, the development of self\n    awareness is often linked to a sense of 26, and can lead to disputes."
+                  "text": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\nHow children acquire a sense of identity\n\nFirst, children come to realize that they can have an effect on the world around them, for example by handling objects, or causing the image to move when they face a "
+                },
+                {
+                  "type": "blank",
+                  "number": 24
+                },
+                {
+                  "type": "text",
+                  "text": ". This aspect of self-awareness is difficult to research directly, because of "
+                },
+                {
+                  "type": "blank",
+                  "number": 25
+                },
+                {
+                  "type": "text",
+                  "text": " problems.\nSecondly, children start to become aware of how they are viewed by others. One important stage in this process is the visual recognition of themselves which usually occurs when they reach the age of two. In Western societies at least, the development of self awareness is often linked to a sense of "
+                },
+                {
+                  "type": "blank",
+                  "number": 26
+                },
+                {
+                  "type": "text",
+                  "text": ", and can lead to disputes."
                 }
               ]
             }
@@ -1474,7 +1484,7 @@
               "number": 24,
               "group_id": "cambridge-09-test-04-p-2-g-24-26",
               "type": "summary_completion",
-              "prompt": "This aspect of self-awareness is difficult to research directly, because of",
+              "prompt": "How children acquire a sense of identity\n\nFirst, children come to realize that they can have an effect on the world around them, for example by handling objects, or causing the image to move when they face a {{24}}. This aspect of self-awareness is difficult to research directly, because of {{25}} problems.\nSecondly, children start to become aware of how they are viewed by others. One important stage in this process is the visual recognition of themselves which usually occurs when they reach the age of two. In Western societies at least, the development of self awareness is often linked to a sense of {{26}}, and can lead to disputes.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1505,7 +1515,7 @@
               "number": 25,
               "group_id": "cambridge-09-test-04-p-2-g-24-26",
               "type": "summary_completion",
-              "prompt": "problems. Secondly, children start to become aware of how they are viewed by others. One\n    important stage in this process is the visual recognition of themselves which usually occurs\n    when they reach the age of two. In Western societies at least, the development of self\n    awareness is often linked to a sense of 26, and can lead to disputes.",
+              "prompt": "How children acquire a sense of identity\n\nFirst, children come to realize that they can have an effect on the world around them, for example by handling objects, or causing the image to move when they face a {{24}}. This aspect of self-awareness is difficult to research directly, because of {{25}} problems.\nSecondly, children start to become aware of how they are viewed by others. One important stage in this process is the visual recognition of themselves which usually occurs when they reach the age of two. In Western societies at least, the development of self awareness is often linked to a sense of {{26}}, and can lead to disputes.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1536,7 +1546,7 @@
               "number": 26,
               "group_id": "cambridge-09-test-04-p-2-g-24-26",
               "type": "summary_completion",
-              "prompt": "Questions 24–26 Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.\n    Write your answers in boxes 24–26 on your answer sheet. How children acquire a sense of\n    identity First, children come to realize that they can have an effect on the world around\n    them, for example by handling objects, or causing the image to move when they face a\n\n24. This aspect of self-awareness is difficult to research directly, because of\n25 problems. Secondly, children start to become aware of how they are viewed by others. One\n    important stage in this process is the visual recognition of themselves which usually occurs\n    when they reach the age of two. In Western societies at least, the development of self\n    awareness is often linked to a sense of 26, and can lead to disputes.",
+              "prompt": "How children acquire a sense of identity\n\nFirst, children come to realize that they can have an effect on the world around them, for example by handling objects, or causing the image to move when they face a {{24}}. This aspect of self-awareness is difficult to research directly, because of {{25}} problems.\nSecondly, children start to become aware of how they are viewed by others. One important stage in this process is the visual recognition of themselves which usually occurs when they reach the age of two. In Western societies at least, the development of self awareness is often linked to a sense of {{26}}, and can lead to disputes.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1569,17 +1579,12 @@
             "line_end": 1482,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
             "pdf_pages": [
-              98,
-              99,
-              100,
-              101,
-              102,
               103
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         }
       ],
       "question_numbers": [

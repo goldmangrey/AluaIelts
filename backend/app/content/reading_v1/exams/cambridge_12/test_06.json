@@ -324,11 +324,7 @@
           "options": [
             {
               "label": "A",
-              "text": "Kanayo"
-            },
-            {
-              "label": "F",
-              "text": "Nwanze"
+              "text": "Kanayo F. Nwanze"
             },
             {
               "label": "B",
@@ -361,7 +357,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 4-9\nLook at the following statements (Questions 4-9) and the list of people below.\nMatch each statement with the correct person, A-G.\nWrite the correct letter, A-G, in boxes 4-9 on your answer sheet.\nNB You may use any letter more than once.\n4 Financial assistance from the government does not always go to the farmers who\nmost need it.\n5 Farmers can benefit from collaborating as a group.\n6 Financial assistance from the government can improve the standard of living of\nfarmers.\n7 Farmers may be helped if there is financial input by the same individuals who buy\nfrom them.\n8 Governments can help to reduce variation in prices.\n9 Improvements to infrastructure can have a major impact on risk for farmers.\nList of People\nA Kanayo F. Nwanze\nB_ Sophia Murphy\nC Shenggen Fan\nD_ Rokeya Kabir\nE Pat Mooney\nF Giel Ton\nG Sonali Bisht"
+                  "text": "Questions 4-9\nLook at the following statements (Questions 4-9) and the list of people below.\nMatch each statement with the correct person, A-G.\nWrite the correct letter, A-G, in boxes 4-9 on your answer sheet.\nNB You may use any letter more than once.\n\n4 Financial assistance from the government does not always go to the farmers who most need it.\n5 Farmers can benefit from collaborating as a group.\n6 Financial assistance from the government can improve the standard of living of farmers.\n7 Farmers may be helped if there is financial input by the same individuals who buy from them.\n8 Governments can help to reduce variation in prices.\n9 Improvements to infrastructure can have a major impact on risk for farmers.\n\nA Kanayo F. Nwanze\nB Sophia Murphy\nC Shenggen Fan\nD Rokeya Kabir\nE Pat Mooney\nF Giel Ton\nG Sonali Bisht"
                 }
               ]
             }
@@ -372,7 +368,6 @@
             "allow_number": false,
             "allowed_values": [
               "A",
-              "F",
               "B",
               "C",
               "D",
@@ -389,7 +384,7 @@
               "number": 4,
               "group_id": "cambridge-12-test-06-p-1-g-04-09",
               "type": "matching_features",
-              "prompt": "Financial assistance from the government does not always go to the farmers who\nmost need it.",
+              "prompt": "Financial assistance from the government does not always go to the farmers who most need it.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -397,7 +392,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "F",
                   "B",
                   "C",
                   "D",
@@ -437,7 +431,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "F",
                   "B",
                   "C",
                   "D",
@@ -469,7 +462,7 @@
               "number": 6,
               "group_id": "cambridge-12-test-06-p-1-g-04-09",
               "type": "matching_features",
-              "prompt": "Financial assistance from the government can improve the standard of living of\nfarmers.",
+              "prompt": "Financial assistance from the government can improve the standard of living of farmers.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -477,7 +470,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "F",
                   "B",
                   "C",
                   "D",
@@ -509,7 +501,7 @@
               "number": 7,
               "group_id": "cambridge-12-test-06-p-1-g-04-09",
               "type": "matching_features",
-              "prompt": "Farmers may be helped if there is financial input by the same individuals who buy\nfrom them.",
+              "prompt": "Farmers may be helped if there is financial input by the same individuals who buy from them.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -517,7 +509,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "F",
                   "B",
                   "C",
                   "D",
@@ -557,7 +548,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "F",
                   "B",
                   "C",
                   "D",
@@ -589,7 +579,7 @@
               "number": 9,
               "group_id": "cambridge-12-test-06-p-1-g-04-09",
               "type": "matching_features",
-              "prompt": "Improvements to infrastructure can have a major impact on risk for farmers.\nList of People\nA Kanayo F. Nwanze\nB_ Sophia Murphy\nC Shenggen Fan\nD_ Rokeya Kabir\nE Pat Mooney\nF Giel Ton\nG Sonali Bisht",
+              "prompt": "Improvements to infrastructure can have a major impact on risk for farmers.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -597,7 +587,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "F",
                   "B",
                   "C",
                   "D",
@@ -631,17 +620,12 @@
             "line_end": 651,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
             "pdf_pages": [
-              36,
-              37,
-              38,
-              39,
-              40,
-              41
+              40
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-12-test-06-p-1-g-10-11",

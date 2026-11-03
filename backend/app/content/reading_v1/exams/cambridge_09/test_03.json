@@ -481,7 +481,7 @@
         {
           "id": "cambridge-09-test-03-p-1-g-09-12",
           "type": "summary_completion",
-          "instructions": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+          "instructions": "Complete the summary using the list of words, A–I, below.\nWrite the correct letter, A–I, in boxes 9–12 on your answer sheet.",
           "question_numbers": [
             9,
             10,
@@ -489,10 +489,6 @@
             12
           ],
           "options": [
-            {
-              "label": "A",
-              "text": "I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as Joseph Priestley, is that grammar should be based on 12 __________."
-            },
             {
               "label": "A",
               "text": "descriptivists"
@@ -536,7 +532,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to "
+                  "text": "Complete the summary using the list of words, A–I, below.\nWrite the correct letter, A–I, in boxes 9–12 on your answer sheet.\n\nThe language debate\n\nAccording to "
                 },
                 {
                   "type": "blank",
@@ -544,7 +540,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical "
+                  "text": ", there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical "
                 },
                 {
                   "type": "blank",
@@ -552,7 +548,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ".. Conversely, the view of "
+                  "text": ".\nConversely, the view of "
                 },
                 {
                   "type": "blank",
@@ -560,7 +556,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "., such as\n    Joseph Priestley, is that grammar should be based on "
+                  "text": ", such as Joseph Priestley, is that grammar should be based on "
                 },
                 {
                   "type": "blank",
@@ -568,7 +564,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ".\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change"
+                  "text": "."
                 }
               ]
             }
@@ -578,7 +574,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
               "A",
               "B",
               "C",
@@ -598,14 +593,13 @@
               "number": 9,
               "group_id": "cambridge-09-test-03-p-1-g-09-12",
               "type": "summary_completion",
-              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "prompt": "The language debate\n\nAccording to {{9}}, there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical {{10}}.\nConversely, the view of {{11}}, such as Joseph Priestley, is that grammar should be based on {{12}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -639,14 +633,13 @@
               "number": 10,
               "group_id": "cambridge-09-test-03-p-1-g-09-12",
               "type": "summary_completion",
-              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "prompt": "The language debate\n\nAccording to {{9}}, there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical {{10}}.\nConversely, the view of {{11}}, such as Joseph Priestley, is that grammar should be based on {{12}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -680,14 +673,13 @@
               "number": 11,
               "group_id": "cambridge-09-test-03-p-1-g-09-12",
               "type": "summary_completion",
-              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "prompt": "The language debate\n\nAccording to {{9}}, there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical {{10}}.\nConversely, the view of {{11}}, such as Joseph Priestley, is that grammar should be based on {{12}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -721,14 +713,13 @@
               "number": 12,
               "group_id": "cambridge-09-test-03-p-1-g-09-12",
               "type": "summary_completion",
-              "prompt": "Question 9-12 Complete the summary using the list of words, A–I, below. Write the correct letter,\n    A–I, in boxes 9–12 on your answer sheet. The language debate According to 9 __________., there\n    is only one correct form of language. Linguists who take this approach to language place great\n    importance on grammatical 10 __________.. Conversely, the view of 11 __________., such as\n    Joseph Priestley, is that grammar should be based on 12 __________.\n\nA descriptivists B language experts C popular speech\nD formal language E evaluation F rules\nG modern linguists H prescriptivists I change",
+              "prompt": "The language debate\n\nAccording to {{9}}, there is only one correct form of language. Linguists who take this approach to language place great importance on grammatical {{10}}.\nConversely, the view of {{11}}, such as Joseph Priestley, is that grammar should be based on {{12}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -764,16 +755,12 @@
             "line_end": 972,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-09.pdf",
             "pdf_pages": [
-              64,
-              65,
-              66,
-              67,
-              68
+              67
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-09-test-03-p-1-g-13-13",

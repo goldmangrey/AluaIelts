@@ -5,6 +5,9 @@ allowBuilds:
   protobufjs: false
   unrs-resolver: false
   sharp: false
+  # Official Workers runtime and OpenNext bundler install their platform binaries.
+  esbuild: true
+  workerd: true
 
 # Firebase's unused Firestore dependency pins grpc-js below security fixes.
 # Auth-only browser imports do not bundle gRPC; keep the installed tree patched.

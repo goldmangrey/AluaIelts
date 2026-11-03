@@ -938,7 +938,7 @@
       "question_groups": [
         {
           "id": "cambridge-12-test-08-p-2-g-14-18",
-          "type": "matching_features",
+          "type": "multiple_choice_single",
           "instructions": "Questions 14-18\nWrite the correct letter, A, B, C or D, in boxes 14-18 on your answer sheet.",
           "question_numbers": [
             14,
@@ -947,95 +947,14 @@
             17,
             18
           ],
-          "options": [
-            {
-              "label": "A",
-              "text": "Its physical appearance was very distinctive."
-            },
-            {
-              "label": "B",
-              "text": "Its extinction was linked to the spread of farming."
-            },
-            {
-              "label": "C",
-              "text": "It vanished from Britain several thousand years ago."
-            },
-            {
-              "label": "D",
-              "text": "It survived in Britain longer than was previously thought."
-            },
-            {
-              "label": "A",
-              "text": "Their presence can increase biodiversity."
-            },
-            {
-              "label": "B",
-              "text": "They may cause damage to local ecosystems."
-            },
-            {
-              "label": "C",
-              "text": "Their behaviour can alter according to the environment."
-            },
-            {
-              "label": "D",
-              "text": "They should be reintroduced only to areas where they were native."
-            },
-            {
-              "label": "A",
-              "text": "Ithas failed to achieve its aims."
-            },
-            {
-              "label": "B",
-              "text": "tis beginning to change direction."
-            },
-            {
-              "label": "C",
-              "text": "It has taken a misguided approach."
-            },
-            {
-              "label": "D",
-              "text": "It has focused on the most widespread species."
-            },
-            {
-              "label": "A",
-              "text": "practical benefits for the fishing industry."
-            },
-            {
-              "label": "B",
-              "text": "some short-term losses to the fishing industry."
-            },
-            {
-              "label": "C",
-              "text": "widespread opposition from the fishing industry."
-            },
-            {
-              "label": "D",
-              "text": "certain changes to techniques within the fishing industry."
-            },
-            {
-              "label": "A",
-              "text": "Its objective is more achievable."
-            },
-            {
-              "label": "B",
-              "text": "Its supporters are more articulate."
-            },
-            {
-              "label": "C",
-              "text": "Its positive message is more appealing."
-            },
-            {
-              "label": "D",
-              "text": "It is based on sounder scientific principles."
-            }
-          ],
+          "options": [],
           "content_blocks": [
             {
               "type": "rich_text",
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 14-18\nWrite the correct letter, A, B, C or D, in boxes 14-18 on your answer sheet.\n14 What did the 2006 discovery of the animal bone reveal about the lynx?\nA _ Its physical appearance was very distinctive.\nB Its extinction was linked to the spread of farming.\nC_ It vanished from Britain several thousand years ago.\nD It survived in Britain longer than was previously thought.\n15 What point does the writer make about large predators in the third paragraph?\nA __ Their presence can increase biodiversity.\nB They may cause damage to local ecosystems.\nC_ Their behaviour can alter according to the environment.\nD_ They should be reintroduced only to areas where they were native.\n16 What does the writer suggest about British conservation in the fourth paragraph?\nA _Ithas failed to achieve its aims.\nB tis beginning to change direction.\nC It has taken a misguided approach.\nD_ It has focused on the most widespread species.\n17 Protecting large areas of the sea from commercial fishing would result in\nA _ practical benefits for the fishing industry.\nB some short-term losses to the fishing industry.\nC_ widespread opposition from the fishing industry.\nD_ certain changes to techniques within the fishing industry.\n18 According to the author, what distinguishes rewilding from other environmental\ncampaigns?\nA _ Its objective is more achievable.\nB _ Its supporters are more articulate.\nC Its positive message is more appealing.\nD It is based on sounder scientific principles."
+                  "text": "Questions 14-18\nWrite the correct letter, A, B, C or D, in boxes 14-18 on your answer sheet.\n\n14 What did the 2006 discovery of the animal bone reveal about the lynx?\nA Its physical appearance was very distinctive.\nB Its extinction was linked to the spread of farming.\nC It vanished from Britain several thousand years ago.\nD It survived in Britain longer than was previously thought.\n\n15 What point does the writer make about large predators in the third paragraph?\nA Their presence can increase biodiversity.\nB They may cause damage to local ecosystems.\nC Their behaviour can alter according to the environment.\nD They should be reintroduced only to areas where they were native.\n\n16 What does the writer suggest about British conservation in the fourth paragraph?\nA It has failed to achieve its aims.\nB It is beginning to change direction.\nC It has taken a misguided approach.\nD It has focused on the most widespread species.\n\n17 Protecting large areas of the sea from commercial fishing would result in\nA practical benefits for the fishing industry.\nB some short-term losses to the fishing industry.\nC widespread opposition from the fishing industry.\nD certain changes to techniques within the fishing industry.\n\n18 According to the author, what distinguishes rewilding from other environmental campaigns?\nA Its objective is more achievable.\nB Its supporters are more articulate.\nC Its positive message is more appealing.\nD It is based on sounder scientific principles."
                 }
               ]
             }
@@ -1045,22 +964,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
               "A",
               "B",
               "C",
@@ -1074,30 +977,31 @@
               "id": "cambridge-12-test-08-q-14",
               "number": 14,
               "group_id": "cambridge-12-test-08-p-2-g-14-18",
-              "type": "matching_features",
-              "prompt": "What did the 2006 discovery of the animal bone reveal about the lynx?\nA _ Its physical appearance was very distinctive.\nB Its extinction was linked to the spread of farming.\nC_ It vanished from Britain several thousand years ago.\nD It survived in Britain longer than was previously thought.",
+              "type": "multiple_choice_single",
+              "prompt": "What did the 2006 discovery of the animal bone reveal about the lynx?",
               "answer_input_type": "single_select",
-              "options": [],
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Its physical appearance was very distinctive."
+                },
+                {
+                  "label": "B",
+                  "text": "Its extinction was linked to the spread of farming."
+                },
+                {
+                  "label": "C",
+                  "text": "It vanished from Britain several thousand years ago."
+                },
+                {
+                  "label": "D",
+                  "text": "It survived in Britain longer than was previously thought."
+                }
+              ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1125,30 +1029,31 @@
               "id": "cambridge-12-test-08-q-15",
               "number": 15,
               "group_id": "cambridge-12-test-08-p-2-g-14-18",
-              "type": "matching_features",
-              "prompt": "What point does the writer make about large predators in the third paragraph?\nA __ Their presence can increase biodiversity.\nB They may cause damage to local ecosystems.\nC_ Their behaviour can alter according to the environment.\nD_ They should be reintroduced only to areas where they were native.",
+              "type": "multiple_choice_single",
+              "prompt": "What point does the writer make about large predators in the third paragraph?",
               "answer_input_type": "single_select",
-              "options": [],
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Their presence can increase biodiversity."
+                },
+                {
+                  "label": "B",
+                  "text": "They may cause damage to local ecosystems."
+                },
+                {
+                  "label": "C",
+                  "text": "Their behaviour can alter according to the environment."
+                },
+                {
+                  "label": "D",
+                  "text": "They should be reintroduced only to areas where they were native."
+                }
+              ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1176,30 +1081,31 @@
               "id": "cambridge-12-test-08-q-16",
               "number": 16,
               "group_id": "cambridge-12-test-08-p-2-g-14-18",
-              "type": "matching_features",
-              "prompt": "What does the writer suggest about British conservation in the fourth paragraph?\nA _Ithas failed to achieve its aims.\nB tis beginning to change direction.\nC It has taken a misguided approach.\nD_ It has focused on the most widespread species.",
+              "type": "multiple_choice_single",
+              "prompt": "What does the writer suggest about British conservation in the fourth paragraph?",
               "answer_input_type": "single_select",
-              "options": [],
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It has failed to achieve its aims."
+                },
+                {
+                  "label": "B",
+                  "text": "It is beginning to change direction."
+                },
+                {
+                  "label": "C",
+                  "text": "It has taken a misguided approach."
+                },
+                {
+                  "label": "D",
+                  "text": "It has focused on the most widespread species."
+                }
+              ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1227,30 +1133,31 @@
               "id": "cambridge-12-test-08-q-17",
               "number": 17,
               "group_id": "cambridge-12-test-08-p-2-g-14-18",
-              "type": "matching_features",
-              "prompt": "Protecting large areas of the sea from commercial fishing would result in\nA _ practical benefits for the fishing industry.\nB some short-term losses to the fishing industry.\nC_ widespread opposition from the fishing industry.\nD_ certain changes to techniques within the fishing industry.",
+              "type": "multiple_choice_single",
+              "prompt": "Protecting large areas of the sea from commercial fishing would result in",
               "answer_input_type": "single_select",
-              "options": [],
+              "options": [
+                {
+                  "label": "A",
+                  "text": "practical benefits for the fishing industry."
+                },
+                {
+                  "label": "B",
+                  "text": "some short-term losses to the fishing industry."
+                },
+                {
+                  "label": "C",
+                  "text": "widespread opposition from the fishing industry."
+                },
+                {
+                  "label": "D",
+                  "text": "certain changes to techniques within the fishing industry."
+                }
+              ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1278,30 +1185,31 @@
               "id": "cambridge-12-test-08-q-18",
               "number": 18,
               "group_id": "cambridge-12-test-08-p-2-g-14-18",
-              "type": "matching_features",
-              "prompt": "According to the author, what distinguishes rewilding from other environmental\ncampaigns?\nA _ Its objective is more achievable.\nB _ Its supporters are more articulate.\nC Its positive message is more appealing.\nD It is based on sounder scientific principles.",
+              "type": "multiple_choice_single",
+              "prompt": "According to the author, what distinguishes rewilding from other environmental campaigns?",
               "answer_input_type": "single_select",
-              "options": [],
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Its objective is more achievable."
+                },
+                {
+                  "label": "B",
+                  "text": "Its supporters are more articulate."
+                },
+                {
+                  "label": "C",
+                  "text": "Its positive message is more appealing."
+                },
+                {
+                  "label": "D",
+                  "text": "It is based on sounder scientific principles."
+                }
+              ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1332,16 +1240,12 @@
             "line_end": 1852,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-12.pdf",
             "pdf_pages": [
-              83,
-              84,
-              85,
-              86,
-              87
+              85
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-12-test-08-p-2-g-19-22",

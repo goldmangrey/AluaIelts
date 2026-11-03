@@ -246,3 +246,28 @@ h1 { margin-top: 18px; font-size: clamp(40px, 4.5vw, 58px); line-height: 1.08; l
 .exam-session-actions { display:flex; justify-self:end; align-items:center; gap:18px; }
 .exam-result-link { justify-self:end; }
 @media(max-width:720px){.exam-session-actions{gap:10px}}
+
+/* Question controls only; exam columns, navigation and scrolling stay independent. */
+.question-group { font-size: 16px; line-height: 1.55; }
+.question-group .reading-question { padding: 20px 0 22px; }
+.question-group .answer-choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.question-group .answer-choices button { min-width: 40px; min-height: 40px; padding: 7px 12px; border: 1px solid #dfe4e2; border-radius: 5px; background: white; color: var(--foreground); font-size: 14px; line-height: 1.4; cursor: pointer; }
+.question-group .answer-choices button[aria-pressed=true], .question-group .choice-list .choice-selected { background: #edf7f2; border-color: var(--accent); }
+.question-group .answer-choices button[aria-pressed=true] { color: var(--accent); }
+.question-group .answer-choices button:disabled { cursor: default; opacity: .5; }
+.question-group .answer-choices button[aria-pressed=true]:disabled { opacity: 1; }
+.question-group .choice-list label { border: 1px solid #e5e9e7; border-radius: 5px; padding: 9px 12px; margin-bottom: 8px; min-height: 42px; }
+.question-group .choice-list label:has(input:disabled) { cursor: default; }
+.question-group .matching-options { margin: 16px 0 24px; }
+.question-group .matching-options > div { display: flex; gap: 12px; margin: 8px 0; }
+.question-group .matching-options dt { min-width: 24px; color: var(--accent); font-weight: 500; }
+.question-group .matching-options dd { margin: 0; }
+.question-group .inline-question { display: inline-flex; align-items: center; gap: 2px; vertical-align: middle; padding: 0; }
+.question-group .inline-answer { display: inline; margin: 0 4px; }
+.question-group .inline-answer input { width: 160px; height: 40px; min-height: 40px; margin: 3px 0; vertical-align: middle; font-size: 16px; }
+.question-group .inline-answer .answer-choices { display: inline-flex; vertical-align: middle; }
+.question-group .inline-review { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; min-height: 28px; width: 24px; margin: 0; padding: 4px; }
+.question-group .inline-review[aria-pressed=true] { color: var(--accent); }
+.question-group .inline-answer .word-limit { display: inline; margin-left: 4px; }
+.question-group .task-text:has(.inline-question) { line-height: 1.8; }
+.question-group .matching-local-key, .question-group .matching-local-key > span { display: block; margin: 8px 0; }

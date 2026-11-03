@@ -2417,7 +2417,7 @@
         {
           "id": "cambridge-17-test-03-p-3-g-36-40",
           "type": "summary_completion",
-          "instructions": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from 36 __________. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as 37 __________ especially when compared to 38 __________.\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines",
+          "instructions": "Complete the summary using the list of phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 36–40 on your answer sheet.",
           "question_numbers": [
             36,
             37,
@@ -2426,10 +2426,6 @@
             40
           ],
           "options": [
-            {
-              "label": "A",
-              "text": "particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand."
-            },
             {
               "label": "A",
               "text": "development plans"
@@ -2477,7 +2473,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from "
+                  "text": "Complete the summary using the list of phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 36–40 on your answer sheet.\n\nThe bedrock myth\n\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from "
                 },
                 {
                   "type": "blank",
@@ -2493,7 +2489,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " especially when compared to "
+                  "text": ", especially when compared to "
                 },
                 {
                   "type": "blank",
@@ -2501,7 +2497,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ".\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how "
+                  "text": ".\n\nA particularly enjoyable part of the chapter was Barr’s account of how foundations are built. He describes not only how "
                 },
                 {
                   "type": "blank",
@@ -2517,7 +2513,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ". The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines"
+                  "text": ". The chapter is well researched but relatively easy to understand."
                 }
               ]
             }
@@ -2527,7 +2523,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
               "A",
               "B",
               "C",
@@ -2548,14 +2543,13 @@
               "number": 36,
               "group_id": "cambridge-17-test-03-p-3-g-36-40",
               "type": "summary_completion",
-              "prompt": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from 36 __________. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as 37 __________ especially when compared to 38 __________.\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines",
+              "prompt": "The bedrock myth\n\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from {{36}}. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as {{37}}, especially when compared to {{38}}.\n\nA particularly enjoyable part of the chapter was Barr’s account of how foundations are built. He describes not only how {{39}} are made possible by the use of caissons, but he also discusses their {{40}}. The chapter is well researched but relatively easy to understand.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2590,14 +2584,13 @@
               "number": 37,
               "group_id": "cambridge-17-test-03-p-3-g-36-40",
               "type": "summary_completion",
-              "prompt": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from 36 __________. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as 37 __________ especially when compared to 38 __________.\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines",
+              "prompt": "The bedrock myth\n\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from {{36}}. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as {{37}}, especially when compared to {{38}}.\n\nA particularly enjoyable part of the chapter was Barr’s account of how foundations are built. He describes not only how {{39}} are made possible by the use of caissons, but he also discusses their {{40}}. The chapter is well researched but relatively easy to understand.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2632,14 +2625,13 @@
               "number": 38,
               "group_id": "cambridge-17-test-03-p-3-g-36-40",
               "type": "summary_completion",
-              "prompt": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from 36 __________. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as 37 __________ especially when compared to 38 __________.\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines",
+              "prompt": "The bedrock myth\n\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from {{36}}. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as {{37}}, especially when compared to {{38}}.\n\nA particularly enjoyable part of the chapter was Barr’s account of how foundations are built. He describes not only how {{39}} are made possible by the use of caissons, but he also discusses their {{40}}. The chapter is well researched but relatively easy to understand.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2674,14 +2666,13 @@
               "number": 39,
               "group_id": "cambridge-17-test-03-p-3-g-36-40",
               "type": "summary_completion",
-              "prompt": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from 36 __________. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as 37 __________ especially when compared to 38 __________.\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines",
+              "prompt": "The bedrock myth\n\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from {{36}}. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as {{37}}, especially when compared to {{38}}.\n\nA particularly enjoyable part of the chapter was Barr’s account of how foundations are built. He describes not only how {{39}} are made possible by the use of caissons, but he also discusses their {{40}}. The chapter is well researched but relatively easy to understand.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2716,14 +2707,13 @@
               "number": 40,
               "group_id": "cambridge-17-test-03-p-3-g-36-40",
               "type": "summary_completion",
-              "prompt": "--- QUESTIONS 36–40 (SOURCE PDF p. 64; book p. 71) ---\nComplete the summary using the list of phrases, A–J, below.\n\nThe bedrock myth\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from 36 __________. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as 37 __________ especially when compared to 38 __________.\n\nA particularly enjoyable part of the chapter was Barr's account of how foundations are built. He describes not only how 39 __________ are made possible by the use of caissons, but he also discusses their 40 __________. The chapter is well researched but relatively easy to understand.\n\nA development plans\nB deep excavations\nC great distance\nD excessive expense\nE impossible tasks\nF associated risks\nG water level\nH specific areas\nI total expenditure\nJ construction guidelines",
+              "prompt": "The bedrock myth\n\nIn chapter seven, Barr indicates how the lack of bedrock close to the surface does not explain why skyscrapers are absent from {{36}}. He points out that although the cost of foundations increases when bedrock is deep below the surface, this cannot be regarded as {{37}}, especially when compared to {{38}}.\n\nA particularly enjoyable part of the chapter was Barr’s account of how foundations are built. He describes not only how {{39}} are made possible by the use of caissons, but he also discusses their {{40}}. The chapter is well researched but relatively easy to understand.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2760,16 +2750,12 @@
             "line_end": 1429,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-17.pdf",
             "pdf_pages": [
-              60,
-              61,
-              62,
-              63,
               64
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         }
       ],
       "question_numbers": [

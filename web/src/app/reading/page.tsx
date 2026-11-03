@@ -1,8 +1,21 @@
 import Link from "next/link";
-import { PageShell } from "@/components/page-shell";
+import { SiteHeader } from "@/components/site-header";
 import { CatalogView } from "@/features/reading/catalog-view";
+import styles from "@/features/reading/library.module.css";
+
 export const metadata = { title: "Reading" };
+
 export default function Reading() {
-  return <PageShell><div className="page-intro"><p className="eyebrow">IELTS Academic</p><h1>Reading.</h1>
-    <p className="subtitle">Choose a Cambridge IELTS collection.</p><Link className="text-link" href="/reading/history">My attempts</Link></div><CatalogView /></PageShell>;
+  return <><SiteHeader /><main id="main" className={styles.library}>
+    <nav className={styles.navigation} aria-label="Reading navigation">
+      <Link href="/"><span aria-hidden="true">←</span> All sections</Link>
+      <Link href="/reading/history">My attempts <span aria-hidden="true">↗</span></Link>
+    </nav>
+    <div className={styles.intro}>
+      <p className={styles.eyebrow}>IELTS Academic</p>
+      <h1>Reading.</h1>
+      <p className={styles.subtitle}>Cambridge IELTS Academic</p>
+    </div>
+    <CatalogView />
+  </main></>;
 }

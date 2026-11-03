@@ -60,7 +60,7 @@ def test_catalog_and_all_grading_types():
     c = get_catalog()
     assert len(c.entries) == 72 and len(c.assets) == 60
     enabled = [e for e in c.entries.values() if e["enabled_for_private_practice"]]
-    assert len(enabled) == 63
+    assert len(enabled) == 69
     assert all(e["content_status"] == "needs_review" and e["not_fully_proofread"] for e in enabled)
     assert not any(
         e["enabled_for_private_practice"]
@@ -154,7 +154,7 @@ def test_full_lifecycle_isolation_and_restart(system):
     assert client.post("/api/v1/bootstrap", json={}).status_code == 404
     assert client.get(BASE + "/books").status_code == 401
     library = client.get(BASE + "/exams", headers=h).json()["items"]
-    assert sum(e["enabled_for_private_practice"] for e in library) == 63
+    assert sum(e["enabled_for_private_practice"] for e in library) == 69
     assert all(e["best_estimated_band"] is None for e in library)
     assert len(client.get(BASE + "/books", headers=h).json()["items"]) == 18
     exam = client.get(BASE + "/exams/" + EID, headers=h).json()
@@ -499,4 +499,4 @@ def test_catalog_isolates_invalid_exam(tmp_path):
     damaged = ReadingCatalog(base)
     assert not damaged.entries[EID]["enabled_for_private_practice"]
     assert "incomplete_exam" in damaged.entries[EID]["exclusion_reasons"]
-    assert sum(e["enabled_for_private_practice"] for e in damaged.entries.values()) == 62
+    assert sum(e["enabled_for_private_practice"] for e in damaged.entries.values()) == 68

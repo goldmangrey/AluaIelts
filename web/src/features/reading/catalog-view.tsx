@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import styles from "./library.module.css";
 import { StartButton } from "./exam/start-button";
 import { usePathname } from "next/navigation";
 import { rejectSession, retrySession, useSession } from "@/features/auth/session";
@@ -73,9 +74,10 @@ export function CatalogView({ bookNumber, examId }: { bookNumber?: number; examI
     </Link>)}
   </nav>;
   if (!state.books.length) return <StatusPanel title="No practice tests available.">Please check back soon.</StatusPanel>;
-  return <nav className="book-grid" aria-label="Cambridge IELTS collections">{state.books.map((book) =>
-    <Link className="book-card" key={book.book_number} href={`/reading/cambridge-${book.book_number}`}>
-      <span>Cambridge {String(book.book_number).padStart(2, "0")}</span><span aria-hidden="true">→</span>
+  return <nav className={styles.index} aria-label="Cambridge IELTS collections">{state.books.map((book) =>
+    <Link className={styles.row} key={book.book_number} href={`/reading/cambridge-${book.book_number}`}>
+      <span className={styles.number}>{String(book.book_number).padStart(2, "0")}</span>
+      <span className={styles.name}>Cambridge IELTS</span><span className={styles.arrow} aria-hidden="true">↗</span>
     </Link>)}
   </nav>;
 }

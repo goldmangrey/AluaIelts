@@ -13,6 +13,7 @@ class CreateAttempt(StrictModel):
     exam_id: str = Field(max_length=80)
     mode: Literal["full_exam", "passage_practice"]
     selected_passage: int | None = Field(default=None, ge=1, le=3)
+    reuse_active: bool = False
 
     @model_validator(mode="after")
     def valid_selection(self):

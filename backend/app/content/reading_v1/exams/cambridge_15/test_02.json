@@ -1873,7 +1873,7 @@
         {
           "id": "cambridge-15-test-02-p-3-g-32-36",
           "type": "summary_completion",
-          "instructions": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+          "instructions": "Complete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 32–36 on your answer sheet.",
           "question_numbers": [
             32,
             33,
@@ -1882,10 +1882,6 @@
             36
           ],
           "options": [
-            {
-              "label": "A",
-              "text": "second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind."
-            },
             {
               "label": "A",
               "text": "laughter"
@@ -1925,7 +1921,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of "
+                  "text": "Complete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 32–36 on your answer sheet.\n\nThe benefits of humour\n\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of "
                 },
                 {
                   "type": "blank",
@@ -1965,7 +1961,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing"
+                  "text": " effect on the body and mind."
                 }
               ]
             }
@@ -1975,7 +1971,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
               "A",
               "B",
               "C",
@@ -1994,14 +1989,13 @@
               "number": 32,
               "group_id": "cambridge-15-test-02-p-3-g-32-36",
               "type": "summary_completion",
-              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "prompt": "The benefits of humour\n\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of {{32}}. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the {{33}} video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly {{34}} task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces {{35}} and helps build social connections but it may also have a {{36}} effect on the body and mind.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2034,14 +2028,13 @@
               "number": 33,
               "group_id": "cambridge-15-test-02-p-3-g-32-36",
               "type": "summary_completion",
-              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "prompt": "The benefits of humour\n\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of {{32}}. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the {{33}} video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly {{34}} task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces {{35}} and helps build social connections but it may also have a {{36}} effect on the body and mind.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2074,14 +2067,13 @@
               "number": 34,
               "group_id": "cambridge-15-test-02-p-3-g-32-36",
               "type": "summary_completion",
-              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "prompt": "The benefits of humour\n\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of {{32}}. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the {{33}} video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly {{34}} task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces {{35}} and helps build social connections but it may also have a {{36}} effect on the body and mind.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2114,14 +2106,13 @@
               "number": 35,
               "group_id": "cambridge-15-test-02-p-3-g-32-36",
               "type": "summary_completion",
-              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "prompt": "The benefits of humour\n\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of {{32}}. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the {{33}} video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly {{34}} task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces {{35}} and helps build social connections but it may also have a {{36}} effect on the body and mind.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2154,14 +2145,13 @@
               "number": 36,
               "group_id": "cambridge-15-test-02-p-3-g-32-36",
               "type": "summary_completion",
-              "prompt": "Questions 32–36\nComplete the summary using the list of words, A–H, below.\n\nThe benefits of humour\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of 32 __________. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the 33 __________ video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly 34 __________ task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces 35 __________ and helps build social connections but it may also have a 36 __________ effect on the body and mind.\n\nA. laughter\nB. relaxing\nC. boring\nD. anxiety\nE. stimulating\nF. emotion\nG. enjoyment\nH. amusing",
+              "prompt": "The benefits of humour\n\nIn one study at Australian National University, randomly chosen groups of participants were shown one of three videos, each designed to generate a different kind of {{32}}. When all participants were then given a deliberately frustrating task to do, it was found that those who had watched the {{33}} video persisted with the task for longer and tried harder to accomplish the task than either of the other two groups.\n\nA second study in which participants were asked to perform a particularly {{34}} task produced similar results. According to researchers David Cheng and Lu Wang, these findings suggest that humour not only reduces {{35}} and helps build social connections but it may also have a {{36}} effect on the body and mind.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2196,16 +2186,12 @@
             "line_end": 593,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-15.pdf",
             "pdf_pages": [
-              46,
-              47,
-              48,
-              49,
-              50
+              49
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-15-test-02-p-3-g-37-40",

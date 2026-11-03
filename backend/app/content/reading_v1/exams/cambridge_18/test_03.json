@@ -1856,7 +1856,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n\n27. The writer describes the Romeo and Juliet lesson in order to demonstrate\n\nA __ how few students are interested in literature.\n\nBhowa teacher handles a range of learning needs.\n\nC how unsuitable Shakespeare is for most teenagers.\n\nD how weaker students can disrupt their classmates’ learning.\n\n28. What does the writer say about streaming in the third paragraph?\n\nA Ithas a very broad appeal.\n\nB sit favours cleverer students.\n\nC sitis relatively simple to implement.\n\nD {It works better in some schools than others.\n\n29. What idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\n\nA _ students following unsuitable paths\n\nB _ students attempting interesting tasks\n\nC students not achieving their full potential\n\nD students not being aware of their limitations\n\n30. What does the word ‘scaffolding’ in the sixth paragraph refer to?\n\nA the factors which prevent a student from learning effectively\n\nB the environment where most of a student's learning takes place\nC the assistance given to a student in their initial stages of learning\nD the setting of appropriate learning targets for a student's aptitude"
+                  "text": "Questions 27-30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27-30 on your answer sheet.\n\n27 The writer describes the Romeo and Juliet lesson in order to demonstrate\nA how few students are interested in literature.\nB how a teacher handles a range of learning needs.\nC how unsuitable Shakespeare is for most teenagers.\nD how weaker students can disrupt their classmates’ learning.\n\n28 What does the writer say about streaming in the third paragraph?\nA It has a very broad appeal.\nB It favours cleverer students.\nC It is relatively simple to implement.\nD It works better in some schools than others.\n\n29 What idea is suggested by the reference to Mount Qomolangma in the fifth paragraph?\nA students following unsuitable paths\nB students attempting interesting tasks\nC students not achieving their full potential\nD students not being aware of their limitations\n\n30 What does the word ‘scaffolding’ in the sixth paragraph refer to?\nA the factors which prevent a student from learning effectively\nB the environment where most of a student’s learning takes place\nC the assistance given to a student in their initial stages of learning\nD the setting of appropriate learning targets for a student’s aptitude"
                 }
               ]
             }
@@ -1866,17 +1866,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
               "A",
               "B",
               "C",
@@ -1896,7 +1885,11 @@
               "options": [
                 {
                   "label": "A",
-                  "text": "how few students are interested in literature. Bhowa teacher handles a range of learning needs."
+                  "text": "how few students are interested in literature."
+                },
+                {
+                  "label": "B",
+                  "text": "how a teacher handles a range of learning needs."
                 },
                 {
                   "label": "C",
@@ -1911,17 +1904,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -1955,36 +1937,25 @@
               "options": [
                 {
                   "label": "A",
-                  "text": "Ithas a very broad appeal."
+                  "text": "It has a very broad appeal."
                 },
                 {
                   "label": "B",
-                  "text": "sit favours cleverer students."
+                  "text": "It favours cleverer students."
                 },
                 {
                   "label": "C",
-                  "text": "sitis relatively simple to implement."
+                  "text": "It is relatively simple to implement."
                 },
                 {
                   "label": "D",
-                  "text": "{It works better in some schools than others."
+                  "text": "It works better in some schools than others."
                 }
               ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -2038,17 +2009,6 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
                   "B",
                   "C",
                   "D"
@@ -2085,7 +2045,7 @@
                 },
                 {
                   "label": "B",
-                  "text": "the environment where most of a student's learning takes place"
+                  "text": "the environment where most of a student’s learning takes place"
                 },
                 {
                   "label": "C",
@@ -2093,24 +2053,13 @@
                 },
                 {
                   "label": "D",
-                  "text": "the setting of appropriate learning targets for a student's aptitude"
+                  "text": "the setting of appropriate learning targets for a student’s aptitude"
                 }
               ],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -2141,16 +2090,12 @@
             "line_end": 1390,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-18.pdf",
             "pdf_pages": [
-              72,
-              73,
-              74,
-              75,
-              76
+              74
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-18-test-03-p-3-g-31-35",

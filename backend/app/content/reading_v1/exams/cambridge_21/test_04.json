@@ -944,7 +944,7 @@
         {
           "id": "cambridge-21-test-04-p-2-g-14-19",
           "type": "summary_completion",
-          "instructions": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+          "instructions": "Complete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.",
           "question_numbers": [
             14,
             15,
@@ -954,10 +954,6 @@
             19
           ],
           "options": [
-            {
-              "label": "A",
-              "text": "team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to discover why multilingual Indian schoolchildren do not experience 19 [________] to those that multilingual schoolchildren in Europe experience."
-            },
             {
               "label": "A",
               "text": "basic outlook"
@@ -1005,7 +1001,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a "
+                  "text": "Complete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a "
                 },
                 {
                   "type": "blank",
@@ -1013,7 +1009,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are "
+                  "text": " and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are "
                 },
                 {
                   "type": "blank",
@@ -1029,7 +1025,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " or have travelled from the other side of\nIndia, they have all come in search of things such as improved "
+                  "text": " or have travelled from the other side of India, they have all come in search of things such as improved "
                 },
                 {
                   "type": "blank",
@@ -1037,7 +1033,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ".\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The "
+                  "text": ".\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The "
                 },
                 {
                   "type": "blank",
@@ -1045,7 +1041,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " of the research is to\ndiscover why multilingual Indian schoolchildren do not experience "
+                  "text": " of the research is to discover why multilingual Indian schoolchildren do not experience "
                 },
                 {
                   "type": "blank",
@@ -1053,7 +1049,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants"
+                  "text": " to those that multilingual schoolchildren in Europe experience."
                 }
               ]
             }
@@ -1063,7 +1059,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
               "A",
               "B",
               "C",
@@ -1084,14 +1079,13 @@
               "number": 14,
               "group_id": "cambridge-21-test-04-p-2-g-14-19",
               "type": "summary_completion",
-              "prompt": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+              "prompt": "Multilingualism in Delhi\n\nThe city of Delhi has a {{14}} and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are {{15}}. Whether they have come from a {{16}} or have travelled from the other side of India, they have all come in search of things such as improved {{17}}.\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The {{18}} of the research is to discover why multilingual Indian schoolchildren do not experience {{19}} to those that multilingual schoolchildren in Europe experience.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1125,14 +1119,13 @@
               "number": 15,
               "group_id": "cambridge-21-test-04-p-2-g-14-19",
               "type": "summary_completion",
-              "prompt": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+              "prompt": "Multilingualism in Delhi\n\nThe city of Delhi has a {{14}} and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are {{15}}. Whether they have come from a {{16}} or have travelled from the other side of India, they have all come in search of things such as improved {{17}}.\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The {{18}} of the research is to discover why multilingual Indian schoolchildren do not experience {{19}} to those that multilingual schoolchildren in Europe experience.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1166,14 +1159,13 @@
               "number": 16,
               "group_id": "cambridge-21-test-04-p-2-g-14-19",
               "type": "summary_completion",
-              "prompt": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+              "prompt": "Multilingualism in Delhi\n\nThe city of Delhi has a {{14}} and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are {{15}}. Whether they have come from a {{16}} or have travelled from the other side of India, they have all come in search of things such as improved {{17}}.\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The {{18}} of the research is to discover why multilingual Indian schoolchildren do not experience {{19}} to those that multilingual schoolchildren in Europe experience.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1207,14 +1199,13 @@
               "number": 17,
               "group_id": "cambridge-21-test-04-p-2-g-14-19",
               "type": "summary_completion",
-              "prompt": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+              "prompt": "Multilingualism in Delhi\n\nThe city of Delhi has a {{14}} and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are {{15}}. Whether they have come from a {{16}} or have travelled from the other side of India, they have all come in search of things such as improved {{17}}.\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The {{18}} of the research is to discover why multilingual Indian schoolchildren do not experience {{19}} to those that multilingual schoolchildren in Europe experience.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1248,14 +1239,13 @@
               "number": 18,
               "group_id": "cambridge-21-test-04-p-2-g-14-19",
               "type": "summary_completion",
-              "prompt": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+              "prompt": "Multilingualism in Delhi\n\nThe city of Delhi has a {{14}} and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are {{15}}. Whether they have come from a {{16}} or have travelled from the other side of India, they have all come in search of things such as improved {{17}}.\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The {{18}} of the research is to discover why multilingual Indian schoolchildren do not experience {{19}} to those that multilingual schoolchildren in Europe experience.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1289,14 +1279,13 @@
               "number": 19,
               "group_id": "cambridge-21-test-04-p-2-g-14-19",
               "type": "summary_completion",
-              "prompt": "Questions 14–19\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 14–19 on your answer sheet.\n\nMultilingualism in Delhi\n\nThe city of Delhi has a 14 [________] and as you walk through its streets you hear people speaking a\nvariety of languages. Some of them have spent their entire life in Delhi, while others are 15\n[________]. Whether they have come from a 16 [________] or have travelled from the other side of\nIndia, they have all come in search of things such as improved 17 [________].\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on\nprimary-age schoolchildren in Delhi and other Indian cities. The 18 [________] of the research is to\ndiscover why multilingual Indian schoolchildren do not experience 19 [________] to those that\nmultilingual schoolchildren in Europe experience.\n\nA  basic outlook\nB  employment opportunities\nC  wealthy visitors\nD  distant country\nE  primary objective\nF  similar advantages\nG  thriving economy\nH  nearby district\nI  dense population\nJ  new immigrants",
+              "prompt": "Multilingualism in Delhi\n\nThe city of Delhi has a {{14}} and as you walk through its streets you hear people speaking a variety of languages. Some of them have spent their entire life in Delhi, while others are {{15}}. Whether they have come from a {{16}} or have travelled from the other side of India, they have all come in search of things such as improved {{17}}.\n\nA team of researchers led by Professor Ianthi Tsimpli of Cambridge University is collecting data on primary-age schoolchildren in Delhi and other Indian cities. The {{18}} of the research is to discover why multilingual Indian schoolchildren do not experience {{19}} to those that multilingual schoolchildren in Europe experience.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -1332,15 +1321,12 @@
             "line_end": 1757,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-21.pdf",
             "pdf_pages": [
-              86,
-              87,
-              88,
-              89
+              88
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-21-test-04-p-2-g-20-23",
@@ -1927,7 +1913,7 @@
         {
           "id": "cambridge-21-test-04-p-3-g-27-32",
           "type": "summary_completion",
-          "instructions": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+          "instructions": "Complete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.",
           "question_numbers": [
             27,
             28,
@@ -1937,10 +1923,6 @@
             32
           ],
           "options": [
-            {
-              "label": "A",
-              "text": "birthday gift Peter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________] for which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________] would not be possible. Some 30 [________] that had been intended for 31 [________] were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the 32 [________], but Bellerby could not find what he wanted."
-            },
             {
               "label": "A",
               "text": "educational use"
@@ -1955,7 +1937,7 @@
             },
             {
               "label": "D",
-              "text": "product exchange"
+              "text": "product exchange markets"
             },
             {
               "label": "E",
@@ -1963,7 +1945,7 @@
             },
             {
               "label": "F",
-              "text": "international markets"
+              "text": "international"
             },
             {
               "label": "G",
@@ -1988,7 +1970,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly "
+                  "text": "Complete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly "
                 },
                 {
                   "type": "blank",
@@ -1996,7 +1978,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "\nfor which he had to overcome "
+                  "text": " for which he had to overcome "
                 },
                 {
                   "type": "blank",
@@ -2004,7 +1986,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ". He soon learnt that a straightforward "
+                  "text": ".\n\nHe soon learnt that a straightforward "
                 },
                 {
                   "type": "blank",
@@ -2012,7 +1994,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "\nwould not be possible. Some "
+                  "text": " would not be possible. Some "
                 },
                 {
                   "type": "blank",
@@ -2028,7 +2010,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the "
+                  "text": " were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the "
                 },
                 {
                   "type": "blank",
@@ -2036,7 +2018,7 @@
                 },
                 {
                   "type": "text",
-                  "text": ", but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems"
+                  "text": ", but Bellerby could not find what he wanted."
                 }
               ]
             }
@@ -2046,7 +2028,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
               "A",
               "B",
               "C",
@@ -2067,14 +2048,13 @@
               "number": 27,
               "group_id": "cambridge-21-test-04-p-3-g-27-32",
               "type": "summary_completion",
-              "prompt": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+              "prompt": "A birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly {{27}} for which he had to overcome {{28}}.\n\nHe soon learnt that a straightforward {{29}} would not be possible. Some {{30}} that had been intended for {{31}} were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the {{32}}, but Bellerby could not find what he wanted.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2109,14 +2089,13 @@
               "number": 28,
               "group_id": "cambridge-21-test-04-p-3-g-27-32",
               "type": "summary_completion",
-              "prompt": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+              "prompt": "A birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly {{27}} for which he had to overcome {{28}}.\n\nHe soon learnt that a straightforward {{29}} would not be possible. Some {{30}} that had been intended for {{31}} were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the {{32}}, but Bellerby could not find what he wanted.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2151,14 +2130,13 @@
               "number": 29,
               "group_id": "cambridge-21-test-04-p-3-g-27-32",
               "type": "summary_completion",
-              "prompt": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+              "prompt": "A birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly {{27}} for which he had to overcome {{28}}.\n\nHe soon learnt that a straightforward {{29}} would not be possible. Some {{30}} that had been intended for {{31}} were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the {{32}}, but Bellerby could not find what he wanted.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2193,14 +2171,13 @@
               "number": 30,
               "group_id": "cambridge-21-test-04-p-3-g-27-32",
               "type": "summary_completion",
-              "prompt": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+              "prompt": "A birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly {{27}} for which he had to overcome {{28}}.\n\nHe soon learnt that a straightforward {{29}} would not be possible. Some {{30}} that had been intended for {{31}} were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the {{32}}, but Bellerby could not find what he wanted.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2235,14 +2212,13 @@
               "number": 31,
               "group_id": "cambridge-21-test-04-p-3-g-27-32",
               "type": "summary_completion",
-              "prompt": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+              "prompt": "A birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly {{27}} for which he had to overcome {{28}}.\n\nHe soon learnt that a straightforward {{29}} would not be possible. Some {{30}} that had been intended for {{31}} were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the {{32}}, but Bellerby could not find what he wanted.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2277,14 +2253,13 @@
               "number": 32,
               "group_id": "cambridge-21-test-04-p-3-g-27-32",
               "type": "summary_completion",
-              "prompt": "Questions 27–32\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 27–32 on your answer sheet.\n\nA birthday gift\n\nPeter Bellerby's plan to give his father a globe for his birthday was an unexpectedly 27 [________]\nfor which he had to overcome 28 [________]. He soon learnt that a straightforward 29 [________]\nwould not be possible. Some 30 [________] that had been intended for 31 [________] were available,\nas were some expensive antique globes, but these were beyond his budget. He even travelled to places\nwhere people might still have the 32 [________], but Bellerby could not find what he wanted.\n\nA  educational use\nB  rare materials\nC  inferior makes\nD  product exchange\nE  necessary skills\nF  international markets\nG  challenging task\nH  memorable object\nI  internet purchase\nJ  numerous problems",
+              "prompt": "A birthday gift\n\nPeter Bellerby’s plan to give his father a globe for his birthday was an unexpectedly {{27}} for which he had to overcome {{28}}.\n\nHe soon learnt that a straightforward {{29}} would not be possible. Some {{30}} that had been intended for {{31}} were available, as were some expensive antique globes, but these were beyond his budget. He even travelled to places where people might still have the {{32}}, but Bellerby could not find what he wanted.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
                   "A",
                   "B",
                   "C",
@@ -2321,16 +2296,12 @@
             "line_end": 1907,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-21.pdf",
             "pdf_pages": [
-              90,
-              91,
-              92,
-              93,
-              94
+              92
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-21-test-04-p-3-g-33-36",

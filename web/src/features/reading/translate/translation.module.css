@@ -1,0 +1,31 @@
+.card {
+  position: fixed;
+  z-index: 100;
+  width: 280px;
+  max-width: calc(100vw - 24px);
+  box-sizing: border-box;
+  padding: 14px 32px 14px 16px;
+  border: 1px solid #e4e8e6;
+  border-radius: 12px;
+  background: #fff;
+  color: #313b36;
+  box-shadow: 0 6px 24px #152c2012;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.card strong { display: block; margin-bottom: 4px; color: #16251d; font-size: 15px; font-weight: 600; }
+.card > span { display: block; }
+.loading { display: flex !important; align-items: center; gap: 8px; color: #66736b; }
+.dot { width: 6px; height: 6px; border-radius: 50%; background: #27976a; animation: pulse 1s ease-in-out infinite alternate; }
+.error { color: #68716c; }
+@keyframes pulse { to { opacity: .3; } }
+@media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+
+.header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.header p { margin: 0; }
+.toggle { display: inline-flex; flex-shrink: 0; align-items: center; gap: 6px; padding: 6px 9px; border: 1px solid #e4e8e6; border-radius: 7px; background: #fff; color: #66736b; font: inherit; font-size: 12px; font-weight: 500; line-height: 1.5; cursor: pointer; }
+.toggle[aria-pressed="true"] { background: #ecf8f1; border-color: #b9dfca; color: #18794e; }
+.toggle:focus-visible, .close:focus-visible { outline: 2px solid #27976a; outline-offset: 3px; }
+.close { position: absolute; top: 6px; right: 6px; display: grid; place-items: center; width: 24px; height: 24px; border: 0; border-radius: 5px; background: transparent; color: #68716c; font-size: 18px; cursor: pointer; }
+.close:hover { background: #f2f5f3; }

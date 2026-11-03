@@ -49,7 +49,7 @@ Firebase управляет persistence и refresh токенов. Прилож�
 
 Найденная причина infinite loading: Next.js блокировал dev HMR с LAN-host, поэтому SSR показывал Loading, а React hydration/useEffect не запускались. `allowedDevOrigins` теперь явно разрешает `127.0.0.1` и `192.168.10.18`. Это **только Next development**, не FastAPI CORS. При смене LAN IP добавьте точный новый hostname в next.config.ts и перезапустите dev; wildcard отсутствует.
 
-Backend требует Bearer и возвращает 401 без него. Проверенный preflight с LAN-origin возвращал 405. Поэтому browser request идёт на same-origin `/api/alua/*`, а встроенный Next.js rewrite пересылает его на фиксированный `NEXT_PUBLIC_API_BASE_URL` существующего FastAPI с Authorization. Это транспортный proxy, без собственного auth/backend/БД. Upstream не берётся из query/body; redirects запрещены клиентом; fetch использует `cache:no-store` и не передаёт browser cookies. Права по-прежнему проверяет FastAPI. Production CORS/authentication policy не изменялись.
+Backend требует Bearer и возвращает 401 без него. Проверенный preflight с LAN-origin возвращал 405. Поэтому browser request идёт на same-origin `/api/alua/*`, а server-side Next.js Route Handler пересылает его на фиксированный `NEXT_PUBLIC_API_BASE_URL` существующего FastAPI с Authorization. Это транспортный proxy, без собственного auth/backend/БД. Upstream не берётся из query/body; redirects запрещены клиентом; fetch использует `cache:no-store` и не передаёт browser cookies. Права по-прежнему проверяет FastAPI. Production CORS/authentication policy не изменялись.
 
 В локальной конфигурации API ранее оставался `localhost:8000`, где не было сервера. Для реального теста локальный параметр переключён на существующий HTTPS Alua API. Для локального FastAPI можно вернуть loopback URL; Next proxy будет обращаться к нему с Mac, а не с телефона пользователя.
 
@@ -105,3 +105,7 @@ ALUA_RUN_READING_BROWSER=1 .venv/bin/python -m pytest tests/test_reading_browser
 Runner создаёт отдельный временный PostgreSQL, поднимает настоящий FastAPI на loopback 3400 и временный Next на 3300, использует существующий local enrollment auth только для disposable identity и выполняет реальные Start/sync/submit/grading/result/history. Firebase production login не подменяется утверждением об E2E проверке. Конфигурация основного приложения/production БД не используется и не изменяется.
 
 [Final implementation, evidence and manual acceptance](docs/READING_RELEASE_VERIFICATION.md), [question coverage](docs/PHASE_C_COVERAGE.md), [Backend contracts](docs/BACKEND_INTEGRATION.md).
+
+## Cloudflare Workers
+
+Подготовлен существующий Next.js runtime через OpenNext; обычный `pnpm build` сохранён. Локальная проверка в workerd: `pnpm build:workers && pnpm preview:workers`. [Конфигурация, environment variables, проверки и точные настройки GitHub integration](docs/CLOUDFLARE_WORKERS.md). Опубликовано: https://alua-ielts.yeskendiriskakov.workers.dev. Результаты production-проверок и ограничения браузерных тестов записаны в указанном документе.

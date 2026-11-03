@@ -1361,7 +1361,7 @@
         {
           "id": "cambridge-18-test-01-p-2-g-22-26",
           "type": "sentence_completion",
-          "instructions": "Questions 22-26\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 22-26 on your answer sheet.",
+          "instructions": "Complete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 22–26 on your answer sheet.",
           "question_numbers": [
             22,
             23,
@@ -1376,7 +1376,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 22-26\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 22-26 on your answer sheet.\n\n22. Some dead wood is removed to avoid the possibility of ............ F\n\n23° The’s, és.ssveee from the tops of cut trees can help improve soil quality.\n\n24. Some damaged trees should be left, as their ............ provide habitats for a range\nof creatures.\n\n25. Some trees that are small, such as ............ , are a source of food for animals\nand insects.\n\n26. Any trees that are ............ should be left to grow, as they add to the variety of\n\nspecies in the forest."
+                  "text": "Complete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 22–26 on your answer sheet.\n\n22 Some dead wood is removed to avoid the possibility of __________.\n23 The __________ from the tops of cut trees can help improve soil quality.\n24 Some damaged trees should be left, as their __________ provide habitats for a range of creatures.\n25 Some trees that are small, such as __________, are a source of food for animals and insects.\n26 Any trees that are __________ should be left to grow, as they add to the variety of species in the forest."
                 }
               ]
             }
@@ -1395,7 +1395,7 @@
               "number": 22,
               "group_id": "cambridge-18-test-01-p-2-g-22-26",
               "type": "sentence_completion",
-              "prompt": "Some dead wood is removed to avoid the possibility of ............ F\n\n23° The’s, és.ssveee from the tops of cut trees can help improve soil quality.",
+              "prompt": "Some dead wood is removed to avoid the possibility of __________.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1425,7 +1425,7 @@
               "number": 23,
               "group_id": "cambridge-18-test-01-p-2-g-22-26",
               "type": "sentence_completion",
-              "prompt": "Questions 22-26\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 22-26 on your answer sheet.\n\n22. Some dead wood is removed to avoid the possibility of ............ F\n\n23° The’s, és.ssveee from the tops of cut trees can help improve soil quality.\n\n24. Some damaged trees should be left, as their ............ provide habitats for a range\nof creatures.\n\n25. Some trees that are small, such as ............ , are a source of food for animals\nand insects.\n\n26. Any trees that are ............ should be left to grow, as they add to the variety of\n\nspecies in the forest.",
+              "prompt": "The __________ from the tops of cut trees can help improve soil quality.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1455,7 +1455,7 @@
               "number": 24,
               "group_id": "cambridge-18-test-01-p-2-g-22-26",
               "type": "sentence_completion",
-              "prompt": "Some damaged trees should be left, as their ............ provide habitats for a range\nof creatures.",
+              "prompt": "Some damaged trees should be left, as their __________ provide habitats for a range of creatures.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1485,7 +1485,7 @@
               "number": 25,
               "group_id": "cambridge-18-test-01-p-2-g-22-26",
               "type": "sentence_completion",
-              "prompt": "Some trees that are small, such as ............ , are a source of food for animals\nand insects.",
+              "prompt": "Some trees that are small, such as __________, are a source of food for animals and insects.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1515,7 +1515,7 @@
               "number": 26,
               "group_id": "cambridge-18-test-01-p-2-g-22-26",
               "type": "sentence_completion",
-              "prompt": "Any trees that are ............ should be left to grow, as they add to the variety of\n\nspecies in the forest.",
+              "prompt": "Any trees that are __________ should be left to grow, as they add to the variety of species in the forest.",
               "answer_input_type": "text",
               "options": [],
               "constraints": {
@@ -1547,16 +1547,12 @@
             "line_end": 279,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-18.pdf",
             "pdf_pages": [
-              22,
-              23,
-              24,
-              25,
               26
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         }
       ],
       "question_numbers": [

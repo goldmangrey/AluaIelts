@@ -92,7 +92,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 1—4\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 1—4 on your answer sheet.\n1\nThe quotations in the box at the beginning of the article\nA   exemplify the effects of S.K.I.\nB   explain why S.K.I. was set up.\nC   outline the problems of street children.\nD   highlight the benefits to society of S.K.I.\n2  The main purpose of S.K.I. is to\n\nA   draw the attention of governments to the problem of street children.\n\nB   provide schools and social support for street children.\n\nC   encourage the public to give money to street children.\n\nD   give business training and loans to street children.\n3\nWhich of the following is mentioned by the writer as a reason why children end up\nliving on the streets?\n\nA   unemployment\n\nB   war\n\nC   poverty\n\nD   crime\n4\nIn order to become more independent, street children may\n\nA   reject paid employment.\n\nB   leave their families.\n\nC   set up their own businesses.\n\nD   employ other children."
+                  "text": "Questions 1—4\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 1—4 on your answer sheet.\n\n1 The quotations in the box at the beginning of the article\nA exemplify the effects of S.K.I.\nB explain why S.K.I. was set up.\nC outline the problems of street children.\nD highlight the benefits to society of S.K.I.\n\n2 The main purpose of S.K.I. is to\nA draw the attention of governments to the problem of street children.\nB provide schools and social support for street children.\nC encourage the public to give money to street children.\nD give business training and loans to street children.\n\n3 Which of the following is mentioned by the writer as a reason why children end up living on the streets?\nA unemployment\nB war\nC poverty\nD crime\n\n4 In order to become more independent, street children may\nA reject paid employment.\nB leave their families.\nC set up their own businesses.\nD employ other children."
                 }
               ]
             }
@@ -102,19 +102,6 @@
             "max_words": null,
             "allow_number": false,
             "allowed_values": [
-              "A",
-              "B",
-              "I",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
               "A",
               "B",
               "C",
@@ -138,11 +125,7 @@
                 },
                 {
                   "label": "B",
-                  "text": "explain why S.K."
-                },
-                {
-                  "label": "I",
-                  "text": "was set up."
+                  "text": "explain why S.K.I. was set up."
                 },
                 {
                   "label": "C",
@@ -157,19 +140,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "I",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -227,19 +197,6 @@
                 "allowed_values": [
                   "A",
                   "B",
-                  "I",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
                   "C",
                   "D"
                 ],
@@ -269,7 +226,7 @@
               "number": 3,
               "group_id": "cambridge-04-test-03-p-1-g-01-04",
               "type": "multiple_choice_single",
-              "prompt": "Which of the following is mentioned by the writer as a reason why children end up\nliving on the streets?",
+              "prompt": "Which of the following is mentioned by the writer as a reason why children end up living on the streets?",
               "answer_input_type": "single_select",
               "options": [
                 {
@@ -293,19 +250,6 @@
                 "max_words": null,
                 "allow_number": false,
                 "allowed_values": [
-                  "A",
-                  "B",
-                  "I",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
                   "A",
                   "B",
                   "C",
@@ -363,19 +307,6 @@
                 "allowed_values": [
                   "A",
                   "B",
-                  "I",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
                   "C",
                   "D"
                 ],
@@ -407,19 +338,13 @@
             "line_end": 1263,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-04.pdf",
             "pdf_pages": [
-              74,
-              75,
-              76,
-              77,
               78,
-              79,
-              80,
-              81
+              79
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-04-test-03-p-1-g-05-08",

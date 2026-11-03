@@ -16,9 +16,9 @@ test("real local FastAPI + PostgreSQL lifecycle through Next proxy, grading, rev
  await page.getByRole("button",{name:"Passage 3",exact:true}).click();await page.getByRole("button",{name:"Passage 1",exact:true}).click();await expect(page.getByLabel("Answer 2",{exact:true})).toHaveValue("tomato");
  await page.getByRole("button",{name:"Finish",exact:true}).click();const submitted=page.waitForResponse(r=>r.url().endsWith(`/reading/attempts/${created.id}/submit`));
  await page.getByRole("button",{name:"Finish test",exact:true}).click();const terminal=await(await submitted).json();expect(terminal.status).toBe("submitted");expect(terminal.result.total_questions).toBe(40);
- await expect(page.getByRole("heading",{name:"Completed."})).toBeVisible();await expect(page.locator(".result-score")).toHaveText(`${terminal.result.raw_score} / 40`);
+ await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();await expect(page.getByText(`${terminal.result.raw_score} / 40`,{exact:true})).toHaveText(`${terminal.result.raw_score} / 40`);
  if(process.env.ALUA_C_SCREENSHOTS)await page.screenshot({path:`${process.env.ALUA_C_SCREENSHOTS}/release-${test.info().project.name}-result.png`});
- await page.getByRole("link",{name:"Review answers"}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page.getByText("Correct answer:",{exact:false}).first()).toBeVisible();
- await page.getByRole("link",{name:"Result",exact:true}).click();await page.getByRole("link",{name:"My attempts",exact:true}).click();await expect(page.getByRole("link",{name:"View result"}).first()).toBeVisible();
- await page.goto(`/reading/attempts/${created.id}/result`);await expect(page.getByRole("heading",{name:"Completed."})).toBeVisible();expect(outside).toEqual([]);
+ await page.getByRole("link",{name:/^Review (?:\d+ mistakes?|all answers)$/}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page.getByText("Correct answer:",{exact:false}).first()).toBeVisible();
+ await page.getByRole("link",{name:"Result",exact:true}).click();await page.getByRole("link",{name:"Back to Reading",exact:true}).click();await page.getByRole("link",{name:"My attempts",exact:true}).click();await expect(page.getByRole("link",{name:"View result"}).first()).toBeVisible();
+ await page.goto(`/reading/attempts/${created.id}/result`);await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();expect(outside).toEqual([]);
 });

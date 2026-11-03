@@ -997,6 +997,7 @@ def build(destination=DEST):
                     i["code"]
                     in {
                         "source_option_label_anomaly",
+                        "source_required",
                         "source_obscured_by_watermark",
                         "layout_not_recovered",
                         "matching_options_missing",
@@ -1080,6 +1081,9 @@ def build(destination=DEST):
         )
         for row in overlays()
     ]
+    from repairs import records
+
+    edits += [dict(row, kind=kind) for kind, rows in records().items() for row in rows]
     (destination / "corrections.jsonl").write_text(
         "".join(json.dumps(x, ensure_ascii=False) + "\n" for x in edits), encoding="utf-8"
     )

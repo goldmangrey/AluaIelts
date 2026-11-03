@@ -86,7 +86,7 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 1-3\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 1-3 on your answer sheet.\n1 The main topic discussed in the text is\nA the damage caused to US golf courses and golf players by lightning strikes.\nB the effect of lightning on power supplies in the US and in Japan.\nC_avariety of methods used in trying to contro! lightning strikes.\nD_ alaser technique used in trying to control lightning strikes.\n2 “According to the text, every year lightning\nA does considerable damage to buildings during thunderstorms.\nB skills or injures mainly golfers in the United States.\nC kills or injures around 500 people throughout the world.\nD damages more than 100 American power companies.\n3. - Researchers at the University of Florida and at the University of New Mexico\nA receive funds from the same source,\nBare using the same techniques.\nC are employed by commercial companies.\nD are in opposition to each other."
+                  "text": "Questions 1-3\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 1-3 on your answer sheet.\n\n1 The main topic discussed in the text is\nA the damage caused to US golf courses and golf players by lightning strikes.\nB the effect of lightning on power supplies in the US and in Japan.\nC a variety of methods used in trying to control lightning strikes.\nD a laser technique used in trying to control lightning strikes.\n\n2 According to the text, every year lightning\nA does considerable damage to buildings during thunderstorms.\nB kills or injures mainly golfers in the United States.\nC kills or injures around 500 people throughout the world.\nD damages more than 100 American power companies.\n\n3 Researchers at the University of Florida and at the University of New Mexico\nA receive funds from the same source.\nB are using the same techniques.\nC are employed by commercial companies.\nD are in opposition to each other."
                 }
               ]
             }
@@ -98,13 +98,6 @@
             "allowed_values": [
               "A",
               "B",
-              "C",
-              "D",
-              "A",
-              "B",
-              "C",
-              "D",
-              "A",
               "C",
               "D"
             ],
@@ -130,11 +123,11 @@
                 },
                 {
                   "label": "C",
-                  "text": "avariety of methods used in trying to contro! lightning strikes."
+                  "text": "a variety of methods used in trying to control lightning strikes."
                 },
                 {
                   "label": "D",
-                  "text": "alaser technique used in trying to control lightning strikes."
+                  "text": "a laser technique used in trying to control lightning strikes."
                 }
               ],
               "constraints": {
@@ -143,13 +136,6 @@
                 "allowed_values": [
                   "A",
                   "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
                   "C",
                   "D"
                 ],
@@ -176,7 +162,7 @@
               "number": 2,
               "group_id": "cambridge-08-test-03-p-1-g-01-03",
               "type": "multiple_choice_single",
-              "prompt": "“According to the text, every year lightning",
+              "prompt": "According to the text, every year lightning",
               "answer_input_type": "single_select",
               "options": [
                 {
@@ -185,7 +171,7 @@
                 },
                 {
                   "label": "B",
-                  "text": "skills or injures mainly golfers in the United States."
+                  "text": "kills or injures mainly golfers in the United States."
                 },
                 {
                   "label": "C",
@@ -202,13 +188,6 @@
                 "allowed_values": [
                   "A",
                   "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
                   "C",
                   "D"
                 ],
@@ -235,12 +214,16 @@
               "number": 3,
               "group_id": "cambridge-08-test-03-p-1-g-01-03",
               "type": "multiple_choice_single",
-              "prompt": "- Researchers at the University of Florida and at the University of New Mexico",
+              "prompt": "Researchers at the University of Florida and at the University of New Mexico",
               "answer_input_type": "single_select",
               "options": [
                 {
                   "label": "A",
-                  "text": "receive funds from the same source, Bare using the same techniques."
+                  "text": "receive funds from the same source."
+                },
+                {
+                  "label": "B",
+                  "text": "are using the same techniques."
                 },
                 {
                   "label": "C",
@@ -257,13 +240,6 @@
                 "allowed_values": [
                   "A",
                   "B",
-                  "C",
-                  "D",
-                  "A",
-                  "B",
-                  "C",
-                  "D",
-                  "A",
                   "C",
                   "D"
                 ],
@@ -292,16 +268,12 @@
             "line_end": 1043,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
             "pdf_pages": [
-              64,
-              65,
-              66,
-              67,
-              68
+              66
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-08-test-03-p-1-g-04-06",
@@ -444,7 +416,7 @@
         {
           "id": "cambridge-08-test-03-p-1-g-07-10",
           "type": "summary_completion",
-          "instructions": "Questions 7-10\nComplete the summary using the list of words, AI, below.\nWrite the correct letter, Al, in boxes 7-10 on your answer sheet.\nIn this method, a laser is used to create a line of ionisation by removing electrons\nfPOM T eee» This laser is then directed at 8 ......0.......... inorder to\ncontrol electrical charges, a method which is less dangerous than using",
+          "instructions": "Complete the summary using the list of words, A–I, below.\nWrite the correct letter, A–I, in boxes 7–10 on your answer sheet.",
           "question_numbers": [
             7,
             8,
@@ -454,11 +426,27 @@
           "options": [
             {
               "label": "A",
-              "text": "cloud-zappers B= atoms"
+              "text": "cloud-zappers"
+            },
+            {
+              "label": "B",
+              "text": "atoms"
             },
             {
               "label": "C",
-              "text": "sostorm clouds BD mitrors E technique F ions"
+              "text": "storm clouds"
+            },
+            {
+              "label": "D",
+              "text": "mirrors"
+            },
+            {
+              "label": "E",
+              "text": "technique"
+            },
+            {
+              "label": "F",
+              "text": "ions"
             },
             {
               "label": "G",
@@ -466,7 +454,11 @@
             },
             {
               "label": "H",
-              "text": "conductors | thunder :"
+              "text": "conductors"
+            },
+            {
+              "label": "I",
+              "text": "thunder"
             }
           ],
           "content_blocks": [
@@ -475,7 +467,39 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 7-10\nComplete the summary using the list of words, AI, below.\nWrite the correct letter, Al, in boxes 7-10 on your answer sheet.\nIn this method, a laser is used to create a line of ionisation by removing electrons\nfPOM T eee» This laser is then directed at 8 ......0.......... inorder to\ncontrol electrical charges, a method which is less dangerous than using\n9 oer. AS @ protection for the lasers, the beams are aimed firstly at\nA cloud-zappers B= atoms C sostorm clouds\nBD mitrors E technique F ions\nG rockets H conductors | thunder :"
+                  "text": "Complete the summary using the list of words, A–I, below.\nWrite the correct letter, A–I, in boxes 7–10 on your answer sheet.\n\nIn this method, a laser is used to create a line of ionisation by removing electrons from "
+                },
+                {
+                  "type": "blank",
+                  "number": 7
+                },
+                {
+                  "type": "text",
+                  "text": ". This laser is then directed at "
+                },
+                {
+                  "type": "blank",
+                  "number": 8
+                },
+                {
+                  "type": "text",
+                  "text": " in order to control electrical charges, a method which is less dangerous than using "
+                },
+                {
+                  "type": "blank",
+                  "number": 9
+                },
+                {
+                  "type": "text",
+                  "text": ". As a protection for the lasers, the beams are aimed firstly at "
+                },
+                {
+                  "type": "blank",
+                  "number": 10
+                },
+                {
+                  "type": "text",
+                  "text": "."
                 }
               ]
             }
@@ -486,9 +510,14 @@
             "allow_number": false,
             "allowed_values": [
               "A",
+              "B",
               "C",
+              "D",
+              "E",
+              "F",
               "G",
-              "H"
+              "H",
+              "I"
             ],
             "reuse_allowed": false,
             "selection_count": null
@@ -499,7 +528,7 @@
               "number": 7,
               "group_id": "cambridge-08-test-03-p-1-g-07-10",
               "type": "summary_completion",
-              "prompt": "Questions 7-10\nComplete the summary using the list of words, AI, below.\nWrite the correct letter, Al, in boxes 7-10 on your answer sheet.\nIn this method, a laser is used to create a line of ionisation by removing electrons\nfPOM T eee» This laser is then directed at 8 ......0.......... inorder to\ncontrol electrical charges, a method which is less dangerous than using\n9 oer. AS @ protection for the lasers, the beams are aimed firstly at\nA cloud-zappers B= atoms C sostorm clouds\nBD mitrors E technique F ions\nG rockets H conductors | thunder :",
+              "prompt": "In this method, a laser is used to create a line of ionisation by removing electrons from {{7}}. This laser is then directed at {{8}} in order to control electrical charges, a method which is less dangerous than using {{9}}. As a protection for the lasers, the beams are aimed firstly at {{10}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -507,9 +536,14 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
+                  "B",
                   "C",
+                  "D",
+                  "E",
+                  "F",
                   "G",
-                  "H"
+                  "H",
+                  "I"
                 ],
                 "reuse_allowed": false,
                 "selection_count": null
@@ -534,7 +568,7 @@
               "number": 8,
               "group_id": "cambridge-08-test-03-p-1-g-07-10",
               "type": "summary_completion",
-              "prompt": "Questions 7-10\nComplete the summary using the list of words, AI, below.\nWrite the correct letter, Al, in boxes 7-10 on your answer sheet.\nIn this method, a laser is used to create a line of ionisation by removing electrons\nfPOM T eee» This laser is then directed at 8 ......0.......... inorder to\ncontrol electrical charges, a method which is less dangerous than using\n9 oer. AS @ protection for the lasers, the beams are aimed firstly at\nA cloud-zappers B= atoms C sostorm clouds\nBD mitrors E technique F ions\nG rockets H conductors | thunder :",
+              "prompt": "In this method, a laser is used to create a line of ionisation by removing electrons from {{7}}. This laser is then directed at {{8}} in order to control electrical charges, a method which is less dangerous than using {{9}}. As a protection for the lasers, the beams are aimed firstly at {{10}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -542,9 +576,14 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
+                  "B",
                   "C",
+                  "D",
+                  "E",
+                  "F",
                   "G",
-                  "H"
+                  "H",
+                  "I"
                 ],
                 "reuse_allowed": false,
                 "selection_count": null
@@ -569,7 +608,7 @@
               "number": 9,
               "group_id": "cambridge-08-test-03-p-1-g-07-10",
               "type": "summary_completion",
-              "prompt": "oer. AS @ protection for the lasers, the beams are aimed firstly at\nA cloud-zappers B= atoms C sostorm clouds\nBD mitrors E technique F ions\nG rockets H conductors | thunder :",
+              "prompt": "In this method, a laser is used to create a line of ionisation by removing electrons from {{7}}. This laser is then directed at {{8}} in order to control electrical charges, a method which is less dangerous than using {{9}}. As a protection for the lasers, the beams are aimed firstly at {{10}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -577,9 +616,14 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
+                  "B",
                   "C",
+                  "D",
+                  "E",
+                  "F",
                   "G",
-                  "H"
+                  "H",
+                  "I"
                 ],
                 "reuse_allowed": false,
                 "selection_count": null
@@ -604,7 +648,7 @@
               "number": 10,
               "group_id": "cambridge-08-test-03-p-1-g-07-10",
               "type": "summary_completion",
-              "prompt": "Questions 7-10\nComplete the summary using the list of words, AI, below.\nWrite the correct letter, Al, in boxes 7-10 on your answer sheet.\nIn this method, a laser is used to create a line of ionisation by removing electrons\nfPOM T eee» This laser is then directed at 8 ......0.......... inorder to\ncontrol electrical charges, a method which is less dangerous than using\n9 oer. AS @ protection for the lasers, the beams are aimed firstly at\nA cloud-zappers B= atoms C sostorm clouds\nBD mitrors E technique F ions\nG rockets H conductors | thunder :",
+              "prompt": "In this method, a laser is used to create a line of ionisation by removing electrons from {{7}}. This laser is then directed at {{8}} in order to control electrical charges, a method which is less dangerous than using {{9}}. As a protection for the lasers, the beams are aimed firstly at {{10}}.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -612,9 +656,14 @@
                 "allow_number": false,
                 "allowed_values": [
                   "A",
+                  "B",
                   "C",
+                  "D",
+                  "E",
+                  "F",
                   "G",
-                  "H"
+                  "H",
+                  "I"
                 ],
                 "reuse_allowed": false,
                 "selection_count": null
@@ -641,16 +690,12 @@
             "line_end": 1043,
             "pdf_file": "ieltsbooks/Cambridge-IELTS-08.pdf",
             "pdf_pages": [
-              64,
-              65,
-              66,
-              67,
-              68
+              67
             ],
             "line_coordinate_space": "original_txt"
           },
           "representation": "structured_text",
-          "source_verified": false
+          "source_verified": true
         },
         {
           "id": "cambridge-08-test-03-p-1-g-11-13",

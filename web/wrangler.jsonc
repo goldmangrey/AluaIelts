@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "alua-ielts",
+  "main": ".open-next/worker.js",
+  // Latest date supported by the installed workerd binary; no future-date fallback.
+  "compatibility_date": "2026-10-23",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "ai": { "binding": "AI" },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    { "binding": "WORKER_SELF_REFERENCE", "service": "alua-ielts" }
+  ],
+  // Preserve dashboard runtime vars; NEXT_PUBLIC_* must also exist at build time.
+  "keep_vars": true,
+  // Do not enable request/header logging for authenticated API traffic.
+  "observability": { "enabled": false }
+}
