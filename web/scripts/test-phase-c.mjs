@@ -74,7 +74,7 @@ const initial={status:"loading" as const,user:null,profile:null,generation:0};
 const states=new Map();const listeners=new Set<()=>void>();const signedOut={status:"signed_out",user:null,profile:null,generation:3};
 function snapshot(){if(localStorage.getItem("release-signed-out"))return signedOut;const uid=localStorage.getItem("release-uid")||"fixture-A";if(!states.has(uid))states.set(uid,{status:"ready",user:{uid,email:"fixture@example.invalid"},profile:{uid,display_name:"Fixture"},generation:uid==="fixture-A"?1:2});return states.get(uid)}
 export function useSession(){return useSyncExternalStore(listener=>{listeners.add(listener);return()=>{listeners.delete(listener)}},snapshot,()=>initial)}
-export async function retrySession(){};export async function logout(){const {clearDraftOwner}=await import("@/features/reading/exam/draft-storage");await clearDraftOwner(localStorage.getItem("release-uid")||"fixture-A");localStorage.setItem("release-signed-out","1");listeners.forEach(fn=>fn())};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};
+export async function prepareGoogleAuth(_mode?:string){return async()=>{}};export async function retrySession(){};export async function logout(){const {clearDraftOwner}=await import("@/features/reading/exam/draft-storage");await clearDraftOwner(localStorage.getItem("release-uid")||"fixture-A");localStorage.setItem("release-signed-out","1");listeners.forEach(fn=>fn())};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};
 `);
   }
   await run(process.execPath, [require.resolve("next/dist/bin/next"), "build", "--webpack"], sandbox);

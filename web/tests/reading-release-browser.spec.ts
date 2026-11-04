@@ -8,11 +8,11 @@ test("home → catalog → explicit Start → durable answers → Finish → rea
  await page.goto("/");await page.getByRole("link",{name:/Reading/}).click();await page.getByRole("link",{name:"18 Cambridge IELTS"}).click();await page.getByRole("link",{name:/Test 1/}).click();
  await page.getByRole("button",{name:"Start test",exact:true}).dblclick();await expect(page.getByRole("button",{name:"Finish",exact:true})).toBeVisible();
  expect(backend.events.filter(e=>e.path==="/reading/attempts")).toHaveLength(1);
- await page.getByLabel("Answer 1",{exact:true}).fill("lettuce");await page.getByLabel("Answer 2",{exact:true}).fill("tomato");await expect(page.getByText("All answers saved",{exact:true})).toBeVisible();
- await page.getByRole("button",{name:"Mark question 1 for review",exact:true}).click();await page.getByRole("button",{name:"Increase passage text size"}).click();
+ await page.getByLabel("Answer 1",{exact:true}).fill("lettuce");await page.getByLabel("Answer 2",{exact:true}).fill("tomato");await expect(page.locator(".save-status")).toHaveText("");
+ await page.getByRole("button",{name:"Mark question 1 for review",exact:true}).click();await page.getByRole("button",{name:"20px · Large"}).click();
  await page.getByRole("button",{name:"Passage 2",exact:true}).click();await page.getByRole("button",{name:"Passage 1",exact:true}).click();
  await page.reload();await expect(page.getByLabel("Answer 1",{exact:true})).toHaveValue("lettuce");await expect(page.getByRole("button",{name:"Unmark question 1 for review",exact:true})).toBeVisible();
- await page.getByRole("button",{name:"Finish",exact:true}).click();await expect(page.getByRole("dialog",{name:"Finish test?"})).toContainText("2 of 40");await page.getByRole("button",{name:"Return to test"}).click();expect(backend.events.filter(e=>e.path.endsWith("/submit"))).toHaveLength(0);
+ await page.getByRole("button",{name:"Finish",exact:true}).click();await expect(page.getByRole("dialog",{name:"Finish your test?"})).toContainText("2 of 40");await page.getByRole("button",{name:"Return to test"}).click();expect(backend.events.filter(e=>e.path.endsWith("/submit"))).toHaveLength(0);
  await page.getByRole("button",{name:"Finish",exact:true}).click();await page.getByRole("button",{name:"Finish test",exact:true}).click();
  await expect(page).toHaveURL(`${page.url().split("/reading")[0]}${path}/result`);await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();
  await page.getByRole("link",{name:/^Review (?:\d+ mistakes?|all answers)$/}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page.getByText("Review · Read only",{exact:true})).toBeVisible();
@@ -26,7 +26,7 @@ test("device drafts survive server outage, refresh, close/reopen; offline typing
  page.on("dialog",dialog=>dialog.accept());await page.reload();await expect(page.getByLabel("Answer 1",{exact:true})).toHaveValue("local unsynced");
  await page.close();const reopened=await context.newPage();await reopened.goto(path);await expect(reopened.getByLabel("Answer 1",{exact:true})).toHaveValue("local unsynced");
  backend.fail(false);await context.setOffline(true);await reopened.getByLabel("Answer 1",{exact:true}).fill("offline draft");await expect(reopened.getByText("Offline · Saved on this device",{exact:true})).toBeVisible();
- await context.setOffline(false);await expect(reopened.getByText("All answers saved",{exact:true})).toBeVisible();expect(Object.values(backend.server().answers)).toContain("offline draft");
+ await context.setOffline(false);await expect(reopened.locator(".save-status")).toHaveText("");expect(Object.values(backend.server().answers)).toContain("offline draft");
 });
 
 test("two tabs are fenced; remote conflicts preserve both choices; another UID cannot see drafts/results",async({page,context})=>{
@@ -35,13 +35,13 @@ test("two tabs are fenced; remote conflicts preserve both choices; another UID c
  const q=exam.passages[0]!.question_groups[0]!.questions[0]!;
  await page.getByLabel("Answer 1",{exact:true}).fill("mine");backend.remote({[q.id]:"theirs"});
  await expect(page.getByRole("dialog",{name:"Choose which answers to keep"})).toBeVisible();await expect(page.getByText("This device: mine")).toBeVisible();await expect(page.getByText("Server: theirs")).toBeVisible();
- await page.getByRole("radio",{name:"This device: mine"}).check();await page.getByRole("button",{name:"Save chosen answers"}).click();await expect(page.getByText("All answers saved",{exact:true})).toBeVisible();
+ await page.getByRole("radio",{name:"This device: mine"}).check();await page.getByRole("button",{name:"Save chosen answers"}).click();await expect(page.locator(".save-status")).toHaveText("");
  await page.evaluate(()=>localStorage.setItem("release-uid","fixture-B"));await page.reload();await expect(page.getByText(/may not belong to this account/)).toBeVisible();await expect(page.getByLabel("Answer 1",{exact:true})).toHaveCount(0);
 });
 
 test("unknown sync replays UUID; unknown Finish recovers terminal result without a second grading",async({page,context})=>{
  const backend=await releaseBackend(context);backend.unknownSave(true);await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("lettuce");await page.getByLabel("Answer 2",{exact:true}).fill("tomato");
- await expect(page.getByText("All answers saved",{exact:true})).toBeVisible();const saves=backend.events.filter(e=>e.path.endsWith("/sync"));expect(saves.length).toBeGreaterThan(1);expect(saves[0]!.body).toEqual(saves[1]!.body);
+ await expect(page.locator(".save-status")).toHaveText("");const saves=backend.events.filter(e=>e.path.endsWith("/sync"));expect(saves.length).toBeGreaterThan(1);expect(saves[0]!.body).toEqual(saves[1]!.body);
  backend.unknownSubmit(true);await page.getByRole("button",{name:"Finish",exact:true}).click();await page.getByRole("button",{name:"Finish test",exact:true}).click();await expect(page.getByText("Submission unknown — retry safely")).toBeVisible();
  page.on("dialog",d=>d.accept());await page.reload();await page.getByRole("link",{name:"View result"}).click();await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();
  const submits=backend.events.filter(e=>e.path.endsWith("/submit"));expect(new Set(submits.map(e=>e.body.event_id)).size).toBe(1);
@@ -57,7 +57,7 @@ test("stable text highlights and view preferences survive resizing, passages and
  await releaseBackend(context);await page.goto(path);const block=page.locator("[data-highlight-block]").first();await expect(block).toBeVisible();
  const quote=await block.evaluate(el=>{const node=el.firstChild!;const range=document.createRange();range.setStart(node,0);range.setEnd(node,Math.min(35,node.textContent!.length));const selection=window.getSelection()!;selection.removeAllRanges();selection.addRange(range);el.dispatchEvent(new MouseEvent("mouseup",{bubbles:true}));return range.toString()});
  await page.getByRole("button",{name:"Highlight",exact:true}).click();await expect(page.locator("mark")).toHaveText(quote);
- await page.getByRole("button",{name:"Increase passage text size"}).click();await page.getByRole("separator").press("ArrowRight");await page.getByRole("button",{name:"Passage 2",exact:true}).click();await page.getByRole("button",{name:"Passage 1",exact:true}).click();
+ await page.getByRole("button",{name:"20px · Large"}).click();await page.getByRole("separator").press("ArrowRight");await page.getByRole("button",{name:"Passage 2",exact:true}).click();await page.getByRole("button",{name:"Passage 1",exact:true}).click();
  await expect(page.getByText("Saving on this device…",{exact:true})).toHaveCount(0);await page.reload();await expect(page.locator("mark")).toHaveText(quote);await expect(page.getByRole("separator")).toHaveAttribute("aria-valuenow","52");
  await page.getByRole("button",{name:"Clear passage highlights"}).click();await expect(page.locator("mark")).toHaveCount(0);
 });
@@ -70,7 +70,7 @@ test("deadline reached offline pauses editing, reconnect confirms server expiry 
 });
 
 test("logout cleanup removes the owner's actual IndexedDB drafts and leases",async({page,context})=>{
- await releaseBackend(context);await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("saved draft");await expect(page.getByText("All answers saved",{exact:true})).toBeVisible();
+ await releaseBackend(context);await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("saved draft");await expect(page.locator(".save-status")).toHaveText("");
  const count=()=>page.evaluate(()=>new Promise<number>((resolve,reject)=>{const request=indexedDB.open("alua-reading-drafts",1);request.onsuccess=()=>{const tx=request.result.transaction("drafts");const all=tx.objectStore("drafts").getAll();all.onsuccess=()=>resolve(all.result.filter(v=>v.uid==="fixture-A").length);all.onerror=()=>reject(all.error)}}));
  expect(await count()).toBe(1);await page.goto("/profile");await page.getByRole("button",{name:"Log out",exact:true}).click();await expect(page).toHaveURL("http://127.0.0.1:3300/");expect(await count()).toBe(0);
 });
@@ -131,7 +131,7 @@ test("Reading library: loading, empty, API failure, retry and permissions", asyn
  mode="forbidden";await page.reload();await expect(page.getByRole("heading",{name:"Practice tests aren’t available for this account."})).toBeVisible();
  await page.evaluate(()=>localStorage.setItem("release-signed-out","1"));await page.reload();
  await expect(page.getByRole("heading",{name:"Log in to view practice tests."})).toBeVisible();
- await expect(page.locator(".account-link")).toHaveText("Log in ↗");
+ await expect(page.getByRole("banner").getByRole("link",{name:"Log in",exact:true})).toHaveAttribute("href","/login");
  await expect(page.getByRole("main").getByRole("link",{name:"Log in",exact:true})).toHaveAttribute("href","/login?next=%2Freading");
 });
 

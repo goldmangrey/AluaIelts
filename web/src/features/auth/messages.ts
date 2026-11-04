@@ -15,6 +15,11 @@ export function authMessage(error: unknown): string {
   }
   const code = error && typeof error === "object" && "code" in error ? error.code : "";
   switch (code) {
+    case "auth/popup-closed-by-user": case "auth/cancelled-popup-request": return "Google sign-in was cancelled. You can try again whenever you’re ready.";
+    case "auth/popup-blocked": return "Your browser blocked the Google window. Allow popups for this website and try again.";
+    case "auth/provider-already-linked": return "Google is already connected to this account. Choose Continue to return to your practice.";
+    case "auth/credential-already-in-use": return "This Google account is connected to another identity. Use its existing sign-in method; your accounts have not been merged.";
+    case "auth/account-exists-with-different-credential": return "This email uses another sign-in method. Log in with your existing method to keep your Alua account and progress.";
     case "auth/invalid-email": return "Enter a valid email address.";
     case "auth/invalid-credential": case "auth/wrong-password": case "auth/user-not-found":
       return "The email or password is incorrect. Check your details or reset your password.";

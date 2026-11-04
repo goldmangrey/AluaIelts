@@ -72,3 +72,10 @@ test("real HTTP 5xx and a stalled response body settle with bounded errors", asy
     else process.env.NEXT_PUBLIC_API_BASE_URL = oldBase;
   }
 });
+
+
+test("restored Google errors preserve the existing account and never suggest merging", () => {
+  expect(authMessage({code:"auth/account-exists-with-different-credential"})).toContain("existing method");
+  expect(authMessage({code:"auth/credential-already-in-use"})).toContain("have not been merged");
+  expect(authMessage({code:"auth/popup-closed-by-user"})).toContain("cancelled");
+});

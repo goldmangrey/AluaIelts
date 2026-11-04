@@ -107,6 +107,28 @@ export async function authenticate(mode: "login" | "register", email: string, pa
     await resolveUser(user, mode === "register" ? name : undefined);
   } finally { action = false; }
 }
+// Restored from the Nov 3 production build; prepare before the popup click.
+export async function prepareGoogleAuth(mode: "sign-in" | "link" = "sign-in") {
+  const [auth, sdk] = await Promise.all([getFirebaseAuth(), import("firebase/auth")]);
+  await observeFirebase(auth);
+  return async () => {
+    if (action) throw new ApiError(409, "auth_busy");
+    action = true;
+    try {
+      const provider = new sdk.GoogleAuthProvider();
+      provider.setCustomParameters({ prompt: "select_account" });
+      const current = auth.currentUser;
+      if (mode === "link" && (!current || state.status !== "ready" || state.user?.uid !== current.uid)) throw new ApiError(401, "sign_in_required");
+      const { user } = await (mode === "link" && current ? sdk.linkWithPopup(current, provider) : sdk.signInWithPopup(auth, provider));
+      if (auth.currentUser?.uid !== user.uid) throw new ApiError(401, "session_changed");
+      job = undefined;
+      await resolveUser(user, user.displayName?.replace(/[\x00-\x1f]/g, "").trim().slice(0, 80));
+      if (auth.currentUser?.uid !== user.uid || state.status !== "ready" || state.user?.uid !== user.uid) {
+        const error = new ApiError(401, "session_changed"); clear("error", error); throw error;
+      }
+    } finally { action = false; }
+  };
+}
 export async function retrySession() {
   const auth = await getFirebaseAuth();
   await observeFirebase(auth);

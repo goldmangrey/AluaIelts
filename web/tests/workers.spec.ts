@@ -1,6 +1,19 @@
 import {test,expect} from "@playwright/test";
 const fixture="http://127.0.0.1:8791/api/alua";
 const headers={Authorization:"Bearer transport-fixture-only"};
+test("Listening authorization and audio reach FastAPI through workerd",async({request})=>{
+ const id="11111111-2222-4333-8444-555555555555";
+ const authorization=await request.post(`/api/listening/authorize`,{
+  headers:{Authorization:"Bearer fixture-invalid"},data:{attempt_id:id}
+ });
+ expect(authorization.status()).toBe(401);
+ expect(authorization.headers()["cache-control"]).toContain("no-store");
+ const audio=await request.get(`/api/listening/audio/${id}/1`,{
+  headers:{Cookie:`alua_listening_${id}=fixture-invalid`}
+ });
+ expect(audio.status()).toBe(401);
+ expect(audio.headers()["cache-control"]).toContain("no-store");
+});
 test("real-config Workers pages hydrate, Firebase initialization settles, all dynamic routes stay protected",async({page})=>{
  const errors:string[]=[];page.on("pageerror",error=>errors.push(error.message));
  for(const path of ["/","/login","/reading","/reading/history","/reading/cambridge-18","/reading/cambridge-18/cambridge-18-test-01","/reading/attempts/11111111-2222-4333-8444-555555555555","/reading/attempts/11111111-2222-4333-8444-555555555555/result","/reading/attempts/11111111-2222-4333-8444-555555555555/review"]){

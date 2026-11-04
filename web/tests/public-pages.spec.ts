@@ -27,7 +27,7 @@ test("approved home, responsive grid, keyboard and Reading navigation", async ({
 });
 
 test("unfinished sections contain only coming soon and a way back", async ({ page }) => {
-  for (const section of ["Listening", "Writing", "Speaking"]) {
+  for (const section of ["Writing", "Speaking"]) {
     await page.goto(`/${section.toLowerCase()}`);
     await expect(page.getByRole("heading", { name: `${section}.` })).toBeVisible();
     await expect(page.getByText("Coming soon.", { exact: true })).toBeVisible();
