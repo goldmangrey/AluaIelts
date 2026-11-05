@@ -27,5 +27,5 @@ const ready:Session={status:"ready",user:{uid:"listening-fixture",email:"fixture
 export function useSession(){return useSyncExternalStore(()=>()=>{},()=>ready,()=>initial)}
 export async function prepareGoogleAuth(_mode?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
  await run(process.execPath,[require.resolve("next/dist/bin/next"),"build","--webpack"],sandbox);
- await run(process.execPath,[join(dirname(require.resolve("@playwright/test/package.json")),"cli.js"),"test","--config=playwright.listening.config.ts"],root);
+ await run(process.execPath,[join(dirname(require.resolve("@playwright/test/package.json")),"cli.js"),"test","--config=playwright.listening.config.ts",...(process.env.ALUA_LISTENING_TEST_GREP?["--grep",process.env.ALUA_LISTENING_TEST_GREP]:[])],root);
 }finally{await rm(sandbox,{recursive:true,force:true});}

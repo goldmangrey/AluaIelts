@@ -1,6 +1,6 @@
 export type Mode="verified"|"preliminary"|"ungraded"|"blocked";
 export interface Option {label:string;text:string|null;visual_reference?:{original_label:string}}
-export interface Question {question_id:string;question_number:number;prompt:string|null;input_type:"text"|"select"|"multi_select";options:Option[];answer_bank_id:string|null;constraints:{max_words:number|null;max_numbers:number|null;required_choices?:number|null};renderable:boolean;verification:{status:string}}
+export interface Question {visual_binding?:{asset_ids:string[]};question_id:string;question_number:number;prompt:string|null;input_type:"text"|"select"|"multi_select";options:Option[];answer_bank_id:string|null;constraints:{max_words:number|null;max_numbers:number|null;required_choices?:number|null};renderable:boolean;verification:{status:string}}
 export type Block={kind:"source_line";text:string;source_line:number;blanks:{question_number:number;start:number;end:number}[]}|{kind:"original_source_image";asset_id:string}|{kind:"answer_field";question_id:string};
 export interface Group {group_id:string;question_range:number[];question_type:string;instructions:string;presentation_mode:"structured"|"image_backed";answer_bank:{bank_id:string;options:Option[]}|null;selection:{distinct?:boolean;answer_slots:number[];minimum_selected:number;maximum_selected:number;order:string}|null;supporting_assets:string[];content_blocks:Block[];questions:Question[]}
 export interface Part {part_number:number;question_range:number[];groups:Group[];supporting_assets:string[]}
