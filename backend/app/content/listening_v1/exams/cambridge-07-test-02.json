@@ -1,0 +1,3495 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-07-test-02",
+  "book": 7,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 214,
+        "line_end": 245,
+        "pdf_pages": [
+          37
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-02-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 3,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 217,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 218,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "CAR INSURANCE",
+              "source_line": 220,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example — Name: Patrick Jones",
+              "source_line": 221,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Address: [1] ____________________, Greendale",
+              "source_line": 222,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 9,
+                  "end": 33
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Contact number: 730453",
+              "source_line": 223,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Occupation: [2] ____________________",
+              "source_line": 224,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 12,
+                  "end": 36
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Size of car engine: 1200cc",
+              "source_line": 225,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Type of car:",
+              "source_line": 226,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Manufacturer: Hewton",
+              "source_line": 227,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Model: [3] ____________________",
+              "source_line": 228,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 11,
+                  "end": 35
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    Year: 1997",
+              "source_line": 229,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Previous insurance company: [4] ____________________",
+              "source_line": 230,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 28,
+                  "end": 52
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Any insurance claims in the last five years? Yes [checked] / No [unchecked]",
+              "source_line": 231,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "If yes, give brief details: Car was [5] ____________________ in 1999.",
+              "source_line": 232,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 36,
+                  "end": 60
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Name(s) of other driver(s): Simon [6] ____________________",
+              "source_line": 233,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 34,
+                  "end": 58
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Relationship to main driver: [7] ____________________",
+              "source_line": 234,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 29,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Uses of car:",
+              "source_line": 235,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – social",
+              "source_line": 236,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – [8] ____________________",
+              "source_line": 237,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 6,
+                  "end": 30
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Start date: 31 January",
+              "source_line": 238,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Recommended Insurance arrangement:",
+              "source_line": 239,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Name of company: [9] ____________________",
+              "source_line": 240,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 21,
+                  "end": 45
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    Annual cost: $ [10] ____________________",
+              "source_line": 241,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 19,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 215,
+            "line_end": 245,
+            "pdf_pages": [
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q01",
+              "question_number": 1,
+              "prompt": "Address: [1] ____________________, Greendale",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 222,
+                  "start": 9,
+                  "end": 33,
+                  "text": "Address: [1] ____________________, Greendale",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q02",
+              "question_number": 2,
+              "prompt": "Occupation: [2] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 224,
+                  "start": 12,
+                  "end": 36,
+                  "text": "Occupation: [2] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q03",
+              "question_number": 3,
+              "prompt": "Model: [3] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 228,
+                  "start": 11,
+                  "end": 35,
+                  "text": "    Model: [3] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q04",
+              "question_number": 4,
+              "prompt": "Previous insurance company: [4] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 230,
+                  "start": 28,
+                  "end": 52,
+                  "text": "Previous insurance company: [4] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q05",
+              "question_number": 5,
+              "prompt": "If yes, give brief details: Car was [5] ____________________ in 1999.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 232,
+                  "start": 36,
+                  "end": 60,
+                  "text": "If yes, give brief details: Car was [5] ____________________ in 1999.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q06",
+              "question_number": 6,
+              "prompt": "Name(s) of other driver(s): Simon [6] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 233,
+                  "start": 34,
+                  "end": 58,
+                  "text": "Name(s) of other driver(s): Simon [6] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q07",
+              "question_number": 7,
+              "prompt": "Relationship to main driver: [7] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 234,
+                  "start": 29,
+                  "end": 53,
+                  "text": "Relationship to main driver: [7] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q08",
+              "question_number": 8,
+              "prompt": "– [8] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 237,
+                  "start": 6,
+                  "end": 30,
+                  "text": "    – [8] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q09",
+              "question_number": 9,
+              "prompt": "Name of company: [9] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 240,
+                  "start": 21,
+                  "end": 45,
+                  "text": "    Name of company: [9] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q10",
+              "question_number": 10,
+              "prompt": "Annual cost: $ [10] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 241,
+                  "start": 19,
+                  "end": 44,
+                  "text": "    Annual cost: $ [10] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2",
+          "question_range": [
+            1,
+            10
+          ],
+          "display_order": 1,
+          "asset_role": "task_image",
+          "alternative_asset_ids": [
+            "asset-892dc7776bcbc3bcf8b44c140309e0831253ddab5a991b774c401fc26ed7ab49",
+            "asset-0363281b0812c8fcffb714cd47656fcc05290105aca5cfa98923425c40224603"
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 246,
+        "line_end": 289,
+        "pdf_pages": [
+          38,
+          39
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d",
+        "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-02-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "map_labelling",
+          "instructions": "Label the map below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the map below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the map below.",
+              "source_line": 250,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 251,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "BOAT TRIP",
+              "source_line": 253,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The original map contains a river route connecting four stops:",
+              "source_line": 254,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "STOP A: Green Banks",
+              "source_line": 255,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "STOP B: [11] ____________________",
+              "source_line": 256,
+              "blanks": [
+                {
+                  "question_number": 11,
+                  "start": 8,
+                  "end": 33
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "STOP C: [12] ____________________ (Roman Landing shown near this section of map)",
+              "source_line": 257,
+              "blanks": [
+                {
+                  "question_number": 12,
+                  "start": 8,
+                  "end": 33
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "STOP D: marked on the right of the plan",
+              "source_line": 258,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The map with the stop positions and their geographic relationships is supplied as an image.",
+              "source_line": 261,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 249,
+            "line_end": 262,
+            "pdf_pages": [
+              38,
+              39
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q11",
+              "question_number": 11,
+              "prompt": "STOP B: [11] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 256,
+                  "start": 8,
+                  "end": 33,
+                  "text": "STOP B: [11] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d"
+                ],
+                "printed_question_number": 11,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q12",
+              "question_number": 12,
+              "prompt": "STOP C: [12] ____________________ (Roman Landing shown near this section of map)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 257,
+                  "start": 8,
+                  "end": 33,
+                  "text": "STOP C: [12] ____________________ (Roman Landing shown near this section of map)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d"
+                ],
+                "printed_question_number": 12,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-02-p2-g13-18",
+          "question_range": [
+            13,
+            18
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 264,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 265,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "BOAT TRIP INFORMATION",
+              "source_line": 267,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Stop   | Attraction             | Further Information",
+              "source_line": 268,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "-------|------------------------|---------------------------------------",
+              "source_line": 269,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A      | Palace                 | has lovely [14] ________________",
+              "source_line": 270,
+              "blanks": [
+                {
+                  "question_number": 14,
+                  "start": 45,
+                  "end": 66
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "       | Main Booking Office    | First boat: 8 a.m.",
+              "source_line": 271,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "       |                        | Last boat: [13] __________ p.m.",
+              "source_line": 272,
+              "blanks": [
+                {
+                  "question_number": 13,
+                  "start": 45,
+                  "end": 60
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "B      | [15] ________________  | has good [16] __________ of city centre",
+              "source_line": 273,
+              "blanks": [
+                {
+                  "question_number": 15,
+                  "start": 9,
+                  "end": 30
+                },
+                {
+                  "question_number": 16,
+                  "start": 43,
+                  "end": 58
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "C      | Museum                 | bookshop specialising in the",
+              "source_line": 274,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "       |                        | [17] __________ of the local area",
+              "source_line": 275,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 34,
+                  "end": 49
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "D      | Entertainment Complex  | [18] __________ cinema",
+              "source_line": 276,
+              "blanks": [
+                {
+                  "question_number": 18,
+                  "start": 34,
+                  "end": 49
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "       |                        | bowling alley; video games arcade",
+              "source_line": 277,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 263,
+            "line_end": 278,
+            "pdf_pages": [
+              38,
+              39
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q13",
+              "question_number": 13,
+              "prompt": "|                        | Last boat: [13] __________ p.m.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 272,
+                  "start": 45,
+                  "end": 60,
+                  "text": "       |                        | Last boat: [13] __________ p.m.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+                ],
+                "printed_question_number": 13,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q14",
+              "question_number": 14,
+              "prompt": "A      | Palace                 | has lovely [14] ________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 270,
+                  "start": 45,
+                  "end": 66,
+                  "text": "A      | Palace                 | has lovely [14] ________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+                ],
+                "printed_question_number": 14,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q15",
+              "question_number": 15,
+              "prompt": "B      | [15] ________________  | has good [16] __________ of city centre",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 273,
+                  "start": 9,
+                  "end": 30,
+                  "text": "B      | [15] ________________  | has good [16] __________ of city centre",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q16",
+              "question_number": 16,
+              "prompt": "B      | [15] ________________  | has good [16] __________ of city centre",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 273,
+                  "start": 43,
+                  "end": 58,
+                  "text": "B      | [15] ________________  | has good [16] __________ of city centre",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q17",
+              "question_number": 17,
+              "prompt": "|                        | [17] __________ of the local area",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 275,
+                  "start": 34,
+                  "end": 49,
+                  "text": "       |                        | [17] __________ of the local area",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q18",
+              "question_number": 18,
+              "prompt": "D      | Entertainment Complex  | [18] __________ cinema",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 276,
+                  "start": 34,
+                  "end": 49,
+                  "text": "D      | Entertainment Complex  | [18] __________ cinema",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-02-p2-g19-20",
+          "question_range": [
+            19,
+            20
+          ],
+          "question_type": "short_answer",
+          "instructions": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 3,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 280,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. How often do the Top Bus Company tours run?",
+              "source_line": 282,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    [19] ____________________",
+              "source_line": 283,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 4,
+                  "end": 29
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "20. Where can you catch a Number One Sightseeing Tour from?",
+              "source_line": 284,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    [20] ____________________",
+              "source_line": 285,
+              "blanks": [
+                {
+                  "question_number": 20,
+                  "start": 4,
+                  "end": 29
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 279,
+            "line_end": 289,
+            "pdf_pages": [
+              38,
+              39
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q19",
+              "question_number": 19,
+              "prompt": "19. How often do the Top Bus Company tours run?",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 282,
+                  "start": 0,
+                  "end": 47,
+                  "text": "19. How often do the Top Bus Company tours run?",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 283,
+                  "start": 4,
+                  "end": 29,
+                  "text": "    [19] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q20",
+              "question_number": 20,
+              "prompt": "20. Where can you catch a Number One Sightseeing Tour from?",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 284,
+                  "start": 0,
+                  "end": 59,
+                  "text": "20. Where can you catch a Number One Sightseeing Tour from?",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 285,
+                  "start": 4,
+                  "end": 29,
+                  "text": "    [20] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d",
+          "question_range": [
+            11,
+            12
+          ],
+          "display_order": 1,
+          "asset_role": "task_image",
+          "alternative_asset_ids": [
+            "asset-91461cc55d6b2e1625c02e4e508a0652df376011bb67c711b7059dd27f5f3e21",
+            "asset-78b19ed53628e3414a1eda16989fc807ee2679af3f9cf2e7b3b37bb6b972f527"
+          ]
+        },
+        {
+          "asset_id": "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c",
+          "question_range": [
+            13,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 290,
+        "line_end": 353,
+        "pdf_pages": [
+          40,
+          41
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-8a4e8d0131b41e1184e290d2fb0b687093a5c92f9935b58a0f4ca88348aaad11",
+        "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-02-p3-g21-26",
+          "question_range": [
+            21,
+            26
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-8a4e8d0131b41e1184e290d2fb0b687093a5c92f9935b58a0f4ca88348aaad11"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 294,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. The Antarctic Centre was established in Christchurch because",
+              "source_line": 296,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A New Zealand is a member of the Antarctic Treaty.",
+              "source_line": 297,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B Christchurch is geographically well positioned.",
+              "source_line": 298,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C the climate of Christchurch is suitable.",
+              "source_line": 299,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22. One role of the Antarctic Centre is to",
+              "source_line": 301,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A provide expeditions with suitable equipment.",
+              "source_line": 302,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B provide researchers with financial assistance.",
+              "source_line": 303,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C ensure that research is internationally relevant.",
+              "source_line": 304,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. The purpose of the Visitors' Centre is to",
+              "source_line": 306,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A provide accommodation.",
+              "source_line": 307,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B run training sessions.",
+              "source_line": 308,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C show people what Antarctica is like.",
+              "source_line": 309,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24. Dr Merrywhether says that Antarctica is",
+              "source_line": 311,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A unlike any other country.",
+              "source_line": 312,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B extremely beautiful.",
+              "source_line": 313,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C too cold for tourists.",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. According to Dr Merrywhether, Antarctica is very cold because",
+              "source_line": 316,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A of the shape of the continent.",
+              "source_line": 317,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B it is surrounded by a frozen sea.",
+              "source_line": 318,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C it is an extremely dry continent.",
+              "source_line": 319,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. Dr Merrywhether thinks Antarctica was part of another continent because",
+              "source_line": 321,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A he has done his own research in the area.",
+              "source_line": 322,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B there is geological evidence of this.",
+              "source_line": 323,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C it is very close to South America.",
+              "source_line": 324,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q24"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q26"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 293,
+            "line_end": 325,
+            "pdf_pages": [
+              40,
+              41
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q21",
+              "question_number": 21,
+              "prompt": "21. The Antarctic Centre was established in Christchurch because",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "New Zealand is a member of the Antarctic Treaty.",
+                  "source_line": 297
+                },
+                {
+                  "label": "B",
+                  "text": "Christchurch is geographically well positioned.",
+                  "source_line": 298
+                },
+                {
+                  "label": "C",
+                  "text": "the climate of Christchurch is suitable.",
+                  "source_line": 299
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 296,
+                  "start": 0,
+                  "end": 64,
+                  "text": "21. The Antarctic Centre was established in Christchurch because",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q22",
+              "question_number": 22,
+              "prompt": "22. One role of the Antarctic Centre is to",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "provide expeditions with suitable equipment.",
+                  "source_line": 302
+                },
+                {
+                  "label": "B",
+                  "text": "provide researchers with financial assistance.",
+                  "source_line": 303
+                },
+                {
+                  "label": "C",
+                  "text": "ensure that research is internationally relevant.",
+                  "source_line": 304
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 301,
+                  "start": 0,
+                  "end": 42,
+                  "text": "22. One role of the Antarctic Centre is to",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q23",
+              "question_number": 23,
+              "prompt": "23. The purpose of the Visitors' Centre is to",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "provide accommodation.",
+                  "source_line": 307
+                },
+                {
+                  "label": "B",
+                  "text": "run training sessions.",
+                  "source_line": 308
+                },
+                {
+                  "label": "C",
+                  "text": "show people what Antarctica is like.",
+                  "source_line": 309
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 306,
+                  "start": 0,
+                  "end": 45,
+                  "text": "23. The purpose of the Visitors' Centre is to",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q24",
+              "question_number": 24,
+              "prompt": "24. Dr Merrywhether says that Antarctica is",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "unlike any other country.",
+                  "source_line": 312
+                },
+                {
+                  "label": "B",
+                  "text": "extremely beautiful.",
+                  "source_line": 313
+                },
+                {
+                  "label": "C",
+                  "text": "too cold for tourists.",
+                  "source_line": 314
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 311,
+                  "start": 0,
+                  "end": 43,
+                  "text": "24. Dr Merrywhether says that Antarctica is",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q25",
+              "question_number": 25,
+              "prompt": "25. According to Dr Merrywhether, Antarctica is very cold because",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "of the shape of the continent.",
+                  "source_line": 317
+                },
+                {
+                  "label": "B",
+                  "text": "it is surrounded by a frozen sea.",
+                  "source_line": 318
+                },
+                {
+                  "label": "C",
+                  "text": "it is an extremely dry continent.",
+                  "source_line": 319
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 316,
+                  "start": 0,
+                  "end": 65,
+                  "text": "25. According to Dr Merrywhether, Antarctica is very cold because",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q26",
+              "question_number": 26,
+              "prompt": "26. Dr Merrywhether thinks Antarctica was part of another continent because",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "he has done his own research in the area.",
+                  "source_line": 322
+                },
+                {
+                  "label": "B",
+                  "text": "there is geological evidence of this.",
+                  "source_line": 323
+                },
+                {
+                  "label": "C",
+                  "text": "it is very close to South America.",
+                  "source_line": 324
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 321,
+                  "start": 0,
+                  "end": 75,
+                  "text": "26. Dr Merrywhether thinks Antarctica was part of another continent because",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-02-p3-g27-28",
+          "question_range": [
+            27,
+            28
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR TWO NUMBERS for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 2,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR TWO NUMBERS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 327,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR TWO NUMBERS for each answer.",
+              "source_line": 328,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "ANTARCTIC TREATY",
+              "source_line": 330,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Date                    | Event",
+              "source_line": 331,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "------------------------|--------------------------------------",
+              "source_line": 332,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1870                    | Polar Research meeting",
+              "source_line": 333,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "[27] __________ to ______ | 1st International Polar Year",
+              "source_line": 334,
+              "blanks": [
+                {
+                  "question_number": 27,
+                  "start": 0,
+                  "end": 15
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "1957                    | Antarctic Treaty was proposed",
+              "source_line": 335,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1959                    | Antarctic Treaty was [28] __________",
+              "source_line": 336,
+              "blanks": [
+                {
+                  "question_number": 28,
+                  "start": 47,
+                  "end": 62
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 331,
+                "cells": [
+                  {
+                    "text": "Date",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Event",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 333,
+                "cells": [
+                  {
+                    "text": "1870",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Polar Research meeting",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 334,
+                "cells": [
+                  {
+                    "text": "[27] __________ to ______",
+                    "question_numbers": [
+                      27
+                    ]
+                  },
+                  {
+                    "text": "1st International Polar Year",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 335,
+                "cells": [
+                  {
+                    "text": "1957",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Antarctic Treaty was proposed",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 336,
+                "cells": [
+                  {
+                    "text": "1959",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Antarctic Treaty was [28] __________",
+                    "question_numbers": [
+                      28
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 326,
+            "line_end": 337,
+            "pdf_pages": [
+              40,
+              41
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q27",
+              "question_number": 27,
+              "prompt": "[27] __________ to ______ | 1st International Polar Year",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 334,
+                  "start": 0,
+                  "end": 15,
+                  "text": "[27] __________ to ______ | 1st International Polar Year",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 2,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR TWO NUMBERS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf"
+                ],
+                "printed_question_number": 27,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q28",
+              "question_number": 28,
+              "prompt": "1959                    | Antarctic Treaty was [28] __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 336,
+                  "start": 47,
+                  "end": 62,
+                  "text": "1959                    | Antarctic Treaty was [28] __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 2,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR TWO NUMBERS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf"
+                ],
+                "printed_question_number": 28,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-02-p3-g29-30",
+          "question_range": [
+            29,
+            30
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO achievements of the Antarctic Treaty are mentioned by the speakers?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO achievements of the Antarctic Treaty are mentioned by the speakers?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-07-test-02-p3-g29-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "no military use",
+                "source_line": 341
+              },
+              {
+                "label": "B",
+                "text": "animals protected",
+                "source_line": 342
+              },
+              {
+                "label": "C",
+                "text": "historic sites preserved",
+                "source_line": 343
+              },
+              {
+                "label": "D",
+                "text": "no nuclear testing",
+                "source_line": 344
+              },
+              {
+                "label": "E",
+                "text": "fishing rights protected",
+                "source_line": 345
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              29,
+              30
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 339,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO achievements of the Antarctic Treaty are mentioned by the speakers?",
+              "source_line": 340,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A no military use",
+              "source_line": 341,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B animals protected",
+              "source_line": 342,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C historic sites preserved",
+              "source_line": 343,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D no nuclear testing",
+              "source_line": 344,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E fishing rights protected",
+              "source_line": 345,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. [29] ______",
+              "source_line": 347,
+              "blanks": [
+                {
+                  "question_number": 29,
+                  "start": 4,
+                  "end": 15
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "30. [30] ______",
+              "source_line": 348,
+              "blanks": [
+                {
+                  "question_number": 30,
+                  "start": 4,
+                  "end": 15
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "NB Answers 29 and 30 can be given IN EITHER ORDER (as stated in the answer key).",
+              "source_line": 349,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 338,
+            "line_end": 353,
+            "pdf_pages": [
+              40,
+              41
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q29",
+              "question_number": 29,
+              "prompt": "29. [29] ______",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-07-test-02-p3-g29-30-bank",
+              "blank_references": [
+                {
+                  "line": 347,
+                  "start": 4,
+                  "end": 15,
+                  "text": "29. [29] ______",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO achievements of the Antarctic Treaty are mentioned by the speakers?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q30",
+              "question_number": 30,
+              "prompt": "30. [30] ______",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-07-test-02-p3-g29-30-bank",
+              "blank_references": [
+                {
+                  "line": 348,
+                  "start": 4,
+                  "end": 15,
+                  "text": "30. [30] ______",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO achievements of the Antarctic Treaty are mentioned by the speakers?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-8a4e8d0131b41e1184e290d2fb0b687093a5c92f9935b58a0f4ca88348aaad11",
+          "question_range": [
+            21,
+            26
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf",
+          "question_range": [
+            27,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 354,
+        "line_end": 409,
+        "pdf_pages": [
+          42,
+          43
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+        "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-02-p4-g31-35",
+          "question_range": [
+            31,
+            35
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 358,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "LEFT AND RIGHT HANDEDNESS IN SPORT",
+              "source_line": 360,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "31. Anita first felt the Matthews article was of value when she realised",
+              "source_line": 362,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A how it would help her difficulties with left-handedness.",
+              "source_line": 363,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B the relevance of connections he made with music.",
+              "source_line": 364,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C the impressive size of his research project.",
+              "source_line": 365,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "32. Anita feels that the findings on handedness will be of value in",
+              "source_line": 367,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A helping sportspeople identify their weaknesses.",
+              "source_line": 368,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B aiding sportspeople as they plan tactics for each game.",
+              "source_line": 369,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C developing suitable training programmes for sportspeople.",
+              "source_line": 370,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "33. Anita feels that most sports coaches",
+              "source_line": 372,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A know nothing about the influence of handedness.",
+              "source_line": 373,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B focus on the wrong aspects of performance.",
+              "source_line": 374,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C underestimate what science has to offer sport.",
+              "source_line": 375,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "34. A German study showed there was greater 'mixed handedness' in musicians who",
+              "source_line": 377,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A started playing instruments in early youth.",
+              "source_line": 378,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B play a string instrument such as the violin.",
+              "source_line": 379,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C practise a great deal on their instrument.",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "35. Studies on ape behaviour show that",
+              "source_line": 382,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A apes which always use the same hand to get food are most successful.",
+              "source_line": 383,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B apes have the same proportion of left- and right-handers as humans.",
+              "source_line": 384,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C more apes are left-handed than right-handed.",
+              "source_line": 385,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q31"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q32"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q33"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q34"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-02-q35"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 357,
+            "line_end": 386,
+            "pdf_pages": [
+              42,
+              43
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q31",
+              "question_number": 31,
+              "prompt": "31. Anita first felt the Matthews article was of value when she realised",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "how it would help her difficulties with left-handedness.",
+                  "source_line": 363
+                },
+                {
+                  "label": "B",
+                  "text": "the relevance of connections he made with music.",
+                  "source_line": 364
+                },
+                {
+                  "label": "C",
+                  "text": "the impressive size of his research project.",
+                  "source_line": 365
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 362,
+                  "start": 0,
+                  "end": 72,
+                  "text": "31. Anita first felt the Matthews article was of value when she realised",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q32",
+              "question_number": 32,
+              "prompt": "32. Anita feels that the findings on handedness will be of value in",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "helping sportspeople identify their weaknesses.",
+                  "source_line": 368
+                },
+                {
+                  "label": "B",
+                  "text": "aiding sportspeople as they plan tactics for each game.",
+                  "source_line": 369
+                },
+                {
+                  "label": "C",
+                  "text": "developing suitable training programmes for sportspeople.",
+                  "source_line": 370
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 367,
+                  "start": 0,
+                  "end": 67,
+                  "text": "32. Anita feels that the findings on handedness will be of value in",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q33",
+              "question_number": 33,
+              "prompt": "33. Anita feels that most sports coaches",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "know nothing about the influence of handedness.",
+                  "source_line": 373
+                },
+                {
+                  "label": "B",
+                  "text": "focus on the wrong aspects of performance.",
+                  "source_line": 374
+                },
+                {
+                  "label": "C",
+                  "text": "underestimate what science has to offer sport.",
+                  "source_line": 375
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 372,
+                  "start": 0,
+                  "end": 40,
+                  "text": "33. Anita feels that most sports coaches",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q34",
+              "question_number": 34,
+              "prompt": "34. A German study showed there was greater 'mixed handedness' in musicians who",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "started playing instruments in early youth.",
+                  "source_line": 378
+                },
+                {
+                  "label": "B",
+                  "text": "play a string instrument such as the violin.",
+                  "source_line": 379
+                },
+                {
+                  "label": "C",
+                  "text": "practise a great deal on their instrument.",
+                  "source_line": 380
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 377,
+                  "start": 0,
+                  "end": 79,
+                  "text": "34. A German study showed there was greater 'mixed handedness' in musicians who",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-02-q35",
+              "question_number": 35,
+              "prompt": "35. Studies on ape behaviour show that",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "apes which always use the same hand to get food are most successful.",
+                  "source_line": 383
+                },
+                {
+                  "label": "B",
+                  "text": "apes have the same proportion of left- and right-handers as humans.",
+                  "source_line": 384
+                },
+                {
+                  "label": "C",
+                  "text": "more apes are left-handed than right-handed.",
+                  "source_line": 385
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 382,
+                  "start": 0,
+                  "end": 38,
+                  "text": "35. Studies on ape behaviour show that",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-02-p4-g36-40",
+          "question_range": [
+            36,
+            40
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+            "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 388,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 389,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Sport       | Best laterality   | Comments",
+              "source_line": 391,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "------------|-------------------|---------------------------------------------",
+              "source_line": 392,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Hockey      | mixed laterality  | hockey stick has to be used in",
+              "source_line": 393,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | [36] ____________________",
+              "source_line": 394,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 34,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | mixed-handed players found to be much more",
+              "source_line": 395,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | [37] __________ than others",
+              "source_line": 396,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 34,
+                  "end": 49
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Tennis      | single laterality | gives a larger relevant field of",
+              "source_line": 397,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | [38] ____________________",
+              "source_line": 398,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 34,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | cross-lateral players make [39] __________",
+              "source_line": 399,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 61,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | too late",
+              "source_line": 400,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Gymnastics  | cross laterality  | gymnasts' [40] __________ is important",
+              "source_line": 401,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 44,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                   | for performances",
+              "source_line": 402,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "CAMBRIDGE IELTS 7 — LISTENING",
+              "source_line": 409,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 387,
+            "line_end": 409,
+            "pdf_pages": [
+              42,
+              43
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-02-q36",
+              "question_number": 36,
+              "prompt": "|                   | [36] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 394,
+                  "start": 34,
+                  "end": 59,
+                  "text": "            |                   | [36] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+                  "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+                ],
+                "printed_question_number": 36,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q37",
+              "question_number": 37,
+              "prompt": "|                   | [37] __________ than others",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 396,
+                  "start": 34,
+                  "end": 49,
+                  "text": "            |                   | [37] __________ than others",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+                  "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+                ],
+                "printed_question_number": 37,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q38",
+              "question_number": 38,
+              "prompt": "|                   | [38] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 398,
+                  "start": 34,
+                  "end": 59,
+                  "text": "            |                   | [38] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+                  "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+                ],
+                "printed_question_number": 38,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q39",
+              "question_number": 39,
+              "prompt": "|                   | cross-lateral players make [39] __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 399,
+                  "start": 61,
+                  "end": 76,
+                  "text": "            |                   | cross-lateral players make [39] __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+                  "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+                ],
+                "printed_question_number": 39,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-02-q40",
+              "question_number": 40,
+              "prompt": "Gymnastics  | cross laterality  | gymnasts' [40] __________ is important",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 401,
+                  "start": 44,
+                  "end": 59,
+                  "text": "Gymnastics  | cross laterality  | gymnasts' [40] __________ is important",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+                  "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa"
+                ],
+                "printed_question_number": 40,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+          "question_range": [
+            31,
+            38
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa",
+          "question_range": [
+            36,
+            40
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-0363281b0812c8fcffb714cd47656fcc05290105aca5cfa98923425c40224603",
+      "relative_path": "assets/public/0363281b0812c8fcffb714cd47656fcc05290105aca5cfa98923425c40224603.png",
+      "sha256": "0363281b0812c8fcffb714cd47656fcc05290105aca5cfa98923425c40224603",
+      "byte_size": 136572,
+      "width": 3471,
+      "height": 3203
+    },
+    {
+      "asset_id": "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d",
+      "relative_path": "assets/public/26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d.png",
+      "sha256": "26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d",
+      "byte_size": 141346,
+      "width": 2161,
+      "height": 1493
+    },
+    {
+      "asset_id": "asset-3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+      "relative_path": "assets/public/3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d.png",
+      "sha256": "3b52ae72f129e7789100cb84f3aded368da668488dd9fdb44e363cb9fd91d72d",
+      "byte_size": 241725,
+      "width": 3328,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-78b19ed53628e3414a1eda16989fc807ee2679af3f9cf2e7b3b37bb6b972f527",
+      "relative_path": "assets/public/78b19ed53628e3414a1eda16989fc807ee2679af3f9cf2e7b3b37bb6b972f527.png",
+      "sha256": "78b19ed53628e3414a1eda16989fc807ee2679af3f9cf2e7b3b37bb6b972f527",
+      "byte_size": 76248,
+      "width": 2941,
+      "height": 2333
+    },
+    {
+      "asset_id": "asset-892dc7776bcbc3bcf8b44c140309e0831253ddab5a991b774c401fc26ed7ab49",
+      "relative_path": "assets/public/892dc7776bcbc3bcf8b44c140309e0831253ddab5a991b774c401fc26ed7ab49.png",
+      "sha256": "892dc7776bcbc3bcf8b44c140309e0831253ddab5a991b774c401fc26ed7ab49",
+      "byte_size": 183430,
+      "width": 3616,
+      "height": 4928
+    },
+    {
+      "asset_id": "asset-8a4e8d0131b41e1184e290d2fb0b687093a5c92f9935b58a0f4ca88348aaad11",
+      "relative_path": "assets/public/8a4e8d0131b41e1184e290d2fb0b687093a5c92f9935b58a0f4ca88348aaad11.png",
+      "sha256": "8a4e8d0131b41e1184e290d2fb0b687093a5c92f9935b58a0f4ca88348aaad11",
+      "byte_size": 223054,
+      "width": 3136,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c",
+      "relative_path": "assets/public/8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c.png",
+      "sha256": "8c33e5754ef42eb9433c138157b7351310e340c08c17ddb86a77b1e90779276c",
+      "byte_size": 198178,
+      "width": 3616,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf",
+      "relative_path": "assets/public/902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf.png",
+      "sha256": "902c0f421290873f78fcef47a1daa8d2c7e4abbbf77587060e8163ba51885bbf",
+      "byte_size": 176491,
+      "width": 3616,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-91461cc55d6b2e1625c02e4e508a0652df376011bb67c711b7059dd27f5f3e21",
+      "relative_path": "assets/public/91461cc55d6b2e1625c02e4e508a0652df376011bb67c711b7059dd27f5f3e21.png",
+      "sha256": "91461cc55d6b2e1625c02e4e508a0652df376011bb67c711b7059dd27f5f3e21",
+      "byte_size": 143302,
+      "width": 3232,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2",
+      "relative_path": "assets/public/ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2.png",
+      "sha256": "ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2",
+      "byte_size": 393095,
+      "width": 2161,
+      "height": 2773
+    },
+    {
+      "asset_id": "asset-c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa",
+      "relative_path": "assets/public/c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa.png",
+      "sha256": "c9299a1252555da23575e7f583bb285c6a5a879278925b8d99464c09688a9cfa",
+      "byte_size": 162767,
+      "width": 3616,
+      "height": 5184
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

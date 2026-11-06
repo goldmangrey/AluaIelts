@@ -1,0 +1,30 @@
+{
+  "exam_id": "cambridge-21-test-01",
+  "book": 21,
+  "printed_test_number": 1,
+  "counts": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 40,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": true
+  },
+  "issues": [],
+  "source_findings": [],
+  "key_quality": {
+    "present": 40,
+    "source_verified": 40,
+    "missing": [],
+    "unverified": [],
+    "ambiguous": []
+  },
+  "editorial_review_pending": {
+    "question_numbers": [],
+    "key_numbers": []
+  }
+}

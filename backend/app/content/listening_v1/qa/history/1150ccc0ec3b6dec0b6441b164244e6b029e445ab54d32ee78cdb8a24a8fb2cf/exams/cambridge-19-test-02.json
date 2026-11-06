@@ -1,0 +1,3263 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-19-test-02",
+  "book": 19,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 172,
+        "line_end": 202,
+        "pdf_pages": [
+          32,
+          33
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+        "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+        "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+        "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-02-p1-g01-06",
+          "question_range": [
+            1,
+            6
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+            "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+            "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+            "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 176,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 177,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "GUITAR GROUP",
+              "source_line": 179,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Coordinator: Gary (1) __________",
+              "source_line": 180,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 18,
+                  "end": 32
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Level: (2) __________",
+              "source_line": 181,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 7,
+                  "end": 21
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Place: the (3) __________",
+              "source_line": 182,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 11,
+                  "end": 25
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "       (4) __________ Street",
+              "source_line": 183,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 7,
+                  "end": 21
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "       First floor, Room T347",
+              "source_line": 184,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Time: Thursday morning at (5) __________",
+              "source_line": 185,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 26,
+                  "end": 40
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Recommended website: 'The perfect (6) __________'",
+              "source_line": 186,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 34,
+                  "end": 48
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 175,
+            "line_end": 187,
+            "pdf_pages": [
+              32,
+              33
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q01",
+              "question_number": 1,
+              "prompt": "Coordinator: Gary (1) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 180,
+                  "start": 18,
+                  "end": 32,
+                  "text": "Coordinator: Gary (1) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q02",
+              "question_number": 2,
+              "prompt": "Level: (2) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 181,
+                  "start": 7,
+                  "end": 21,
+                  "text": "Level: (2) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q03",
+              "question_number": 3,
+              "prompt": "Place: the (3) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 182,
+                  "start": 11,
+                  "end": 25,
+                  "text": "Place: the (3) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q04",
+              "question_number": 4,
+              "prompt": "(4) __________ Street",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 183,
+                  "start": 7,
+                  "end": 21,
+                  "text": "       (4) __________ Street",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q05",
+              "question_number": 5,
+              "prompt": "Time: Thursday morning at (5) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 185,
+                  "start": 26,
+                  "end": 40,
+                  "text": "Time: Thursday morning at (5) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q06",
+              "question_number": 6,
+              "prompt": "Recommended website: 'The perfect (6) __________'",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 186,
+                  "start": 34,
+                  "end": 48,
+                  "text": "Recommended website: 'The perfect (6) __________'",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-02-p1-g07-10",
+          "question_range": [
+            7,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+            "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+            "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+            "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 189,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 190,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A TYPICAL 45-MINUTE GUITAR LESSON",
+              "source_line": 192,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Time       | Activity                                  | Notes",
+              "source_line": 193,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "-----------|-------------------------------------------|--------------------------------------",
+              "source_line": 194,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "5 minutes  | tuning guitars                            | using an app or by (7) __________",
+              "source_line": 195,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 76,
+                  "end": 90
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "10 minutes | strumming chords using our thumbs        | keeping time while the teacher is (8) __________",
+              "source_line": 196,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 90,
+                  "end": 104
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "15 minutes | playing songs                             | often listening to a (9) __________ of a song",
+              "source_line": 197,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 78,
+                  "end": 92
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "10 minutes | playing single notes and simple tunes    | playing together, then (10) __________",
+              "source_line": 198,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 79,
+                  "end": 94
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "5 minutes  | noting things to practise at home        |",
+              "source_line": 199,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 188,
+            "line_end": 202,
+            "pdf_pages": [
+              32,
+              33
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q07",
+              "question_number": 7,
+              "prompt": "5 minutes  | tuning guitars                            | using an app or by (7) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 195,
+                  "start": 76,
+                  "end": 90,
+                  "text": "5 minutes  | tuning guitars                            | using an app or by (7) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q08",
+              "question_number": 8,
+              "prompt": "10 minutes | strumming chords using our thumbs        | keeping time while the teacher is (8) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 196,
+                  "start": 90,
+                  "end": 104,
+                  "text": "10 minutes | strumming chords using our thumbs        | keeping time while the teacher is (8) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q09",
+              "question_number": 9,
+              "prompt": "15 minutes | playing songs                             | often listening to a (9) __________ of a song",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 197,
+                  "start": 78,
+                  "end": 92,
+                  "text": "15 minutes | playing songs                             | often listening to a (9) __________ of a song",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-02-q10",
+              "question_number": 10,
+              "prompt": "10 minutes | strumming chords using our thumbs        | keeping time while the teacher is (8) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 196,
+                  "start": 0,
+                  "end": 104,
+                  "text": "10 minutes | strumming chords using our thumbs        | keeping time while the teacher is (8) __________",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 198,
+                  "start": 79,
+                  "end": 94,
+                  "text": "10 minutes | playing single notes and simple tunes    | playing together, then (10) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+                  "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+                  "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+                  "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 203,
+        "line_end": 260,
+        "pdf_pages": [
+          34,
+          35
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-81be6261ea9d16e367cd44540da002d2e24e96a56f7e31a2f1b0a5563d881447",
+        "asset-14759f1eaa0d002cf58dc0ed1222a1eb6ea1f946b0758b5e1efea4fb538bf1b4"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-02-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 207,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "WORKING AS A LIFEBOAT VOLUNTEER",
+              "source_line": 209,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11 What made David leave London and move to Northsea?",
+              "source_line": 211,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  He was eager to develop a hobby.",
+              "source_line": 212,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  He wanted to work shorter hours.",
+              "source_line": 213,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  He found his job in website design unsatisfying.",
+              "source_line": 214,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12 The Lifeboat Institution in Northsea was built with money provided by",
+              "source_line": 216,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  a local organisation.",
+              "source_line": 217,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  a local resident.",
+              "source_line": 218,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  the local council.",
+              "source_line": 219,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13 In his health assessment, the doctor was concerned about the fact that David",
+              "source_line": 221,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  might be colour blind.",
+              "source_line": 222,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  was rather short-sighted.",
+              "source_line": 223,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  had undergone eye surgery.",
+              "source_line": 224,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14 After arriving at the lifeboat station, they aim to launch the boat within",
+              "source_line": 226,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  five minutes.",
+              "source_line": 227,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  six to eight minutes.",
+              "source_line": 228,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  eight and a half minutes.",
+              "source_line": 229,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15 As a 'helmsman', David has the responsibility of deciding",
+              "source_line": 231,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  who will be the members of his crew.",
+              "source_line": 232,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  what equipment it will be necessary to take.",
+              "source_line": 233,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  if the lifeboat should be launched.",
+              "source_line": 234,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16 As well as going out on the lifeboat, David",
+              "source_line": 236,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  gives talks on safety at sea.",
+              "source_line": 237,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  helps with fundraising.",
+              "source_line": 238,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  recruits new volunteers.",
+              "source_line": 239,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q16"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 206,
+            "line_end": 240,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q11",
+              "question_number": 11,
+              "prompt": "11 What made David leave London and move to Northsea?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "He was eager to develop a hobby.",
+                  "source_line": 212
+                },
+                {
+                  "label": "B",
+                  "text": "He wanted to work shorter hours.",
+                  "source_line": 213
+                },
+                {
+                  "label": "C",
+                  "text": "He found his job in website design unsatisfying.",
+                  "source_line": 214
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 211,
+                  "start": 0,
+                  "end": 53,
+                  "text": "11 What made David leave London and move to Northsea?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q12",
+              "question_number": 12,
+              "prompt": "12 The Lifeboat Institution in Northsea was built with money provided by",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "a local organisation.",
+                  "source_line": 217
+                },
+                {
+                  "label": "B",
+                  "text": "a local resident.",
+                  "source_line": 218
+                },
+                {
+                  "label": "C",
+                  "text": "the local council.",
+                  "source_line": 219
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 216,
+                  "start": 0,
+                  "end": 72,
+                  "text": "12 The Lifeboat Institution in Northsea was built with money provided by",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q13",
+              "question_number": 13,
+              "prompt": "13 In his health assessment, the doctor was concerned about the fact that David",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "might be colour blind.",
+                  "source_line": 222
+                },
+                {
+                  "label": "B",
+                  "text": "was rather short-sighted.",
+                  "source_line": 223
+                },
+                {
+                  "label": "C",
+                  "text": "had undergone eye surgery.",
+                  "source_line": 224
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 221,
+                  "start": 0,
+                  "end": 79,
+                  "text": "13 In his health assessment, the doctor was concerned about the fact that David",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q14",
+              "question_number": 14,
+              "prompt": "14 After arriving at the lifeboat station, they aim to launch the boat within",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "five minutes.",
+                  "source_line": 227
+                },
+                {
+                  "label": "B",
+                  "text": "six to eight minutes.",
+                  "source_line": 228
+                },
+                {
+                  "label": "C",
+                  "text": "eight and a half minutes.",
+                  "source_line": 229
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 226,
+                  "start": 0,
+                  "end": 77,
+                  "text": "14 After arriving at the lifeboat station, they aim to launch the boat within",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q15",
+              "question_number": 15,
+              "prompt": "15 As a 'helmsman', David has the responsibility of deciding",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "who will be the members of his crew.",
+                  "source_line": 232
+                },
+                {
+                  "label": "B",
+                  "text": "what equipment it will be necessary to take.",
+                  "source_line": 233
+                },
+                {
+                  "label": "C",
+                  "text": "if the lifeboat should be launched.",
+                  "source_line": 234
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 231,
+                  "start": 0,
+                  "end": 60,
+                  "text": "15 As a 'helmsman', David has the responsibility of deciding",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q16",
+              "question_number": 16,
+              "prompt": "16 As well as going out on the lifeboat, David",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "gives talks on safety at sea.",
+                  "source_line": 237
+                },
+                {
+                  "label": "B",
+                  "text": "helps with fundraising.",
+                  "source_line": 238
+                },
+                {
+                  "label": "C",
+                  "text": "recruits new volunteers.",
+                  "source_line": 239
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 236,
+                  "start": 0,
+                  "end": 46,
+                  "text": "16 As well as going out on the lifeboat, David",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-02-p2-g17-18",
+          "question_range": [
+            17,
+            18
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things does David say about the lifeboat volunteer training?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things does David say about the lifeboat volunteer training?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-02-p2-g17-18-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "The residential course developed his leadership skills.",
+                "source_line": 244
+              },
+              {
+                "label": "B",
+                "text": "The training in use of ropes and knots was quite brief.",
+                "source_line": 245
+              },
+              {
+                "label": "C",
+                "text": "The training exercises have built up his mental strength.",
+                "source_line": 246
+              },
+              {
+                "label": "D",
+                "text": "The casualty care activities were particularly challenging for him.",
+                "source_line": 247
+              },
+              {
+                "label": "E",
+                "text": "The wave tank activities provided practice in survival techniques.",
+                "source_line": 248
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              17,
+              18
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 242,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO things does David say about the lifeboat volunteer training?",
+              "source_line": 243,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  The residential course developed his leadership skills.",
+              "source_line": 244,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  The training in use of ropes and knots was quite brief.",
+              "source_line": 245,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  The training exercises have built up his mental strength.",
+              "source_line": 246,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  The casualty care activities were particularly challenging for him.",
+              "source_line": 247,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  The wave tank activities provided practice in survival techniques.",
+              "source_line": 248,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17 __________     18 __________",
+              "source_line": 249,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "question_number": 18,
+                  "start": 18,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 241,
+            "line_end": 250,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q17",
+              "question_number": 17,
+              "prompt": "17 __________     18 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 249,
+                  "start": 0,
+                  "end": 13,
+                  "text": "17 __________     18 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does David say about the lifeboat volunteer training?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q18",
+              "question_number": 18,
+              "prompt": "17 __________     18 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 249,
+                  "start": 18,
+                  "end": 31,
+                  "text": "17 __________     18 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does David say about the lifeboat volunteer training?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-02-p2-g19-20",
+          "question_range": [
+            19,
+            20
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things does David find most motivating about the work he does?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things does David find most motivating about the work he does?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-02-p2-g19-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "working as part of a team",
+                "source_line": 254
+              },
+              {
+                "label": "B",
+                "text": "experiences when working in winter",
+                "source_line": 255
+              },
+              {
+                "label": "C",
+                "text": "being thanked by those he has helped",
+                "source_line": 256
+              },
+              {
+                "label": "D",
+                "text": "the fact that it keeps him fit",
+                "source_line": 257
+              },
+              {
+                "label": "E",
+                "text": "the chance to develop new equipment",
+                "source_line": 258
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              19,
+              20
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 252,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO things does David find most motivating about the work he does?",
+              "source_line": 253,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  working as part of a team",
+              "source_line": 254,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  experiences when working in winter",
+              "source_line": 255,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  being thanked by those he has helped",
+              "source_line": 256,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  the fact that it keeps him fit",
+              "source_line": 257,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  the chance to develop new equipment",
+              "source_line": 258,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19 __________     20 __________",
+              "source_line": 259,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "question_number": 20,
+                  "start": 18,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 251,
+            "line_end": 260,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q19",
+              "question_number": 19,
+              "prompt": "19 __________     20 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 259,
+                  "start": 0,
+                  "end": 13,
+                  "text": "19 __________     20 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does David find most motivating about the work he does?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q20",
+              "question_number": 20,
+              "prompt": "19 __________     20 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 259,
+                  "start": 18,
+                  "end": 31,
+                  "text": "19 __________     20 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does David find most motivating about the work he does?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 261,
+        "line_end": 317,
+        "pdf_pages": [
+          36,
+          37
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-24ca1e7902decceec214946d8860f6bfaeb6d97130ea9a0e0a257d73192de62a",
+        "asset-8e8447a8ecae480806dfac5663ab0356845ed184bcd74f728038057c2c1e71d7"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-02-p3-g21-24",
+          "question_range": [
+            21,
+            24
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 265,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21 At first, Don thought the topic of recycling footwear might be too",
+              "source_line": 267,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  limited in scope.",
+              "source_line": 268,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  hard to research.",
+              "source_line": 269,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  boring for listeners.",
+              "source_line": 270,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22 When discussing trainers, Bella and Don disagree about",
+              "source_line": 272,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  how popular they are among young people.",
+              "source_line": 273,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  how suitable they are for school.",
+              "source_line": 274,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  how quickly they wear out.",
+              "source_line": 275,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23 Bella says that she sometimes recycles shoes because",
+              "source_line": 277,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  they no longer fit.",
+              "source_line": 278,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  she no longer likes them.",
+              "source_line": 279,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  they are no longer in fashion.",
+              "source_line": 280,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24 What did the article say that confused Don?",
+              "source_line": 282,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  Public consumption of footwear has risen.",
+              "source_line": 283,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  Less footwear is recycled now than in the past.",
+              "source_line": 284,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  People dispose of more footwear than they used to.",
+              "source_line": 285,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q24"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 264,
+            "line_end": 286,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q21",
+              "question_number": 21,
+              "prompt": "21 At first, Don thought the topic of recycling footwear might be too",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "limited in scope.",
+                  "source_line": 268
+                },
+                {
+                  "label": "B",
+                  "text": "hard to research.",
+                  "source_line": 269
+                },
+                {
+                  "label": "C",
+                  "text": "boring for listeners.",
+                  "source_line": 270
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 267,
+                  "start": 0,
+                  "end": 69,
+                  "text": "21 At first, Don thought the topic of recycling footwear might be too",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q22",
+              "question_number": 22,
+              "prompt": "22 When discussing trainers, Bella and Don disagree about",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "how popular they are among young people.",
+                  "source_line": 273
+                },
+                {
+                  "label": "B",
+                  "text": "how suitable they are for school.",
+                  "source_line": 274
+                },
+                {
+                  "label": "C",
+                  "text": "how quickly they wear out.",
+                  "source_line": 275
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 272,
+                  "start": 0,
+                  "end": 57,
+                  "text": "22 When discussing trainers, Bella and Don disagree about",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q23",
+              "question_number": 23,
+              "prompt": "23 Bella says that she sometimes recycles shoes because",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "they no longer fit.",
+                  "source_line": 278
+                },
+                {
+                  "label": "B",
+                  "text": "she no longer likes them.",
+                  "source_line": 279
+                },
+                {
+                  "label": "C",
+                  "text": "they are no longer in fashion.",
+                  "source_line": 280
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 277,
+                  "start": 0,
+                  "end": 55,
+                  "text": "23 Bella says that she sometimes recycles shoes because",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q24",
+              "question_number": 24,
+              "prompt": "24 What did the article say that confused Don?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Public consumption of footwear has risen.",
+                  "source_line": 283
+                },
+                {
+                  "label": "B",
+                  "text": "Less footwear is recycled now than in the past.",
+                  "source_line": 284
+                },
+                {
+                  "label": "C",
+                  "text": "People dispose of more footwear than they used to.",
+                  "source_line": 285
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 282,
+                  "start": 0,
+                  "end": 46,
+                  "text": "24 What did the article say that confused Don?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-02-p3-g25-28",
+          "question_range": [
+            25,
+            28
+          ],
+          "question_type": "matching",
+          "instructions": "What reasons did the recycling manager give for rejecting footwear, according to the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What reasons did the recycling manager give for rejecting footwear, according to the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-02-p3-g25-28-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "one shoe was missing",
+                "source_line": 292
+              },
+              {
+                "label": "B",
+                "text": "the colour of one shoe had faded",
+                "source_line": 293
+              },
+              {
+                "label": "C",
+                "text": "one shoe had a hole in it",
+                "source_line": 294
+              },
+              {
+                "label": "D",
+                "text": "the shoes were brand new",
+                "source_line": 295
+              },
+              {
+                "label": "E",
+                "text": "the shoes were too dirty",
+                "source_line": 296
+              },
+              {
+                "label": "F",
+                "text": "the stitching on the shoes was broken",
+                "source_line": 297
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What reasons did the recycling manager give for rejecting footwear, according to the students?",
+              "source_line": 288,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+              "source_line": 289,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Reasons",
+              "source_line": 291,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  one shoe was missing",
+              "source_line": 292,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  the colour of one shoe had faded",
+              "source_line": 293,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  one shoe had a hole in it",
+              "source_line": 294,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  the shoes were brand new",
+              "source_line": 295,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  the shoes were too dirty",
+              "source_line": 296,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   F  the stitching on the shoes was broken",
+              "source_line": 297,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Footwear",
+              "source_line": 299,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25 the high-heeled shoes  __________",
+              "source_line": 300,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26 the ankle boots        __________",
+              "source_line": 301,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27 the baby shoes         __________",
+              "source_line": 302,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28 the trainers           __________",
+              "source_line": 303,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q28"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 287,
+            "line_end": 304,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q25",
+              "question_number": 25,
+              "prompt": "25 the high-heeled shoes  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p3-g25-28-bank",
+              "blank_references": [
+                {
+                  "line": 300,
+                  "start": 0,
+                  "end": 36,
+                  "text": "25 the high-heeled shoes  __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What reasons did the recycling manager give for rejecting footwear, according to the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q26",
+              "question_number": 26,
+              "prompt": "26 the ankle boots        __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p3-g25-28-bank",
+              "blank_references": [
+                {
+                  "line": 301,
+                  "start": 0,
+                  "end": 36,
+                  "text": "26 the ankle boots        __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What reasons did the recycling manager give for rejecting footwear, according to the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q27",
+              "question_number": 27,
+              "prompt": "27 the baby shoes         __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p3-g25-28-bank",
+              "blank_references": [
+                {
+                  "line": 302,
+                  "start": 0,
+                  "end": 36,
+                  "text": "27 the baby shoes         __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What reasons did the recycling manager give for rejecting footwear, according to the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q28",
+              "question_number": 28,
+              "prompt": "28 the trainers           __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-02-p3-g25-28-bank",
+              "blank_references": [
+                {
+                  "line": 303,
+                  "start": 0,
+                  "end": 36,
+                  "text": "28 the trainers           __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What reasons did the recycling manager give for rejecting footwear, according to the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 25–28.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-02-p3-g29-30",
+          "question_range": [
+            29,
+            30
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 306,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29 Why did the project to make 'new' shoes out of old shoes fail?",
+              "source_line": 308,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  People believed the 'new' pairs of shoes were unhygienic.",
+              "source_line": 309,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  There were not enough good parts to use in the old shoes.",
+              "source_line": 310,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  The shoes in the 'new' pairs were not completely alike.",
+              "source_line": 311,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30 Bella and Don agree that they can present their topic",
+              "source_line": 313,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  from a new angle.",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  with relevant images.",
+              "source_line": 315,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  in a straightforward way.",
+              "source_line": 316,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-02-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 305,
+            "line_end": 317,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q29",
+              "question_number": 29,
+              "prompt": "29 Why did the project to make 'new' shoes out of old shoes fail?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "People believed the 'new' pairs of shoes were unhygienic.",
+                  "source_line": 309
+                },
+                {
+                  "label": "B",
+                  "text": "There were not enough good parts to use in the old shoes.",
+                  "source_line": 310
+                },
+                {
+                  "label": "C",
+                  "text": "The shoes in the 'new' pairs were not completely alike.",
+                  "source_line": 311
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 308,
+                  "start": 0,
+                  "end": 65,
+                  "text": "29 Why did the project to make 'new' shoes out of old shoes fail?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q30",
+              "question_number": 30,
+              "prompt": "30 Bella and Don agree that they can present their topic",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "from a new angle.",
+                  "source_line": 314
+                },
+                {
+                  "label": "B",
+                  "text": "with relevant images.",
+                  "source_line": 315
+                },
+                {
+                  "label": "C",
+                  "text": "in a straightforward way.",
+                  "source_line": 316
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 313,
+                  "start": 0,
+                  "end": 56,
+                  "text": "30 Bella and Don agree that they can present their topic",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 318,
+        "line_end": 353,
+        "pdf_pages": [
+          38
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-431541aca28b096670693a0fc86ec4c54d2d2f086901adaf51dd64019099a91a",
+        "asset-80a7d27012f5297a4214071a85c1c69208b96a0316e26b032109159807271966"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-02-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 321,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 322,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "TARDIGRADES",
+              "source_line": 324,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• more than 1,000 species, 0.05–1.2 millimetres long",
+              "source_line": 325,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• also known as water 'bears' (due to how they (31) __________) and 'moss piglets'",
+              "source_line": 326,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 47,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Physical appearance",
+              "source_line": 328,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• a (32) __________ round body and four pairs of legs",
+              "source_line": 329,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 4,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• claws or (33) __________ for gripping",
+              "source_line": 330,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 11,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• absence of respiratory organs",
+              "source_line": 331,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• body filled with a liquid that carries both (34) __________ and blood",
+              "source_line": 332,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 46,
+                  "end": 61
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• mouth shaped like a (35) __________ with teeth called stylets",
+              "source_line": 333,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 22,
+                  "end": 37
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Habitat",
+              "source_line": 335,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• often found at the bottom of a lake or on plants",
+              "source_line": 336,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• very resilient and can exist in very low or high (36) __________",
+              "source_line": 337,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 51,
+                  "end": 66
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Cryptobiosis",
+              "source_line": 339,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• In dry conditions, they roll into a ball called a 'tun'.",
+              "source_line": 340,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• They stay alive with a much lower metabolism than usual.",
+              "source_line": 341,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• A type of (37) __________ ensures their DNA is not damaged.",
+              "source_line": 342,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 12,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Research is underway to find out how many days they can stay alive in (38) __________.",
+              "source_line": 343,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 72,
+                  "end": 87
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Feeding",
+              "source_line": 345,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• consume liquids, e.g., those found in moss or (39) __________",
+              "source_line": 346,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 48,
+                  "end": 63
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• may eat other tardigrades",
+              "source_line": 347,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Conservation status",
+              "source_line": 349,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• They are not considered to be (40) __________.",
+              "source_line": 350,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 32,
+                  "end": 47
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 318,
+            "line_end": 353,
+            "pdf_pages": [
+              38
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-02-q31",
+              "question_number": 31,
+              "prompt": "• also known as water 'bears' (due to how they (31) __________) and 'moss piglets'",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 326,
+                  "start": 47,
+                  "end": 62,
+                  "text": "• also known as water 'bears' (due to how they (31) __________) and 'moss piglets'",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q32",
+              "question_number": 32,
+              "prompt": "• a (32) __________ round body and four pairs of legs",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 329,
+                  "start": 4,
+                  "end": 19,
+                  "text": "• a (32) __________ round body and four pairs of legs",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q33",
+              "question_number": 33,
+              "prompt": "• claws or (33) __________ for gripping",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 330,
+                  "start": 11,
+                  "end": 26,
+                  "text": "• claws or (33) __________ for gripping",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q34",
+              "question_number": 34,
+              "prompt": "• body filled with a liquid that carries both (34) __________ and blood",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 332,
+                  "start": 46,
+                  "end": 61,
+                  "text": "• body filled with a liquid that carries both (34) __________ and blood",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q35",
+              "question_number": 35,
+              "prompt": "• mouth shaped like a (35) __________ with teeth called stylets",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 333,
+                  "start": 22,
+                  "end": 37,
+                  "text": "• mouth shaped like a (35) __________ with teeth called stylets",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q36",
+              "question_number": 36,
+              "prompt": "• very resilient and can exist in very low or high (36) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 337,
+                  "start": 51,
+                  "end": 66,
+                  "text": "• very resilient and can exist in very low or high (36) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q37",
+              "question_number": 37,
+              "prompt": "• A type of (37) __________ ensures their DNA is not damaged.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 342,
+                  "start": 12,
+                  "end": 27,
+                  "text": "• A type of (37) __________ ensures their DNA is not damaged.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q38",
+              "question_number": 38,
+              "prompt": "• Research is underway to find out how many days they can stay alive in (38) __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 343,
+                  "start": 72,
+                  "end": 87,
+                  "text": "• Research is underway to find out how many days they can stay alive in (38) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q39",
+              "question_number": 39,
+              "prompt": "• consume liquids, e.g., those found in moss or (39) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 346,
+                  "start": 48,
+                  "end": 63,
+                  "text": "• consume liquids, e.g., those found in moss or (39) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-02-q40",
+              "question_number": 40,
+              "prompt": "• They are not considered to be (40) __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 350,
+                  "start": 32,
+                  "end": 47,
+                  "text": "• They are not considered to be (40) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-14759f1eaa0d002cf58dc0ed1222a1eb6ea1f946b0758b5e1efea4fb538bf1b4",
+      "relative_path": "assets/public/14759f1eaa0d002cf58dc0ed1222a1eb6ea1f946b0758b5e1efea4fb538bf1b4.jpg",
+      "sha256": "14759f1eaa0d002cf58dc0ed1222a1eb6ea1f946b0758b5e1efea4fb538bf1b4",
+      "byte_size": 144014,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-24ca1e7902decceec214946d8860f6bfaeb6d97130ea9a0e0a257d73192de62a",
+      "relative_path": "assets/public/24ca1e7902decceec214946d8860f6bfaeb6d97130ea9a0e0a257d73192de62a.jpg",
+      "sha256": "24ca1e7902decceec214946d8860f6bfaeb6d97130ea9a0e0a257d73192de62a",
+      "byte_size": 140498,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+      "relative_path": "assets/public/299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd.jpg",
+      "sha256": "299e453ae751d69896a7875173e5e498d3b2cf48a4f223a85ce28fa8f365a7cd",
+      "byte_size": 101725,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+      "relative_path": "assets/public/2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4.png",
+      "sha256": "2e6a47936aa21fe666429ca5269997e974bc2b6f79a93b1e66e7cbaa404c66f4",
+      "byte_size": 151450,
+      "width": 1167,
+      "height": 626
+    },
+    {
+      "asset_id": "asset-431541aca28b096670693a0fc86ec4c54d2d2f086901adaf51dd64019099a91a",
+      "relative_path": "assets/public/431541aca28b096670693a0fc86ec4c54d2d2f086901adaf51dd64019099a91a.jpg",
+      "sha256": "431541aca28b096670693a0fc86ec4c54d2d2f086901adaf51dd64019099a91a",
+      "byte_size": 205469,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f",
+      "relative_path": "assets/public/74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f.png",
+      "sha256": "74c650caa224034b483bd8121a49e4100f808819119ec41e92cbb78cf002bc3f",
+      "byte_size": 238488,
+      "width": 1167,
+      "height": 625
+    },
+    {
+      "asset_id": "asset-80a7d27012f5297a4214071a85c1c69208b96a0316e26b032109159807271966",
+      "relative_path": "assets/public/80a7d27012f5297a4214071a85c1c69208b96a0316e26b032109159807271966.png",
+      "sha256": "80a7d27012f5297a4214071a85c1c69208b96a0316e26b032109159807271966",
+      "byte_size": 498943,
+      "width": 1167,
+      "height": 1422
+    },
+    {
+      "asset_id": "asset-81be6261ea9d16e367cd44540da002d2e24e96a56f7e31a2f1b0a5563d881447",
+      "relative_path": "assets/public/81be6261ea9d16e367cd44540da002d2e24e96a56f7e31a2f1b0a5563d881447.jpg",
+      "sha256": "81be6261ea9d16e367cd44540da002d2e24e96a56f7e31a2f1b0a5563d881447",
+      "byte_size": 189380,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-8e8447a8ecae480806dfac5663ab0356845ed184bcd74f728038057c2c1e71d7",
+      "relative_path": "assets/public/8e8447a8ecae480806dfac5663ab0356845ed184bcd74f728038057c2c1e71d7.jpg",
+      "sha256": "8e8447a8ecae480806dfac5663ab0356845ed184bcd74f728038057c2c1e71d7",
+      "byte_size": 177032,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+      "relative_path": "assets/public/ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb.jpg",
+      "sha256": "ac9d58bb9525d91c96eab96d750e95f904b0fffbafeaa093a3233b66432879eb",
+      "byte_size": 135221,
+      "width": 1342,
+      "height": 1895
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

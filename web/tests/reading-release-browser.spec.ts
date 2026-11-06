@@ -1,8 +1,11 @@
+import {readingUiCheck} from "./reading-ui-check";
 import {test,expect} from "@playwright/test";
 import {attemptId,data,exam,releaseBackend} from "./reading-release-fixture";
 import type { Attempt } from "../src/features/reading/exam/models";
 import type { ReadingResult } from "../src/features/reading/exam/results";
 const path=`/reading/attempts/${attemptId}`;
+// Explicitly start online: host network detection can report offline in emulated Chromium.
+test.beforeEach(async({context})=>{await context.setOffline(false)});
 test("home → catalog → explicit Start → durable answers → Finish → real backend result fixture → readonly review → history",async({page,context})=>{
  const backend=await releaseBackend(context,{existing:false});
  await page.goto("/");await page.getByRole("link",{name:/Reading/}).click();await page.getByRole("link",{name:"18 Cambridge IELTS"}).click();await page.getByRole("link",{name:/Test 1/}).click();
@@ -25,8 +28,8 @@ test("device drafts survive server outage, refresh, close/reopen; offline typing
  await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("local unsynced");await expect(page.getByText("Save failed · Retry",{exact:true})).toBeVisible();
  page.on("dialog",dialog=>dialog.accept());await page.reload();await expect(page.getByLabel("Answer 1",{exact:true})).toHaveValue("local unsynced");
  await page.close();const reopened=await context.newPage();await reopened.goto(path);await expect(reopened.getByLabel("Answer 1",{exact:true})).toHaveValue("local unsynced");
- backend.fail(false);await context.setOffline(true);await reopened.getByLabel("Answer 1",{exact:true}).fill("offline draft");await expect(reopened.getByText("Offline · Saved on this device",{exact:true})).toBeVisible();
- await context.setOffline(false);await expect(reopened.locator(".save-status")).toHaveText("");expect(Object.values(backend.server().answers)).toContain("offline draft");
+ backend.fail(false);await context.setOffline(true);await reopened.getByLabel("Answer 1",{exact:true}).fill("offline draft");await expect(reopened.getByText("Offline · Reconnecting…",{exact:true})).toBeVisible();
+ await context.setOffline(false);await expect(reopened.locator(".save-status")).toHaveText("");await expect.poll(()=>Object.values(backend.server().answers)).toContain("offline draft");
 });
 
 test("two tabs are fenced; remote conflicts preserve both choices; another UID cannot see drafts/results",async({page,context})=>{
@@ -41,7 +44,7 @@ test("two tabs are fenced; remote conflicts preserve both choices; another UID c
 
 test("unknown sync replays UUID; unknown Finish recovers terminal result without a second grading",async({page,context})=>{
  const backend=await releaseBackend(context);backend.unknownSave(true);await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("lettuce");await page.getByLabel("Answer 2",{exact:true}).fill("tomato");
- await expect(page.locator(".save-status")).toHaveText("");const saves=backend.events.filter(e=>e.path.endsWith("/sync"));expect(saves.length).toBeGreaterThan(1);expect(saves[0]!.body).toEqual(saves[1]!.body);
+ await expect.poll(()=>backend.events.filter(e=>e.path.endsWith("/sync")).length).toBeGreaterThan(1);const saves=backend.events.filter(e=>e.path.endsWith("/sync"));expect(saves.length).toBeGreaterThan(1);expect(saves[0]!.body).toEqual(saves[1]!.body);
  backend.unknownSubmit(true);await page.getByRole("button",{name:"Finish",exact:true}).click();await page.getByRole("button",{name:"Finish test",exact:true}).click();await expect(page.getByText("Submission unknown — retry safely")).toBeVisible();
  page.on("dialog",d=>d.accept());await page.reload();await page.getByRole("link",{name:"View result"}).click();await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();
  const submits=backend.events.filter(e=>e.path.endsWith("/submit"));expect(new Set(submits.map(e=>e.body.event_id)).size).toBe(1);
@@ -64,7 +67,7 @@ test("stable text highlights and view preferences survive resizing, passages and
 
 test("deadline reached offline pauses editing, reconnect confirms server expiry and preserves unsent draft",async({page,context})=>{
  await page.clock.install();const backend=await releaseBackend(context,{seconds:10});await page.goto(path);await expect(page.getByLabel("Answer 1",{exact:true})).toBeEnabled();
- await context.setOffline(true);await page.getByLabel("Answer 1",{exact:true}).fill("offline late draft");await expect(page.getByText("Offline · Saved on this device",{exact:true})).toBeVisible();
+ await context.setOffline(true);await page.getByLabel("Answer 1",{exact:true}).fill("offline late draft");await expect(page.getByText("Offline · Reconnecting…",{exact:true})).toBeVisible();
  backend.expire();await page.clock.fastForward(11000);await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page).toHaveURL(new RegExp(`${path}$`));
  await context.setOffline(false);await expect(page.getByText("Time expired · Academic Reading",{exact:true})).toBeVisible();await expect(page.getByText(/local answers differ from the server result/)).toBeVisible();expect(backend.server().answers).toEqual({});
 });
@@ -192,3 +195,5 @@ test("Result V2: unfinished attempt never requests verdicts or exposes a map",as
  await page.goto(`${path}/result`);await expect(page.getByRole("heading",{name:"This test is still in progress."})).toBeVisible();
  expect(resultRequests).toBe(0);await expect(page.getByRole("link",{name:/^Question \d+,/})).toHaveCount(0);
 });
+
+test("exam UI: centered Finish, silent autosave, reload and visible save errors",async({page,context},info)=>{await readingUiCheck(page,context,info.project.name)});

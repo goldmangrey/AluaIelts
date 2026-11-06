@@ -21,6 +21,7 @@ dependencies = [
     "uvicorn[standard]>=0.54.0",
     "jsonschema>=4.26.0",
     "firebase-admin>=7.0,<8",
+    "mutagen>=1.47,<2",
 ]
 
 [project.scripts]

@@ -438,7 +438,7 @@ def test_migration_from_previous_revision(system):
     command.upgrade(cfg, "head")
     with db.session() as s:
         assert (
-            s.execute(text("SELECT version_num FROM alembic_version")).scalar() == "20261101_0006"
+            s.execute(text("SELECT version_num FROM alembic_version")).scalar() == "20261104_0007"
         )
         assert s.execute(text("SELECT count(*) FROM reading_attempts")).scalar() == 0
 

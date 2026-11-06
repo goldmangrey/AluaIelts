@@ -1,0 +1,3443 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-21-test-02",
+  "book": 21,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+        "line_start": 220,
+        "line_end": 273,
+        "pdf_pages": [
+          33
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+      ],
+      "audio_mapping_key": {
+        "book": 21,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-21-test-02-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 224,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 225,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "ONE-DAY CLASSES AT STEYNFORD COLLEGE",
+              "source_line": 227,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Course: Vietnamese food",
+              "source_line": 229,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Date: 1 __________",
+              "source_line": 230,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 8,
+                  "end": 20
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Cost: £59",
+              "source_line": 231,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes:",
+              "source_line": 232,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    It provides information on the use of herbs.",
+              "source_line": 233,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    There are no places at present.",
+              "source_line": 234,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Course: Bread making",
+              "source_line": 236,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Date: 20 March",
+              "source_line": 237,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Cost: £ 2 __________",
+              "source_line": 238,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 10,
+                  "end": 22
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes:",
+              "source_line": 239,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    There is also an extra charge for ingredients.",
+              "source_line": 240,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Participants make white bread, sourdough and 3 __________.",
+              "source_line": 241,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 49,
+                  "end": 61
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Course: Face massage",
+              "source_line": 243,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Date: 23 February",
+              "source_line": 244,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Cost: £35",
+              "source_line": 245,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes:",
+              "source_line": 246,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    The teacher trained in 4 __________.",
+              "source_line": 247,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 27,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    Bring a 5 __________.",
+              "source_line": 248,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 12,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Course: Candle making",
+              "source_line": 250,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Date: 6 __________",
+              "source_line": 251,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 8,
+                  "end": 20
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Cost: £52",
+              "source_line": 252,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes:",
+              "source_line": 253,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Only 7 __________ ingredients are used.",
+              "source_line": 254,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 9,
+                  "end": 21
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    The candles can be used as presents.",
+              "source_line": 255,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Course: Silk painting",
+              "source_line": 257,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Date: 18 May",
+              "source_line": 258,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Cost: £ 8 __________",
+              "source_line": 259,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 10,
+                  "end": 22
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes:",
+              "source_line": 260,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Bring an apron or old 9 __________.",
+              "source_line": 261,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 26,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Course: DIY for beginners",
+              "source_line": 263,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Date: 24 February",
+              "source_line": 264,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Cost: £125",
+              "source_line": 265,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes:",
+              "source_line": 266,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    Learn how to",
+              "source_line": 267,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "      • use a drill, saw and 10 __________.",
+              "source_line": 268,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 29,
+                  "end": 42
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "      • put up a shelf.",
+              "source_line": 269,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 221,
+            "line_end": 273,
+            "pdf_pages": [
+              33
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q01",
+              "question_number": 1,
+              "prompt": "Date: 1 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 230,
+                  "start": 8,
+                  "end": 20,
+                  "text": "  Date: 1 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q02",
+              "question_number": 2,
+              "prompt": "Cost: £ 2 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 238,
+                  "start": 10,
+                  "end": 22,
+                  "text": "  Cost: £ 2 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q03",
+              "question_number": 3,
+              "prompt": "Participants make white bread, sourdough and 3 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 241,
+                  "start": 49,
+                  "end": 61,
+                  "text": "    Participants make white bread, sourdough and 3 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q04",
+              "question_number": 4,
+              "prompt": "The teacher trained in 4 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 247,
+                  "start": 27,
+                  "end": 39,
+                  "text": "    The teacher trained in 4 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q05",
+              "question_number": 5,
+              "prompt": "Bring a 5 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 248,
+                  "start": 12,
+                  "end": 24,
+                  "text": "    Bring a 5 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q06",
+              "question_number": 6,
+              "prompt": "Date: 6 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 251,
+                  "start": 8,
+                  "end": 20,
+                  "text": "  Date: 6 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q07",
+              "question_number": 7,
+              "prompt": "Only 7 __________ ingredients are used.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 254,
+                  "start": 9,
+                  "end": 21,
+                  "text": "    Only 7 __________ ingredients are used.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q08",
+              "question_number": 8,
+              "prompt": "Cost: £ 8 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 259,
+                  "start": 10,
+                  "end": 22,
+                  "text": "  Cost: £ 8 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q09",
+              "question_number": 9,
+              "prompt": "Bring an apron or old 9 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 261,
+                  "start": 26,
+                  "end": 38,
+                  "text": "    Bring an apron or old 9 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q10",
+              "question_number": 10,
+              "prompt": "• use a drill, saw and 10 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 268,
+                  "start": 29,
+                  "end": 42,
+                  "text": "      • use a drill, saw and 10 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+        "line_start": 274,
+        "line_end": 322,
+        "pdf_pages": [
+          34,
+          35
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+        "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+        "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+      ],
+      "audio_mapping_key": {
+        "book": 21,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-21-test-02-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO pieces of advice are given about the Marsden Coastal Walk?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice are given about the Marsden Coastal Walk?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Stop for lunch in an ancient town.",
+                "source_line": 282
+              },
+              {
+                "label": "B",
+                "text": "Don't miss the ruins of a certain building.",
+                "source_line": 283
+              },
+              {
+                "label": "C",
+                "text": "Catch a boat to the start of this walk.",
+                "source_line": 284
+              },
+              {
+                "label": "D",
+                "text": "Be careful of the steep and rocky paths.",
+                "source_line": 285
+              },
+              {
+                "label": "E",
+                "text": "Don't worry about getting lost.",
+                "source_line": 286
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 279,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO pieces of advice are given about the Marsden Coastal Walk?",
+              "source_line": 281,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  Stop for lunch in an ancient town.",
+              "source_line": 282,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  Don't miss the ruins of a certain building.",
+              "source_line": 283,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  Catch a boat to the start of this walk.",
+              "source_line": 284,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  Be careful of the steep and rocky paths.",
+              "source_line": 285,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  Don't worry about getting lost.",
+              "source_line": 286,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11  __________",
+              "source_line": 288,
+              "blanks": [
+                {
+                  "question_number": 11,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "12  __________",
+              "source_line": 289,
+              "blanks": [
+                {
+                  "question_number": 12,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 278,
+            "line_end": 290,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q11",
+              "question_number": 11,
+              "prompt": "11  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 288,
+                  "start": 0,
+                  "end": 14,
+                  "text": "11  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice are given about the Marsden Coastal Walk?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q12",
+              "question_number": 12,
+              "prompt": "12  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 289,
+                  "start": 0,
+                  "end": 14,
+                  "text": "12  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice are given about the Marsden Coastal Walk?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-21-test-02-p2-g13-14",
+          "question_range": [
+            13,
+            14
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things are said about the Melby Heritage Walk?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things are said about the Melby Heritage Walk?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p2-g13-14-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "This walk is mostly downhill.",
+                "source_line": 295
+              },
+              {
+                "label": "B",
+                "text": "The paths can get busy during the day.",
+                "source_line": 296
+              },
+              {
+                "label": "C",
+                "text": "This is a circular walk.",
+                "source_line": 297
+              },
+              {
+                "label": "D",
+                "text": "A tower stands on the site of an older structure.",
+                "source_line": 298
+              },
+              {
+                "label": "E",
+                "text": "There are far-reaching views the whole way.",
+                "source_line": 299
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              13,
+              14
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 292,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO things are said about the Melby Heritage Walk?",
+              "source_line": 294,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  This walk is mostly downhill.",
+              "source_line": 295,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  The paths can get busy during the day.",
+              "source_line": 296,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  This is a circular walk.",
+              "source_line": 297,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  A tower stands on the site of an older structure.",
+              "source_line": 298,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  There are far-reaching views the whole way.",
+              "source_line": 299,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13  __________",
+              "source_line": 301,
+              "blanks": [
+                {
+                  "question_number": 13,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "14  __________",
+              "source_line": 302,
+              "blanks": [
+                {
+                  "question_number": 14,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 291,
+            "line_end": 303,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q13",
+              "question_number": 13,
+              "prompt": "13  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 301,
+                  "start": 0,
+                  "end": 14,
+                  "text": "13  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things are said about the Melby Heritage Walk?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q14",
+              "question_number": 14,
+              "prompt": "14  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 302,
+                  "start": 0,
+                  "end": 14,
+                  "text": "14  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things are said about the Melby Heritage Walk?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-21-test-02-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "map_labelling",
+          "instructions": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "A"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "B",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "B"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "C",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "C"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "D",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "D"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "E",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "E"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "F",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "F"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "G",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "G"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "H",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "H"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "I",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                    "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                    "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                  ],
+                  "original_label": "I"
+                },
+                "source_range": "A–I"
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+            "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+            "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the map below.",
+              "source_line": 305,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–I, next to Questions 15–20.",
+              "source_line": 306,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MELBY COAL MINE — MAP",
+              "source_line": 308,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "[The map contains marked locations A–I, a car park, engine house, main visitor centre,",
+              "source_line": 310,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " ticket office, covered walkway and north arrow. Preserve spatial relationships from image.]",
+              "source_line": 311,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15  Exhibition          __________",
+              "source_line": 313,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16  Baths               __________",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17  Tools               __________",
+              "source_line": 315,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18  Vehicles            __________",
+              "source_line": 316,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19  Ponies              __________",
+              "source_line": 317,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20  Education centre    __________",
+              "source_line": 318,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-21-test-02-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-21-test-02-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-21-test-02-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-21-test-02-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-21-test-02-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-21-test-02-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 304,
+            "line_end": 322,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q15",
+              "question_number": 15,
+              "prompt": "15  Exhibition          __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 313,
+                  "start": 0,
+                  "end": 34,
+                  "text": "15  Exhibition          __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                  "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                  "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q16",
+              "question_number": 16,
+              "prompt": "16  Baths               __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 314,
+                  "start": 0,
+                  "end": 34,
+                  "text": "16  Baths               __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                  "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                  "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q17",
+              "question_number": 17,
+              "prompt": "17  Tools               __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 315,
+                  "start": 0,
+                  "end": 34,
+                  "text": "17  Tools               __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                  "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                  "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q18",
+              "question_number": 18,
+              "prompt": "18  Vehicles            __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 316,
+                  "start": 0,
+                  "end": 34,
+                  "text": "18  Vehicles            __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                  "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                  "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q19",
+              "question_number": 19,
+              "prompt": "19  Ponies              __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 317,
+                  "start": 0,
+                  "end": 34,
+                  "text": "19  Ponies              __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                  "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                  "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q20",
+              "question_number": 20,
+              "prompt": "20  Education centre    __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 318,
+                  "start": 0,
+                  "end": 34,
+                  "text": "20  Education centre    __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+                  "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+                  "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+        "line_start": 323,
+        "line_end": 393,
+        "pdf_pages": [
+          36,
+          37
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+        "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+        "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f"
+      ],
+      "audio_mapping_key": {
+        "book": 21,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-21-test-02-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO facts in the sessions on food safety were new information for Nadia and Fergus?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO facts in the sessions on food safety were new information for Nadia and Fergus?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "the amount of plastic in the ocean",
+                "source_line": 331
+              },
+              {
+                "label": "B",
+                "text": "the number of diseases caused by contaminated food",
+                "source_line": 332
+              },
+              {
+                "label": "C",
+                "text": "the amount of food that is wasted",
+                "source_line": 333
+              },
+              {
+                "label": "D",
+                "text": "the number of people who are obese",
+                "source_line": 334
+              },
+              {
+                "label": "E",
+                "text": "the result of treating animals with antibiotics",
+                "source_line": 335
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 328,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO facts in the sessions on food safety were new information for Nadia and Fergus?",
+              "source_line": 330,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  the amount of plastic in the ocean",
+              "source_line": 331,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  the number of diseases caused by contaminated food",
+              "source_line": 332,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  the amount of food that is wasted",
+              "source_line": 333,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  the number of people who are obese",
+              "source_line": 334,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  the result of treating animals with antibiotics",
+              "source_line": 335,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21  __________",
+              "source_line": 337,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "22  __________",
+              "source_line": 338,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 327,
+            "line_end": 339,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q21",
+              "question_number": 21,
+              "prompt": "21  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 337,
+                  "start": 0,
+                  "end": 14,
+                  "text": "21  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO facts in the sessions on food safety were new information for Nadia and Fergus?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q22",
+              "question_number": 22,
+              "prompt": "22  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 338,
+                  "start": 0,
+                  "end": 14,
+                  "text": "22  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO facts in the sessions on food safety were new information for Nadia and Fergus?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-21-test-02-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO features of a project aiming to prevent food fraud impressed Fergus?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO features of a project aiming to prevent food fraud impressed Fergus?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "the new technology it used",
+                "source_line": 344
+              },
+              {
+                "label": "B",
+                "text": "the publicity it received",
+                "source_line": 345
+              },
+              {
+                "label": "C",
+                "text": "the use of multiple tests on food items",
+                "source_line": 346
+              },
+              {
+                "label": "D",
+                "text": "the variety of dietary requirements included",
+                "source_line": 347
+              },
+              {
+                "label": "E",
+                "text": "the way information was made widely accessible",
+                "source_line": 348
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 341,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO features of a project aiming to prevent food fraud impressed Fergus?",
+              "source_line": 343,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  the new technology it used",
+              "source_line": 344,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  the publicity it received",
+              "source_line": 345,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  the use of multiple tests on food items",
+              "source_line": 346,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  the variety of dietary requirements included",
+              "source_line": 347,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  the way information was made widely accessible",
+              "source_line": 348,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23  __________",
+              "source_line": 350,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "24  __________",
+              "source_line": 351,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 340,
+            "line_end": 352,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q23",
+              "question_number": 23,
+              "prompt": "23  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 350,
+                  "start": 0,
+                  "end": 14,
+                  "text": "23  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO features of a project aiming to prevent food fraud impressed Fergus?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q24",
+              "question_number": 24,
+              "prompt": "24  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 351,
+                  "start": 0,
+                  "end": 14,
+                  "text": "24  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO features of a project aiming to prevent food fraud impressed Fergus?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-21-test-02-p3-g25-26",
+          "question_range": [
+            25,
+            26
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO topics do both students recommend should be included in the course?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO topics do both students recommend should be included in the course?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p3-g25-26-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "sustainable fishing",
+                "source_line": 357
+              },
+              {
+                "label": "B",
+                "text": "targeted nutrition",
+                "source_line": 358
+              },
+              {
+                "label": "C",
+                "text": "global differences in consumption",
+                "source_line": 359
+              },
+              {
+                "label": "D",
+                "text": "sustainable agriculture",
+                "source_line": 360
+              },
+              {
+                "label": "E",
+                "text": "digital technology and food",
+                "source_line": 361
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              25,
+              26
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 354,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO topics do both students recommend should be included in the course?",
+              "source_line": 356,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  sustainable fishing",
+              "source_line": 357,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  targeted nutrition",
+              "source_line": 358,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  global differences in consumption",
+              "source_line": 359,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  sustainable agriculture",
+              "source_line": 360,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  digital technology and food",
+              "source_line": 361,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25  __________",
+              "source_line": 363,
+              "blanks": [
+                {
+                  "question_number": 25,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "26  __________",
+              "source_line": 364,
+              "blanks": [
+                {
+                  "question_number": 26,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 353,
+            "line_end": 365,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q25",
+              "question_number": 25,
+              "prompt": "25  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g25-26-bank",
+              "blank_references": [
+                {
+                  "line": 363,
+                  "start": 0,
+                  "end": 14,
+                  "text": "25  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO topics do both students recommend should be included in the course?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q26",
+              "question_number": 26,
+              "prompt": "26  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g25-26-bank",
+              "blank_references": [
+                {
+                  "line": 364,
+                  "start": 0,
+                  "end": 14,
+                  "text": "26  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO topics do both students recommend should be included in the course?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-21-test-02-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "flow_chart_completion",
+          "instructions": "Complete the flow-chart below.\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the flow-chart below.\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-21-test-02-p3-g27-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "This was challenging but enjoyable.",
+                "source_line": 370
+              },
+              {
+                "label": "B",
+                "text": "This led to some disagreement.",
+                "source_line": 371
+              },
+              {
+                "label": "C",
+                "text": "This was easy to decide on.",
+                "source_line": 372
+              },
+              {
+                "label": "D",
+                "text": "This was helped by the guidelines provided.",
+                "source_line": 373
+              },
+              {
+                "label": "E",
+                "text": "This seemed like an unnecessary stage.",
+                "source_line": 374
+              },
+              {
+                "label": "F",
+                "text": "This involved selecting a new ingredient.\n|\nv\n|\nv\n|\nv",
+                "source_line": 375
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+            "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+            "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the flow-chart below.",
+              "source_line": 367,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+              "source_line": 368,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  This was challenging but enjoyable.",
+              "source_line": 370,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  This led to some disagreement.",
+              "source_line": 371,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  This was easy to decide on.",
+              "source_line": 372,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  This was helped by the guidelines provided.",
+              "source_line": 373,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  This seemed like an unnecessary stage.",
+              "source_line": 374,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    F  This involved selecting a new ingredient.",
+              "source_line": 375,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "STUDENT PROJECT: DEVELOPING A NEW FOOD PRODUCT",
+              "source_line": 377,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Initial aim             27 __________",
+              "source_line": 379,
+              "blanks": [
+                {
+                  "question_number": 27,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "           |",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "           v",
+              "source_line": 381,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Literature review       28 __________",
+              "source_line": 382,
+              "blanks": [
+                {
+                  "question_number": 28,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "           |",
+              "source_line": 383,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "           v",
+              "source_line": 384,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Product development     29 __________",
+              "source_line": 385,
+              "blanks": [
+                {
+                  "question_number": 29,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "           |",
+              "source_line": 386,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "           v",
+              "source_line": 387,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Product production      30 __________",
+              "source_line": 388,
+              "blanks": [
+                {
+                  "question_number": 30,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 366,
+            "line_end": 393,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q27",
+              "question_number": 27,
+              "prompt": "Initial aim             27 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 379,
+                  "start": 26,
+                  "end": 39,
+                  "text": "  Initial aim             27 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flow-chart below.\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+                  "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+                  "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f"
+                ],
+                "printed_question_number": 27,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q28",
+              "question_number": 28,
+              "prompt": "Literature review       28 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 382,
+                  "start": 26,
+                  "end": 39,
+                  "text": "  Literature review       28 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flow-chart below.\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+                  "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+                  "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f"
+                ],
+                "printed_question_number": 28,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q29",
+              "question_number": 29,
+              "prompt": "Product development     29 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 385,
+                  "start": 26,
+                  "end": 39,
+                  "text": "  Product development     29 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flow-chart below.\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+                  "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+                  "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f"
+                ],
+                "printed_question_number": 29,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-21-test-02-q30",
+              "question_number": 30,
+              "prompt": "Product production      30 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-21-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 388,
+                  "start": 26,
+                  "end": 39,
+                  "text": "  Product production      30 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flow-chart below.\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+                  "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+                  "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f"
+                ],
+                "printed_question_number": 30,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+        "line_start": 394,
+        "line_end": 431,
+        "pdf_pages": [
+          38
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-29c59b253d267c3d010ffc72bdaf51ba70a88ad51430a4390c92b5297d144a00"
+      ],
+      "audio_mapping_key": {
+        "book": 21,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-21-test-02-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 398,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 399,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "CHALLENGES FACING THE CRUISE SHIP INDUSTRY",
+              "source_line": 401,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Problems with overtourism",
+              "source_line": 403,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • 31 __________ is one of the worst problems.",
+              "source_line": 404,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 6,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    • A tourist 32 __________ is being introduced in some cities to reduce",
+              "source_line": 405,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 16,
+                  "end": 29
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "      numbers, e.g. Barcelona.",
+              "source_line": 406,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • Bruges: action was taken to limit day trips from the nearby port because the",
+              "source_line": 407,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "      city was becoming a 'theme park' (e.g. many shops were only stocking",
+              "source_line": 408,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "      33 __________ and souvenirs).",
+              "source_line": 409,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 6,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    • Dubrovnik: limits the number of tourists by managing the 34 __________",
+              "source_line": 410,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 63,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "      of cruise ship arrivals.",
+              "source_line": 411,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Problems of perception",
+              "source_line": 413,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • Cruises are generally associated with the elderly.",
+              "source_line": 414,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • There is an assumption about the 35 __________ of cruises.",
+              "source_line": 415,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 39,
+                  "end": 52
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    • People think there may be too many 36 __________.",
+              "source_line": 416,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 41,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Solutions",
+              "source_line": 418,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Cruise lines are attracting younger customers by:",
+              "source_line": 419,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • becoming more sustainable e.g. using hybrid engines.",
+              "source_line": 420,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • having a wide range of activities e.g. boxing, 37 __________ and well-",
+              "source_line": 421,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 53,
+                  "end": 66
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "      being programmes.",
+              "source_line": 422,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    • offering a diverse selection of food including 38 __________ options.",
+              "source_line": 423,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 53,
+                  "end": 66
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    • providing reliable 39 __________.",
+              "source_line": 424,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 25,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    • improving marketing on social media with high quality 40 __________.",
+              "source_line": 425,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 60,
+                  "end": 73
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_21/Cambridge_IELTS_21_Listening.txt",
+            "line_start": 395,
+            "line_end": 431,
+            "pdf_pages": [
+              38
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-21-test-02-q31",
+              "question_number": 31,
+              "prompt": "• 31 __________ is one of the worst problems.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 404,
+                  "start": 6,
+                  "end": 19,
+                  "text": "    • 31 __________ is one of the worst problems.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q32",
+              "question_number": 32,
+              "prompt": "• A tourist 32 __________ is being introduced in some cities to reduce",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 405,
+                  "start": 16,
+                  "end": 29,
+                  "text": "    • A tourist 32 __________ is being introduced in some cities to reduce",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q33",
+              "question_number": 33,
+              "prompt": "33 __________ and souvenirs).",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 409,
+                  "start": 6,
+                  "end": 19,
+                  "text": "      33 __________ and souvenirs).",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q34",
+              "question_number": 34,
+              "prompt": "• Dubrovnik: limits the number of tourists by managing the 34 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 410,
+                  "start": 63,
+                  "end": 76,
+                  "text": "    • Dubrovnik: limits the number of tourists by managing the 34 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q35",
+              "question_number": 35,
+              "prompt": "• There is an assumption about the 35 __________ of cruises.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 415,
+                  "start": 39,
+                  "end": 52,
+                  "text": "    • There is an assumption about the 35 __________ of cruises.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q36",
+              "question_number": 36,
+              "prompt": "• People think there may be too many 36 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 416,
+                  "start": 41,
+                  "end": 54,
+                  "text": "    • People think there may be too many 36 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q37",
+              "question_number": 37,
+              "prompt": "• having a wide range of activities e.g. boxing, 37 __________ and well-",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 421,
+                  "start": 53,
+                  "end": 66,
+                  "text": "    • having a wide range of activities e.g. boxing, 37 __________ and well-",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q38",
+              "question_number": 38,
+              "prompt": "• offering a diverse selection of food including 38 __________ options.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 423,
+                  "start": 53,
+                  "end": 66,
+                  "text": "    • offering a diverse selection of food including 38 __________ options.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q39",
+              "question_number": 39,
+              "prompt": "• providing reliable 39 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 424,
+                  "start": 25,
+                  "end": 38,
+                  "text": "    • providing reliable 39 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-21-test-02-q40",
+              "question_number": 40,
+              "prompt": "• improving marketing on social media with high quality 40 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 425,
+                  "start": 60,
+                  "end": 73,
+                  "text": "    • improving marketing on social media with high quality 40 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b",
+      "relative_path": "assets/public/0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b.png",
+      "sha256": "0dd7caeb3c15232610602195093ed0413e5f325d40d91b4f22c0d56c13485c3b",
+      "byte_size": 157412,
+      "width": 1370,
+      "height": 1937
+    },
+    {
+      "asset_id": "asset-29c59b253d267c3d010ffc72bdaf51ba70a88ad51430a4390c92b5297d144a00",
+      "relative_path": "assets/public/29c59b253d267c3d010ffc72bdaf51ba70a88ad51430a4390c92b5297d144a00.png",
+      "sha256": "29c59b253d267c3d010ffc72bdaf51ba70a88ad51430a4390c92b5297d144a00",
+      "byte_size": 360870,
+      "width": 953,
+      "height": 1348
+    },
+    {
+      "asset_id": "asset-4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+      "relative_path": "assets/public/4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0.png",
+      "sha256": "4f231c209fa53a02719ddedf98c75983d9ea20ce2ba1d37d01becc3ed1f550c0",
+      "byte_size": 224024,
+      "width": 1370,
+      "height": 1937
+    },
+    {
+      "asset_id": "asset-5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+      "relative_path": "assets/public/5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695.png",
+      "sha256": "5b43306f7be2ad058a6651ddea6130c6dbcfcb41bda66f96bbe01a32b27ce695",
+      "byte_size": 161381,
+      "width": 1370,
+      "height": 1937
+    },
+    {
+      "asset_id": "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+      "relative_path": "assets/public/74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca.png",
+      "sha256": "74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+      "byte_size": 172903,
+      "width": 1370,
+      "height": 1937
+    },
+    {
+      "asset_id": "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f",
+      "relative_path": "assets/public/874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f.png",
+      "sha256": "874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f",
+      "byte_size": 56826,
+      "width": 825,
+      "height": 740
+    },
+    {
+      "asset_id": "asset-b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24",
+      "relative_path": "assets/public/b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24.png",
+      "sha256": "b06487d6011994b1a06c15a084cfad0f0d693999b16b3e20d08a2c95ce475e24",
+      "byte_size": 246183,
+      "width": 953,
+      "height": 1348
+    },
+    {
+      "asset_id": "asset-cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+      "relative_path": "assets/public/cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4.png",
+      "sha256": "cafb6f007882ca2ce2b1ab7b8e2cedc66b7b65564adea645d8dc259eb6db5af4",
+      "byte_size": 77527,
+      "width": 985,
+      "height": 840
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

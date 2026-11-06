@@ -1,0 +1,3038 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-10-test-03",
+  "book": 10,
+  "printed_test_number": 3,
+  "local_ordinal": 3,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 366,
+        "line_end": 399,
+        "pdf_pages": [
+          49
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-03-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 370,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 371,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Early Learning Childcare Centre",
+              "source_line": 373,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Enrolment Form",
+              "source_line": 374,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example",
+              "source_line": 376,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Parent or guardian: Carol Smith",
+              "source_line": 377,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Personal Details",
+              "source_line": 379,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Child's name: Kate",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Age: 1 [__________]",
+              "source_line": 381,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 5,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Address: 2 [__________] Road, Woodside, 4032",
+              "source_line": 382,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Phone: 3345 9865",
+              "source_line": 383,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Childcare Information",
+              "source_line": 385,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Days enrolled for: Monday and 3 [__________]",
+              "source_line": 386,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 30,
+                  "end": 44
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Start time: 4 [__________] am",
+              "source_line": 387,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 12,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Childcare group: the 5 [__________] group",
+              "source_line": 388,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 21,
+                  "end": 35
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Which meal/s are required each day? 6 [__________]",
+              "source_line": 389,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 36,
+                  "end": 50
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Medical conditions: needs 7 [__________]",
+              "source_line": 390,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 26,
+                  "end": 40
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Emergency contact: Jenny 8 [__________]  Phone: 3346 7523",
+              "source_line": 391,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 25,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Relationship to child: 9 [__________]",
+              "source_line": 392,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 23,
+                  "end": 37
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Fees",
+              "source_line": 394,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Will pay each 10 [__________]",
+              "source_line": 395,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 14,
+                  "end": 29
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 367,
+            "line_end": 399,
+            "pdf_pages": [
+              49
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q01",
+              "question_number": 1,
+              "prompt": "Age: 1 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 381,
+                  "start": 5,
+                  "end": 19,
+                  "text": "Age: 1 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q02",
+              "question_number": 2,
+              "prompt": "Address: 2 [__________] Road, Woodside, 4032",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 382,
+                  "start": 9,
+                  "end": 23,
+                  "text": "Address: 2 [__________] Road, Woodside, 4032",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q03",
+              "question_number": 3,
+              "prompt": "Days enrolled for: Monday and 3 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 386,
+                  "start": 30,
+                  "end": 44,
+                  "text": "Days enrolled for: Monday and 3 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q04",
+              "question_number": 4,
+              "prompt": "Start time: 4 [__________] am",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 387,
+                  "start": 12,
+                  "end": 26,
+                  "text": "Start time: 4 [__________] am",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q05",
+              "question_number": 5,
+              "prompt": "Childcare group: the 5 [__________] group",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 388,
+                  "start": 21,
+                  "end": 35,
+                  "text": "Childcare group: the 5 [__________] group",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q06",
+              "question_number": 6,
+              "prompt": "Which meal/s are required each day? 6 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 389,
+                  "start": 36,
+                  "end": 50,
+                  "text": "Which meal/s are required each day? 6 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q07",
+              "question_number": 7,
+              "prompt": "Medical conditions: needs 7 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 390,
+                  "start": 26,
+                  "end": 40,
+                  "text": "Medical conditions: needs 7 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q08",
+              "question_number": 8,
+              "prompt": "Emergency contact: Jenny 8 [__________]  Phone: 3346 7523",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 391,
+                  "start": 25,
+                  "end": 39,
+                  "text": "Emergency contact: Jenny 8 [__________]  Phone: 3346 7523",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q09",
+              "question_number": 9,
+              "prompt": "Relationship to child: 9 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 392,
+                  "start": 23,
+                  "end": 37,
+                  "text": "Relationship to child: 9 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-03-q10",
+              "question_number": 10,
+              "prompt": "Will pay each 10 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 395,
+                  "start": 14,
+                  "end": 29,
+                  "text": "Will pay each 10 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nWhich meal/s are required each day? 6 [__________]",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 400,
+        "line_end": 453,
+        "pdf_pages": [
+          50,
+          51
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-90440110a270a6e2464736463898292d3169511a1dd17d4c4507f29fe7cd6811",
+        "asset-f805cdf2b0c21b094c35b04bbcc5eaa6fc2c608497f016440840e38c8b1e618e"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-03-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things does Alice say about the Dolphin Conservation Trust?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things does Alice say about the Dolphin Conservation Trust?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-03-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Children make up most of the membership.",
+                "source_line": 407
+              },
+              {
+                "label": "B",
+                "text": "It's the country's largest conservation organisation.",
+                "source_line": 408
+              },
+              {
+                "label": "C",
+                "text": "It helps finance campaigns for changes in fishing practices.",
+                "source_line": 409
+              },
+              {
+                "label": "D",
+                "text": "It employs several dolphin experts full-time.",
+                "source_line": 410
+              },
+              {
+                "label": "E",
+                "text": "Volunteers help in various ways.",
+                "source_line": 411
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 405,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO things does Alice say about the Dolphin Conservation Trust?",
+              "source_line": 406,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  Children make up most of the membership.",
+              "source_line": 407,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  It's the country's largest conservation organisation.",
+              "source_line": 408,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  It helps finance campaigns for changes in fishing practices.",
+              "source_line": 409,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  It employs several dolphin experts full-time.",
+              "source_line": 410,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  Volunteers help in various ways.",
+              "source_line": 411,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. [__________]",
+              "source_line": 412,
+              "blanks": [
+                {
+                  "question_number": 11,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "12. [__________]",
+              "source_line": 413,
+              "blanks": [
+                {
+                  "question_number": 12,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 404,
+            "line_end": 414,
+            "pdf_pages": [
+              50,
+              51
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q11",
+              "question_number": 11,
+              "prompt": "11. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 412,
+                  "start": 0,
+                  "end": 16,
+                  "text": "11. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does Alice say about the Dolphin Conservation Trust?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q12",
+              "question_number": 12,
+              "prompt": "12. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 413,
+                  "start": 0,
+                  "end": 16,
+                  "text": "12. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does Alice say about the Dolphin Conservation Trust?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-03-p2-g13-15",
+          "question_range": [
+            13,
+            15
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 416,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. Why is Alice so pleased the Trust has won the Charity Commission award?",
+              "source_line": 418,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  It has brought in extra money.",
+              "source_line": 419,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  It made the work of the trust better known.",
+              "source_line": 420,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  It has attracted more members.",
+              "source_line": 421,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14. Alice says oil exploration causes problems to dolphins because of",
+              "source_line": 423,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  noise.",
+              "source_line": 424,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  oil leaks.",
+              "source_line": 425,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  movement of ships.",
+              "source_line": 426,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. Alice became interested in dolphins when",
+              "source_line": 428,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  she saw one swimming near her home.",
+              "source_line": 429,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  she heard a speaker at her school.",
+              "source_line": 430,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  she read a book about them.",
+              "source_line": 431,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q15"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 415,
+            "line_end": 432,
+            "pdf_pages": [
+              50,
+              51
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q13",
+              "question_number": 13,
+              "prompt": "13. Why is Alice so pleased the Trust has won the Charity Commission award?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It has brought in extra money.",
+                  "source_line": 419
+                },
+                {
+                  "label": "B",
+                  "text": "It made the work of the trust better known.",
+                  "source_line": 420
+                },
+                {
+                  "label": "C",
+                  "text": "It has attracted more members.",
+                  "source_line": 421
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 418,
+                  "start": 0,
+                  "end": 75,
+                  "text": "13. Why is Alice so pleased the Trust has won the Charity Commission award?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q14",
+              "question_number": 14,
+              "prompt": "14. Alice says oil exploration causes problems to dolphins because of",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "noise.",
+                  "source_line": 424
+                },
+                {
+                  "label": "B",
+                  "text": "oil leaks.",
+                  "source_line": 425
+                },
+                {
+                  "label": "C",
+                  "text": "movement of ships.",
+                  "source_line": 426
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 423,
+                  "start": 0,
+                  "end": 69,
+                  "text": "14. Alice says oil exploration causes problems to dolphins because of",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q15",
+              "question_number": 15,
+              "prompt": "15. Alice became interested in dolphins when",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "she saw one swimming near her home.",
+                  "source_line": 429
+                },
+                {
+                  "label": "B",
+                  "text": "she heard a speaker at her school.",
+                  "source_line": 430
+                },
+                {
+                  "label": "C",
+                  "text": "she read a book about them.",
+                  "source_line": 431
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 428,
+                  "start": 0,
+                  "end": 44,
+                  "text": "15. Alice became interested in dolphins when",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-03-p2-g16-20",
+          "question_range": [
+            16,
+            20
+          ],
+          "question_type": "matching",
+          "instructions": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-03-p2-g16-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Moondancer",
+                "source_line": 438
+              },
+              {
+                "label": "B",
+                "text": "Echo",
+                "source_line": 439
+              },
+              {
+                "label": "C",
+                "text": "Kiwi",
+                "source_line": 440
+              },
+              {
+                "label": "D",
+                "text": "Samson",
+                "source_line": 441
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Which dolphin does Alice make each of the following comments about?",
+              "source_line": 434,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A, B, C or D, next to questions 16–20.",
+              "source_line": 435,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Dolphins",
+              "source_line": 437,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  Moondancer",
+              "source_line": 438,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  Echo",
+              "source_line": 439,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  Kiwi",
+              "source_line": 440,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  Samson",
+              "source_line": 441,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Comments",
+              "source_line": 443,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16. It has not been seen this year.              [__________]",
+              "source_line": 444,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17. It is photographed more than the others.    [__________]",
+              "source_line": 445,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18. It is always very energetic.                [__________]",
+              "source_line": 446,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. It is the newest one in the scheme.         [__________]",
+              "source_line": 447,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20. It has an unusual shape.                    [__________]",
+              "source_line": 448,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 433,
+            "line_end": 453,
+            "pdf_pages": [
+              50,
+              51
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q16",
+              "question_number": 16,
+              "prompt": "16. It has not been seen this year.              [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 444,
+                  "start": 0,
+                  "end": 61,
+                  "text": "16. It has not been seen this year.              [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q17",
+              "question_number": 17,
+              "prompt": "17. It is photographed more than the others.    [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 445,
+                  "start": 0,
+                  "end": 60,
+                  "text": "17. It is photographed more than the others.    [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q18",
+              "question_number": 18,
+              "prompt": "18. It is always very energetic.                [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 446,
+                  "start": 0,
+                  "end": 60,
+                  "text": "18. It is always very energetic.                [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q19",
+              "question_number": 19,
+              "prompt": "19. It is the newest one in the scheme.         [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 447,
+                  "start": 0,
+                  "end": 60,
+                  "text": "19. It is the newest one in the scheme.         [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q20",
+              "question_number": 20,
+              "prompt": "20. It has an unusual shape.                    [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 448,
+                  "start": 0,
+                  "end": 60,
+                  "text": "20. It has an unusual shape.                    [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which dolphin does Alice make each of the following comments about?\nWrite the correct letter, A, B, C or D, next to questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 454,
+        "line_end": 511,
+        "pdf_pages": [
+          52,
+          53
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-9959faa95a8127d30252290ae1fcbe814a24f7a1cbda4c81da8c1c5ff98684d7",
+        "asset-d0c55c333d6580420010ea5990686c84fbe33c724320f6369c7ef22e06e6ccf0"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-03-p3-g21-25",
+          "question_range": [
+            21,
+            25
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 459,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Theatre Studies Course",
+              "source_line": 461,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. What helped Rob to prepare to play the character of a doctor?",
+              "source_line": 463,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  the stories his grandfather told him",
+              "source_line": 464,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the times when he watched his grandfather working",
+              "source_line": 465,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the way he imagined his grandfather at work",
+              "source_line": 466,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22. In the play's first scene, the boredom of village life was suggested by",
+              "source_line": 468,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  repetition of words and phrases.",
+              "source_line": 469,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  scenery painted in dull colours.",
+              "source_line": 470,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  long pauses within conversations.",
+              "source_line": 471,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. What has Rob learned about himself through working in a group?",
+              "source_line": 473,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  He likes to have clear guidelines.",
+              "source_line": 474,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  He copes well with stress.",
+              "source_line": 475,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  He thinks he is a good leader.",
+              "source_line": 476,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24. To support the production, research material was used which described",
+              "source_line": 478,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  political developments.",
+              "source_line": 479,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  changing social attitudes.",
+              "source_line": 480,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  economic transformations.",
+              "source_line": 481,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. What problem did the students overcome in the final rehearsal?",
+              "source_line": 483,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  one person forgetting their words",
+              "source_line": 484,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  an equipment failure",
+              "source_line": 485,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the injury of one character",
+              "source_line": 486,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q24"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q25"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 458,
+            "line_end": 487,
+            "pdf_pages": [
+              52,
+              53
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q21",
+              "question_number": 21,
+              "prompt": "21. What helped Rob to prepare to play the character of a doctor?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the stories his grandfather told him",
+                  "source_line": 464
+                },
+                {
+                  "label": "B",
+                  "text": "the times when he watched his grandfather working",
+                  "source_line": 465
+                },
+                {
+                  "label": "C",
+                  "text": "the way he imagined his grandfather at work",
+                  "source_line": 466
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 463,
+                  "start": 0,
+                  "end": 65,
+                  "text": "21. What helped Rob to prepare to play the character of a doctor?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q22",
+              "question_number": 22,
+              "prompt": "22. In the play's first scene, the boredom of village life was suggested by",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "repetition of words and phrases.",
+                  "source_line": 469
+                },
+                {
+                  "label": "B",
+                  "text": "scenery painted in dull colours.",
+                  "source_line": 470
+                },
+                {
+                  "label": "C",
+                  "text": "long pauses within conversations.",
+                  "source_line": 471
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 468,
+                  "start": 0,
+                  "end": 75,
+                  "text": "22. In the play's first scene, the boredom of village life was suggested by",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q23",
+              "question_number": 23,
+              "prompt": "23. What has Rob learned about himself through working in a group?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "He likes to have clear guidelines.",
+                  "source_line": 474
+                },
+                {
+                  "label": "B",
+                  "text": "He copes well with stress.",
+                  "source_line": 475
+                },
+                {
+                  "label": "C",
+                  "text": "He thinks he is a good leader.",
+                  "source_line": 476
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 473,
+                  "start": 0,
+                  "end": 66,
+                  "text": "23. What has Rob learned about himself through working in a group?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q24",
+              "question_number": 24,
+              "prompt": "24. To support the production, research material was used which described",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "political developments.",
+                  "source_line": 479
+                },
+                {
+                  "label": "B",
+                  "text": "changing social attitudes.",
+                  "source_line": 480
+                },
+                {
+                  "label": "C",
+                  "text": "economic transformations.",
+                  "source_line": 481
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 478,
+                  "start": 0,
+                  "end": 73,
+                  "text": "24. To support the production, research material was used which described",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q25",
+              "question_number": 25,
+              "prompt": "25. What problem did the students overcome in the final rehearsal?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "one person forgetting their words",
+                  "source_line": 484
+                },
+                {
+                  "label": "B",
+                  "text": "an equipment failure",
+                  "source_line": 485
+                },
+                {
+                  "label": "C",
+                  "text": "the injury of one character",
+                  "source_line": 486
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 483,
+                  "start": 0,
+                  "end": 66,
+                  "text": "25. What problem did the students overcome in the final rehearsal?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-03-p3-g26-30",
+          "question_range": [
+            26,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-03-p3-g26-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "be on time",
+                "source_line": 493
+              },
+              {
+                "label": "B",
+                "text": "get a letter of recommendation",
+                "source_line": 494
+              },
+              {
+                "label": "C",
+                "text": "plan for the final year",
+                "source_line": 495
+              },
+              {
+                "label": "D",
+                "text": "make sure the institution's focus is relevant",
+                "source_line": 496
+              },
+              {
+                "label": "E",
+                "text": "show ability in Theatre Studies",
+                "source_line": 497
+              },
+              {
+                "label": "F",
+                "text": "make travel arrangements and bookings",
+                "source_line": 498
+              },
+              {
+                "label": "G",
+                "text": "ask for help",
+                "source_line": 499
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What action is needed for the following stages in doing the 'year abroad' option?",
+              "source_line": 489,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+              "source_line": 490,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Action",
+              "source_line": 492,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  be on time",
+              "source_line": 493,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  get a letter of recommendation",
+              "source_line": 494,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  plan for the final year",
+              "source_line": 495,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  make sure the institution's focus is relevant",
+              "source_line": 496,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  show ability in Theatre Studies",
+              "source_line": 497,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  make travel arrangements and bookings",
+              "source_line": 498,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G  ask for help",
+              "source_line": 499,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Stages in doing the 'year abroad' option",
+              "source_line": 501,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. in the second year of the course        [__________]",
+              "source_line": 502,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. when first choosing where to go        [__________]",
+              "source_line": 503,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. when sending in your choices           [__________]",
+              "source_line": 504,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. when writing your personal statement   [__________]",
+              "source_line": 505,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. when doing the year abroad             [__________]",
+              "source_line": 506,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-03-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 488,
+            "line_end": 511,
+            "pdf_pages": [
+              52,
+              53
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q26",
+              "question_number": 26,
+              "prompt": "26. in the second year of the course        [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 502,
+                  "start": 0,
+                  "end": 56,
+                  "text": "26. in the second year of the course        [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q27",
+              "question_number": 27,
+              "prompt": "27. when first choosing where to go        [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 503,
+                  "start": 0,
+                  "end": 55,
+                  "text": "27. when first choosing where to go        [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q28",
+              "question_number": 28,
+              "prompt": "28. when sending in your choices           [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 504,
+                  "start": 0,
+                  "end": 55,
+                  "text": "28. when sending in your choices           [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q29",
+              "question_number": 29,
+              "prompt": "29. when writing your personal statement   [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 505,
+                  "start": 0,
+                  "end": 55,
+                  "text": "29. when writing your personal statement   [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q30",
+              "question_number": 30,
+              "prompt": "30. when doing the year abroad             [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 506,
+                  "start": 0,
+                  "end": 55,
+                  "text": "30. when doing the year abroad             [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What action is needed for the following stages in doing the 'year abroad' option?\nChoose FIVE answers from the box and write the correct letter, A–G, next to questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 512,
+        "line_end": 558,
+        "pdf_pages": [
+          54,
+          55
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-736d241252fe8de0e9a70e8c9d639e0792e7de647c55630cf2db20a777406f8d",
+        "asset-b58e5921b4b602ac3d42cfbb7b08bd8ce79defdea1723822a758104c497a4eb7"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-03-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 516,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 517,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "'Self-regulatory focus theory' and leadership",
+              "source_line": 519,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Self-regulatory focus theory",
+              "source_line": 521,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "People's focus is to approach pleasure or avoid pain.",
+              "source_line": 522,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Promotion goals focus on 31 [__________].",
+              "source_line": 523,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 25,
+                  "end": 40
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Prevention goals emphasise avoiding punishment.",
+              "source_line": 524,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Factors that affect people's focus",
+              "source_line": 526,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The Chronic Factor",
+              "source_line": 527,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• comes from one's 32 [__________]",
+              "source_line": 528,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 19,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "The 33 [__________] Factor",
+              "source_line": 529,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 4,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• we are more likely to focus on promotion goals when with a 34 [__________]",
+              "source_line": 530,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 61,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• we are more likely to focus on prevention goals with our boss",
+              "source_line": 531,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "How people's focus affects them",
+              "source_line": 533,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Promotion Focus: People think about an ideal version of themselves, their",
+              "source_line": 534,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "35 [__________] and their gains.",
+              "source_line": 535,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 0,
+                  "end": 15
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Prevention Focus: People think about their 'ought' self and their obligations.",
+              "source_line": 536,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Leaders",
+              "source_line": 538,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Leadership behaviour and 36 [__________] affects people's focus.",
+              "source_line": 539,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 25,
+                  "end": 40
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Transformational Leaders:",
+              "source_line": 540,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• pay special attention to the 37 [__________] of their followers",
+              "source_line": 541,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 31,
+                  "end": 46
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• passionately communicate a clear 38 [__________]",
+              "source_line": 542,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 35,
+                  "end": 50
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• inspire promotion focus in followers",
+              "source_line": 543,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Transactional Leaders:",
+              "source_line": 545,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• create 39 [__________] to make expectations clear",
+              "source_line": 546,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 9,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• emphasise the results of a mistake",
+              "source_line": 547,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• inspire prevention focus in followers",
+              "source_line": 548,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Conclusion",
+              "source_line": 550,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Promotion Focus is good for jobs requiring 40 [__________].",
+              "source_line": 551,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 43,
+                  "end": 58
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Prevention Focus is good for work such as a surgeon.",
+              "source_line": 552,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Leaders' actions affect which focus people use.",
+              "source_line": 553,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 513,
+            "line_end": 558,
+            "pdf_pages": [
+              54,
+              55
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-03-q31",
+              "question_number": 31,
+              "prompt": "Promotion goals focus on 31 [__________].",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 523,
+                  "start": 25,
+                  "end": 40,
+                  "text": "Promotion goals focus on 31 [__________].",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q32",
+              "question_number": 32,
+              "prompt": "• comes from one's 32 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 528,
+                  "start": 19,
+                  "end": 34,
+                  "text": "• comes from one's 32 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q33",
+              "question_number": 33,
+              "prompt": "The 33 [__________] Factor",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 529,
+                  "start": 4,
+                  "end": 19,
+                  "text": "The 33 [__________] Factor",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q34",
+              "question_number": 34,
+              "prompt": "• we are more likely to focus on promotion goals when with a 34 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 530,
+                  "start": 61,
+                  "end": 76,
+                  "text": "• we are more likely to focus on promotion goals when with a 34 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q35",
+              "question_number": 35,
+              "prompt": "35 [__________] and their gains.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 535,
+                  "start": 0,
+                  "end": 15,
+                  "text": "35 [__________] and their gains.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q36",
+              "question_number": 36,
+              "prompt": "Leadership behaviour and 36 [__________] affects people's focus.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 539,
+                  "start": 25,
+                  "end": 40,
+                  "text": "Leadership behaviour and 36 [__________] affects people's focus.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q37",
+              "question_number": 37,
+              "prompt": "• pay special attention to the 37 [__________] of their followers",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 541,
+                  "start": 31,
+                  "end": 46,
+                  "text": "• pay special attention to the 37 [__________] of their followers",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q38",
+              "question_number": 38,
+              "prompt": "• passionately communicate a clear 38 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 542,
+                  "start": 35,
+                  "end": 50,
+                  "text": "• passionately communicate a clear 38 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q39",
+              "question_number": 39,
+              "prompt": "• create 39 [__________] to make expectations clear",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 546,
+                  "start": 9,
+                  "end": 24,
+                  "text": "• create 39 [__________] to make expectations clear",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-03-q40",
+              "question_number": 40,
+              "prompt": "Promotion Focus is good for jobs requiring 40 [__________].",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 551,
+                  "start": 43,
+                  "end": 58,
+                  "text": "Promotion Focus is good for jobs requiring 40 [__________].",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981",
+      "relative_path": "assets/public/0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981.jpg",
+      "sha256": "0bc8f5f69fe0c9f5f50295307d4cadbf4658021a296f1115c417d83f411e7981",
+      "byte_size": 222990,
+      "width": 1410,
+      "height": 1936
+    },
+    {
+      "asset_id": "asset-736d241252fe8de0e9a70e8c9d639e0792e7de647c55630cf2db20a777406f8d",
+      "relative_path": "assets/public/736d241252fe8de0e9a70e8c9d639e0792e7de647c55630cf2db20a777406f8d.jpg",
+      "sha256": "736d241252fe8de0e9a70e8c9d639e0792e7de647c55630cf2db20a777406f8d",
+      "byte_size": 213638,
+      "width": 1350,
+      "height": 1904
+    },
+    {
+      "asset_id": "asset-90440110a270a6e2464736463898292d3169511a1dd17d4c4507f29fe7cd6811",
+      "relative_path": "assets/public/90440110a270a6e2464736463898292d3169511a1dd17d4c4507f29fe7cd6811.jpg",
+      "sha256": "90440110a270a6e2464736463898292d3169511a1dd17d4c4507f29fe7cd6811",
+      "byte_size": 217749,
+      "width": 1301,
+      "height": 1849
+    },
+    {
+      "asset_id": "asset-9959faa95a8127d30252290ae1fcbe814a24f7a1cbda4c81da8c1c5ff98684d7",
+      "relative_path": "assets/public/9959faa95a8127d30252290ae1fcbe814a24f7a1cbda4c81da8c1c5ff98684d7.jpg",
+      "sha256": "9959faa95a8127d30252290ae1fcbe814a24f7a1cbda4c81da8c1c5ff98684d7",
+      "byte_size": 238481,
+      "width": 1337,
+      "height": 1917
+    },
+    {
+      "asset_id": "asset-b58e5921b4b602ac3d42cfbb7b08bd8ce79defdea1723822a758104c497a4eb7",
+      "relative_path": "assets/public/b58e5921b4b602ac3d42cfbb7b08bd8ce79defdea1723822a758104c497a4eb7.jpg",
+      "sha256": "b58e5921b4b602ac3d42cfbb7b08bd8ce79defdea1723822a758104c497a4eb7",
+      "byte_size": 167668,
+      "width": 1317,
+      "height": 1847
+    },
+    {
+      "asset_id": "asset-d0c55c333d6580420010ea5990686c84fbe33c724320f6369c7ef22e06e6ccf0",
+      "relative_path": "assets/public/d0c55c333d6580420010ea5990686c84fbe33c724320f6369c7ef22e06e6ccf0.jpg",
+      "sha256": "d0c55c333d6580420010ea5990686c84fbe33c724320f6369c7ef22e06e6ccf0",
+      "byte_size": 195262,
+      "width": 1413,
+      "height": 1878
+    },
+    {
+      "asset_id": "asset-f805cdf2b0c21b094c35b04bbcc5eaa6fc2c608497f016440840e38c8b1e618e",
+      "relative_path": "assets/public/f805cdf2b0c21b094c35b04bbcc5eaa6fc2c608497f016440840e38c8b1e618e.jpg",
+      "sha256": "f805cdf2b0c21b094c35b04bbcc5eaa6fc2c608497f016440840e38c8b1e618e",
+      "byte_size": 209255,
+      "width": 1404,
+      "height": 1936
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

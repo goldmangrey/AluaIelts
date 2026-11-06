@@ -1,0 +1,3218 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-19-test-03",
+  "book": 19,
+  "printed_test_number": 3,
+  "local_ordinal": 3,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 357,
+        "line_end": 394,
+        "pdf_pages": [
+          54,
+          55
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c",
+        "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-03-p1-g01-06",
+          "question_range": [
+            1,
+            6
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 361,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 362,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "LOCAL FOOD SHOPS",
+              "source_line": 364,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Where to go",
+              "source_line": 366,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Kite Place – near the (1) __________",
+              "source_line": 367,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 24,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Fish market",
+              "source_line": 369,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• cross the (2) __________ and turn right",
+              "source_line": 370,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 12,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• best to go before (3) __________ pm, earlier than closing time",
+              "source_line": 371,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 20,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Organic shop",
+              "source_line": 373,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• called '(4) __________'",
+              "source_line": 374,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 10,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• below a restaurant in the large, grey building",
+              "source_line": 375,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• look for the large (5) __________ outside",
+              "source_line": 376,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 21,
+                  "end": 35
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Supermarket",
+              "source_line": 378,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• take a (6) __________ minibus, number 289",
+              "source_line": 379,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 360,
+            "line_end": 380,
+            "pdf_pages": [
+              54,
+              55
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q01",
+              "question_number": 1,
+              "prompt": "• Kite Place – near the (1) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 367,
+                  "start": 24,
+                  "end": 38,
+                  "text": "• Kite Place – near the (1) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q02",
+              "question_number": 2,
+              "prompt": "• cross the (2) __________ and turn right",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 370,
+                  "start": 12,
+                  "end": 26,
+                  "text": "• cross the (2) __________ and turn right",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q03",
+              "question_number": 3,
+              "prompt": "• best to go before (3) __________ pm, earlier than closing time",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 371,
+                  "start": 20,
+                  "end": 34,
+                  "text": "• best to go before (3) __________ pm, earlier than closing time",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q04",
+              "question_number": 4,
+              "prompt": "• called '(4) __________'",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 374,
+                  "start": 10,
+                  "end": 24,
+                  "text": "• called '(4) __________'",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q05",
+              "question_number": 5,
+              "prompt": "• look for the large (5) __________ outside",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 376,
+                  "start": 21,
+                  "end": 35,
+                  "text": "• look for the large (5) __________ outside",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q06",
+              "question_number": 6,
+              "prompt": "• take a (6) __________ minibus, number 289",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 379,
+                  "start": 9,
+                  "end": 23,
+                  "text": "• take a (6) __________ minibus, number 289",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-03-p1-g07-10",
+          "question_range": [
+            7,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 382,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 383,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "SHOPPING",
+              "source_line": 385,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Shop         | To buy                     | Other ideas",
+              "source_line": 386,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "-------------|----------------------------|---------------------------------------------",
+              "source_line": 387,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Fish market  | a dozen prawns             | a handful of (7) __________ (type of seaweed)",
+              "source_line": 388,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 57,
+                  "end": 71
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Organic shop | beans and a (8) __________ | spices and (9) __________",
+              "source_line": 389,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 27,
+                  "end": 41
+                },
+                {
+                  "question_number": 9,
+                  "start": 55,
+                  "end": 69
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "             | for dessert                |",
+              "source_line": 390,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Bakery       | a brown loaf               | a (10) __________ tart",
+              "source_line": 391,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 46,
+                  "end": 61
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 381,
+            "line_end": 394,
+            "pdf_pages": [
+              54,
+              55
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q07",
+              "question_number": 7,
+              "prompt": "Fish market  | a dozen prawns             | a handful of (7) __________ (type of seaweed)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 388,
+                  "start": 57,
+                  "end": 71,
+                  "text": "Fish market  | a dozen prawns             | a handful of (7) __________ (type of seaweed)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q08",
+              "question_number": 8,
+              "prompt": "Organic shop | beans and a (8) __________ | spices and (9) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 389,
+                  "start": 27,
+                  "end": 41,
+                  "text": "Organic shop | beans and a (8) __________ | spices and (9) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q09",
+              "question_number": 9,
+              "prompt": "Organic shop | beans and a (8) __________ | spices and (9) __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 389,
+                  "start": 55,
+                  "end": 69,
+                  "text": "Organic shop | beans and a (8) __________ | spices and (9) __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q10",
+              "question_number": 10,
+              "prompt": "Bakery       | a brown loaf               | a (10) __________ tart",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 391,
+                  "start": 46,
+                  "end": 61,
+                  "text": "Bakery       | a brown loaf               | a (10) __________ tart",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c",
+          "question_range": [
+            1,
+            6
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-4db70e91d4c332e6422adf5fea5417db299ff28d2630200dbe5f36ffb264adae"
+          ]
+        },
+        {
+          "asset_id": "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4",
+          "question_range": [
+            7,
+            10
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-7de1e37609e9dfb592c267c47150990065cd0e797fef509d99d9c70c02e97fcd"
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 395,
+        "line_end": 439,
+        "pdf_pages": [
+          56,
+          57
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-14a83d0a73ad1056c19b03b78dbc0e64d3a6aa826fdc674c3865791d61777c3a",
+        "asset-eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-03-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "matching",
+          "instructions": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "involves painting and drawing",
+                "source_line": 403
+              },
+              {
+                "label": "B",
+                "text": "will be led by a prize-winning author",
+                "source_line": 404
+              },
+              {
+                "label": "C",
+                "text": "is aimed at children with a disability",
+                "source_line": 405
+              },
+              {
+                "label": "D",
+                "text": "involves a drama activity",
+                "source_line": 406
+              },
+              {
+                "label": "E",
+                "text": "focuses on new relationships",
+                "source_line": 407
+              },
+              {
+                "label": "F",
+                "text": "is aimed at a specific age group",
+                "source_line": 408
+              },
+              {
+                "label": "G",
+                "text": "explores an unhappy feeling",
+                "source_line": 409
+              },
+              {
+                "label": "H",
+                "text": "raises awareness of a particular culture",
+                "source_line": 410
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-14a83d0a73ad1056c19b03b78dbc0e64d3a6aa826fdc674c3865791d61777c3a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What information is given about each of the following festival workshops?",
+              "source_line": 399,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+              "source_line": 400,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Information",
+              "source_line": 402,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  involves painting and drawing",
+              "source_line": 403,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  will be led by a prize-winning author",
+              "source_line": 404,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  is aimed at children with a disability",
+              "source_line": 405,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  involves a drama activity",
+              "source_line": 406,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  focuses on new relationships",
+              "source_line": 407,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   F  is aimed at a specific age group",
+              "source_line": 408,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   G  explores an unhappy feeling",
+              "source_line": 409,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   H  raises awareness of a particular culture",
+              "source_line": 410,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Festival workshops",
+              "source_line": 412,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11 Superheroes        __________",
+              "source_line": 413,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12 Just do it         __________",
+              "source_line": 414,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13 Count on me        __________",
+              "source_line": 415,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14 Speak up           __________",
+              "source_line": 416,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15 Jump for joy       __________",
+              "source_line": 417,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16 Sticks and stones  __________",
+              "source_line": 418,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q16"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 398,
+            "line_end": 419,
+            "pdf_pages": [
+              56,
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q11",
+              "question_number": 11,
+              "prompt": "11 Superheroes        __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 413,
+                  "start": 0,
+                  "end": 32,
+                  "text": "11 Superheroes        __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q12",
+              "question_number": 12,
+              "prompt": "12 Just do it         __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 414,
+                  "start": 0,
+                  "end": 32,
+                  "text": "12 Just do it         __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q13",
+              "question_number": 13,
+              "prompt": "13 Count on me        __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 415,
+                  "start": 0,
+                  "end": 32,
+                  "text": "13 Count on me        __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q14",
+              "question_number": 14,
+              "prompt": "14 Speak up           __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 416,
+                  "start": 0,
+                  "end": 32,
+                  "text": "14 Speak up           __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q15",
+              "question_number": 15,
+              "prompt": "15 Jump for joy       __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 417,
+                  "start": 0,
+                  "end": 32,
+                  "text": "15 Jump for joy       __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q16",
+              "question_number": 16,
+              "prompt": "16 Sticks and stones  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 418,
+                  "start": 0,
+                  "end": 32,
+                  "text": "16 Sticks and stones  __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-03-p2-g17-18",
+          "question_range": [
+            17,
+            18
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO reasons does the speaker give for recommending Alive and Kicking?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO reasons does the speaker give for recommending Alive and Kicking?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-03-p2-g17-18-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "It will appeal to both boys and girls.",
+                "source_line": 423
+              },
+              {
+                "label": "B",
+                "text": "The author is well known.",
+                "source_line": 424
+              },
+              {
+                "label": "C",
+                "text": "It has colourful illustrations.",
+                "source_line": 425
+              },
+              {
+                "label": "D",
+                "text": "It is funny.",
+                "source_line": 426
+              },
+              {
+                "label": "E",
+                "text": "It deals with an important topic.",
+                "source_line": 427
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              17,
+              18
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 421,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO reasons does the speaker give for recommending Alive and Kicking?",
+              "source_line": 422,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  It will appeal to both boys and girls.",
+              "source_line": 423,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  The author is well known.",
+              "source_line": 424,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  It has colourful illustrations.",
+              "source_line": 425,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  It is funny.",
+              "source_line": 426,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  It deals with an important topic.",
+              "source_line": 427,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17 __________     18 __________",
+              "source_line": 428,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "question_number": 18,
+                  "start": 18,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 420,
+            "line_end": 429,
+            "pdf_pages": [
+              56,
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q17",
+              "question_number": 17,
+              "prompt": "17 __________     18 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 428,
+                  "start": 0,
+                  "end": 13,
+                  "text": "17 __________     18 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO reasons does the speaker give for recommending Alive and Kicking?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q18",
+              "question_number": 18,
+              "prompt": "17 __________     18 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 428,
+                  "start": 18,
+                  "end": 31,
+                  "text": "17 __________     18 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO reasons does the speaker give for recommending Alive and Kicking?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-03-p2-g19-20",
+          "question_range": [
+            19,
+            20
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO pieces of advice does the speaker give to parents about reading?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice does the speaker give to parents about reading?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-03-p2-g19-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Encourage children to write down new vocabulary.",
+                "source_line": 433
+              },
+              {
+                "label": "B",
+                "text": "Allow children to listen to audio books.",
+                "source_line": 434
+              },
+              {
+                "label": "C",
+                "text": "Get recommendations from librarians.",
+                "source_line": 435
+              },
+              {
+                "label": "D",
+                "text": "Give children a choice about what they read.",
+                "source_line": 436
+              },
+              {
+                "label": "E",
+                "text": "Only read aloud to children until they can read independently.",
+                "source_line": 437
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              19,
+              20
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 431,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO pieces of advice does the speaker give to parents about reading?",
+              "source_line": 432,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  Encourage children to write down new vocabulary.",
+              "source_line": 433,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  Allow children to listen to audio books.",
+              "source_line": 434,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  Get recommendations from librarians.",
+              "source_line": 435,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  Give children a choice about what they read.",
+              "source_line": 436,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  Only read aloud to children until they can read independently.",
+              "source_line": 437,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19 __________     20 __________",
+              "source_line": 438,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 0,
+                  "end": 13
+                },
+                {
+                  "question_number": 20,
+                  "start": 18,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 430,
+            "line_end": 439,
+            "pdf_pages": [
+              56,
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q19",
+              "question_number": 19,
+              "prompt": "19 __________     20 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 438,
+                  "start": 0,
+                  "end": 13,
+                  "text": "19 __________     20 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice does the speaker give to parents about reading?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q20",
+              "question_number": 20,
+              "prompt": "19 __________     20 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 438,
+                  "start": 18,
+                  "end": 31,
+                  "text": "19 __________     20 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice does the speaker give to parents about reading?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-14a83d0a73ad1056c19b03b78dbc0e64d3a6aa826fdc674c3865791d61777c3a",
+          "question_range": [
+            11,
+            16
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5",
+          "question_range": [
+            17,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 440,
+        "line_end": 500,
+        "pdf_pages": [
+          58,
+          59
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-6c030ba222637ca509b61b7f68572e87fc723bdae671a1163ece8bcb67f8c6bf",
+        "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-03-p3-g21-25",
+          "question_range": [
+            21,
+            25
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-6c030ba222637ca509b61b7f68572e87fc723bdae671a1163ece8bcb67f8c6bf"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 444,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "SCIENCE EXPERIMENT FOR YEAR 12 STUDENTS",
+              "source_line": 446,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21 How does Clare feel about the students in her Year 12 science class?",
+              "source_line": 448,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  worried that they are not making progress",
+              "source_line": 449,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  challenged by their poor behaviour in class",
+              "source_line": 450,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  frustrated at their lack of interest in the subject",
+              "source_line": 451,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22 How does Jake react to Clare's suggestion about an experiment based on children's diet?",
+              "source_line": 453,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  He is concerned that the results might not be meaningful.",
+              "source_line": 454,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  He feels some of the data might be difficult to obtain.",
+              "source_line": 455,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  He suspects that the conclusions might be upsetting.",
+              "source_line": 456,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23 What problem do they agree may be involved in an experiment involving animals?",
+              "source_line": 458,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  Any results may not apply to humans.",
+              "source_line": 459,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  It may be complicated to get permission.",
+              "source_line": 460,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  Students may not be happy about animal experiments.",
+              "source_line": 461,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24 What question do they decide the experiment should address?",
+              "source_line": 463,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  Are mice capable of controlling their food intake?",
+              "source_line": 464,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  Does an increase in sugar lead to health problems?",
+              "source_line": 465,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  How much do supplements of different kinds affect health?",
+              "source_line": 466,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25 Clare might also consider doing another experiment involving",
+              "source_line": 468,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  other types of food supplement.",
+              "source_line": 469,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  different genetic strains of mice.",
+              "source_line": 470,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  varying amounts of exercise.",
+              "source_line": 471,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q24"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-19-test-03-q25"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 443,
+            "line_end": 472,
+            "pdf_pages": [
+              58,
+              59
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q21",
+              "question_number": 21,
+              "prompt": "21 How does Clare feel about the students in her Year 12 science class?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "worried that they are not making progress",
+                  "source_line": 449
+                },
+                {
+                  "label": "B",
+                  "text": "challenged by their poor behaviour in class",
+                  "source_line": 450
+                },
+                {
+                  "label": "C",
+                  "text": "frustrated at their lack of interest in the subject",
+                  "source_line": 451
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 448,
+                  "start": 0,
+                  "end": 71,
+                  "text": "21 How does Clare feel about the students in her Year 12 science class?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q22",
+              "question_number": 22,
+              "prompt": "22 How does Jake react to Clare's suggestion about an experiment based on children's diet?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "He is concerned that the results might not be meaningful.",
+                  "source_line": 454
+                },
+                {
+                  "label": "B",
+                  "text": "He feels some of the data might be difficult to obtain.",
+                  "source_line": 455
+                },
+                {
+                  "label": "C",
+                  "text": "He suspects that the conclusions might be upsetting.",
+                  "source_line": 456
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 453,
+                  "start": 0,
+                  "end": 90,
+                  "text": "22 How does Jake react to Clare's suggestion about an experiment based on children's diet?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q23",
+              "question_number": 23,
+              "prompt": "23 What problem do they agree may be involved in an experiment involving animals?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Any results may not apply to humans.",
+                  "source_line": 459
+                },
+                {
+                  "label": "B",
+                  "text": "It may be complicated to get permission.",
+                  "source_line": 460
+                },
+                {
+                  "label": "C",
+                  "text": "Students may not be happy about animal experiments.",
+                  "source_line": 461
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 458,
+                  "start": 0,
+                  "end": 81,
+                  "text": "23 What problem do they agree may be involved in an experiment involving animals?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q24",
+              "question_number": 24,
+              "prompt": "24 What question do they decide the experiment should address?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Are mice capable of controlling their food intake?",
+                  "source_line": 464
+                },
+                {
+                  "label": "B",
+                  "text": "Does an increase in sugar lead to health problems?",
+                  "source_line": 465
+                },
+                {
+                  "label": "C",
+                  "text": "How much do supplements of different kinds affect health?",
+                  "source_line": 466
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 463,
+                  "start": 0,
+                  "end": 62,
+                  "text": "24 What question do they decide the experiment should address?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q25",
+              "question_number": 25,
+              "prompt": "25 Clare might also consider doing another experiment involving",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "other types of food supplement.",
+                  "source_line": 469
+                },
+                {
+                  "label": "B",
+                  "text": "different genetic strains of mice.",
+                  "source_line": 470
+                },
+                {
+                  "label": "C",
+                  "text": "varying amounts of exercise.",
+                  "source_line": 471
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 468,
+                  "start": 0,
+                  "end": 63,
+                  "text": "25 Clare might also consider doing another experiment involving",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-19-test-03-p3-g26-30",
+          "question_range": [
+            26,
+            30
+          ],
+          "question_type": "flow_chart_completion",
+          "instructions": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-19-test-03-p3-g26-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "size",
+                "source_line": 477
+              },
+              {
+                "label": "B",
+                "text": "escape",
+                "source_line": 478
+              },
+              {
+                "label": "C",
+                "text": "age",
+                "source_line": 479
+              },
+              {
+                "label": "D",
+                "text": "water",
+                "source_line": 480
+              },
+              {
+                "label": "E",
+                "text": "cereal",
+                "source_line": 481
+              },
+              {
+                "label": "F",
+                "text": "calculations",
+                "source_line": 482
+              },
+              {
+                "label": "G",
+                "text": "changes",
+                "source_line": 483
+              },
+              {
+                "label": "H",
+                "text": "colour",
+                "source_line": 484
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the flowchart below.",
+              "source_line": 474,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.",
+              "source_line": 475,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A  size",
+              "source_line": 477,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B  escape",
+              "source_line": 478,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C  age",
+              "source_line": 479,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D  water",
+              "source_line": 480,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E  cereal",
+              "source_line": 481,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   F  calculations",
+              "source_line": 482,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   G  changes",
+              "source_line": 483,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   H  colour",
+              "source_line": 484,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose mice which are all the same (26) __________.",
+              "source_line": 486,
+              "blanks": [
+                {
+                  "question_number": 26,
+                  "start": 35,
+                  "end": 50
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "                 ↓",
+              "source_line": 487,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Divide the mice into two groups, each with a different (27) __________.",
+              "source_line": 488,
+              "blanks": [
+                {
+                  "question_number": 27,
+                  "start": 55,
+                  "end": 70
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "                 ↓",
+              "source_line": 489,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Put each group in a separate cage.",
+              "source_line": 490,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Feed group A commercial mouse food.",
+              "source_line": 491,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Feed group B the same, but also sugar contained in (28) __________.",
+              "source_line": 492,
+              "blanks": [
+                {
+                  "question_number": 28,
+                  "start": 51,
+                  "end": 66
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "                 ↓",
+              "source_line": 493,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Take measurements using an electronic scale.",
+              "source_line": 494,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Place them in a weighing chamber to prevent (29) __________.",
+              "source_line": 495,
+              "blanks": [
+                {
+                  "question_number": 29,
+                  "start": 44,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "                 ↓",
+              "source_line": 496,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Do all necessary (30) __________.",
+              "source_line": 497,
+              "blanks": [
+                {
+                  "question_number": 30,
+                  "start": 17,
+                  "end": 32
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 473,
+            "line_end": 500,
+            "pdf_pages": [
+              58,
+              59
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q26",
+              "question_number": 26,
+              "prompt": "Choose mice which are all the same (26) __________.",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 486,
+                  "start": 35,
+                  "end": 50,
+                  "text": "Choose mice which are all the same (26) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+                ],
+                "printed_question_number": 26,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q27",
+              "question_number": 27,
+              "prompt": "Divide the mice into two groups, each with a different (27) __________.",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 488,
+                  "start": 55,
+                  "end": 70,
+                  "text": "Divide the mice into two groups, each with a different (27) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+                ],
+                "printed_question_number": 27,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q28",
+              "question_number": 28,
+              "prompt": "Feed group B the same, but also sugar contained in (28) __________.",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 492,
+                  "start": 51,
+                  "end": 66,
+                  "text": "Feed group B the same, but also sugar contained in (28) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+                ],
+                "printed_question_number": 28,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q29",
+              "question_number": 29,
+              "prompt": "Place them in a weighing chamber to prevent (29) __________.",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 495,
+                  "start": 44,
+                  "end": 59,
+                  "text": "Place them in a weighing chamber to prevent (29) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+                ],
+                "printed_question_number": 29,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-19-test-03-q30",
+              "question_number": 30,
+              "prompt": "Do all necessary (30) __________.",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-19-test-03-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 497,
+                  "start": 17,
+                  "end": 32,
+                  "text": "Do all necessary (30) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to Questions 26–30.\nChoose mice which are all the same (26) __________.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe"
+                ],
+                "printed_question_number": 30,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-6c030ba222637ca509b61b7f68572e87fc723bdae671a1163ece8bcb67f8c6bf",
+          "question_range": [
+            21,
+            25
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe",
+          "question_range": [
+            26,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-41ae9de8b2975267753ffc97d0a2be18ad0361a5bb8cbba6c95ccbaf28a996df"
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+        "line_start": 501,
+        "line_end": 534,
+        "pdf_pages": [
+          60
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-cbe6c3e4f1a9dd4d3f074fd6ef59b4946e161ac6fd65b6801fac77900b1b73eb"
+      ],
+      "audio_mapping_key": {
+        "book": 19,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-19-test-03-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-cbe6c3e4f1a9dd4d3f074fd6ef59b4946e161ac6fd65b6801fac77900b1b73eb"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 504,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 505,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MICROPLASTICS",
+              "source_line": 507,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Where microplastics come from",
+              "source_line": 509,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• fibres from some (31) __________ during washing",
+              "source_line": 510,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 19,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• the breakdown of large pieces of plastic",
+              "source_line": 511,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• waste from industry",
+              "source_line": 512,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• the action of vehicle tyres on roads",
+              "source_line": 513,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Effects of microplastics",
+              "source_line": 515,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• They cause injuries to the (32) __________ of wildlife and affect their digestive systems.",
+              "source_line": 516,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 29,
+                  "end": 44
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• They enter the food chain, e.g., in bottled and tap water, (33) __________ and seafood.",
+              "source_line": 517,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 61,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• They may not affect human health, but they are already banned in skin cleaning products and (34) __________ in some countries.",
+              "source_line": 518,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 94,
+                  "end": 109
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Microplastics enter the soil through the air, rain and (35) __________.",
+              "source_line": 519,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 57,
+                  "end": 72
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Microplastics in the soil – a study by Anglia Ruskin University",
+              "source_line": 521,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Earthworms are important because they add (36) __________ to the soil.",
+              "source_line": 522,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 44,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• The study aimed to find whether microplastics in earthworms affect the (37) __________ of plants.",
+              "source_line": 523,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 73,
+                  "end": 88
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• The study found that microplastics caused:",
+              "source_line": 524,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  – (38) __________ loss in earthworms",
+              "source_line": 525,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 4,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  – fewer seeds to germinate",
+              "source_line": 526,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  – a rise in the level of (39) __________ in the soil.",
+              "source_line": 527,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 27,
+                  "end": 42
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "The study concluded:",
+              "source_line": 529,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• soil should be seen as an important natural process.",
+              "source_line": 530,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• changes to soil damage both ecosystems and (40) __________.",
+              "source_line": 531,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 45,
+                  "end": 60
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_19/Cambridge_IELTS_19_Listening.txt",
+            "line_start": 501,
+            "line_end": 534,
+            "pdf_pages": [
+              60
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-19-test-03-q31",
+              "question_number": 31,
+              "prompt": "• fibres from some (31) __________ during washing",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 510,
+                  "start": 19,
+                  "end": 34,
+                  "text": "• fibres from some (31) __________ during washing",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q32",
+              "question_number": 32,
+              "prompt": "• They cause injuries to the (32) __________ of wildlife and affect their digestive systems.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 516,
+                  "start": 29,
+                  "end": 44,
+                  "text": "• They cause injuries to the (32) __________ of wildlife and affect their digestive systems.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q33",
+              "question_number": 33,
+              "prompt": "• They enter the food chain, e.g., in bottled and tap water, (33) __________ and seafood.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 517,
+                  "start": 61,
+                  "end": 76,
+                  "text": "• They enter the food chain, e.g., in bottled and tap water, (33) __________ and seafood.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q34",
+              "question_number": 34,
+              "prompt": "• They may not affect human health, but they are already banned in skin cleaning products and (34) __________ in some countries.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 518,
+                  "start": 94,
+                  "end": 109,
+                  "text": "• They may not affect human health, but they are already banned in skin cleaning products and (34) __________ in some countries.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q35",
+              "question_number": 35,
+              "prompt": "• Microplastics enter the soil through the air, rain and (35) __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 519,
+                  "start": 57,
+                  "end": 72,
+                  "text": "• Microplastics enter the soil through the air, rain and (35) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q36",
+              "question_number": 36,
+              "prompt": "• Earthworms are important because they add (36) __________ to the soil.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 522,
+                  "start": 44,
+                  "end": 59,
+                  "text": "• Earthworms are important because they add (36) __________ to the soil.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q37",
+              "question_number": 37,
+              "prompt": "• The study aimed to find whether microplastics in earthworms affect the (37) __________ of plants.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 523,
+                  "start": 73,
+                  "end": 88,
+                  "text": "• The study aimed to find whether microplastics in earthworms affect the (37) __________ of plants.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q38",
+              "question_number": 38,
+              "prompt": "– (38) __________ loss in earthworms",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 525,
+                  "start": 4,
+                  "end": 19,
+                  "text": "  – (38) __________ loss in earthworms",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q39",
+              "question_number": 39,
+              "prompt": "– a rise in the level of (39) __________ in the soil.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 527,
+                  "start": 27,
+                  "end": 42,
+                  "text": "  – a rise in the level of (39) __________ in the soil.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-19-test-03-q40",
+              "question_number": 40,
+              "prompt": "• changes to soil damage both ecosystems and (40) __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 531,
+                  "start": 45,
+                  "end": 60,
+                  "text": "• changes to soil damage both ecosystems and (40) __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-cbe6c3e4f1a9dd4d3f074fd6ef59b4946e161ac6fd65b6801fac77900b1b73eb",
+          "question_range": [
+            31,
+            40
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-5290f384c428e264f644a31eca4e27452110e5b03f534220850fc3066dc1eb43"
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-14a83d0a73ad1056c19b03b78dbc0e64d3a6aa826fdc674c3865791d61777c3a",
+      "relative_path": "assets/public/14a83d0a73ad1056c19b03b78dbc0e64d3a6aa826fdc674c3865791d61777c3a.jpg",
+      "sha256": "14a83d0a73ad1056c19b03b78dbc0e64d3a6aa826fdc674c3865791d61777c3a",
+      "byte_size": 137875,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-41ae9de8b2975267753ffc97d0a2be18ad0361a5bb8cbba6c95ccbaf28a996df",
+      "relative_path": "assets/public/41ae9de8b2975267753ffc97d0a2be18ad0361a5bb8cbba6c95ccbaf28a996df.png",
+      "sha256": "41ae9de8b2975267753ffc97d0a2be18ad0361a5bb8cbba6c95ccbaf28a996df",
+      "byte_size": 311931,
+      "width": 1134,
+      "height": 1327
+    },
+    {
+      "asset_id": "asset-4db70e91d4c332e6422adf5fea5417db299ff28d2630200dbe5f36ffb264adae",
+      "relative_path": "assets/public/4db70e91d4c332e6422adf5fea5417db299ff28d2630200dbe5f36ffb264adae.png",
+      "sha256": "4db70e91d4c332e6422adf5fea5417db299ff28d2630200dbe5f36ffb264adae",
+      "byte_size": 257373,
+      "width": 1167,
+      "height": 1080
+    },
+    {
+      "asset_id": "asset-5290f384c428e264f644a31eca4e27452110e5b03f534220850fc3066dc1eb43",
+      "relative_path": "assets/public/5290f384c428e264f644a31eca4e27452110e5b03f534220850fc3066dc1eb43.png",
+      "sha256": "5290f384c428e264f644a31eca4e27452110e5b03f534220850fc3066dc1eb43",
+      "byte_size": 563355,
+      "width": 1167,
+      "height": 1402
+    },
+    {
+      "asset_id": "asset-6c030ba222637ca509b61b7f68572e87fc723bdae671a1163ece8bcb67f8c6bf",
+      "relative_path": "assets/public/6c030ba222637ca509b61b7f68572e87fc723bdae671a1163ece8bcb67f8c6bf.jpg",
+      "sha256": "6c030ba222637ca509b61b7f68572e87fc723bdae671a1163ece8bcb67f8c6bf",
+      "byte_size": 216843,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-7de1e37609e9dfb592c267c47150990065cd0e797fef509d99d9c70c02e97fcd",
+      "relative_path": "assets/public/7de1e37609e9dfb592c267c47150990065cd0e797fef509d99d9c70c02e97fcd.png",
+      "sha256": "7de1e37609e9dfb592c267c47150990065cd0e797fef509d99d9c70c02e97fcd",
+      "byte_size": 148489,
+      "width": 1167,
+      "height": 682
+    },
+    {
+      "asset_id": "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c",
+      "relative_path": "assets/public/aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c.jpg",
+      "sha256": "aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c",
+      "byte_size": 122790,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe",
+      "relative_path": "assets/public/c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe.jpg",
+      "sha256": "c603b260315f1d0921a8cec32999d809ce6f8522381643831e85102b44395ebe",
+      "byte_size": 153698,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-cbe6c3e4f1a9dd4d3f074fd6ef59b4946e161ac6fd65b6801fac77900b1b73eb",
+      "relative_path": "assets/public/cbe6c3e4f1a9dd4d3f074fd6ef59b4946e161ac6fd65b6801fac77900b1b73eb.jpg",
+      "sha256": "cbe6c3e4f1a9dd4d3f074fd6ef59b4946e161ac6fd65b6801fac77900b1b73eb",
+      "byte_size": 226042,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5",
+      "relative_path": "assets/public/eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5.jpg",
+      "sha256": "eaacff16b9447f757bdd3fdd544a37dc7625787e61577e006f66545b293e10b5",
+      "byte_size": 131987,
+      "width": 1342,
+      "height": 1895
+    },
+    {
+      "asset_id": "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4",
+      "relative_path": "assets/public/fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4.jpg",
+      "sha256": "fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4",
+      "byte_size": 103945,
+      "width": 1342,
+      "height": 1895
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": false
+  }
+}

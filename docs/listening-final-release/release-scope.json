@@ -1,0 +1,29 @@
+{
+  "head": "599d5dfc53424b32b016edd78708ad4b8ea866f5",
+  "branch": "main",
+  "frontend_changed_from_head": [
+    "src/lib/ai/providers.ts",
+    "src/features/listening/review.module.css",
+    "src/features/listening/workspace.module.css",
+    "src/features/listening/listening.module.css",
+    "src/features/listening/review-status.ts",
+    "src/features/listening/review.tsx",
+    "src/features/listening/visual-materials.json",
+    "src/features/listening/ai-explanation.tsx",
+    "src/features/listening/source-material.ts",
+    "src/features/listening/workspace-navigator.tsx",
+    "src/features/listening/player.module.css",
+    "src/features/listening/models.ts",
+    "src/features/listening/pages.tsx",
+    "src/features/listening/player.tsx",
+    "src/features/listening/workspace-questions.tsx",
+    "src/app/api/translate/route.ts",
+    "src/app/api/listening/explain/route.ts",
+    "src/app/api/listening/review/route.ts"
+  ],
+  "unrelated_reading_ui_excluded": true,
+  "home_login_unchanged_from_head": true,
+  "public_source_maps": 0,
+  "public_private_content": 0,
+  "backend_runtime_app_code_changed": false
+}

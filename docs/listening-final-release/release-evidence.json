@@ -1,0 +1,58 @@
+{
+  "production_url": "https://alua.study",
+  "date": "2026-11-06",
+  "timezone": "Asia/Almaty",
+  "gate": "GO",
+  "deployment": "SUCCESS",
+  "backend_before": "/opt/alua/releases/listening-c21-repair-20261106-599d5df",
+  "backend_after": "/opt/alua/releases/listening-visuals-20261106-61433b63",
+  "cloudflare_before": {
+    "deployment_id": "cc6514ee-1105-437e-b080-cb67d5092552",
+    "version_id": "01f5530e-d611-40fd-9bb2-38646d18609c"
+  },
+  "cloudflare_after": {
+    "deployment_id": "b4561c9f-4c4e-44b9-a223-e92a5334c8b7",
+    "version_id": "29ce57d8-7263-4957-b3e9-863362890d02"
+  },
+  "coverage": {
+    "tests": 72,
+    "parts": 288,
+    "groups": 568,
+    "parts_with_multiple_unique_images": 177,
+    "confirmed_missing_render_parts": 0,
+    "confirmed_missing_render_states": 0,
+    "initial_missing_render_parts": 0,
+    "states_checked": 568,
+    "suspected_cases": 0,
+    "browser_verified_parts": 15,
+    "browser_verified_mode_cases": 30,
+    "union_duplicate_pairs": 0,
+    "union_order_inversions": 0,
+    "wrong_part": 0,
+    "empty_image_groups": 16,
+    "browser_status": "COMPLETED"
+  },
+  "new_images_validated": 45,
+  "new_images_visual_review": 45,
+  "python_runtime_tests": 20,
+  "data_tests": 32,
+  "chromium_local_modes": 30,
+  "device_modes": 18,
+  "production_exam": "PASS",
+  "production_review": "PASS",
+  "production_health": "PASS",
+  "existing_data_unchanged": true,
+  "rollback": "NOT NEEDED",
+  "rollback_preflight": "PASS",
+  "new_user_attempts_created": 0,
+  "migrations": false,
+  "commit_push": false,
+  "known_exceptions": [
+    "C014 not physically repaired; full existing question instruction is readable in right pane, complete fallback form retained",
+    "C028 uncertain crop excluded; full original retained"
+  ],
+  "backend_runtime_code_changed": false,
+  "dataset_backup_sha256": "9e07bfcd6c4b2736af816ace6338e0fcdec35f0afc472d87b07605bf07b5ee8e",
+  "existing_daily_backups_retained": 14,
+  "backend_journal_errors": 0
+}

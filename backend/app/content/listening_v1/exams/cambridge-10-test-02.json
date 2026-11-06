@@ -1,0 +1,3102 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-10-test-02",
+  "book": 10,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 175,
+        "line_end": 206,
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-78e254acb4fe0e20dedc0c720419886e2b4df9fd78a668a32a8988f4d40ed37d",
+        "asset-7370ce8c9b347375d3f4c3dadefbc4b6428621b1422c8010ef3e036518c37759"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-02-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-78e254acb4fe0e20dedc0c720419886e2b4df9fd78a668a32a8988f4d40ed37d",
+            "asset-7370ce8c9b347375d3f4c3dadefbc4b6428621b1422c8010ef3e036518c37759"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 179,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 180,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Transport Survey",
+              "source_line": 182,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example",
+              "source_line": 184,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Travelled to town today: by bus",
+              "source_line": 185,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Name: Luisa 1 [__________]",
+              "source_line": 186,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 12,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Address: 2 [__________] White Stone Rd",
+              "source_line": 187,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Area: Bradfield",
+              "source_line": 188,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Postcode: 3 [__________]",
+              "source_line": 189,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 10,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Occupation: 4 [__________]",
+              "source_line": 190,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 12,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Reason for visit to town: to go to the 5 [__________]",
+              "source_line": 191,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 39,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Suggestions for improvement:",
+              "source_line": 193,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• better 6 [__________]",
+              "source_line": 194,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• have more footpaths",
+              "source_line": 195,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• more frequent 7 [__________]",
+              "source_line": 196,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 16,
+                  "end": 30
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Things that would encourage cycling to work:",
+              "source_line": 198,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• having 8 [__________] parking places for bicycles",
+              "source_line": 199,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• being able to use a 9 [__________] at work",
+              "source_line": 200,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 22,
+                  "end": 36
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• the opportunity to have cycling 10 [__________] on busy roads",
+              "source_line": 201,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 34,
+                  "end": 49
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 176,
+            "line_end": 206,
+            "pdf_pages": [
+              25,
+              26
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q01",
+              "question_number": 1,
+              "prompt": "Name: Luisa 1 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 186,
+                  "start": 12,
+                  "end": 26,
+                  "text": "Name: Luisa 1 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q02",
+              "question_number": 2,
+              "prompt": "Address: 2 [__________] White Stone Rd",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 187,
+                  "start": 9,
+                  "end": 23,
+                  "text": "Address: 2 [__________] White Stone Rd",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q03",
+              "question_number": 3,
+              "prompt": "Postcode: 3 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 189,
+                  "start": 10,
+                  "end": 24,
+                  "text": "Postcode: 3 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q04",
+              "question_number": 4,
+              "prompt": "Occupation: 4 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 190,
+                  "start": 12,
+                  "end": 26,
+                  "text": "Occupation: 4 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q05",
+              "question_number": 5,
+              "prompt": "Reason for visit to town: to go to the 5 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 191,
+                  "start": 39,
+                  "end": 53,
+                  "text": "Reason for visit to town: to go to the 5 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q06",
+              "question_number": 6,
+              "prompt": "• better 6 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 194,
+                  "start": 9,
+                  "end": 23,
+                  "text": "• better 6 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q07",
+              "question_number": 7,
+              "prompt": "• more frequent 7 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 196,
+                  "start": 16,
+                  "end": 30,
+                  "text": "• more frequent 7 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q08",
+              "question_number": 8,
+              "prompt": "• having 8 [__________] parking places for bicycles",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 199,
+                  "start": 9,
+                  "end": 23,
+                  "text": "• having 8 [__________] parking places for bicycles",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q09",
+              "question_number": 9,
+              "prompt": "• being able to use a 9 [__________] at work",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 200,
+                  "start": 22,
+                  "end": 36,
+                  "text": "• being able to use a 9 [__________] at work",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q10",
+              "question_number": 10,
+              "prompt": "• the opportunity to have cycling 10 [__________] on busy roads",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 201,
+                  "start": 34,
+                  "end": 49,
+                  "text": "• the opportunity to have cycling 10 [__________] on busy roads",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-78e254acb4fe0e20dedc0c720419886e2b4df9fd78a668a32a8988f4d40ed37d",
+          "question_range": [
+            1,
+            7
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-7370ce8c9b347375d3f4c3dadefbc4b6428621b1422c8010ef3e036518c37759",
+          "question_range": [
+            8,
+            10
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 207,
+        "line_end": 262,
+        "pdf_pages": [
+          27,
+          28
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-66627198b4b359bda0460f5db7e5fb7b37c4d0706517c6fa4de42c7d5ed1edeb",
+        "asset-8e9adb66622afa74ec1ce9426a0baf52883679ae73e9dd6b24e7fa32990c236c"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-02-p2-g11-14",
+          "question_range": [
+            11,
+            14
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-66627198b4b359bda0460f5db7e5fb7b37c4d0706517c6fa4de42c7d5ed1edeb"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 212,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "New city developments",
+              "source_line": 214,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. The idea for the two new developments in the city came from",
+              "source_line": 216,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  local people.",
+              "source_line": 217,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the City Council.",
+              "source_line": 218,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the SWRDC.",
+              "source_line": 219,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12. What is unusual about Brackenside pool?",
+              "source_line": 221,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  its architectural style",
+              "source_line": 222,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  its heating system",
+              "source_line": 223,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  its method of water treatment",
+              "source_line": 224,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. Local newspapers have raised worries about",
+              "source_line": 226,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  the late opening date.",
+              "source_line": 227,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the cost of the project.",
+              "source_line": 228,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the size of the facilities.",
+              "source_line": 229,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14. What decision has not yet been made about the pool?",
+              "source_line": 231,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  whose statue will be at the door",
+              "source_line": 232,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the exact opening times",
+              "source_line": 233,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  who will open it",
+              "source_line": 234,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q14"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 211,
+            "line_end": 235,
+            "pdf_pages": [
+              27,
+              28
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q11",
+              "question_number": 11,
+              "prompt": "11. The idea for the two new developments in the city came from",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "local people.",
+                  "source_line": 217
+                },
+                {
+                  "label": "B",
+                  "text": "the City Council.",
+                  "source_line": 218
+                },
+                {
+                  "label": "C",
+                  "text": "the SWRDC.",
+                  "source_line": 219
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 216,
+                  "start": 0,
+                  "end": 63,
+                  "text": "11. The idea for the two new developments in the city came from",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q12",
+              "question_number": 12,
+              "prompt": "12. What is unusual about Brackenside pool?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "its architectural style",
+                  "source_line": 222
+                },
+                {
+                  "label": "B",
+                  "text": "its heating system",
+                  "source_line": 223
+                },
+                {
+                  "label": "C",
+                  "text": "its method of water treatment",
+                  "source_line": 224
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 221,
+                  "start": 0,
+                  "end": 43,
+                  "text": "12. What is unusual about Brackenside pool?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q13",
+              "question_number": 13,
+              "prompt": "13. Local newspapers have raised worries about",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the late opening date.",
+                  "source_line": 227
+                },
+                {
+                  "label": "B",
+                  "text": "the cost of the project.",
+                  "source_line": 228
+                },
+                {
+                  "label": "C",
+                  "text": "the size of the facilities.",
+                  "source_line": 229
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 226,
+                  "start": 0,
+                  "end": 46,
+                  "text": "13. Local newspapers have raised worries about",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q14",
+              "question_number": 14,
+              "prompt": "14. What decision has not yet been made about the pool?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "whose statue will be at the door",
+                  "source_line": 232
+                },
+                {
+                  "label": "B",
+                  "text": "the exact opening times",
+                  "source_line": 233
+                },
+                {
+                  "label": "C",
+                  "text": "who will open it",
+                  "source_line": 234
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 231,
+                  "start": 0,
+                  "end": 55,
+                  "text": "14. What decision has not yet been made about the pool?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-02-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "matching",
+          "instructions": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "ancient forts",
+                "source_line": 241
+              },
+              {
+                "label": "B",
+                "text": "waterways",
+                "source_line": 242
+              },
+              {
+                "label": "C",
+                "text": "ice and snow",
+                "source_line": 243
+              },
+              {
+                "label": "D",
+                "text": "jewels",
+                "source_line": 244
+              },
+              {
+                "label": "E",
+                "text": "local animals",
+                "source_line": 245
+              },
+              {
+                "label": "F",
+                "text": "mountains",
+                "source_line": 246
+              },
+              {
+                "label": "G",
+                "text": "music and film",
+                "source_line": 247
+              },
+              {
+                "label": "H",
+                "text": "space travel",
+                "source_line": 248
+              },
+              {
+                "label": "I",
+                "text": "volcanoes",
+                "source_line": 249
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-8e9adb66622afa74ec1ce9426a0baf52883679ae73e9dd6b24e7fa32990c236c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Which feature is related to each of the following areas of the world represented in the playground?",
+              "source_line": 237,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+              "source_line": 238,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Features",
+              "source_line": 240,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  ancient forts",
+              "source_line": 241,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  waterways",
+              "source_line": 242,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  ice and snow",
+              "source_line": 243,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  jewels",
+              "source_line": 244,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  local animals",
+              "source_line": 245,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  mountains",
+              "source_line": 246,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G  music and film",
+              "source_line": 247,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "H  space travel",
+              "source_line": 248,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "I  volcanoes",
+              "source_line": 249,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Areas of the world",
+              "source_line": 251,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. Asia                            [__________]",
+              "source_line": 252,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16. Antarctica                      [__________]",
+              "source_line": 253,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17. South America                   [__________]",
+              "source_line": 254,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18. North America                   [__________]",
+              "source_line": 255,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. Europe                          [__________]",
+              "source_line": 256,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20. Africa                          [__________]",
+              "source_line": 257,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 236,
+            "line_end": 262,
+            "pdf_pages": [
+              27,
+              28
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q15",
+              "question_number": 15,
+              "prompt": "15. Asia                            [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 252,
+                  "start": 0,
+                  "end": 48,
+                  "text": "15. Asia                            [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q16",
+              "question_number": 16,
+              "prompt": "16. Antarctica                      [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 253,
+                  "start": 0,
+                  "end": 48,
+                  "text": "16. Antarctica                      [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q17",
+              "question_number": 17,
+              "prompt": "17. South America                   [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 254,
+                  "start": 0,
+                  "end": 48,
+                  "text": "17. South America                   [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q18",
+              "question_number": 18,
+              "prompt": "18. North America                   [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 255,
+                  "start": 0,
+                  "end": 48,
+                  "text": "18. North America                   [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q19",
+              "question_number": 19,
+              "prompt": "19. Europe                          [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 256,
+                  "start": 0,
+                  "end": 48,
+                  "text": "19. Europe                          [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q20",
+              "question_number": 20,
+              "prompt": "20. Africa                          [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 257,
+                  "start": 0,
+                  "end": 48,
+                  "text": "20. Africa                          [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which feature is related to each of the following areas of the world represented in the playground?\nChoose SIX answers from the box and write the correct letter, A–I, next to questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-66627198b4b359bda0460f5db7e5fb7b37c4d0706517c6fa4de42c7d5ed1edeb",
+          "question_range": [
+            11,
+            14
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-8e9adb66622afa74ec1ce9426a0baf52883679ae73e9dd6b24e7fa32990c236c",
+          "question_range": [
+            15,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 263,
+        "line_end": 327,
+        "pdf_pages": [
+          29,
+          30
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1",
+        "asset-3b5e98604394a31b2057b5522c619ca71df07dff3a9c6286fd7ab397788f925d"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-02-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO hobbies was Thor Heyerdahl very interested in as a youth?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO hobbies was Thor Heyerdahl very interested in as a youth?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-02-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "camping",
+                "source_line": 270
+              },
+              {
+                "label": "B",
+                "text": "climbing",
+                "source_line": 271
+              },
+              {
+                "label": "C",
+                "text": "collecting",
+                "source_line": 272
+              },
+              {
+                "label": "D",
+                "text": "hunting",
+                "source_line": 273
+              },
+              {
+                "label": "E",
+                "text": "reading",
+                "source_line": 274
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 268,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO hobbies was Thor Heyerdahl very interested in as a youth?",
+              "source_line": 269,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  camping",
+              "source_line": 270,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  climbing",
+              "source_line": 271,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  collecting",
+              "source_line": 272,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  hunting",
+              "source_line": 273,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  reading",
+              "source_line": 274,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. [__________]",
+              "source_line": 275,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "22. [__________]",
+              "source_line": 276,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 267,
+            "line_end": 277,
+            "pdf_pages": [
+              29,
+              30
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q21",
+              "question_number": 21,
+              "prompt": "21. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 275,
+                  "start": 0,
+                  "end": 16,
+                  "text": "21. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO hobbies was Thor Heyerdahl very interested in as a youth?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q22",
+              "question_number": 22,
+              "prompt": "22. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 276,
+                  "start": 0,
+                  "end": 16,
+                  "text": "22. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO hobbies was Thor Heyerdahl very interested in as a youth?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-02-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich do the speakers say are the TWO reasons why Heyerdahl went to live on an island?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich do the speakers say are the TWO reasons why Heyerdahl went to live on an island?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-02-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "to examine ancient carvings",
+                "source_line": 281
+              },
+              {
+                "label": "B",
+                "text": "to experience an isolated place",
+                "source_line": 282
+              },
+              {
+                "label": "C",
+                "text": "to formulate a new theory",
+                "source_line": 283
+              },
+              {
+                "label": "D",
+                "text": "to learn survival skills",
+                "source_line": 284
+              },
+              {
+                "label": "E",
+                "text": "to study the impact of an extreme environment",
+                "source_line": 285
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 279,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which do the speakers say are the TWO reasons why Heyerdahl went to live on an island?",
+              "source_line": 280,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  to examine ancient carvings",
+              "source_line": 281,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  to experience an isolated place",
+              "source_line": 282,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  to formulate a new theory",
+              "source_line": 283,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  to learn survival skills",
+              "source_line": 284,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  to study the impact of an extreme environment",
+              "source_line": 285,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. [__________]",
+              "source_line": 286,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "24. [__________]",
+              "source_line": 287,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 278,
+            "line_end": 288,
+            "pdf_pages": [
+              29,
+              30
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q23",
+              "question_number": 23,
+              "prompt": "23. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 286,
+                  "start": 0,
+                  "end": 16,
+                  "text": "23. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich do the speakers say are the TWO reasons why Heyerdahl went to live on an island?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q24",
+              "question_number": 24,
+              "prompt": "24. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-02-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 287,
+                  "start": 0,
+                  "end": 16,
+                  "text": "24. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich do the speakers say are the TWO reasons why Heyerdahl went to live on an island?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-02-p3-g25-30",
+          "question_range": [
+            25,
+            30
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1",
+            "asset-3b5e98604394a31b2057b5522c619ca71df07dff3a9c6286fd7ab397788f925d"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 290,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The later life of Thor Heyerdahl",
+              "source_line": 292,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. According to Victor and Olivia, academics thought that Polynesian migration from the east was impossible due to",
+              "source_line": 294,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  the fact that Eastern countries were far away.",
+              "source_line": 295,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the lack of materials for boat building.",
+              "source_line": 296,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the direction of the winds and currents.",
+              "source_line": 297,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. Which do the speakers agree was the main reason for Heyerdahl's raft journey?",
+              "source_line": 299,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  to overcome a research setback",
+              "source_line": 300,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  to demonstrate a personal quality",
+              "source_line": 301,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  to test a new theory",
+              "source_line": 302,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. What was most important to Heyerdahl about his raft journey?",
+              "source_line": 304,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  the fact that he was the first person to do it",
+              "source_line": 305,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the speed of crossing the Pacific",
+              "source_line": 306,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the use of authentic construction methods",
+              "source_line": 307,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. Why did Heyerdahl go to Easter Island?",
+              "source_line": 309,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  to build a stone statue",
+              "source_line": 310,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  to sail a reed boat",
+              "source_line": 311,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  to learn the local language",
+              "source_line": 312,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. In Olivia's opinion, Heyerdahl's greatest influence was on",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  theories about Polynesian origins.",
+              "source_line": 315,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the development of archaeological methodology.",
+              "source_line": 316,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  establishing archaeology as an academic subject.",
+              "source_line": 317,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. Which criticism do the speakers make of William Oliver's textbook?",
+              "source_line": 319,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  Its style is out of date.",
+              "source_line": 320,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  Its content is over-simplified.",
+              "source_line": 321,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  Its methodology is flawed.",
+              "source_line": 322,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-02-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 289,
+            "line_end": 327,
+            "pdf_pages": [
+              29,
+              30
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q25",
+              "question_number": 25,
+              "prompt": "25. According to Victor and Olivia, academics thought that Polynesian migration from the east was impossible due to",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the fact that Eastern countries were far away.",
+                  "source_line": 295
+                },
+                {
+                  "label": "B",
+                  "text": "the lack of materials for boat building.",
+                  "source_line": 296
+                },
+                {
+                  "label": "C",
+                  "text": "the direction of the winds and currents.",
+                  "source_line": 297
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 294,
+                  "start": 0,
+                  "end": 115,
+                  "text": "25. According to Victor and Olivia, academics thought that Polynesian migration from the east was impossible due to",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q26",
+              "question_number": 26,
+              "prompt": "26. Which do the speakers agree was the main reason for Heyerdahl's raft journey?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "to overcome a research setback",
+                  "source_line": 300
+                },
+                {
+                  "label": "B",
+                  "text": "to demonstrate a personal quality",
+                  "source_line": 301
+                },
+                {
+                  "label": "C",
+                  "text": "to test a new theory",
+                  "source_line": 302
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 299,
+                  "start": 0,
+                  "end": 81,
+                  "text": "26. Which do the speakers agree was the main reason for Heyerdahl's raft journey?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q27",
+              "question_number": 27,
+              "prompt": "27. What was most important to Heyerdahl about his raft journey?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the fact that he was the first person to do it",
+                  "source_line": 305
+                },
+                {
+                  "label": "B",
+                  "text": "the speed of crossing the Pacific",
+                  "source_line": 306
+                },
+                {
+                  "label": "C",
+                  "text": "the use of authentic construction methods",
+                  "source_line": 307
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 304,
+                  "start": 0,
+                  "end": 64,
+                  "text": "27. What was most important to Heyerdahl about his raft journey?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q28",
+              "question_number": 28,
+              "prompt": "28. Why did Heyerdahl go to Easter Island?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "to build a stone statue",
+                  "source_line": 310
+                },
+                {
+                  "label": "B",
+                  "text": "to sail a reed boat",
+                  "source_line": 311
+                },
+                {
+                  "label": "C",
+                  "text": "to learn the local language",
+                  "source_line": 312
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 309,
+                  "start": 0,
+                  "end": 42,
+                  "text": "28. Why did Heyerdahl go to Easter Island?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q29",
+              "question_number": 29,
+              "prompt": "29. In Olivia's opinion, Heyerdahl's greatest influence was on",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "theories about Polynesian origins.",
+                  "source_line": 315
+                },
+                {
+                  "label": "B",
+                  "text": "the development of archaeological methodology.",
+                  "source_line": 316
+                },
+                {
+                  "label": "C",
+                  "text": "establishing archaeology as an academic subject.",
+                  "source_line": 317
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 314,
+                  "start": 0,
+                  "end": 62,
+                  "text": "29. In Olivia's opinion, Heyerdahl's greatest influence was on",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q30",
+              "question_number": 30,
+              "prompt": "30. Which criticism do the speakers make of William Oliver's textbook?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Its style is out of date.",
+                  "source_line": 320
+                },
+                {
+                  "label": "B",
+                  "text": "Its content is over-simplified.",
+                  "source_line": 321
+                },
+                {
+                  "label": "C",
+                  "text": "Its methodology is flawed.",
+                  "source_line": 322
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 319,
+                  "start": 0,
+                  "end": 70,
+                  "text": "30. Which criticism do the speakers make of William Oliver's textbook?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1",
+          "question_range": [
+            21,
+            29
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-3b5e98604394a31b2057b5522c619ca71df07dff3a9c6286fd7ab397788f925d",
+          "question_range": [
+            30,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 328,
+        "line_end": 362,
+        "pdf_pages": [
+          31,
+          32
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-5c53ef246c77d70fbd3193e66fc54fcadf1fea054bf8c8f458f30a8980bed891",
+        "asset-fbfcc2edfb74e1c648eefd03b5f7e4e78d082c40d2310814281703e706ad7935"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-02-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-5c53ef246c77d70fbd3193e66fc54fcadf1fea054bf8c8f458f30a8980bed891",
+            "asset-fbfcc2edfb74e1c648eefd03b5f7e4e78d082c40d2310814281703e706ad7935"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 332,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 333,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "THE FUTURE OF MANAGEMENT",
+              "source_line": 335,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Business markets",
+              "source_line": 337,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• greater 31 [__________] among companies",
+              "source_line": 338,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 10,
+                  "end": 25
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• increase in power of large 32 [__________] companies",
+              "source_line": 339,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 29,
+                  "end": 44
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• rising 33 [__________] in certain countries",
+              "source_line": 340,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 9,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "External influences on businesses",
+              "source_line": 342,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• more discussion with 34 [__________] before making business decisions",
+              "source_line": 343,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 23,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• environmental concerns which may lead to more 35 [__________]",
+              "source_line": 344,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 48,
+                  "end": 63
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Business structures",
+              "source_line": 346,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• more teams will be formed to work on a particular 36 [__________]",
+              "source_line": 347,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 52,
+                  "end": 67
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• businesses may need to offer hours that are 37 [__________], or the chance to work remotely",
+              "source_line": 348,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 46,
+                  "end": 61
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Management styles",
+              "source_line": 350,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• increasing need for managers to provide good 38 [__________]",
+              "source_line": 351,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 47,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• changes influenced by 39 [__________] taking senior roles",
+              "source_line": 352,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 24,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Changes in the economy",
+              "source_line": 354,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• service sector continues to be important",
+              "source_line": 355,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• increasing value of intellectual property",
+              "source_line": 356,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• more and more 40 [__________] workers",
+              "source_line": 357,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 16,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 329,
+            "line_end": 362,
+            "pdf_pages": [
+              31,
+              32
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-02-q31",
+              "question_number": 31,
+              "prompt": "• greater 31 [__________] among companies",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 338,
+                  "start": 10,
+                  "end": 25,
+                  "text": "• greater 31 [__________] among companies",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q32",
+              "question_number": 32,
+              "prompt": "• increase in power of large 32 [__________] companies",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 339,
+                  "start": 29,
+                  "end": 44,
+                  "text": "• increase in power of large 32 [__________] companies",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q33",
+              "question_number": 33,
+              "prompt": "• rising 33 [__________] in certain countries",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 340,
+                  "start": 9,
+                  "end": 24,
+                  "text": "• rising 33 [__________] in certain countries",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q34",
+              "question_number": 34,
+              "prompt": "• more discussion with 34 [__________] before making business decisions",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 343,
+                  "start": 23,
+                  "end": 38,
+                  "text": "• more discussion with 34 [__________] before making business decisions",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q35",
+              "question_number": 35,
+              "prompt": "• environmental concerns which may lead to more 35 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 344,
+                  "start": 48,
+                  "end": 63,
+                  "text": "• environmental concerns which may lead to more 35 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q36",
+              "question_number": 36,
+              "prompt": "• more teams will be formed to work on a particular 36 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 347,
+                  "start": 52,
+                  "end": 67,
+                  "text": "• more teams will be formed to work on a particular 36 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q37",
+              "question_number": 37,
+              "prompt": "• businesses may need to offer hours that are 37 [__________], or the chance to work remotely",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 348,
+                  "start": 46,
+                  "end": 61,
+                  "text": "• businesses may need to offer hours that are 37 [__________], or the chance to work remotely",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q38",
+              "question_number": 38,
+              "prompt": "• increasing need for managers to provide good 38 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 351,
+                  "start": 47,
+                  "end": 62,
+                  "text": "• increasing need for managers to provide good 38 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q39",
+              "question_number": 39,
+              "prompt": "• changes influenced by 39 [__________] taking senior roles",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 352,
+                  "start": 24,
+                  "end": 39,
+                  "text": "• changes influenced by 39 [__________] taking senior roles",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-02-q40",
+              "question_number": 40,
+              "prompt": "• more and more 40 [__________] workers",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 357,
+                  "start": 16,
+                  "end": 31,
+                  "text": "• more and more 40 [__________] workers",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-5c53ef246c77d70fbd3193e66fc54fcadf1fea054bf8c8f458f30a8980bed891",
+          "question_range": [
+            31,
+            39
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-fbfcc2edfb74e1c648eefd03b5f7e4e78d082c40d2310814281703e706ad7935",
+          "question_range": [
+            40,
+            40
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-3b5e98604394a31b2057b5522c619ca71df07dff3a9c6286fd7ab397788f925d",
+      "relative_path": "assets/public/3b5e98604394a31b2057b5522c619ca71df07dff3a9c6286fd7ab397788f925d.jpg",
+      "sha256": "3b5e98604394a31b2057b5522c619ca71df07dff3a9c6286fd7ab397788f925d",
+      "byte_size": 316865,
+      "width": 1900,
+      "height": 2297
+    },
+    {
+      "asset_id": "asset-5c53ef246c77d70fbd3193e66fc54fcadf1fea054bf8c8f458f30a8980bed891",
+      "relative_path": "assets/public/5c53ef246c77d70fbd3193e66fc54fcadf1fea054bf8c8f458f30a8980bed891.jpg",
+      "sha256": "5c53ef246c77d70fbd3193e66fc54fcadf1fea054bf8c8f458f30a8980bed891",
+      "byte_size": 203386,
+      "width": 1378,
+      "height": 1921
+    },
+    {
+      "asset_id": "asset-66627198b4b359bda0460f5db7e5fb7b37c4d0706517c6fa4de42c7d5ed1edeb",
+      "relative_path": "assets/public/66627198b4b359bda0460f5db7e5fb7b37c4d0706517c6fa4de42c7d5ed1edeb.jpg",
+      "sha256": "66627198b4b359bda0460f5db7e5fb7b37c4d0706517c6fa4de42c7d5ed1edeb",
+      "byte_size": 210834,
+      "width": 1348,
+      "height": 1888
+    },
+    {
+      "asset_id": "asset-7370ce8c9b347375d3f4c3dadefbc4b6428621b1422c8010ef3e036518c37759",
+      "relative_path": "assets/public/7370ce8c9b347375d3f4c3dadefbc4b6428621b1422c8010ef3e036518c37759.jpg",
+      "sha256": "7370ce8c9b347375d3f4c3dadefbc4b6428621b1422c8010ef3e036518c37759",
+      "byte_size": 98463,
+      "width": 1353,
+      "height": 1907
+    },
+    {
+      "asset_id": "asset-78e254acb4fe0e20dedc0c720419886e2b4df9fd78a668a32a8988f4d40ed37d",
+      "relative_path": "assets/public/78e254acb4fe0e20dedc0c720419886e2b4df9fd78a668a32a8988f4d40ed37d.jpg",
+      "sha256": "78e254acb4fe0e20dedc0c720419886e2b4df9fd78a668a32a8988f4d40ed37d",
+      "byte_size": 160343,
+      "width": 1325,
+      "height": 1902
+    },
+    {
+      "asset_id": "asset-8e9adb66622afa74ec1ce9426a0baf52883679ae73e9dd6b24e7fa32990c236c",
+      "relative_path": "assets/public/8e9adb66622afa74ec1ce9426a0baf52883679ae73e9dd6b24e7fa32990c236c.jpg",
+      "sha256": "8e9adb66622afa74ec1ce9426a0baf52883679ae73e9dd6b24e7fa32990c236c",
+      "byte_size": 156947,
+      "width": 1412,
+      "height": 1872
+    },
+    {
+      "asset_id": "asset-e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1",
+      "relative_path": "assets/public/e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1.jpg",
+      "sha256": "e6bd4328aa2fd18a07dbfae47141b0ff13621d0b1f1ad4dd0b3b95eb257604d1",
+      "byte_size": 145137,
+      "width": 1381,
+      "height": 1902
+    },
+    {
+      "asset_id": "asset-fbfcc2edfb74e1c648eefd03b5f7e4e78d082c40d2310814281703e706ad7935",
+      "relative_path": "assets/public/fbfcc2edfb74e1c648eefd03b5f7e4e78d082c40d2310814281703e706ad7935.jpg",
+      "sha256": "fbfcc2edfb74e1c648eefd03b5f7e4e78d082c40d2310814281703e706ad7935",
+      "byte_size": 101471,
+      "width": 1394,
+      "height": 1895
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

@@ -1,0 +1,2878 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-14-test-04",
+  "book": 14,
+  "printed_test_number": 4,
+  "local_ordinal": 4,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 535,
+        "line_end": 580,
+        "pdf_pages": [
+          75,
+          76
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-7dd9ca84cc581141d70077c13802913e1a81cf17d719505ac3534376698c33ff",
+        "asset-1d27d9480064516d970d6e404a35d8f9934784d5c4db23681a45fd3f9098f7f9"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-04-p1-g01-07",
+          "question_range": [
+            1,
+            7
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 540,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 541,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Enquiry about booking hotel room for event",
+              "source_line": 543,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example: Andrew is the Events Manager.",
+              "source_line": 544,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Rooms",
+              "source_line": 546,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Adelphi Room",
+              "source_line": 547,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1  number of people who can sit down to eat: ____________________",
+              "source_line": 548,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   has a gallery suitable for musicians",
+              "source_line": 549,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "2  can go out and see the ____________________ in pots on the terrace",
+              "source_line": 550,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "3  terrace has a view of a group of ____________________",
+              "source_line": 551,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Carlton Room",
+              "source_line": 553,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   number of people who can sit down to eat: 110",
+              "source_line": 554,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "4  has a ____________________",
+              "source_line": 555,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   view of the lake",
+              "source_line": 556,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Options",
+              "source_line": 558,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Master of Ceremonies:",
+              "source_line": 559,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "5  can give a ____________________ while people are eating",
+              "source_line": 560,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "6  will provide ____________________ if there are any problems",
+              "source_line": 561,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Accommodation:",
+              "source_line": 563,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "7  in hotel rooms or ____________________",
+              "source_line": 564,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 539,
+            "line_end": 565,
+            "pdf_pages": [
+              75,
+              76
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q01",
+              "question_number": 1,
+              "prompt": "1  number of people who can sit down to eat: ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 548,
+                  "start": 0,
+                  "end": 65,
+                  "text": "1  number of people who can sit down to eat: ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q02",
+              "question_number": 2,
+              "prompt": "2  can go out and see the ____________________ in pots on the terrace",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 550,
+                  "start": 0,
+                  "end": 69,
+                  "text": "2  can go out and see the ____________________ in pots on the terrace",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q03",
+              "question_number": 3,
+              "prompt": "3  terrace has a view of a group of ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 551,
+                  "start": 0,
+                  "end": 56,
+                  "text": "3  terrace has a view of a group of ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q04",
+              "question_number": 4,
+              "prompt": "4  has a ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 555,
+                  "start": 0,
+                  "end": 29,
+                  "text": "4  has a ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q05",
+              "question_number": 5,
+              "prompt": "5  can give a ____________________ while people are eating",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 560,
+                  "start": 0,
+                  "end": 58,
+                  "text": "5  can give a ____________________ while people are eating",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q06",
+              "question_number": 6,
+              "prompt": "6  will provide ____________________ if there are any problems",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 561,
+                  "start": 0,
+                  "end": 62,
+                  "text": "6  will provide ____________________ if there are any problems",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q07",
+              "question_number": 7,
+              "prompt": "7  in hotel rooms or ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 564,
+                  "start": 0,
+                  "end": 41,
+                  "text": "7  in hotel rooms or ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-04-p1-g08-10",
+          "question_range": [
+            8,
+            10
+          ],
+          "question_type": "matching",
+          "instructions": "What is said about using each of the following hotel facilities?\nChoose THREE answers from the box and write the correct letter, A, B or C, next to Questions 8–10.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What is said about using each of the following hotel facilities?\nChoose THREE answers from the box and write the correct letter, A, B or C, next to Questions 8–10.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-04-p1-g08-10-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "included in cost of hiring room",
+                "source_line": 570
+              },
+              {
+                "label": "B",
+                "text": "available at extra charge",
+                "source_line": 571
+              },
+              {
+                "label": "C",
+                "text": "not available",
+                "source_line": 572
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What is said about using each of the following hotel facilities?",
+              "source_line": 567,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose THREE answers from the box and write the correct letter, A, B or C, next to Questions 8–10.",
+              "source_line": 568,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Availability:",
+              "source_line": 569,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  included in cost of hiring room",
+              "source_line": 570,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  available at extra charge",
+              "source_line": 571,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  not available",
+              "source_line": 572,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Hotel facilities:",
+              "source_line": 573,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "8   outdoor swimming pool __________",
+              "source_line": 574,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "9   gym __________",
+              "source_line": 575,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "10  tennis courts __________",
+              "source_line": 576,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 566,
+            "line_end": 580,
+            "pdf_pages": [
+              75,
+              76
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q08",
+              "question_number": 8,
+              "prompt": "8   outdoor swimming pool __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p1-g08-10-bank",
+              "blank_references": [
+                {
+                  "line": 574,
+                  "start": 0,
+                  "end": 36,
+                  "text": "8   outdoor swimming pool __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is said about using each of the following hotel facilities?\nChoose THREE answers from the box and write the correct letter, A, B or C, next to Questions 8–10.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q09",
+              "question_number": 9,
+              "prompt": "9   gym __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p1-g08-10-bank",
+              "blank_references": [
+                {
+                  "line": 575,
+                  "start": 0,
+                  "end": 18,
+                  "text": "9   gym __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is said about using each of the following hotel facilities?\nChoose THREE answers from the box and write the correct letter, A, B or C, next to Questions 8–10.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q10",
+              "question_number": 10,
+              "prompt": "10  tennis courts __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p1-g08-10-bank",
+              "blank_references": [
+                {
+                  "line": 576,
+                  "start": 0,
+                  "end": 28,
+                  "text": "10  tennis courts __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is said about using each of the following hotel facilities?\nChoose THREE answers from the box and write the correct letter, A, B or C, next to Questions 8–10.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 581,
+        "line_end": 630,
+        "pdf_pages": [
+          77,
+          78
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-4a817936d4a423f1f763e522f92edb633b84b22cb3aed1ecefc311547ed5392b",
+        "asset-243956cc788f6318ba8ef045b8f2d0bff77c1531fc8468155e661621b463f88e"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-04-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "matching",
+          "instructions": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "all downhill",
+                "source_line": 589
+              },
+              {
+                "label": "B",
+                "text": "suitable for beginners",
+                "source_line": 590
+              },
+              {
+                "label": "C",
+                "text": "only in good weather",
+                "source_line": 591
+              },
+              {
+                "label": "D",
+                "text": "food included",
+                "source_line": 592
+              },
+              {
+                "label": "E",
+                "text": "no charge",
+                "source_line": 593
+              },
+              {
+                "label": "F",
+                "text": "swimming possible",
+                "source_line": 594
+              },
+              {
+                "label": "G",
+                "text": "fully booked today",
+                "source_line": 595
+              },
+              {
+                "label": "H",
+                "text": "transport not included",
+                "source_line": 596
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What information does the speaker give about each of the following excursions?",
+              "source_line": 586,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+              "source_line": 587,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Information:",
+              "source_line": 588,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  all downhill",
+              "source_line": 589,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  suitable for beginners",
+              "source_line": 590,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  only in good weather",
+              "source_line": 591,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  food included",
+              "source_line": 592,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  no charge",
+              "source_line": 593,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  swimming possible",
+              "source_line": 594,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G  fully booked today",
+              "source_line": 595,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "H  transport not included",
+              "source_line": 596,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Excursions",
+              "source_line": 598,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11  dolphin watching __________",
+              "source_line": 599,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12  forest walk __________",
+              "source_line": 600,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13  cycle trip __________",
+              "source_line": 601,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14  local craft tour __________",
+              "source_line": 602,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15  observatory trip __________",
+              "source_line": 603,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16  horse riding __________",
+              "source_line": 604,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 585,
+            "line_end": 605,
+            "pdf_pages": [
+              77,
+              78
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q11",
+              "question_number": 11,
+              "prompt": "11  dolphin watching __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 599,
+                  "start": 0,
+                  "end": 31,
+                  "text": "11  dolphin watching __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q12",
+              "question_number": 12,
+              "prompt": "12  forest walk __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 600,
+                  "start": 0,
+                  "end": 26,
+                  "text": "12  forest walk __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q13",
+              "question_number": 13,
+              "prompt": "13  cycle trip __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 601,
+                  "start": 0,
+                  "end": 25,
+                  "text": "13  cycle trip __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q14",
+              "question_number": 14,
+              "prompt": "14  local craft tour __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 602,
+                  "start": 0,
+                  "end": 31,
+                  "text": "14  local craft tour __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q15",
+              "question_number": 15,
+              "prompt": "15  observatory trip __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 603,
+                  "start": 0,
+                  "end": 31,
+                  "text": "15  observatory trip __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q16",
+              "question_number": 16,
+              "prompt": "16  horse riding __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 604,
+                  "start": 0,
+                  "end": 27,
+                  "text": "16  horse riding __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What information does the speaker give about each of the following excursions?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-04-p2-g17-18",
+          "question_range": [
+            17,
+            18
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the attraction called Musical Favourites?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the attraction called Musical Favourites?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-04-p2-g17-18-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "You pay extra for drinks.",
+                "source_line": 609
+              },
+              {
+                "label": "B",
+                "text": "You must book it in advance.",
+                "source_line": 610
+              },
+              {
+                "label": "C",
+                "text": "You get a reduction if you buy two tickets.",
+                "source_line": 611
+              },
+              {
+                "label": "D",
+                "text": "You can meet the performers.",
+                "source_line": 612
+              },
+              {
+                "label": "E",
+                "text": "You can take part in the show.",
+                "source_line": 613
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              17,
+              18
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 607,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO things does the speaker say about the attraction called Musical Favourites?",
+              "source_line": 608,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  You pay extra for drinks.",
+              "source_line": 609,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  You must book it in advance.",
+              "source_line": 610,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  You get a reduction if you buy two tickets.",
+              "source_line": 611,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  You can meet the performers.",
+              "source_line": 612,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  You can take part in the show.",
+              "source_line": 613,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17  __________",
+              "source_line": 614,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "18  __________",
+              "source_line": 615,
+              "blanks": [
+                {
+                  "question_number": 18,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 606,
+            "line_end": 616,
+            "pdf_pages": [
+              77,
+              78
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q17",
+              "question_number": 17,
+              "prompt": "17  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 614,
+                  "start": 0,
+                  "end": 14,
+                  "text": "17  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the attraction called Musical Favourites?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q18",
+              "question_number": 18,
+              "prompt": "18  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 615,
+                  "start": 0,
+                  "end": 14,
+                  "text": "18  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the attraction called Musical Favourites?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-04-p2-g19-20",
+          "question_range": [
+            19,
+            20
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the Castle Feast?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the Castle Feast?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-04-p2-g19-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Visitors can dance after the meal.",
+                "source_line": 620
+              },
+              {
+                "label": "B",
+                "text": "There is a choice of food.",
+                "source_line": 621
+              },
+              {
+                "label": "C",
+                "text": "Visitors wear historical costume.",
+                "source_line": 622
+              },
+              {
+                "label": "D",
+                "text": "Knives and forks are not used.",
+                "source_line": 623
+              },
+              {
+                "label": "E",
+                "text": "The entertainment includes horse races.",
+                "source_line": 624
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              19,
+              20
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 618,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO things does the speaker say about the Castle Feast?",
+              "source_line": 619,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  Visitors can dance after the meal.",
+              "source_line": 620,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  There is a choice of food.",
+              "source_line": 621,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  Visitors wear historical costume.",
+              "source_line": 622,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  Knives and forks are not used.",
+              "source_line": 623,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  The entertainment includes horse races.",
+              "source_line": 624,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19  __________",
+              "source_line": 625,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "20  __________",
+              "source_line": 626,
+              "blanks": [
+                {
+                  "question_number": 20,
+                  "start": 0,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 617,
+            "line_end": 630,
+            "pdf_pages": [
+              77,
+              78
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q19",
+              "question_number": 19,
+              "prompt": "19  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 625,
+                  "start": 0,
+                  "end": 14,
+                  "text": "19  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the Castle Feast?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q20",
+              "question_number": 20,
+              "prompt": "20  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 626,
+                  "start": 0,
+                  "end": 14,
+                  "text": "20  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the speaker say about the Castle Feast?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 631,
+        "line_end": 679,
+        "pdf_pages": [
+          79,
+          80
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-1b3ce060d3c72f2d6a919b026690ac315d719947869130e0f7d574a14f241034",
+        "asset-3c4c944aa594d0b917a2ddd83c55464aa1989950792cbd3b10ac3e7d421b6e36"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-04-p3-g21-25",
+          "question_range": [
+            21,
+            25
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 636,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21  What does Trevor find interesting about the purpose of children's literature?",
+              "source_line": 637,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  the fact that authors may not realise what values they're teaching",
+              "source_line": 638,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  the fact that literature can be entertaining and educational at the same time",
+              "source_line": 639,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  the fact that adults expect children to imitate characters in literature",
+              "source_line": 640,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22  Trevor says the module about the purpose of children's literature made him",
+              "source_line": 641,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  analyse some of the stories that his niece reads.",
+              "source_line": 642,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  wonder how far popularity reflects good quality.",
+              "source_line": 643,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  decide to start writing some children's stories.",
+              "source_line": 644,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23  Stephanie is interested in the Pictures module because",
+              "source_line": 645,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  she intends to become an illustrator.",
+              "source_line": 646,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  she can remember beautiful illustrations from her childhood.",
+              "source_line": 647,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  she believes illustrations are more important than words.",
+              "source_line": 648,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24  Trevor and Stephanie agree that comics",
+              "source_line": 649,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  are inferior to books.",
+              "source_line": 650,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  have the potential for being useful.",
+              "source_line": 651,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  discourage children from using their imagination.",
+              "source_line": 652,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25  With regard to books aimed at only boys or only girls, Trevor was surprised",
+              "source_line": 653,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  how long the distinction had gone unquestioned.",
+              "source_line": 654,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  how few books were aimed at both girls and boys.",
+              "source_line": 655,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  how many children enjoyed books intended for the opposite sex.",
+              "source_line": 656,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 635,
+            "line_end": 657,
+            "pdf_pages": [
+              79,
+              80
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q21",
+              "question_number": 21,
+              "prompt": "21  What does Trevor find interesting about the purpose of children's literature?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the fact that authors may not realise what values they're teaching",
+                  "source_line": 638
+                },
+                {
+                  "label": "B",
+                  "text": "the fact that literature can be entertaining and educational at the same time",
+                  "source_line": 639
+                },
+                {
+                  "label": "C",
+                  "text": "the fact that adults expect children to imitate characters in literature",
+                  "source_line": 640
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 637,
+                  "start": 0,
+                  "end": 81,
+                  "text": "21  What does Trevor find interesting about the purpose of children's literature?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q22",
+              "question_number": 22,
+              "prompt": "22  Trevor says the module about the purpose of children's literature made him",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "analyse some of the stories that his niece reads.",
+                  "source_line": 642
+                },
+                {
+                  "label": "B",
+                  "text": "wonder how far popularity reflects good quality.",
+                  "source_line": 643
+                },
+                {
+                  "label": "C",
+                  "text": "decide to start writing some children's stories.",
+                  "source_line": 644
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 641,
+                  "start": 0,
+                  "end": 78,
+                  "text": "22  Trevor says the module about the purpose of children's literature made him",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q23",
+              "question_number": 23,
+              "prompt": "23  Stephanie is interested in the Pictures module because",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "she intends to become an illustrator.",
+                  "source_line": 646
+                },
+                {
+                  "label": "B",
+                  "text": "she can remember beautiful illustrations from her childhood.",
+                  "source_line": 647
+                },
+                {
+                  "label": "C",
+                  "text": "she believes illustrations are more important than words.",
+                  "source_line": 648
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 645,
+                  "start": 0,
+                  "end": 58,
+                  "text": "23  Stephanie is interested in the Pictures module because",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q24",
+              "question_number": 24,
+              "prompt": "24  Trevor and Stephanie agree that comics",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "are inferior to books.",
+                  "source_line": 650
+                },
+                {
+                  "label": "B",
+                  "text": "have the potential for being useful.",
+                  "source_line": 651
+                },
+                {
+                  "label": "C",
+                  "text": "discourage children from using their imagination.",
+                  "source_line": 652
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 649,
+                  "start": 0,
+                  "end": 42,
+                  "text": "24  Trevor and Stephanie agree that comics",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q25",
+              "question_number": 25,
+              "prompt": "25  With regard to books aimed at only boys or only girls, Trevor was surprised",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "how long the distinction had gone unquestioned.",
+                  "source_line": 654
+                },
+                {
+                  "label": "B",
+                  "text": "how few books were aimed at both girls and boys.",
+                  "source_line": 655
+                },
+                {
+                  "label": "C",
+                  "text": "how many children enjoyed books intended for the opposite sex.",
+                  "source_line": 656
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 653,
+                  "start": 0,
+                  "end": 79,
+                  "text": "25  With regard to books aimed at only boys or only girls, Trevor was surprised",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-04-p3-g26-30",
+          "question_range": [
+            26,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-04-p3-g26-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "translated into many other languages",
+                "source_line": 662
+              },
+              {
+                "label": "B",
+                "text": "hard to read",
+                "source_line": 663
+              },
+              {
+                "label": "C",
+                "text": "inspired a work in a different area of art",
+                "source_line": 664
+              },
+              {
+                "label": "D",
+                "text": "more popular than the author's other works",
+                "source_line": 665
+              },
+              {
+                "label": "E",
+                "text": "original title refers to another book",
+                "source_line": 666
+              },
+              {
+                "label": "F",
+                "text": "started a new genre",
+                "source_line": 667
+              },
+              {
+                "label": "G",
+                "text": "unlikely topic",
+                "source_line": 668
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What comment is made about each of these stories?",
+              "source_line": 659,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+              "source_line": 660,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Comments:",
+              "source_line": 661,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  translated into many other languages",
+              "source_line": 662,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  hard to read",
+              "source_line": 663,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  inspired a work in a different area of art",
+              "source_line": 664,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  more popular than the author's other works",
+              "source_line": 665,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  original title refers to another book",
+              "source_line": 666,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  started a new genre",
+              "source_line": 667,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G  unlikely topic",
+              "source_line": 668,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Stories",
+              "source_line": 670,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26  Perrault's fairy tales __________",
+              "source_line": 671,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27  The Swiss Family Robinson __________",
+              "source_line": 672,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28  The Nutcracker and The Mouse King __________",
+              "source_line": 673,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29  The Lord of the Rings __________",
+              "source_line": 674,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30  War Horse __________",
+              "source_line": 675,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 658,
+            "line_end": 679,
+            "pdf_pages": [
+              79,
+              80
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q26",
+              "question_number": 26,
+              "prompt": "26  Perrault's fairy tales __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 671,
+                  "start": 0,
+                  "end": 37,
+                  "text": "26  Perrault's fairy tales __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q27",
+              "question_number": 27,
+              "prompt": "27  The Swiss Family Robinson __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 672,
+                  "start": 0,
+                  "end": 40,
+                  "text": "27  The Swiss Family Robinson __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q28",
+              "question_number": 28,
+              "prompt": "28  The Nutcracker and The Mouse King __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 673,
+                  "start": 0,
+                  "end": 48,
+                  "text": "28  The Nutcracker and The Mouse King __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q29",
+              "question_number": 29,
+              "prompt": "29  The Lord of the Rings __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 674,
+                  "start": 0,
+                  "end": 36,
+                  "text": "29  The Lord of the Rings __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q30",
+              "question_number": 30,
+              "prompt": "30  War Horse __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-04-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 675,
+                  "start": 0,
+                  "end": 24,
+                  "text": "30  War Horse __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about each of these stories?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 680,
+        "line_end": 722,
+        "pdf_pages": [
+          81
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-c0c5674635297c65275f8ae708a49fac1d4bb6db7886a4850f7590ba67b7c3ff",
+        "asset-22e9ab4e40bee440fd21d453acf2a5bc1cf11af86740fc928753163de9e63ae5"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-04-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 684,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 685,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The hunt for sunken settlements and ancient shipwrecks",
+              "source_line": 687,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "ATLIT-YAM",
+              "source_line": 689,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- was a village on coast of eastern Mediterranean",
+              "source_line": 690,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- thrived until about 7,000 BC",
+              "source_line": 691,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- stone homes had a courtyard",
+              "source_line": 692,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "31 had a semicircle of large stones round a ____________________",
+              "source_line": 693,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- cause of destruction unknown – now under the sea",
+              "source_line": 694,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- biggest settlement from the prehistoric period found on the seabed",
+              "source_line": 695,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "32 research carried out into structures, ____________________ and human remains",
+              "source_line": 696,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "TRADITIONAL AUTONOMOUS UNDERWATER VEHICLES (AUVs)",
+              "source_line": 698,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "33 used in the oil industry, e.g. to make ____________________",
+              "source_line": 699,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "34 problems: they were expensive and ____________________",
+              "source_line": 700,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "LATEST AUVs",
+              "source_line": 702,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- much easier to use, relatively cheap, sophisticated",
+              "source_line": 703,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Tests:",
+              "source_line": 704,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "35 Marzamemi, Sicily: found ancient Roman ships carrying architectural elements made of ____________________",
+              "source_line": 705,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Underwater internet:",
+              "source_line": 707,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "36 ____________________ is used for short distance communication, acoustic waves for long distance",
+              "source_line": 708,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "- plans for communication with researchers by satellite",
+              "source_line": 709,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "37 AUV can send data to another AUV that has better ____________________, for example",
+              "source_line": 710,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Planned research in Gulf of Baratti:",
+              "source_line": 712,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- to find out more about wrecks of ancient Roman ships, including",
+              "source_line": 713,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "38 one carrying ____________________ supplies; tablets may have been used",
+              "source_line": 714,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "39 for cleaning the ____________________",
+              "source_line": 715,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "40 others carrying containers of olive oil or ____________________",
+              "source_line": 716,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 681,
+            "line_end": 722,
+            "pdf_pages": [
+              81
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-04-q31",
+              "question_number": 31,
+              "prompt": "31 had a semicircle of large stones round a ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 693,
+                  "start": 0,
+                  "end": 64,
+                  "text": "31 had a semicircle of large stones round a ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q32",
+              "question_number": 32,
+              "prompt": "32 research carried out into structures, ____________________ and human remains",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 696,
+                  "start": 0,
+                  "end": 79,
+                  "text": "32 research carried out into structures, ____________________ and human remains",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q33",
+              "question_number": 33,
+              "prompt": "33 used in the oil industry, e.g. to make ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 699,
+                  "start": 0,
+                  "end": 62,
+                  "text": "33 used in the oil industry, e.g. to make ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q34",
+              "question_number": 34,
+              "prompt": "34 problems: they were expensive and ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 700,
+                  "start": 0,
+                  "end": 57,
+                  "text": "34 problems: they were expensive and ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q35",
+              "question_number": 35,
+              "prompt": "35 Marzamemi, Sicily: found ancient Roman ships carrying architectural elements made of ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 705,
+                  "start": 0,
+                  "end": 108,
+                  "text": "35 Marzamemi, Sicily: found ancient Roman ships carrying architectural elements made of ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q36",
+              "question_number": 36,
+              "prompt": "36 ____________________ is used for short distance communication, acoustic waves for long distance",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 708,
+                  "start": 0,
+                  "end": 23,
+                  "text": "36 ____________________ is used for short distance communication, acoustic waves for long distance",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q37",
+              "question_number": 37,
+              "prompt": "37 AUV can send data to another AUV that has better ____________________, for example",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 710,
+                  "start": 0,
+                  "end": 85,
+                  "text": "37 AUV can send data to another AUV that has better ____________________, for example",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q38",
+              "question_number": 38,
+              "prompt": "38 one carrying ____________________ supplies; tablets may have been used",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 714,
+                  "start": 0,
+                  "end": 73,
+                  "text": "38 one carrying ____________________ supplies; tablets may have been used",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q39",
+              "question_number": 39,
+              "prompt": "39 for cleaning the ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 715,
+                  "start": 0,
+                  "end": 40,
+                  "text": "39 for cleaning the ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-04-q40",
+              "question_number": 40,
+              "prompt": "40 others carrying containers of olive oil or ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 716,
+                  "start": 0,
+                  "end": 66,
+                  "text": "40 others carrying containers of olive oil or ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-1b3ce060d3c72f2d6a919b026690ac315d719947869130e0f7d574a14f241034",
+      "relative_path": "assets/public/1b3ce060d3c72f2d6a919b026690ac315d719947869130e0f7d574a14f241034.png",
+      "sha256": "1b3ce060d3c72f2d6a919b026690ac315d719947869130e0f7d574a14f241034",
+      "byte_size": 521877,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-1d27d9480064516d970d6e404a35d8f9934784d5c4db23681a45fd3f9098f7f9",
+      "relative_path": "assets/public/1d27d9480064516d970d6e404a35d8f9934784d5c4db23681a45fd3f9098f7f9.png",
+      "sha256": "1d27d9480064516d970d6e404a35d8f9934784d5c4db23681a45fd3f9098f7f9",
+      "byte_size": 269073,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-22e9ab4e40bee440fd21d453acf2a5bc1cf11af86740fc928753163de9e63ae5",
+      "relative_path": "assets/public/22e9ab4e40bee440fd21d453acf2a5bc1cf11af86740fc928753163de9e63ae5.png",
+      "sha256": "22e9ab4e40bee440fd21d453acf2a5bc1cf11af86740fc928753163de9e63ae5",
+      "byte_size": 743356,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-243956cc788f6318ba8ef045b8f2d0bff77c1531fc8468155e661621b463f88e",
+      "relative_path": "assets/public/243956cc788f6318ba8ef045b8f2d0bff77c1531fc8468155e661621b463f88e.png",
+      "sha256": "243956cc788f6318ba8ef045b8f2d0bff77c1531fc8468155e661621b463f88e",
+      "byte_size": 295755,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-3c4c944aa594d0b917a2ddd83c55464aa1989950792cbd3b10ac3e7d421b6e36",
+      "relative_path": "assets/public/3c4c944aa594d0b917a2ddd83c55464aa1989950792cbd3b10ac3e7d421b6e36.png",
+      "sha256": "3c4c944aa594d0b917a2ddd83c55464aa1989950792cbd3b10ac3e7d421b6e36",
+      "byte_size": 353445,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-4a817936d4a423f1f763e522f92edb633b84b22cb3aed1ecefc311547ed5392b",
+      "relative_path": "assets/public/4a817936d4a423f1f763e522f92edb633b84b22cb3aed1ecefc311547ed5392b.png",
+      "sha256": "4a817936d4a423f1f763e522f92edb633b84b22cb3aed1ecefc311547ed5392b",
+      "byte_size": 346816,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-7dd9ca84cc581141d70077c13802913e1a81cf17d719505ac3534376698c33ff",
+      "relative_path": "assets/public/7dd9ca84cc581141d70077c13802913e1a81cf17d719505ac3534376698c33ff.png",
+      "sha256": "7dd9ca84cc581141d70077c13802913e1a81cf17d719505ac3534376698c33ff",
+      "byte_size": 537869,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-c0c5674635297c65275f8ae708a49fac1d4bb6db7886a4850f7590ba67b7c3ff",
+      "relative_path": "assets/public/c0c5674635297c65275f8ae708a49fac1d4bb6db7886a4850f7590ba67b7c3ff.png",
+      "sha256": "c0c5674635297c65275f8ae708a49fac1d4bb6db7886a4850f7590ba67b7c3ff",
+      "byte_size": 481070,
+      "width": 850,
+      "height": 1215
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": false
+  }
+}

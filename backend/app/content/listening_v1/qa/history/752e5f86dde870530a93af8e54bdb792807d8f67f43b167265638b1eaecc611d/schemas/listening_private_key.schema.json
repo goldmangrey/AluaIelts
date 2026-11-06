@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "exam_id": {
+      "type": "string"
+    },
+    "visibility": {
+      "const": "private"
+    },
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "question_number": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 40
+          },
+          "official_answer": {
+            "type": "string"
+          },
+          "source_notation": {
+            "type": "string"
+          },
+          "explicit_slash_forms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parenthetical_notation_requires_source_interpretation": {
+            "type": "boolean"
+          },
+          "unordered_group": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_reference": {
+            "type": "object",
+            "properties": {
+              "file": {
+                "type": "string"
+              },
+              "line": {
+                "type": "integer"
+              },
+              "evidence_assets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "file",
+              "line",
+              "evidence_assets"
+            ],
+            "additionalProperties": false
+          },
+          "verification": {
+            "type": "object",
+            "required": [
+              "status",
+              "method"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "needs_review",
+                  "source_required",
+                  "source_verified",
+                  "key_verified"
+                ]
+              },
+              "method": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "question_id",
+          "question_number",
+          "official_answer",
+          "source_notation",
+          "explicit_slash_forms",
+          "parenthetical_notation_requires_source_interpretation",
+          "unordered_group",
+          "source_reference",
+          "verification"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 40
+    },
+    "unordered_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "group_id": {
+            "type": "string"
+          },
+          "question_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 40
+            },
+            "minItems": 2,
+            "uniqueItems": true
+          },
+          "expected_units": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "uniqueItems": true
+          },
+          "order": {
+            "const": "unordered"
+          },
+          "distinct": {
+            "const": true
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "group_id",
+          "question_numbers",
+          "expected_units",
+          "order",
+          "distinct",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "source_header": {
+      "type": "string"
+    },
+    "unordered_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question_numbers": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 40
+            },
+            "minItems": 2
+          },
+          "source_line": {
+            "type": "integer"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "question_numbers",
+          "source_line",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "exam_id",
+    "visibility",
+    "answers",
+    "unordered_groups",
+    "source_header",
+    "unordered_evidence"
+  ],
+  "additionalProperties": false
+}

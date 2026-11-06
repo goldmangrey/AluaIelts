@@ -1,0 +1,2598 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-14-test-03",
+  "book": 14,
+  "printed_test_number": 3,
+  "local_ordinal": 3,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 371,
+        "line_end": 408,
+        "pdf_pages": [
+          53
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-72d25be928ae302f9c8662f7f9e8542e80644957a6b1e7433905758acd9902a0",
+        "asset-e00c772f0646a99a080450f4396a40260f2c50a862bc46e681da6a48849f8c68"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-03-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 375,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 376,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Flanders Conference Hotel",
+              "source_line": 378,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Customer Services Manager: [example in original scan; not a question]",
+              "source_line": 381,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Date available",
+              "source_line": 383,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- weekend beginning February 4th",
+              "source_line": 384,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Conference facilities",
+              "source_line": 386,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1  the ____________________ room for talks",
+              "source_line": 387,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "2  (projector and ____________________ available)",
+              "source_line": 388,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "3  area for coffee and an ____________________",
+              "source_line": 389,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "4  free ____________________ throughout",
+              "source_line": 390,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "5  a standard buffet lunch costs $____________________ per head",
+              "source_line": 391,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Accommodation",
+              "source_line": 393,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "6  Rooms will cost $____________________ including breakfast.",
+              "source_line": 394,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Other facilities",
+              "source_line": 396,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "7  The hotel also has a spa and rooftop ____________________",
+              "source_line": 397,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "8  There's a free shuttle service to the ____________________",
+              "source_line": 398,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Location",
+              "source_line": 400,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "9  Wilby Street (quite near the ____________________)",
+              "source_line": 401,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "10 near to restaurants and many ____________________",
+              "source_line": 402,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 372,
+            "line_end": 408,
+            "pdf_pages": [
+              53
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q01",
+              "question_number": 1,
+              "prompt": "1  the ____________________ room for talks",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 387,
+                  "start": 0,
+                  "end": 42,
+                  "text": "1  the ____________________ room for talks",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q02",
+              "question_number": 2,
+              "prompt": "2  (projector and ____________________ available)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 388,
+                  "start": 0,
+                  "end": 49,
+                  "text": "2  (projector and ____________________ available)",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q03",
+              "question_number": 3,
+              "prompt": "3  area for coffee and an ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 389,
+                  "start": 0,
+                  "end": 46,
+                  "text": "3  area for coffee and an ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q04",
+              "question_number": 4,
+              "prompt": "4  free ____________________ throughout",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 390,
+                  "start": 0,
+                  "end": 39,
+                  "text": "4  free ____________________ throughout",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q05",
+              "question_number": 5,
+              "prompt": "5  a standard buffet lunch costs $____________________ per head",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 391,
+                  "start": 0,
+                  "end": 63,
+                  "text": "5  a standard buffet lunch costs $____________________ per head",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q06",
+              "question_number": 6,
+              "prompt": "6  Rooms will cost $____________________ including breakfast.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 394,
+                  "start": 0,
+                  "end": 61,
+                  "text": "6  Rooms will cost $____________________ including breakfast.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q07",
+              "question_number": 7,
+              "prompt": "7  The hotel also has a spa and rooftop ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 397,
+                  "start": 0,
+                  "end": 60,
+                  "text": "7  The hotel also has a spa and rooftop ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q08",
+              "question_number": 8,
+              "prompt": "8  There's a free shuttle service to the ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 398,
+                  "start": 0,
+                  "end": 61,
+                  "text": "8  There's a free shuttle service to the ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q09",
+              "question_number": 9,
+              "prompt": "9  Wilby Street (quite near the ____________________)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 401,
+                  "start": 0,
+                  "end": 53,
+                  "text": "9  Wilby Street (quite near the ____________________)",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            },
+            {
+              "question_id": "cambridge-14-test-03-q10",
+              "question_number": 10,
+              "prompt": "10 near to restaurants and many ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 402,
+                  "start": 0,
+                  "end": 52,
+                  "text": "10 near to restaurants and many ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": false,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [
+                "Prepared source flags require original-page review"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 409,
+        "line_end": 457,
+        "pdf_pages": [
+          54,
+          55
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-42da346f944f4cb671f8c83b6f58d54e70042cfed40eba6074c145b04c048c21",
+        "asset-875134591bc0e78d96ce0c4a3cdabf8c79845be6fa80c6bd448e579ab31864b1"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-03-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO activities that volunteers do are mentioned?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO activities that volunteers do are mentioned?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-03-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "decorating",
+                "source_line": 416
+              },
+              {
+                "label": "B",
+                "text": "cleaning",
+                "source_line": 417
+              },
+              {
+                "label": "C",
+                "text": "delivering meals",
+                "source_line": 418
+              },
+              {
+                "label": "D",
+                "text": "shopping",
+                "source_line": 419
+              },
+              {
+                "label": "E",
+                "text": "childcare",
+                "source_line": 420
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 414,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO activities that volunteers do are mentioned?",
+              "source_line": 415,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  decorating",
+              "source_line": 416,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  cleaning",
+              "source_line": 417,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  delivering meals",
+              "source_line": 418,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  shopping",
+              "source_line": 419,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  childcare",
+              "source_line": 420,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11 __________",
+              "source_line": 421,
+              "blanks": [
+                {
+                  "question_number": 11,
+                  "start": 0,
+                  "end": 13
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "12 __________",
+              "source_line": 422,
+              "blanks": [
+                {
+                  "question_number": 12,
+                  "start": 0,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 413,
+            "line_end": 423,
+            "pdf_pages": [
+              54,
+              55
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q11",
+              "question_number": 11,
+              "prompt": "11 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 421,
+                  "start": 0,
+                  "end": 13,
+                  "text": "11 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO activities that volunteers do are mentioned?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q12",
+              "question_number": 12,
+              "prompt": "12 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 422,
+                  "start": 0,
+                  "end": 13,
+                  "text": "12 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO activities that volunteers do are mentioned?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-03-p2-g13-14",
+          "question_range": [
+            13,
+            14
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO ways that volunteers can benefit from volunteering are mentioned?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO ways that volunteers can benefit from volunteering are mentioned?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-03-p2-g13-14-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "learning how to be part of a team",
+                "source_line": 427
+              },
+              {
+                "label": "B",
+                "text": "having a sense of purpose",
+                "source_line": 428
+              },
+              {
+                "label": "C",
+                "text": "realising how lucky they are",
+                "source_line": 429
+              },
+              {
+                "label": "D",
+                "text": "improved ability at time management",
+                "source_line": 430
+              },
+              {
+                "label": "E",
+                "text": "boosting their employment prospects",
+                "source_line": 431
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              13,
+              14
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 425,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO ways that volunteers can benefit from volunteering are mentioned?",
+              "source_line": 426,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  learning how to be part of a team",
+              "source_line": 427,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  having a sense of purpose",
+              "source_line": 428,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  realising how lucky they are",
+              "source_line": 429,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  improved ability at time management",
+              "source_line": 430,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  boosting their employment prospects",
+              "source_line": 431,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13 __________",
+              "source_line": 432,
+              "blanks": [
+                {
+                  "question_number": 13,
+                  "start": 0,
+                  "end": 13
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "14 __________",
+              "source_line": 433,
+              "blanks": [
+                {
+                  "question_number": 14,
+                  "start": 0,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 424,
+            "line_end": 434,
+            "pdf_pages": [
+              54,
+              55
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q13",
+              "question_number": 13,
+              "prompt": "13 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 432,
+                  "start": 0,
+                  "end": 13,
+                  "text": "13 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO ways that volunteers can benefit from volunteering are mentioned?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q14",
+              "question_number": 14,
+              "prompt": "14 __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 433,
+                  "start": 0,
+                  "end": 13,
+                  "text": "14 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO ways that volunteers can benefit from volunteering are mentioned?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-03-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "matching",
+          "instructions": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "overcome physical difficulties",
+                "source_line": 439
+              },
+              {
+                "label": "B",
+                "text": "rediscover skills not used for a long time",
+                "source_line": 440
+              },
+              {
+                "label": "C",
+                "text": "improve their communication skills",
+                "source_line": 441
+              },
+              {
+                "label": "D",
+                "text": "solve problems independently",
+                "source_line": 442
+              },
+              {
+                "label": "E",
+                "text": "escape isolation",
+                "source_line": 443
+              },
+              {
+                "label": "F",
+                "text": "remember past times",
+                "source_line": 444
+              },
+              {
+                "label": "G",
+                "text": "start a new hobby",
+                "source_line": 445
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What has each of the following volunteers helped someone to do?",
+              "source_line": 436,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.",
+              "source_line": 437,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "What volunteers have helped people to do:",
+              "source_line": 438,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  overcome physical difficulties",
+              "source_line": 439,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  rediscover skills not used for a long time",
+              "source_line": 440,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  improve their communication skills",
+              "source_line": 441,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  solve problems independently",
+              "source_line": 442,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  escape isolation",
+              "source_line": 443,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  remember past times",
+              "source_line": 444,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G  start a new hobby",
+              "source_line": 445,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Volunteers",
+              "source_line": 447,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15  Habib __________",
+              "source_line": 448,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16  Consuela __________",
+              "source_line": 449,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17  Minh __________",
+              "source_line": 450,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18  Tanya __________",
+              "source_line": 451,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19  Alexei __________",
+              "source_line": 452,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20  Juba __________",
+              "source_line": 453,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 435,
+            "line_end": 457,
+            "pdf_pages": [
+              54,
+              55
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q15",
+              "question_number": 15,
+              "prompt": "15  Habib __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 448,
+                  "start": 0,
+                  "end": 20,
+                  "text": "15  Habib __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q16",
+              "question_number": 16,
+              "prompt": "16  Consuela __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 449,
+                  "start": 0,
+                  "end": 23,
+                  "text": "16  Consuela __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q17",
+              "question_number": 17,
+              "prompt": "17  Minh __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 450,
+                  "start": 0,
+                  "end": 19,
+                  "text": "17  Minh __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q18",
+              "question_number": 18,
+              "prompt": "18  Tanya __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 451,
+                  "start": 0,
+                  "end": 20,
+                  "text": "18  Tanya __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q19",
+              "question_number": 19,
+              "prompt": "19  Alexei __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 452,
+                  "start": 0,
+                  "end": 21,
+                  "text": "19  Alexei __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q20",
+              "question_number": 20,
+              "prompt": "20  Juba __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 453,
+                  "start": 0,
+                  "end": 19,
+                  "text": "20  Juba __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What has each of the following volunteers helped someone to do?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.\nWhat volunteers have helped people to do:",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 458,
+        "line_end": 491,
+        "pdf_pages": [
+          56,
+          57
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-8096835b8697593c5903550ac7a7b03c9c5e3e8d0a781b0a6a30e8282fc036b8",
+        "asset-2e9dc02c73258a554376ba2258f35985294b0549b86d92af077ff5263a383ff7"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-03-p3-g21-26",
+          "question_range": [
+            21,
+            26
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 462,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 463,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Background on school marching band",
+              "source_line": 465,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21  It consists of around ____________________ students.",
+              "source_line": 466,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22  It is due to play in a ____________________ band competition.",
+              "source_line": 467,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23  It has been invited to play in the town's ____________________.",
+              "source_line": 468,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24  They have listened to a talk by a ____________________.",
+              "source_line": 469,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25  Joe will discuss a ____________________ with the band.",
+              "source_line": 470,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26  Joe hopes the band will attend a ____________________ next month.",
+              "source_line": 471,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 458,
+            "line_end": 472,
+            "pdf_pages": [
+              56,
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q21",
+              "question_number": 21,
+              "prompt": "21  It consists of around ____________________ students.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 466,
+                  "start": 0,
+                  "end": 56,
+                  "text": "21  It consists of around ____________________ students.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q22",
+              "question_number": 22,
+              "prompt": "22  It is due to play in a ____________________ band competition.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 467,
+                  "start": 0,
+                  "end": 65,
+                  "text": "22  It is due to play in a ____________________ band competition.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q23",
+              "question_number": 23,
+              "prompt": "23  It has been invited to play in the town's ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 468,
+                  "start": 0,
+                  "end": 67,
+                  "text": "23  It has been invited to play in the town's ____________________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q24",
+              "question_number": 24,
+              "prompt": "24  They have listened to a talk by a ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 469,
+                  "start": 0,
+                  "end": 59,
+                  "text": "24  They have listened to a talk by a ____________________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q25",
+              "question_number": 25,
+              "prompt": "25  Joe will discuss a ____________________ with the band.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 470,
+                  "start": 0,
+                  "end": 58,
+                  "text": "25  Joe will discuss a ____________________ with the band.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q26",
+              "question_number": 26,
+              "prompt": "26  Joe hopes the band will attend a ____________________ next month.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 471,
+                  "start": 0,
+                  "end": 69,
+                  "text": "26  Joe hopes the band will attend a ____________________ next month.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-03-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What problem does Joe mention in connection with each of the following band members?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What problem does Joe mention in connection with each of the following band members?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-03-p3-g27-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "makes a lot of mistakes in rehearsals",
+                "source_line": 476
+              },
+              {
+                "label": "B",
+                "text": "keeps making unhelpful suggestions",
+                "source_line": 477
+              },
+              {
+                "label": "C",
+                "text": "has difficulty with rhythm",
+                "source_line": 478
+              },
+              {
+                "label": "D",
+                "text": "misses too many rehearsals",
+                "source_line": 479
+              },
+              {
+                "label": "E",
+                "text": "has a health problem",
+                "source_line": 480
+              },
+              {
+                "label": "F",
+                "text": "doesn't mix with other students",
+                "source_line": 481
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What problem does Joe mention in connection with each of the following band members?",
+              "source_line": 474,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+              "source_line": 475,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  makes a lot of mistakes in rehearsals",
+              "source_line": 476,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  keeps making unhelpful suggestions",
+              "source_line": 477,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  has difficulty with rhythm",
+              "source_line": 478,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  misses too many rehearsals",
+              "source_line": 479,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  has a health problem",
+              "source_line": 480,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  doesn't mix with other students",
+              "source_line": 481,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Band members",
+              "source_line": 483,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27  flautist __________",
+              "source_line": 484,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28  trumpeter __________",
+              "source_line": 485,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29  trombonist __________",
+              "source_line": 486,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30  percussionist __________",
+              "source_line": 487,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 473,
+            "line_end": 491,
+            "pdf_pages": [
+              56,
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q27",
+              "question_number": 27,
+              "prompt": "27  flautist __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 484,
+                  "start": 0,
+                  "end": 23,
+                  "text": "27  flautist __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What problem does Joe mention in connection with each of the following band members?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q28",
+              "question_number": 28,
+              "prompt": "28  trumpeter __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 485,
+                  "start": 0,
+                  "end": 24,
+                  "text": "28  trumpeter __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What problem does Joe mention in connection with each of the following band members?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q29",
+              "question_number": 29,
+              "prompt": "29  trombonist __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 486,
+                  "start": 0,
+                  "end": 25,
+                  "text": "29  trombonist __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What problem does Joe mention in connection with each of the following band members?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q30",
+              "question_number": 30,
+              "prompt": "30  percussionist __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 487,
+                  "start": 0,
+                  "end": 28,
+                  "text": "30  percussionist __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What problem does Joe mention in connection with each of the following band members?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 492,
+        "line_end": 530,
+        "pdf_pages": [
+          58
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-a1d43eba7dd17df24253987606bb4e3651eec00fe606e0931808c1d33b428cbf"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-03-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 496,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 497,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Concerts in university arts festival",
+              "source_line": 499,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Concert 1",
+              "source_line": 501,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- Australian composer: Liza Lim",
+              "source_line": 502,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "31 studied piano and ____________________ before turning to composition",
+              "source_line": 503,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- performers and festivals around the world have given her a lot of commissions",
+              "source_line": 504,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "32 compositions show a great deal of ____________________ and are drawn from various cultural sources",
+              "source_line": 505,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "33 her music is very expressive and also ____________________",
+              "source_line": 506,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "34 festival will include her ____________________ called The Oresteia",
+              "source_line": 507,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "35 Lim described the sounds in The Oresteia as ____________________",
+              "source_line": 508,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- British composers: Ralph Vaughan Williams, Frederick Delius",
+              "source_line": 509,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Concert 2",
+              "source_line": 511,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- British composers: Benjamin Britten, Judith Weir",
+              "source_line": 512,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- Australian composer: Ross Edwards",
+              "source_line": 513,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- festival will include The Tower of Remoteness, inspired by nature",
+              "source_line": 514,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "36 The Tower of Remoteness is performed by piano and ____________________",
+              "source_line": 515,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- compositions include music for children",
+              "source_line": 516,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "37 celebrates Australia's cultural ____________________",
+              "source_line": 517,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Concert 3",
+              "source_line": 519,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- Australian composer: Carl Vine",
+              "source_line": 520,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- played cornet then piano",
+              "source_line": 521,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "38 studied ____________________ before studying music",
+              "source_line": 522,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- worked in Sydney as a pianist and composer",
+              "source_line": 523,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "39 became well known as composer of music for ____________________",
+              "source_line": 524,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "40 festival will include his music for the 1996 ____________________",
+              "source_line": 525,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "- British composers: Edward Elgar, Thomas Adès",
+              "source_line": 526,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 493,
+            "line_end": 530,
+            "pdf_pages": [
+              58
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-03-q31",
+              "question_number": 31,
+              "prompt": "31 studied piano and ____________________ before turning to composition",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 503,
+                  "start": 0,
+                  "end": 71,
+                  "text": "31 studied piano and ____________________ before turning to composition",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q32",
+              "question_number": 32,
+              "prompt": "32 compositions show a great deal of ____________________ and are drawn from various cultural sources",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 505,
+                  "start": 0,
+                  "end": 101,
+                  "text": "32 compositions show a great deal of ____________________ and are drawn from various cultural sources",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q33",
+              "question_number": 33,
+              "prompt": "33 her music is very expressive and also ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 506,
+                  "start": 0,
+                  "end": 61,
+                  "text": "33 her music is very expressive and also ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q34",
+              "question_number": 34,
+              "prompt": "34 festival will include her ____________________ called The Oresteia",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 507,
+                  "start": 0,
+                  "end": 69,
+                  "text": "34 festival will include her ____________________ called The Oresteia",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q35",
+              "question_number": 35,
+              "prompt": "35 Lim described the sounds in The Oresteia as ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 508,
+                  "start": 0,
+                  "end": 67,
+                  "text": "35 Lim described the sounds in The Oresteia as ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q36",
+              "question_number": 36,
+              "prompt": "36 The Tower of Remoteness is performed by piano and ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 515,
+                  "start": 0,
+                  "end": 73,
+                  "text": "36 The Tower of Remoteness is performed by piano and ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q37",
+              "question_number": 37,
+              "prompt": "37 celebrates Australia's cultural ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 517,
+                  "start": 0,
+                  "end": 55,
+                  "text": "37 celebrates Australia's cultural ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q38",
+              "question_number": 38,
+              "prompt": "38 studied ____________________ before studying music",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 522,
+                  "start": 0,
+                  "end": 53,
+                  "text": "38 studied ____________________ before studying music",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q39",
+              "question_number": 39,
+              "prompt": "39 became well known as composer of music for ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 524,
+                  "start": 0,
+                  "end": 66,
+                  "text": "39 became well known as composer of music for ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-14-test-03-q40",
+              "question_number": 40,
+              "prompt": "40 festival will include his music for the 1996 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 525,
+                  "start": 0,
+                  "end": 68,
+                  "text": "40 festival will include his music for the 1996 ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-2e9dc02c73258a554376ba2258f35985294b0549b86d92af077ff5263a383ff7",
+      "relative_path": "assets/public/2e9dc02c73258a554376ba2258f35985294b0549b86d92af077ff5263a383ff7.png",
+      "sha256": "2e9dc02c73258a554376ba2258f35985294b0549b86d92af077ff5263a383ff7",
+      "byte_size": 379876,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-42da346f944f4cb671f8c83b6f58d54e70042cfed40eba6074c145b04c048c21",
+      "relative_path": "assets/public/42da346f944f4cb671f8c83b6f58d54e70042cfed40eba6074c145b04c048c21.png",
+      "sha256": "42da346f944f4cb671f8c83b6f58d54e70042cfed40eba6074c145b04c048c21",
+      "byte_size": 320974,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-72d25be928ae302f9c8662f7f9e8542e80644957a6b1e7433905758acd9902a0",
+      "relative_path": "assets/public/72d25be928ae302f9c8662f7f9e8542e80644957a6b1e7433905758acd9902a0.png",
+      "sha256": "72d25be928ae302f9c8662f7f9e8542e80644957a6b1e7433905758acd9902a0",
+      "byte_size": 136042,
+      "width": 850,
+      "height": 1060
+    },
+    {
+      "asset_id": "asset-8096835b8697593c5903550ac7a7b03c9c5e3e8d0a781b0a6a30e8282fc036b8",
+      "relative_path": "assets/public/8096835b8697593c5903550ac7a7b03c9c5e3e8d0a781b0a6a30e8282fc036b8.png",
+      "sha256": "8096835b8697593c5903550ac7a7b03c9c5e3e8d0a781b0a6a30e8282fc036b8",
+      "byte_size": 256638,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-875134591bc0e78d96ce0c4a3cdabf8c79845be6fa80c6bd448e579ab31864b1",
+      "relative_path": "assets/public/875134591bc0e78d96ce0c4a3cdabf8c79845be6fa80c6bd448e579ab31864b1.png",
+      "sha256": "875134591bc0e78d96ce0c4a3cdabf8c79845be6fa80c6bd448e579ab31864b1",
+      "byte_size": 302306,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-a1d43eba7dd17df24253987606bb4e3651eec00fe606e0931808c1d33b428cbf",
+      "relative_path": "assets/public/a1d43eba7dd17df24253987606bb4e3651eec00fe606e0931808c1d33b428cbf.png",
+      "sha256": "a1d43eba7dd17df24253987606bb4e3651eec00fe606e0931808c1d33b428cbf",
+      "byte_size": 551898,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-e00c772f0646a99a080450f4396a40260f2c50a862bc46e681da6a48849f8c68",
+      "relative_path": "assets/public/e00c772f0646a99a080450f4396a40260f2c50a862bc46e681da6a48849f8c68.png",
+      "sha256": "e00c772f0646a99a080450f4396a40260f2c50a862bc46e681da6a48849f8c68",
+      "byte_size": 345246,
+      "width": 1191,
+      "height": 1684
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 30,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "complete_question_content": false,
+    "complete_verified_keys": true,
+    "ready_for_stage2": false
+  }
+}

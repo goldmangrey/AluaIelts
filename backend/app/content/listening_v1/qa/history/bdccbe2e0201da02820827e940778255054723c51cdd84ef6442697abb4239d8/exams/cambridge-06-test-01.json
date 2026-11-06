@@ -1,0 +1,3261 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-06-test-01",
+  "book": 6,
+  "printed_test_number": 1,
+  "local_ordinal": 1,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+        "line_start": 24,
+        "line_end": 61,
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+        "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+        "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4"
+      ],
+      "audio_mapping_key": {
+        "book": 6,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-06-test-01-p1-g01-04",
+          "question_range": [
+            1,
+            4
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite NO MORE THAN THREE WORDS for each answer.",
+          "constraints": {
+            "max_words": 3,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite NO MORE THAN THREE WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 30,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN THREE WORDS for each answer.",
+              "source_line": 31,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "NOTES ON SPORTS CLUB",
+              "source_line": 33,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example: Name of club: Kingswell",
+              "source_line": 34,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Facilities available:",
+              "source_line": 35,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Golf",
+              "source_line": 36,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  1 __________",
+              "source_line": 37,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 2,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  2 __________",
+              "source_line": 38,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 2,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Classes available:",
+              "source_line": 39,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Kick-boxing",
+              "source_line": 40,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  3 __________",
+              "source_line": 41,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 2,
+                  "end": 14
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Additional facility:",
+              "source_line": 42,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  4 __________ (restaurant opening soon)",
+              "source_line": 43,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 2,
+                  "end": 14
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 29,
+            "line_end": 44,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q01",
+              "question_number": 1,
+              "prompt": "1 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 37,
+                  "start": 2,
+                  "end": 14,
+                  "text": "  1 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN THREE WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q02",
+              "question_number": 2,
+              "prompt": "2 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 38,
+                  "start": 2,
+                  "end": 14,
+                  "text": "  2 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN THREE WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q03",
+              "question_number": 3,
+              "prompt": "3 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 41,
+                  "start": 2,
+                  "end": 14,
+                  "text": "  3 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN THREE WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q04",
+              "question_number": 4,
+              "prompt": "4 __________ (restaurant opening soon)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 43,
+                  "start": 2,
+                  "end": 14,
+                  "text": "  4 __________ (restaurant opening soon)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN THREE WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-06-test-01-p1-g05-08",
+          "question_range": [
+            5,
+            8
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO NUMBERS for each answer.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": 2,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO NUMBERS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+            "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+            "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 46,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO NUMBERS for each answer.",
+              "source_line": 47,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MEMBERSHIP SCHEMES",
+              "source_line": 49,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Type   | Use of facilities | Cost of classes | Times                          | Joining fee | Annual subscription",
+              "source_line": 50,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "GOLD   | All               | Free            | Any time                       | £250        | 5 £__________",
+              "source_line": 51,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 94,
+                  "end": 107
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "SILVER | All               | 6 £__________   | from 7 ________ to ________    | £225        | £300",
+              "source_line": 52,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 29,
+                  "end": 42
+                },
+                {
+                  "question_number": 7,
+                  "start": 52,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "BRONZE | Restricted        | £3              | from 10.30 to 3.30 weekdays only | £50       | 8 £__________",
+              "source_line": 53,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 94,
+                  "end": 107
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 50,
+                "cells": [
+                  {
+                    "text": "Type",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Use of facilities",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Cost of classes",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Times",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Joining fee",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Annual subscription",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 51,
+                "cells": [
+                  {
+                    "text": "GOLD",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "All",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Free",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Any time",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "£250",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "5 £__________",
+                    "question_numbers": [
+                      5
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 52,
+                "cells": [
+                  {
+                    "text": "SILVER",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "All",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "6 £__________",
+                    "question_numbers": [
+                      6
+                    ]
+                  },
+                  {
+                    "text": "from 7 ________ to ________",
+                    "question_numbers": [
+                      7
+                    ]
+                  },
+                  {
+                    "text": "£225",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "£300",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 53,
+                "cells": [
+                  {
+                    "text": "BRONZE",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Restricted",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "£3",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "from 10.30 to 3.30 weekdays only",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "£50",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "8 £__________",
+                    "question_numbers": [
+                      8
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 45,
+            "line_end": 54,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q05",
+              "question_number": 5,
+              "prompt": "GOLD   | All               | Free            | Any time                       | £250        | 5 £__________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 51,
+                  "start": 94,
+                  "end": 107,
+                  "text": "GOLD   | All               | Free            | Any time                       | £250        | 5 £__________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": 2,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO NUMBERS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+                  "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+                  "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q06",
+              "question_number": 6,
+              "prompt": "SILVER | All               | 6 £__________   | from 7 ________ to ________    | £225        | £300",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 52,
+                  "start": 29,
+                  "end": 42,
+                  "text": "SILVER | All               | 6 £__________   | from 7 ________ to ________    | £225        | £300",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": 2,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO NUMBERS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+                  "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+                  "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q07",
+              "question_number": 7,
+              "prompt": "SILVER | All               | 6 £__________   | from 7 ________ to ________    | £225        | £300",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 52,
+                  "start": 52,
+                  "end": 62,
+                  "text": "SILVER | All               | 6 £__________   | from 7 ________ to ________    | £225        | £300",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": 2,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO NUMBERS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+                  "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+                  "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q08",
+              "question_number": 8,
+              "prompt": "BRONZE | Restricted        | £3              | from 10.30 to 3.30 weekdays only | £50       | 8 £__________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 53,
+                  "start": 94,
+                  "end": 107,
+                  "text": "BRONZE | Restricted        | £3              | from 10.30 to 3.30 weekdays only | £50       | 8 £__________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": 2,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO NUMBERS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+                  "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+                  "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-06-test-01-p1-g09-10",
+          "question_range": [
+            9,
+            10
+          ],
+          "question_type": "sentence_completion",
+          "instructions": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the sentences below.",
+              "source_line": 56,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 57,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "9. To join the centre, you need to book an instructor’s __________.",
+              "source_line": 58,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "10. To book a trial session, speak to David __________ (0458 95311).",
+              "source_line": 59,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q09"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q10"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 55,
+            "line_end": 61,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q09",
+              "question_number": 9,
+              "prompt": "9. To join the centre, you need to book an instructor’s __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 58,
+                  "start": 0,
+                  "end": 67,
+                  "text": "9. To join the centre, you need to book an instructor’s __________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q10",
+              "question_number": 10,
+              "prompt": "10. To book a trial session, speak to David __________ (0458 95311).",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 59,
+                  "start": 0,
+                  "end": 68,
+                  "text": "10. To book a trial session, speak to David __________ (0458 95311).",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+        "line_start": 62,
+        "line_end": 95,
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+        "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+        "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f"
+      ],
+      "audio_mapping_key": {
+        "book": 6,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-06-test-01-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "matching",
+          "instructions": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "doubled in number",
+                "source_line": 72
+              },
+              {
+                "label": "B",
+                "text": "given separate entrance",
+                "source_line": 73
+              },
+              {
+                "label": "C",
+                "text": "reduced in number",
+                "source_line": 74
+              },
+              {
+                "label": "D",
+                "text": "increased in size",
+                "source_line": 75
+              },
+              {
+                "label": "E",
+                "text": "replaced",
+                "source_line": 76
+              },
+              {
+                "label": "F",
+                "text": "strengthened",
+                "source_line": 77
+              },
+              {
+                "label": "G",
+                "text": "temporarily closed",
+                "source_line": 78
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What change has been made to each part of the theatre?",
+              "source_line": 68,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+              "source_line": 69,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "RIVENDEN CITY THEATRE",
+              "source_line": 71,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A doubled in number",
+              "source_line": 72,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B given separate entrance",
+              "source_line": 73,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C reduced in number",
+              "source_line": 74,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D increased in size",
+              "source_line": 75,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E replaced",
+              "source_line": 76,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F strengthened",
+              "source_line": 77,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G temporarily closed",
+              "source_line": 78,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Part of the theatre",
+              "source_line": 80,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. box office __________",
+              "source_line": 81,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12. shop __________",
+              "source_line": 82,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. ordinary seats __________",
+              "source_line": 83,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14. seats for wheelchair users __________",
+              "source_line": 84,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. lifts __________",
+              "source_line": 85,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16. dressing rooms __________",
+              "source_line": 86,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q16"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 67,
+            "line_end": 87,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q11",
+              "question_number": 11,
+              "prompt": "11. box office __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 81,
+                  "start": 0,
+                  "end": 25,
+                  "text": "11. box office __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q12",
+              "question_number": 12,
+              "prompt": "12. shop __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 82,
+                  "start": 0,
+                  "end": 19,
+                  "text": "12. shop __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q13",
+              "question_number": 13,
+              "prompt": "13. ordinary seats __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 83,
+                  "start": 0,
+                  "end": 29,
+                  "text": "13. ordinary seats __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q14",
+              "question_number": 14,
+              "prompt": "14. seats for wheelchair users __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 84,
+                  "start": 0,
+                  "end": 41,
+                  "text": "14. seats for wheelchair users __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q15",
+              "question_number": 15,
+              "prompt": "15. lifts __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 85,
+                  "start": 0,
+                  "end": 20,
+                  "text": "15. lifts __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q16",
+              "question_number": 16,
+              "prompt": "16. dressing rooms __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 86,
+                  "start": 0,
+                  "end": 29,
+                  "text": "16. dressing rooms __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What change has been made to each part of the theatre?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-06-test-01-p2-g17-20",
+          "question_range": [
+            17,
+            20
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+            "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+            "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 89,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 90,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Play              | Dates                       | Starting time  | Tickets available          | Price",
+              "source_line": 92,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+              "source_line": 93,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 40,
+                  "end": 51
+                },
+                {
+                  "question_number": 18,
+                  "start": 54,
+                  "end": 65
+                },
+                {
+                  "question_number": 19,
+                  "start": 75,
+                  "end": 86
+                },
+                {
+                  "question_number": 20,
+                  "start": 102,
+                  "end": 114
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 92,
+                "cells": [
+                  {
+                    "text": "Play",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Dates",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Starting time",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Tickets available",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Price",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 93,
+                "cells": [
+                  {
+                    "text": "Royal Hunt of the Sun",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "October 13th to 17 ________",
+                    "question_numbers": [
+                      17
+                    ]
+                  },
+                  {
+                    "text": "18 ________ pm",
+                    "question_numbers": [
+                      18
+                    ]
+                  },
+                  {
+                    "text": "for 19 ________ and ________",
+                    "question_numbers": [
+                      19
+                    ]
+                  },
+                  {
+                    "text": "20 £________",
+                    "question_numbers": [
+                      20
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 88,
+            "line_end": 95,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q17",
+              "question_number": 17,
+              "prompt": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 93,
+                  "start": 40,
+                  "end": 51,
+                  "text": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+                  "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+                  "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q18",
+              "question_number": 18,
+              "prompt": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 93,
+                  "start": 54,
+                  "end": 65,
+                  "text": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+                  "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+                  "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q19",
+              "question_number": 19,
+              "prompt": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 93,
+                  "start": 75,
+                  "end": 86,
+                  "text": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+                  "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+                  "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q20",
+              "question_number": 20,
+              "prompt": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 93,
+                  "start": 102,
+                  "end": 114,
+                  "text": "Royal Hunt of the Sun | October 13th to 17 ________ | 18 ________ pm | for 19 ________ and ________ | 20 £________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+                  "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+                  "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+        "line_start": 96,
+        "line_end": 130,
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+        "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+        "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86"
+      ],
+      "audio_mapping_key": {
+        "book": 6,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-06-test-01-p3-g21-21",
+          "question_range": [
+            21,
+            21
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 102,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. What is Brian going to do before the course starts?",
+              "source_line": 103,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A attend a class",
+              "source_line": 104,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B write a report",
+              "source_line": 105,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C read a book",
+              "source_line": 106,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-06-test-01-q21"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 101,
+            "line_end": 107,
+            "pdf_pages": [
+              15,
+              16
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q21",
+              "question_number": 21,
+              "prompt": "21. What is Brian going to do before the course starts?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "attend a class",
+                  "source_line": 104
+                },
+                {
+                  "label": "B",
+                  "text": "write a report",
+                  "source_line": 105
+                },
+                {
+                  "label": "C",
+                  "text": "read a book",
+                  "source_line": 106
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 103,
+                  "start": 0,
+                  "end": 55,
+                  "text": "21. What is Brian going to do before the course starts?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-06-test-01-p3-g22-25",
+          "question_range": [
+            22,
+            25
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+            "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+            "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 109,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 110,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "College facility | Information",
+              "source_line": 112,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Refectory       | inform them 22 __________ about special dietary requirements",
+              "source_line": 113,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 30,
+                  "end": 43
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "23 __________   | long waiting list, apply now",
+              "source_line": 114,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 0,
+                  "end": 13
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Careers advice  | drop-in centre for information",
+              "source_line": 115,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Fitness centre  | reduced 24 __________ for students",
+              "source_line": 116,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Library         | includes books, journals, equipment room containing audio-visual materials",
+              "source_line": 117,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Computers       | ask your 25 __________ to arrange a password with the technical support team",
+              "source_line": 118,
+              "blanks": [
+                {
+                  "question_number": 25,
+                  "start": 27,
+                  "end": 40
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 112,
+                "cells": [
+                  {
+                    "text": "College facility",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Information",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 113,
+                "cells": [
+                  {
+                    "text": "Refectory",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "inform them 22 __________ about special dietary requirements",
+                    "question_numbers": [
+                      22
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 114,
+                "cells": [
+                  {
+                    "text": "23 __________",
+                    "question_numbers": [
+                      23
+                    ]
+                  },
+                  {
+                    "text": "long waiting list, apply now",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 115,
+                "cells": [
+                  {
+                    "text": "Careers advice",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "drop-in centre for information",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 116,
+                "cells": [
+                  {
+                    "text": "Fitness centre",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "reduced 24 __________ for students",
+                    "question_numbers": [
+                      24
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 117,
+                "cells": [
+                  {
+                    "text": "Library",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "includes books, journals, equipment room containing audio-visual materials",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 118,
+                "cells": [
+                  {
+                    "text": "Computers",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "ask your 25 __________ to arrange a password with the technical support team",
+                    "question_numbers": [
+                      25
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 108,
+            "line_end": 119,
+            "pdf_pages": [
+              15,
+              16
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q22",
+              "question_number": 22,
+              "prompt": "Refectory       | inform them 22 __________ about special dietary requirements",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 113,
+                  "start": 30,
+                  "end": 43,
+                  "text": "Refectory       | inform them 22 __________ about special dietary requirements",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+                  "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+                  "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86"
+                ],
+                "printed_question_number": 22,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q23",
+              "question_number": 23,
+              "prompt": "23 __________   | long waiting list, apply now",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 114,
+                  "start": 0,
+                  "end": 13,
+                  "text": "23 __________   | long waiting list, apply now",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+                  "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+                  "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86"
+                ],
+                "printed_question_number": 23,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q24",
+              "question_number": 24,
+              "prompt": "Fitness centre  | reduced 24 __________ for students",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 116,
+                  "start": 26,
+                  "end": 39,
+                  "text": "Fitness centre  | reduced 24 __________ for students",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+                  "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+                  "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86"
+                ],
+                "printed_question_number": 24,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q25",
+              "question_number": 25,
+              "prompt": "Computers       | ask your 25 __________ to arrange a password with the technical support team",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 118,
+                  "start": 27,
+                  "end": 40,
+                  "text": "Computers       | ask your 25 __________ to arrange a password with the technical support team",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+                  "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+                  "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86"
+                ],
+                "printed_question_number": 25,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-06-test-01-p3-g26-30",
+          "question_range": [
+            26,
+            30
+          ],
+          "question_type": "summary_completion",
+          "instructions": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the summary below.",
+              "source_line": 121,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 122,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "BUSINESS CENTRE",
+              "source_line": 124,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The Business Resource Centre contains materials such as books and manuals to be used for training.",
+              "source_line": 125,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "It is possible to hire 26 __________ and 27 __________.",
+              "source_line": 126,
+              "blanks": [
+                {
+                  "question_number": 26,
+                  "start": 23,
+                  "end": 36
+                },
+                {
+                  "question_number": 27,
+                  "start": 41,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "There are materials for working on study skills (e.g. 28 __________) and other subjects include finance and 29 __________.",
+              "source_line": 127,
+              "blanks": [
+                {
+                  "question_number": 28,
+                  "start": 54,
+                  "end": 67
+                },
+                {
+                  "question_number": 29,
+                  "start": 108,
+                  "end": 121
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "30 __________ membership costs £50 per year.",
+              "source_line": 128,
+              "blanks": [
+                {
+                  "question_number": 30,
+                  "start": 0,
+                  "end": 13
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 120,
+            "line_end": 130,
+            "pdf_pages": [
+              15,
+              16
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q26",
+              "question_number": 26,
+              "prompt": "It is possible to hire 26 __________ and 27 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 126,
+                  "start": 23,
+                  "end": 36,
+                  "text": "It is possible to hire 26 __________ and 27 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q27",
+              "question_number": 27,
+              "prompt": "It is possible to hire 26 __________ and 27 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 126,
+                  "start": 41,
+                  "end": 54,
+                  "text": "It is possible to hire 26 __________ and 27 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q28",
+              "question_number": 28,
+              "prompt": "There are materials for working on study skills (e.g. 28 __________) and other subjects include finance and 29 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 127,
+                  "start": 54,
+                  "end": 67,
+                  "text": "There are materials for working on study skills (e.g. 28 __________) and other subjects include finance and 29 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q29",
+              "question_number": 29,
+              "prompt": "There are materials for working on study skills (e.g. 28 __________) and other subjects include finance and 29 __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 127,
+                  "start": 108,
+                  "end": 121,
+                  "text": "There are materials for working on study skills (e.g. 28 __________) and other subjects include finance and 29 __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q30",
+              "question_number": 30,
+              "prompt": "30 __________ membership costs £50 per year.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 128,
+                  "start": 0,
+                  "end": 13,
+                  "text": "30 __________ membership costs £50 per year.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the summary below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+        "line_start": 131,
+        "line_end": 162,
+        "pdf_pages": [
+          17,
+          18
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+        "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+        "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+      ],
+      "audio_mapping_key": {
+        "book": 6,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-06-test-01-p4-g31-37",
+          "question_range": [
+            31,
+            37
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+            "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+            "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 137,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 138,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "SOCIAL HISTORY OF THE EAST END OF LONDON",
+              "source_line": 140,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1st–4th centuries   | Produce from the area was used to 31 __________ the people of London.",
+              "source_line": 141,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 56,
+                  "end": 69
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "5th–10th centuries  | New technology allowed the production of goods made of 32 __________ and __________.",
+              "source_line": 142,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 77,
+                  "end": 90
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "11th century       | Lack of 33 __________ in the East End encouraged the growth of businesses.",
+              "source_line": 143,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 29,
+                  "end": 42
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "16th century       | Construction of facilities for the building of 34 __________ stimulated international trade.",
+              "source_line": 144,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 68,
+                  "end": 81
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "                   | Agricultural workers came from other parts of 35 __________ to look for work.",
+              "source_line": 145,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 67,
+                  "end": 80
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "17th century       | Marshes were drained to provide land that could be 36 __________ on.",
+              "source_line": 146,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 72,
+                  "end": 85
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "19th century       | Inhabitants lived in conditions of great 37 __________ with very poor sanitation.",
+              "source_line": 147,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 62,
+                  "end": 75
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 136,
+            "line_end": 148,
+            "pdf_pages": [
+              17,
+              18
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q31",
+              "question_number": 31,
+              "prompt": "1st–4th centuries   | Produce from the area was used to 31 __________ the people of London.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 141,
+                  "start": 56,
+                  "end": 69,
+                  "text": "1st–4th centuries   | Produce from the area was used to 31 __________ the people of London.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 31,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q32",
+              "question_number": 32,
+              "prompt": "5th–10th centuries  | New technology allowed the production of goods made of 32 __________ and __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 142,
+                  "start": 77,
+                  "end": 90,
+                  "text": "5th–10th centuries  | New technology allowed the production of goods made of 32 __________ and __________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 32,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q33",
+              "question_number": 33,
+              "prompt": "11th century       | Lack of 33 __________ in the East End encouraged the growth of businesses.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 143,
+                  "start": 29,
+                  "end": 42,
+                  "text": "11th century       | Lack of 33 __________ in the East End encouraged the growth of businesses.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 33,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q34",
+              "question_number": 34,
+              "prompt": "16th century       | Construction of facilities for the building of 34 __________ stimulated international trade.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 144,
+                  "start": 68,
+                  "end": 81,
+                  "text": "16th century       | Construction of facilities for the building of 34 __________ stimulated international trade.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 34,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q35",
+              "question_number": 35,
+              "prompt": "| Agricultural workers came from other parts of 35 __________ to look for work.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 145,
+                  "start": 67,
+                  "end": 80,
+                  "text": "                   | Agricultural workers came from other parts of 35 __________ to look for work.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 35,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q36",
+              "question_number": 36,
+              "prompt": "17th century       | Marshes were drained to provide land that could be 36 __________ on.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 146,
+                  "start": 72,
+                  "end": 85,
+                  "text": "17th century       | Marshes were drained to provide land that could be 36 __________ on.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 36,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-06-test-01-q37",
+              "question_number": 37,
+              "prompt": "19th century       | Inhabitants lived in conditions of great 37 __________ with very poor sanitation.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 147,
+                  "start": 62,
+                  "end": 75,
+                  "text": "19th century       | Inhabitants lived in conditions of great 37 __________ with very poor sanitation.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+                  "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+                  "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad"
+                ],
+                "printed_question_number": 37,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-06-test-01-p4-g38-40",
+          "question_range": [
+            38,
+            40
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose THREE letters, A–G.\nWhich THREE of the following problems are mentioned in connection with 20th century housing in the East End?\nAnswer slots for this group: 38 ________   39 ________   40 ________",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose THREE letters, A–G.\nWhich THREE of the following problems are mentioned in connection with 20th century housing in the East End?\nAnswer slots for this group: 38 ________   39 ________   40 ________",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-06-test-01-p4-g38-40-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "unsympathetic landlords",
+                "source_line": 152
+              },
+              {
+                "label": "B",
+                "text": "unclean water",
+                "source_line": 153
+              },
+              {
+                "label": "C",
+                "text": "heating problems",
+                "source_line": 154
+              },
+              {
+                "label": "D",
+                "text": "high rents",
+                "source_line": 155
+              },
+              {
+                "label": "E",
+                "text": "overcrowding",
+                "source_line": 156
+              },
+              {
+                "label": "F",
+                "text": "poor standards of building",
+                "source_line": 157
+              },
+              {
+                "label": "G",
+                "text": "houses catching fire",
+                "source_line": 158
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              38,
+              39,
+              40
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 3,
+            "maximum_selected": 3
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose THREE letters, A–G.",
+              "source_line": 150,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which THREE of the following problems are mentioned in connection with 20th century housing in the East End?",
+              "source_line": 151,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A unsympathetic landlords",
+              "source_line": 152,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B unclean water",
+              "source_line": 153,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C heating problems",
+              "source_line": 154,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D high rents",
+              "source_line": 155,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E overcrowding",
+              "source_line": 156,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F poor standards of building",
+              "source_line": 157,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G houses catching fire",
+              "source_line": 158,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Answer slots for this group: 38 ________   39 ________   40 ________",
+              "source_line": 160,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 29,
+                  "end": 40
+                },
+                {
+                  "question_number": 39,
+                  "start": 43,
+                  "end": 54
+                },
+                {
+                  "question_number": 40,
+                  "start": 57,
+                  "end": 68
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_06/Cambridge_IELTS_06_Listening.txt",
+            "line_start": 149,
+            "line_end": 162,
+            "pdf_pages": [
+              17,
+              18
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-06-test-01-q38",
+              "question_number": 38,
+              "prompt": "Answer slots for this group: 38 ________   39 ________   40 ________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p4-g38-40-bank",
+              "blank_references": [
+                {
+                  "line": 160,
+                  "start": 29,
+                  "end": 40,
+                  "text": "Answer slots for this group: 38 ________   39 ________   40 ________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE of the following problems are mentioned in connection with 20th century housing in the East End?\nAnswer slots for this group: 38 ________   39 ________   40 ________",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q39",
+              "question_number": 39,
+              "prompt": "Answer slots for this group: 38 ________   39 ________   40 ________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p4-g38-40-bank",
+              "blank_references": [
+                {
+                  "line": 160,
+                  "start": 43,
+                  "end": 54,
+                  "text": "Answer slots for this group: 38 ________   39 ________   40 ________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE of the following problems are mentioned in connection with 20th century housing in the East End?\nAnswer slots for this group: 38 ________   39 ________   40 ________",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-06-test-01-q40",
+              "question_number": 40,
+              "prompt": "Answer slots for this group: 38 ________   39 ________   40 ________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-06-test-01-p4-g38-40-bank",
+              "blank_references": [
+                {
+                  "line": 160,
+                  "start": 57,
+                  "end": 68,
+                  "text": "Answer slots for this group: 38 ________   39 ________   40 ________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE of the following problems are mentioned in connection with 20th century housing in the East End?\nAnswer slots for this group: 38 ________   39 ________   40 ________",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4",
+      "relative_path": "assets/public/068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4.jpg",
+      "sha256": "068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4",
+      "byte_size": 157537,
+      "width": 1053,
+      "height": 606
+    },
+    {
+      "asset_id": "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+      "relative_path": "assets/public/151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371.jpg",
+      "sha256": "151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+      "byte_size": 153668,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+      "relative_path": "assets/public/1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d.jpg",
+      "sha256": "1eb4551e4cb970d5ff3885ef4a274cbe3c622c7588c84a8da43f0e00e105107d",
+      "byte_size": 69292,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+      "relative_path": "assets/public/37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad.jpg",
+      "sha256": "37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+      "byte_size": 58810,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+      "relative_path": "assets/public/4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d.jpg",
+      "sha256": "4b954f0dc7810094931966865150fbca8294dcf200f8d00cc04a7859d3bb7a4d",
+      "byte_size": 50845,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+      "relative_path": "assets/public/7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff.jpg",
+      "sha256": "7d4a9ac26a921bff190733982eed754af7342f87429a4e89ad94b14336d726ff",
+      "byte_size": 85605,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad",
+      "relative_path": "assets/public/8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad.jpg",
+      "sha256": "8004d32eb04e271ca5bef23e38cc255e0a87814a1f9500173521fe3d2dd5f0ad",
+      "byte_size": 146896,
+      "width": 1103,
+      "height": 1016
+    },
+    {
+      "asset_id": "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f",
+      "relative_path": "assets/public/88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f.jpg",
+      "sha256": "88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f",
+      "byte_size": 58616,
+      "width": 1091,
+      "height": 524
+    },
+    {
+      "asset_id": "asset-9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+      "relative_path": "assets/public/9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0.jpg",
+      "sha256": "9789f09ec602ee1b5f367a5bfc21804cb0e7a0d51dbbd0a0cf2bdc98087da4b0",
+      "byte_size": 132429,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+      "relative_path": "assets/public/bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292.jpg",
+      "sha256": "bc14460407ac8edcc5325334996a802129272ebda6ffbcc53f12bee59acf9292",
+      "byte_size": 131452,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+      "relative_path": "assets/public/d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933.jpg",
+      "sha256": "d0ac2f4c3d16d17a4398ba1935acd15dc5315d25ed67ef6cf3a34604c7a7a933",
+      "byte_size": 74734,
+      "width": 975,
+      "height": 1290
+    },
+    {
+      "asset_id": "asset-ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86",
+      "relative_path": "assets/public/ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86.jpg",
+      "sha256": "ecb2d3aad7b6e0214cd803c94710ea155c2649e1c3cab4f507963028a3f55a86",
+      "byte_size": 120026,
+      "width": 1078,
+      "height": 573
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

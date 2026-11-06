@@ -1,0 +1,2968 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-20-test-04",
+  "book": 20,
+  "printed_test_number": 4,
+  "local_ordinal": 4,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 738,
+        "line_end": 775,
+        "pdf_pages": [
+          114
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-04-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q01"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q02"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q03"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q04"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q05"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q06"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q07"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q08"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q09"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q10"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 738,
+            "line_end": 775,
+            "pdf_pages": [
+              114
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q01",
+              "question_number": 1,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 753,
+                  "start": 3,
+                  "end": 18,
+                  "text": " • (1)____________ Hotel on George Street",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q02",
+              "question_number": 2,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 754,
+                  "start": 38,
+                  "end": 53,
+                  "text": " • cost of family room per night: 2 £ (2)____________ (approx.)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q03",
+              "question_number": 3,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 757,
+                  "start": 5,
+                  "end": 20,
+                  "text": " • a (3)____________ tour of the city centre (starts in Carlton Square)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q04",
+              "question_number": 4,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 758,
+                  "start": 13,
+                  "end": 28,
+                  "text": " • a trip by (4)____________ to the old fort",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q05",
+              "question_number": 5,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 761,
+                  "start": 22,
+                  "end": 37,
+                  "text": " • best day to visit: (5)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q06",
+              "question_number": 6,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 762,
+                  "start": 28,
+                  "end": 43,
+                  "text": " • see the exhibition about (6)____________, which opens soon",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q07",
+              "question_number": 7,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 766,
+                  "start": 12,
+                  "end": 27,
+                  "text": " - good for (7)____________ food",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q08",
+              "question_number": 8,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 767,
+                  "start": 29,
+                  "end": 44,
+                  "text": " - need to have lunch before (8)____________ p.m.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q09",
+              "question_number": 9,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 769,
+                  "start": 14,
+                  "end": 29,
+                  "text": " • save up to (9)____________ % on ticket prices at bargaintickets.com",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q10",
+              "question_number": 10,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 773,
+                  "start": 45,
+                  "end": 61,
+                  "text": " - climb Telegraph Hill to see a view of the (10)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  114
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 776,
+        "line_end": 838,
+        "pdf_pages": [
+          115,
+          116
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+        "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-04-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A-E.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A-E.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-04-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Children can get their photo taken with a football player.",
+                "source_line": 790
+              },
+              {
+                "label": "B",
+                "text": "There is a competition for children today.",
+                "source_line": 792
+              },
+              {
+                "label": "C",
+                "text": "Parents must stay with their children at all times.",
+                "source_line": 793
+              },
+              {
+                "label": "D",
+                "text": "Children will need sunhats and drinks.",
+                "source_line": 795
+              },
+              {
+                "label": "E",
+                "text": "The cafe has a special offer on meals for children.",
+                "source_line": 797
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+            "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q12"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 776,
+            "line_end": 798,
+            "pdf_pages": [
+              115,
+              116
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q11",
+              "question_number": 11,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 776,
+                  "start": 0,
+                  "end": 39,
+                  "text": "PART 2 — AUDIO PART 2 — QUESTIONS 11–20",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 11,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q12",
+              "question_number": 12,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 776,
+                  "start": 0,
+                  "end": 39,
+                  "text": "PART 2 — AUDIO PART 2 — QUESTIONS 11–20",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 12,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-04-p2-g13-14",
+          "question_range": [
+            13,
+            14
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A-E.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A-E.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-04-p2-g13-14-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "VIP tour",
+                "source_line": 805
+              },
+              {
+                "label": "B",
+                "text": "360 cinema experience",
+                "source_line": 807
+              },
+              {
+                "label": "C",
+                "text": "audio guide",
+                "source_line": 809
+              },
+              {
+                "label": "D",
+                "text": "dressing room tour",
+                "source_line": 811
+              },
+              {
+                "label": "E",
+                "text": "tours in other languages",
+                "source_line": 813
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              13,
+              14
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+            "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q14"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 799,
+            "line_end": 816,
+            "pdf_pages": [
+              115,
+              116
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q13",
+              "question_number": 13,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 799,
+                  "start": 0,
+                  "end": 20,
+                  "text": " Questions 13 and 14",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 13,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q14",
+              "question_number": 14,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 799,
+                  "start": 0,
+                  "end": 20,
+                  "text": " Questions 13 and 14",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 14,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-04-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "matching",
+          "instructions": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "The introduction of pay for the players",
+                "source_line": 829
+              },
+              {
+                "label": "B",
+                "text": "a change to the design of the goal",
+                "source_line": 830
+              },
+              {
+                "label": "C",
+                "text": "the first use of lights for matches",
+                "source_line": 831
+              },
+              {
+                "label": "D",
+                "text": "the introduction of goalkeepers",
+                "source_line": 832
+              },
+              {
+                "label": "E",
+                "text": "the first international match",
+                "source_line": 833
+              },
+              {
+                "label": "F",
+                "text": "two changes to the rules of the game",
+                "source_line": 834
+              },
+              {
+                "label": "G",
+                "text": "the introduction of a fee for spectators",
+                "source_line": 835
+              },
+              {
+                "label": "H",
+                "text": "an agreement on the length of a game",
+                "source_line": 836
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+            "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q20"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 817,
+            "line_end": 838,
+            "pdf_pages": [
+              115,
+              116
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q15",
+              "question_number": 15,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 822,
+                  "start": 0,
+                  "end": 21,
+                  "text": "15. 1870 ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q16",
+              "question_number": 16,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 823,
+                  "start": 0,
+                  "end": 21,
+                  "text": "16. 1874 ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q17",
+              "question_number": 17,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 824,
+                  "start": 0,
+                  "end": 21,
+                  "text": "17. 1875 ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q18",
+              "question_number": 18,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 825,
+                  "start": 0,
+                  "end": 21,
+                  "text": "18. 1877 ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q19",
+              "question_number": 19,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 826,
+                  "start": 0,
+                  "end": 21,
+                  "text": "19. 1878 ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q20",
+              "question_number": 20,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 827,
+                  "start": 0,
+                  "end": 21,
+                  "text": "20. 1880 ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Which event in the history of football in the UK took place in each of the following years?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  115,
+                  116
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+                  "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 839,
+        "line_end": 944,
+        "pdf_pages": [
+          117,
+          118,
+          119
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+        "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+        "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-04-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A-E.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A-E.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-04-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "improved fine motor skills",
+                "source_line": 853
+              },
+              {
+                "label": "B",
+                "text": "improved memory",
+                "source_line": 855
+              },
+              {
+                "label": "C",
+                "text": "improved concentration",
+                "source_line": 857
+              },
+              {
+                "label": "D",
+                "text": "improved imagination",
+                "source_line": 859
+              },
+              {
+                "label": "E",
+                "text": "improved spatial awareness",
+                "source_line": 861
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+            "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+            "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q22"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 839,
+            "line_end": 862,
+            "pdf_pages": [
+              117,
+              118,
+              119
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q21",
+              "question_number": 21,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 839,
+                  "start": 0,
+                  "end": 39,
+                  "text": "PART 3 — AUDIO PART 3 — QUESTIONS 21–30",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 21,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q22",
+              "question_number": 22,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 839,
+                  "start": 0,
+                  "end": 39,
+                  "text": "PART 3 — AUDIO PART 3 — QUESTIONS 21–30",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 22,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-04-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A-E.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A-E.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-04-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "not spacing letters correctly",
+                "source_line": 871
+              },
+              {
+                "label": "B",
+                "text": "not writing in a straight line",
+                "source_line": 873
+              },
+              {
+                "label": "C",
+                "text": "applying too much pressure when writing",
+                "source_line": 875
+              },
+              {
+                "label": "D",
+                "text": "confusing letter shapes",
+                "source_line": 877
+              },
+              {
+                "label": "E",
+                "text": "writing very slowly",
+                "source_line": 879
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+            "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+            "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q24"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 863,
+            "line_end": 880,
+            "pdf_pages": [
+              117,
+              118,
+              119
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q23",
+              "question_number": 23,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 863,
+                  "start": 0,
+                  "end": 20,
+                  "text": " Questions 23 and 24",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 23,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q24",
+              "question_number": 24,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-04-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 863,
+                  "start": 0,
+                  "end": 20,
+                  "text": " Questions 23 and 24",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A-E.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 24,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-04-p3-g25-30",
+          "question_range": [
+            25,
+            30
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+            "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+            "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q30"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 881,
+            "line_end": 944,
+            "pdf_pages": [
+              117,
+              118,
+              119
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q25",
+              "question_number": 25,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Children often lack motivation to learn that way.",
+                  "source_line": 893
+                },
+                {
+                  "label": "B",
+                  "text": "Children become fluent relatively quickly.",
+                  "source_line": 894
+                },
+                {
+                  "label": "C",
+                  "text": "Children react more positively if they make a mistake.",
+                  "source_line": 896
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 887,
+                  "start": 0,
+                  "end": 77,
+                  "text": " 25. What does the woman say about using laptops to teach writing to children",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 25,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q26",
+              "question_number": 26,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "cursive writing disadvantages a certain group of children.",
+                  "source_line": 902
+                },
+                {
+                  "label": "B",
+                  "text": "print writing is associated with lower academic performance.",
+                  "source_line": 904
+                },
+                {
+                  "label": "C",
+                  "text": "most teachers in the UK prefer a traditional approach to handwriting.",
+                  "source_line": 906
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 898,
+                  "start": 0,
+                  "end": 80,
+                  "text": " 26. When discussing whether to teach cursive or print writing, the woman thinks",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 26,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q27",
+              "question_number": 27,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "There is evidence to suggest grades are affected by poor handwriting.",
+                  "source_line": 912
+                },
+                {
+                  "label": "B",
+                  "text": "Neat handwriting is less important now than it used to be.",
+                  "source_line": 914
+                },
+                {
+                  "label": "C",
+                  "text": "Candidates write more slowly and produce shorter answers.",
+                  "source_line": 916
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 908,
+                  "start": 0,
+                  "end": 78,
+                  "text": " 27. According to the students, what impact does poor handwriting have on exam",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 27,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q28",
+              "question_number": 28,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Touch typing will be taught before writing by hand.",
+                  "source_line": 920
+                },
+                {
+                  "label": "B",
+                  "text": "Children will continue to learn to write by hand.",
+                  "source_line": 921
+                },
+                {
+                  "label": "C",
+                  "text": "People will dislike handwriting on digital devices.",
+                  "source_line": 923
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 918,
+                  "start": 0,
+                  "end": 71,
+                  "text": " 28. What prediction does the man make about the future of handwriting?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 28,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q29",
+              "question_number": 29,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "take detailed notes.",
+                  "source_line": 929
+                },
+                {
+                  "label": "B",
+                  "text": "spell and punctuate.",
+                  "source_line": 931
+                },
+                {
+                  "label": "C",
+                  "text": "read old documents.",
+                  "source_line": 933
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 925,
+                  "start": 0,
+                  "end": 81,
+                  "text": " 29. The woman is concerned that relying on digital devices has made it difficult",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 29,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q30",
+              "question_number": 30,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "concerned they are unable to write quickly",
+                  "source_line": 939
+                },
+                {
+                  "label": "B",
+                  "text": "embarrassed by comments made about it",
+                  "source_line": 940
+                },
+                {
+                  "label": "C",
+                  "text": "regretful that they have lost the habit",
+                  "source_line": 942
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 937,
+                  "start": 0,
+                  "end": 57,
+                  "text": "30. How do the students feel about their own handwriting?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  117,
+                  118,
+                  119
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+                  "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+                  "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92"
+                ],
+                "printed_question_number": 30,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 945,
+        "line_end": 998,
+        "pdf_pages": [
+          120
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-04-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q31"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q32"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q33"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q34"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q35"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q36"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q37"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q38"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q39"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-04-q40"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 945,
+            "line_end": 998,
+            "pdf_pages": [
+              120
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-04-q31",
+              "question_number": 31,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 961,
+                  "start": 16,
+                  "end": 33,
+                  "text": " • They destroy (31) ____________ and other rodents.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 31,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q32",
+              "question_number": 32,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 963,
+                  "start": 53,
+                  "end": 69,
+                  "text": " • They help to prevent farmers from being bitten by (32)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 32,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q33",
+              "question_number": 33,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 967,
+                  "start": 47,
+                  "end": 63,
+                  "text": " • They now support the economy by encouraging (33)____________in the",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 33,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q34",
+              "question_number": 34,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 974,
+                  "start": 6,
+                  "end": 22,
+                  "text": " - By (34)____________ when they are hunting or sleeping",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 34,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q35",
+              "question_number": 35,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 978,
+                  "start": 19,
+                  "end": 35,
+                  "text": " there is a lot of (35)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 35,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q36",
+              "question_number": 36,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 980,
+                  "start": 45,
+                  "end": 61,
+                  "text": " • Local farmers may illegally shoot them or (36)____________them.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 36,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q37",
+              "question_number": 37,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 986,
+                  "start": 15,
+                  "end": 32,
+                  "text": " • providing a (37) ____________ for chickens (expensive)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 37,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q38",
+              "question_number": 38,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 990,
+                  "start": 13,
+                  "end": 29,
+                  "text": " - keeping a (38)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 38,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q39",
+              "question_number": 39,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 992,
+                  "start": 12,
+                  "end": 28,
+                  "text": " - making a (39)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 39,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-04-q40",
+              "question_number": 40,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 996,
+                  "start": 5,
+                  "end": 21,
+                  "text": " • A (40)____________ of methods is usually most effective.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  120
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169"
+                ],
+                "printed_question_number": 40,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+      "relative_path": "assets/public/250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743.jpg",
+      "sha256": "250e6e1f066a605c2bd7cdc1b051aba49591cc551f2f45129c7bc3664e522743",
+      "byte_size": 219174,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+      "relative_path": "assets/public/2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75.jpg",
+      "sha256": "2c8cc99a0cbf7d9e58f01f1814e65135e10e3cb22da76d2c79175063efbe1a75",
+      "byte_size": 150936,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92",
+      "relative_path": "assets/public/3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92.jpg",
+      "sha256": "3f0582172052a33126d79ac06b08a1ca21f6e3a3e7c10e72eb629f2c645bab92",
+      "byte_size": 90243,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c",
+      "relative_path": "assets/public/3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c.jpg",
+      "sha256": "3f1e401c0d31221023a9e7f2789d49b285c21b3a0b2bfee787ad2c3e717cd67c",
+      "byte_size": 159808,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+      "relative_path": "assets/public/7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847.jpg",
+      "sha256": "7b4272a0e284dd3324e90d52948894f1128f069d557ac53f50426bc149137847",
+      "byte_size": 170886,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169",
+      "relative_path": "assets/public/9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169.jpg",
+      "sha256": "9d8fea40bcbdaee87768246c03a03b2b43d675872c8d76bedc5e239966b12169",
+      "byte_size": 208998,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c",
+      "relative_path": "assets/public/bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c.jpg",
+      "sha256": "bfa1be68bd595ae83b8856e8f6ea14c3d4fc059cba27f3a84e2a73074489815c",
+      "byte_size": 175761,
+      "width": 1072,
+      "height": 1516
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 40,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": true
+  }
+}

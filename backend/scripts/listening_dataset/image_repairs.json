@@ -1,0 +1,1088 @@
+{
+  "version": 1,
+  "policy": "Visually reviewed complete task regions; retain original full-page alternatives. No text reconstruction.",
+  "repairs": [
+    {
+      "finding_id": "C001",
+      "exam_id": "cambridge-05-test-04",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-4002fbffc81cbc805614bcb288b918188e11f6fa69bc16fe7b4bf0677345117c",
+      "source_asset_id": "asset-a7e1ad584d6ef7f990b9a8860cd974ff07ffb28a4909a0b68865844d3718e2f1",
+      "pdf_page": 79,
+      "book": 5,
+      "test": 4,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.04,
+        1,
+        0.96
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-ccded4cd9da9b7518a7dfdf6b08456195262ef3903db99fa483c5261b3e006e3"
+    },
+    {
+      "finding_id": "C002",
+      "exam_id": "cambridge-11-test-03",
+      "part": 3,
+      "question_range": [
+        21,
+        26
+      ],
+      "old_asset_id": "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+      "source_asset_id": "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+      "pdf_page": 59,
+      "book": 11,
+      "test": 3,
+      "source_pdf_sha256": "c0762211a85476475bf6f9b8b678b6863a62302c885d89208e23b9f446de9479",
+      "clip_normalized": [
+        0,
+        0.075,
+        1,
+        0.48
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-4ddd27548b856af0949a8e238054848ca3c9134e8fb7ba30a59dc7b1fb05178d"
+    },
+    {
+      "finding_id": "C003",
+      "exam_id": "cambridge-21-test-02",
+      "part": 3,
+      "question_range": [
+        27,
+        30
+      ],
+      "old_asset_id": "asset-874e297b9de36865ad77bda8d0cd34c11ee6f07d9c31855405b5fef7ddb6690f",
+      "source_asset_id": "asset-74274f69f771eaf1fa66a58faf2b6e0d476f9b75dfa2ed96fba0e75bd2e6bbca",
+      "pdf_page": 37,
+      "book": 21,
+      "test": 2,
+      "source_pdf_sha256": "380b27bc658e606a72f1313e8b3375ab878865479e847d9b8598bbc8fa17d661",
+      "clip_normalized": [
+        0,
+        0.2,
+        1,
+        0.89
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-2deb0b95816aec732aafd4bd159c424d971e84f68779372cc4a864e3551c4034"
+    },
+    {
+      "finding_id": "C004",
+      "exam_id": "cambridge-05-test-02",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-7b451831d806d2d63544db7fd0d057de64ae048edaa5cf32c01946ad0cdb4ee0",
+      "source_asset_id": "asset-d2a15aa9a3753b49133f068624c2fbf58699494bb6394bed4a407aa04b4fc748",
+      "pdf_page": 37,
+      "book": 5,
+      "test": 2,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        0.82
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-d22b712292c974736d9c5c011373a051795937d10646aedfe470f2cb356299b5"
+    },
+    {
+      "finding_id": "C005",
+      "exam_id": "cambridge-09-test-02",
+      "part": 2,
+      "question_range": [
+        16,
+        20
+      ],
+      "old_asset_id": "asset-1e091ce4fe692035a8a5ba9e15a51d2223a33dfd0b4a7569fd6e429119a03c85",
+      "source_asset_id": "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156",
+      "pdf_page": 30,
+      "book": 9,
+      "test": 2,
+      "source_pdf_sha256": "c3fbc2d06b1b60fe8e7d27936150a09c38714e4bd23e6351a09b93c9555ee890",
+      "clip_normalized": [
+        0,
+        0.075,
+        1,
+        0.84
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-f1591ff072031895a45294f72ac60b932d550dc43440abb0ec3be7d0e7dcd578"
+    },
+    {
+      "finding_id": "C006",
+      "exam_id": "cambridge-06-test-01",
+      "part": 1,
+      "question_range": [
+        5,
+        10
+      ],
+      "old_asset_id": "asset-068423ff9de3e5b4fecf18d136c02ea752d65589cf78655664fa6c6988e55fa4",
+      "source_asset_id": "asset-151efc63b36d2e2ddc5d0317ed50c5dd81841931e8b51957686a1469418a0371",
+      "pdf_page": 12,
+      "book": 6,
+      "test": 1,
+      "source_pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        0.73
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-d5a182c1d98bded6e0f87a669e455c990d4a8a1580ce417c874bdbd6a85c38f6"
+    },
+    {
+      "finding_id": "C007",
+      "exam_id": "cambridge-08-test-03",
+      "part": 1,
+      "question_range": [
+        4,
+        8
+      ],
+      "old_asset_id": "asset-4424be7f7f752dbf4abc6ac5fc88b3fd57c181b0d874edbe8bb6ca06f520c7bc",
+      "source_asset_id": "asset-c1a0f801298f2422058984c18336096fa41648b81aa927812fb881bb203d6015",
+      "pdf_page": 56,
+      "book": 8,
+      "test": 3,
+      "source_pdf_sha256": "2f3cdf0c049ecac93bafafd034c2316ac7ed66b0694bea8a2a7c152042923e23",
+      "clip_normalized": [
+        0,
+        0.1,
+        1,
+        0.58
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-404b99984d628d6a8d053309526b14ce107b5c12bd5624165853f7a489aaa469"
+    },
+    {
+      "finding_id": "C008",
+      "exam_id": "cambridge-07-test-03",
+      "part": 1,
+      "question_range": [
+        6,
+        10
+      ],
+      "old_asset_id": "asset-b12b2c159811a045b01a76f3e402661516e6d7e9ff585e9a5cc07c7997ab4620",
+      "source_asset_id": "asset-5b59329c7a11c0e140f1bca31a920b7c8e884ac5d12c72bdaa0c94dee3d59e74",
+      "pdf_page": 61,
+      "book": 7,
+      "test": 3,
+      "source_pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "clip_normalized": [
+        0,
+        0.06,
+        1,
+        0.6
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-7e41e8f318270fedd36f36bf34a467f96a0b800cdc648426c6f4d784f86e1752"
+    },
+    {
+      "finding_id": "C009",
+      "exam_id": "cambridge-14-test-02",
+      "part": 2,
+      "question_range": [
+        16,
+        20
+      ],
+      "old_asset_id": "asset-9134a8d2cec1aaf9fc33c1382bbe643511bdd5163c6bd24a9ad4728f037ca527",
+      "source_asset_id": "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455",
+      "pdf_page": 34,
+      "book": 14,
+      "test": 2,
+      "source_pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.94
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-b573f938f7915403ef9fb529d9f966902aa6bccec26100a06a420fe20a37b49d"
+    },
+    {
+      "finding_id": "C010",
+      "exam_id": "cambridge-18-test-02",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-8a50969c622f70f7674980f76f6a15427c44fc5dae9954e21bcbcef70ef27d4e",
+      "source_asset_id": "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c",
+      "pdf_page": 40,
+      "book": 18,
+      "test": 2,
+      "source_pdf_sha256": "7f2fdefa5af7b6b75640eec3b0e65c1d49ecb7bd311e1293d53b6377acacbe75",
+      "clip_normalized": [
+        0,
+        0.04,
+        1,
+        0.94
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-08b7eb734195ab6c603fc5141c0cfb4f1d41f7f143488758cfdb32a4a0024f49"
+    },
+    {
+      "finding_id": "C011",
+      "exam_id": "cambridge-07-test-04",
+      "part": 2,
+      "question_range": [
+        15,
+        20
+      ],
+      "old_asset_id": "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+      "source_asset_id": "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b",
+      "pdf_page": 88,
+      "book": 7,
+      "test": 4,
+      "source_pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-76e9b8e7fe24767bef7d47cea74b32b3ad4965465a66818c8afa66c90c7c4d9f"
+    },
+    {
+      "finding_id": "C012",
+      "exam_id": "cambridge-11-test-04",
+      "part": 2,
+      "question_range": [
+        17,
+        20
+      ],
+      "old_asset_id": "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+      "source_asset_id": "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2",
+      "pdf_page": 81,
+      "book": 11,
+      "test": 4,
+      "source_pdf_sha256": "c0762211a85476475bf6f9b8b678b6863a62302c885d89208e23b9f446de9479",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.77
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+    },
+    {
+      "finding_id": "C013",
+      "exam_id": "cambridge-12-test-08",
+      "part": 3,
+      "question_range": [
+        21,
+        24
+      ],
+      "old_asset_id": "asset-9f8b4b336025499ae16dcc701fa48d51a4113a6779b938ad3e05ee5c810c5586",
+      "source_asset_id": "asset-fb8307db07b8d1dbd5a5a7ce629dceecfb525f90d6aa30003d03c2a5b2ca9df2",
+      "pdf_page": 77,
+      "book": 12,
+      "test": 8,
+      "source_pdf_sha256": "c9b61939ce31049dd9552020dbaf3deb979cbb6244b4cac0ac64f13b3ce049c6",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.59
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-ab565d61bccdcd94c6825878e177096aabf8c0092a54738c8b19e8b5980642b5"
+    },
+    {
+      "finding_id": "C015",
+      "exam_id": "cambridge-07-test-02",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-0363281b0812c8fcffb714cd47656fcc05290105aca5cfa98923425c40224603",
+      "source_asset_id": "asset-892dc7776bcbc3bcf8b44c140309e0831253ddab5a991b774c401fc26ed7ab49",
+      "pdf_page": 37,
+      "book": 7,
+      "test": 2,
+      "source_pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-ae1755a4b17d84cdf8288221bd4339286a4f4393adc040822493eabe30e8a6e2"
+    },
+    {
+      "finding_id": "C016",
+      "exam_id": "cambridge-07-test-01",
+      "part": 1,
+      "question_range": [
+        6,
+        10
+      ],
+      "old_asset_id": "asset-bb349f7051ff6e02656b82797260bd39dbb602e4f092d73282d576c5dc035e5c",
+      "source_asset_id": "asset-717877a86b42c5d736524fdbde6cc9a14f6100235b5f7223f436d6987cade147",
+      "pdf_page": 15,
+      "book": 7,
+      "test": 1,
+      "source_pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "clip_normalized": [
+        0,
+        0.06,
+        1,
+        0.77
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-8af891bcf53579e6d9c460c7dd643b771d5f66f552a47351189bfae7cba377f9"
+    },
+    {
+      "finding_id": "C017",
+      "exam_id": "cambridge-18-test-03",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-c48791329bb886644a402f27311fd1ce7292e7fc97bf6c35cc1b44b4760f1127",
+      "source_asset_id": "asset-97d2814c4023ecdc5b100b54c49c1a445137b32caff617ad01b49a67f9d82373",
+      "pdf_page": 57,
+      "book": 18,
+      "test": 3,
+      "source_pdf_sha256": "7f2fdefa5af7b6b75640eec3b0e65c1d49ecb7bd311e1293d53b6377acacbe75",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        1
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+    },
+    {
+      "finding_id": "C018",
+      "exam_id": "cambridge-05-test-03",
+      "part": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "old_asset_id": "asset-3adc6215070707f80bbce2a8387e495cfb910cde4ec090cfeff7ba34d886bac1",
+      "source_asset_id": "asset-5e32f5d1dc2c367f36a3de70d05f34a79f4c1aa6939781e11a91e1505f7b9fc7",
+      "pdf_page": 60,
+      "book": 5,
+      "test": 3,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.91
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-a788199c75cf3b11026a79f05b4e37285550a7218b77eae70698cd165c121fa8"
+    },
+    {
+      "finding_id": "C019",
+      "exam_id": "cambridge-18-test-04",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-58dbce6b29b3208e0d201f7123a158e7861b519596554605982cf7b26e0df93d",
+      "source_asset_id": "asset-eb7f69cc444afab1c690db44804f116f3d450bd7a07c70bebffe64f1a5464cca",
+      "pdf_page": 80,
+      "book": 18,
+      "test": 4,
+      "source_pdf_sha256": "7f2fdefa5af7b6b75640eec3b0e65c1d49ecb7bd311e1293d53b6377acacbe75",
+      "clip_normalized": [
+        0,
+        0.06,
+        1,
+        0.92
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-60e9790ea08e11398de5db1ae1bc4a357648518f84973cef35bf5e95801e9d8f"
+    },
+    {
+      "finding_id": "C020",
+      "exam_id": "cambridge-07-test-03",
+      "part": 3,
+      "question_range": [
+        23,
+        25
+      ],
+      "old_asset_id": "asset-db7e8a9c4dd46f4dff41ce78146ca10f7c644ec66899a312dba8b8ae2c5490a3",
+      "source_asset_id": "asset-9b12f7d7e2bb1dec0eb999c79fc6dfd05645eb67f665d07a4d523132699fb707",
+      "pdf_page": 65,
+      "book": 7,
+      "test": 3,
+      "source_pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        0.9
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "source_kind": "asset",
+      "source_choice_reason": "Existing full-page pixels have no overlaid blue watermark obscuring the task; original local PDF does.",
+      "new_asset_id": "asset-8333edd6058b159fb2fc110827c6f8ab850d494be506ba89a9a13ee1fa267ae3"
+    },
+    {
+      "finding_id": "C021",
+      "exam_id": "cambridge-06-test-04",
+      "part": 3,
+      "question_range": [
+        21,
+        27
+      ],
+      "old_asset_id": "asset-f9e7ca07f5e1d38782b3ab4cae1a23eae834574fdb80130b90926321bf6be429",
+      "source_asset_id": "asset-b723ab26cf04d9dc32c6db53c62c568294a8c1681a27f0eb667c0f2563e01c9a",
+      "pdf_page": 82,
+      "book": 6,
+      "test": 4,
+      "source_pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        0.84
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-de928e2fdaa4296e3f942b9e39ba905472a4168c421bbc7323a9885ad460d855"
+    },
+    {
+      "finding_id": "C022",
+      "exam_id": "cambridge-12-test-08",
+      "part": 2,
+      "question_range": [
+        15,
+        20
+      ],
+      "old_asset_id": "asset-72f9a506e9592069e013a5e9457ee697f840224fa6f1c9568754cfed66e493e8",
+      "source_asset_id": "asset-ef0a1e3ad794df809bcdfeafd1e03411e9fb0aea2545cdd9a7308655c42cc144",
+      "pdf_page": 76,
+      "book": 12,
+      "test": 8,
+      "source_pdf_sha256": "c9b61939ce31049dd9552020dbaf3deb979cbb6244b4cac0ac64f13b3ce049c6",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.8
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-ca3c3016c33c5cf48fd161b1358c4038d141b162204baff30d40923587bfb61f"
+    },
+    {
+      "finding_id": "C023",
+      "exam_id": "cambridge-05-test-01",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-37ce358e0ef8517946a72e80bac80ed89bd9fc500f20fdeb7aa31276d259a3ba",
+      "source_asset_id": "asset-1032e82bda643fad6b2ce5b1120cbbec309299c570b1317e800cf8f19dfb4f5f",
+      "pdf_page": 16,
+      "book": 5,
+      "test": 1,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.87
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-df79c1253a1e7d793503f16d06aa6ec1661dc551a616e8f99241ba12d10fa390"
+    },
+    {
+      "finding_id": "C024",
+      "exam_id": "cambridge-06-test-01",
+      "part": 2,
+      "question_range": [
+        17,
+        20
+      ],
+      "old_asset_id": "asset-88fb8c0c0b2903a4bc6af16f8aac1bcb60c12bb1dea075be5462b294e049954f",
+      "source_asset_id": "asset-37fb8b707fd13756db402eb492cdd5df9304a713a49ed705f5f7ef4722cf58ad",
+      "pdf_page": 14,
+      "book": 6,
+      "test": 1,
+      "source_pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        0.4
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-5b23e22fc32f137eff3beb533058955cff490fcdb30f466f9b1c5dc220ef8801"
+    },
+    {
+      "finding_id": "C025",
+      "exam_id": "cambridge-07-test-02",
+      "part": 2,
+      "question_range": [
+        11,
+        12
+      ],
+      "old_asset_id": "asset-78b19ed53628e3414a1eda16989fc807ee2679af3f9cf2e7b3b37bb6b972f527",
+      "source_asset_id": "asset-91461cc55d6b2e1625c02e4e508a0652df376011bb67c711b7059dd27f5f3e21",
+      "pdf_page": 38,
+      "book": 7,
+      "test": 2,
+      "source_pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "clip_normalized": [
+        0,
+        0.02,
+        1,
+        0.55
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-26623107ad08a78b514495da9dd4fefd5d314c6c4262fe3583de3af5c6fb890d"
+    },
+    {
+      "finding_id": "C026",
+      "exam_id": "cambridge-18-test-01",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-51c19d43da36195b2be4f2bfb860832f07d963db83b2f9b34a8123aae9c6e4eb",
+      "source_asset_id": "asset-bf2730943adb17517feed7f50d77e474b007530461074751bff59b8bc373234c",
+      "pdf_page": 17,
+      "book": 18,
+      "test": 1,
+      "source_pdf_sha256": "7f2fdefa5af7b6b75640eec3b0e65c1d49ecb7bd311e1293d53b6377acacbe75",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.94
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-aee273fc39fd41a2c8ed3b3b0362efd3a2656401b2285acfbd2f0474a0a62dac"
+    },
+    {
+      "finding_id": "C027",
+      "exam_id": "cambridge-18-test-04",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-c7dec87e12c61cdacb392c4f187e69ae40a13b8df6596b674a1630fe3595eec9",
+      "source_asset_id": "asset-aa8d64fc06318801eaf3df68806a65f1b6c8cc5ecb34391dfd9d1979f56b526d",
+      "pdf_page": 85,
+      "book": 18,
+      "test": 4,
+      "source_pdf_sha256": "7f2fdefa5af7b6b75640eec3b0e65c1d49ecb7bd311e1293d53b6377acacbe75",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.97
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-cdd0fe111f450b97946d55a5cc4e4a2e060c8066cefaced6c217cc8e5daf42e9"
+    },
+    {
+      "finding_id": "C029",
+      "exam_id": "cambridge-05-test-01",
+      "part": 1,
+      "question_range": [
+        1,
+        6
+      ],
+      "old_asset_id": "asset-0fc00612b8aa4c287947961216f1f300c8e542226d6f56329de341c4a0e9daba",
+      "source_asset_id": "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8",
+      "pdf_page": 11,
+      "book": 5,
+      "test": 1,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.06,
+        1,
+        0.94
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-731af3aa2a0eafeca2455a306d556f0efc0db922d32f680e14c2be73652285f6"
+    },
+    {
+      "finding_id": "C030",
+      "exam_id": "cambridge-12-test-07",
+      "part": 2,
+      "question_range": [
+        18,
+        20
+      ],
+      "old_asset_id": "asset-0972e19261f1f6da196095e18843aaa95e1f0e247549992ced23fa46a3b9cffd",
+      "source_asset_id": "asset-361d57e11c8770ddb8ab6468f78048dd47cb01886240a6cf6ce6040562ce948f",
+      "pdf_page": 55,
+      "book": 12,
+      "test": 7,
+      "source_pdf_sha256": "c9b61939ce31049dd9552020dbaf3deb979cbb6244b4cac0ac64f13b3ce049c6",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.57
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-10b9563cc907e3e3858adb6a9d09432dfa808c05876aec88a4df6d13c20f1c4e"
+    },
+    {
+      "finding_id": "C031",
+      "exam_id": "cambridge-05-test-03",
+      "part": 4,
+      "question_range": [
+        36,
+        40
+      ],
+      "old_asset_id": "asset-20005e8a818b201ac702962fe851c7554719220b80957a08edd4da8cf75cf4b0",
+      "source_asset_id": "asset-c78cfcc68b5e42eca2cfd2f88496a16dec48d99b1eab27611ac81d9ac0f6e5a6",
+      "pdf_page": 62,
+      "book": 5,
+      "test": 3,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.68
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-2b46b4536e64550cdf3155b84aafe4c4c99e3478da4bb374efc013cc776e6c71"
+    },
+    {
+      "finding_id": "C032",
+      "exam_id": "cambridge-12-test-06",
+      "part": 3,
+      "question_range": [
+        26,
+        30
+      ],
+      "old_asset_id": "asset-b2ae5f0a6c698c4d9fdfb9909fe2f54a6cc76fbab56d9515dd332f0fd8b554a9",
+      "source_asset_id": "asset-ab4043b2394de70fab8378271cb9a1450e825e10719c76f012ff646a38f86fe6",
+      "pdf_page": 34,
+      "book": 12,
+      "test": 6,
+      "source_pdf_sha256": "c9b61939ce31049dd9552020dbaf3deb979cbb6244b4cac0ac64f13b3ce049c6",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.98
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-cab0a98b55f627436bc9a7e337bd76aac8398f7a65c33fbcdf4f158f90e49e06"
+    },
+    {
+      "finding_id": "C033",
+      "exam_id": "cambridge-06-test-03",
+      "part": 2,
+      "question_range": [
+        14,
+        20
+      ],
+      "old_asset_id": "asset-48c750ef1f981db16c6f8daead8556be5b72e3a1eed102f3ec560640fa149137",
+      "source_asset_id": "asset-466e2e0c2e5b3874455fe5fcf48f05dc44dd3f1eb6c688fba080caf9fa093d17",
+      "pdf_page": 59,
+      "book": 6,
+      "test": 3,
+      "source_pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        0.98
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-66de2c0cd082352b16db66bfe4a931dbd8a3c939c8262dc0563875c83069e7e7"
+    },
+    {
+      "finding_id": "C034",
+      "exam_id": "cambridge-05-test-03",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-abeeb8f2859a15f534f6c43649e98be6fd338ae8dc9706196d16729c0576700e",
+      "source_asset_id": "asset-c5aa08b18f413170684b954b19a4163931f02a82a906d425e1f7d1ecbeb52a38",
+      "pdf_page": 56,
+      "book": 5,
+      "test": 3,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.04,
+        1,
+        1
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-70a5758da2d73432c80f73285127ea76f54255a531fd2c807212d5f6a23b3035"
+    },
+    {
+      "finding_id": "C035",
+      "exam_id": "cambridge-14-test-04",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-c0c5674635297c65275f8ae708a49fac1d4bb6db7886a4850f7590ba67b7c3ff",
+      "source_asset_id": "asset-22e9ab4e40bee440fd21d453acf2a5bc1cf11af86740fc928753163de9e63ae5",
+      "pdf_page": 81,
+      "book": 14,
+      "test": 4,
+      "source_pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.97
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-b82be970064bf57e19b45bf2d68b5e1312ca8a86322f9b43316a7a5efb29ef4c"
+    },
+    {
+      "finding_id": "C036",
+      "exam_id": "cambridge-19-test-01",
+      "part": 2,
+      "question_range": [
+        16,
+        20
+      ],
+      "old_asset_id": "asset-58b5984e68886afd388088a3d6f34ef06bae26b1f8d47925f4d9abd5818b4e5f",
+      "source_asset_id": "asset-82649ba5ba479dac088aae18bcd700d7af5a19a373edcfcf168431e2f550bca5",
+      "pdf_page": 11,
+      "book": 19,
+      "test": 1,
+      "source_pdf_sha256": "5b460d32f81cba72576e097dba82d8817717f8ae6a261b428916b49dcbdb86c2",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.89
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-285bb6e3084d9f82c4a5c1288f8a0f0cc564d4478a664e08b78658c9c40f0bd6"
+    },
+    {
+      "finding_id": "C037",
+      "exam_id": "cambridge-05-test-02",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-b9195c6cf1c8fd4c9706461e7698ac10491768a2b7dc9d39bc060c27eaddb34a",
+      "source_asset_id": "asset-0128cad01bee1e04f1ebcf3c7c5cc76e662994aede8d6431b5a013144794fa31",
+      "pdf_page": 33,
+      "book": 5,
+      "test": 2,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.06,
+        1,
+        0.89
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-930ddd3ced17a04f031a27c383ede9209545468349faff5e2cc9ebb2e0f777de"
+    },
+    {
+      "finding_id": "C038",
+      "exam_id": "cambridge-06-test-03",
+      "part": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "old_asset_id": "asset-8e61242c8c5c2490327fa8bd2c2d72c7b1e7a91bb5a80f38bb142323cd8fc1c6",
+      "source_asset_id": "asset-149d9ba1a13604a02a9a7ecf979aa224a4b6028140e79f0626e04579561e640d",
+      "pdf_page": 56,
+      "book": 6,
+      "test": 3,
+      "source_pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-05032eee328b18c383363931af1543199a3325c9dfb166be79f2e978202866d1"
+    },
+    {
+      "finding_id": "C039",
+      "exam_id": "cambridge-19-test-01",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-42a67736a48f1980c295a7eca33705289207b6ea8c10d7f991582b4461dbf36f",
+      "source_asset_id": "asset-b47d4e1ee5240328e099372ce67ed003d38d1727a4103430b07cf8c1ee14179f",
+      "pdf_page": 14,
+      "book": 19,
+      "test": 1,
+      "source_pdf_sha256": "5b460d32f81cba72576e097dba82d8817717f8ae6a261b428916b49dcbdb86c2",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.86
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-4bf290298712e284a6050a2e0a8580e07752ed77d7871f8fe61776fdfc1ad4e5"
+    },
+    {
+      "finding_id": "C040",
+      "exam_id": "cambridge-12-test-07",
+      "part": 3,
+      "question_range": [
+        21,
+        26
+      ],
+      "old_asset_id": "asset-fd8c05167adba51b9b5ecdd9b5824fd2b674818c3f0d2f332bc7b3c6d87da10b",
+      "source_asset_id": "asset-976788245acd899feb953dd7b78c462a19428da73158c73e598488c1381830a0",
+      "pdf_page": 56,
+      "book": 12,
+      "test": 7,
+      "source_pdf_sha256": "c9b61939ce31049dd9552020dbaf3deb979cbb6244b4cac0ac64f13b3ce049c6",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.91
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-934cec92461ebd5ae3c528ac76d3e96b7a1d3b85bd87f3fcc53c8eb6eb3f6de7"
+    },
+    {
+      "finding_id": "C041",
+      "exam_id": "cambridge-14-test-01",
+      "part": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "old_asset_id": "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+      "source_asset_id": "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803",
+      "pdf_page": 15,
+      "book": 14,
+      "test": 1,
+      "source_pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.97
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-f3098101a6b9c3f21a1129f33b3763601a1fe517017617f65c1e510d3d6d77d0"
+    },
+    {
+      "finding_id": "C042",
+      "exam_id": "cambridge-18-test-02",
+      "part": 2,
+      "question_range": [
+        15,
+        20
+      ],
+      "old_asset_id": "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+      "source_asset_id": "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3",
+      "pdf_page": 37,
+      "book": 18,
+      "test": 2,
+      "source_pdf_sha256": "7f2fdefa5af7b6b75640eec3b0e65c1d49ecb7bd311e1293d53b6377acacbe75",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.89
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-f64342d5196c36cdcbbdd403a928527cff20a0e82c59768c9082b5dff3b1ad60"
+    },
+    {
+      "finding_id": "C043",
+      "exam_id": "cambridge-05-test-04",
+      "part": 3,
+      "question_range": [
+        21,
+        27
+      ],
+      "old_asset_id": "asset-304512a63095175dcf3358cf5459387917d45b45825e86aa79d81e0855fc514e",
+      "source_asset_id": "asset-d8d95abf2072e5b22871e6e2349b8abf34e786cb3f720a87e7969842b037c4ce",
+      "pdf_page": 82,
+      "book": 5,
+      "test": 4,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.85
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-02d9dd2b1ed319b0c8f1725649f547f2d77830f2c80434fade89f6fbf85ecc84"
+    },
+    {
+      "finding_id": "C044",
+      "exam_id": "cambridge-11-test-01",
+      "part": 2,
+      "question_range": [
+        15,
+        20
+      ],
+      "old_asset_id": "asset-7692e21a714575a7064a42db592ee6db8ce76c15eb5d6adb28b03b2631f7871d",
+      "source_asset_id": "asset-9d9e46ef41ebaa602b8b32e54a65a4a2e07ed9a7da879c40e6fcdc2aedab888a",
+      "pdf_page": 11,
+      "book": 11,
+      "test": 1,
+      "source_pdf_sha256": "c0762211a85476475bf6f9b8b678b6863a62302c885d89208e23b9f446de9479",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.93
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-ea1e90ab2d8bc567fe57c372d3803a6f3ce0804e0f4453bcdd410107ae500ca5"
+    },
+    {
+      "finding_id": "C045",
+      "exam_id": "cambridge-05-test-04",
+      "part": 2,
+      "question_range": [
+        11,
+        17
+      ],
+      "old_asset_id": "asset-539e03fed77f9000e171927b9c2a189bcd2c8ffe3a1369cdcafdb2087523b88f",
+      "source_asset_id": "asset-836ead9b1ae567c09511b557cd526a4a45539140fb88c722996a3a82da2b1437",
+      "pdf_page": 80,
+      "book": 5,
+      "test": 4,
+      "source_pdf_sha256": "7df6a474e84e69a622dd48fc009e69dd7fd711a64b713671bdf492311f5f58cc",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.77
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-6e57cb9136916a9f512217cef01c2429c89d754cd130b159ccdbfc263b5032a2"
+    },
+    {
+      "finding_id": "C046",
+      "exam_id": "cambridge-11-test-02",
+      "part": 2,
+      "question_range": [
+        17,
+        20
+      ],
+      "old_asset_id": "asset-09c3cccc820cfceb09405b25d771d08f72415b3bd8809a630871e0581b96ac82",
+      "source_asset_id": "asset-0fb33145e8919e798ae1dfcd515f726db0309ae3972d95745710878b0cebdc47",
+      "pdf_page": 34,
+      "book": 11,
+      "test": 2,
+      "source_pdf_sha256": "c0762211a85476475bf6f9b8b678b6863a62302c885d89208e23b9f446de9479",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.84
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-3b26db6ebef18af8da08d5032f5fb726411cc06077ea68a4b6dd91b05b8d3317"
+    },
+    {
+      "finding_id": "C047",
+      "exam_id": "cambridge-14-test-01",
+      "part": 2,
+      "question_range": [
+        11,
+        14
+      ],
+      "old_asset_id": "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+      "source_asset_id": "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+      "pdf_page": 11,
+      "book": 14,
+      "test": 1,
+      "source_pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+      "clip_normalized": [
+        0,
+        0.065,
+        1,
+        0.72
+      ],
+      "dpi": 300,
+      "padding_px": 24,
+      "new_asset_id": "asset-ff3406bb9005ce6ead351795e6907cb5c2bcd77431acccab132a1e59ed3a3a5c"
+    }
+  ]
+}

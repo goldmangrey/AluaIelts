@@ -1,0 +1,48 @@
+{
+  "before": {
+    "firebase_identities": {
+      "count": 3,
+      "digest": "eb5a9df2b3f5ebd348857597f3c516ee"
+    },
+    "listening_attempts": {
+      "count": 16,
+      "digest": "76ec02bc55d00a53c56a5195170938a5"
+    },
+    "listening_mutations": {
+      "count": 292,
+      "digest": "ed1d1a12ee082aa6266b51814bda7f18"
+    },
+    "reading_attempts": {
+      "count": 28,
+      "digest": "68ca241cca0467c26349db7113acd82e"
+    },
+    "reading_mutations": {
+      "count": 324,
+      "digest": "7252b71f0cd0cec91c7f2d9f8644e2d1"
+    }
+  },
+  "after": {
+    "firebase_identities": {
+      "count": 3,
+      "digest": "eb5a9df2b3f5ebd348857597f3c516ee"
+    },
+    "listening_attempts": {
+      "count": 16,
+      "digest": "76ec02bc55d00a53c56a5195170938a5"
+    },
+    "listening_mutations": {
+      "count": 292,
+      "digest": "ed1d1a12ee082aa6266b51814bda7f18"
+    },
+    "reading_attempts": {
+      "count": 28,
+      "digest": "68ca241cca0467c26349db7113acd82e"
+    },
+    "reading_mutations": {
+      "count": 324,
+      "digest": "7252b71f0cd0cec91c7f2d9f8644e2d1"
+    }
+  },
+  "unchanged": true,
+  "scope": "Full-row counts and aggregate hashes; real answers/snapshots are not exported."
+}

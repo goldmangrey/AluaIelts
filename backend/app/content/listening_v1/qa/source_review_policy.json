@@ -1,0 +1,5 @@
+{
+  "independent_verification": "Only explicit reviewed positions in source_reviews.json can receive source_verified/key_verified. Supplied manifest claims and copied images do not confer verification.",
+  "private_assets": "Never serve assets/private or keys or qa via a static public mount. Public API must allowlist exams and referenced public assets only.",
+  "pdf_presence": "Finding a PDF or matching metadata is not visual verification."
+}

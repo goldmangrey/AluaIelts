@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "mode": "review",
+      "status": "PASS",
+      "question_nodes": 10,
+      "source_asset_ids": [
+        "asset-395be7a8ab0df31a497d69048e36a027ace0d9a94ebed9c0b3818ff43ecc13e4",
+        "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+      ],
+      "left_right": "PASS",
+      "focus_stable": true,
+      "focus_transition": {
+        "from": "question-11",
+        "to": "question-16"
+      },
+      "screenshot": "production-after-review.png"
+    },
+    {
+      "mode": "exam",
+      "status": "PASS",
+      "question_nodes": 10,
+      "source_asset_ids": [
+        "asset-028def577baf073853409b3e49311d878f4658dd99e053d61acc35942d87f651",
+        "asset-6e5743b8cc2ff709113a27b4c56503a0e0f74cdf7d5b505c3979e5856d89b54e"
+      ],
+      "left_right": "PASS",
+      "focus_stable": true,
+      "focus_transition": {
+        "from": "question-1",
+        "to": "question-4"
+      },
+      "screenshot": "production-after-exam.png"
+    }
+  ],
+  "page_errors": [],
+  "blocked_mutations": 1,
+  "scope": "Real alua.study, existing identity and attempts; writes blocked to preserve user state"
+}

@@ -96,6 +96,16 @@ class Settings(BaseSettings):
     enrollment_code_ttl_minutes: int = Field(
         default=30, ge=5, le=1440, validation_alias="ENROLLMENT_CODE_TTL_MINUTES"
     )
+    listening_ai_worker_url: str = Field(
+        default="https://alua.study/api/listening/explain",
+        validation_alias="LISTENING_AI_WORKER_URL",
+    )
+    listening_ai_cache_root: str = Field(
+        default="/tmp/alua-listening-ai", validation_alias="LISTENING_AI_CACHE_ROOT"
+    )
+    listening_audio_root: str = Field(
+        default="/opt/alua/shared/listening/audio", validation_alias="LISTENING_AUDIO_ROOT"
+    )
     allowed_origins: Origins = Field(default_factory=list, validation_alias="ALLOWED_ORIGINS")
 
 

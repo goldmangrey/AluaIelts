@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "mode": "review",
+      "status": "PASS",
+      "question_nodes": 10,
+      "source_asset_ids": [
+        "asset-e30712ccf662556c11ac6ce9ea1a535b208ae290fd0c839efcae7a9d074bf861",
+        "asset-76a397687d63a2398d5cad718afd399381b126917fd34b1f0f4381de4b1a6333"
+      ],
+      "left_right": "PASS",
+      "focus_stable": null,
+      "screenshot": "production-before-review.png"
+    }
+  ],
+  "page_errors": [],
+  "blocked_mutations": 0,
+  "scope": "Real alua.study, existing identity and attempts; writes blocked to preserve user state"
+}

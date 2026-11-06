@@ -1,0 +1,2831 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-15-test-04",
+  "book": 15,
+  "printed_test_number": 4,
+  "local_ordinal": 4,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 595,
+        "line_end": 627,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+      ],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-04-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 599,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 600,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "CUSTOMER SATISFACTION SURVEY",
+              "source_line": 602,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Customer details",
+              "source_line": 604,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Name: Sophie Bird",
+              "source_line": 605,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Occupation: 1 ____________________",
+              "source_line": 606,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 13,
+                  "end": 35
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Reason for travel today: 2 ____________________",
+              "source_line": 607,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 26,
+                  "end": 48
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Journey information",
+              "source_line": 609,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Name of station returning to: 3 ____________________",
+              "source_line": 610,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 31,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Type of ticket purchased: standard 4 ____________________ ticket",
+              "source_line": 611,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 36,
+                  "end": 58
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Cost of ticket: 5 £ ____________________",
+              "source_line": 612,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 17,
+                  "end": 41
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " When ticket was purchased: yesterday",
+              "source_line": 613,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Where ticket was bought: 6 ____________________",
+              "source_line": 614,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 26,
+                  "end": 48
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Satisfaction with journey",
+              "source_line": 616,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Most satisfied with: the wifi",
+              "source_line": 617,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Least satisfied with: the 7 ____________________ this morning",
+              "source_line": 618,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 27,
+                  "end": 49
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Satisfaction with station facilities",
+              "source_line": 620,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Most satisfied with: how much 8 ____________________ was provided",
+              "source_line": 621,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 31,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Least satisfied with: lack of seats, particularly on the 9 ____________________",
+              "source_line": 622,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 58,
+                  "end": 80
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Neither satisfied nor dissatisfied with: the 10 ____________________ available",
+              "source_line": 623,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 46,
+                  "end": 69
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 596,
+            "line_end": 627,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q01",
+              "question_number": 1,
+              "prompt": "Occupation: 1 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 606,
+                  "start": 13,
+                  "end": 35,
+                  "text": " Occupation: 1 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q02",
+              "question_number": 2,
+              "prompt": "Reason for travel today: 2 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 607,
+                  "start": 26,
+                  "end": 48,
+                  "text": " Reason for travel today: 2 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q03",
+              "question_number": 3,
+              "prompt": "Name of station returning to: 3 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 610,
+                  "start": 31,
+                  "end": 53,
+                  "text": " Name of station returning to: 3 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q04",
+              "question_number": 4,
+              "prompt": "Type of ticket purchased: standard 4 ____________________ ticket",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 611,
+                  "start": 36,
+                  "end": 58,
+                  "text": " Type of ticket purchased: standard 4 ____________________ ticket",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q05",
+              "question_number": 5,
+              "prompt": "Cost of ticket: 5 £ ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 612,
+                  "start": 17,
+                  "end": 41,
+                  "text": " Cost of ticket: 5 £ ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q06",
+              "question_number": 6,
+              "prompt": "Where ticket was bought: 6 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 614,
+                  "start": 26,
+                  "end": 48,
+                  "text": " Where ticket was bought: 6 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q07",
+              "question_number": 7,
+              "prompt": "Least satisfied with: the 7 ____________________ this morning",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 618,
+                  "start": 27,
+                  "end": 49,
+                  "text": " Least satisfied with: the 7 ____________________ this morning",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q08",
+              "question_number": 8,
+              "prompt": "Most satisfied with: how much 8 ____________________ was provided",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 621,
+                  "start": 31,
+                  "end": 53,
+                  "text": " Most satisfied with: how much 8 ____________________ was provided",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q09",
+              "question_number": 9,
+              "prompt": "Least satisfied with: lack of seats, particularly on the 9 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 622,
+                  "start": 58,
+                  "end": 80,
+                  "text": " Least satisfied with: lack of seats, particularly on the 9 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q10",
+              "question_number": 10,
+              "prompt": "Neither satisfied nor dissatisfied with: the 10 ____________________ available",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 623,
+                  "start": 46,
+                  "end": 69,
+                  "text": " Neither satisfied nor dissatisfied with: the 10 ____________________ available",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 628,
+        "line_end": 671,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+      ],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-04-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "map_labelling",
+          "instructions": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "A"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "B",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "B"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "C",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "C"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "D",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "D"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "E",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "E"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "F",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "F"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "G",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "G"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "H",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                  ],
+                  "original_label": "H"
+                },
+                "source_range": "A–H"
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the map below.",
+              "source_line": 633,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–H, next to Questions 11–16.",
+              "source_line": 634,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "CROFT VALLEY PARK — MAP",
+              "source_line": 636,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "IMPORTANT: The map includes the North/South gates, adventure playground, old museum, lake, glass houses and positions A–H. See the image for spatial relationships.",
+              "source_line": 638,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11 café                       ____________________",
+              "source_line": 640,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12 toilets                    ____________________",
+              "source_line": 641,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13 formal gardens             ____________________",
+              "source_line": 642,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14 outdoor gym                ____________________",
+              "source_line": 643,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15 skateboard ramp            ____________________",
+              "source_line": 644,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16 wild flowers               ____________________",
+              "source_line": 645,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 632,
+            "line_end": 646,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q11",
+              "question_number": 11,
+              "prompt": "11 café                       ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 640,
+                  "start": 0,
+                  "end": 50,
+                  "text": "11 café                       ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                ],
+                "printed_question_number": 11,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q12",
+              "question_number": 12,
+              "prompt": "12 toilets                    ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 641,
+                  "start": 0,
+                  "end": 50,
+                  "text": "12 toilets                    ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                ],
+                "printed_question_number": 12,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q13",
+              "question_number": 13,
+              "prompt": "13 formal gardens             ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 642,
+                  "start": 0,
+                  "end": 50,
+                  "text": "13 formal gardens             ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                ],
+                "printed_question_number": 13,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q14",
+              "question_number": 14,
+              "prompt": "14 outdoor gym                ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 643,
+                  "start": 0,
+                  "end": 50,
+                  "text": "14 outdoor gym                ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                ],
+                "printed_question_number": 14,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q15",
+              "question_number": 15,
+              "prompt": "15 skateboard ramp            ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 644,
+                  "start": 0,
+                  "end": 50,
+                  "text": "15 skateboard ramp            ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-04-q16",
+              "question_number": 16,
+              "prompt": "16 wild flowers               ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 645,
+                  "start": 0,
+                  "end": 50,
+                  "text": "16 wild flowers               ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–H, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-04-p2-g17-18",
+          "question_range": [
+            17,
+            18
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhat does the speaker say about the adventure playground?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhat does the speaker say about the adventure playground?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-04-p2-g17-18-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Children must be supervised.",
+                "source_line": 650
+              },
+              {
+                "label": "B",
+                "text": "It costs more in winter.",
+                "source_line": 651
+              },
+              {
+                "label": "C",
+                "text": "Some activities are only for younger children.",
+                "source_line": 652
+              },
+              {
+                "label": "D",
+                "text": "No payment is required.",
+                "source_line": 653
+              },
+              {
+                "label": "E",
+                "text": "It was recently expanded.",
+                "source_line": 654
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              17,
+              18
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 648,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "What does the speaker say about the adventure playground?",
+              "source_line": 649,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A Children must be supervised.",
+              "source_line": 650,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B It costs more in winter.",
+              "source_line": 651,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C Some activities are only for younger children.",
+              "source_line": 652,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D No payment is required.",
+              "source_line": 653,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E It was recently expanded.",
+              "source_line": 654,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17 ____________________",
+              "source_line": 656,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "18 ____________________",
+              "source_line": 657,
+              "blanks": [
+                {
+                  "question_number": 18,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 647,
+            "line_end": 658,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q17",
+              "question_number": 17,
+              "prompt": "17 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 656,
+                  "start": 0,
+                  "end": 23,
+                  "text": "17 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat does the speaker say about the adventure playground?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q18",
+              "question_number": 18,
+              "prompt": "18 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g17-18-bank",
+              "blank_references": [
+                {
+                  "line": 657,
+                  "start": 0,
+                  "end": 23,
+                  "text": "18 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat does the speaker say about the adventure playground?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-04-p2-g19-20",
+          "question_range": [
+            19,
+            20
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhat does the speaker say about the glass houses?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhat does the speaker say about the glass houses?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-04-p2-g19-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "They are closed at weekends.",
+                "source_line": 662
+              },
+              {
+                "label": "B",
+                "text": "Volunteers are needed to work there.",
+                "source_line": 663
+              },
+              {
+                "label": "C",
+                "text": "They were badly damaged by fire.",
+                "source_line": 664
+              },
+              {
+                "label": "D",
+                "text": "More money is needed to repair some of the glass.",
+                "source_line": 665
+              },
+              {
+                "label": "E",
+                "text": "Visitors can see palm trees from tropical regions.",
+                "source_line": 666
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              19,
+              20
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 660,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "What does the speaker say about the glass houses?",
+              "source_line": 661,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A They are closed at weekends.",
+              "source_line": 662,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B Volunteers are needed to work there.",
+              "source_line": 663,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C They were badly damaged by fire.",
+              "source_line": 664,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D More money is needed to repair some of the glass.",
+              "source_line": 665,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E Visitors can see palm trees from tropical regions.",
+              "source_line": 666,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19 ____________________",
+              "source_line": 668,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "20 ____________________",
+              "source_line": 669,
+              "blanks": [
+                {
+                  "question_number": 20,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 659,
+            "line_end": 671,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q19",
+              "question_number": 19,
+              "prompt": "19 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 668,
+                  "start": 0,
+                  "end": 23,
+                  "text": "19 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat does the speaker say about the glass houses?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q20",
+              "question_number": 20,
+              "prompt": "20 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 669,
+                  "start": 0,
+                  "end": 23,
+                  "text": "20 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat does the speaker say about the glass houses?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 672,
+        "line_end": 718,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-04-p3-g21-24",
+          "question_range": [
+            21,
+            24
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 677,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "PRESENTATION ABOUT REFRIGERATION",
+              "source_line": 679,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21 What did Annie discover from reading about icehouses?",
+              "source_line": 681,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A why they were first created",
+              "source_line": 682,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B how the ice was kept frozen",
+              "source_line": 683,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C where they were located",
+              "source_line": 684,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22 What point does Annie make about refrigeration in ancient Rome?",
+              "source_line": 686,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A It became a commercial business.",
+              "source_line": 687,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B It used snow from nearby.",
+              "source_line": 688,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C It took a long time to become popular.",
+              "source_line": 689,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23 In connection with modern refrigerators, both Annie and Jack are worried about",
+              "source_line": 691,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A the complexity of the technology.",
+              "source_line": 692,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B the fact that some are disposed of irresponsibly.",
+              "source_line": 693,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C the large number that quickly break down.",
+              "source_line": 694,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24 What do Jack and Annie agree regarding domestic fridges?",
+              "source_line": 696,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A They are generally good value for money.",
+              "source_line": 697,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B There are plenty of useful variations.",
+              "source_line": 698,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C They are more useful than other domestic appliances.",
+              "source_line": 699,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 676,
+            "line_end": 700,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q21",
+              "question_number": 21,
+              "prompt": "21 What did Annie discover from reading about icehouses?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "why they were first created",
+                  "source_line": 682
+                },
+                {
+                  "label": "B",
+                  "text": "how the ice was kept frozen",
+                  "source_line": 683
+                },
+                {
+                  "label": "C",
+                  "text": "where they were located",
+                  "source_line": 684
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 681,
+                  "start": 0,
+                  "end": 56,
+                  "text": "21 What did Annie discover from reading about icehouses?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q22",
+              "question_number": 22,
+              "prompt": "22 What point does Annie make about refrigeration in ancient Rome?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It became a commercial business.",
+                  "source_line": 687
+                },
+                {
+                  "label": "B",
+                  "text": "It used snow from nearby.",
+                  "source_line": 688
+                },
+                {
+                  "label": "C",
+                  "text": "It took a long time to become popular.",
+                  "source_line": 689
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 686,
+                  "start": 0,
+                  "end": 66,
+                  "text": "22 What point does Annie make about refrigeration in ancient Rome?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q23",
+              "question_number": 23,
+              "prompt": "23 In connection with modern refrigerators, both Annie and Jack are worried about",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the complexity of the technology.",
+                  "source_line": 692
+                },
+                {
+                  "label": "B",
+                  "text": "the fact that some are disposed of irresponsibly.",
+                  "source_line": 693
+                },
+                {
+                  "label": "C",
+                  "text": "the large number that quickly break down.",
+                  "source_line": 694
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 691,
+                  "start": 0,
+                  "end": 81,
+                  "text": "23 In connection with modern refrigerators, both Annie and Jack are worried about",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q24",
+              "question_number": 24,
+              "prompt": "24 What do Jack and Annie agree regarding domestic fridges?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "They are generally good value for money.",
+                  "source_line": 697
+                },
+                {
+                  "label": "B",
+                  "text": "There are plenty of useful variations.",
+                  "source_line": 698
+                },
+                {
+                  "label": "C",
+                  "text": "They are more useful than other domestic appliances.",
+                  "source_line": 699
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 696,
+                  "start": 0,
+                  "end": 59,
+                  "text": "24 What do Jack and Annie agree regarding domestic fridges?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-04-p3-g25-30",
+          "question_range": [
+            25,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "Write the correct letter, A, B or C, next to Questions 25–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Annie",
+                "source_line": 706
+              },
+              {
+                "label": "B",
+                "text": "Jack",
+                "source_line": 707
+              },
+              {
+                "label": "C",
+                "text": "both Annie and Jack",
+                "source_line": 708
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Who is going to do research into each topic?",
+              "source_line": 702,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A, B or C, next to Questions 25–30.",
+              "source_line": 703,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "People",
+              "source_line": 705,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A Annie",
+              "source_line": 706,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B Jack",
+              "source_line": 707,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C both Annie and Jack",
+              "source_line": 708,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Topics",
+              "source_line": 710,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25 the goods that are refrigerated       ____________________",
+              "source_line": 711,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26 the effects on health                ____________________",
+              "source_line": 712,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27 the impact on food producers         ____________________",
+              "source_line": 713,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28 the impact on cities                 ____________________",
+              "source_line": 714,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29 refrigerated transport               ____________________",
+              "source_line": 715,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30 domestic fridges                     ____________________",
+              "source_line": 716,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 701,
+            "line_end": 718,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q25",
+              "question_number": 25,
+              "prompt": "25 the goods that are refrigerated       ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 711,
+                  "start": 0,
+                  "end": 61,
+                  "text": "25 the goods that are refrigerated       ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q26",
+              "question_number": 26,
+              "prompt": "26 the effects on health                ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 712,
+                  "start": 0,
+                  "end": 60,
+                  "text": "26 the effects on health                ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q27",
+              "question_number": 27,
+              "prompt": "27 the impact on food producers         ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 713,
+                  "start": 0,
+                  "end": 60,
+                  "text": "27 the impact on food producers         ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q28",
+              "question_number": 28,
+              "prompt": "28 the impact on cities                 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 714,
+                  "start": 0,
+                  "end": 60,
+                  "text": "28 the impact on cities                 ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q29",
+              "question_number": 29,
+              "prompt": "29 refrigerated transport               ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 715,
+                  "start": 0,
+                  "end": 60,
+                  "text": "29 refrigerated transport               ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q30",
+              "question_number": 30,
+              "prompt": "30 domestic fridges                     ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 716,
+                  "start": 0,
+                  "end": 60,
+                  "text": "30 domestic fridges                     ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 719,
+        "line_end": 757,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-339b0a9849806cebf521c17b64c39ab419e4bcbf1868fc318dd0a9ee32732e00"
+      ],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-04-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 723,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 724,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "HOW THE INDUSTRIAL REVOLUTION AFFECTED LIFE IN BRITAIN",
+              "source_line": 726,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19th century",
+              "source_line": 728,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• For the first time, people's possessions were used to measure Britain's 31 ____________________.",
+              "source_line": 729,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 74,
+                  "end": 97
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Developments in production of goods and in 32 ____________________ greatly changed lives.",
+              "source_line": 730,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 45,
+                  "end": 68
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "MAIN AREAS OF CHANGE",
+              "source_line": 732,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Manufacturing",
+              "source_line": 734,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The Industrial Revolution would not have happened without the new types of 33 ____________________ that were used then.",
+              "source_line": 735,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 77,
+                  "end": 100
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• The leading industry was 34 ____________________ (its products became widely available).",
+              "source_line": 736,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 27,
+                  "end": 50
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• New 35 ____________________ made factories necessary and so more people moved into towns.",
+              "source_line": 737,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 6,
+                  "end": 29
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Transport",
+              "source_line": 739,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The railways took the place of canals.",
+              "source_line": 740,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Because of the new transport:",
+              "source_line": 741,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  — greater access to 36 ____________________ made people more aware of what they could buy in shops.",
+              "source_line": 742,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 22,
+                  "end": 45
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  — when shopping, people were not limited to buying 37 ____________________ goods.",
+              "source_line": 743,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 53,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Retailing",
+              "source_line": 745,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The first department stores were opened.",
+              "source_line": 746,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The displays of goods were more visible:",
+              "source_line": 747,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  — inside stores because of better 38 ____________________",
+              "source_line": 748,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 36,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  — outside stores, because 39 ____________________ were bigger.",
+              "source_line": 749,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 28,
+                  "end": 51
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• 40 ____________________ that was persuasive became much more common.",
+              "source_line": 750,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 2,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 720,
+            "line_end": 757,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-04-q31",
+              "question_number": 31,
+              "prompt": "• For the first time, people's possessions were used to measure Britain's 31 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 729,
+                  "start": 74,
+                  "end": 97,
+                  "text": "• For the first time, people's possessions were used to measure Britain's 31 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q32",
+              "question_number": 32,
+              "prompt": "• Developments in production of goods and in 32 ____________________ greatly changed lives.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 730,
+                  "start": 45,
+                  "end": 68,
+                  "text": "• Developments in production of goods and in 32 ____________________ greatly changed lives.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q33",
+              "question_number": 33,
+              "prompt": "• The Industrial Revolution would not have happened without the new types of 33 ____________________ that were used then.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 735,
+                  "start": 77,
+                  "end": 100,
+                  "text": "• The Industrial Revolution would not have happened without the new types of 33 ____________________ that were used then.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q34",
+              "question_number": 34,
+              "prompt": "• The leading industry was 34 ____________________ (its products became widely available).",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 736,
+                  "start": 27,
+                  "end": 50,
+                  "text": "• The leading industry was 34 ____________________ (its products became widely available).",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q35",
+              "question_number": 35,
+              "prompt": "• New 35 ____________________ made factories necessary and so more people moved into towns.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 737,
+                  "start": 6,
+                  "end": 29,
+                  "text": "• New 35 ____________________ made factories necessary and so more people moved into towns.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q36",
+              "question_number": 36,
+              "prompt": "— greater access to 36 ____________________ made people more aware of what they could buy in shops.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 742,
+                  "start": 22,
+                  "end": 45,
+                  "text": "  — greater access to 36 ____________________ made people more aware of what they could buy in shops.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q37",
+              "question_number": 37,
+              "prompt": "— when shopping, people were not limited to buying 37 ____________________ goods.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 743,
+                  "start": 53,
+                  "end": 76,
+                  "text": "  — when shopping, people were not limited to buying 37 ____________________ goods.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q38",
+              "question_number": 38,
+              "prompt": "— inside stores because of better 38 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 748,
+                  "start": 36,
+                  "end": 59,
+                  "text": "  — inside stores because of better 38 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q39",
+              "question_number": 39,
+              "prompt": "— outside stores, because 39 ____________________ were bigger.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 749,
+                  "start": 28,
+                  "end": 51,
+                  "text": "  — outside stores, because 39 ____________________ were bigger.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-04-q40",
+              "question_number": 40,
+              "prompt": "• 40 ____________________ that was persuasive became much more common.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 750,
+                  "start": 2,
+                  "end": 25,
+                  "text": "• 40 ____________________ that was persuasive became much more common.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-339b0a9849806cebf521c17b64c39ab419e4bcbf1868fc318dd0a9ee32732e00",
+      "relative_path": "assets/public/339b0a9849806cebf521c17b64c39ab419e4bcbf1868fc318dd0a9ee32732e00.jpg",
+      "sha256": "339b0a9849806cebf521c17b64c39ab419e4bcbf1868fc318dd0a9ee32732e00",
+      "byte_size": 374789,
+      "width": 1608,
+      "height": 2274
+    },
+    {
+      "asset_id": "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb",
+      "relative_path": "assets/public/b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb.jpg",
+      "sha256": "b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb",
+      "byte_size": 159464,
+      "width": 1210,
+      "height": 1020
+    },
+    {
+      "asset_id": "asset-f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc",
+      "relative_path": "assets/public/f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc.jpg",
+      "sha256": "f453112570226747fa69bda064034d18eb881bfdd2e012158ab428b00933d8bc",
+      "byte_size": 275561,
+      "width": 1608,
+      "height": 2274
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

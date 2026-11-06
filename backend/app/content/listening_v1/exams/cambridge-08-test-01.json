@@ -1,0 +1,3200 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-08-test-01",
+  "book": 8,
+  "printed_test_number": 1,
+  "local_ordinal": 1,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+        "line_start": 14,
+        "line_end": 57,
+        "pdf_pages": [
+          9,
+          10
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+        "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+      ],
+      "audio_mapping_key": {
+        "book": 8,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-08-test-01-p1-g01-02",
+          "question_range": [
+            1,
+            2
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+            "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 20,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example",
+              "source_line": 22,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "In the library George found",
+              "source_line": 23,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A a book.",
+              "source_line": 24,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B a brochure.",
+              "source_line": 25,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C a newspaper.",
+              "source_line": 26,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1. In the lobby of the library George saw",
+              "source_line": 28,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A a group playing music.",
+              "source_line": 29,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B a display of instruments.",
+              "source_line": 30,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C a video about the festival.",
+              "source_line": 31,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "2. George wants to sit at the back so they can",
+              "source_line": 33,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A see well.",
+              "source_line": 34,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B hear clearly.",
+              "source_line": 35,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C pay less.",
+              "source_line": 36,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q01"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q02"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 19,
+            "line_end": 37,
+            "pdf_pages": [
+              9,
+              10
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q01",
+              "question_number": 1,
+              "prompt": "1. In the lobby of the library George saw",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "a group playing music.",
+                  "source_line": 29
+                },
+                {
+                  "label": "B",
+                  "text": "a display of instruments.",
+                  "source_line": 30
+                },
+                {
+                  "label": "C",
+                  "text": "a video about the festival.",
+                  "source_line": 31
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 28,
+                  "start": 0,
+                  "end": 41,
+                  "text": "1. In the lobby of the library George saw",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q02",
+              "question_number": 2,
+              "prompt": "2. George wants to sit at the back so they can",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "see well.",
+                  "source_line": 34
+                },
+                {
+                  "label": "B",
+                  "text": "hear clearly.",
+                  "source_line": 35
+                },
+                {
+                  "label": "C",
+                  "text": "pay less.",
+                  "source_line": 36
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 33,
+                  "start": 0,
+                  "end": 46,
+                  "text": "2. George wants to sit at the back so they can",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-08-test-01-p1-g03-10",
+          "question_range": [
+            3,
+            10
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+            "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 39,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 40,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "SUMMER MUSIC FESTIVAL — BOOKING FORM",
+              "source_line": 42,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "NAME: George O'Neill",
+              "source_line": 43,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "ADDRESS: 3 ____________, Westsea",
+              "source_line": 44,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "POSTCODE: 4 ____________",
+              "source_line": 45,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 10,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "TELEPHONE: 5 ____________",
+              "source_line": 46,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 11,
+                  "end": 25
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Date       | Event                                       | Price per ticket | No. of tickets",
+              "source_line": 48,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "5 June     | Instrumental group — Guitarrini            | £7.50            | 2",
+              "source_line": 49,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17 June    | Singer (price includes 6 ____________",
+              "source_line": 50,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 36,
+                  "end": 50
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "           | in the garden)                             | £6               | 2",
+              "source_line": 51,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22 June    | 7 ____________ (Anna Ventura)              | £7.00            | 1",
+              "source_line": 52,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 13,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "23 June    | Spanish Dance & Guitar Concert             | 8 £____________  | 9 ____________",
+              "source_line": 53,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 58,
+                  "end": 73
+                },
+                {
+                  "question_number": 9,
+                  "start": 77,
+                  "end": 91
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "NB Children / Students / Senior Citizens have 10 ____________ discount on all tickets.",
+              "source_line": 55,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 46,
+                  "end": 61
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 38,
+            "line_end": 57,
+            "pdf_pages": [
+              9,
+              10
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q03",
+              "question_number": 3,
+              "prompt": "ADDRESS: 3 ____________, Westsea",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 44,
+                  "start": 9,
+                  "end": 23,
+                  "text": "ADDRESS: 3 ____________, Westsea",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q04",
+              "question_number": 4,
+              "prompt": "POSTCODE: 4 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 45,
+                  "start": 10,
+                  "end": 24,
+                  "text": "POSTCODE: 4 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q05",
+              "question_number": 5,
+              "prompt": "TELEPHONE: 5 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 46,
+                  "start": 11,
+                  "end": 25,
+                  "text": "TELEPHONE: 5 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q06",
+              "question_number": 6,
+              "prompt": "17 June    | Singer (price includes 6 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 50,
+                  "start": 36,
+                  "end": 50,
+                  "text": "17 June    | Singer (price includes 6 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q07",
+              "question_number": 7,
+              "prompt": "22 June    | 7 ____________ (Anna Ventura)              | £7.00            | 1",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 52,
+                  "start": 13,
+                  "end": 27,
+                  "text": "22 June    | 7 ____________ (Anna Ventura)              | £7.00            | 1",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q08",
+              "question_number": 8,
+              "prompt": "23 June    | Spanish Dance & Guitar Concert             | 8 £____________  | 9 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 53,
+                  "start": 58,
+                  "end": 73,
+                  "text": "23 June    | Spanish Dance & Guitar Concert             | 8 £____________  | 9 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q09",
+              "question_number": 9,
+              "prompt": "23 June    | Spanish Dance & Guitar Concert             | 8 £____________  | 9 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 53,
+                  "start": 77,
+                  "end": 91,
+                  "text": "23 June    | Spanish Dance & Guitar Concert             | 8 £____________  | 9 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-08-test-01-q10",
+              "question_number": 10,
+              "prompt": "NB Children / Students / Senior Citizens have 10 ____________ discount on all tickets.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 55,
+                  "start": 46,
+                  "end": 61,
+                  "text": "NB Children / Students / Senior Citizens have 10 ____________ discount on all tickets.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+                  "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+          "question_range": [
+            1,
+            10
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e",
+          "question_range": [
+            1,
+            10
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-5a94b2e109e1e09a0e99fe3f2671d3cf6b6841a99dd1f6345531b24d6e19fa20"
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+        "line_start": 58,
+        "line_end": 99,
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb",
+        "asset-8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201"
+      ],
+      "audio_mapping_key": {
+        "book": 8,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-08-test-01-p2-g11-15",
+          "question_range": [
+            11,
+            15
+          ],
+          "question_type": "sentence_completion",
+          "instructions": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb",
+            "asset-8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the sentences below.",
+              "source_line": 64,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 65,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The Dinosaur Museum",
+              "source_line": 67,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. The museum closes at ____________ p.m. on Mondays.",
+              "source_line": 68,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12. The museum is not open on ____________.",
+              "source_line": 69,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. School groups are met by tour guides in the ____________.",
+              "source_line": 70,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14. The whole visit takes 90 minutes, including ____________ minutes for the guided tour.",
+              "source_line": 71,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. There are ____________ behind the museum where students can have lunch.",
+              "source_line": 72,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q15"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 63,
+            "line_end": 73,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q11",
+              "question_number": 11,
+              "prompt": "11. The museum closes at ____________ p.m. on Mondays.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 68,
+                  "start": 0,
+                  "end": 54,
+                  "text": "11. The museum closes at ____________ p.m. on Mondays.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q12",
+              "question_number": 12,
+              "prompt": "12. The museum is not open on ____________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 69,
+                  "start": 0,
+                  "end": 43,
+                  "text": "12. The museum is not open on ____________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q13",
+              "question_number": 13,
+              "prompt": "13. School groups are met by tour guides in the ____________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 70,
+                  "start": 0,
+                  "end": 61,
+                  "text": "13. School groups are met by tour guides in the ____________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q14",
+              "question_number": 14,
+              "prompt": "14. The whole visit takes 90 minutes, including ____________ minutes for the guided tour.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 71,
+                  "start": 0,
+                  "end": 89,
+                  "text": "14. The whole visit takes 90 minutes, including ____________ minutes for the guided tour.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q15",
+              "question_number": 15,
+              "prompt": "15. There are ____________ behind the museum where students can have lunch.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 72,
+                  "start": 0,
+                  "end": 75,
+                  "text": "15. There are ____________ behind the museum where students can have lunch.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-08-test-01-p2-g16-18",
+          "question_range": [
+            16,
+            18
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose THREE letters, A–G.\nWhich THREE things can students have with them in the museum?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose THREE letters, A–G.\nWhich THREE things can students have with them in the museum?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-08-test-01-p2-g16-18-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "food",
+                "source_line": 77
+              },
+              {
+                "label": "B",
+                "text": "water",
+                "source_line": 78
+              },
+              {
+                "label": "C",
+                "text": "cameras",
+                "source_line": 79
+              },
+              {
+                "label": "D",
+                "text": "books",
+                "source_line": 80
+              },
+              {
+                "label": "E",
+                "text": "bags",
+                "source_line": 81
+              },
+              {
+                "label": "F",
+                "text": "pens",
+                "source_line": 82
+              },
+              {
+                "label": "G",
+                "text": "worksheets",
+                "source_line": 83
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              16,
+              17,
+              18
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 3,
+            "maximum_selected": 3
+          },
+          "supporting_assets": [
+            "asset-70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb",
+            "asset-8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose THREE letters, A–G.",
+              "source_line": 75,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which THREE things can students have with them in the museum?",
+              "source_line": 76,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A food",
+              "source_line": 77,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B water",
+              "source_line": 78,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C cameras",
+              "source_line": 79,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  D books",
+              "source_line": 80,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  E bags",
+              "source_line": 81,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  F pens",
+              "source_line": 82,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  G worksheets",
+              "source_line": 83,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16. ____________",
+              "source_line": 84,
+              "blanks": [
+                {
+                  "question_number": 16,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "17. ____________",
+              "source_line": 85,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "18. ____________",
+              "source_line": 86,
+              "blanks": [
+                {
+                  "question_number": 18,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 74,
+            "line_end": 87,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q16",
+              "question_number": 16,
+              "prompt": "16. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p2-g16-18-bank",
+              "blank_references": [
+                {
+                  "line": 84,
+                  "start": 0,
+                  "end": 16,
+                  "text": "16. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE things can students have with them in the museum?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q17",
+              "question_number": 17,
+              "prompt": "17. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p2-g16-18-bank",
+              "blank_references": [
+                {
+                  "line": 85,
+                  "start": 0,
+                  "end": 16,
+                  "text": "17. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE things can students have with them in the museum?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q18",
+              "question_number": 18,
+              "prompt": "18. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p2-g16-18-bank",
+              "blank_references": [
+                {
+                  "line": 86,
+                  "start": 0,
+                  "end": 16,
+                  "text": "18. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE things can students have with them in the museum?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-08-test-01-p2-g19-20",
+          "question_range": [
+            19,
+            20
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO activities can students do after the tour at present?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO activities can students do after the tour at present?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-08-test-01-p2-g19-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "build model dinosaurs",
+                "source_line": 91
+              },
+              {
+                "label": "B",
+                "text": "watch films",
+                "source_line": 92
+              },
+              {
+                "label": "C",
+                "text": "draw dinosaurs",
+                "source_line": 93
+              },
+              {
+                "label": "D",
+                "text": "find dinosaur eggs",
+                "source_line": 94
+              },
+              {
+                "label": "E",
+                "text": "play computer games",
+                "source_line": 95
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              19,
+              20
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 89,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO activities can students do after the tour at present?",
+              "source_line": 90,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A build model dinosaurs",
+              "source_line": 91,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B watch films",
+              "source_line": 92,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C draw dinosaurs",
+              "source_line": 93,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  D find dinosaur eggs",
+              "source_line": 94,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  E play computer games",
+              "source_line": 95,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. ____________",
+              "source_line": 96,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "20. ____________",
+              "source_line": 97,
+              "blanks": [
+                {
+                  "question_number": 20,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 88,
+            "line_end": 99,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q19",
+              "question_number": 19,
+              "prompt": "19. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 96,
+                  "start": 0,
+                  "end": 16,
+                  "text": "19. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO activities can students do after the tour at present?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q20",
+              "question_number": 20,
+              "prompt": "20. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p2-g19-20-bank",
+              "blank_references": [
+                {
+                  "line": 97,
+                  "start": 0,
+                  "end": 16,
+                  "text": "20. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO activities can students do after the tour at present?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb",
+          "question_range": [
+            11,
+            18
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201",
+          "question_range": [
+            13,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+        "line_start": 100,
+        "line_end": 150,
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-4eea84dd076b92b700e5e936ad45174ce2c3e039c745e5a662dcada3780ee741",
+        "asset-a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e"
+      ],
+      "audio_mapping_key": {
+        "book": 8,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-08-test-01-p3-g21-24",
+          "question_range": [
+            21,
+            24
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-4eea84dd076b92b700e5e936ad45174ce2c3e039c745e5a662dcada3780ee741"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 106,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Field Trip Proposal",
+              "source_line": 108,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. The tutor thinks that Sandra's proposal",
+              "source_line": 109,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A should be re-ordered in some parts.",
+              "source_line": 110,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B needs a contents page.",
+              "source_line": 111,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C ought to include more information.",
+              "source_line": 112,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22. The proposal would be easier to follow if Sandra",
+              "source_line": 114,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A inserted subheadings.",
+              "source_line": 115,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B used more paragraphs.",
+              "source_line": 116,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C shortened her sentences.",
+              "source_line": 117,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. What was the problem with the formatting on Sandra's proposal?",
+              "source_line": 119,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A Separate points were not clearly identified.",
+              "source_line": 120,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B The headings were not always clear.",
+              "source_line": 121,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C Page numbering was not used in an appropriate way.",
+              "source_line": 122,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24. Sandra became interested in visiting the Navajo National Park through",
+              "source_line": 124,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A articles she read.",
+              "source_line": 125,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B movies she saw as a child.",
+              "source_line": 126,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C photographs she found on the internet.",
+              "source_line": 127,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q24"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 105,
+            "line_end": 128,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q21",
+              "question_number": 21,
+              "prompt": "21. The tutor thinks that Sandra's proposal",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "should be re-ordered in some parts.",
+                  "source_line": 110
+                },
+                {
+                  "label": "B",
+                  "text": "needs a contents page.",
+                  "source_line": 111
+                },
+                {
+                  "label": "C",
+                  "text": "ought to include more information.",
+                  "source_line": 112
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 109,
+                  "start": 0,
+                  "end": 43,
+                  "text": "21. The tutor thinks that Sandra's proposal",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q22",
+              "question_number": 22,
+              "prompt": "22. The proposal would be easier to follow if Sandra",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "inserted subheadings.",
+                  "source_line": 115
+                },
+                {
+                  "label": "B",
+                  "text": "used more paragraphs.",
+                  "source_line": 116
+                },
+                {
+                  "label": "C",
+                  "text": "shortened her sentences.",
+                  "source_line": 117
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 114,
+                  "start": 0,
+                  "end": 52,
+                  "text": "22. The proposal would be easier to follow if Sandra",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q23",
+              "question_number": 23,
+              "prompt": "23. What was the problem with the formatting on Sandra's proposal?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Separate points were not clearly identified.",
+                  "source_line": 120
+                },
+                {
+                  "label": "B",
+                  "text": "The headings were not always clear.",
+                  "source_line": 121
+                },
+                {
+                  "label": "C",
+                  "text": "Page numbering was not used in an appropriate way.",
+                  "source_line": 122
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 119,
+                  "start": 0,
+                  "end": 66,
+                  "text": "23. What was the problem with the formatting on Sandra's proposal?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q24",
+              "question_number": 24,
+              "prompt": "24. Sandra became interested in visiting the Navajo National Park through",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "articles she read.",
+                  "source_line": 125
+                },
+                {
+                  "label": "B",
+                  "text": "movies she saw as a child.",
+                  "source_line": 126
+                },
+                {
+                  "label": "C",
+                  "text": "photographs she found on the internet.",
+                  "source_line": 127
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 124,
+                  "start": 0,
+                  "end": 73,
+                  "text": "24. Sandra became interested in visiting the Navajo National Park through",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-08-test-01-p3-g25-27",
+          "question_range": [
+            25,
+            27
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose THREE letters, A–G.\nWhich THREE topics does Sandra agree to include in the proposal?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose THREE letters, A–G.\nWhich THREE topics does Sandra agree to include in the proposal?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-08-test-01-p3-g25-27-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "climate change",
+                "source_line": 132
+              },
+              {
+                "label": "B",
+                "text": "field trip activities",
+                "source_line": 133
+              },
+              {
+                "label": "C",
+                "text": "geographical features",
+                "source_line": 134
+              },
+              {
+                "label": "D",
+                "text": "impact of tourism",
+                "source_line": 135
+              },
+              {
+                "label": "E",
+                "text": "myths and legends",
+                "source_line": 136
+              },
+              {
+                "label": "F",
+                "text": "plant and animal life",
+                "source_line": 137
+              },
+              {
+                "label": "G",
+                "text": "social history",
+                "source_line": 138
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              25,
+              26,
+              27
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 3,
+            "maximum_selected": 3
+          },
+          "supporting_assets": [
+            "asset-a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose THREE letters, A–G.",
+              "source_line": 130,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which THREE topics does Sandra agree to include in the proposal?",
+              "source_line": 131,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  A climate change",
+              "source_line": 132,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  B field trip activities",
+              "source_line": 133,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  C geographical features",
+              "source_line": 134,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  D impact of tourism",
+              "source_line": 135,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  E myths and legends",
+              "source_line": 136,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  F plant and animal life",
+              "source_line": 137,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  G social history",
+              "source_line": 138,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. ____________",
+              "source_line": 139,
+              "blanks": [
+                {
+                  "question_number": 25,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "26. ____________",
+              "source_line": 140,
+              "blanks": [
+                {
+                  "question_number": 26,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "27. ____________",
+              "source_line": 141,
+              "blanks": [
+                {
+                  "question_number": 27,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 129,
+            "line_end": 142,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q25",
+              "question_number": 25,
+              "prompt": "25. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p3-g25-27-bank",
+              "blank_references": [
+                {
+                  "line": 139,
+                  "start": 0,
+                  "end": 16,
+                  "text": "25. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE topics does Sandra agree to include in the proposal?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q26",
+              "question_number": 26,
+              "prompt": "26. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p3-g25-27-bank",
+              "blank_references": [
+                {
+                  "line": 140,
+                  "start": 0,
+                  "end": 16,
+                  "text": "26. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE topics does Sandra agree to include in the proposal?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q27",
+              "question_number": 27,
+              "prompt": "27. ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-08-test-01-p3-g25-27-bank",
+              "blank_references": [
+                {
+                  "line": 141,
+                  "start": 0,
+                  "end": 16,
+                  "text": "27. ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose THREE letters, A–G.\nWhich THREE topics does Sandra agree to include in the proposal?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-08-test-01-p3-g28-30",
+          "question_range": [
+            28,
+            30
+          ],
+          "question_type": "sentence_completion",
+          "instructions": "Complete the sentences below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the sentences below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the sentences below.",
+              "source_line": 144,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 145,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. The tribal park covers ____________ hectares.",
+              "source_line": 146,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. Sandra suggests that they share the ____________ for transport.",
+              "source_line": 147,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. She says they could also explore the local ____________.",
+              "source_line": 148,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-08-test-01-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 143,
+            "line_end": 150,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q28",
+              "question_number": 28,
+              "prompt": "28. The tribal park covers ____________ hectares.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 146,
+                  "start": 0,
+                  "end": 49,
+                  "text": "28. The tribal park covers ____________ hectares.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q29",
+              "question_number": 29,
+              "prompt": "29. Sandra suggests that they share the ____________ for transport.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 147,
+                  "start": 0,
+                  "end": 67,
+                  "text": "29. Sandra suggests that they share the ____________ for transport.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q30",
+              "question_number": 30,
+              "prompt": "30. She says they could also explore the local ____________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 148,
+                  "start": 0,
+                  "end": 60,
+                  "text": "30. She says they could also explore the local ____________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-4eea84dd076b92b700e5e936ad45174ce2c3e039c745e5a662dcada3780ee741",
+          "question_range": [
+            21,
+            24
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e",
+          "question_range": [
+            25,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+        "line_start": 151,
+        "line_end": 189,
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-b809d6a3e472db36340048cbb75d333251d20fe3118f0ee39c2a27e13f6d8820",
+        "asset-853e3a2aa3312059e0ffb9b3322e4ced197b0b7c2ac4e9e58eabaa22cb98a0fd"
+      ],
+      "audio_mapping_key": {
+        "book": 8,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-08-test-01-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-b809d6a3e472db36340048cbb75d333251d20fe3118f0ee39c2a27e13f6d8820",
+            "asset-853e3a2aa3312059e0ffb9b3322e4ced197b0b7c2ac4e9e58eabaa22cb98a0fd"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 156,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 157,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Geography",
+              "source_line": 159,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Studying geography helps us to understand:",
+              "source_line": 160,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• the effects of different processes on the 31 ____________ of the Earth",
+              "source_line": 161,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 44,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• the dynamic between 32 ____________ and population",
+              "source_line": 162,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 22,
+                  "end": 37
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Two main branches of study:",
+              "source_line": 164,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• physical features",
+              "source_line": 165,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• human lifestyles and their 33 ____________",
+              "source_line": 166,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 29,
+                  "end": 44
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Specific study areas: biophysical, topographic, political, social, economic,",
+              "source_line": 168,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "historical and 34 ____________ geography, and also cartography",
+              "source_line": 169,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 15,
+                  "end": 30
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Key point: geography helps us to understand our surroundings and the",
+              "source_line": 171,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "associated 35 ____________",
+              "source_line": 172,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 11,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "What do geographers do?",
+              "source_line": 174,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• find data — e.g. conduct censuses, collect information in the form of",
+              "source_line": 175,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  36 ____________ using computer and satellite technology",
+              "source_line": 176,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 2,
+                  "end": 17
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• analyse data — identify 37 ____________, e.g. cause and effect",
+              "source_line": 177,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 26,
+                  "end": 41
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• publish findings in form of:",
+              "source_line": 178,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  a) maps",
+              "source_line": 179,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "     — easy to carry",
+              "source_line": 180,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "     — can show physical features of large and small areas",
+              "source_line": 181,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "     — BUT a two-dimensional map will always have some 38 ____________",
+              "source_line": 182,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 55,
+                  "end": 70
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  b) aerial photos",
+              "source_line": 183,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "     — can show vegetation problems, 39 ____________ density, ocean floor etc.",
+              "source_line": 184,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 37,
+                  "end": 52
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  c) Landsat pictures sent to receiving stations",
+              "source_line": 185,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "     — used for monitoring 40 ____________ conditions etc.",
+              "source_line": 186,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 27,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_08/Cambridge_IELTS_08_Listening.txt",
+            "line_start": 152,
+            "line_end": 189,
+            "pdf_pages": [
+              15,
+              16
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-08-test-01-q31",
+              "question_number": 31,
+              "prompt": "• the effects of different processes on the 31 ____________ of the Earth",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 161,
+                  "start": 44,
+                  "end": 59,
+                  "text": "• the effects of different processes on the 31 ____________ of the Earth",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q32",
+              "question_number": 32,
+              "prompt": "• the dynamic between 32 ____________ and population",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 162,
+                  "start": 22,
+                  "end": 37,
+                  "text": "• the dynamic between 32 ____________ and population",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q33",
+              "question_number": 33,
+              "prompt": "• human lifestyles and their 33 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 166,
+                  "start": 29,
+                  "end": 44,
+                  "text": "• human lifestyles and their 33 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q34",
+              "question_number": 34,
+              "prompt": "historical and 34 ____________ geography, and also cartography",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 169,
+                  "start": 15,
+                  "end": 30,
+                  "text": "historical and 34 ____________ geography, and also cartography",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q35",
+              "question_number": 35,
+              "prompt": "associated 35 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 172,
+                  "start": 11,
+                  "end": 26,
+                  "text": "associated 35 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q36",
+              "question_number": 36,
+              "prompt": "36 ____________ using computer and satellite technology",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 176,
+                  "start": 2,
+                  "end": 17,
+                  "text": "  36 ____________ using computer and satellite technology",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q37",
+              "question_number": 37,
+              "prompt": "• analyse data — identify 37 ____________, e.g. cause and effect",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 177,
+                  "start": 26,
+                  "end": 41,
+                  "text": "• analyse data — identify 37 ____________, e.g. cause and effect",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q38",
+              "question_number": 38,
+              "prompt": "— BUT a two-dimensional map will always have some 38 ____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 182,
+                  "start": 55,
+                  "end": 70,
+                  "text": "     — BUT a two-dimensional map will always have some 38 ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q39",
+              "question_number": 39,
+              "prompt": "— can show vegetation problems, 39 ____________ density, ocean floor etc.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 184,
+                  "start": 37,
+                  "end": 52,
+                  "text": "     — can show vegetation problems, 39 ____________ density, ocean floor etc.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-08-test-01-q40",
+              "question_number": 40,
+              "prompt": "— used for monitoring 40 ____________ conditions etc.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 186,
+                  "start": 27,
+                  "end": 42,
+                  "text": "     — used for monitoring 40 ____________ conditions etc.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\nWhat do geographers do?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-b809d6a3e472db36340048cbb75d333251d20fe3118f0ee39c2a27e13f6d8820",
+          "question_range": [
+            31,
+            37
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-853e3a2aa3312059e0ffb9b3322e4ced197b0b7c2ac4e9e58eabaa22cb98a0fd",
+          "question_range": [
+            38,
+            40
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-4eea84dd076b92b700e5e936ad45174ce2c3e039c745e5a662dcada3780ee741",
+      "relative_path": "assets/public/4eea84dd076b92b700e5e936ad45174ce2c3e039c745e5a662dcada3780ee741.png",
+      "sha256": "4eea84dd076b92b700e5e936ad45174ce2c3e039c745e5a662dcada3780ee741",
+      "byte_size": 286222,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-5a94b2e109e1e09a0e99fe3f2671d3cf6b6841a99dd1f6345531b24d6e19fa20",
+      "relative_path": "assets/public/5a94b2e109e1e09a0e99fe3f2671d3cf6b6841a99dd1f6345531b24d6e19fa20.png",
+      "sha256": "5a94b2e109e1e09a0e99fe3f2671d3cf6b6841a99dd1f6345531b24d6e19fa20",
+      "byte_size": 173178,
+      "width": 1658,
+      "height": 1801
+    },
+    {
+      "asset_id": "asset-70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb",
+      "relative_path": "assets/public/70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb.png",
+      "sha256": "70d249cfaab68fbdd79843d3bdfdb13fc555575e45f2a3837d1b1c56aae93ddb",
+      "byte_size": 279769,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-853e3a2aa3312059e0ffb9b3322e4ced197b0b7c2ac4e9e58eabaa22cb98a0fd",
+      "relative_path": "assets/public/853e3a2aa3312059e0ffb9b3322e4ced197b0b7c2ac4e9e58eabaa22cb98a0fd.png",
+      "sha256": "853e3a2aa3312059e0ffb9b3322e4ced197b0b7c2ac4e9e58eabaa22cb98a0fd",
+      "byte_size": 202245,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201",
+      "relative_path": "assets/public/8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201.png",
+      "sha256": "8ec70fb94a322b6a4d516eeaa4273586fd675612d0d828e5f8a3e320dcfc2201",
+      "byte_size": 145693,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e",
+      "relative_path": "assets/public/91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e.png",
+      "sha256": "91ba6a4bd5b7ee1fb8e4912bbb23cf8399af1c8d43f7c3be8eaef13e6b48513e",
+      "byte_size": 282063,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e",
+      "relative_path": "assets/public/a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e.png",
+      "sha256": "a43b0b429c52dc7e7837dd2a81ff3125f875063d993aa62f986d5f3d5e1ce82e",
+      "byte_size": 220166,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-b809d6a3e472db36340048cbb75d333251d20fe3118f0ee39c2a27e13f6d8820",
+      "relative_path": "assets/public/b809d6a3e472db36340048cbb75d333251d20fe3118f0ee39c2a27e13f6d8820.png",
+      "sha256": "b809d6a3e472db36340048cbb75d333251d20fe3118f0ee39c2a27e13f6d8820",
+      "byte_size": 312110,
+      "width": 1928,
+      "height": 2730
+    },
+    {
+      "asset_id": "asset-c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+      "relative_path": "assets/public/c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391.png",
+      "sha256": "c3ff82fad967ec0476ac5efed57bd3ca26c1f9f1e3cf54f17413135d8fd8f391",
+      "byte_size": 206424,
+      "width": 1928,
+      "height": 2730
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

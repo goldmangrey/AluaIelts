@@ -1,0 +1,15 @@
+/* The native range remains the full-size keyboard/touch seek target. */
+.waveSeek{position:relative;display:flex;align-items:center;flex:1;min-width:0;height:44px;border-radius:10px}
+.waveSeek input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer;z-index:1}
+.waveSeek:has(input:focus-visible){outline:2px solid #65ac92;outline-offset:3px;background:#087f6305}
+.capsules{display:block;width:100%;height:32px;overflow:visible;pointer-events:none}
+.capsules line{stroke-width:5;stroke-linecap:round;transform-box:fill-box;transform-origin:center}
+.capsules [data-waveform-progress]{transition:width .2s linear}
+.remaining{stroke:#dce7e1}
+.played{stroke:#128469}
+.played line{animation:capsuleBreathe 2.4s ease-in-out infinite alternate;animation-delay:var(--capsule-delay);animation-play-state:paused}
+.waveSeek[data-playing=true] .played line{animation-play-state:running}
+.waveSeek:hover .remaining{stroke:#cbdcd3}
+@keyframes capsuleBreathe{from{transform:scaleY(.9)}to{transform:scaleY(1.06)}}
+@media(max-width:600px){.capsules line:nth-child(even){display:none}.capsules line{stroke-width:3}.capsules{height:28px}}
+@media(prefers-reduced-motion:reduce){.played line{animation:none}.capsules [data-waveform-progress]{transition:none}}

@@ -9,6 +9,7 @@ from app.modules.exercises.router import router as exercises_router
 from app.modules.grammar.router import router as grammar_router
 from app.modules.learning_events.router import router as learning_events_router
 from app.modules.learning_quality.router import router as learning_quality_router
+from app.modules.listening.router import router as listening_router
 from app.modules.mastery.router import router as mastery_router
 from app.modules.partner.router import router as partner_router
 from app.modules.progress.router import router as progress_router
@@ -25,6 +26,7 @@ from app.shared.schemas import HealthResponse
 api_router = APIRouter()
 api_router.include_router(registration_router)
 api_router.include_router(reading_router)
+api_router.include_router(listening_router)
 api_router.include_router(study_router)
 api_router.include_router(learning_quality_router)
 root_router = APIRouter()

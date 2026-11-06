@@ -1,0 +1,3357 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-07-test-04",
+  "book": 7,
+  "printed_test_number": 4,
+  "local_ordinal": 4,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 606,
+        "line_end": 640,
+        "pdf_pages": [
+          85,
+          86
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-04-p1-g01-06",
+          "question_range": [
+            1,
+            6
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 3,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+            "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+            "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 610,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+              "source_line": 611,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "HOMESTAY APPLICATION",
+              "source_line": 613,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example — Surname: Yuichini",
+              "source_line": 614,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "First name: [1] ____________________",
+              "source_line": 615,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 12,
+                  "end": 36
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Sex: female                      Nationality: Japanese",
+              "source_line": 616,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Passport number: [2] ____________________    Age: 28 years",
+              "source_line": 617,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 17,
+                  "end": 41
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Present address: Room 21C, Willow College",
+              "source_line": 618,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Length of homestay: approx [3] ____________________",
+              "source_line": 619,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 27,
+                  "end": 51
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Course enrolled in: [4] ____________________",
+              "source_line": 620,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 20,
+                  "end": 44
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Family preferences:",
+              "source_line": 621,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    no [5] ____________________",
+              "source_line": 622,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 7,
+                  "end": 31
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    no objection to [6] ____________________",
+              "source_line": 623,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 20,
+                  "end": 44
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 609,
+            "line_end": 624,
+            "pdf_pages": [
+              85,
+              86
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q01",
+              "question_number": 1,
+              "prompt": "First name: [1] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 615,
+                  "start": 12,
+                  "end": 36,
+                  "text": "First name: [1] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+                  "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+                  "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q02",
+              "question_number": 2,
+              "prompt": "Passport number: [2] ____________________    Age: 28 years",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 617,
+                  "start": 17,
+                  "end": 41,
+                  "text": "Passport number: [2] ____________________    Age: 28 years",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+                  "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+                  "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q03",
+              "question_number": 3,
+              "prompt": "Length of homestay: approx [3] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 619,
+                  "start": 27,
+                  "end": 51,
+                  "text": "Length of homestay: approx [3] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+                  "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+                  "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q04",
+              "question_number": 4,
+              "prompt": "Course enrolled in: [4] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 620,
+                  "start": 20,
+                  "end": 44,
+                  "text": "Course enrolled in: [4] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+                  "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+                  "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q05",
+              "question_number": 5,
+              "prompt": "no [5] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 622,
+                  "start": 7,
+                  "end": 31,
+                  "text": "    no [5] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+                  "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+                  "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q06",
+              "question_number": 6,
+              "prompt": "no objection to [6] ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 623,
+                  "start": 20,
+                  "end": 44,
+                  "text": "    no objection to [6] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 3,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+                  "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+                  "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-04-p1-g07-10",
+          "question_range": [
+            7,
+            10
+          ],
+          "question_type": "short_answer",
+          "instructions": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Answer the questions below.",
+              "source_line": 626,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 627,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "7. What does the student particularly like to eat?",
+              "source_line": 629,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   [7] ____________________",
+              "source_line": 630,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 3,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "8. What sport does the student play?",
+              "source_line": 631,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   [8] ____________________",
+              "source_line": 632,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 3,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "9. What mode of transport does the student prefer?",
+              "source_line": 633,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   [9] ____________________",
+              "source_line": 634,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 3,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "10. When will the student find out her homestay address?",
+              "source_line": 635,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    [10] ____________________",
+              "source_line": 636,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 4,
+                  "end": 29
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 625,
+            "line_end": 640,
+            "pdf_pages": [
+              85,
+              86
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q07",
+              "question_number": 7,
+              "prompt": "7. What does the student particularly like to eat?",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 629,
+                  "start": 0,
+                  "end": 50,
+                  "text": "7. What does the student particularly like to eat?",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 630,
+                  "start": 3,
+                  "end": 27,
+                  "text": "   [7] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q08",
+              "question_number": 8,
+              "prompt": "8. What sport does the student play?",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 631,
+                  "start": 0,
+                  "end": 36,
+                  "text": "8. What sport does the student play?",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 632,
+                  "start": 3,
+                  "end": 27,
+                  "text": "   [8] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q09",
+              "question_number": 9,
+              "prompt": "9. What mode of transport does the student prefer?",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 633,
+                  "start": 0,
+                  "end": 50,
+                  "text": "9. What mode of transport does the student prefer?",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 634,
+                  "start": 3,
+                  "end": 27,
+                  "text": "   [9] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q10",
+              "question_number": 10,
+              "prompt": "10. When will the student find out her homestay address?",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 635,
+                  "start": 0,
+                  "end": 56,
+                  "text": "10. When will the student find out her homestay address?",
+                  "kind": "numbered_row"
+                },
+                {
+                  "line": 636,
+                  "start": 4,
+                  "end": 29,
+                  "text": "    [10] ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 641,
+        "line_end": 694,
+        "pdf_pages": [
+          87,
+          88
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+        "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+        "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+        "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-04-p2-g11-14",
+          "question_range": [
+            11,
+            14
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 645,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. What kind of tour is Sally leading?",
+              "source_line": 647,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A a bus tour",
+              "source_line": 648,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B a train tour",
+              "source_line": 649,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C a walking tour",
+              "source_line": 650,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12. The original buildings on the site were",
+              "source_line": 652,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A houses.",
+              "source_line": 653,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B industrial buildings.",
+              "source_line": 654,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C shops.",
+              "source_line": 655,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. The local residents wanted to use the site for",
+              "source_line": 657,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A leisure.",
+              "source_line": 658,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B apartment blocks.",
+              "source_line": 659,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C a sports centre.",
+              "source_line": 660,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14. The Tower is at the centre of the",
+              "source_line": 662,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A nature reserve.",
+              "source_line": 663,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B formal gardens.",
+              "source_line": 664,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C Bicentennial Park.",
+              "source_line": 665,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q14"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 644,
+            "line_end": 666,
+            "pdf_pages": [
+              87,
+              88
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q11",
+              "question_number": 11,
+              "prompt": "11. What kind of tour is Sally leading?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "a bus tour",
+                  "source_line": 648
+                },
+                {
+                  "label": "B",
+                  "text": "a train tour",
+                  "source_line": 649
+                },
+                {
+                  "label": "C",
+                  "text": "a walking tour",
+                  "source_line": 650
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 647,
+                  "start": 0,
+                  "end": 39,
+                  "text": "11. What kind of tour is Sally leading?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q12",
+              "question_number": 12,
+              "prompt": "12. The original buildings on the site were",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "houses.",
+                  "source_line": 653
+                },
+                {
+                  "label": "B",
+                  "text": "industrial buildings.",
+                  "source_line": 654
+                },
+                {
+                  "label": "C",
+                  "text": "shops.",
+                  "source_line": 655
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 652,
+                  "start": 0,
+                  "end": 43,
+                  "text": "12. The original buildings on the site were",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q13",
+              "question_number": 13,
+              "prompt": "13. The local residents wanted to use the site for",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "leisure.",
+                  "source_line": 658
+                },
+                {
+                  "label": "B",
+                  "text": "apartment blocks.",
+                  "source_line": 659
+                },
+                {
+                  "label": "C",
+                  "text": "a sports centre.",
+                  "source_line": 660
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 657,
+                  "start": 0,
+                  "end": 50,
+                  "text": "13. The local residents wanted to use the site for",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q14",
+              "question_number": 14,
+              "prompt": "14. The Tower is at the centre of the",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "nature reserve.",
+                  "source_line": 663
+                },
+                {
+                  "label": "B",
+                  "text": "formal gardens.",
+                  "source_line": 664
+                },
+                {
+                  "label": "C",
+                  "text": "Bicentennial Park.",
+                  "source_line": 665
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 662,
+                  "start": 0,
+                  "end": 37,
+                  "text": "14. The Tower is at the centre of the",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-04-p2-g15-17",
+          "question_range": [
+            15,
+            17
+          ],
+          "question_type": "plan_labelling",
+          "instructions": "Label the plan below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the plan below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+            "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+            "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+            "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the plan below.",
+              "source_line": 668,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 669,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "OLYMPIC SITE / NATURE RESERVE PLAN",
+              "source_line": 671,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The original plan includes a lake, island, Stadium, Swimming Pool, Indoor Arena,",
+              "source_line": 672,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Station, Tower ('You are here'), benches and pond. The three blanks are at:",
+              "source_line": 673,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. Building next to the railway line, south of the station: [15] ______________",
+              "source_line": 674,
+              "blanks": [
+                {
+                  "question_number": 15,
+                  "start": 61,
+                  "end": 80
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "16. Curved seating / benches area southwest of the Tower: [16] _______________",
+              "source_line": 675,
+              "blanks": [
+                {
+                  "question_number": 16,
+                  "start": 58,
+                  "end": 78
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "17. Square structure beside the lake, west of the island: [17] _______________",
+              "source_line": 676,
+              "blanks": [
+                {
+                  "question_number": 17,
+                  "start": 58,
+                  "end": 78
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Note: positions and spatial relationships are authoritative in the preserved image.",
+              "source_line": 679,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 667,
+            "line_end": 680,
+            "pdf_pages": [
+              87,
+              88
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q15",
+              "question_number": 15,
+              "prompt": "15. Building next to the railway line, south of the station: [15] ______________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 674,
+                  "start": 61,
+                  "end": 80,
+                  "text": "15. Building next to the railway line, south of the station: [15] ______________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+                  "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+                  "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+                  "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q16",
+              "question_number": 16,
+              "prompt": "16. Curved seating / benches area southwest of the Tower: [16] _______________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 675,
+                  "start": 58,
+                  "end": 78,
+                  "text": "16. Curved seating / benches area southwest of the Tower: [16] _______________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+                  "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+                  "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+                  "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q17",
+              "question_number": 17,
+              "prompt": "17. Square structure beside the lake, west of the island: [17] _______________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 676,
+                  "start": 58,
+                  "end": 78,
+                  "text": "17. Square structure beside the lake, west of the island: [17] _______________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+                  "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+                  "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+                  "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-04-p2-g18-20",
+          "question_range": [
+            18,
+            20
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+            "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+            "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+            "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 682,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 683,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "NATURE RESERVE",
+              "source_line": 685,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Area                  | Feature           | Activity",
+              "source_line": 686,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "----------------------|-------------------|-------------------------",
+              "source_line": 687,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The Mangroves         | boardwalk         | [18] __________________",
+              "source_line": 688,
+              "blanks": [
+                {
+                  "question_number": 18,
+                  "start": 44,
+                  "end": 67
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Frog Pond             | outdoor classroom | [19] __________________",
+              "source_line": 689,
+              "blanks": [
+                {
+                  "question_number": 19,
+                  "start": 44,
+                  "end": 67
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "The Waterbird Refuge  | [20] ____________ | bird watching",
+              "source_line": 690,
+              "blanks": [
+                {
+                  "question_number": 20,
+                  "start": 24,
+                  "end": 41
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 686,
+                "cells": [
+                  {
+                    "text": "Area",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Feature",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Activity",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 688,
+                "cells": [
+                  {
+                    "text": "The Mangroves",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "boardwalk",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "[18] __________________",
+                    "question_numbers": [
+                      18
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 689,
+                "cells": [
+                  {
+                    "text": "Frog Pond",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "outdoor classroom",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "[19] __________________",
+                    "question_numbers": [
+                      19
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 690,
+                "cells": [
+                  {
+                    "text": "The Waterbird Refuge",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "[20] ____________",
+                    "question_numbers": [
+                      20
+                    ]
+                  },
+                  {
+                    "text": "bird watching",
+                    "question_numbers": []
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 681,
+            "line_end": 694,
+            "pdf_pages": [
+              87,
+              88
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q18",
+              "question_number": 18,
+              "prompt": "The Mangroves         | boardwalk         | [18] __________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 688,
+                  "start": 44,
+                  "end": 67,
+                  "text": "The Mangroves         | boardwalk         | [18] __________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+                  "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+                  "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+                  "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q19",
+              "question_number": 19,
+              "prompt": "Frog Pond             | outdoor classroom | [19] __________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 689,
+                  "start": 44,
+                  "end": 67,
+                  "text": "Frog Pond             | outdoor classroom | [19] __________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+                  "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+                  "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+                  "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q20",
+              "question_number": 20,
+              "prompt": "The Waterbird Refuge  | [20] ____________ | bird watching",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 690,
+                  "start": 24,
+                  "end": 41,
+                  "text": "The Waterbird Refuge  | [20] ____________ | bird watching",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+                  "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+                  "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+                  "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 695,
+        "line_end": 733,
+        "pdf_pages": [
+          89,
+          90
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+        "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+        "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-04-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "sentence_completion",
+          "instructions": "Complete the sentences below.\nWrite NO MORE THAN ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the sentences below.\nWrite NO MORE THAN ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the sentences below.",
+              "source_line": 699,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 700,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The presentation will last 15 minutes.",
+              "source_line": 702,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. There will be [21] ____________________ minutes for questions.",
+              "source_line": 703,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 18,
+                  "end": 43
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "22. The presentation will not be [22] ____________________.",
+              "source_line": 704,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 33,
+                  "end": 58
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 698,
+            "line_end": 705,
+            "pdf_pages": [
+              89,
+              90
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q21",
+              "question_number": 21,
+              "prompt": "21. There will be [21] ____________________ minutes for questions.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 703,
+                  "start": 18,
+                  "end": 43,
+                  "text": "21. There will be [21] ____________________ minutes for questions.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q22",
+              "question_number": 22,
+              "prompt": "22. The presentation will not be [22] ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 704,
+                  "start": 33,
+                  "end": 58,
+                  "text": "22. The presentation will not be [22] ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the sentences below.\nWrite NO MORE THAN ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-04-p3-g23-26",
+          "question_range": [
+            23,
+            26
+          ],
+          "question_type": "matching",
+          "instructions": "What do the students decide about each topic for the geography presentation?\nWrite the correct letter, A, B or C, next to questions 23–26.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What do the students decide about each topic for the geography presentation?\nWrite the correct letter, A, B or C, next to questions 23–26.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-07-test-04-p3-g23-26-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "They will definitely include this topic.",
+                "source_line": 708
+              },
+              {
+                "label": "B",
+                "text": "They might include this topic.",
+                "source_line": 709
+              },
+              {
+                "label": "C",
+                "text": "They will not include this topic.",
+                "source_line": 710
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What do the students decide about each topic for the geography presentation?",
+              "source_line": 707,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A They will definitely include this topic.",
+              "source_line": 708,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B They might include this topic.",
+              "source_line": 709,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C They will not include this topic.",
+              "source_line": 710,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A, B or C, next to questions 23–26.",
+              "source_line": 711,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. Geographical Location       [23] ______",
+              "source_line": 713,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 32,
+                  "end": 43
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "24. Economy                     [24] ______",
+              "source_line": 714,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 32,
+                  "end": 43
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "25. Overview of Education System [25] ______",
+              "source_line": 715,
+              "blanks": [
+                {
+                  "question_number": 25,
+                  "start": 33,
+                  "end": 44
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "26. Role of English Language    [26] ______",
+              "source_line": 716,
+              "blanks": [
+                {
+                  "question_number": 26,
+                  "start": 32,
+                  "end": 43
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 706,
+            "line_end": 717,
+            "pdf_pages": [
+              89,
+              90
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q23",
+              "question_number": 23,
+              "prompt": "23. Geographical Location       [23] ______",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-07-test-04-p3-g23-26-bank",
+              "blank_references": [
+                {
+                  "line": 713,
+                  "start": 32,
+                  "end": 43,
+                  "text": "23. Geographical Location       [23] ______",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What do the students decide about each topic for the geography presentation?\nWrite the correct letter, A, B or C, next to questions 23–26.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q24",
+              "question_number": 24,
+              "prompt": "24. Economy                     [24] ______",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-07-test-04-p3-g23-26-bank",
+              "blank_references": [
+                {
+                  "line": 714,
+                  "start": 32,
+                  "end": 43,
+                  "text": "24. Economy                     [24] ______",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What do the students decide about each topic for the geography presentation?\nWrite the correct letter, A, B or C, next to questions 23–26.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q25",
+              "question_number": 25,
+              "prompt": "25. Overview of Education System [25] ______",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-07-test-04-p3-g23-26-bank",
+              "blank_references": [
+                {
+                  "line": 715,
+                  "start": 33,
+                  "end": 44,
+                  "text": "25. Overview of Education System [25] ______",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What do the students decide about each topic for the geography presentation?\nWrite the correct letter, A, B or C, next to questions 23–26.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q26",
+              "question_number": 26,
+              "prompt": "26. Role of English Language    [26] ______",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-07-test-04-p3-g23-26-bank",
+              "blank_references": [
+                {
+                  "line": 716,
+                  "start": 32,
+                  "end": 43,
+                  "text": "26. Role of English Language    [26] ______",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What do the students decide about each topic for the geography presentation?\nWrite the correct letter, A, B or C, next to questions 23–26.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-04-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+            "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+            "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 719,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 720,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "INFORMATION / VISUAL AIDS",
+              "source_line": 722,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Information / visual aid                | Where from?",
+              "source_line": 723,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "----------------------------------------|-----------------------",
+              "source_line": 724,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Overhead projector                      | the [27] ___________",
+              "source_line": 725,
+              "blanks": [
+                {
+                  "question_number": 27,
+                  "start": 46,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Map of West Africa                      | the [28] ___________",
+              "source_line": 726,
+              "blanks": [
+                {
+                  "question_number": 28,
+                  "start": 46,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Map of the islands                      | a tourist brochure",
+              "source_line": 727,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Literacy figures                        | the [29] ___________",
+              "source_line": 728,
+              "blanks": [
+                {
+                  "question_number": 29,
+                  "start": 46,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "[30] ____________________ on school places | as above",
+              "source_line": 729,
+              "blanks": [
+                {
+                  "question_number": 30,
+                  "start": 0,
+                  "end": 25
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 723,
+                "cells": [
+                  {
+                    "text": "Information / visual aid",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Where from?",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 725,
+                "cells": [
+                  {
+                    "text": "Overhead projector",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "the [27] ___________",
+                    "question_numbers": [
+                      27
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 726,
+                "cells": [
+                  {
+                    "text": "Map of West Africa",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "the [28] ___________",
+                    "question_numbers": [
+                      28
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 727,
+                "cells": [
+                  {
+                    "text": "Map of the islands",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "a tourist brochure",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 728,
+                "cells": [
+                  {
+                    "text": "Literacy figures",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "the [29] ___________",
+                    "question_numbers": [
+                      29
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 729,
+                "cells": [
+                  {
+                    "text": "[30] ____________________ on school places",
+                    "question_numbers": [
+                      30
+                    ]
+                  },
+                  {
+                    "text": "as above",
+                    "question_numbers": []
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 718,
+            "line_end": 733,
+            "pdf_pages": [
+              89,
+              90
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q27",
+              "question_number": 27,
+              "prompt": "Overhead projector                      | the [27] ___________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 725,
+                  "start": 46,
+                  "end": 62,
+                  "text": "Overhead projector                      | the [27] ___________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+                  "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+                  "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3"
+                ],
+                "printed_question_number": 27,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q28",
+              "question_number": 28,
+              "prompt": "Map of West Africa                      | the [28] ___________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 726,
+                  "start": 46,
+                  "end": 62,
+                  "text": "Map of West Africa                      | the [28] ___________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+                  "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+                  "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3"
+                ],
+                "printed_question_number": 28,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q29",
+              "question_number": 29,
+              "prompt": "Literacy figures                        | the [29] ___________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 728,
+                  "start": 46,
+                  "end": 62,
+                  "text": "Literacy figures                        | the [29] ___________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+                  "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+                  "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3"
+                ],
+                "printed_question_number": 29,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-07-test-04-q30",
+              "question_number": 30,
+              "prompt": "[30] ____________________ on school places | as above",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 729,
+                  "start": 0,
+                  "end": 25,
+                  "text": "[30] ____________________ on school places | as above",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+                  "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+                  "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3"
+                ],
+                "printed_question_number": 30,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+        "line_start": 734,
+        "line_end": 782,
+        "pdf_pages": [
+          91,
+          92
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-184def73a4ef7be12da22af39cbd5c04f9ddf8d750688ce47f0f997d2b0ada55",
+        "asset-fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
+        "asset-56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e"
+      ],
+      "audio_mapping_key": {
+        "book": 7,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-07-test-04-p4-g31-33",
+          "question_range": [
+            31,
+            33
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 738,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MONOSODIUM GLUTAMATE (MSG)",
+              "source_line": 740,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "31. The speaker says the main topic of the lecture is",
+              "source_line": 742,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A the history of monosodium glutamate.",
+              "source_line": 743,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B the way monosodium glutamate works.",
+              "source_line": 744,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C where monosodium glutamate is used.",
+              "source_line": 745,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "32. In 1908, scientists in Japan",
+              "source_line": 747,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A made monosodium glutamate.",
+              "source_line": 748,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B began using kombu.",
+              "source_line": 749,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C identified glutamate.",
+              "source_line": 750,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "33. What change occurred in the manufacture of glutamate in 1956?",
+              "source_line": 752,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A It began to be manufactured on a large scale.",
+              "source_line": 753,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B The Japanese began extracting it from natural sources.",
+              "source_line": 754,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C It became much more expensive to produce.",
+              "source_line": 755,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q31"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q32"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-07-test-04-q33"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 737,
+            "line_end": 756,
+            "pdf_pages": [
+              91,
+              92
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q31",
+              "question_number": 31,
+              "prompt": "31. The speaker says the main topic of the lecture is",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the history of monosodium glutamate.",
+                  "source_line": 743
+                },
+                {
+                  "label": "B",
+                  "text": "the way monosodium glutamate works.",
+                  "source_line": 744
+                },
+                {
+                  "label": "C",
+                  "text": "where monosodium glutamate is used.",
+                  "source_line": 745
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 742,
+                  "start": 0,
+                  "end": 53,
+                  "text": "31. The speaker says the main topic of the lecture is",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q32",
+              "question_number": 32,
+              "prompt": "32. In 1908, scientists in Japan",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "made monosodium glutamate.",
+                  "source_line": 748
+                },
+                {
+                  "label": "B",
+                  "text": "began using kombu.",
+                  "source_line": 749
+                },
+                {
+                  "label": "C",
+                  "text": "identified glutamate.",
+                  "source_line": 750
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 747,
+                  "start": 0,
+                  "end": 32,
+                  "text": "32. In 1908, scientists in Japan",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q33",
+              "question_number": 33,
+              "prompt": "33. What change occurred in the manufacture of glutamate in 1956?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It began to be manufactured on a large scale.",
+                  "source_line": 753
+                },
+                {
+                  "label": "B",
+                  "text": "The Japanese began extracting it from natural sources.",
+                  "source_line": 754
+                },
+                {
+                  "label": "C",
+                  "text": "It became much more expensive to produce.",
+                  "source_line": 755
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 752,
+                  "start": 0,
+                  "end": 65,
+                  "text": "33. What change occurred in the manufacture of glutamate in 1956?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-07-test-04-p4-g34-40",
+          "question_range": [
+            34,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 758,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 759,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MONOSODIUM GLUTAMATE (MSG)",
+              "source_line": 761,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• MSG contains",
+              "source_line": 762,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – glutamate (78.2%)",
+              "source_line": 763,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – sodium (12.2%)",
+              "source_line": 764,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – [34] ____________________ (9.6%)",
+              "source_line": 765,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 6,
+                  "end": 31
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Glutamate is found in foods that contain protein such as",
+              "source_line": 766,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  [35] ____________________ and [36] ____________________.",
+              "source_line": 767,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 2,
+                  "end": 27
+                },
+                {
+                  "question_number": 36,
+                  "start": 32,
+                  "end": 57
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• MSG is used in foods in many different parts of the world.",
+              "source_line": 768,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• In 1908 Kikunae Ikeda discovered a [37] ____________________.",
+              "source_line": 769,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 37,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Our ability to detect glutamate makes sense because it is so",
+              "source_line": 770,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  [38] ____________________ naturally.",
+              "source_line": 771,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 2,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• John Prescott suggests that:",
+              "source_line": 772,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – sweetness tells us that a food contains carbohydrates.",
+              "source_line": 773,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – [39] ____________________ tells us that a food contains toxins.",
+              "source_line": 774,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 6,
+                  "end": 31
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    – sourness tells us that a food is spoiled.",
+              "source_line": 775,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    – saltiness tells us that a food contains [40] ____________________.",
+              "source_line": 776,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 46,
+                  "end": 71
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "NB The official answer key accepts Questions 35 and 36 IN EITHER ORDER.",
+              "source_line": 778,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_07/Cambridge_IELTS_07_Listening.txt",
+            "line_start": 757,
+            "line_end": 782,
+            "pdf_pages": [
+              91,
+              92
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-07-test-04-q34",
+              "question_number": 34,
+              "prompt": "– [34] ____________________ (9.6%)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 765,
+                  "start": 6,
+                  "end": 31,
+                  "text": "    – [34] ____________________ (9.6%)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q35",
+              "question_number": 35,
+              "prompt": "[35] ____________________ and [36] ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 767,
+                  "start": 2,
+                  "end": 27,
+                  "text": "  [35] ____________________ and [36] ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q36",
+              "question_number": 36,
+              "prompt": "[35] ____________________ and [36] ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 767,
+                  "start": 32,
+                  "end": 57,
+                  "text": "  [35] ____________________ and [36] ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q37",
+              "question_number": 37,
+              "prompt": "• In 1908 Kikunae Ikeda discovered a [37] ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 769,
+                  "start": 37,
+                  "end": 62,
+                  "text": "• In 1908 Kikunae Ikeda discovered a [37] ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q38",
+              "question_number": 38,
+              "prompt": "[38] ____________________ naturally.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 771,
+                  "start": 2,
+                  "end": 27,
+                  "text": "  [38] ____________________ naturally.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q39",
+              "question_number": 39,
+              "prompt": "– [39] ____________________ tells us that a food contains toxins.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 774,
+                  "start": 6,
+                  "end": 31,
+                  "text": "    – [39] ____________________ tells us that a food contains toxins.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-07-test-04-q40",
+              "question_number": 40,
+              "prompt": "– saltiness tells us that a food contains [40] ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 776,
+                  "start": 46,
+                  "end": 71,
+                  "text": "    – saltiness tells us that a food contains [40] ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-184def73a4ef7be12da22af39cbd5c04f9ddf8d750688ce47f0f997d2b0ada55",
+      "relative_path": "assets/public/184def73a4ef7be12da22af39cbd5c04f9ddf8d750688ce47f0f997d2b0ada55.png",
+      "sha256": "184def73a4ef7be12da22af39cbd5c04f9ddf8d750688ce47f0f997d2b0ada55",
+      "byte_size": 167533,
+      "width": 3435,
+      "height": 4096
+    },
+    {
+      "asset_id": "asset-1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+      "relative_path": "assets/public/1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62.png",
+      "sha256": "1e3088d31ccbbf6d1e3db2562165b23f1eb57526261836a3e6016b16442c6e62",
+      "byte_size": 160353,
+      "width": 3648,
+      "height": 5216
+    },
+    {
+      "asset_id": "asset-287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+      "relative_path": "assets/public/287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0.png",
+      "sha256": "287610408dc88a1984212fb8e500eb2bc0da70f8a5723e5716b53c3002affbd0",
+      "byte_size": 131577,
+      "width": 3328,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+      "relative_path": "assets/public/2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec.png",
+      "sha256": "2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+      "byte_size": 162872,
+      "width": 3616,
+      "height": 4928
+    },
+    {
+      "asset_id": "asset-37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+      "relative_path": "assets/public/37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38.png",
+      "sha256": "37bab8fdbaa800a16913c7272389c7f862a9ec962066c147faca1ed8731f1a38",
+      "byte_size": 122282,
+      "width": 3471,
+      "height": 3204
+    },
+    {
+      "asset_id": "asset-56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e",
+      "relative_path": "assets/public/56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e.png",
+      "sha256": "56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e",
+      "byte_size": 211441,
+      "width": 3616,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+      "relative_path": "assets/public/7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7.png",
+      "sha256": "7b21f4f844067596457c5c5bb474a1e7b467b01ccfa645b9a81a41e5e2b78cc7",
+      "byte_size": 188294,
+      "width": 3616,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b",
+      "relative_path": "assets/public/a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b.png",
+      "sha256": "a7c67992a6b3326150d18cea0d9d508d4740d67ced286623e398bdb260d70a7b",
+      "byte_size": 252418,
+      "width": 3616,
+      "height": 5184
+    },
+    {
+      "asset_id": "asset-b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+      "relative_path": "assets/public/b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd.png",
+      "sha256": "b3da03f6f66de9a8f20fcfc8ca280257b5a53f0142153d00e2deffc6895d19cd",
+      "byte_size": 65289,
+      "width": 3471,
+      "height": 1451
+    },
+    {
+      "asset_id": "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac",
+      "relative_path": "assets/public/d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac.png",
+      "sha256": "d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac",
+      "byte_size": 127961,
+      "width": 3040,
+      "height": 5294
+    },
+    {
+      "asset_id": "asset-da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3",
+      "relative_path": "assets/public/da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3.png",
+      "sha256": "da77b9a97579c4fe934e285b313e1629e412feb98662d5d8ee22ed65dd33e5d3",
+      "byte_size": 72243,
+      "width": 3062,
+      "height": 2436
+    },
+    {
+      "asset_id": "asset-f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+      "relative_path": "assets/public/f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5.png",
+      "sha256": "f6b3fa610ee86f405745a579cc7f905d073581cf46cd3bde11484f2f944e89d5",
+      "byte_size": 169217,
+      "width": 3327,
+      "height": 2644
+    },
+    {
+      "asset_id": "asset-fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
+      "relative_path": "assets/public/fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290.png",
+      "sha256": "fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
+      "byte_size": 202863,
+      "width": 3616,
+      "height": 5216
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

@@ -1,0 +1,2878 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-14-test-01",
+  "book": 14,
+  "printed_test_number": 1,
+  "local_ordinal": 1,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 22,
+        "line_end": 58,
+        "pdf_pages": [
+          10
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+        "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-01-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+            "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q01"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q02"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q03"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q04"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q05"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q06"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q07"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q08"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q09"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q10"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 23,
+            "line_end": 58,
+            "pdf_pages": [
+              10
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q01",
+              "question_number": 1,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 35,
+                  "start": 0,
+                  "end": 36,
+                  "text": "1  Nationality: ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q02",
+              "question_number": 2,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 38,
+                  "start": 0,
+                  "end": 67,
+                  "text": "2  Reason for visit: business (to buy antique ____________________)",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q03",
+              "question_number": 3,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 40,
+                  "start": 0,
+                  "end": 59,
+                  "text": "3  Current address: ____________________ Apartments (No 15)",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q04",
+              "question_number": 4,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 43,
+                  "start": 0,
+                  "end": 72,
+                  "text": "4  Items stolen: a wallet containing approximately £____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q05",
+              "question_number": 5,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 44,
+                  "start": 0,
+                  "end": 39,
+                  "text": "5                a ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q06",
+              "question_number": 6,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 45,
+                  "start": 0,
+                  "end": 38,
+                  "text": "6  Date of theft: ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q07",
+              "question_number": 7,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 48,
+                  "start": 0,
+                  "end": 59,
+                  "text": "7  Location: outside the ____________________ at about 4 pm",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q08",
+              "question_number": 8,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 49,
+                  "start": 0,
+                  "end": 80,
+                  "text": "8  Details of suspect: some boys asked for the ____________________ then ran off",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q09",
+              "question_number": 9,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 51,
+                  "start": 0,
+                  "end": 63,
+                  "text": "9  - he was about 12, slim build with ____________________ hair",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q10",
+              "question_number": 10,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 54,
+                  "start": 0,
+                  "end": 23,
+                  "text": "10 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  10
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+                  "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 59,
+        "line_end": 104,
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+        "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+        "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-01-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO pieces of advice for the first week of an apprenticeship does the manager give?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice for the first week of an apprenticeship does the manager give?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-01-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "get to know colleagues",
+                "source_line": 68
+              },
+              {
+                "label": "B",
+                "text": "learn from any mistakes",
+                "source_line": 69
+              },
+              {
+                "label": "C",
+                "text": "ask lots of questions",
+                "source_line": 70
+              },
+              {
+                "label": "D",
+                "text": "react positively to feedback",
+                "source_line": 71
+              },
+              {
+                "label": "E",
+                "text": "enjoy new challenges",
+                "source_line": 72
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+            "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+            "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q12"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 65,
+            "line_end": 75,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q11",
+              "question_number": 11,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 73,
+                  "start": 0,
+                  "end": 14,
+                  "text": "11  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice for the first week of an apprenticeship does the manager give?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 11,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q12",
+              "question_number": 12,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 74,
+                  "start": 0,
+                  "end": 14,
+                  "text": "12  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO pieces of advice for the first week of an apprenticeship does the manager give?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 12,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-01-p2-g13-14",
+          "question_range": [
+            13,
+            14
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO things does the manager say mentors can help with?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the manager say mentors can help with?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-01-p2-g13-14-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "confidence-building",
+                "source_line": 79
+              },
+              {
+                "label": "B",
+                "text": "making career plans",
+                "source_line": 80
+              },
+              {
+                "label": "C",
+                "text": "completing difficult tasks",
+                "source_line": 81
+              },
+              {
+                "label": "D",
+                "text": "making a weekly timetable",
+                "source_line": 82
+              },
+              {
+                "label": "E",
+                "text": "reviewing progress",
+                "source_line": 83
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              13,
+              14
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+            "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+            "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q14"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 76,
+            "line_end": 86,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q13",
+              "question_number": 13,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 84,
+                  "start": 0,
+                  "end": 14,
+                  "text": "13  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the manager say mentors can help with?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 13,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q14",
+              "question_number": 14,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 85,
+                  "start": 0,
+                  "end": 14,
+                  "text": "14  __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO things does the manager say mentors can help with?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 14,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-01-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "matching",
+          "instructions": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "It is encouraged.",
+                "source_line": 90
+              },
+              {
+                "label": "B",
+                "text": "There are some restrictions.",
+                "source_line": 91
+              },
+              {
+                "label": "C",
+                "text": "It is against the rules.",
+                "source_line": 92
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+            "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+            "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q20"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 87,
+            "line_end": 104,
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q15",
+              "question_number": 15,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 95,
+                  "start": 0,
+                  "end": 33,
+                  "text": "15  Using the internet __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q16",
+              "question_number": 16,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 96,
+                  "start": 0,
+                  "end": 31,
+                  "text": "16  Flexible working __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q17",
+              "question_number": 17,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 97,
+                  "start": 0,
+                  "end": 31,
+                  "text": "17  Booking holidays __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q18",
+              "question_number": 18,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 98,
+                  "start": 0,
+                  "end": 31,
+                  "text": "18  Working overtime __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q19",
+              "question_number": 19,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 99,
+                  "start": 0,
+                  "end": 31,
+                  "text": "19  Wearing trainers __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q20",
+              "question_number": 20,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 100,
+                  "start": 0,
+                  "end": 36,
+                  "text": "20  Bringing food to work __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the manager say about each of the following aspects of the company policy for apprentices?\nWrite the correct letter, A, B or C, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  11,
+                  12
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+                  "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+                  "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 105,
+        "line_end": 155,
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+        "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-01-p3-g21-25",
+          "question_range": [
+            21,
+            25
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+            "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q24"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q25"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 109,
+            "line_end": 133,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q21",
+              "question_number": 21,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "contain nearly half the world's population.",
+                  "source_line": 114
+                },
+                {
+                  "label": "B",
+                  "text": "include most of the world's largest cities.",
+                  "source_line": 115
+                },
+                {
+                  "label": "C",
+                  "text": "are growing twice as fast as other cities.",
+                  "source_line": 116
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 113,
+                  "start": 0,
+                  "end": 61,
+                  "text": "21  Carla and Rob were surprised to learn that coastal cities",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 21,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q22",
+              "question_number": 22,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "may bring pollution to the cities.",
+                  "source_line": 118
+                },
+                {
+                  "label": "B",
+                  "text": "may reduce the land available for agriculture.",
+                  "source_line": 119
+                },
+                {
+                  "label": "C",
+                  "text": "may mean the countryside is spoiled by industry.",
+                  "source_line": 120
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 117,
+                  "start": 0,
+                  "end": 60,
+                  "text": "22  According to Rob, building coastal cities near to rivers",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 22,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q23",
+              "question_number": 23,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "There were not enough of them.",
+                  "source_line": 122
+                },
+                {
+                  "label": "B",
+                  "text": "They were made of unsuitable materials.",
+                  "source_line": 123
+                },
+                {
+                  "label": "C",
+                  "text": "They did not allow for the effects of climate change.",
+                  "source_line": 124
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 121,
+                  "start": 0,
+                  "end": 86,
+                  "text": "23  What mistake was made when building water drainage channels in Miami in the 1950s?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 23,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q24",
+              "question_number": 24,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "take measures to restore ecosystems",
+                  "source_line": 126
+                },
+                {
+                  "label": "B",
+                  "text": "pay for a new flood prevention system",
+                  "source_line": 127
+                },
+                {
+                  "label": "C",
+                  "text": "stop disposing of waste materials into the ocean",
+                  "source_line": 128
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 125,
+                  "start": 0,
+                  "end": 84,
+                  "text": "24  What do Rob and Carla think that the authorities in Miami should do immediately?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 24,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q25",
+              "question_number": 25,
+              "prompt": null,
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "greater coordination of activities",
+                  "source_line": 130
+                },
+                {
+                  "label": "B",
+                  "text": "more sharing of information",
+                  "source_line": 131
+                },
+                {
+                  "label": "C",
+                  "text": "agreement on shared policies",
+                  "source_line": 132
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 129,
+                  "start": 0,
+                  "end": 71,
+                  "text": "25  What do they agree should be the priority for international action?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 25,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-14-test-01-p3-g26-30",
+          "question_range": [
+            26,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-14-test-01-p3-g26-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "use visuals",
+                "source_line": 138
+              },
+              {
+                "label": "B",
+                "text": "keep it short",
+                "source_line": 139
+              },
+              {
+                "label": "C",
+                "text": "involve other students",
+                "source_line": 140
+              },
+              {
+                "label": "D",
+                "text": "check the information is accurate",
+                "source_line": 141
+              },
+              {
+                "label": "E",
+                "text": "provide a handout",
+                "source_line": 142
+              },
+              {
+                "label": "F",
+                "text": "focus on one example",
+                "source_line": 143
+              },
+              {
+                "label": "G",
+                "text": "do online research",
+                "source_line": 144
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+            "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q30"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 134,
+            "line_end": 155,
+            "pdf_pages": [
+              13,
+              14
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q26",
+              "question_number": 26,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 147,
+                  "start": 0,
+                  "end": 36,
+                  "text": "26  Historical background __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 26,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q27",
+              "question_number": 27,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 148,
+                  "start": 0,
+                  "end": 35,
+                  "text": "27  Geographical factors __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 27,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q28",
+              "question_number": 28,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 149,
+                  "start": 0,
+                  "end": 28,
+                  "text": "28  Past mistakes __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 28,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q29",
+              "question_number": 29,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 150,
+                  "start": 0,
+                  "end": 27,
+                  "text": "29  Future risks __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 29,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q30",
+              "question_number": 30,
+              "prompt": null,
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-14-test-01-p3-g26-30-bank",
+              "blank_references": [
+                {
+                  "line": 151,
+                  "start": 0,
+                  "end": 41,
+                  "text": "30  International implications __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What decision do the students make about each of the following parts of their presentation?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  13,
+                  14
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+                  "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea"
+                ],
+                "printed_question_number": 30,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+        "line_start": 156,
+        "line_end": 199,
+        "pdf_pages": [
+          15
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+        "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+      ],
+      "audio_mapping_key": {
+        "book": 14,
+        "printed_test_number": 1,
+        "local_ordinal": 1,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-14-test-01-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+            "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q31"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q32"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q33"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q34"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q35"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q36"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q37"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q38"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q39"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-14-test-01-q40"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_14/Cambridge_IELTS_14_Listening.txt",
+            "line_start": 157,
+            "line_end": 199,
+            "pdf_pages": [
+              15
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-14-test-01-q31",
+              "question_number": 31,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 166,
+                  "start": 57,
+                  "end": 80,
+                  "text": "More energy required because of growth in population and 31 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 31,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q32",
+              "question_number": 32,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 172,
+                  "start": 27,
+                  "end": 50,
+                  "text": "Advantage: waves provide a 32 ____________________ source of renewable energy",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 32,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q33",
+              "question_number": 33,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 176,
+                  "start": 24,
+                  "end": 47,
+                  "text": "- waves can move in any 33 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 33,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q34",
+              "question_number": 34,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 177,
+                  "start": 32,
+                  "end": 55,
+                  "text": "- movement of sand, etc. on the 34 ____________________ of the ocean may be affected",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 34,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q35",
+              "question_number": 35,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 180,
+                  "start": 15,
+                  "end": 38,
+                  "text": "Tides are more 35 ____________________ than waves",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 35,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q36",
+              "question_number": 36,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 182,
+                  "start": 23,
+                  "end": 46,
+                  "text": "- will be created in a 36 ____________________ at Swansea",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 36,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q37",
+              "question_number": 37,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 185,
+                  "start": 35,
+                  "end": 58,
+                  "text": "- stored water is released through 37 ____________________, driving the turbines in the reverse direction",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 37,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q38",
+              "question_number": 38,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 188,
+                  "start": 5,
+                  "end": 28,
+                  "text": "- no 38 ____________________ is required to make it work",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 38,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q39",
+              "question_number": 39,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 189,
+                  "start": 31,
+                  "end": 54,
+                  "text": "- likely to create a number of 39 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 39,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-14-test-01-q40",
+              "question_number": 40,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 191,
+                  "start": 45,
+                  "end": 68,
+                  "text": "- may harm fish and birds, e.g. by affecting 40 ____________________ and building up silt",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+                "pdf_pages": [
+                  15
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+                  "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803"
+                ],
+                "printed_question_number": 40,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea",
+      "relative_path": "assets/public/0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea.png",
+      "sha256": "0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea",
+      "byte_size": 325307,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+      "relative_path": "assets/public/0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3.png",
+      "sha256": "0b961e03b90d90b7626aa37b3e4fa8a230bbe9ddbb9dcf63c607df1bc26bedd3",
+      "byte_size": 183824,
+      "width": 860,
+      "height": 750
+    },
+    {
+      "asset_id": "asset-0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+      "relative_path": "assets/public/0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a.png",
+      "sha256": "0c1b7dd10c41788f338bb76850fbad3bfb6babf70fd553d0fdd7ab6670e52d0a",
+      "byte_size": 340439,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+      "relative_path": "assets/public/37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5.png",
+      "sha256": "37cc12f86e858bc9cdc27c3b7a7c2dcc1424a3ede26b324cb960aa2b63fffcb5",
+      "byte_size": 410080,
+      "width": 860,
+      "height": 1220
+    },
+    {
+      "asset_id": "asset-562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+      "relative_path": "assets/public/562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d.png",
+      "sha256": "562ada0ce99ae89b531464ede63e6079066fae5148055fa3c46ebe7f81ebd88d",
+      "byte_size": 447654,
+      "width": 890,
+      "height": 1150
+    },
+    {
+      "asset_id": "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254",
+      "relative_path": "assets/public/b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254.png",
+      "sha256": "b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254",
+      "byte_size": 648249,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+      "relative_path": "assets/public/f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327.png",
+      "sha256": "f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+      "byte_size": 552793,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803",
+      "relative_path": "assets/public/f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803.png",
+      "sha256": "f43449798fd7ff37e7ea8255ea612284af75d629d289c943d92929de48f79803",
+      "byte_size": 604922,
+      "width": 1191,
+      "height": 1684
+    },
+    {
+      "asset_id": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1",
+      "relative_path": "assets/public/fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1.png",
+      "sha256": "fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1",
+      "byte_size": 258776,
+      "width": 1191,
+      "height": 1684
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 40,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": true
+  }
+}

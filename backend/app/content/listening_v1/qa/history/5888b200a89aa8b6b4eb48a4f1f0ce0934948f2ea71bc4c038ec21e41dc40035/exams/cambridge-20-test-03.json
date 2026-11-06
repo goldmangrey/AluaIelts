@@ -1,0 +1,3168 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-20-test-03",
+  "book": 20,
+  "printed_test_number": 3,
+  "local_ordinal": 3,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 496,
+        "line_end": 528,
+        "pdf_pages": [
+          77
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-03-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 504,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 505,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "FURNITURE RENTAL COMPANIES",
+              "source_line": 507,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Columns: Name of company | Information about costs | Additional notes",
+              "source_line": 508,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Peak Rentals",
+              "source_line": 510,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Costs: Prices range from $105 to $ (1) ____________ per room per month.",
+              "source_line": 511,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 37,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes: The furniture is very (2) ____________.",
+              "source_line": 512,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 31,
+                  "end": 47
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "         Delivers in 1–2 days.",
+              "source_line": 513,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "         Special offer: Free (3) ____________ with every living room set.",
+              "source_line": 514,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 29,
+                  "end": 45
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "(4) ____________ and Oliver",
+              "source_line": 516,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Costs: Mid-range prices. 12% monthly fee for (5) ____________.",
+              "source_line": 517,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 47,
+                  "end": 63
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes: Also offers a cleaning service.",
+              "source_line": 518,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Larch Furniture",
+              "source_line": 520,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Costs: Offers cheapest prices for renting furniture and (6) ____________ items.",
+              "source_line": 521,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 58,
+                  "end": 74
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes: Must have own (7) ____________. Minimum contract length: six months.",
+              "source_line": 522,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 23,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "(8) ____________ Rentals",
+              "source_line": 524,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Costs: See the (9) ____________ for the most up-to-date prices.",
+              "source_line": 525,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 17,
+                  "end": 33
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Notes: (10) ____________ are allowed within 7 days of delivery.",
+              "source_line": 526,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 9,
+                  "end": 26
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 496,
+            "line_end": 528,
+            "pdf_pages": [
+              77
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-03-q01",
+              "question_number": 1,
+              "prompt": "Costs: Prices range from $105 to $ (1) ____________ per room per month.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 511,
+                  "start": 37,
+                  "end": 53,
+                  "text": "  Costs: Prices range from $105 to $ (1) ____________ per room per month.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q02",
+              "question_number": 2,
+              "prompt": "Notes: The furniture is very (2) ____________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 512,
+                  "start": 31,
+                  "end": 47,
+                  "text": "  Notes: The furniture is very (2) ____________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q03",
+              "question_number": 3,
+              "prompt": "Special offer: Free (3) ____________ with every living room set.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 514,
+                  "start": 29,
+                  "end": 45,
+                  "text": "         Special offer: Free (3) ____________ with every living room set.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q04",
+              "question_number": 4,
+              "prompt": "(4) ____________ and Oliver",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 516,
+                  "start": 0,
+                  "end": 16,
+                  "text": "(4) ____________ and Oliver",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q05",
+              "question_number": 5,
+              "prompt": "Costs: Mid-range prices. 12% monthly fee for (5) ____________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 517,
+                  "start": 47,
+                  "end": 63,
+                  "text": "  Costs: Mid-range prices. 12% monthly fee for (5) ____________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q06",
+              "question_number": 6,
+              "prompt": "Costs: Offers cheapest prices for renting furniture and (6) ____________ items.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 521,
+                  "start": 58,
+                  "end": 74,
+                  "text": "  Costs: Offers cheapest prices for renting furniture and (6) ____________ items.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q07",
+              "question_number": 7,
+              "prompt": "Notes: Must have own (7) ____________. Minimum contract length: six months.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 522,
+                  "start": 23,
+                  "end": 39,
+                  "text": "  Notes: Must have own (7) ____________. Minimum contract length: six months.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q08",
+              "question_number": 8,
+              "prompt": "(8) ____________ Rentals",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 524,
+                  "start": 0,
+                  "end": 16,
+                  "text": "(8) ____________ Rentals",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q09",
+              "question_number": 9,
+              "prompt": "Costs: See the (9) ____________ for the most up-to-date prices.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 525,
+                  "start": 17,
+                  "end": 33,
+                  "text": "  Costs: See the (9) ____________ for the most up-to-date prices.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q10",
+              "question_number": 10,
+              "prompt": "Notes: (10) ____________ are allowed within 7 days of delivery.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 526,
+                  "start": 9,
+                  "end": 26,
+                  "text": "  Notes: (10) ____________ are allowed within 7 days of delivery.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 529,
+        "line_end": 614,
+        "pdf_pages": [
+          78,
+          79,
+          80,
+          81
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+        "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+        "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-03-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": " Choose the correct letter, A, B or C.",
+              "source_line": 537,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 11. Who was responsible for starting the community project?",
+              "source_line": 539,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. the castle owners",
+              "source_line": 541,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. a national charity",
+              "source_line": 543,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. the local council",
+              "source_line": 545,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 12. How was the gold coin found?",
+              "source_line": 547,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. Heavy rain had removed some of the soil.",
+              "source_line": 549,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. The ground was dug up by wild rabbits.",
+              "source_line": 551,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. A person with a metal detector searched the area.",
+              "source_line": 553,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 13. What led the archaeologists to believe there was an ancient village on this",
+              "source_line": 555,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " site?",
+              "source_line": 557,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. the lucky discovery of old records",
+              "source_line": 559,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. the bases of several structures visible in the grass",
+              "source_line": 561,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. the unusual stones found near the castle",
+              "source_line": 563,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 14. What are the team still hoping to find?",
+              "source_line": 565,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. everyday pottery",
+              "source_line": 567,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. animal bones",
+              "source_line": 569,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. pieces of jewellery",
+              "source_line": 571,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 15. What was found on the other side of the river to the castle?",
+              "source_line": 573,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. the remains of a large palace",
+              "source_line": 575,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. the outline of fields",
+              "source_line": 577,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C. a number of small huts",
+              "source_line": 581,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 16. What do the team plan to do after work ends this summer?",
+              "source_line": 583,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. prepare a display for a museum",
+              "source_line": 585,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. take part in a television programme",
+              "source_line": 587,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. start to organise school visits",
+              "source_line": 589,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q16"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 529,
+            "line_end": 592,
+            "pdf_pages": [
+              78,
+              79,
+              80,
+              81
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-03-q11",
+              "question_number": 11,
+              "prompt": "11. Who was responsible for starting the community project?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the castle owners",
+                  "source_line": 541
+                },
+                {
+                  "label": "B",
+                  "text": "a national charity",
+                  "source_line": 543
+                },
+                {
+                  "label": "C",
+                  "text": "the local council",
+                  "source_line": 545
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 539,
+                  "start": 0,
+                  "end": 60,
+                  "text": " 11. Who was responsible for starting the community project?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q12",
+              "question_number": 12,
+              "prompt": "12. How was the gold coin found?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Heavy rain had removed some of the soil.",
+                  "source_line": 549
+                },
+                {
+                  "label": "B",
+                  "text": "The ground was dug up by wild rabbits.",
+                  "source_line": 551
+                },
+                {
+                  "label": "C",
+                  "text": "A person with a metal detector searched the area.",
+                  "source_line": 553
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 547,
+                  "start": 0,
+                  "end": 33,
+                  "text": " 12. How was the gold coin found?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q13",
+              "question_number": 13,
+              "prompt": "13. What led the archaeologists to believe there was an ancient village on this",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the lucky discovery of old records",
+                  "source_line": 559
+                },
+                {
+                  "label": "B",
+                  "text": "the bases of several structures visible in the grass",
+                  "source_line": 561
+                },
+                {
+                  "label": "C",
+                  "text": "the unusual stones found near the castle",
+                  "source_line": 563
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 555,
+                  "start": 0,
+                  "end": 80,
+                  "text": " 13. What led the archaeologists to believe there was an ancient village on this",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q14",
+              "question_number": 14,
+              "prompt": "14. What are the team still hoping to find?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "everyday pottery",
+                  "source_line": 567
+                },
+                {
+                  "label": "B",
+                  "text": "animal bones",
+                  "source_line": 569
+                },
+                {
+                  "label": "C",
+                  "text": "pieces of jewellery",
+                  "source_line": 571
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 565,
+                  "start": 0,
+                  "end": 44,
+                  "text": " 14. What are the team still hoping to find?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q15",
+              "question_number": 15,
+              "prompt": "15. What was found on the other side of the river to the castle?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the remains of a large palace",
+                  "source_line": 575
+                },
+                {
+                  "label": "B",
+                  "text": "the outline of fields",
+                  "source_line": 577
+                },
+                {
+                  "label": "C",
+                  "text": "a number of small huts",
+                  "source_line": 581
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 573,
+                  "start": 0,
+                  "end": 65,
+                  "text": " 15. What was found on the other side of the river to the castle?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q16",
+              "question_number": 16,
+              "prompt": "16. What do the team plan to do after work ends this summer?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "prepare a display for a museum",
+                  "source_line": 585
+                },
+                {
+                  "label": "B",
+                  "text": "take part in a television programme",
+                  "source_line": 587
+                },
+                {
+                  "label": "C",
+                  "text": "start to organise school visits",
+                  "source_line": 589
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 583,
+                  "start": 0,
+                  "end": 61,
+                  "text": " 16. What do the team plan to do after work ends this summer?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-03-p2-g17-20",
+          "question_range": [
+            17,
+            20
+          ],
+          "question_type": "map_labelling",
+          "instructions": "Label the map below.\nWrite the correct letter, A–G, next to each item.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the map below.\nWrite the correct letter, A–G, next to each item.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-03-p2-g17-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "A"
+                },
+                "source_range": "A–G"
+              },
+              {
+                "label": "B",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "B"
+                },
+                "source_range": "A–G"
+              },
+              {
+                "label": "C",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "C"
+                },
+                "source_range": "A–G"
+              },
+              {
+                "label": "D",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "D"
+                },
+                "source_range": "A–G"
+              },
+              {
+                "label": "E",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "E"
+                },
+                "source_range": "A–G"
+              },
+              {
+                "label": "F",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "F"
+                },
+                "source_range": "A–G"
+              },
+              {
+                "label": "G",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                    "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                    "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                    "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                    "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                  ],
+                  "original_label": "G"
+                },
+                "source_range": "A–G"
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+            "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+            "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the map below.",
+              "source_line": 594,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Drag the correct letter, A–G, next to Questions 17–20.",
+              "source_line": 595,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MAP: Bidcaster Archaeological Dig",
+              "source_line": 597,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The original map has positions A–G, a river, castle walls, information boards,",
+              "source_line": 599,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "the site of the current dig, a compass and a 'You are here' marker.",
+              "source_line": 600,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The geometry is preserved in the attached image; do not infer positions from this description.",
+              "source_line": 601,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–G, next to each item.",
+              "source_line": 606,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17. bridge foundations ____________",
+              "source_line": 607,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18. rubbish pit ____________",
+              "source_line": 608,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. meeting hall ____________",
+              "source_line": 609,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20. fish pond ____________",
+              "source_line": 610,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 593,
+            "line_end": 614,
+            "pdf_pages": [
+              78,
+              79,
+              80,
+              81
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-03-q17",
+              "question_number": 17,
+              "prompt": "17. bridge foundations ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 607,
+                  "start": 0,
+                  "end": 35,
+                  "text": "17. bridge foundations ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–G, next to each item.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                  "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                  "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q18",
+              "question_number": 18,
+              "prompt": "18. rubbish pit ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 608,
+                  "start": 0,
+                  "end": 28,
+                  "text": "18. rubbish pit ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–G, next to each item.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                  "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                  "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q19",
+              "question_number": 19,
+              "prompt": "19. meeting hall ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 609,
+                  "start": 0,
+                  "end": 29,
+                  "text": "19. meeting hall ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–G, next to each item.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                  "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                  "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-03-q20",
+              "question_number": 20,
+              "prompt": "20. fish pond ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 610,
+                  "start": 0,
+                  "end": 26,
+                  "text": "20. fish pond ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–G, next to each item.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+                  "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+                  "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 615,
+        "line_end": 693,
+        "pdf_pages": [
+          82,
+          83
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-792830424c452723a1f5a37c7ac6bd7ee91d1d54371736a94c6370352322e8c4",
+        "asset-8895aa9f3c45d24e4678c9516b579a3087937b82e32393396dcb1655496943af"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-03-p3-g21-26",
+          "question_range": [
+            21,
+            26
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": " Choose the correct letter, A, B or C.",
+              "source_line": 623,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 21. Finn waspleased to discover that their topic",
+              "source_line": 625,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. was not familiar to their module leader.",
+              "source_line": 627,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. had not been chosen by other students.",
+              "source_line": 629,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. did not prove to be difficult to research.",
+              "source_line": 631,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 22. Maya says a mistaken belief about theatre programmes is that",
+              "source_line": 633,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. theatres pay companies to produce them.",
+              "source_line": 635,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. few theatre-goers buy them nowadays.",
+              "source_line": 637,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. they contain far more adverts than previously.",
+              "source_line": 639,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 23. Finn was surprised that, in early British theatre, programmes",
+              "source_line": 641,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. were difficult for audiences to obtain.",
+              "source_line": 643,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. were given out free of charge.",
+              "source_line": 645,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. were seen as a kind of contract.",
+              "source_line": 647,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 24. Maya feels their project should include an explanation of why companies of",
+              "source_line": 649,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " actors",
+              "source_line": 651,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. promoted their own plays.",
+              "source_line": 653,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. performed plays outdoors.",
+              "source_line": 655,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. had to tour with their plays.",
+              "source_line": 657,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 25. Finn and Maya both think that, compared to nineteenth-century",
+              "source_line": 659,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " programmes, those from the eighteenth century",
+              "source_line": 661,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A. were more original.",
+              "source_line": 665,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B. were more colourful.",
+              "source_line": 666,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C. were more informative.",
+              "source_line": 667,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. Maya doesn't fully understand why, in the twentieth century,",
+              "source_line": 669,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. very few theatre programmes were printed in the USA.",
+              "source_line": 670,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. British theatre programmes failed to develop for so long.",
+              "source_line": 671,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. theatre programmes in Britain copied fashions from the USA.",
+              "source_line": 672,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q24"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q26"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 615,
+            "line_end": 673,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-03-q21",
+              "question_number": 21,
+              "prompt": "21. Finn waspleased to discover that their topic",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "was not familiar to their module leader.",
+                  "source_line": 627
+                },
+                {
+                  "label": "B",
+                  "text": "had not been chosen by other students.",
+                  "source_line": 629
+                },
+                {
+                  "label": "C",
+                  "text": "did not prove to be difficult to research.",
+                  "source_line": 631
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 625,
+                  "start": 0,
+                  "end": 49,
+                  "text": " 21. Finn waspleased to discover that their topic",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q22",
+              "question_number": 22,
+              "prompt": "22. Maya says a mistaken belief about theatre programmes is that",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "theatres pay companies to produce them.",
+                  "source_line": 635
+                },
+                {
+                  "label": "B",
+                  "text": "few theatre-goers buy them nowadays.",
+                  "source_line": 637
+                },
+                {
+                  "label": "C",
+                  "text": "they contain far more adverts than previously.",
+                  "source_line": 639
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 633,
+                  "start": 0,
+                  "end": 65,
+                  "text": " 22. Maya says a mistaken belief about theatre programmes is that",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q23",
+              "question_number": 23,
+              "prompt": "23. Finn was surprised that, in early British theatre, programmes",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "were difficult for audiences to obtain.",
+                  "source_line": 643
+                },
+                {
+                  "label": "B",
+                  "text": "were given out free of charge.",
+                  "source_line": 645
+                },
+                {
+                  "label": "C",
+                  "text": "were seen as a kind of contract.",
+                  "source_line": 647
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 641,
+                  "start": 0,
+                  "end": 66,
+                  "text": " 23. Finn was surprised that, in early British theatre, programmes",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q24",
+              "question_number": 24,
+              "prompt": "24. Maya feels their project should include an explanation of why companies of",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "promoted their own plays.",
+                  "source_line": 653
+                },
+                {
+                  "label": "B",
+                  "text": "performed plays outdoors.",
+                  "source_line": 655
+                },
+                {
+                  "label": "C",
+                  "text": "had to tour with their plays.",
+                  "source_line": 657
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 649,
+                  "start": 0,
+                  "end": 79,
+                  "text": " 24. Maya feels their project should include an explanation of why companies of",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q25",
+              "question_number": 25,
+              "prompt": "25. Finn and Maya both think that, compared to nineteenth-century",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "were more original.",
+                  "source_line": 665
+                },
+                {
+                  "label": "B",
+                  "text": "were more colourful.",
+                  "source_line": 666
+                },
+                {
+                  "label": "C",
+                  "text": "were more informative.",
+                  "source_line": 667
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 659,
+                  "start": 0,
+                  "end": 66,
+                  "text": " 25. Finn and Maya both think that, compared to nineteenth-century",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q26",
+              "question_number": 26,
+              "prompt": "26. Maya doesn't fully understand why, in the twentieth century,",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "very few theatre programmes were printed in the USA.",
+                  "source_line": 670
+                },
+                {
+                  "label": "B",
+                  "text": "British theatre programmes failed to develop for so long.",
+                  "source_line": 671
+                },
+                {
+                  "label": "C",
+                  "text": "theatre programmes in Britain copied fashions from the USA.",
+                  "source_line": 672
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 669,
+                  "start": 0,
+                  "end": 64,
+                  "text": "26. Maya doesn't fully understand why, in the twentieth century,",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-03-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What comment is made about the programme for each of the following shows?\nChoose FOUR answers from the box and write the correct letter, A–F,",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What comment is made about the programme for each of the following shows?\nChoose FOUR answers from the box and write the correct letter, A–F,",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-03-p3-g27-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Its origin is somewhat controversial.",
+                "source_line": 686
+              },
+              {
+                "label": "B",
+                "text": "It is historically significant for a country.",
+                "source_line": 687
+              },
+              {
+                "label": "C",
+                "text": "It was effective at attracting audiences.",
+                "source_line": 688
+              },
+              {
+                "label": "D",
+                "text": "It is included in a recent project.",
+                "source_line": 689
+              },
+              {
+                "label": "E",
+                "text": "It contains insights into the show.",
+                "source_line": 690
+              },
+              {
+                "label": "F",
+                "text": "It resembles an artwork.",
+                "source_line": 691
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What comment is made about the programme for each of the following shows?",
+              "source_line": 675,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FOUR answers from the box and write the correct letter, A–F,",
+              "source_line": 676,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "next to Questions 27–30.",
+              "source_line": 677,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "SHOWS",
+              "source_line": 679,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. Ruy Blas ____________",
+              "source_line": 680,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. Man of La Mancha ____________",
+              "source_line": 681,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. The Tragedy of Jane Shore ____________",
+              "source_line": 682,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. The Sailors' Festival ____________",
+              "source_line": 683,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "COMMENTS ABOUT PROGRAMME",
+              "source_line": 685,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A. Its origin is somewhat controversial.",
+              "source_line": 686,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B. It is historically significant for a country.",
+              "source_line": 687,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C. It was effective at attracting audiences.",
+              "source_line": 688,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D. It is included in a recent project.",
+              "source_line": 689,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E. It contains insights into the show.",
+              "source_line": 690,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F. It resembles an artwork.",
+              "source_line": 691,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-03-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 674,
+            "line_end": 693,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-03-q27",
+              "question_number": 27,
+              "prompt": "27. Ruy Blas ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 680,
+                  "start": 0,
+                  "end": 25,
+                  "text": "27. Ruy Blas ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about the programme for each of the following shows?\nChoose FOUR answers from the box and write the correct letter, A–F,",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q28",
+              "question_number": 28,
+              "prompt": "28. Man of La Mancha ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 681,
+                  "start": 0,
+                  "end": 33,
+                  "text": "28. Man of La Mancha ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about the programme for each of the following shows?\nChoose FOUR answers from the box and write the correct letter, A–F,",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q29",
+              "question_number": 29,
+              "prompt": "29. The Tragedy of Jane Shore ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 682,
+                  "start": 0,
+                  "end": 42,
+                  "text": "29. The Tragedy of Jane Shore ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about the programme for each of the following shows?\nChoose FOUR answers from the box and write the correct letter, A–F,",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q30",
+              "question_number": 30,
+              "prompt": "30. The Sailors' Festival ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 683,
+                  "start": 0,
+                  "end": 38,
+                  "text": "30. The Sailors' Festival ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment is made about the programme for each of the following shows?\nChoose FOUR answers from the box and write the correct letter, A–F,",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 694,
+        "line_end": 733,
+        "pdf_pages": [
+          84
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-fd2bf0ae08f5c24e970556b9519d4e86df50fe42f2b06b5ff8e0defb42e3ff49"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-03-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": " Complete the notes below.",
+              "source_line": 702,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Write ONE WORD ONLY for each answer.",
+              "source_line": 704,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Inclusive design",
+              "source_line": 705,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Definition",
+              "source_line": 706,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Designing products that can be accessed by a diverse range of people without",
+              "source_line": 707,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " the need for any (31)____________",
+              "source_line": 708,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 18,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " • Not the same as universal design: that is design for everyone, including",
+              "source_line": 709,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " catering for people with (32)____________ problems.",
+              "source_line": 710,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 26,
+                  "end": 42
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Examples of inclusive design",
+              "source_line": 712,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • (33)____________ Which are adjustable, avoiding back or neck problems",
+              "source_line": 713,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 3,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " • (34)____________ in public toilets which are easier to use",
+              "source_line": 714,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 3,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " • To assist the elderly:",
+              "source_line": 715,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - designers avoid using (35)____________ in interfaces",
+              "source_line": 716,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 25,
+                  "end": 41
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " - people can make commands using a mouse, keyboard or their",
+              "source_line": 717,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " (36)____________",
+              "source_line": 718,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 1,
+                  "end": 17
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Impact of non-inclusive designs",
+              "source_line": 719,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Access",
+              "source_line": 720,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - Loss of independence for disabled people.",
+              "source_line": 721,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Safety",
+              "source_line": 722,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - Seatbelts are especially problematic for (37)____________ women.",
+              "source_line": 723,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 44,
+                  "end": 60
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " - PPE Jackets are often unsuitable because of the size of women's",
+              "source_line": 724,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " (38)____________",
+              "source_line": 725,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 1,
+                  "end": 17
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " - PPE for female (39)____________ officers dealing with emergencies is",
+              "source_line": 726,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 18,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " the worst.",
+              "source_line": 727,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Comfort in the workplace",
+              "source_line": 728,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - The (40)____________ in offices is often too tow for women.",
+              "source_line": 729,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 7,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 694,
+            "line_end": 733,
+            "pdf_pages": [
+              84
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-03-q31",
+              "question_number": 31,
+              "prompt": "the need for any (31)____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 708,
+                  "start": 18,
+                  "end": 34,
+                  "text": " the need for any (31)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q32",
+              "question_number": 32,
+              "prompt": "catering for people with (32)____________ problems.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 710,
+                  "start": 26,
+                  "end": 42,
+                  "text": " catering for people with (32)____________ problems.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q33",
+              "question_number": 33,
+              "prompt": "• (33)____________ Which are adjustable, avoiding back or neck problems",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 713,
+                  "start": 3,
+                  "end": 19,
+                  "text": " • (33)____________ Which are adjustable, avoiding back or neck problems",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q34",
+              "question_number": 34,
+              "prompt": "• (34)____________ in public toilets which are easier to use",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 714,
+                  "start": 3,
+                  "end": 19,
+                  "text": " • (34)____________ in public toilets which are easier to use",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q35",
+              "question_number": 35,
+              "prompt": "- designers avoid using (35)____________ in interfaces",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 716,
+                  "start": 25,
+                  "end": 41,
+                  "text": " - designers avoid using (35)____________ in interfaces",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q36",
+              "question_number": 36,
+              "prompt": "(36)____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 718,
+                  "start": 1,
+                  "end": 17,
+                  "text": " (36)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q37",
+              "question_number": 37,
+              "prompt": "- Seatbelts are especially problematic for (37)____________ women.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 723,
+                  "start": 44,
+                  "end": 60,
+                  "text": " - Seatbelts are especially problematic for (37)____________ women.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q38",
+              "question_number": 38,
+              "prompt": "(38)____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 725,
+                  "start": 1,
+                  "end": 17,
+                  "text": " (38)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q39",
+              "question_number": 39,
+              "prompt": "- PPE for female (39)____________ officers dealing with emergencies is",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 726,
+                  "start": 18,
+                  "end": 34,
+                  "text": " - PPE for female (39)____________ officers dealing with emergencies is",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-03-q40",
+              "question_number": 40,
+              "prompt": "- The (40)____________ in offices is often too tow for women.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 729,
+                  "start": 7,
+                  "end": 23,
+                  "text": " - The (40)____________ in offices is often too tow for women.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+      "relative_path": "assets/public/553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c.jpg",
+      "sha256": "553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
+      "byte_size": 89526,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
+      "relative_path": "assets/public/6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0.jpg",
+      "sha256": "6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
+      "byte_size": 89311,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-792830424c452723a1f5a37c7ac6bd7ee91d1d54371736a94c6370352322e8c4",
+      "relative_path": "assets/public/792830424c452723a1f5a37c7ac6bd7ee91d1d54371736a94c6370352322e8c4.jpg",
+      "sha256": "792830424c452723a1f5a37c7ac6bd7ee91d1d54371736a94c6370352322e8c4",
+      "byte_size": 188012,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-8895aa9f3c45d24e4678c9516b579a3087937b82e32393396dcb1655496943af",
+      "relative_path": "assets/public/8895aa9f3c45d24e4678c9516b579a3087937b82e32393396dcb1655496943af.jpg",
+      "sha256": "8895aa9f3c45d24e4678c9516b579a3087937b82e32393396dcb1655496943af",
+      "byte_size": 182869,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5",
+      "relative_path": "assets/public/aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5.jpg",
+      "sha256": "aed1b938efeb419f6cdc9e73bfde49861d30679b9d290c5bf1090e00aa14b3b5",
+      "byte_size": 156871,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+      "relative_path": "assets/public/c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8.jpg",
+      "sha256": "c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
+      "byte_size": 171897,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+      "relative_path": "assets/public/e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352.png",
+      "sha256": "e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352",
+      "byte_size": 331617,
+      "width": 1162,
+      "height": 1265
+    },
+    {
+      "asset_id": "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+      "relative_path": "assets/public/fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48.jpg",
+      "sha256": "fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+      "byte_size": 172874,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-fd2bf0ae08f5c24e970556b9519d4e86df50fe42f2b06b5ff8e0defb42e3ff49",
+      "relative_path": "assets/public/fd2bf0ae08f5c24e970556b9519d4e86df50fe42f2b06b5ff8e0defb42e3ff49.jpg",
+      "sha256": "fd2bf0ae08f5c24e970556b9519d4e86df50fe42f2b06b5ff8e0defb42e3ff49",
+      "byte_size": 212450,
+      "width": 1072,
+      "height": 1516
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": false
+  }
+}

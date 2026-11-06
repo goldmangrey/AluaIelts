@@ -1,0 +1,10 @@
+{
+  "production_health": "PASS",
+  "auth_existing_identity": "PASS",
+  "catalog_tests": 72,
+  "changed_exam_endpoints": 29,
+  "new_png_manifest_references": 45,
+  "existing_review": "PASS",
+  "existing_snapshot_image_http_hash": "PASS",
+  "asset_validation_scope": "45 new PNG validated by production Catalog.asset loader and new exam HTTP metadata; existing snapshot asset also fetched through protected HTTP route. No real attempt created."
+}

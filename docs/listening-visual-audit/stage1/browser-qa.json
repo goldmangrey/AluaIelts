@@ -1,0 +1,57 @@
+{
+  "chromium_exam_review": "FAIL — required browser checklist incomplete, not a confirmed product failure",
+  "webkit": "NOT VERIFIED — partial Exam visual check only",
+  "environment_limit": [
+    "Native CUA coordinate click/scroll repeatedly returned noWindowsAvailable.",
+    "Browser access host unavailable. Some loaded pages exposed no HTML AX tree and a blank/grey capture despite HTTP 200; cause not established.",
+    "HTTP 200 was not treated as visual PASS."
+  ],
+  "observations": [
+    {
+      "case": "C05 T1 P1",
+      "mode": "Chromium Exam",
+      "status": "VISUALLY VERIFIED",
+      "detail": "One full original page replaces duplicated clipped Dreamtime form; split panes and capsules visible."
+    },
+    {
+      "case": "C09 T2 P2 Q14–16",
+      "mode": "Chromium Exam",
+      "status": "PARTIAL",
+      "detail": "Two source image buttons, earlier Q11–15 page visibly first. Map and independent scroll not verified interactively."
+    },
+    {
+      "case": "C12 T7 P3 Q21",
+      "mode": "Chromium Exam",
+      "status": "NOT VERIFIED",
+      "detail": "Local page and canonical asset returned HTTP 200, but grey capture/no HTML AX."
+    },
+    {
+      "case": "C14 T2 P2",
+      "mode": "Chromium Exam/Review",
+      "status": "NOT RUN — browser access blocked"
+    },
+    {
+      "case": "C18 T2 P4 Q31",
+      "mode": "Chromium Review",
+      "status": "NOT VERIFIED",
+      "detail": "Actual ListeningReview served canonical Part 4 asset; grey capture/no HTML AX prevents visual confirmation."
+    },
+    {
+      "case": "C19 T3 P1",
+      "mode": "Chromium Exam/Review",
+      "status": "NOT RUN — browser access blocked"
+    },
+    {
+      "case": "Control Parts",
+      "mode": "Chromium Exam/Review",
+      "status": "NOT RUN — browser access blocked"
+    },
+    {
+      "case": "C05 T1 P1",
+      "mode": "Safari/WebKit Exam",
+      "status": "VISUALLY VERIFIED",
+      "detail": "Full original page, one image, split panes/capsules visible. Review and interactions not completed."
+    }
+  ],
+  "scope": "Disposable local frontend using actual ListeningPage/ListeningReview. Temporary identity, save endpoint, silent WAV and synthetic evidence in /tmp only. No real backend/provider/database. AI/Play/Loop interactions not verified."
+}

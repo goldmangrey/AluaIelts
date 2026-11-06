@@ -1,0 +1,2834 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-20-test-02",
+  "book": 20,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 258,
+        "line_end": 299,
+        "pdf_pages": [
+          39,
+          40
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+        "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-02-p1-g01-10",
+          "question_range": [
+            1,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+            "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+          ],
+          "content_blocks": [
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82"
+            },
+            {
+              "kind": "original_source_image",
+              "asset_id": "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q01"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q02"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q03"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q04"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q05"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q06"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q07"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q08"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q09"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-20-test-02-q10"
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 258,
+            "line_end": 299,
+            "pdf_pages": [
+              39,
+              40
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-02-q01",
+              "question_number": 1,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 275,
+                  "start": 5,
+                  "end": 21,
+                  "text": "• va (1) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q02",
+              "question_number": 2,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 279,
+                  "start": 11,
+                  "end": 27,
+                  "text": "• how much (2) ____________ the caring involves",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q03",
+              "question_number": 3,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 282,
+                  "start": 23,
+                  "end": 39,
+                  "text": "  - helping her have a (3) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q04",
+              "question_number": 4,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 285,
+                  "start": 17,
+                  "end": 33,
+                  "text": "  - dealing with (4) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q05",
+              "question_number": 5,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 287,
+                  "start": 12,
+                  "end": 28,
+                  "text": "  - loss of (5) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q06",
+              "question_number": 6,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 288,
+                  "start": 4,
+                  "end": 20,
+                  "text": "  - (6) ____________ her",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q07",
+              "question_number": 7,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 289,
+                  "start": 17,
+                  "end": 33,
+                  "text": "  - preventing a (7) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q08",
+              "question_number": 8,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 294,
+                  "start": 34,
+                  "end": 50,
+                  "text": "• transport costs, e.g. cost of a (8) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q09",
+              "question_number": 9,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 295,
+                  "start": 35,
+                  "end": 51,
+                  "text": "• car-related costs, e.g. fuel and (9) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-20-test-02-q10",
+              "question_number": 10,
+              "prompt": null,
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 297,
+                  "start": 17,
+                  "end": 34,
+                  "text": "• help to reduce (10) ____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "source_verified",
+                "method": "visual_original_pdf_review",
+                "pdf": "ieltsbooks/Cambridge-IELTS-20.pdf",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "scope": "original visual presentation, instructions, labels, response mapping and options; prepared TXT is not a certified verbatim edition",
+                "note": ""
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+                  "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 300,
+        "line_end": 380,
+        "pdf_pages": [
+          41,
+          42
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-a547091f1582e00720424ce0b88b864f22fc9a99d5c6f29d5667be0b39163264",
+        "asset-7ad6139425f15820ff15eb6dd43bae90a8737f0e61b4dba7d00546832c1e00c0"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-02-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "matching",
+          "instructions": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "providing entertainment",
+                "source_line": 326
+              },
+              {
+                "label": "B",
+                "text": "providing publicity about a council service",
+                "source_line": 328
+              },
+              {
+                "label": "C",
+                "text": "contacting local businesses",
+                "source_line": 330
+              },
+              {
+                "label": "D",
+                "text": "giving advice to visitors",
+                "source_line": 331
+              },
+              {
+                "label": "E",
+                "text": "collecting feedback on events",
+                "source_line": 333
+              },
+              {
+                "label": "F",
+                "text": "selling tickets",
+                "source_line": 335
+              },
+              {
+                "label": "G",
+                "text": "introducing guest speakers at an event",
+                "source_line": 337
+              },
+              {
+                "label": "H",
+                "text": "encouraging cooperation between local organisations",
+                "source_line": 339
+              },
+              {
+                "label": "I",
+                "text": "helping people find their seats",
+                "source_line": 341
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": " What is the role of the volunteers in each of the following activities?",
+              "source_line": 308,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Choose SIX answers from the box and write the correct letter, A-I, next to Questions",
+              "source_line": 310,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 11-16.",
+              "source_line": 312,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 11. walking around the town centre",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 12. helping at concerts",
+              "source_line": 316,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 13. getting involved with community groups",
+              "source_line": 318,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 14. helping with a magazine",
+              "source_line": 320,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 15. participating at lunches for retired people",
+              "source_line": 322,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 16. helping with the website",
+              "source_line": 324,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. providing entertainment",
+              "source_line": 326,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. providing publicity about a council service",
+              "source_line": 328,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. contacting local businesses",
+              "source_line": 330,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " D. giving advice to visitors",
+              "source_line": 331,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " E. collecting feedback on events",
+              "source_line": 333,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " F. selling tickets",
+              "source_line": 335,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " G. introducing guest speakers at an event",
+              "source_line": 337,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " H. encouraging cooperation between local organisations",
+              "source_line": 339,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " I. helping people find their seats",
+              "source_line": 341,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 300,
+            "line_end": 344,
+            "pdf_pages": [
+              41,
+              42
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-02-q11",
+              "question_number": 11,
+              "prompt": "11. walking around the town centre",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 314,
+                  "start": 0,
+                  "end": 35,
+                  "text": " 11. walking around the town centre",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q12",
+              "question_number": 12,
+              "prompt": "12. helping at concerts",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 316,
+                  "start": 0,
+                  "end": 24,
+                  "text": " 12. helping at concerts",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q13",
+              "question_number": 13,
+              "prompt": "13. getting involved with community groups",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 318,
+                  "start": 0,
+                  "end": 43,
+                  "text": " 13. getting involved with community groups",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q14",
+              "question_number": 14,
+              "prompt": "14. helping with a magazine",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 320,
+                  "start": 0,
+                  "end": 28,
+                  "text": " 14. helping with a magazine",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q15",
+              "question_number": 15,
+              "prompt": "15. participating at lunches for retired people",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 322,
+                  "start": 0,
+                  "end": 48,
+                  "text": " 15. participating at lunches for retired people",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q16",
+              "question_number": 16,
+              "prompt": "16. helping with the website",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 324,
+                  "start": 0,
+                  "end": 29,
+                  "text": " 16. helping with the website",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is the role of the volunteers in each of the following activities?\nChoose SIX answers from the box and write the correct letter, A-I, next to Questions",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-02-p2-g17-20",
+          "question_range": [
+            17,
+            20
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": " Choose the correct letter, A, B or C.",
+              "source_line": 347,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 17. Which event requires the largest number of volunteers?",
+              "source_line": 349,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. the music festival",
+              "source_line": 351,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. the science festival",
+              "source_line": 353,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. the book festival",
+              "source_line": 355,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 18. What is the most important requirement for volunteers at the festivals?",
+              "source_line": 357,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. interpersonal skills",
+              "source_line": 359,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. personal interest in the event",
+              "source_line": 361,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. flexibility",
+              "source_line": 362,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 19. New volunteers will start working in the week beginning",
+              "source_line": 364,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. 2 September.",
+              "source_line": 366,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. 9 September.",
+              "source_line": 368,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. 23 September.",
+              "source_line": 370,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 20. What is the next annual event for volunteers?",
+              "source_line": 372,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. a boat trip",
+              "source_line": 374,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. a barbecue",
+              "source_line": 376,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. a party",
+              "source_line": 378,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 345,
+            "line_end": 380,
+            "pdf_pages": [
+              41,
+              42
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-02-q17",
+              "question_number": 17,
+              "prompt": "17. Which event requires the largest number of volunteers?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the music festival",
+                  "source_line": 351
+                },
+                {
+                  "label": "B",
+                  "text": "the science festival",
+                  "source_line": 353
+                },
+                {
+                  "label": "C",
+                  "text": "the book festival",
+                  "source_line": 355
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 349,
+                  "start": 0,
+                  "end": 59,
+                  "text": " 17. Which event requires the largest number of volunteers?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q18",
+              "question_number": 18,
+              "prompt": "18. What is the most important requirement for volunteers at the festivals?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "interpersonal skills",
+                  "source_line": 359
+                },
+                {
+                  "label": "B",
+                  "text": "personal interest in the event",
+                  "source_line": 361
+                },
+                {
+                  "label": "C",
+                  "text": "flexibility",
+                  "source_line": 362
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 357,
+                  "start": 0,
+                  "end": 76,
+                  "text": " 18. What is the most important requirement for volunteers at the festivals?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q19",
+              "question_number": 19,
+              "prompt": "19. New volunteers will start working in the week beginning",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2 September.",
+                  "source_line": 366
+                },
+                {
+                  "label": "B",
+                  "text": "9 September.",
+                  "source_line": 368
+                },
+                {
+                  "label": "C",
+                  "text": "23 September.",
+                  "source_line": 370
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 364,
+                  "start": 0,
+                  "end": 60,
+                  "text": " 19. New volunteers will start working in the week beginning",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q20",
+              "question_number": 20,
+              "prompt": "20. What is the next annual event for volunteers?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "a boat trip",
+                  "source_line": 374
+                },
+                {
+                  "label": "B",
+                  "text": "a barbecue",
+                  "source_line": 376
+                },
+                {
+                  "label": "C",
+                  "text": "a party",
+                  "source_line": 378
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 372,
+                  "start": 0,
+                  "end": 50,
+                  "text": " 20. What is the next annual event for volunteers?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 381,
+        "line_end": 449,
+        "pdf_pages": [
+          43,
+          44
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-64e48c83869d7f186f38d524031757b4402f767c322809819cf16f4b05def188",
+        "asset-bc9a789210ada9163454424e3ad7f61c997ca6cd4946559ad426d995e36e179b"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-02-p3-g21-25",
+          "question_range": [
+            21,
+            25
+          ],
+          "question_type": "matching",
+          "instructions": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-20-test-02-p3-g21-25-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "The information given about this was too vague.",
+                "source_line": 398
+              },
+              {
+                "label": "B",
+                "text": "This may not be relevant to their course.",
+                "source_line": 399
+              },
+              {
+                "label": "C",
+                "text": "This will involve only a small number of statistics.",
+                "source_line": 400
+              },
+              {
+                "label": "D",
+                "text": "It will be easy to find facts about this.",
+                "source_line": 401
+              },
+              {
+                "label": "E",
+                "text": "The facts about this may not be reliable.",
+                "source_line": 402
+              },
+              {
+                "label": "F",
+                "text": "No useful research has been done on this.",
+                "source_line": 403
+              },
+              {
+                "label": "G",
+                "text": "The information provided about this was interesting.",
+                "source_line": 404
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What is Rosie and Colin's opinion about each of the following aspects of human geography?",
+              "source_line": 388,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+              "source_line": 389,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "ASPECTS OF HUMAN GEOGRAPHY",
+              "source_line": 391,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. Population ____________",
+              "source_line": 392,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22. Health ____________",
+              "source_line": 393,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. Economies ____________",
+              "source_line": 394,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24. Culture ____________",
+              "source_line": 395,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. Poverty ____________",
+              "source_line": 396,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A. The information given about this was too vague.",
+              "source_line": 398,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B. This may not be relevant to their course.",
+              "source_line": 399,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C. This will involve only a small number of statistics.",
+              "source_line": 400,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D. It will be easy to find facts about this.",
+              "source_line": 401,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E. The facts about this may not be reliable.",
+              "source_line": 402,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F. No useful research has been done on this.",
+              "source_line": 403,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G. The information provided about this was interesting.",
+              "source_line": 404,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 381,
+            "line_end": 405,
+            "pdf_pages": [
+              43,
+              44
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-02-q21",
+              "question_number": 21,
+              "prompt": "21. Population ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p3-g21-25-bank",
+              "blank_references": [
+                {
+                  "line": 392,
+                  "start": 0,
+                  "end": 27,
+                  "text": "21. Population ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q22",
+              "question_number": 22,
+              "prompt": "22. Health ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p3-g21-25-bank",
+              "blank_references": [
+                {
+                  "line": 393,
+                  "start": 0,
+                  "end": 23,
+                  "text": "22. Health ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q23",
+              "question_number": 23,
+              "prompt": "23. Economies ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p3-g21-25-bank",
+              "blank_references": [
+                {
+                  "line": 394,
+                  "start": 0,
+                  "end": 26,
+                  "text": "23. Economies ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q24",
+              "question_number": 24,
+              "prompt": "24. Culture ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p3-g21-25-bank",
+              "blank_references": [
+                {
+                  "line": 395,
+                  "start": 0,
+                  "end": 24,
+                  "text": "24. Culture ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q25",
+              "question_number": 25,
+              "prompt": "25. Poverty ____________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-20-test-02-p3-g21-25-bank",
+              "blank_references": [
+                {
+                  "line": 396,
+                  "start": 0,
+                  "end": 24,
+                  "text": "25. Poverty ____________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is Rosie and Colin's opinion about each of the following aspects of human geography?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 21–25.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-20-test-02-p3-g26-30",
+          "question_range": [
+            26,
+            30
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 407,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. Rosie says that in her own city the main problem is",
+              "source_line": 408,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. crime.",
+              "source_line": 409,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. housing.",
+              "source_line": 410,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. unemployment.",
+              "source_line": 411,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. What recent additions to the outskirts of their cities are both students happy about?",
+              "source_line": 413,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. conference centres",
+              "source_line": 414,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " [Continues on the next PDF page, p. 44.]",
+              "source_line": 415,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B. sports centres",
+              "source_line": 419,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. retail centres",
+              "source_line": 421,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 28. The students agree that developing disused industrial sites may",
+              "source_line": 423,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. have unexpected costs.",
+              "source_line": 425,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. damage the urban environment.",
+              "source_line": 427,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. destroy valuable historical buildings.",
+              "source_line": 429,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 29. The students will mention Masdar City as an example of an attempt to",
+              "source_line": 431,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " achieve",
+              "source_line": 433,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. daily collections for waste recycling.",
+              "source_line": 435,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. sustainable energy use.",
+              "source_line": 437,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. free transport for everyone.",
+              "source_line": 439,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " 30. When discussing the Eco town of Greenhill Abbots, Colin is uncertain about",
+              "source_line": 441,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A. what its objectives were.",
+              "source_line": 443,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B. why there was opposition to it.",
+              "source_line": 445,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C. how much of it has actually been built.",
+              "source_line": 447,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 406,
+            "line_end": 449,
+            "pdf_pages": [
+              43,
+              44
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-02-q26",
+              "question_number": 26,
+              "prompt": "26. Rosie says that in her own city the main problem is",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "crime.",
+                  "source_line": 409
+                },
+                {
+                  "label": "B",
+                  "text": "housing.",
+                  "source_line": 410
+                },
+                {
+                  "label": "C",
+                  "text": "unemployment.",
+                  "source_line": 411
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 408,
+                  "start": 0,
+                  "end": 55,
+                  "text": "26. Rosie says that in her own city the main problem is",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q27",
+              "question_number": 27,
+              "prompt": "27. What recent additions to the outskirts of their cities are both students happy about?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "conference centres",
+                  "source_line": 414
+                },
+                {
+                  "label": "B",
+                  "text": "sports centres",
+                  "source_line": 419
+                },
+                {
+                  "label": "C",
+                  "text": "retail centres",
+                  "source_line": 421
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 413,
+                  "start": 0,
+                  "end": 89,
+                  "text": "27. What recent additions to the outskirts of their cities are both students happy about?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q28",
+              "question_number": 28,
+              "prompt": "28. The students agree that developing disused industrial sites may",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "have unexpected costs.",
+                  "source_line": 425
+                },
+                {
+                  "label": "B",
+                  "text": "damage the urban environment.",
+                  "source_line": 427
+                },
+                {
+                  "label": "C",
+                  "text": "destroy valuable historical buildings.",
+                  "source_line": 429
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 423,
+                  "start": 0,
+                  "end": 68,
+                  "text": " 28. The students agree that developing disused industrial sites may",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q29",
+              "question_number": 29,
+              "prompt": "29. The students will mention Masdar City as an example of an attempt to",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "daily collections for waste recycling.",
+                  "source_line": 435
+                },
+                {
+                  "label": "B",
+                  "text": "sustainable energy use.",
+                  "source_line": 437
+                },
+                {
+                  "label": "C",
+                  "text": "free transport for everyone.",
+                  "source_line": 439
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 431,
+                  "start": 0,
+                  "end": 73,
+                  "text": " 29. The students will mention Masdar City as an example of an attempt to",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q30",
+              "question_number": 30,
+              "prompt": "30. When discussing the Eco town of Greenhill Abbots, Colin is uncertain about",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "what its objectives were.",
+                  "source_line": 443
+                },
+                {
+                  "label": "B",
+                  "text": "why there was opposition to it.",
+                  "source_line": 445
+                },
+                {
+                  "label": "C",
+                  "text": "how much of it has actually been built.",
+                  "source_line": 447
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 441,
+                  "start": 0,
+                  "end": 79,
+                  "text": " 30. When discussing the Eco town of Greenhill Abbots, Colin is uncertain about",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+        "line_start": 450,
+        "line_end": 491,
+        "pdf_pages": [
+          45
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-c56e0424712c21bb9db701f9e908928bc854e34cd870a3c6831a61166d048e16"
+      ],
+      "audio_mapping_key": {
+        "book": 20,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-20-test-02-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": " Complete the notes below.",
+              "source_line": 458,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Write ONE WORD ONLY for each answer.",
+              "source_line": 460,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " Developing food trends",
+              "source_line": 462,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • The growth in interest in food fashions started with (31) ____________of food",
+              "source_line": 463,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 56,
+                  "end": 73
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " being shared on social media.",
+              "source_line": 464,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • The UK food industry is constantly developing products which are new or",
+              "source_line": 465,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " different.",
+              "source_line": 466,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Influencers on social media become 'ambassadors' for a brand.",
+              "source_line": 467,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Sales of (32)____________ food brands have grown this way.",
+              "source_line": 468,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 12,
+                  "end": 28
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " • Supermarkets track demand for ingredients on social media.",
+              "source_line": 469,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Famous (33)____________re influential.",
+              "source_line": 470,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 10,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Marketing campaigns",
+              "source_line": 471,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • The avocado:",
+              "source_line": 472,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - ____________(34) were invited to visit growers in South Africa.",
+              "source_line": 473,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 3,
+                  "end": 19
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " - Advertising focused on its (35)____________ benefits.",
+              "source_line": 474,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 30,
+                  "end": 46
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " • Oat milk:",
+              "source_line": 475,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - A Swedish brand's media campaign received publicity by upsetting",
+              "source_line": 476,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " competitors.",
+              "source_line": 477,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - Promotion in the USA through (36)____________ shops reduced the need",
+              "source_line": 478,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 32,
+                  "end": 48
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " for advertising.",
+              "source_line": 479,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - It appealed to consumers who are concerned about the (37)____________",
+              "source_line": 480,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 56,
+                  "end": 72
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " • Norwegian skrei:",
+              "source_line": 482,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - has helped strengthen the (38)____________ of Norwegian seafood.",
+              "source_line": 483,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 29,
+                  "end": 45
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " Ethical concerns",
+              "source_line": 484,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " • Quinoa:",
+              "source_line": 485,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " - Its success led to an increase in its (39)____________",
+              "source_line": 486,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 41,
+                  "end": 57
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": " - Overuse of resources resulted in poor quality (40)____________",
+              "source_line": 487,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 49,
+                  "end": 65
+                }
+              ]
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_20/Cambridge_IELTS_20_Listening.txt",
+            "line_start": 450,
+            "line_end": 491,
+            "pdf_pages": [
+              45
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-20-test-02-q31",
+              "question_number": 31,
+              "prompt": "• The growth in interest in food fashions started with (31) ____________of food",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 463,
+                  "start": 56,
+                  "end": 73,
+                  "text": " • The growth in interest in food fashions started with (31) ____________of food",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q32",
+              "question_number": 32,
+              "prompt": "• Sales of (32)____________ food brands have grown this way.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 468,
+                  "start": 12,
+                  "end": 28,
+                  "text": " • Sales of (32)____________ food brands have grown this way.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q33",
+              "question_number": 33,
+              "prompt": "• Famous (33)____________re influential.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 470,
+                  "start": 10,
+                  "end": 26,
+                  "text": " • Famous (33)____________re influential.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q34",
+              "question_number": 34,
+              "prompt": "- ____________(34) were invited to visit growers in South Africa.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 473,
+                  "start": 3,
+                  "end": 19,
+                  "text": " - ____________(34) were invited to visit growers in South Africa.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q35",
+              "question_number": 35,
+              "prompt": "- Advertising focused on its (35)____________ benefits.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 474,
+                  "start": 30,
+                  "end": 46,
+                  "text": " - Advertising focused on its (35)____________ benefits.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q36",
+              "question_number": 36,
+              "prompt": "- Promotion in the USA through (36)____________ shops reduced the need",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 478,
+                  "start": 32,
+                  "end": 48,
+                  "text": " - Promotion in the USA through (36)____________ shops reduced the need",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q37",
+              "question_number": 37,
+              "prompt": "- It appealed to consumers who are concerned about the (37)____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 480,
+                  "start": 56,
+                  "end": 72,
+                  "text": " - It appealed to consumers who are concerned about the (37)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q38",
+              "question_number": 38,
+              "prompt": "- has helped strengthen the (38)____________ of Norwegian seafood.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 483,
+                  "start": 29,
+                  "end": 45,
+                  "text": " - has helped strengthen the (38)____________ of Norwegian seafood.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q39",
+              "question_number": 39,
+              "prompt": "- Its success led to an increase in its (39)____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 486,
+                  "start": 41,
+                  "end": 57,
+                  "text": " - Its success led to an increase in its (39)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-20-test-02-q40",
+              "question_number": 40,
+              "prompt": "- Overuse of resources resulted in poor quality (40)____________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 487,
+                  "start": 49,
+                  "end": 65,
+                  "text": " - Overuse of resources resulted in poor quality (40)____________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b",
+      "relative_path": "assets/public/076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b.jpg",
+      "sha256": "076cded0d1a40c88ef8f83db8f071ff919a049a4014a7b72de8f192307b5b63b",
+      "byte_size": 92303,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-64e48c83869d7f186f38d524031757b4402f767c322809819cf16f4b05def188",
+      "relative_path": "assets/public/64e48c83869d7f186f38d524031757b4402f767c322809819cf16f4b05def188.jpg",
+      "sha256": "64e48c83869d7f186f38d524031757b4402f767c322809819cf16f4b05def188",
+      "byte_size": 194641,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-7ad6139425f15820ff15eb6dd43bae90a8737f0e61b4dba7d00546832c1e00c0",
+      "relative_path": "assets/public/7ad6139425f15820ff15eb6dd43bae90a8737f0e61b4dba7d00546832c1e00c0.jpg",
+      "sha256": "7ad6139425f15820ff15eb6dd43bae90a8737f0e61b4dba7d00546832c1e00c0",
+      "byte_size": 136787,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-a547091f1582e00720424ce0b88b864f22fc9a99d5c6f29d5667be0b39163264",
+      "relative_path": "assets/public/a547091f1582e00720424ce0b88b864f22fc9a99d5c6f29d5667be0b39163264.jpg",
+      "sha256": "a547091f1582e00720424ce0b88b864f22fc9a99d5c6f29d5667be0b39163264",
+      "byte_size": 159486,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-bc9a789210ada9163454424e3ad7f61c997ca6cd4946559ad426d995e36e179b",
+      "relative_path": "assets/public/bc9a789210ada9163454424e3ad7f61c997ca6cd4946559ad426d995e36e179b.jpg",
+      "sha256": "bc9a789210ada9163454424e3ad7f61c997ca6cd4946559ad426d995e36e179b",
+      "byte_size": 139203,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+      "relative_path": "assets/public/c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82.jpg",
+      "sha256": "c5640164c3e98af30484b0353561c33de8d82eca853be73a129a9fe06763aa82",
+      "byte_size": 163205,
+      "width": 1072,
+      "height": 1516
+    },
+    {
+      "asset_id": "asset-c56e0424712c21bb9db701f9e908928bc854e34cd870a3c6831a61166d048e16",
+      "relative_path": "assets/public/c56e0424712c21bb9db701f9e908928bc854e34cd870a3c6831a61166d048e16.jpg",
+      "sha256": "c56e0424712c21bb9db701f9e908928bc854e34cd870a3c6831a61166d048e16",
+      "byte_size": 220088,
+      "width": 1072,
+      "height": 1516
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 10,
+    "keys_present": 40,
+    "key_verified_positions": 40,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": true,
+    "ready_for_stage2": false
+  }
+}

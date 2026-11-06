@@ -80,7 +80,7 @@
 .answeredKey { background: #e7f3ec; border: 1px solid #cfe3d5; }
 .unansweredKey { background: #fafbfa; border: 1px solid #dfe4e0; }
 .legend .reviewKey { width: 5px; height: 5px; margin: 2.5px; border-radius: 50%; background: #b47b23; }
-.finish { width: min(440px, calc(100vw - 32px)); }
+.finish { position: fixed; inset: 0; z-index: 100; margin: auto; width: min(440px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow: auto; }
 .finish p { margin: 8px 0 0; color: #747c77; font-size: 13px; line-height: 1.65; }
 .finish .finishSummary { margin-top: 20px; color: #303b34; font-size: 15px; font-weight: 500; }
 .finish .finishWarning { margin-top: 22px; }

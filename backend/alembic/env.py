@@ -5,6 +5,7 @@ from sqlalchemy import engine_from_config, pool
 from alembic import context
 from app.core.config import get_settings
 from app.db.models import Base
+from app.modules.listening import models as listening_models  # noqa: F401
 from app.modules.reading import models as reading_models  # noqa: F401
 
 config = context.config

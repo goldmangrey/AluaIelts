@@ -1,0 +1,3001 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-15-test-02",
+  "book": 15,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 226,
+        "line_end": 260,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+      ],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-02-p1-g01-04",
+          "question_range": [
+            1,
+            4
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 231,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 232,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "FESTIVAL INFORMATION",
+              "source_line": 234,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Date                     Type of event         Details",
+              "source_line": 236,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17th                     a concert             performers from Canada",
+              "source_line": 237,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18th                     a ballet              company called 1 ____________________",
+              "source_line": 238,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 62,
+                  "end": 84
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "19th–20th (afternoon)    a play                type of play: a comedy called Jemima",
+              "source_line": 239,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "                                                 has had a good 2 ____________________",
+              "source_line": 240,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 64,
+                  "end": 86
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "20th (evening)           a 3 __________ show   show is called 4 ____________________",
+              "source_line": 241,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 27,
+                  "end": 39
+                },
+                {
+                  "question_number": 4,
+                  "start": 62,
+                  "end": 84
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 230,
+            "line_end": 242,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q01",
+              "question_number": 1,
+              "prompt": "18th                     a ballet              company called 1 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 238,
+                  "start": 62,
+                  "end": 84,
+                  "text": "18th                     a ballet              company called 1 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q02",
+              "question_number": 2,
+              "prompt": "has had a good 2 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 240,
+                  "start": 64,
+                  "end": 86,
+                  "text": "                                                 has had a good 2 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q03",
+              "question_number": 3,
+              "prompt": "20th (evening)           a 3 __________ show   show is called 4 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 241,
+                  "start": 27,
+                  "end": 39,
+                  "text": "20th (evening)           a 3 __________ show   show is called 4 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q04",
+              "question_number": 4,
+              "prompt": "20th (evening)           a 3 __________ show   show is called 4 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 241,
+                  "start": 62,
+                  "end": 84,
+                  "text": "20th (evening)           a 3 __________ show   show is called 4 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-02-p1-g05-10",
+          "question_range": [
+            5,
+            10
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 244,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 245,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Workshops",
+              "source_line": 247,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Making 5 ____________________ food",
+              "source_line": 248,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 9,
+                  "end": 31
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• (children only) Making 6 ____________________",
+              "source_line": 249,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 25,
+                  "end": 47
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• (adults only) Making toys from 7 ____________________ using various tools",
+              "source_line": 250,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 33,
+                  "end": 55
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Outdoor activities",
+              "source_line": 252,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Swimming in the 8 ____________________",
+              "source_line": 253,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 18,
+                  "end": 40
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Walking in the woods, led by an expert on 9 ____________________",
+              "source_line": 254,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 44,
+                  "end": 66
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "See the festival organiser’s 10 ____________________ for more information",
+              "source_line": 256,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 29,
+                  "end": 52
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 243,
+            "line_end": 260,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q05",
+              "question_number": 5,
+              "prompt": "• Making 5 ____________________ food",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 248,
+                  "start": 9,
+                  "end": 31,
+                  "text": "• Making 5 ____________________ food",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q06",
+              "question_number": 6,
+              "prompt": "• (children only) Making 6 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 249,
+                  "start": 25,
+                  "end": 47,
+                  "text": "• (children only) Making 6 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q07",
+              "question_number": 7,
+              "prompt": "• (adults only) Making toys from 7 ____________________ using various tools",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 250,
+                  "start": 33,
+                  "end": 55,
+                  "text": "• (adults only) Making toys from 7 ____________________ using various tools",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q08",
+              "question_number": 8,
+              "prompt": "• Swimming in the 8 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 253,
+                  "start": 18,
+                  "end": 40,
+                  "text": "• Swimming in the 8 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q09",
+              "question_number": 9,
+              "prompt": "• Walking in the woods, led by an expert on 9 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 254,
+                  "start": 44,
+                  "end": 66,
+                  "text": "• Walking in the woods, led by an expert on 9 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q10",
+              "question_number": 10,
+              "prompt": "See the festival organiser’s 10 ____________________ for more information",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 256,
+                  "start": 29,
+                  "end": 52,
+                  "text": "See the festival organiser’s 10 ____________________ for more information",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929",
+          "question_range": [
+            1,
+            10
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 261,
+        "line_end": 305,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+      ],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-02-p2-g11-14",
+          "question_range": [
+            11,
+            14
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 266,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MINSTER PARK",
+              "source_line": 268,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11 The park was originally established",
+              "source_line": 270,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A as an amenity provided by the city council.",
+              "source_line": 271,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B as land belonging to a private house.",
+              "source_line": 272,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C as a shared area set up by the local community.",
+              "source_line": 273,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12 Why is there a statue of Diane Gosforth in the park?",
+              "source_line": 275,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A She was a resident who helped to lead a campaign.",
+              "source_line": 276,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B She was a council member responsible for giving the public access.",
+              "source_line": 277,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C She was a senior worker at the park for many years.",
+              "source_line": 278,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13 During the First World War, the park was mainly used for",
+              "source_line": 280,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A exercises by troops.",
+              "source_line": 281,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B growing vegetables.",
+              "source_line": 282,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C public meetings.",
+              "source_line": 283,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14 When did the physical transformation of the park begin?",
+              "source_line": 285,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A 2013",
+              "source_line": 286,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B 2015",
+              "source_line": 287,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C 2016",
+              "source_line": 288,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q14"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 265,
+            "line_end": 289,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q11",
+              "question_number": 11,
+              "prompt": "11 The park was originally established",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "as an amenity provided by the city council.",
+                  "source_line": 271
+                },
+                {
+                  "label": "B",
+                  "text": "as land belonging to a private house.",
+                  "source_line": 272
+                },
+                {
+                  "label": "C",
+                  "text": "as a shared area set up by the local community.",
+                  "source_line": 273
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 270,
+                  "start": 0,
+                  "end": 38,
+                  "text": "11 The park was originally established",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q12",
+              "question_number": 12,
+              "prompt": "12 Why is there a statue of Diane Gosforth in the park?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "She was a resident who helped to lead a campaign.",
+                  "source_line": 276
+                },
+                {
+                  "label": "B",
+                  "text": "She was a council member responsible for giving the public access.",
+                  "source_line": 277
+                },
+                {
+                  "label": "C",
+                  "text": "She was a senior worker at the park for many years.",
+                  "source_line": 278
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 275,
+                  "start": 0,
+                  "end": 55,
+                  "text": "12 Why is there a statue of Diane Gosforth in the park?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q13",
+              "question_number": 13,
+              "prompt": "13 During the First World War, the park was mainly used for",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "exercises by troops.",
+                  "source_line": 281
+                },
+                {
+                  "label": "B",
+                  "text": "growing vegetables.",
+                  "source_line": 282
+                },
+                {
+                  "label": "C",
+                  "text": "public meetings.",
+                  "source_line": 283
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 280,
+                  "start": 0,
+                  "end": 59,
+                  "text": "13 During the First World War, the park was mainly used for",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q14",
+              "question_number": 14,
+              "prompt": "14 When did the physical transformation of the park begin?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "2013",
+                  "source_line": 286
+                },
+                {
+                  "label": "B",
+                  "text": "2015",
+                  "source_line": 287
+                },
+                {
+                  "label": "C",
+                  "text": "2016",
+                  "source_line": 288
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 285,
+                  "start": 0,
+                  "end": 58,
+                  "text": "14 When did the physical transformation of the park begin?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-02-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "map_labelling",
+          "instructions": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "A"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "B",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "B"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "C",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "C"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "D",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "D"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "E",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "E"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "F",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "F"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "G",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "G"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "H",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "H"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "I",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                  ],
+                  "original_label": "I"
+                },
+                "source_range": "A–I"
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the map below.",
+              "source_line": 291,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–I, next to Questions 15–20.",
+              "source_line": 292,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MINSTER PARK — MAP",
+              "source_line": 294,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "IMPORTANT: The A–I positions, the river, the Lily pond, and the North/West/East/South gates are part of the question image. Do not infer map labels from TXT alone.",
+              "source_line": 296,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15 statue of Diane Gosforth           ____________________",
+              "source_line": 298,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16 wooden sculptures                 ____________________",
+              "source_line": 299,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17 playground                        ____________________",
+              "source_line": 300,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18 maze                              ____________________",
+              "source_line": 301,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19 tennis courts                     ____________________",
+              "source_line": 302,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20 fitness area                      ____________________",
+              "source_line": 303,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 290,
+            "line_end": 305,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q15",
+              "question_number": 15,
+              "prompt": "15 statue of Diane Gosforth           ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 298,
+                  "start": 0,
+                  "end": 58,
+                  "text": "15 statue of Diane Gosforth           ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q16",
+              "question_number": 16,
+              "prompt": "16 wooden sculptures                 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 299,
+                  "start": 0,
+                  "end": 57,
+                  "text": "16 wooden sculptures                 ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q17",
+              "question_number": 17,
+              "prompt": "17 playground                        ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 300,
+                  "start": 0,
+                  "end": 57,
+                  "text": "17 playground                        ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q18",
+              "question_number": 18,
+              "prompt": "18 maze                              ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 301,
+                  "start": 0,
+                  "end": 57,
+                  "text": "18 maze                              ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q19",
+              "question_number": 19,
+              "prompt": "19 tennis courts                     ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 302,
+                  "start": 0,
+                  "end": 57,
+                  "text": "19 tennis courts                     ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-15-test-02-q20",
+              "question_number": 20,
+              "prompt": "20 fitness area                      ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 303,
+                  "start": 0,
+                  "end": 57,
+                  "text": "20 fitness area                      ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf",
+          "question_range": [
+            11,
+            20
+          ],
+          "display_order": 1,
+          "asset_role": "task_image",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 306,
+        "line_end": 356,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-02-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO groups of people is the display primarily intended for?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO groups of people is the display primarily intended for?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-02-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "students from the English department",
+                "source_line": 313
+              },
+              {
+                "label": "B",
+                "text": "residents of the local area",
+                "source_line": 314
+              },
+              {
+                "label": "C",
+                "text": "the university’s teaching staff",
+                "source_line": 315
+              },
+              {
+                "label": "D",
+                "text": "potential new students",
+                "source_line": 316
+              },
+              {
+                "label": "E",
+                "text": "students from other departments",
+                "source_line": 317
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 311,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO groups of people is the display primarily intended for?",
+              "source_line": 312,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A students from the English department",
+              "source_line": 313,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B residents of the local area",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C the university’s teaching staff",
+              "source_line": 315,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D potential new students",
+              "source_line": 316,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E students from other departments",
+              "source_line": 317,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21 ____________________",
+              "source_line": 319,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "22 ____________________",
+              "source_line": 320,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 310,
+            "line_end": 321,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q21",
+              "question_number": 21,
+              "prompt": "21 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 319,
+                  "start": 0,
+                  "end": 23,
+                  "text": "21 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO groups of people is the display primarily intended for?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q22",
+              "question_number": 22,
+              "prompt": "22 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 320,
+                  "start": 0,
+                  "end": 23,
+                  "text": "22 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO groups of people is the display primarily intended for?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-02-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhat are Cathy and Graham’s TWO reasons for choosing the novelist Charles Dickens?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhat are Cathy and Graham’s TWO reasons for choosing the novelist Charles Dickens?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-02-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "His speeches inspired others to try to improve society.",
+                "source_line": 325
+              },
+              {
+                "label": "B",
+                "text": "He used his publications to draw attention to social problems.",
+                "source_line": 326
+              },
+              {
+                "label": "C",
+                "text": "His novels are well-known now.",
+                "source_line": 327
+              },
+              {
+                "label": "D",
+                "text": "He was consulted on a number of social issues.",
+                "source_line": 328
+              },
+              {
+                "label": "E",
+                "text": "His reputation has changed in recent times.",
+                "source_line": 329
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 323,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "What are Cathy and Graham’s TWO reasons for choosing the novelist Charles Dickens?",
+              "source_line": 324,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   A His speeches inspired others to try to improve society.",
+              "source_line": 325,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   B He used his publications to draw attention to social problems.",
+              "source_line": 326,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   C His novels are well-known now.",
+              "source_line": 327,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   D He was consulted on a number of social issues.",
+              "source_line": 328,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "   E His reputation has changed in recent times.",
+              "source_line": 329,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23 ____________________",
+              "source_line": 331,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "24 ____________________",
+              "source_line": 332,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 0,
+                  "end": 23
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 322,
+            "line_end": 333,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q23",
+              "question_number": 23,
+              "prompt": "23 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 331,
+                  "start": 0,
+                  "end": 23,
+                  "text": "23 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat are Cathy and Graham’s TWO reasons for choosing the novelist Charles Dickens?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q24",
+              "question_number": 24,
+              "prompt": "24 ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 332,
+                  "start": 0,
+                  "end": 23,
+                  "text": "24 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat are Cathy and Graham’s TWO reasons for choosing the novelist Charles Dickens?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-15-test-02-p3-g25-30",
+          "question_range": [
+            25,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "poverty",
+                "source_line": 339
+              },
+              {
+                "label": "B",
+                "text": "education",
+                "source_line": 340
+              },
+              {
+                "label": "C",
+                "text": "Dickens's travels",
+                "source_line": 341
+              },
+              {
+                "label": "D",
+                "text": "entertainment",
+                "source_line": 342
+              },
+              {
+                "label": "E",
+                "text": "crime and the law",
+                "source_line": 343
+              },
+              {
+                "label": "F",
+                "text": "wealth",
+                "source_line": 344
+              },
+              {
+                "label": "G",
+                "text": "medicine",
+                "source_line": 345
+              },
+              {
+                "label": "H",
+                "text": "a woman's life",
+                "source_line": 346
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What topic do Cathy and Graham choose to illustrate with each novel?",
+              "source_line": 335,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+              "source_line": 336,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "TOPICS",
+              "source_line": 338,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " A poverty",
+              "source_line": 339,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " B education",
+              "source_line": 340,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " C Dickens's travels",
+              "source_line": 341,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " D entertainment",
+              "source_line": 342,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " E crime and the law",
+              "source_line": 343,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " F wealth",
+              "source_line": 344,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " G medicine",
+              "source_line": 345,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": " H a woman's life",
+              "source_line": 346,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Novels by Dickens",
+              "source_line": 348,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25 The Pickwick Papers                ____________________",
+              "source_line": 349,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26 Oliver Twist                       ____________________",
+              "source_line": 350,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27 Nicholas Nickleby                  ____________________",
+              "source_line": 351,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28 Martin Chuzzlewit                  ____________________",
+              "source_line": 352,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29 Bleak House                        ____________________",
+              "source_line": 353,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30 Little Dorrit                      ____________________",
+              "source_line": 354,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-15-test-02-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 334,
+            "line_end": 356,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q25",
+              "question_number": 25,
+              "prompt": "25 The Pickwick Papers                ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 349,
+                  "start": 0,
+                  "end": 58,
+                  "text": "25 The Pickwick Papers                ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q26",
+              "question_number": 26,
+              "prompt": "26 Oliver Twist                       ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 350,
+                  "start": 0,
+                  "end": 58,
+                  "text": "26 Oliver Twist                       ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q27",
+              "question_number": 27,
+              "prompt": "27 Nicholas Nickleby                  ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 351,
+                  "start": 0,
+                  "end": 58,
+                  "text": "27 Nicholas Nickleby                  ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q28",
+              "question_number": 28,
+              "prompt": "28 Martin Chuzzlewit                  ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 352,
+                  "start": 0,
+                  "end": 58,
+                  "text": "28 Martin Chuzzlewit                  ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q29",
+              "question_number": 29,
+              "prompt": "29 Bleak House                        ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 353,
+                  "start": 0,
+                  "end": 58,
+                  "text": "29 Bleak House                        ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q30",
+              "question_number": 30,
+              "prompt": "30 Little Dorrit                      ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-15-test-02-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 354,
+                  "start": 0,
+                  "end": 58,
+                  "text": "30 Little Dorrit                      ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What topic do Cathy and Graham choose to illustrate with each novel?\nChoose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": []
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+        "line_start": 357,
+        "line_end": 397,
+        "pdf_pages": [],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-abc95d44279d92c97ea6ff266fdf9982a1608824148e31c589f4d6b7ba2dffc1"
+      ],
+      "audio_mapping_key": {
+        "book": 15,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-15-test-02-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-abc95d44279d92c97ea6ff266fdf9982a1608824148e31c589f4d6b7ba2dffc1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 361,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 362,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "AGRICULTURAL PROGRAMME IN MOZAMBIQUE",
+              "source_line": 364,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "How the programme was organised",
+              "source_line": 366,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• It focused on a dry and arid region in Chicualacuala district, near the Limpopo River.",
+              "source_line": 367,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• People depended on the forest to provide charcoal as a source of income.",
+              "source_line": 368,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• 31 ____________________ was seen as the main priority to ensure the supply of water.",
+              "source_line": 369,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 2,
+                  "end": 25
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Most of the work organised by farmers' associations was done by 32 ____________________.",
+              "source_line": 370,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 66,
+                  "end": 89
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Fenced areas were created to keep animals away from crops.",
+              "source_line": 371,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The programme provided",
+              "source_line": 372,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  — 33 ____________________ for the fences",
+              "source_line": 373,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 4,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  — 34 ____________________ for suitable crops",
+              "source_line": 374,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 4,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  — water pumps.",
+              "source_line": 375,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The farmers provided",
+              "source_line": 376,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  — labour",
+              "source_line": 377,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  — 35 ____________________ for the fences on their land.",
+              "source_line": 378,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 4,
+                  "end": 27
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Further developments",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The marketing of produce was sometimes difficult due to lack of 36 ____________________.",
+              "source_line": 381,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 66,
+                  "end": 89
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Training was therefore provided in methods of food 37 ____________________.",
+              "source_line": 382,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 53,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Farmers made special places where 38 ____________________ could be kept.",
+              "source_line": 383,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 36,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Local people later suggested keeping 39 ____________________.",
+              "source_line": 384,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 39,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Evaluation and lessons learned",
+              "source_line": 386,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Agricultural production increased, improving incomes and food security.",
+              "source_line": 387,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Enough time must be allowed, particularly for the 40 ____________________ phase of the programme.",
+              "source_line": 388,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 52,
+                  "end": 75
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
+            "line_start": 358,
+            "line_end": 397,
+            "pdf_pages": [],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-15-test-02-q31",
+              "question_number": 31,
+              "prompt": "• 31 ____________________ was seen as the main priority to ensure the supply of water.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 369,
+                  "start": 2,
+                  "end": 25,
+                  "text": "• 31 ____________________ was seen as the main priority to ensure the supply of water.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q32",
+              "question_number": 32,
+              "prompt": "• Most of the work organised by farmers' associations was done by 32 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 370,
+                  "start": 66,
+                  "end": 89,
+                  "text": "• Most of the work organised by farmers' associations was done by 32 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q33",
+              "question_number": 33,
+              "prompt": "— 33 ____________________ for the fences",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 373,
+                  "start": 4,
+                  "end": 27,
+                  "text": "  — 33 ____________________ for the fences",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q34",
+              "question_number": 34,
+              "prompt": "— 34 ____________________ for suitable crops",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 374,
+                  "start": 4,
+                  "end": 27,
+                  "text": "  — 34 ____________________ for suitable crops",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q35",
+              "question_number": 35,
+              "prompt": "— 35 ____________________ for the fences on their land.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 378,
+                  "start": 4,
+                  "end": 27,
+                  "text": "  — 35 ____________________ for the fences on their land.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q36",
+              "question_number": 36,
+              "prompt": "• The marketing of produce was sometimes difficult due to lack of 36 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 381,
+                  "start": 66,
+                  "end": 89,
+                  "text": "• The marketing of produce was sometimes difficult due to lack of 36 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q37",
+              "question_number": 37,
+              "prompt": "• Training was therefore provided in methods of food 37 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 382,
+                  "start": 53,
+                  "end": 76,
+                  "text": "• Training was therefore provided in methods of food 37 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q38",
+              "question_number": 38,
+              "prompt": "• Farmers made special places where 38 ____________________ could be kept.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 383,
+                  "start": 36,
+                  "end": 59,
+                  "text": "• Farmers made special places where 38 ____________________ could be kept.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q39",
+              "question_number": 39,
+              "prompt": "• Local people later suggested keeping 39 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 384,
+                  "start": 39,
+                  "end": 62,
+                  "text": "• Local people later suggested keeping 39 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-15-test-02-q40",
+              "question_number": 40,
+              "prompt": "• Enough time must be allowed, particularly for the 40 ____________________ phase of the programme.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 388,
+                  "start": 52,
+                  "end": 75,
+                  "text": "• Enough time must be allowed, particularly for the 40 ____________________ phase of the programme.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-abc95d44279d92c97ea6ff266fdf9982a1608824148e31c589f4d6b7ba2dffc1",
+          "question_range": [
+            31,
+            40
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929",
+      "relative_path": "assets/public/aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929.jpg",
+      "sha256": "aa1ae17c1a4046d43d131b17bbd845c65fb096732998a0836f3a01a2156b3929",
+      "byte_size": 313823,
+      "width": 1608,
+      "height": 2274
+    },
+    {
+      "asset_id": "asset-abc95d44279d92c97ea6ff266fdf9982a1608824148e31c589f4d6b7ba2dffc1",
+      "relative_path": "assets/public/abc95d44279d92c97ea6ff266fdf9982a1608824148e31c589f4d6b7ba2dffc1.jpg",
+      "sha256": "abc95d44279d92c97ea6ff266fdf9982a1608824148e31c589f4d6b7ba2dffc1",
+      "byte_size": 342693,
+      "width": 1608,
+      "height": 2274
+    },
+    {
+      "asset_id": "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf",
+      "relative_path": "assets/public/c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf.jpg",
+      "sha256": "c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf",
+      "byte_size": 142891,
+      "width": 1140,
+      "height": 1125
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

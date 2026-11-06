@@ -1,0 +1,3232 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-11-test-04",
+  "book": 11,
+  "printed_test_number": 4,
+  "local_ordinal": 4,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 561,
+        "line_end": 595,
+        "pdf_pages": [
+          78,
+          79
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005",
+        "asset-c0d5fd26a3610da5bdf8fe7a48e10ea62a86f4baae916b18a706361477d16614"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-04-p1-g01-07",
+          "question_range": [
+            1,
+            7
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 566,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 567,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Event       | Cost                            | Venue                  | Notes",
+              "source_line": 569,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "------------|---------------------------------|------------------------|--------------------------------------------",
+              "source_line": 570,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Jazz band   | Example: Tickets available      | The 1 __________       | Also appearing: Carolyn Hart",
+              "source_line": 571,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 52,
+                  "end": 64
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            | for £15                         | school                 | (plays the 2 __________)",
+              "source_line": 572,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 84,
+                  "end": 96
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Duck races  | £1 per duck                     | Start behind the       | Prize: tickets for 4 __________ held",
+              "source_line": 573,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 92,
+                  "end": 104
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                                 | 3 __________           | at the end of the festival. Ducks can",
+              "source_line": 574,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 48,
+                  "end": 60
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                                 |                        | be bought in the 5 __________",
+              "source_line": 575,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 90,
+                  "end": 102
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Flower show | Free                            | 6 __________ Hall      | Prizes presented at 5 pm by a",
+              "source_line": 576,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 48,
+                  "end": 60
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "            |                                 |                        | well-known 7 __________",
+              "source_line": 577,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 84,
+                  "end": 96
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 565,
+            "line_end": 581,
+            "pdf_pages": [
+              78,
+              79
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q01",
+              "question_number": 1,
+              "prompt": "Jazz band   | Example: Tickets available      | The 1 __________       | Also appearing: Carolyn Hart",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 571,
+                  "start": 52,
+                  "end": 64,
+                  "text": "Jazz band   | Example: Tickets available      | The 1 __________       | Also appearing: Carolyn Hart",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q02",
+              "question_number": 2,
+              "prompt": "| for £15                         | school                 | (plays the 2 __________)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 572,
+                  "start": 84,
+                  "end": 96,
+                  "text": "            | for £15                         | school                 | (plays the 2 __________)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q03",
+              "question_number": 3,
+              "prompt": "|                                 | 3 __________           | at the end of the festival. Ducks can",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 574,
+                  "start": 48,
+                  "end": 60,
+                  "text": "            |                                 | 3 __________           | at the end of the festival. Ducks can",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q04",
+              "question_number": 4,
+              "prompt": "Duck races  | £1 per duck                     | Start behind the       | Prize: tickets for 4 __________ held",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 573,
+                  "start": 92,
+                  "end": 104,
+                  "text": "Duck races  | £1 per duck                     | Start behind the       | Prize: tickets for 4 __________ held",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q05",
+              "question_number": 5,
+              "prompt": "|                                 |                        | be bought in the 5 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 575,
+                  "start": 90,
+                  "end": 102,
+                  "text": "            |                                 |                        | be bought in the 5 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q06",
+              "question_number": 6,
+              "prompt": "Flower show | Free                            | 6 __________ Hall      | Prizes presented at 5 pm by a",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 576,
+                  "start": 48,
+                  "end": 60,
+                  "text": "Flower show | Free                            | 6 __________ Hall      | Prizes presented at 5 pm by a",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q07",
+              "question_number": 7,
+              "prompt": "|                                 |                        | well-known 7 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 577,
+                  "start": 84,
+                  "end": 96,
+                  "text": "            |                                 |                        | well-known 7 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-04-p1-g08-10",
+          "question_range": [
+            8,
+            10
+          ],
+          "question_type": "matching",
+          "instructions": "Write the correct letter, A, B or C, next to Questions 8–10.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Write the correct letter, A, B or C, next to Questions 8–10.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-04-p1-g08-10-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "mainly for children",
+                "source_line": 586
+              },
+              {
+                "label": "B",
+                "text": "mainly for adults",
+                "source_line": 587
+              },
+              {
+                "label": "C",
+                "text": "suitable for people of all ages",
+                "source_line": 588
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-c0d5fd26a3610da5bdf8fe7a48e10ea62a86f4baae916b18a706361477d16614"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Who is each play suitable for?",
+              "source_line": 583,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A, B or C, next to Questions 8–10.",
+              "source_line": 584,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  mainly for children",
+              "source_line": 586,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  mainly for adults",
+              "source_line": 587,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  suitable for people of all ages",
+              "source_line": 588,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Plays",
+              "source_line": 590,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "8   The Mystery of Muldoon     __________",
+              "source_line": 591,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "9   Fire and Flood             __________",
+              "source_line": 592,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "10  Silly Sailor               __________",
+              "source_line": 593,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q08"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q09"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q10"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 582,
+            "line_end": 595,
+            "pdf_pages": [
+              78,
+              79
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q08",
+              "question_number": 8,
+              "prompt": "8   The Mystery of Muldoon     __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p1-g08-10-bank",
+              "blank_references": [
+                {
+                  "line": 591,
+                  "start": 0,
+                  "end": 41,
+                  "text": "8   The Mystery of Muldoon     __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 8–10.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q09",
+              "question_number": 9,
+              "prompt": "9   Fire and Flood             __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p1-g08-10-bank",
+              "blank_references": [
+                {
+                  "line": 592,
+                  "start": 0,
+                  "end": 41,
+                  "text": "9   Fire and Flood             __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 8–10.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q10",
+              "question_number": 10,
+              "prompt": "10  Silly Sailor               __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p1-g08-10-bank",
+              "blank_references": [
+                {
+                  "line": 593,
+                  "start": 0,
+                  "end": 41,
+                  "text": "10  Silly Sailor               __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A, B or C, next to Questions 8–10.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005",
+          "question_range": [
+            1,
+            7
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-c2323c99ad875333be08d7125af6ea113af1bb82f59cc6492e2e910f70df73db"
+          ]
+        },
+        {
+          "asset_id": "asset-c0d5fd26a3610da5bdf8fe7a48e10ea62a86f4baae916b18a706361477d16614",
+          "question_range": [
+            8,
+            10
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 596,
+        "line_end": 635,
+        "pdf_pages": [
+          80,
+          81
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+        "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-04-p2-g11-16",
+          "question_range": [
+            11,
+            16
+          ],
+          "question_type": "matching",
+          "instructions": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "was given by one person",
+                "source_line": 605
+              },
+              {
+                "label": "B",
+                "text": "was recently publicised in the media",
+                "source_line": 606
+              },
+              {
+                "label": "C",
+                "text": "includes some items given by members of the public",
+                "source_line": 607
+              },
+              {
+                "label": "D",
+                "text": "includes some items given by the artists",
+                "source_line": 608
+              },
+              {
+                "label": "E",
+                "text": "includes the most popular exhibits in the museum",
+                "source_line": 609
+              },
+              {
+                "label": "F",
+                "text": "is the largest of its kind in the country",
+                "source_line": 610
+              },
+              {
+                "label": "G",
+                "text": "has had some of its contents relocated",
+                "source_line": 611
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What does the speaker say about each of the following collections?",
+              "source_line": 601,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+              "source_line": 602,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Comments",
+              "source_line": 604,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  was given by one person",
+              "source_line": 605,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  was recently publicised in the media",
+              "source_line": 606,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  includes some items given by members of the public",
+              "source_line": 607,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  includes some items given by the artists",
+              "source_line": 608,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  includes the most popular exhibits in the museum",
+              "source_line": 609,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    F  is the largest of its kind in the country",
+              "source_line": 610,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    G  has had some of its contents relocated",
+              "source_line": 611,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Collections",
+              "source_line": 613,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11  20th- and 21st-century paintings  __________",
+              "source_line": 614,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12  19th-century paintings             __________",
+              "source_line": 615,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13  Sculptures                         __________",
+              "source_line": 616,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14  ‘Around the world’ exhibition      __________",
+              "source_line": 617,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15  Coins                              __________",
+              "source_line": 618,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16  Porcelain and glass                __________",
+              "source_line": 619,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q16"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 600,
+            "line_end": 620,
+            "pdf_pages": [
+              80,
+              81
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q11",
+              "question_number": 11,
+              "prompt": "11  20th- and 21st-century paintings  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 614,
+                  "start": 0,
+                  "end": 48,
+                  "text": "11  20th- and 21st-century paintings  __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q12",
+              "question_number": 12,
+              "prompt": "12  19th-century paintings             __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 615,
+                  "start": 0,
+                  "end": 49,
+                  "text": "12  19th-century paintings             __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q13",
+              "question_number": 13,
+              "prompt": "13  Sculptures                         __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 616,
+                  "start": 0,
+                  "end": 49,
+                  "text": "13  Sculptures                         __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q14",
+              "question_number": 14,
+              "prompt": "14  ‘Around the world’ exhibition      __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 617,
+                  "start": 0,
+                  "end": 49,
+                  "text": "14  ‘Around the world’ exhibition      __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q15",
+              "question_number": 15,
+              "prompt": "15  Coins                              __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 618,
+                  "start": 0,
+                  "end": 49,
+                  "text": "15  Coins                              __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q16",
+              "question_number": 16,
+              "prompt": "16  Porcelain and glass                __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g11-16-bank",
+              "blank_references": [
+                {
+                  "line": 619,
+                  "start": 0,
+                  "end": 49,
+                  "text": "16  Porcelain and glass                __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What does the speaker say about each of the following collections?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 11–16.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-04-p2-g17-20",
+          "question_range": [
+            17,
+            20
+          ],
+          "question_type": "plan_labelling",
+          "instructions": "Label the plan below.\nWrite the correct letter, A–H, next to Questions 17–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the plan below.\nWrite the correct letter, A–H, next to Questions 17–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-04-p2-g17-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "A"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "B",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "B"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "C",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "C"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "D",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "D"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "E",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "E"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "F",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "F"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "G",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "G"
+                },
+                "source_range": "A–H"
+              },
+              {
+                "label": "H",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+                    "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+                    "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2"
+                  ],
+                  "original_label": "H"
+                },
+                "source_range": "A–H"
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the plan below.",
+              "source_line": 622,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–H, next to Questions 17–20.",
+              "source_line": 623,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "PLAN: Basement of museum",
+              "source_line": 625,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The diagram shows stairs, toilets and a sitting area, with lettered rooms A–H. The layout and letter positions are preserved in the image.",
+              "source_line": 628,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17  restaurant               __________",
+              "source_line": 630,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18  café                     __________",
+              "source_line": 631,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19  baby-changing facilities __________",
+              "source_line": 632,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20  cloakroom                __________",
+              "source_line": 633,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 621,
+            "line_end": 635,
+            "pdf_pages": [
+              80,
+              81
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q17",
+              "question_number": 17,
+              "prompt": "17  restaurant               __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 630,
+                  "start": 0,
+                  "end": 39,
+                  "text": "17  restaurant               __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite the correct letter, A–H, next to Questions 17–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q18",
+              "question_number": 18,
+              "prompt": "18  café                     __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 631,
+                  "start": 0,
+                  "end": 39,
+                  "text": "18  café                     __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite the correct letter, A–H, next to Questions 17–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q19",
+              "question_number": 19,
+              "prompt": "19  baby-changing facilities __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 632,
+                  "start": 0,
+                  "end": 39,
+                  "text": "19  baby-changing facilities __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite the correct letter, A–H, next to Questions 17–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-04-q20",
+              "question_number": 20,
+              "prompt": "20  cloakroom                __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p2-g17-20-bank",
+              "blank_references": [
+                {
+                  "line": 633,
+                  "start": 0,
+                  "end": 39,
+                  "text": "20  cloakroom                __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the plan below.\nWrite the correct letter, A–H, next to Questions 17–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+          "question_range": [
+            11,
+            16
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a",
+          "question_range": [
+            17,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "task_image",
+          "alternative_asset_ids": [
+            "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2",
+            "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4"
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 636,
+        "line_end": 690,
+        "pdf_pages": [
+          82,
+          83
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a",
+        "asset-b498b03cbb4b0ff35a35940108bbfc4c1efee556a40b6c5ee1fee8ada8b05878"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-04-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO characteristics were shared by the subjects of Joanna’s psychology study?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO characteristics were shared by the subjects of Joanna’s psychology study?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-04-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "They had all won prizes for their music.",
+                "source_line": 643
+              },
+              {
+                "label": "B",
+                "text": "They had all made music recordings.",
+                "source_line": 644
+              },
+              {
+                "label": "C",
+                "text": "They were all under 27 years old.",
+                "source_line": 645
+              },
+              {
+                "label": "D",
+                "text": "They had all toured internationally.",
+                "source_line": 646
+              },
+              {
+                "label": "E",
+                "text": "They all played a string instrument.",
+                "source_line": 647
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "needs_review",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 641,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO characteristics were shared by the subjects of Joanna’s psychology study?",
+              "source_line": 642,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  They had all won prizes for their music.",
+              "source_line": 643,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  They had all made music recordings.",
+              "source_line": 644,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  They were all under 27 years old.",
+              "source_line": 645,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  They had all toured internationally.",
+              "source_line": 646,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  They all played a string instrument.",
+              "source_line": 647,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q22"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 640,
+            "line_end": 648,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q21",
+              "question_number": 21,
+              "prompt": "Questions 21 and 22",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 640,
+                  "start": 0,
+                  "end": 19,
+                  "text": "Questions 21 and 22",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO characteristics were shared by the subjects of Joanna’s psychology study?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q22",
+              "question_number": 22,
+              "prompt": "Questions 21 and 22",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 640,
+                  "start": 0,
+                  "end": 19,
+                  "text": "Questions 21 and 22",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO characteristics were shared by the subjects of Joanna’s psychology study?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-04-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO points does Joanna make about her use of telephone interviews?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO points does Joanna make about her use of telephone interviews?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-04-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "It meant rich data could be collected.",
+                "source_line": 652
+              },
+              {
+                "label": "B",
+                "text": "It allowed the involvement of top performers.",
+                "source_line": 653
+              },
+              {
+                "label": "C",
+                "text": "It led to a stressful atmosphere at times.",
+                "source_line": 654
+              },
+              {
+                "label": "D",
+                "text": "It meant interview times had to be limited.",
+                "source_line": 655
+              },
+              {
+                "label": "E",
+                "text": "It caused some technical problems.",
+                "source_line": 656
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "needs_review",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 650,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO points does Joanna make about her use of telephone interviews?",
+              "source_line": 651,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  It meant rich data could be collected.",
+              "source_line": 652,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  It allowed the involvement of top performers.",
+              "source_line": 653,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  It led to a stressful atmosphere at times.",
+              "source_line": 654,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  It meant interview times had to be limited.",
+              "source_line": 655,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  It caused some technical problems.",
+              "source_line": 656,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q24"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 649,
+            "line_end": 657,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q23",
+              "question_number": 23,
+              "prompt": "Questions 23 and 24",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 649,
+                  "start": 0,
+                  "end": 19,
+                  "text": "Questions 23 and 24",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO points does Joanna make about her use of telephone interviews?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q24",
+              "question_number": 24,
+              "prompt": "Questions 23 and 24",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 649,
+                  "start": 0,
+                  "end": 19,
+                  "text": "Questions 23 and 24",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO points does Joanna make about her use of telephone interviews?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-04-p3-g25-26",
+          "question_range": [
+            25,
+            26
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO topics did Joanna originally intend to investigate in her research?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO topics did Joanna originally intend to investigate in her research?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-04-p3-g25-26-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "regulations concerning concert dress",
+                "source_line": 661
+              },
+              {
+                "label": "B",
+                "text": "audience reactions to the dress of performers",
+                "source_line": 662
+              },
+              {
+                "label": "C",
+                "text": "changes in performer attitudes to concert dress",
+                "source_line": 663
+              },
+              {
+                "label": "D",
+                "text": "how choice of dress relates to performer roles",
+                "source_line": 664
+              },
+              {
+                "label": "E",
+                "text": "links between musical instrument and dress choice",
+                "source_line": 665
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              25,
+              26
+            ],
+            "distinct": true,
+            "order": "needs_review",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 659,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO topics did Joanna originally intend to investigate in her research?",
+              "source_line": 660,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  regulations concerning concert dress",
+              "source_line": 661,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  audience reactions to the dress of performers",
+              "source_line": 662,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  changes in performer attitudes to concert dress",
+              "source_line": 663,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  how choice of dress relates to performer roles",
+              "source_line": 664,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  links between musical instrument and dress choice",
+              "source_line": 665,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q26"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 658,
+            "line_end": 666,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q25",
+              "question_number": 25,
+              "prompt": "Questions 25 and 26",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p3-g25-26-bank",
+              "blank_references": [
+                {
+                  "line": 658,
+                  "start": 0,
+                  "end": 19,
+                  "text": "Questions 25 and 26",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO topics did Joanna originally intend to investigate in her research?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q26",
+              "question_number": 26,
+              "prompt": "Questions 25 and 26",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-04-p3-g25-26-bank",
+              "blank_references": [
+                {
+                  "line": 658,
+                  "start": 0,
+                  "end": 19,
+                  "text": "Questions 25 and 26",
+                  "kind": "explicit_multi_answer_range"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO topics did Joanna originally intend to investigate in her research?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-04-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-b498b03cbb4b0ff35a35940108bbfc4c1efee556a40b6c5ee1fee8ada8b05878"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 668,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27  Joanna concentrated on women performers because",
+              "source_line": 670,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  women are more influenced by fashion.",
+              "source_line": 671,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  women’s dress has led to more controversy.",
+              "source_line": 672,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  women’s code of dress is less strict than men’s.",
+              "source_line": 673,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28  Mike Frost’s article suggests that in popular music, women’s dress is affected by",
+              "source_line": 675,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  their wish to be taken seriously.",
+              "source_line": 676,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  their tendency to copy each other.",
+              "source_line": 677,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  their reaction to the masculine nature of the music.",
+              "source_line": 678,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29  What did Joanna’s subjects say about the audience at a performance?",
+              "source_line": 680,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  The musicians’ choice of clothing is linked to respect for the audience.",
+              "source_line": 681,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  The clothing should not distract the audience from the music.",
+              "source_line": 682,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  The audience should make the effort to dress appropriately.",
+              "source_line": 683,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30  According to the speakers, musicians could learn from sports scientists about",
+              "source_line": 685,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  the importance of clothing for physical freedom.",
+              "source_line": 686,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  the part played by clothing in improving performance.",
+              "source_line": 687,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  the way clothing may protect against physical injury.",
+              "source_line": 688,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-11-test-04-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 667,
+            "line_end": 690,
+            "pdf_pages": [
+              82,
+              83
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q27",
+              "question_number": 27,
+              "prompt": "27  Joanna concentrated on women performers because",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "women are more influenced by fashion.",
+                  "source_line": 671
+                },
+                {
+                  "label": "B",
+                  "text": "women’s dress has led to more controversy.",
+                  "source_line": 672
+                },
+                {
+                  "label": "C",
+                  "text": "women’s code of dress is less strict than men’s.",
+                  "source_line": 673
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 670,
+                  "start": 0,
+                  "end": 51,
+                  "text": "27  Joanna concentrated on women performers because",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q28",
+              "question_number": 28,
+              "prompt": "28  Mike Frost’s article suggests that in popular music, women’s dress is affected by",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "their wish to be taken seriously.",
+                  "source_line": 676
+                },
+                {
+                  "label": "B",
+                  "text": "their tendency to copy each other.",
+                  "source_line": 677
+                },
+                {
+                  "label": "C",
+                  "text": "their reaction to the masculine nature of the music.",
+                  "source_line": 678
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 675,
+                  "start": 0,
+                  "end": 85,
+                  "text": "28  Mike Frost’s article suggests that in popular music, women’s dress is affected by",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q29",
+              "question_number": 29,
+              "prompt": "29  What did Joanna’s subjects say about the audience at a performance?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The musicians’ choice of clothing is linked to respect for the audience.",
+                  "source_line": 681
+                },
+                {
+                  "label": "B",
+                  "text": "The clothing should not distract the audience from the music.",
+                  "source_line": 682
+                },
+                {
+                  "label": "C",
+                  "text": "The audience should make the effort to dress appropriately.",
+                  "source_line": 683
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 680,
+                  "start": 0,
+                  "end": 71,
+                  "text": "29  What did Joanna’s subjects say about the audience at a performance?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q30",
+              "question_number": 30,
+              "prompt": "30  According to the speakers, musicians could learn from sports scientists about",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the importance of clothing for physical freedom.",
+                  "source_line": 686
+                },
+                {
+                  "label": "B",
+                  "text": "the part played by clothing in improving performance.",
+                  "source_line": 687
+                },
+                {
+                  "label": "C",
+                  "text": "the way clothing may protect against physical injury.",
+                  "source_line": 688
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 685,
+                  "start": 0,
+                  "end": 81,
+                  "text": "30  According to the speakers, musicians could learn from sports scientists about",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a",
+          "question_range": [
+            21,
+            26
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-b498b03cbb4b0ff35a35940108bbfc4c1efee556a40b6c5ee1fee8ada8b05878",
+          "question_range": [
+            27,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 691,
+        "line_end": 726,
+        "pdf_pages": [
+          84
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-199d8ebe2065f54752b1681655ce2edc0c4217cf31073521e2f8426854745d96"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-04-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-199d8ebe2065f54752b1681655ce2edc0c4217cf31073521e2f8426854745d96"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 696,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 697,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The use of soil to reduce carbon dioxide (CO₂) in the atmosphere",
+              "source_line": 699,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Rattan Lal:",
+              "source_line": 701,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Claims that 13% of CO₂ in the atmosphere could be absorbed by agricultural soils",
+              "source_line": 702,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Erosion is more likely in soil that is 31 __________",
+              "source_line": 703,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 41,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Lal found soil in Africa that was very 32 __________",
+              "source_line": 704,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 41,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• It was suggested that carbon from soil was entering the atmosphere",
+              "source_line": 705,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Soil and carbon:",
+              "source_line": 707,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• plants turn CO₂ from the air into carbon-based substances such as 33 __________",
+              "source_line": 708,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 68,
+                  "end": 81
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• some CO₂ moves from the 34 __________ of plants to microbes in the soil",
+              "source_line": 709,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• carbon was lost from the soil when agriculture was invented",
+              "source_line": 710,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Regenerative agriculture:",
+              "source_line": 712,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• uses established practices to make sure soil remains fertile and 35 __________",
+              "source_line": 713,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 67,
+                  "end": 80
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• e.g. through year-round planting and increasing the 36 __________ of plants that are grown",
+              "source_line": 714,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 54,
+                  "end": 67
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "California study:",
+              "source_line": 716,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• taking place on a big 37 __________ farm",
+              "source_line": 717,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 24,
+                  "end": 37
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• uses compost made from waste from agriculture and 38 __________",
+              "source_line": 718,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 52,
+                  "end": 65
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Australia study:",
+              "source_line": 720,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• aims to increase soil carbon by using 39 __________ that are always green",
+              "source_line": 721,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 40,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Future developments may include:",
+              "source_line": 723,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• reducing the amount of fertilizer used in farming",
+              "source_line": 724,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• giving farmers 40 __________ for carbon storage, as well as their produce",
+              "source_line": 725,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 17,
+                  "end": 30
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 692,
+            "line_end": 726,
+            "pdf_pages": [
+              84
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-04-q31",
+              "question_number": 31,
+              "prompt": "• Erosion is more likely in soil that is 31 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 703,
+                  "start": 41,
+                  "end": 54,
+                  "text": "• Erosion is more likely in soil that is 31 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q32",
+              "question_number": 32,
+              "prompt": "• Lal found soil in Africa that was very 32 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 704,
+                  "start": 41,
+                  "end": 54,
+                  "text": "• Lal found soil in Africa that was very 32 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q33",
+              "question_number": 33,
+              "prompt": "• plants turn CO₂ from the air into carbon-based substances such as 33 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 708,
+                  "start": 68,
+                  "end": 81,
+                  "text": "• plants turn CO₂ from the air into carbon-based substances such as 33 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q34",
+              "question_number": 34,
+              "prompt": "• some CO₂ moves from the 34 __________ of plants to microbes in the soil",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 709,
+                  "start": 26,
+                  "end": 39,
+                  "text": "• some CO₂ moves from the 34 __________ of plants to microbes in the soil",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q35",
+              "question_number": 35,
+              "prompt": "• uses established practices to make sure soil remains fertile and 35 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 713,
+                  "start": 67,
+                  "end": 80,
+                  "text": "• uses established practices to make sure soil remains fertile and 35 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q36",
+              "question_number": 36,
+              "prompt": "• e.g. through year-round planting and increasing the 36 __________ of plants that are grown",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 714,
+                  "start": 54,
+                  "end": 67,
+                  "text": "• e.g. through year-round planting and increasing the 36 __________ of plants that are grown",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q37",
+              "question_number": 37,
+              "prompt": "• taking place on a big 37 __________ farm",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 717,
+                  "start": 24,
+                  "end": 37,
+                  "text": "• taking place on a big 37 __________ farm",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q38",
+              "question_number": 38,
+              "prompt": "• uses compost made from waste from agriculture and 38 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 718,
+                  "start": 52,
+                  "end": 65,
+                  "text": "• uses compost made from waste from agriculture and 38 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q39",
+              "question_number": 39,
+              "prompt": "• aims to increase soil carbon by using 39 __________ that are always green",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 721,
+                  "start": 40,
+                  "end": 53,
+                  "text": "• aims to increase soil carbon by using 39 __________ that are always green",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-04-q40",
+              "question_number": 40,
+              "prompt": "• giving farmers 40 __________ for carbon storage, as well as their produce",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 725,
+                  "start": 17,
+                  "end": 30,
+                  "text": "• giving farmers 40 __________ for carbon storage, as well as their produce",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-199d8ebe2065f54752b1681655ce2edc0c4217cf31073521e2f8426854745d96",
+          "question_range": [
+            31,
+            40
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005",
+      "relative_path": "assets/public/05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005.jpg",
+      "sha256": "05ebd8bf1dcd235a9256bfbe9e4da81d51e8c52b53415631d712467fbec32005",
+      "byte_size": 126899,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a",
+      "relative_path": "assets/public/1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a.png",
+      "sha256": "1692efed454965e33b5e446e5ef5946338fac2117b5f8c0db66339d8ed965a4a",
+      "byte_size": 668687,
+      "width": 2529,
+      "height": 2522
+    },
+    {
+      "asset_id": "asset-199d8ebe2065f54752b1681655ce2edc0c4217cf31073521e2f8426854745d96",
+      "relative_path": "assets/public/199d8ebe2065f54752b1681655ce2edc0c4217cf31073521e2f8426854745d96.jpg",
+      "sha256": "199d8ebe2065f54752b1681655ce2edc0c4217cf31073521e2f8426854745d96",
+      "byte_size": 182719,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a",
+      "relative_path": "assets/public/2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a.jpg",
+      "sha256": "2d87db7c3505c752816f784d4de1d0ecb19c6847acb55f22753fb6f6ed903b3a",
+      "byte_size": 155482,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2",
+      "relative_path": "assets/public/77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2.jpg",
+      "sha256": "77de1e8ffb04bd0e4aea475e10f19ac90cd9fa6e40bc7b8972300a42a524e8c2",
+      "byte_size": 112913,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-b498b03cbb4b0ff35a35940108bbfc4c1efee556a40b6c5ee1fee8ada8b05878",
+      "relative_path": "assets/public/b498b03cbb4b0ff35a35940108bbfc4c1efee556a40b6c5ee1fee8ada8b05878.jpg",
+      "sha256": "b498b03cbb4b0ff35a35940108bbfc4c1efee556a40b6c5ee1fee8ada8b05878",
+      "byte_size": 148371,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-c0d5fd26a3610da5bdf8fe7a48e10ea62a86f4baae916b18a706361477d16614",
+      "relative_path": "assets/public/c0d5fd26a3610da5bdf8fe7a48e10ea62a86f4baae916b18a706361477d16614.jpg",
+      "sha256": "c0d5fd26a3610da5bdf8fe7a48e10ea62a86f4baae916b18a706361477d16614",
+      "byte_size": 94445,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-c2323c99ad875333be08d7125af6ea113af1bb82f59cc6492e2e910f70df73db",
+      "relative_path": "assets/public/c2323c99ad875333be08d7125af6ea113af1bb82f59cc6492e2e910f70df73db.jpg",
+      "sha256": "c2323c99ad875333be08d7125af6ea113af1bb82f59cc6492e2e910f70df73db",
+      "byte_size": 144771,
+      "width": 1075,
+      "height": 770
+    },
+    {
+      "asset_id": "asset-d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+      "relative_path": "assets/public/d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd.jpg",
+      "sha256": "d194da8a39c35dacc2662754550f726b3cfeb623b7c5ff72813e42205bdb4fcd",
+      "byte_size": 133665,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+      "relative_path": "assets/public/f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4.jpg",
+      "sha256": "f57229759b6334de8119bf6c088ef2a939b468bba5d754fced1435ecb1811eb4",
+      "byte_size": 98161,
+      "width": 930,
+      "height": 950
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

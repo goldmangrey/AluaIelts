@@ -1,0 +1,684 @@
+{
+  "status": "COMPLETED",
+  "environment": "Installed Playwright headless Chromium; actual unmodified WorkspaceQuestions + Asset + resolver + CSS; actual ListeningReview with synthetic ungraded rows, no backend/auth/AI/audio.",
+  "sandbox": "/var/folders/_g/xbptzdhs4k7440tn19h7zq6w0000gp/T/alua-part-coverage-U0zm7E",
+  "cases": [
+    {
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "exam",
+      "initial_current": 1,
+      "expected": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca"
+      ],
+      "missing": [
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 5,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+        ]
+      },
+      "screenshot": "regression-cambridge-04-test-01-p1-exam.png"
+    },
+    {
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "review",
+      "initial_current": 1,
+      "expected": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca"
+      ],
+      "missing": [
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 5,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+        ]
+      },
+      "screenshot": "regression-cambridge-04-test-01-p1-review.png"
+    },
+    {
+      "test_id": "cambridge-05-test-01",
+      "part": 1,
+      "mode": "exam",
+      "initial_current": 1,
+      "expected": [
+        "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8",
+        "asset-5e06a6915b144a4d2c67ba335b9ceebafe2473c322cacd083b762f34df1c2b48"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8"
+      ],
+      "missing": [
+        "asset-5e06a6915b144a4d2c67ba335b9ceebafe2473c322cacd083b762f34df1c2b48"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 5,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8",
+          "asset-5e06a6915b144a4d2c67ba335b9ceebafe2473c322cacd083b762f34df1c2b48"
+        ]
+      },
+      "screenshot": "regression-cambridge-05-test-01-p1-exam.png"
+    },
+    {
+      "test_id": "cambridge-05-test-01",
+      "part": 1,
+      "mode": "review",
+      "initial_current": 1,
+      "expected": [
+        "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8",
+        "asset-5e06a6915b144a4d2c67ba335b9ceebafe2473c322cacd083b762f34df1c2b48"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8"
+      ],
+      "missing": [
+        "asset-5e06a6915b144a4d2c67ba335b9ceebafe2473c322cacd083b762f34df1c2b48"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 5,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          "asset-0d7083daf984f67cc1c9a5c193ee897d7728c4320b6e87138280551eaff169c8",
+          "asset-5e06a6915b144a4d2c67ba335b9ceebafe2473c322cacd083b762f34df1c2b48"
+        ]
+      },
+      "screenshot": "regression-cambridge-05-test-01-p1-review.png"
+    },
+    {
+      "test_id": "cambridge-09-test-02",
+      "part": 2,
+      "mode": "exam",
+      "initial_current": 11,
+      "expected": [
+        "asset-dee84aae600590be7edc3b69e6d62c27799f31546f7f7e994a040febe65e8fec",
+        "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156"
+      ],
+      "visible": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual": [
+        "asset-dee84aae600590be7edc3b69e6d62c27799f31546f7f7e994a040febe65e8fec"
+      ],
+      "missing": [
+        "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 14,
+        "visible": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "actual": [
+          "asset-dee84aae600590be7edc3b69e6d62c27799f31546f7f7e994a040febe65e8fec",
+          "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156"
+        ]
+      },
+      "screenshot": "regression-cambridge-09-test-02-p2-exam.png"
+    },
+    {
+      "test_id": "cambridge-09-test-02",
+      "part": 2,
+      "mode": "review",
+      "initial_current": 11,
+      "expected": [
+        "asset-dee84aae600590be7edc3b69e6d62c27799f31546f7f7e994a040febe65e8fec",
+        "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156"
+      ],
+      "visible": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual": [
+        "asset-dee84aae600590be7edc3b69e6d62c27799f31546f7f7e994a040febe65e8fec"
+      ],
+      "missing": [
+        "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 14,
+        "visible": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "actual": [
+          "asset-dee84aae600590be7edc3b69e6d62c27799f31546f7f7e994a040febe65e8fec",
+          "asset-c807b06d0f8e77a0799e466a8b72b9b624a990e702f61bd3868321fd5d7f2156"
+        ]
+      },
+      "screenshot": "regression-cambridge-09-test-02-p2-review.png"
+    },
+    {
+      "test_id": "cambridge-14-test-02",
+      "part": 2,
+      "mode": "exam",
+      "initial_current": 11,
+      "expected": [
+        "asset-395be7a8ab0df31a497d69048e36a027ace0d9a94ebed9c0b3818ff43ecc13e4",
+        "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+      ],
+      "visible": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual": [
+        "asset-395be7a8ab0df31a497d69048e36a027ace0d9a94ebed9c0b3818ff43ecc13e4"
+      ],
+      "missing": [
+        "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 16,
+        "visible": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "actual": [
+          "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+        ]
+      },
+      "screenshot": "regression-cambridge-14-test-02-p2-exam.png"
+    },
+    {
+      "test_id": "cambridge-14-test-02",
+      "part": 2,
+      "mode": "review",
+      "initial_current": 11,
+      "expected": [
+        "asset-395be7a8ab0df31a497d69048e36a027ace0d9a94ebed9c0b3818ff43ecc13e4",
+        "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+      ],
+      "visible": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual": [
+        "asset-395be7a8ab0df31a497d69048e36a027ace0d9a94ebed9c0b3818ff43ecc13e4"
+      ],
+      "missing": [
+        "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 16,
+        "visible": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "actual": [
+          "asset-104795909c64a6f4907769817c8623a06ab48e7effc3d7e1c7bdf53f1a3d6455"
+        ]
+      },
+      "screenshot": "regression-cambridge-14-test-02-p2-review.png"
+    },
+    {
+      "test_id": "cambridge-18-test-02",
+      "part": 4,
+      "mode": "exam",
+      "initial_current": 31,
+      "expected": [
+        "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c"
+      ],
+      "visible": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "actual": [
+        "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c"
+      ],
+      "missing": [],
+      "status": "CONTROL_COVERED",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": null,
+      "screenshot": "regression-cambridge-18-test-02-p4-exam.png"
+    },
+    {
+      "test_id": "cambridge-18-test-02",
+      "part": 4,
+      "mode": "review",
+      "initial_current": 31,
+      "expected": [
+        "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c"
+      ],
+      "visible": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "actual": [
+        "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c"
+      ],
+      "missing": [],
+      "status": "CONTROL_COVERED",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": null,
+      "screenshot": "regression-cambridge-18-test-02-p4-review.png"
+    },
+    {
+      "test_id": "cambridge-19-test-03",
+      "part": 1,
+      "mode": "exam",
+      "initial_current": 1,
+      "expected": [
+        "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c",
+        "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c"
+      ],
+      "missing": [
+        "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 7,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+        ]
+      },
+      "screenshot": "regression-cambridge-19-test-03-p1-exam.png"
+    },
+    {
+      "test_id": "cambridge-19-test-03",
+      "part": 1,
+      "mode": "review",
+      "initial_current": 1,
+      "expected": [
+        "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c",
+        "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-aee3070b476dd4d73aa3c7c3794a7a4289dc435e9e78596c9d32ac5e1b70210c"
+      ],
+      "missing": [
+        "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+      ],
+      "status": "CONFIRMED_MISSING_RENDER",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": {
+        "target_question": 7,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "actual": [
+          "asset-fc1395d4fe695adbe5c0a3ef758d1dfdcc345cb47bf120ca570defdb375b4ed4"
+        ]
+      },
+      "screenshot": "regression-cambridge-19-test-03-p1-review.png"
+    },
+    {
+      "test_id": "cambridge-14-test-01",
+      "part": 1,
+      "mode": "exam",
+      "initial_current": 1,
+      "expected": [
+        "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+      ],
+      "missing": [],
+      "status": "CONTROL_COVERED",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": null,
+      "screenshot": "regression-cambridge-14-test-01-p1-exam.png"
+    },
+    {
+      "test_id": "cambridge-14-test-01",
+      "part": 1,
+      "mode": "review",
+      "initial_current": 1,
+      "expected": [
+        "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+      ],
+      "visible": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254"
+      ],
+      "missing": [],
+      "status": "CONTROL_COVERED",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": null,
+      "screenshot": "regression-cambridge-14-test-01-p1-review.png"
+    },
+    {
+      "test_id": "cambridge-04-test-02",
+      "part": 2,
+      "mode": "exam",
+      "initial_current": 11,
+      "expected": [],
+      "visible": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual": [],
+      "missing": [],
+      "status": "CONTROL_COVERED",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": null,
+      "screenshot": "regression-cambridge-04-test-02-p2-exam.png"
+    },
+    {
+      "test_id": "cambridge-04-test-02",
+      "part": 2,
+      "mode": "review",
+      "initial_current": 11,
+      "expected": [],
+      "visible": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "actual": [],
+      "missing": [],
+      "status": "CONTROL_COVERED",
+      "passive_scroll_assets_unchanged": true,
+      "source_scroll_unchanged": true,
+      "transition": null,
+      "screenshot": "regression-cambridge-04-test-02-p2-review.png"
+    }
+  ],
+  "page_errors": []
+}

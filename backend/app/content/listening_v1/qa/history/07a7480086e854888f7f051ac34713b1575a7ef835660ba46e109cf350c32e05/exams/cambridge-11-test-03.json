@@ -1,0 +1,2921 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-11-test-03",
+  "book": 11,
+  "printed_test_number": 3,
+  "local_ordinal": 3,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 367,
+        "line_end": 422,
+        "pdf_pages": [
+          55,
+          56
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-d9da3c3bd02795d47109a6eb135ed7a974bbd7731e9edfb1f431db1d38997421",
+        "asset-f910b9d2bd8ed6ba3ca278de0f70bce88e8910e46b723975b26d3cac16a1caed"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-03-p1-g01-06",
+          "question_range": [
+            1,
+            6
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 372,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Free activities in the Burnham area",
+              "source_line": 374,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example",
+              "source_line": 376,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The caller wants to find out about events on",
+              "source_line": 377,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  27 June.",
+              "source_line": 378,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  28 June.",
+              "source_line": 379,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  29 June. [EXAMPLE]",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "1   The ‘Family Welcome’ event in the art gallery begins at",
+              "source_line": 382,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  10 am.",
+              "source_line": 383,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  10.30 am.",
+              "source_line": 384,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  2 pm.",
+              "source_line": 385,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "2   The film that is now shown in the ‘Family Welcome’ event is about",
+              "source_line": 387,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  sculpture.",
+              "source_line": 388,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  painting.",
+              "source_line": 389,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  ceramics.",
+              "source_line": 390,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "3   When do most of the free concerts take place?",
+              "source_line": 392,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  in the morning",
+              "source_line": 393,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  at lunchtime",
+              "source_line": 394,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  in the evening",
+              "source_line": 395,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "4   Where will the 4 pm concert of Latin American music take place?",
+              "source_line": 397,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  in a museum",
+              "source_line": 398,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  in a theatre",
+              "source_line": 399,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  in a library",
+              "source_line": 400,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "5   The boat race begins at",
+              "source_line": 402,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  Summer Pool.",
+              "source_line": 403,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  Charlesworth Bridge.",
+              "source_line": 404,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  Offord Marina.",
+              "source_line": 405,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "6   One of the boat race teams",
+              "source_line": 407,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  won a regional competition earlier this year.",
+              "source_line": 408,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  has represented the region in a national competition.",
+              "source_line": 409,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  has won several regional competitions.",
+              "source_line": 410,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 371,
+            "line_end": 411,
+            "pdf_pages": [
+              55,
+              56
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q01",
+              "question_number": 1,
+              "prompt": "1   The ‘Family Welcome’ event in the art gallery begins at",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "10 am.",
+                  "source_line": 383
+                },
+                {
+                  "label": "B",
+                  "text": "10.30 am.",
+                  "source_line": 384
+                },
+                {
+                  "label": "C",
+                  "text": "2 pm.",
+                  "source_line": 385
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 382,
+                  "start": 0,
+                  "end": 59,
+                  "text": "1   The ‘Family Welcome’ event in the art gallery begins at",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q02",
+              "question_number": 2,
+              "prompt": "2   The film that is now shown in the ‘Family Welcome’ event is about",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "sculpture.",
+                  "source_line": 388
+                },
+                {
+                  "label": "B",
+                  "text": "painting.",
+                  "source_line": 389
+                },
+                {
+                  "label": "C",
+                  "text": "ceramics.",
+                  "source_line": 390
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 387,
+                  "start": 0,
+                  "end": 69,
+                  "text": "2   The film that is now shown in the ‘Family Welcome’ event is about",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q03",
+              "question_number": 3,
+              "prompt": "3   When do most of the free concerts take place?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "in the morning",
+                  "source_line": 393
+                },
+                {
+                  "label": "B",
+                  "text": "at lunchtime",
+                  "source_line": 394
+                },
+                {
+                  "label": "C",
+                  "text": "in the evening",
+                  "source_line": 395
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 392,
+                  "start": 0,
+                  "end": 49,
+                  "text": "3   When do most of the free concerts take place?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q04",
+              "question_number": 4,
+              "prompt": "4   Where will the 4 pm concert of Latin American music take place?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "in a museum",
+                  "source_line": 398
+                },
+                {
+                  "label": "B",
+                  "text": "in a theatre",
+                  "source_line": 399
+                },
+                {
+                  "label": "C",
+                  "text": "in a library",
+                  "source_line": 400
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 397,
+                  "start": 0,
+                  "end": 67,
+                  "text": "4   Where will the 4 pm concert of Latin American music take place?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q05",
+              "question_number": 5,
+              "prompt": "5   The boat race begins at",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Summer Pool.",
+                  "source_line": 403
+                },
+                {
+                  "label": "B",
+                  "text": "Charlesworth Bridge.",
+                  "source_line": 404
+                },
+                {
+                  "label": "C",
+                  "text": "Offord Marina.",
+                  "source_line": 405
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 402,
+                  "start": 0,
+                  "end": 27,
+                  "text": "5   The boat race begins at",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q06",
+              "question_number": 6,
+              "prompt": "6   One of the boat race teams",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "won a regional competition earlier this year.",
+                  "source_line": 408
+                },
+                {
+                  "label": "B",
+                  "text": "has represented the region in a national competition.",
+                  "source_line": 409
+                },
+                {
+                  "label": "C",
+                  "text": "has won several regional competitions.",
+                  "source_line": 410
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 407,
+                  "start": 0,
+                  "end": 30,
+                  "text": "6   One of the boat race teams",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-03-p1-g07-10",
+          "question_range": [
+            7,
+            10
+          ],
+          "question_type": "sentence_completion",
+          "instructions": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the sentences below.",
+              "source_line": 413,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 414,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Paxton Nature Reserve",
+              "source_line": 416,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "7   Paxton is a good place for seeing rare __________ all year round.",
+              "source_line": 417,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "8   This is a particularly good time for seeing certain unusual __________.",
+              "source_line": 418,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "9   Visitors will be able to learn about __________ and then collect some.",
+              "source_line": 419,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "10  Part of the __________ has been made suitable for swimming.",
+              "source_line": 420,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 412,
+            "line_end": 422,
+            "pdf_pages": [
+              55,
+              56
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q07",
+              "question_number": 7,
+              "prompt": "7   Paxton is a good place for seeing rare __________ all year round.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 417,
+                  "start": 0,
+                  "end": 69,
+                  "text": "7   Paxton is a good place for seeing rare __________ all year round.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q08",
+              "question_number": 8,
+              "prompt": "8   This is a particularly good time for seeing certain unusual __________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 418,
+                  "start": 0,
+                  "end": 75,
+                  "text": "8   This is a particularly good time for seeing certain unusual __________.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q09",
+              "question_number": 9,
+              "prompt": "9   Visitors will be able to learn about __________ and then collect some.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 419,
+                  "start": 0,
+                  "end": 74,
+                  "text": "9   Visitors will be able to learn about __________ and then collect some.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q10",
+              "question_number": 10,
+              "prompt": "10  Part of the __________ has been made suitable for swimming.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 420,
+                  "start": 0,
+                  "end": 63,
+                  "text": "10  Part of the __________ has been made suitable for swimming.",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the sentences below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 423,
+        "line_end": 477,
+        "pdf_pages": [
+          57,
+          58
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-36c63fab77983baf04a4093dbcbd6ebdb68cdb699eb9d756e1c7029c1f6e17cb",
+        "asset-09fccdb23d339cdeb0ac740e79aa710da41fb225ecf7144290d7a05aaa35c2da"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-03-p2-g11-15",
+          "question_range": [
+            11,
+            15
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 428,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Changes in Barford over the last 50 years",
+              "source_line": 430,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11  In Shona’s opinion, why do fewer people use buses in Barford these days?",
+              "source_line": 432,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  The buses are old and uncomfortable.",
+              "source_line": 433,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  Fares have gone up too much.",
+              "source_line": 434,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  There are not so many bus routes.",
+              "source_line": 435,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12  What change in the road network is known to have benefited the town most?",
+              "source_line": 437,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  the construction of a bypass",
+              "source_line": 438,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  the development of cycle paths",
+              "source_line": 439,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  the banning of cars from certain streets",
+              "source_line": 440,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13  What is the problem affecting shopping in the town centre?",
+              "source_line": 442,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  lack of parking spaces",
+              "source_line": 443,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  lack of major retailers",
+              "source_line": 444,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  lack of restaurants and cafés",
+              "source_line": 445,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14  What does Shona say about medical facilities in Barford?",
+              "source_line": 447,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  There is no hospital.",
+              "source_line": 448,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  New medical practices are planned.",
+              "source_line": 449,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  The number of dentists is too low.",
+              "source_line": 450,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15  The largest number of people are employed in",
+              "source_line": 452,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  manufacturing.",
+              "source_line": 453,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  services.",
+              "source_line": 454,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  education.",
+              "source_line": 455,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 427,
+            "line_end": 456,
+            "pdf_pages": [
+              57,
+              58
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q11",
+              "question_number": 11,
+              "prompt": "11  In Shona’s opinion, why do fewer people use buses in Barford these days?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The buses are old and uncomfortable.",
+                  "source_line": 433
+                },
+                {
+                  "label": "B",
+                  "text": "Fares have gone up too much.",
+                  "source_line": 434
+                },
+                {
+                  "label": "C",
+                  "text": "There are not so many bus routes.",
+                  "source_line": 435
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 432,
+                  "start": 0,
+                  "end": 76,
+                  "text": "11  In Shona’s opinion, why do fewer people use buses in Barford these days?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q12",
+              "question_number": 12,
+              "prompt": "12  What change in the road network is known to have benefited the town most?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the construction of a bypass",
+                  "source_line": 438
+                },
+                {
+                  "label": "B",
+                  "text": "the development of cycle paths",
+                  "source_line": 439
+                },
+                {
+                  "label": "C",
+                  "text": "the banning of cars from certain streets",
+                  "source_line": 440
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 437,
+                  "start": 0,
+                  "end": 77,
+                  "text": "12  What change in the road network is known to have benefited the town most?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q13",
+              "question_number": 13,
+              "prompt": "13  What is the problem affecting shopping in the town centre?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "lack of parking spaces",
+                  "source_line": 443
+                },
+                {
+                  "label": "B",
+                  "text": "lack of major retailers",
+                  "source_line": 444
+                },
+                {
+                  "label": "C",
+                  "text": "lack of restaurants and cafés",
+                  "source_line": 445
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 442,
+                  "start": 0,
+                  "end": 62,
+                  "text": "13  What is the problem affecting shopping in the town centre?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q14",
+              "question_number": 14,
+              "prompt": "14  What does Shona say about medical facilities in Barford?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "There is no hospital.",
+                  "source_line": 448
+                },
+                {
+                  "label": "B",
+                  "text": "New medical practices are planned.",
+                  "source_line": 449
+                },
+                {
+                  "label": "C",
+                  "text": "The number of dentists is too low.",
+                  "source_line": 450
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 447,
+                  "start": 0,
+                  "end": 60,
+                  "text": "14  What does Shona say about medical facilities in Barford?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q15",
+              "question_number": 15,
+              "prompt": "15  The largest number of people are employed in",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "manufacturing.",
+                  "source_line": 453
+                },
+                {
+                  "label": "B",
+                  "text": "services.",
+                  "source_line": 454
+                },
+                {
+                  "label": "C",
+                  "text": "education.",
+                  "source_line": 455
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 452,
+                  "start": 0,
+                  "end": 48,
+                  "text": "15  The largest number of people are employed in",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-03-p2-g16-20",
+          "question_range": [
+            16,
+            20
+          ],
+          "question_type": "matching",
+          "instructions": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-03-p2-g16-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "It will move to a new location.",
+                "source_line": 462
+              },
+              {
+                "label": "B",
+                "text": "It will have its opening hours extended.",
+                "source_line": 463
+              },
+              {
+                "label": "C",
+                "text": "It will be refurbished.",
+                "source_line": 464
+              },
+              {
+                "label": "D",
+                "text": "It will be used for a different purpose.",
+                "source_line": 465
+              },
+              {
+                "label": "E",
+                "text": "It will have its opening hours reduced.",
+                "source_line": 466
+              },
+              {
+                "label": "F",
+                "text": "It will have new management.",
+                "source_line": 467
+              },
+              {
+                "label": "G",
+                "text": "It will be expanded.",
+                "source_line": 468
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What is planned for each of the following facilities?",
+              "source_line": 458,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+              "source_line": 459,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Plans",
+              "source_line": 461,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  It will move to a new location.",
+              "source_line": 462,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  It will have its opening hours extended.",
+              "source_line": 463,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  It will be refurbished.",
+              "source_line": 464,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  It will be used for a different purpose.",
+              "source_line": 465,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E  It will have its opening hours reduced.",
+              "source_line": 466,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    F  It will have new management.",
+              "source_line": 467,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    G  It will be expanded.",
+              "source_line": 468,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Facilities",
+              "source_line": 470,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16  railway station car park    __________",
+              "source_line": 471,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17  cinema                      __________",
+              "source_line": 472,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18  indoor market               __________",
+              "source_line": 473,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19  library                     __________",
+              "source_line": 474,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20  nature reserve              __________",
+              "source_line": 475,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 457,
+            "line_end": 477,
+            "pdf_pages": [
+              57,
+              58
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q16",
+              "question_number": 16,
+              "prompt": "16  railway station car park    __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 471,
+                  "start": 0,
+                  "end": 42,
+                  "text": "16  railway station car park    __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q17",
+              "question_number": 17,
+              "prompt": "17  cinema                      __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 472,
+                  "start": 0,
+                  "end": 42,
+                  "text": "17  cinema                      __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q18",
+              "question_number": 18,
+              "prompt": "18  indoor market               __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 473,
+                  "start": 0,
+                  "end": 42,
+                  "text": "18  indoor market               __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q19",
+              "question_number": 19,
+              "prompt": "19  library                     __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 474,
+                  "start": 0,
+                  "end": 42,
+                  "text": "19  library                     __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q20",
+              "question_number": 20,
+              "prompt": "20  nature reserve              __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p2-g16-20-bank",
+              "blank_references": [
+                {
+                  "line": 475,
+                  "start": 0,
+                  "end": 42,
+                  "text": "20  nature reserve              __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What is planned for each of the following facilities?\nChoose FIVE answers from the box and write the correct letter, A–G, next to Questions 16–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 478,
+        "line_end": 512,
+        "pdf_pages": [
+          59,
+          60
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+        "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+        "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-03-p3-g21-26",
+          "question_range": [
+            21,
+            26
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+            "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+            "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 483,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 484,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Subject of drawing                         | Change to be made",
+              "source_line": 486,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "-------------------------------------------|-----------------------------------------",
+              "source_line": 487,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A 21 __________ surrounded by trees        | Add Malcolm and a 22 __________ noticing him",
+              "source_line": 488,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 2,
+                  "end": 15
+                },
+                {
+                  "question_number": 22,
+                  "start": 63,
+                  "end": 76
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "People who are 23 __________               | Add Malcolm sitting on a tree trunk",
+              "source_line": 489,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 15,
+                  "end": 28
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "outside the forest                         | and 24 __________",
+              "source_line": 490,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 49,
+                  "end": 62
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Ice-skaters on 25 __________ covered       | Add a 26 __________ for each person",
+              "source_line": 491,
+              "blanks": [
+                {
+                  "question_number": 25,
+                  "start": 15,
+                  "end": 28
+                },
+                {
+                  "question_number": 26,
+                  "start": 51,
+                  "end": 64
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "with ice                                   |",
+              "source_line": 492,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 482,
+            "line_end": 496,
+            "pdf_pages": [
+              59,
+              60
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q21",
+              "question_number": 21,
+              "prompt": "A 21 __________ surrounded by trees        | Add Malcolm and a 22 __________ noticing him",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 488,
+                  "start": 2,
+                  "end": 15,
+                  "text": "A 21 __________ surrounded by trees        | Add Malcolm and a 22 __________ noticing him",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+                  "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+                  "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+                ],
+                "printed_question_number": 21,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-03-q22",
+              "question_number": 22,
+              "prompt": "A 21 __________ surrounded by trees        | Add Malcolm and a 22 __________ noticing him",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 488,
+                  "start": 63,
+                  "end": 76,
+                  "text": "A 21 __________ surrounded by trees        | Add Malcolm and a 22 __________ noticing him",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+                  "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+                  "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+                ],
+                "printed_question_number": 22,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-03-q23",
+              "question_number": 23,
+              "prompt": "People who are 23 __________               | Add Malcolm sitting on a tree trunk",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 489,
+                  "start": 15,
+                  "end": 28,
+                  "text": "People who are 23 __________               | Add Malcolm sitting on a tree trunk",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+                  "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+                  "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+                ],
+                "printed_question_number": 23,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-03-q24",
+              "question_number": 24,
+              "prompt": "outside the forest                         | and 24 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 490,
+                  "start": 49,
+                  "end": 62,
+                  "text": "outside the forest                         | and 24 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+                  "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+                  "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+                ],
+                "printed_question_number": 24,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-03-q25",
+              "question_number": 25,
+              "prompt": "Ice-skaters on 25 __________ covered       | Add a 26 __________ for each person",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 491,
+                  "start": 15,
+                  "end": 28,
+                  "text": "Ice-skaters on 25 __________ covered       | Add a 26 __________ for each person",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+                  "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+                  "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+                ],
+                "printed_question_number": 25,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-11-test-03-q26",
+              "question_number": 26,
+              "prompt": "Ice-skaters on 25 __________ covered       | Add a 26 __________ for each person",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 491,
+                  "start": 51,
+                  "end": 64,
+                  "text": "Ice-skaters on 25 __________ covered       | Add a 26 __________ for each person",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+                  "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+                  "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a"
+                ],
+                "printed_question_number": 26,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-11-test-03-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "Write the correct letter, A–D, next to Questions 27–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Write the correct letter, A–D, next to Questions 27–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-11-test-03-p3-g27-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Helen only",
+                "source_line": 501
+              },
+              {
+                "label": "B",
+                "text": "Jeremy only",
+                "source_line": 502
+              },
+              {
+                "label": "C",
+                "text": "both Helen and Jeremy",
+                "source_line": 503
+              },
+              {
+                "label": "D",
+                "text": "neither Helen nor Jeremy",
+                "source_line": 504
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Who is going to write each of the following parts of the report?",
+              "source_line": 498,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–D, next to Questions 27–30.",
+              "source_line": 499,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A  Helen only",
+              "source_line": 501,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B  Jeremy only",
+              "source_line": 502,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C  both Helen and Jeremy",
+              "source_line": 503,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D  neither Helen nor Jeremy",
+              "source_line": 504,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Parts of the report",
+              "source_line": 506,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27  how they planned the project          __________",
+              "source_line": 507,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28  how they had ideas for their stories  __________",
+              "source_line": 508,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29  an interpretation of their stories   __________",
+              "source_line": 509,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30  comments on the illustrations        __________",
+              "source_line": 510,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 497,
+            "line_end": 512,
+            "pdf_pages": [
+              59,
+              60
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q27",
+              "question_number": 27,
+              "prompt": "27  how they planned the project          __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 507,
+                  "start": 0,
+                  "end": 52,
+                  "text": "27  how they planned the project          __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A–D, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q28",
+              "question_number": 28,
+              "prompt": "28  how they had ideas for their stories  __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 508,
+                  "start": 0,
+                  "end": 52,
+                  "text": "28  how they had ideas for their stories  __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A–D, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q29",
+              "question_number": 29,
+              "prompt": "29  an interpretation of their stories   __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 509,
+                  "start": 0,
+                  "end": 51,
+                  "text": "29  an interpretation of their stories   __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A–D, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q30",
+              "question_number": 30,
+              "prompt": "30  comments on the illustrations        __________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-11-test-03-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 510,
+                  "start": 0,
+                  "end": 51,
+                  "text": "30  comments on the illustrations        __________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Write the correct letter, A–D, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+        "line_start": 513,
+        "line_end": 556,
+        "pdf_pages": [
+          61,
+          62
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-e38f587b6caa9022c01511e8668e94d81c7e79cab51a25f91a7025e79c1132f2",
+        "asset-2d1cd59b2c834f8bf2b33ce4c3b828bdd455bf422d1932983bc434e4e8aff923"
+      ],
+      "audio_mapping_key": {
+        "book": 11,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-11-test-03-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 518,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 519,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "ETHNOGRAPHY IN BUSINESS",
+              "source_line": 521,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Ethnography: research which explores human cultures",
+              "source_line": 523,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "It can be used in business:",
+              "source_line": 525,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• to investigate customer needs and 31 __________",
+              "source_line": 526,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 36,
+                  "end": 49
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• to help companies develop new designs",
+              "source_line": 527,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Examples of ethnographic research in business",
+              "source_line": 529,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Kitchen equipment",
+              "source_line": 531,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Researchers found that cooks could not easily see the 32 __________ in measuring cups.",
+              "source_line": 532,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 56,
+                  "end": 69
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Cell phones",
+              "source_line": 534,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• In Uganda, customers paid to use the cell phones of entrepreneurs.",
+              "source_line": 535,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• These customers wanted to check the 33 __________ used.",
+              "source_line": 536,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 38,
+                  "end": 51
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Computer companies",
+              "source_line": 538,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• There was a need to develop 34 __________ to improve communication between system administrators and colleagues.",
+              "source_line": 539,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 30,
+                  "end": 43
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Hospitals",
+              "source_line": 541,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Nurses needed to access information about 35 __________ in different parts of the hospital.",
+              "source_line": 542,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 44,
+                  "end": 57
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Airlines",
+              "source_line": 544,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Respondents recorded information about their 36 __________ while travelling.",
+              "source_line": 545,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 47,
+                  "end": 60
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Principles of ethnographic research in business",
+              "source_line": 547,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• The researcher does not start off with a hypothesis.",
+              "source_line": 548,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Participants may be selected by criteria such as age, 37 __________ or product used.",
+              "source_line": 549,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 56,
+                  "end": 69
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• The participants must feel 38 __________ about taking part in the research.",
+              "source_line": 550,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 29,
+                  "end": 42
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• There is usually direct 39 __________ of the participants.",
+              "source_line": 551,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 26,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• The interview is guided by the participant.",
+              "source_line": 552,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• A lot of time is needed for the 40 __________ of the data.",
+              "source_line": 553,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 34,
+                  "end": 47
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Researchers look for a meaningful pattern in the data.",
+              "source_line": 554,
+              "blanks": []
+            }
+          ],
+          "source_reference": {
+            "file": "Cambridge_IELTS_11/Cambridge_IELTS_11_Listening.txt",
+            "line_start": 514,
+            "line_end": 556,
+            "pdf_pages": [
+              61,
+              62
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-11-test-03-q31",
+              "question_number": 31,
+              "prompt": "• to investigate customer needs and 31 __________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 526,
+                  "start": 36,
+                  "end": 49,
+                  "text": "• to investigate customer needs and 31 __________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q32",
+              "question_number": 32,
+              "prompt": "• Researchers found that cooks could not easily see the 32 __________ in measuring cups.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 532,
+                  "start": 56,
+                  "end": 69,
+                  "text": "• Researchers found that cooks could not easily see the 32 __________ in measuring cups.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q33",
+              "question_number": 33,
+              "prompt": "• These customers wanted to check the 33 __________ used.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 536,
+                  "start": 38,
+                  "end": 51,
+                  "text": "• These customers wanted to check the 33 __________ used.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q34",
+              "question_number": 34,
+              "prompt": "• There was a need to develop 34 __________ to improve communication between system administrators and colleagues.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 539,
+                  "start": 30,
+                  "end": 43,
+                  "text": "• There was a need to develop 34 __________ to improve communication between system administrators and colleagues.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q35",
+              "question_number": 35,
+              "prompt": "• Nurses needed to access information about 35 __________ in different parts of the hospital.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 542,
+                  "start": 44,
+                  "end": 57,
+                  "text": "• Nurses needed to access information about 35 __________ in different parts of the hospital.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q36",
+              "question_number": 36,
+              "prompt": "• Respondents recorded information about their 36 __________ while travelling.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 545,
+                  "start": 47,
+                  "end": 60,
+                  "text": "• Respondents recorded information about their 36 __________ while travelling.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q37",
+              "question_number": 37,
+              "prompt": "• Participants may be selected by criteria such as age, 37 __________ or product used.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 549,
+                  "start": 56,
+                  "end": 69,
+                  "text": "• Participants may be selected by criteria such as age, 37 __________ or product used.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q38",
+              "question_number": 38,
+              "prompt": "• The participants must feel 38 __________ about taking part in the research.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 550,
+                  "start": 29,
+                  "end": 42,
+                  "text": "• The participants must feel 38 __________ about taking part in the research.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q39",
+              "question_number": 39,
+              "prompt": "• There is usually direct 39 __________ of the participants.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 551,
+                  "start": 26,
+                  "end": 39,
+                  "text": "• There is usually direct 39 __________ of the participants.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-11-test-03-q40",
+              "question_number": 40,
+              "prompt": "• A lot of time is needed for the 40 __________ of the data.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 553,
+                  "start": 34,
+                  "end": 47,
+                  "text": "• A lot of time is needed for the 40 __________ of the data.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-09fccdb23d339cdeb0ac740e79aa710da41fb225ecf7144290d7a05aaa35c2da",
+      "relative_path": "assets/public/09fccdb23d339cdeb0ac740e79aa710da41fb225ecf7144290d7a05aaa35c2da.jpg",
+      "sha256": "09fccdb23d339cdeb0ac740e79aa710da41fb225ecf7144290d7a05aaa35c2da",
+      "byte_size": 120754,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-2d1cd59b2c834f8bf2b33ce4c3b828bdd455bf422d1932983bc434e4e8aff923",
+      "relative_path": "assets/public/2d1cd59b2c834f8bf2b33ce4c3b828bdd455bf422d1932983bc434e4e8aff923.jpg",
+      "sha256": "2d1cd59b2c834f8bf2b33ce4c3b828bdd455bf422d1932983bc434e4e8aff923",
+      "byte_size": 114352,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-36c63fab77983baf04a4093dbcbd6ebdb68cdb699eb9d756e1c7029c1f6e17cb",
+      "relative_path": "assets/public/36c63fab77983baf04a4093dbcbd6ebdb68cdb699eb9d756e1c7029c1f6e17cb.jpg",
+      "sha256": "36c63fab77983baf04a4093dbcbd6ebdb68cdb699eb9d756e1c7029c1f6e17cb",
+      "byte_size": 144486,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+      "relative_path": "assets/public/4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901.jpg",
+      "sha256": "4cf0b32b3eca0553fd6d0b43bd9eb2598fe4b8e4e154a086cc8580cfdd788901",
+      "byte_size": 116522,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+      "relative_path": "assets/public/72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47.jpg",
+      "sha256": "72599a58ccc716931fc93ea6f72889c8b878fab221c39fffe89bfbebfff22f47",
+      "byte_size": 118997,
+      "width": 1095,
+      "height": 630
+    },
+    {
+      "asset_id": "asset-d9da3c3bd02795d47109a6eb135ed7a974bbd7731e9edfb1f431db1d38997421",
+      "relative_path": "assets/public/d9da3c3bd02795d47109a6eb135ed7a974bbd7731e9edfb1f431db1d38997421.jpg",
+      "sha256": "d9da3c3bd02795d47109a6eb135ed7a974bbd7731e9edfb1f431db1d38997421",
+      "byte_size": 151088,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a",
+      "relative_path": "assets/public/db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a.jpg",
+      "sha256": "db49345a1390c77b0da9f85f44b130df4fcd62a13c4730edf7c14973242e846a",
+      "byte_size": 106971,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-e38f587b6caa9022c01511e8668e94d81c7e79cab51a25f91a7025e79c1132f2",
+      "relative_path": "assets/public/e38f587b6caa9022c01511e8668e94d81c7e79cab51a25f91a7025e79c1132f2.jpg",
+      "sha256": "e38f587b6caa9022c01511e8668e94d81c7e79cab51a25f91a7025e79c1132f2",
+      "byte_size": 160568,
+      "width": 1240,
+      "height": 1754
+    },
+    {
+      "asset_id": "asset-f910b9d2bd8ed6ba3ca278de0f70bce88e8910e46b723975b26d3cac16a1caed",
+      "relative_path": "assets/public/f910b9d2bd8ed6ba3ca278de0f70bce88e8910e46b723975b26d3cac16a1caed.jpg",
+      "sha256": "f910b9d2bd8ed6ba3ca278de0f70bce88e8910e46b723975b26d3cac16a1caed",
+      "byte_size": 102992,
+      "width": 1240,
+      "height": 1754
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

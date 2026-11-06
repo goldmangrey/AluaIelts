@@ -1,0 +1,3244 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-18-test-02",
+  "book": 18,
+  "printed_test_number": 2,
+  "local_ordinal": 2,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 214,
+        "line_end": 261,
+        "pdf_pages": [
+          34,
+          35
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+        "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+        "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-02-p1-g01-05",
+          "question_range": [
+            1,
+            5
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 218,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 219,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "WORKING AT MILO'S RESTAURANTS",
+              "source_line": 221,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Benefits",
+              "source_line": 223,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - 1 ____________________ provided for all staff",
+              "source_line": 224,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 4,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - 2 ____________________ during weekdays at all Milo's Restaurants",
+              "source_line": 225,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 4,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - 3 ____________________ provided after midnight",
+              "source_line": 226,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 4,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Person specification",
+              "source_line": 228,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - must be prepared to work well in a team",
+              "source_line": 229,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - must care about maintaining a high standard of 4 ____________________",
+              "source_line": 230,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 51,
+                  "end": 73
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - must have a qualification in 5 ____________________",
+              "source_line": 231,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 33,
+                  "end": 55
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 217,
+            "line_end": 232,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q01",
+              "question_number": 1,
+              "prompt": "- 1 ____________________ provided for all staff",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 224,
+                  "start": 4,
+                  "end": 26,
+                  "text": "  - 1 ____________________ provided for all staff",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q02",
+              "question_number": 2,
+              "prompt": "- 2 ____________________ during weekdays at all Milo's Restaurants",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 225,
+                  "start": 4,
+                  "end": 26,
+                  "text": "  - 2 ____________________ during weekdays at all Milo's Restaurants",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q03",
+              "question_number": 3,
+              "prompt": "- 3 ____________________ provided after midnight",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 226,
+                  "start": 4,
+                  "end": 26,
+                  "text": "  - 3 ____________________ provided after midnight",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q04",
+              "question_number": 4,
+              "prompt": "- must care about maintaining a high standard of 4 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 230,
+                  "start": 51,
+                  "end": 73,
+                  "text": "  - must care about maintaining a high standard of 4 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q05",
+              "question_number": 5,
+              "prompt": "- must have a qualification in 5 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 231,
+                  "start": 33,
+                  "end": 55,
+                  "text": "  - must have a qualification in 5 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-02-p1-g06-10",
+          "question_range": [
+            6,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+            "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+            "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 234,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 235,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "LOCATION / JOB TITLE / RESPONSIBILITIES INCLUDE / PAY AND CONDITIONS",
+              "source_line": 237,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Row 1:",
+              "source_line": 239,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Location: 6 ____________________ Street",
+              "source_line": 240,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 12,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Job title: Breakfast supervisor",
+              "source_line": 241,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Responsibilities include:",
+              "source_line": 242,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Checking portions, etc. are correct",
+              "source_line": 243,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Making sure 7 ____________________ is clean",
+              "source_line": 244,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 18,
+                  "end": 40
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Pay and conditions:",
+              "source_line": 245,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Starting salary £ 8 ____________________ per hour",
+              "source_line": 246,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 24,
+                  "end": 46
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Start work at 5.30 a.m.",
+              "source_line": 247,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Row 2:",
+              "source_line": 249,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Location: City Road",
+              "source_line": 250,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Job title: Junior chef",
+              "source_line": 251,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Responsibilities include:",
+              "source_line": 252,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Supporting senior chefs",
+              "source_line": 253,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Maintaining stock and organising 9 ____________________",
+              "source_line": 254,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 39,
+                  "end": 61
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Pay and conditions:",
+              "source_line": 255,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - Annual salary £23,000",
+              "source_line": 256,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    - No work on a 10 ____________________ once a month",
+              "source_line": 257,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 19,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 233,
+            "line_end": 261,
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q06",
+              "question_number": 6,
+              "prompt": "Location: 6 ____________________ Street",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 240,
+                  "start": 12,
+                  "end": 34,
+                  "text": "  Location: 6 ____________________ Street",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+                  "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+                  "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q07",
+              "question_number": 7,
+              "prompt": "- Making sure 7 ____________________ is clean",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 244,
+                  "start": 18,
+                  "end": 40,
+                  "text": "    - Making sure 7 ____________________ is clean",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+                  "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+                  "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q08",
+              "question_number": 8,
+              "prompt": "- Starting salary £ 8 ____________________ per hour",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 246,
+                  "start": 24,
+                  "end": 46,
+                  "text": "    - Starting salary £ 8 ____________________ per hour",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+                  "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+                  "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q09",
+              "question_number": 9,
+              "prompt": "- Maintaining stock and organising 9 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 254,
+                  "start": 39,
+                  "end": 61,
+                  "text": "    - Maintaining stock and organising 9 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+                  "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+                  "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q10",
+              "question_number": 10,
+              "prompt": "- No work on a 10 ____________________ once a month",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 257,
+                  "start": 19,
+                  "end": 42,
+                  "text": "    - No work on a 10 ____________________ once a month",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the table below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+                  "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+                  "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 262,
+        "line_end": 300,
+        "pdf_pages": [
+          36,
+          37
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+        "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+        "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-02-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhat are the TWO main reasons why this site has been chosen for the housing development?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhat are the TWO main reasons why this site has been chosen for the housing development?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-02-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "It has suitable geographical features.",
+                "source_line": 268
+              },
+              {
+                "label": "B",
+                "text": "There is easy access to local facilities.",
+                "source_line": 269
+              },
+              {
+                "label": "C",
+                "text": "It has good connections with the airport.",
+                "source_line": 270
+              },
+              {
+                "label": "D",
+                "text": "The land is of little agricultural value.",
+                "source_line": 271
+              },
+              {
+                "label": "E",
+                "text": "It will be convenient for workers.",
+                "source_line": 272
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 266,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "What are the TWO main reasons why this site has been chosen for the housing development?",
+              "source_line": 267,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. It has suitable geographical features.",
+              "source_line": 268,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. There is easy access to local facilities.",
+              "source_line": 269,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. It has good connections with the airport.",
+              "source_line": 270,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. The land is of little agricultural value.",
+              "source_line": 271,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. It will be convenient for workers.",
+              "source_line": 272,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. ____________________",
+              "source_line": 273,
+              "blanks": [
+                {
+                  "question_number": 11,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "12. ____________________",
+              "source_line": 274,
+              "blanks": [
+                {
+                  "question_number": 12,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 265,
+            "line_end": 275,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q11",
+              "question_number": 11,
+              "prompt": "11. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 273,
+                  "start": 0,
+                  "end": 24,
+                  "text": "11. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat are the TWO main reasons why this site has been chosen for the housing development?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q12",
+              "question_number": 12,
+              "prompt": "12. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 274,
+                  "start": 0,
+                  "end": 24,
+                  "text": "12. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhat are the TWO main reasons why this site has been chosen for the housing development?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-02-p2-g13-14",
+          "question_range": [
+            13,
+            14
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO aspects of the planned housing development have people given positive feedback about?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO aspects of the planned housing development have people given positive feedback about?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-02-p2-g13-14-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "the facilities for cyclists",
+                "source_line": 279
+              },
+              {
+                "label": "B",
+                "text": "the impact on the environment",
+                "source_line": 280
+              },
+              {
+                "label": "C",
+                "text": "the encouragement of good relations between residents",
+                "source_line": 281
+              },
+              {
+                "label": "D",
+                "text": "the low cost of all the accommodation",
+                "source_line": 282
+              },
+              {
+                "label": "E",
+                "text": "the rural location",
+                "source_line": 283
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              13,
+              14
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 277,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO aspects of the planned housing development have people given positive feedback about?",
+              "source_line": 278,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. the facilities for cyclists",
+              "source_line": 279,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. the impact on the environment",
+              "source_line": 280,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. the encouragement of good relations between residents",
+              "source_line": 281,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. the low cost of all the accommodation",
+              "source_line": 282,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. the rural location",
+              "source_line": 283,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. ____________________",
+              "source_line": 284,
+              "blanks": [
+                {
+                  "question_number": 13,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "14. ____________________",
+              "source_line": 285,
+              "blanks": [
+                {
+                  "question_number": 14,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 276,
+            "line_end": 286,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q13",
+              "question_number": 13,
+              "prompt": "13. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 284,
+                  "start": 0,
+                  "end": 24,
+                  "text": "13. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO aspects of the planned housing development have people given positive feedback about?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q14",
+              "question_number": 14,
+              "prompt": "14. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 285,
+                  "start": 0,
+                  "end": 24,
+                  "text": "14. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO aspects of the planned housing development have people given positive feedback about?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-02-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "map_labelling",
+          "instructions": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "A"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "B",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "B"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "C",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "C"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "D",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "D"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "E",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "E"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "F",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "F"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "G",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "G"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "H",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "H"
+                },
+                "source_range": "A–I"
+              },
+              {
+                "label": "I",
+                "text": null,
+                "visual_reference": {
+                  "asset_ids": [
+                    "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                    "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                    "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                  ],
+                  "original_label": "I"
+                },
+                "source_range": "A–I"
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+            "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+            "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Label the map below.",
+              "source_line": 288,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write the correct letter, A–I, next to Questions 15–20.",
+              "source_line": 289,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "The map contains labels A–I, apartment blocks, housing for the elderly, a lake, roads, entrances and a housing key. Use the actual image to answer location questions.",
+              "source_line": 292,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. School              ____________________",
+              "source_line": 293,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16. Sports centre       ____________________",
+              "source_line": 294,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17. Clinic              ____________________",
+              "source_line": 295,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18. Community centre    ____________________",
+              "source_line": 296,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. Supermarket         ____________________",
+              "source_line": 297,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20. Playground          ____________________",
+              "source_line": 298,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 287,
+            "line_end": 300,
+            "pdf_pages": [
+              36,
+              37
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q15",
+              "question_number": 15,
+              "prompt": "15. School              ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 293,
+                  "start": 0,
+                  "end": 44,
+                  "text": "15. School              ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                  "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                  "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                ],
+                "printed_question_number": 15,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q16",
+              "question_number": 16,
+              "prompt": "16. Sports centre       ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 294,
+                  "start": 0,
+                  "end": 44,
+                  "text": "16. Sports centre       ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                  "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                  "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q17",
+              "question_number": 17,
+              "prompt": "17. Clinic              ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 295,
+                  "start": 0,
+                  "end": 44,
+                  "text": "17. Clinic              ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                  "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                  "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q18",
+              "question_number": 18,
+              "prompt": "18. Community centre    ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 296,
+                  "start": 0,
+                  "end": 44,
+                  "text": "18. Community centre    ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                  "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                  "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q19",
+              "question_number": 19,
+              "prompt": "19. Supermarket         ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 297,
+                  "start": 0,
+                  "end": 44,
+                  "text": "19. Supermarket         ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                  "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                  "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-02-q20",
+              "question_number": 20,
+              "prompt": "20. Playground          ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p2-g15-20-bank",
+              "blank_references": [
+                {
+                  "line": 298,
+                  "start": 0,
+                  "end": 44,
+                  "text": "20. Playground          ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Label the map below.\nWrite the correct letter, A–I, next to Questions 15–20.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+                  "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+                  "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 301,
+        "line_end": 356,
+        "pdf_pages": [
+          38,
+          39
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-459f949de1bfcc5a833f2e11f9740f5985b2c168d88a5193f5ac231fc964cb4c",
+        "asset-b4f6399cbb4d4eefbe3de07d81f0a617d6f659fbb5c0dd26d57e3ac40bf420c7"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-02-p3-g21-24",
+          "question_range": [
+            21,
+            24
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 305,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. Why do the students think the Laki eruption of 1783 is so important?",
+              "source_line": 307,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. It was the most severe eruption in modern times.",
+              "source_line": 308,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. It led to the formal study of volcanoes.",
+              "source_line": 309,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. It had a profound effect on society.",
+              "source_line": 310,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "22. What surprised Adam about observations made at the time?",
+              "source_line": 312,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. the number of places producing them",
+              "source_line": 313,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. the contradictions in them",
+              "source_line": 314,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. the lack of scientific data to support them",
+              "source_line": 315,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. According to Michelle, what did the contemporary sources say about the Laki haze?",
+              "source_line": 317,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. People thought it was similar to ordinary fog.",
+              "source_line": 318,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. It was associated with health issues.",
+              "source_line": 319,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. It completely blocked out the sun for weeks.",
+              "source_line": 320,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "24. Adam corrects Michelle when she claims that Benjamin Franklin",
+              "source_line": 322,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. came to the wrong conclusion about the cause of the haze.",
+              "source_line": 323,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. was the first to identify the reason for the haze.",
+              "source_line": 324,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. supported the opinions of other observers about the haze.",
+              "source_line": 325,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q21"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q22"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q23"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q24"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 304,
+            "line_end": 326,
+            "pdf_pages": [
+              38,
+              39
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q21",
+              "question_number": 21,
+              "prompt": "21. Why do the students think the Laki eruption of 1783 is so important?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It was the most severe eruption in modern times.",
+                  "source_line": 308
+                },
+                {
+                  "label": "B",
+                  "text": "It led to the formal study of volcanoes.",
+                  "source_line": 309
+                },
+                {
+                  "label": "C",
+                  "text": "It had a profound effect on society.",
+                  "source_line": 310
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 307,
+                  "start": 0,
+                  "end": 72,
+                  "text": "21. Why do the students think the Laki eruption of 1783 is so important?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q22",
+              "question_number": 22,
+              "prompt": "22. What surprised Adam about observations made at the time?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the number of places producing them",
+                  "source_line": 313
+                },
+                {
+                  "label": "B",
+                  "text": "the contradictions in them",
+                  "source_line": 314
+                },
+                {
+                  "label": "C",
+                  "text": "the lack of scientific data to support them",
+                  "source_line": 315
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 312,
+                  "start": 0,
+                  "end": 60,
+                  "text": "22. What surprised Adam about observations made at the time?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q23",
+              "question_number": 23,
+              "prompt": "23. According to Michelle, what did the contemporary sources say about the Laki haze?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "People thought it was similar to ordinary fog.",
+                  "source_line": 318
+                },
+                {
+                  "label": "B",
+                  "text": "It was associated with health issues.",
+                  "source_line": 319
+                },
+                {
+                  "label": "C",
+                  "text": "It completely blocked out the sun for weeks.",
+                  "source_line": 320
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 317,
+                  "start": 0,
+                  "end": 85,
+                  "text": "23. According to Michelle, what did the contemporary sources say about the Laki haze?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q24",
+              "question_number": 24,
+              "prompt": "24. Adam corrects Michelle when she claims that Benjamin Franklin",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "came to the wrong conclusion about the cause of the haze.",
+                  "source_line": 323
+                },
+                {
+                  "label": "B",
+                  "text": "was the first to identify the reason for the haze.",
+                  "source_line": 324
+                },
+                {
+                  "label": "C",
+                  "text": "supported the opinions of other observers about the haze.",
+                  "source_line": 325
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 322,
+                  "start": 0,
+                  "end": 65,
+                  "text": "24. Adam corrects Michelle when she claims that Benjamin Franklin",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-02-p3-g25-26",
+          "question_range": [
+            25,
+            26
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO issues following the Laki eruption surprised the students?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO issues following the Laki eruption surprised the students?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-02-p3-g25-26-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "how widespread the effects were",
+                "source_line": 330
+              },
+              {
+                "label": "B",
+                "text": "how long-lasting the effects were",
+                "source_line": 331
+              },
+              {
+                "label": "C",
+                "text": "the number of deaths it caused",
+                "source_line": 332
+              },
+              {
+                "label": "D",
+                "text": "the speed at which the volcanic ash cloud spread",
+                "source_line": 333
+              },
+              {
+                "label": "E",
+                "text": "how people ignored the warning signs",
+                "source_line": 334
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              25,
+              26
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 328,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO issues following the Laki eruption surprised the students?",
+              "source_line": 329,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. how widespread the effects were",
+              "source_line": 330,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. how long-lasting the effects were",
+              "source_line": 331,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. the number of deaths it caused",
+              "source_line": 332,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. the speed at which the volcanic ash cloud spread",
+              "source_line": 333,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. how people ignored the warning signs",
+              "source_line": 334,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. ____________________",
+              "source_line": 335,
+              "blanks": [
+                {
+                  "question_number": 25,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "26. ____________________",
+              "source_line": 336,
+              "blanks": [
+                {
+                  "question_number": 26,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 327,
+            "line_end": 337,
+            "pdf_pages": [
+              38,
+              39
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q25",
+              "question_number": 25,
+              "prompt": "25. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p3-g25-26-bank",
+              "blank_references": [
+                {
+                  "line": 335,
+                  "start": 0,
+                  "end": 24,
+                  "text": "25. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO issues following the Laki eruption surprised the students?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q26",
+              "question_number": 26,
+              "prompt": "26. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p3-g25-26-bank",
+              "blank_references": [
+                {
+                  "line": 336,
+                  "start": 0,
+                  "end": 24,
+                  "text": "26. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO issues following the Laki eruption surprised the students?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-02-p3-g27-30",
+          "question_range": [
+            27,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What comment do the students make about the impact of the Laki eruption on the following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What comment do the students make about the impact of the Laki eruption on the following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-02-p3-g27-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "This country suffered the most severe loss of life.",
+                "source_line": 343
+              },
+              {
+                "label": "B",
+                "text": "The impact on agriculture was predictable.",
+                "source_line": 344
+              },
+              {
+                "label": "C",
+                "text": "There was a significant increase in deaths of young people.",
+                "source_line": 345
+              },
+              {
+                "label": "D",
+                "text": "Animals suffered from a sickness.",
+                "source_line": 346
+              },
+              {
+                "label": "E",
+                "text": "This country saw the highest rise in food prices in the world.",
+                "source_line": 347
+              },
+              {
+                "label": "F",
+                "text": "It caused a particularly harsh winter.",
+                "source_line": 348
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What comment do the students make about the impact of the Laki eruption on the following countries?",
+              "source_line": 339,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+              "source_line": 340,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Comments",
+              "source_line": 342,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. This country suffered the most severe loss of life.",
+              "source_line": 343,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. The impact on agriculture was predictable.",
+              "source_line": 344,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. There was a significant increase in deaths of young people.",
+              "source_line": 345,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. Animals suffered from a sickness.",
+              "source_line": 346,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. This country saw the highest rise in food prices in the world.",
+              "source_line": 347,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    F. It caused a particularly harsh winter.",
+              "source_line": 348,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Countries",
+              "source_line": 350,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. Iceland   ____________________",
+              "source_line": 351,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. Egypt     ____________________",
+              "source_line": 352,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. UK        ____________________",
+              "source_line": 353,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. USA       ____________________",
+              "source_line": 354,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-02-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 338,
+            "line_end": 356,
+            "pdf_pages": [
+              38,
+              39
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q27",
+              "question_number": 27,
+              "prompt": "27. Iceland   ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 351,
+                  "start": 0,
+                  "end": 34,
+                  "text": "27. Iceland   ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about the impact of the Laki eruption on the following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q28",
+              "question_number": 28,
+              "prompt": "28. Egypt     ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 352,
+                  "start": 0,
+                  "end": 34,
+                  "text": "28. Egypt     ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about the impact of the Laki eruption on the following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q29",
+              "question_number": 29,
+              "prompt": "29. UK        ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 353,
+                  "start": 0,
+                  "end": 34,
+                  "text": "29. UK        ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about the impact of the Laki eruption on the following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q30",
+              "question_number": 30,
+              "prompt": "30. USA       ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-02-p3-g27-30-bank",
+              "blank_references": [
+                {
+                  "line": 354,
+                  "start": 0,
+                  "end": 34,
+                  "text": "30. USA       ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about the impact of the Laki eruption on the following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 357,
+        "line_end": 386,
+        "pdf_pages": [
+          40
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a",
+        "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c",
+        "asset-8a50969c622f70f7674980f76f6a15427c44fc5dae9954e21bcbcef70ef27d4e"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 2,
+        "local_ordinal": 2,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-02-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 360,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 361,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "POCKETS",
+              "source_line": 363,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Reason for choice of subject",
+              "source_line": 365,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - They are 31 ____________________ but can be overlooked by consumers and designers.",
+              "source_line": 366,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 13,
+                  "end": 36
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Pockets in men's clothes",
+              "source_line": 368,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Men started to wear 32 ____________________ in the 18th century.",
+              "source_line": 369,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 24,
+                  "end": 47
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - A 33 ____________________ sewed pockets into the lining of the garments.",
+              "source_line": 370,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 6,
+                  "end": 29
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - The wearer could use the pockets for small items.",
+              "source_line": 371,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Bigger pockets might be made for men who belonged to a certain type of 34 ____________________.",
+              "source_line": 372,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 75,
+                  "end": 98
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Pockets in women's clothes",
+              "source_line": 374,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Women's pockets were less 35 ____________________ than men's.",
+              "source_line": 375,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 30,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Women were very concerned about pickpockets.",
+              "source_line": 376,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Pockets were produced in pairs using 36 ____________________ to link them together.",
+              "source_line": 377,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 41,
+                  "end": 64
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Pockets hung from the women's 37 ____________________ under skirts and petticoats.",
+              "source_line": 378,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 34,
+                  "end": 57
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Items such as 38 ____________________ could be reached through a gap in the material.",
+              "source_line": 379,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 18,
+                  "end": 41
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Pockets, of various sizes, stayed inside clothing for many decades.",
+              "source_line": 380,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - When dresses changed shape, hidden pockets had a negative effect on the 39 ____________________ of women.",
+              "source_line": 381,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 76,
+                  "end": 99
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Bags called 'pouches' became popular, before women carried a 40 ____________________.",
+              "source_line": 382,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 65,
+                  "end": 88
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 357,
+            "line_end": 386,
+            "pdf_pages": [
+              40
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-02-q31",
+              "question_number": 31,
+              "prompt": "- They are 31 ____________________ but can be overlooked by consumers and designers.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 366,
+                  "start": 13,
+                  "end": 36,
+                  "text": "  - They are 31 ____________________ but can be overlooked by consumers and designers.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q32",
+              "question_number": 32,
+              "prompt": "- Men started to wear 32 ____________________ in the 18th century.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 369,
+                  "start": 24,
+                  "end": 47,
+                  "text": "  - Men started to wear 32 ____________________ in the 18th century.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q33",
+              "question_number": 33,
+              "prompt": "- A 33 ____________________ sewed pockets into the lining of the garments.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 370,
+                  "start": 6,
+                  "end": 29,
+                  "text": "  - A 33 ____________________ sewed pockets into the lining of the garments.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q34",
+              "question_number": 34,
+              "prompt": "- Bigger pockets might be made for men who belonged to a certain type of 34 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 372,
+                  "start": 75,
+                  "end": 98,
+                  "text": "  - Bigger pockets might be made for men who belonged to a certain type of 34 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q35",
+              "question_number": 35,
+              "prompt": "- Women's pockets were less 35 ____________________ than men's.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 375,
+                  "start": 30,
+                  "end": 53,
+                  "text": "  - Women's pockets were less 35 ____________________ than men's.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q36",
+              "question_number": 36,
+              "prompt": "- Pockets were produced in pairs using 36 ____________________ to link them together.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 377,
+                  "start": 41,
+                  "end": 64,
+                  "text": "  - Pockets were produced in pairs using 36 ____________________ to link them together.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q37",
+              "question_number": 37,
+              "prompt": "- Pockets hung from the women's 37 ____________________ under skirts and petticoats.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 378,
+                  "start": 34,
+                  "end": 57,
+                  "text": "  - Pockets hung from the women's 37 ____________________ under skirts and petticoats.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q38",
+              "question_number": 38,
+              "prompt": "- Items such as 38 ____________________ could be reached through a gap in the material.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 379,
+                  "start": 18,
+                  "end": 41,
+                  "text": "  - Items such as 38 ____________________ could be reached through a gap in the material.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q39",
+              "question_number": 39,
+              "prompt": "- When dresses changed shape, hidden pockets had a negative effect on the 39 ____________________ of women.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 381,
+                  "start": 76,
+                  "end": 99,
+                  "text": "  - When dresses changed shape, hidden pockets had a negative effect on the 39 ____________________ of women.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-02-q40",
+              "question_number": 40,
+              "prompt": "- Bags called 'pouches' became popular, before women carried a 40 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 382,
+                  "start": 65,
+                  "end": 88,
+                  "text": "  - Bags called 'pouches' became popular, before women carried a 40 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-459f949de1bfcc5a833f2e11f9740f5985b2c168d88a5193f5ac231fc964cb4c",
+      "relative_path": "assets/public/459f949de1bfcc5a833f2e11f9740f5985b2c168d88a5193f5ac231fc964cb4c.png",
+      "sha256": "459f949de1bfcc5a833f2e11f9740f5985b2c168d88a5193f5ac231fc964cb4c",
+      "byte_size": 448355,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3",
+      "relative_path": "assets/public/59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3.png",
+      "sha256": "59b49f2c5c251250da7bcd6e14851137e5056d63fb06510281137492fe9e68c3",
+      "byte_size": 405385,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+      "relative_path": "assets/public/5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587.png",
+      "sha256": "5fd1e08534a18941fcfc180cb5350197535f2002dc31e895a084a91f52a48587",
+      "byte_size": 263349,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+      "relative_path": "assets/public/673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780.png",
+      "sha256": "673730aec49fe2c284c2f0042a5dd4cf8cd3b78a86a20f9a2fa310df87a36780",
+      "byte_size": 247239,
+      "width": 1144,
+      "height": 781
+    },
+    {
+      "asset_id": "asset-68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a",
+      "relative_path": "assets/public/68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a.png",
+      "sha256": "68b10200319f1b01396fc2a03ad2021de965f0b418da71c3019cae11d114754a",
+      "byte_size": 242744,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c",
+      "relative_path": "assets/public/785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c.png",
+      "sha256": "785b97b4897fbc821190f0e55a2220f8f3304499f3a23f242db64430e9981a0c",
+      "byte_size": 475323,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-8a50969c622f70f7674980f76f6a15427c44fc5dae9954e21bcbcef70ef27d4e",
+      "relative_path": "assets/public/8a50969c622f70f7674980f76f6a15427c44fc5dae9954e21bcbcef70ef27d4e.png",
+      "sha256": "8a50969c622f70f7674980f76f6a15427c44fc5dae9954e21bcbcef70ef27d4e",
+      "byte_size": 354722,
+      "width": 1144,
+      "height": 1216
+    },
+    {
+      "asset_id": "asset-b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+      "relative_path": "assets/public/b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b.png",
+      "sha256": "b4ce3397a181baf020a8b9844ace439347d68b21c64a32b9c88185921063d33b",
+      "byte_size": 152941,
+      "width": 1183,
+      "height": 556
+    },
+    {
+      "asset_id": "asset-b4f6399cbb4d4eefbe3de07d81f0a617d6f659fbb5c0dd26d57e3ac40bf420c7",
+      "relative_path": "assets/public/b4f6399cbb4d4eefbe3de07d81f0a617d6f659fbb5c0dd26d57e3ac40bf420c7.png",
+      "sha256": "b4f6399cbb4d4eefbe3de07d81f0a617d6f659fbb5c0dd26d57e3ac40bf420c7",
+      "byte_size": 273049,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+      "relative_path": "assets/public/e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde.png",
+      "sha256": "e1c88aac896f4fb90c9fcf2389d9f8cf09ff8b34eb76d33b86649df089c01bde",
+      "byte_size": 227306,
+      "width": 1299,
+      "height": 1737
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

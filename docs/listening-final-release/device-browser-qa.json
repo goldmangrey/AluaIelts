@@ -1,0 +1,276 @@
+{
+  "cases": [
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "save_and_part_return": "PASS (synthetic sync + Part return)",
+      "c014_instruction": null,
+      "screenshot": "chromium-mobile-cambridge-04-test-01-exam.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "chromium-mobile-cambridge-04-test-01-review.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "test_id": "cambridge-07-test-04",
+      "part": 1,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": "Full verbatim word-limit instruction already present in question header; scan wear remains",
+      "screenshot": "chromium-mobile-cambridge-07-test-04-exam.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "test_id": "cambridge-07-test-04",
+      "part": 1,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": "Full verbatim word-limit instruction already present in question header; scan wear remains",
+      "screenshot": "chromium-mobile-cambridge-07-test-04-review.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "test_id": "cambridge-06-test-03",
+      "part": 3,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-395e75b6424d0572230e5992eb94f21ff04aaa5837aa8ea25cbac27628ad0776",
+        "asset-a3d806a65c12507c335671bba162d72ddfdd1fd91e0e8b0447cef5dcd1979027"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "chromium-mobile-cambridge-06-test-03-exam.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "test_id": "cambridge-06-test-03",
+      "part": 3,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-395e75b6424d0572230e5992eb94f21ff04aaa5837aa8ea25cbac27628ad0776",
+        "asset-a3d806a65c12507c335671bba162d72ddfdd1fd91e0e8b0447cef5dcd1979027"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "chromium-mobile-cambridge-06-test-03-review.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "save_and_part_return": "PASS (synthetic sync + Part return)",
+      "c014_instruction": null,
+      "screenshot": "webkit-desktop-cambridge-04-test-01-exam.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "webkit-desktop-cambridge-04-test-01-review.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "test_id": "cambridge-07-test-04",
+      "part": 1,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": "Full verbatim word-limit instruction already present in question header; scan wear remains",
+      "screenshot": "webkit-desktop-cambridge-07-test-04-exam.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "test_id": "cambridge-07-test-04",
+      "part": 1,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": "Full verbatim word-limit instruction already present in question header; scan wear remains",
+      "screenshot": "webkit-desktop-cambridge-07-test-04-review.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "test_id": "cambridge-06-test-03",
+      "part": 3,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-395e75b6424d0572230e5992eb94f21ff04aaa5837aa8ea25cbac27628ad0776",
+        "asset-a3d806a65c12507c335671bba162d72ddfdd1fd91e0e8b0447cef5dcd1979027"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "webkit-desktop-cambridge-06-test-03-exam.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "test_id": "cambridge-06-test-03",
+      "part": 3,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-395e75b6424d0572230e5992eb94f21ff04aaa5837aa8ea25cbac27628ad0776",
+        "asset-a3d806a65c12507c335671bba162d72ddfdd1fd91e0e8b0447cef5dcd1979027"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "webkit-desktop-cambridge-06-test-03-review.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "save_and_part_return": "PASS (synthetic sync + Part return)",
+      "c014_instruction": null,
+      "screenshot": "webkit-mobile-cambridge-04-test-01-exam.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "test_id": "cambridge-04-test-01",
+      "part": 1,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
+        "asset-6fdc69064206de9950014eabdb5a957550ff8cf3e344ffd3e8b18c5c64c989c9"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "webkit-mobile-cambridge-04-test-01-review.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "test_id": "cambridge-07-test-04",
+      "part": 1,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": "Full verbatim word-limit instruction already present in question header; scan wear remains",
+      "screenshot": "webkit-mobile-cambridge-07-test-04-exam.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "test_id": "cambridge-07-test-04",
+      "part": 1,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": "Full verbatim word-limit instruction already present in question header; scan wear remains",
+      "screenshot": "webkit-mobile-cambridge-07-test-04-review.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "test_id": "cambridge-06-test-03",
+      "part": 3,
+      "mode": "exam",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-395e75b6424d0572230e5992eb94f21ff04aaa5837aa8ea25cbac27628ad0776",
+        "asset-a3d806a65c12507c335671bba162d72ddfdd1fd91e0e8b0447cef5dcd1979027"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "webkit-mobile-cambridge-06-test-03-exam.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "test_id": "cambridge-06-test-03",
+      "part": 3,
+      "mode": "review",
+      "status": "PASS",
+      "all_material_ids": [
+        "asset-395e75b6424d0572230e5992eb94f21ff04aaa5837aa8ea25cbac27628ad0776",
+        "asset-a3d806a65c12507c335671bba162d72ddfdd1fd91e0e8b0447cef5dcd1979027"
+      ],
+      "save_and_part_return": null,
+      "c014_instruction": null,
+      "screenshot": "webkit-mobile-cambridge-06-test-03-review.png"
+    }
+  ],
+  "page_errors": [],
+  "scope": "Real page/Workspace/Review with existing localhost synthetic API fixture; no production mutations"
+}

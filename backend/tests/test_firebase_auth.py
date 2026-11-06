@@ -159,5 +159,5 @@ def test_upgrade_from_0005_preserves_learners(system):
         assert session.scalar(select(func.count()).select_from(FirebaseIdentityRow)) == 0
         assert (
             session.execute(text("SELECT version_num FROM alembic_version")).scalar()
-            == "20261101_0006"
+            == "20261104_0007"
         )

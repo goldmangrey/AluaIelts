@@ -1,0 +1,3281 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-18-test-03",
+  "book": 18,
+  "printed_test_number": 3,
+  "local_ordinal": 3,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 391,
+        "line_end": 433,
+        "pdf_pages": [
+          57
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-03-p1-g01-04",
+          "question_range": [
+            1,
+            4
+          ],
+          "question_type": "form_completion",
+          "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": 1,
+            "allows_number": true,
+            "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the form below.",
+              "source_line": 395,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD AND/OR A NUMBER for each answer.",
+              "source_line": 396,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "WAYSIDE CAMERA CLUB — MEMBERSHIP FORM",
+              "source_line": 398,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Name: Dan Green",
+              "source_line": 399,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Email address: dan1068@market.com",
+              "source_line": 400,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Home address: 52 1 ____________________ Street, Peacetown",
+              "source_line": 401,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 17,
+                  "end": 39
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Heard about us: from a 2 ____________________",
+              "source_line": 402,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 23,
+                  "end": 45
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Reasons for joining:",
+              "source_line": 403,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - to enter competitions",
+              "source_line": 404,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - to 3 ____________________",
+              "source_line": 405,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 7,
+                  "end": 29
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Type of membership: 4 ____________________ membership (£30)",
+              "source_line": 406,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 20,
+                  "end": 42
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 394,
+            "line_end": 407,
+            "pdf_pages": [
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q01",
+              "question_number": 1,
+              "prompt": "Home address: 52 1 ____________________ Street, Peacetown",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 401,
+                  "start": 17,
+                  "end": 39,
+                  "text": "Home address: 52 1 ____________________ Street, Peacetown",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 1,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q02",
+              "question_number": 2,
+              "prompt": "Heard about us: from a 2 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 402,
+                  "start": 23,
+                  "end": 45,
+                  "text": "Heard about us: from a 2 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 2,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q03",
+              "question_number": 3,
+              "prompt": "- to 3 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 405,
+                  "start": 7,
+                  "end": 29,
+                  "text": "  - to 3 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 3,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q04",
+              "question_number": 4,
+              "prompt": "Type of membership: 4 ____________________ membership (£30)",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 406,
+                  "start": 20,
+                  "end": 42,
+                  "text": "Type of membership: 4 ____________________ membership (£30)",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": 1,
+                "allows_number": true,
+                "instruction": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 4,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-03-p1-g05-10",
+          "question_range": [
+            5,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 409,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 410,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "PHOTOGRAPHY COMPETITIONS",
+              "source_line": 412,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Title of competition / Instructions / Feedback to Dan",
+              "source_line": 414,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Row 1",
+              "source_line": 416,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Title of competition: '5 ____________________'",
+              "source_line": 417,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 25,
+                  "end": 47
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Instructions: A scene in the home",
+              "source_line": 418,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Feedback to Dan: The picture's composition was not good.",
+              "source_line": 419,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Row 2",
+              "source_line": 421,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Title of competition: 'Beautiful Sunsets'",
+              "source_line": 422,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Instructions: Scene must show some 6 ____________________",
+              "source_line": 423,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 37,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Feedback to Dan: The 7 ____________________ was wrong.",
+              "source_line": 424,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 23,
+                  "end": 45
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Row 3",
+              "source_line": 426,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  Title of competition: '8 ____________________'",
+              "source_line": 427,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 25,
+                  "end": 47
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Instructions: Scene must show 9 ____________________",
+              "source_line": 428,
+              "blanks": [
+                {
+                  "question_number": 9,
+                  "start": 32,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  Feedback to Dan: The photograph was too 10 ____________________.",
+              "source_line": 429,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 42,
+                  "end": 65
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 408,
+            "line_end": 433,
+            "pdf_pages": [
+              57
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q05",
+              "question_number": 5,
+              "prompt": "Title of competition: '5 ____________________'",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 417,
+                  "start": 25,
+                  "end": 47,
+                  "text": "  Title of competition: '5 ____________________'",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 5,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q06",
+              "question_number": 6,
+              "prompt": "Instructions: Scene must show some 6 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 423,
+                  "start": 37,
+                  "end": 59,
+                  "text": "  Instructions: Scene must show some 6 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 6,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q07",
+              "question_number": 7,
+              "prompt": "Feedback to Dan: The 7 ____________________ was wrong.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 424,
+                  "start": 23,
+                  "end": 45,
+                  "text": "  Feedback to Dan: The 7 ____________________ was wrong.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q08",
+              "question_number": 8,
+              "prompt": "Title of competition: '8 ____________________'",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 427,
+                  "start": 25,
+                  "end": 47,
+                  "text": "  Title of competition: '8 ____________________'",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q09",
+              "question_number": 9,
+              "prompt": "Instructions: Scene must show 9 ____________________",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 428,
+                  "start": 32,
+                  "end": 54,
+                  "text": "  Instructions: Scene must show 9 ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-18-test-03-q10",
+              "question_number": 10,
+              "prompt": "Feedback to Dan: The photograph was too 10 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 429,
+                  "start": 42,
+                  "end": 65,
+                  "text": "  Feedback to Dan: The photograph was too 10 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad",
+          "question_range": [
+            1,
+            10
+          ],
+          "display_order": 1,
+          "asset_role": "task_image",
+          "alternative_asset_ids": [
+            "asset-97d2814c4023ecdc5b100b54c49c1a445137b32caff617ad01b49a67f9d82373",
+            "asset-c48791329bb886644a402f27311fd1ce7292e7fc97bf6c35cc1b44b4760f1127"
+          ]
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 434,
+        "line_end": 492,
+        "pdf_pages": [
+          58,
+          59
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3",
+        "asset-923d946907bc1c141359eaa68a60ddc6aaec89e95c395e356680ba2b43363162"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-03-p2-g11-12",
+          "question_range": [
+            11,
+            12
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO warnings does Dan give about picking mushrooms?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO warnings does Dan give about picking mushrooms?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-03-p2-g11-12-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Don't pick more than one variety of mushroom at a time.",
+                "source_line": 440
+              },
+              {
+                "label": "B",
+                "text": "Don't pick mushrooms near busy roads.",
+                "source_line": 441
+              },
+              {
+                "label": "C",
+                "text": "Don't eat mushrooms given to you.",
+                "source_line": 442
+              },
+              {
+                "label": "D",
+                "text": "Don't eat mushrooms while picking them.",
+                "source_line": 443
+              },
+              {
+                "label": "E",
+                "text": "Don't pick old mushrooms.",
+                "source_line": 444
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              11,
+              12
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 438,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO warnings does Dan give about picking mushrooms?",
+              "source_line": 439,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. Don't pick more than one variety of mushroom at a time.",
+              "source_line": 440,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. Don't pick mushrooms near busy roads.",
+              "source_line": 441,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. Don't eat mushrooms given to you.",
+              "source_line": 442,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. Don't eat mushrooms while picking them.",
+              "source_line": 443,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. Don't pick old mushrooms.",
+              "source_line": 444,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. ____________________",
+              "source_line": 445,
+              "blanks": [
+                {
+                  "question_number": 11,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "12. ____________________",
+              "source_line": 446,
+              "blanks": [
+                {
+                  "question_number": 12,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 437,
+            "line_end": 447,
+            "pdf_pages": [
+              58,
+              59
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q11",
+              "question_number": 11,
+              "prompt": "11. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 445,
+                  "start": 0,
+                  "end": 24,
+                  "text": "11. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO warnings does Dan give about picking mushrooms?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q12",
+              "question_number": 12,
+              "prompt": "12. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p2-g11-12-bank",
+              "blank_references": [
+                {
+                  "line": 446,
+                  "start": 0,
+                  "end": 24,
+                  "text": "12. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO warnings does Dan give about picking mushrooms?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-03-p2-g13-14",
+          "question_range": [
+            13,
+            14
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO ideas about wild mushrooms does Dan say are correct?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO ideas about wild mushrooms does Dan say are correct?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-03-p2-g13-14-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Mushrooms should always be peeled before eating.",
+                "source_line": 451
+              },
+              {
+                "label": "B",
+                "text": "Mushrooms eaten by animals may be unsafe.",
+                "source_line": 452
+              },
+              {
+                "label": "C",
+                "text": "Cooking destroys toxins in mushrooms.",
+                "source_line": 453
+              },
+              {
+                "label": "D",
+                "text": "Brightly coloured mushrooms can be edible.",
+                "source_line": 454
+              },
+              {
+                "label": "E",
+                "text": "All poisonous mushrooms have a bad smell.",
+                "source_line": 455
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              13,
+              14
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 449,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO ideas about wild mushrooms does Dan say are correct?",
+              "source_line": 450,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. Mushrooms should always be peeled before eating.",
+              "source_line": 451,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. Mushrooms eaten by animals may be unsafe.",
+              "source_line": 452,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. Cooking destroys toxins in mushrooms.",
+              "source_line": 453,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. Brightly coloured mushrooms can be edible.",
+              "source_line": 454,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. All poisonous mushrooms have a bad smell.",
+              "source_line": 455,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. ____________________",
+              "source_line": 456,
+              "blanks": [
+                {
+                  "question_number": 13,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "14. ____________________",
+              "source_line": 457,
+              "blanks": [
+                {
+                  "question_number": 14,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 448,
+            "line_end": 458,
+            "pdf_pages": [
+              58,
+              59
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q13",
+              "question_number": 13,
+              "prompt": "13. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 456,
+                  "start": 0,
+                  "end": 24,
+                  "text": "13. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO ideas about wild mushrooms does Dan say are correct?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q14",
+              "question_number": 14,
+              "prompt": "14. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p2-g13-14-bank",
+              "blank_references": [
+                {
+                  "line": 457,
+                  "start": 0,
+                  "end": 24,
+                  "text": "14. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO ideas about wild mushrooms does Dan say are correct?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-03-p2-g15-20",
+          "question_range": [
+            15,
+            20
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-923d946907bc1c141359eaa68a60ddc6aaec89e95c395e356680ba2b43363162"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 460,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. What advice does Dan give about picking mushrooms in parks?",
+              "source_line": 462,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. Choose wooded areas.",
+              "source_line": 463,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. Don't disturb wildlife.",
+              "source_line": 464,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. Get there early.",
+              "source_line": 465,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "16. Dan says it is a good idea for beginners to",
+              "source_line": 467,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. use a mushroom app.",
+              "source_line": 468,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. join a group.",
+              "source_line": 469,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. take a reference book.",
+              "source_line": 470,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "17. What does Dan say is important for conservation?",
+              "source_line": 472,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. selecting only fully grown mushrooms",
+              "source_line": 473,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. picking a limited amount of mushrooms",
+              "source_line": 474,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. avoiding areas where rare mushroom species grow",
+              "source_line": 475,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "18. According to Dan, some varieties of wild mushrooms are in decline because there is",
+              "source_line": 477,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. a huge demand for them from restaurants.",
+              "source_line": 478,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. a lack of rain in this part of the country.",
+              "source_line": 479,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. a rise in building developments locally.",
+              "source_line": 480,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "19. Dan says that when storing mushrooms, people should",
+              "source_line": 482,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. keep them in the fridge for no more than two days.",
+              "source_line": 483,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. keep them in a brown bag in a dark room.",
+              "source_line": 484,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. leave them for a period after washing them.",
+              "source_line": 485,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "20. What does Dan say about trying new varieties of mushrooms?",
+              "source_line": 487,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. Experiment with different recipes.",
+              "source_line": 488,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. Expect some to have a strong taste.",
+              "source_line": 489,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. Cook them for a long time.",
+              "source_line": 490,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q15"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q16"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q17"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q18"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q19"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q20"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 459,
+            "line_end": 492,
+            "pdf_pages": [
+              58,
+              59
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q15",
+              "question_number": 15,
+              "prompt": "15. What advice does Dan give about picking mushrooms in parks?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Choose wooded areas.",
+                  "source_line": 463
+                },
+                {
+                  "label": "B",
+                  "text": "Don't disturb wildlife.",
+                  "source_line": 464
+                },
+                {
+                  "label": "C",
+                  "text": "Get there early.",
+                  "source_line": 465
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 462,
+                  "start": 0,
+                  "end": 63,
+                  "text": "15. What advice does Dan give about picking mushrooms in parks?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q16",
+              "question_number": 16,
+              "prompt": "16. Dan says it is a good idea for beginners to",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "use a mushroom app.",
+                  "source_line": 468
+                },
+                {
+                  "label": "B",
+                  "text": "join a group.",
+                  "source_line": 469
+                },
+                {
+                  "label": "C",
+                  "text": "take a reference book.",
+                  "source_line": 470
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 467,
+                  "start": 0,
+                  "end": 47,
+                  "text": "16. Dan says it is a good idea for beginners to",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q17",
+              "question_number": 17,
+              "prompt": "17. What does Dan say is important for conservation?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "selecting only fully grown mushrooms",
+                  "source_line": 473
+                },
+                {
+                  "label": "B",
+                  "text": "picking a limited amount of mushrooms",
+                  "source_line": 474
+                },
+                {
+                  "label": "C",
+                  "text": "avoiding areas where rare mushroom species grow",
+                  "source_line": 475
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 472,
+                  "start": 0,
+                  "end": 52,
+                  "text": "17. What does Dan say is important for conservation?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q18",
+              "question_number": 18,
+              "prompt": "18. According to Dan, some varieties of wild mushrooms are in decline because there is",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "a huge demand for them from restaurants.",
+                  "source_line": 478
+                },
+                {
+                  "label": "B",
+                  "text": "a lack of rain in this part of the country.",
+                  "source_line": 479
+                },
+                {
+                  "label": "C",
+                  "text": "a rise in building developments locally.",
+                  "source_line": 480
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 477,
+                  "start": 0,
+                  "end": 86,
+                  "text": "18. According to Dan, some varieties of wild mushrooms are in decline because there is",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q19",
+              "question_number": 19,
+              "prompt": "19. Dan says that when storing mushrooms, people should",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "keep them in the fridge for no more than two days.",
+                  "source_line": 483
+                },
+                {
+                  "label": "B",
+                  "text": "keep them in a brown bag in a dark room.",
+                  "source_line": 484
+                },
+                {
+                  "label": "C",
+                  "text": "leave them for a period after washing them.",
+                  "source_line": 485
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 482,
+                  "start": 0,
+                  "end": 55,
+                  "text": "19. Dan says that when storing mushrooms, people should",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q20",
+              "question_number": 20,
+              "prompt": "20. What does Dan say about trying new varieties of mushrooms?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "Experiment with different recipes.",
+                  "source_line": 488
+                },
+                {
+                  "label": "B",
+                  "text": "Expect some to have a strong taste.",
+                  "source_line": 489
+                },
+                {
+                  "label": "C",
+                  "text": "Cook them for a long time.",
+                  "source_line": 490
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 487,
+                  "start": 0,
+                  "end": 62,
+                  "text": "20. What does Dan say about trying new varieties of mushrooms?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3",
+          "question_range": [
+            11,
+            14
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-923d946907bc1c141359eaa68a60ddc6aaec89e95c395e356680ba2b43363162",
+          "question_range": [
+            15,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 493,
+        "line_end": 539,
+        "pdf_pages": [
+          60,
+          61
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e",
+        "asset-df97a6add136d194b7c65bc46a013f62b3b83d19a9b407772b22ca4e5c7e5008"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-03-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO opinions about the Luddites do the students express?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO opinions about the Luddites do the students express?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-03-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Their actions were ineffective.",
+                "source_line": 499
+              },
+              {
+                "label": "B",
+                "text": "They are still influential today.",
+                "source_line": 500
+              },
+              {
+                "label": "C",
+                "text": "They have received unfair criticism.",
+                "source_line": 501
+              },
+              {
+                "label": "D",
+                "text": "They were proved right.",
+                "source_line": 502
+              },
+              {
+                "label": "E",
+                "text": "Their attitude is understandable.",
+                "source_line": 503
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 497,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO opinions about the Luddites do the students express?",
+              "source_line": 498,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. Their actions were ineffective.",
+              "source_line": 499,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. They are still influential today.",
+              "source_line": 500,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. They have received unfair criticism.",
+              "source_line": 501,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. They were proved right.",
+              "source_line": 502,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. Their attitude is understandable.",
+              "source_line": 503,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. ____________________",
+              "source_line": 504,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "22. ____________________",
+              "source_line": 505,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 496,
+            "line_end": 506,
+            "pdf_pages": [
+              60,
+              61
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q21",
+              "question_number": 21,
+              "prompt": "21. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 504,
+                  "start": 0,
+                  "end": 24,
+                  "text": "21. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO opinions about the Luddites do the students express?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q22",
+              "question_number": 22,
+              "prompt": "22. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 505,
+                  "start": 0,
+                  "end": 24,
+                  "text": "22. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO opinions about the Luddites do the students express?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-03-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO predictions about the future of work are the students doubtful about?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO predictions about the future of work are the students doubtful about?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-03-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "Work will be more rewarding.",
+                "source_line": 510
+              },
+              {
+                "label": "B",
+                "text": "Unemployment will fall.",
+                "source_line": 511
+              },
+              {
+                "label": "C",
+                "text": "People will want to delay retiring.",
+                "source_line": 512
+              },
+              {
+                "label": "D",
+                "text": "Working hours will be shorter.",
+                "source_line": 513
+              },
+              {
+                "label": "E",
+                "text": "People will change jobs more frequently.",
+                "source_line": 514
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 508,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO predictions about the future of work are the students doubtful about?",
+              "source_line": 509,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. Work will be more rewarding.",
+              "source_line": 510,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. Unemployment will fall.",
+              "source_line": 511,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. People will want to delay retiring.",
+              "source_line": 512,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. Working hours will be shorter.",
+              "source_line": 513,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. People will change jobs more frequently.",
+              "source_line": 514,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. ____________________",
+              "source_line": 515,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "24. ____________________",
+              "source_line": 516,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 0,
+                  "end": 24
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 507,
+            "line_end": 517,
+            "pdf_pages": [
+              60,
+              61
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q23",
+              "question_number": 23,
+              "prompt": "23. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 515,
+                  "start": 0,
+                  "end": 24,
+                  "text": "23. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO predictions about the future of work are the students doubtful about?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q24",
+              "question_number": 24,
+              "prompt": "24. ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 516,
+                  "start": 0,
+                  "end": 24,
+                  "text": "24. ____________________",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO predictions about the future of work are the students doubtful about?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-18-test-03-p3-g25-30",
+          "question_range": [
+            25,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "These jobs are likely to be at risk.",
+                "source_line": 523
+              },
+              {
+                "label": "B",
+                "text": "Their role has become more interesting in recent years.",
+                "source_line": 524
+              },
+              {
+                "label": "C",
+                "text": "The number of people working in this sector has fallen dramatically.",
+                "source_line": 525
+              },
+              {
+                "label": "D",
+                "text": "This job will require more qualifications.",
+                "source_line": 526
+              },
+              {
+                "label": "E",
+                "text": "Higher disposable income has led to a huge increase in jobs.",
+                "source_line": 527
+              },
+              {
+                "label": "F",
+                "text": "There is likely to be a significant rise in demand for this service.",
+                "source_line": 528
+              },
+              {
+                "label": "G",
+                "text": "Both employment and productivity have risen.",
+                "source_line": 529
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-df97a6add136d194b7c65bc46a013f62b3b83d19a9b407772b22ca4e5c7e5008"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What comment do the students make about each of the following jobs?",
+              "source_line": 519,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+              "source_line": 520,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Comments",
+              "source_line": 522,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    A. These jobs are likely to be at risk.",
+              "source_line": 523,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    B. Their role has become more interesting in recent years.",
+              "source_line": 524,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    C. The number of people working in this sector has fallen dramatically.",
+              "source_line": 525,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    D. This job will require more qualifications.",
+              "source_line": 526,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    E. Higher disposable income has led to a huge increase in jobs.",
+              "source_line": 527,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    F. There is likely to be a significant rise in demand for this service.",
+              "source_line": 528,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "    G. Both employment and productivity have risen.",
+              "source_line": 529,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Jobs",
+              "source_line": 531,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. Accountants             ____________________",
+              "source_line": 532,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. Hairdressers            ____________________",
+              "source_line": 533,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. Administrative staff    ____________________",
+              "source_line": 534,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. Agricultural workers    ____________________",
+              "source_line": 535,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. Care workers            ____________________",
+              "source_line": 536,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. Bank clerks             ____________________",
+              "source_line": 537,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-18-test-03-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 518,
+            "line_end": 539,
+            "pdf_pages": [
+              60,
+              61
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q25",
+              "question_number": 25,
+              "prompt": "25. Accountants             ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 532,
+                  "start": 0,
+                  "end": 48,
+                  "text": "25. Accountants             ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q26",
+              "question_number": 26,
+              "prompt": "26. Hairdressers            ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 533,
+                  "start": 0,
+                  "end": 48,
+                  "text": "26. Hairdressers            ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q27",
+              "question_number": 27,
+              "prompt": "27. Administrative staff    ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 534,
+                  "start": 0,
+                  "end": 48,
+                  "text": "27. Administrative staff    ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q28",
+              "question_number": 28,
+              "prompt": "28. Agricultural workers    ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 535,
+                  "start": 0,
+                  "end": 48,
+                  "text": "28. Agricultural workers    ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q29",
+              "question_number": 29,
+              "prompt": "29. Care workers            ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 536,
+                  "start": 0,
+                  "end": 48,
+                  "text": "29. Care workers            ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q30",
+              "question_number": 30,
+              "prompt": "30. Bank clerks             ____________________",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-18-test-03-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 537,
+                  "start": 0,
+                  "end": 48,
+                  "text": "30. Bank clerks             ____________________",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to Questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e",
+          "question_range": [
+            21,
+            24
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-df97a6add136d194b7c65bc46a013f62b3b83d19a9b407772b22ca4e5c7e5008",
+          "question_range": [
+            25,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+        "line_start": 540,
+        "line_end": 570,
+        "pdf_pages": [
+          62
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-4f7c8f28101a45fef4cdb9debe131a0d82f84ab76082f28e1c77e144c8e722e4"
+      ],
+      "audio_mapping_key": {
+        "book": 18,
+        "printed_test_number": 3,
+        "local_ordinal": 3,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-18-test-03-p4-g31-40",
+          "question_range": [
+            31,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-4f7c8f28101a45fef4cdb9debe131a0d82f84ab76082f28e1c77e144c8e722e4"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 543,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 544,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "SPACE TRAFFIC MANAGEMENT",
+              "source_line": 546,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A Space Traffic Management system",
+              "source_line": 548,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - is a concept similar to Air Traffic Control, but for satellites rather than planes.",
+              "source_line": 549,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - would aim to set up legal and 31 ____________________ ways of improving safety.",
+              "source_line": 550,
+              "blanks": [
+                {
+                  "question_number": 31,
+                  "start": 34,
+                  "end": 57
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - does not actually exist at present.",
+              "source_line": 551,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Problems in developing effective Space Traffic Management",
+              "source_line": 553,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Satellites are now quite 32 ____________________ and therefore more widespread",
+              "source_line": 554,
+              "blanks": [
+                {
+                  "question_number": 32,
+                  "start": 29,
+                  "end": 52
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "    (e.g. there are constellations made up of 33 ____________________ of satellites).",
+              "source_line": 555,
+              "blanks": [
+                {
+                  "question_number": 33,
+                  "start": 46,
+                  "end": 69
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - At present, satellites are not required to transmit information to help with their 34 ____________________.",
+              "source_line": 556,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 87,
+                  "end": 110
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - There are few systems for 35 ____________________ satellites.",
+              "source_line": 557,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 30,
+                  "end": 53
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Small pieces of debris may be difficult to identify.",
+              "source_line": 558,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Operators may be unwilling to share details of satellites used for 36 ____________________ or commercial reasons.",
+              "source_line": 559,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 71,
+                  "end": 94
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - It may be hard to collect details of the object's 37 ____________________ at a given time.",
+              "source_line": 560,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 54,
+                  "end": 77
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Scientists can only make a 38 ____________________ about where the satellite will go.",
+              "source_line": 561,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 31,
+                  "end": 54
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Solutions",
+              "source_line": 563,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - Common standards should be agreed on for the presentation of information.",
+              "source_line": 564,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  - The information should be combined in one 39 ____________________.",
+              "source_line": 565,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 46,
+                  "end": 69
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "  - A coordinated system must be designed to create 40 ____________________ in its users.",
+              "source_line": 566,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 52,
+                  "end": 75
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_18/Cambridge_IELTS_18_Listening.txt",
+            "line_start": 540,
+            "line_end": 570,
+            "pdf_pages": [
+              62
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-18-test-03-q31",
+              "question_number": 31,
+              "prompt": "- would aim to set up legal and 31 ____________________ ways of improving safety.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 550,
+                  "start": 34,
+                  "end": 57,
+                  "text": "  - would aim to set up legal and 31 ____________________ ways of improving safety.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q32",
+              "question_number": 32,
+              "prompt": "- Satellites are now quite 32 ____________________ and therefore more widespread",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 554,
+                  "start": 29,
+                  "end": 52,
+                  "text": "  - Satellites are now quite 32 ____________________ and therefore more widespread",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q33",
+              "question_number": 33,
+              "prompt": "(e.g. there are constellations made up of 33 ____________________ of satellites).",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 555,
+                  "start": 46,
+                  "end": 69,
+                  "text": "    (e.g. there are constellations made up of 33 ____________________ of satellites).",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q34",
+              "question_number": 34,
+              "prompt": "- At present, satellites are not required to transmit information to help with their 34 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 556,
+                  "start": 87,
+                  "end": 110,
+                  "text": "  - At present, satellites are not required to transmit information to help with their 34 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q35",
+              "question_number": 35,
+              "prompt": "- There are few systems for 35 ____________________ satellites.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 557,
+                  "start": 30,
+                  "end": 53,
+                  "text": "  - There are few systems for 35 ____________________ satellites.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q36",
+              "question_number": 36,
+              "prompt": "- Operators may be unwilling to share details of satellites used for 36 ____________________ or commercial reasons.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 559,
+                  "start": 71,
+                  "end": 94,
+                  "text": "  - Operators may be unwilling to share details of satellites used for 36 ____________________ or commercial reasons.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q37",
+              "question_number": 37,
+              "prompt": "- It may be hard to collect details of the object's 37 ____________________ at a given time.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 560,
+                  "start": 54,
+                  "end": 77,
+                  "text": "  - It may be hard to collect details of the object's 37 ____________________ at a given time.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q38",
+              "question_number": 38,
+              "prompt": "- Scientists can only make a 38 ____________________ about where the satellite will go.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 561,
+                  "start": 31,
+                  "end": 54,
+                  "text": "  - Scientists can only make a 38 ____________________ about where the satellite will go.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q39",
+              "question_number": 39,
+              "prompt": "- The information should be combined in one 39 ____________________.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 565,
+                  "start": 46,
+                  "end": 69,
+                  "text": "  - The information should be combined in one 39 ____________________.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-18-test-03-q40",
+              "question_number": 40,
+              "prompt": "- A coordinated system must be designed to create 40 ____________________ in its users.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 566,
+                  "start": 52,
+                  "end": 75,
+                  "text": "  - A coordinated system must be designed to create 40 ____________________ in its users.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-4f7c8f28101a45fef4cdb9debe131a0d82f84ab76082f28e1c77e144c8e722e4",
+          "question_range": [
+            31,
+            40
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": [
+            "asset-44bd98cc67529f67ae60e2f8b53338b2350230af342189fcab1f53591dbe7a36"
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-44bd98cc67529f67ae60e2f8b53338b2350230af342189fcab1f53591dbe7a36",
+      "relative_path": "assets/public/44bd98cc67529f67ae60e2f8b53338b2350230af342189fcab1f53591dbe7a36.png",
+      "sha256": "44bd98cc67529f67ae60e2f8b53338b2350230af342189fcab1f53591dbe7a36",
+      "byte_size": 385015,
+      "width": 1144,
+      "height": 1216
+    },
+    {
+      "asset_id": "asset-4f7c8f28101a45fef4cdb9debe131a0d82f84ab76082f28e1c77e144c8e722e4",
+      "relative_path": "assets/public/4f7c8f28101a45fef4cdb9debe131a0d82f84ab76082f28e1c77e144c8e722e4.png",
+      "sha256": "4f7c8f28101a45fef4cdb9debe131a0d82f84ab76082f28e1c77e144c8e722e4",
+      "byte_size": 502597,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-923d946907bc1c141359eaa68a60ddc6aaec89e95c395e356680ba2b43363162",
+      "relative_path": "assets/public/923d946907bc1c141359eaa68a60ddc6aaec89e95c395e356680ba2b43363162.png",
+      "sha256": "923d946907bc1c141359eaa68a60ddc6aaec89e95c395e356680ba2b43363162",
+      "byte_size": 398282,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-97d2814c4023ecdc5b100b54c49c1a445137b32caff617ad01b49a67f9d82373",
+      "relative_path": "assets/public/97d2814c4023ecdc5b100b54c49c1a445137b32caff617ad01b49a67f9d82373.png",
+      "sha256": "97d2814c4023ecdc5b100b54c49c1a445137b32caff617ad01b49a67f9d82373",
+      "byte_size": 431397,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e",
+      "relative_path": "assets/public/af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e.png",
+      "sha256": "af98851d9bd6363970f9c6efb73f40337965285c266ed220df93dd5e13eb5b7e",
+      "byte_size": 229743,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad",
+      "relative_path": "assets/public/c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad.png",
+      "sha256": "c478be2700f41828eb5cac473d8a26ae5711c09cf6be82a3f4fcf4272e498dad",
+      "byte_size": 1174874,
+      "width": 2212,
+      "height": 2754
+    },
+    {
+      "asset_id": "asset-c48791329bb886644a402f27311fd1ce7292e7fc97bf6c35cc1b44b4760f1127",
+      "relative_path": "assets/public/c48791329bb886644a402f27311fd1ce7292e7fc97bf6c35cc1b44b4760f1127.png",
+      "sha256": "c48791329bb886644a402f27311fd1ce7292e7fc97bf6c35cc1b44b4760f1127",
+      "byte_size": 311620,
+      "width": 1170,
+      "height": 1094
+    },
+    {
+      "asset_id": "asset-df97a6add136d194b7c65bc46a013f62b3b83d19a9b407772b22ca4e5c7e5008",
+      "relative_path": "assets/public/df97a6add136d194b7c65bc46a013f62b3b83d19a9b407772b22ca4e5c7e5008.png",
+      "sha256": "df97a6add136d194b7c65bc46a013f62b3b83d19a9b407772b22ca4e5c7e5008",
+      "byte_size": 322136,
+      "width": 1299,
+      "height": 1737
+    },
+    {
+      "asset_id": "asset-f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3",
+      "relative_path": "assets/public/f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3.png",
+      "sha256": "f67573c3ab53a2054a096a85ca623be7e5d59b5a52feef52a1d4870f510682f3",
+      "byte_size": 259447,
+      "width": 1299,
+      "height": 1737
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}

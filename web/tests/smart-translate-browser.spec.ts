@@ -1,11 +1,13 @@
 import { test, expect, type Page } from "@playwright/test";
 async function select(page: Page, word: string) {
-  await page.locator("[data-highlight-block]").evaluate((element, word) => {
-    const node = element.firstChild!; const start = node.textContent!.indexOf(word);
-    const range = document.createRange(); range.setStart(node, start); range.setEnd(node, start + word.length);
-    window.getSelection()!.removeAllRanges(); window.getSelection()!.addRange(range);
-  }, word);
+  const point=await page.locator("[data-highlight-block]").evaluate((element, word) => {
+    const node=element.firstChild!, start=node.textContent!.indexOf(word);
+    const range=document.createRange();range.setStart(node,start);range.setEnd(node,start+word.length);
+    const r=range.getClientRects()[0]!;return {x:r.left+r.width/2,y:r.top+r.height/2};
+  },word);
+  await page.mouse.click(point.x,point.y);
 }
+
 test("selection loading, exact expression, cache, errors, dismissal and answer isolation", async ({ page }) => {
   let calls = 0;
   await page.route("**/api/translate", async route => {
@@ -18,6 +20,7 @@ test("selection loading, exact expression, cache, errors, dismissal and answer i
   });
   await page.goto("/translate-qa");
   await expect(page.locator("main")).toHaveAttribute("data-ready", "true");
+  await page.getByRole("button",{name:"Translate",exact:true}).click();
   await select(page, "forward");
   const card = page.getByRole("status", { name: "Перевод" });
   await expect(card).toContainText("Переводим");
@@ -29,9 +32,11 @@ test("selection loading, exact expression, cache, errors, dismissal and answer i
   await page.keyboard.press("Escape"); await expect(card).toHaveCount(0);
   await page.evaluate(() => window.getSelection()?.removeAllRanges()); await page.waitForTimeout(700);
   await select(page, "forward"); await expect(card).toContainText("looking forward to"); expect(calls).toBe(1);
-  await page.getByRole("heading", { name: "Translation fixture" }).click(); await expect(card).toHaveCount(0);
-  await select(page, "evidence"); await expect(card).toContainText("Не удалось");
+  await page.getByRole("textbox", { name: "Answer" }).click(); await expect(card).toHaveCount(0);
+  await select(page, "evidence"); await expect(card).toContainText("Перевод временно недоступен");
+  await page.getByRole("textbox", { name: "Answer" }).click();
   await page.getByRole("textbox", { name: "Answer" }).fill("my answer");
   await page.getByRole("textbox", { name: "Answer" }).selectText();
   await page.waitForTimeout(800); expect(calls).toBe(2); await expect(card).toHaveCount(0);
+  await expect(page.getByRole("textbox", { name: "Answer" })).toHaveValue("my answer");
 });

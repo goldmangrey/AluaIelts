@@ -1,4 +1,4 @@
-/* Active Listening only; result/review and other sections stay independent. */
+/* Shared full-height Listening exam/review workspace; other sections stay independent. */
 .workspace.workspace{width:100%;max-width:none;height:100dvh;margin:0;padding:0;display:flex;flex-direction:column;overflow:hidden;background:var(--background)}
 .topbar{flex:0 0 auto;border-bottom:1px solid var(--border);background:#fff}
 .workspace .examHead{height:36px;min-height:36px;margin:0;padding:0 28px;border-bottom:1px solid #eef0ee;flex-wrap:nowrap}
@@ -12,7 +12,7 @@
 .audioIndicator{font-size:12px;color:#087f63}.partHint{font-size:11px;color:#747c77}
 .panels{flex:1;min-height:0;position:relative;display:grid;grid-template-columns:minmax(0,var(--source-width,55%)) minmax(0,1fr)}
 .panels[data-layout=single]{grid-template-columns:minmax(0,1fr)}
-.sourcePane,.questionsPane{min-width:0;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:24px clamp(22px,3vw,52px) 40px}
+.sourcePane,.questionsPane{min-width:0;min-height:0;overflow:auto;overflow-anchor:none;overscroll-behavior:contain;scrollbar-gutter:stable;padding:24px clamp(22px,3vw,52px) 40px}
 .sourcePane{border-right:1px solid var(--border);background:#fafbfa}.sourceHeading p{margin:8px 0 0;color:#747c77;font-size:12px}.questionContent{max-width:820px;margin:0 auto}
 .questionGroup+.questionGroup{margin-top:40px;padding-top:28px;border-top:1px solid var(--border)}
 .question.question{scroll-margin:24px;border-radius:10px;transition:background .15s,box-shadow .15s}.question[data-current=true]{background:#f3f9f6;box-shadow:0 0 0 10px #f3f9f6}

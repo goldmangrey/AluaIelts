@@ -1,0 +1,3350 @@
+{
+  "schema_version": "1.0.0-stage1",
+  "exam_id": "cambridge-10-test-04",
+  "book": 10,
+  "printed_test_number": 4,
+  "local_ordinal": 4,
+  "module": "listening",
+  "parts": [
+    {
+      "part_number": 1,
+      "question_range": [
+        1,
+        10
+      ],
+      "display_order": 1,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 562,
+        "line_end": 597,
+        "pdf_pages": [
+          72,
+          73
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-0a4b4fb5a0b6c23fa59afa322210ee5f383ea62f5bbebc160a269ce7972fed6e",
+        "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 1
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-04-p1-g01-06",
+          "question_range": [
+            1,
+            6
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-0a4b4fb5a0b6c23fa59afa322210ee5f383ea62f5bbebc160a269ce7972fed6e"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 567,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 568,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "THORNDYKE'S BUILDERS",
+              "source_line": 570,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Example",
+              "source_line": 572,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Customer heard about Thorndyke's from a friend.",
+              "source_line": 573,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Name: Edith 1 [__________]",
+              "source_line": 575,
+              "blanks": [
+                {
+                  "question_number": 1,
+                  "start": 12,
+                  "end": 26
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Address: Flat 4,",
+              "source_line": 576,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "         2 [__________] Park Flats",
+              "source_line": 577,
+              "blanks": [
+                {
+                  "question_number": 2,
+                  "start": 9,
+                  "end": 23
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "         (Behind the 3 [__________])",
+              "source_line": 578,
+              "blanks": [
+                {
+                  "question_number": 3,
+                  "start": 21,
+                  "end": 35
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Phone number: 875934",
+              "source_line": 579,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Best time to contact customer: during the 4 [__________]",
+              "source_line": 580,
+              "blanks": [
+                {
+                  "question_number": 4,
+                  "start": 42,
+                  "end": 56
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Where to park: opposite entrance next to the 5 [__________]",
+              "source_line": 581,
+              "blanks": [
+                {
+                  "question_number": 5,
+                  "start": 45,
+                  "end": 59
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Needs full quote showing all the jobs and the 6 [__________]",
+              "source_line": 582,
+              "blanks": [
+                {
+                  "question_number": 6,
+                  "start": 46,
+                  "end": 60
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 566,
+            "line_end": 583,
+            "pdf_pages": [
+              72,
+              73
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q01",
+              "question_number": 1,
+              "prompt": "Name: Edith 1 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 575,
+                  "start": 12,
+                  "end": 26,
+                  "text": "Name: Edith 1 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q02",
+              "question_number": 2,
+              "prompt": "2 [__________] Park Flats",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 577,
+                  "start": 9,
+                  "end": 23,
+                  "text": "         2 [__________] Park Flats",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q03",
+              "question_number": 3,
+              "prompt": "(Behind the 3 [__________])",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 578,
+                  "start": 21,
+                  "end": 35,
+                  "text": "         (Behind the 3 [__________])",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q04",
+              "question_number": 4,
+              "prompt": "Best time to contact customer: during the 4 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 580,
+                  "start": 42,
+                  "end": 56,
+                  "text": "Best time to contact customer: during the 4 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q05",
+              "question_number": 5,
+              "prompt": "Where to park: opposite entrance next to the 5 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 581,
+                  "start": 45,
+                  "end": 59,
+                  "text": "Where to park: opposite entrance next to the 5 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q06",
+              "question_number": 6,
+              "prompt": "Needs full quote showing all the jobs and the 6 [__________]",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 582,
+                  "start": 46,
+                  "end": 60,
+                  "text": "Needs full quote showing all the jobs and the 6 [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-04-p1-g07-10",
+          "question_range": [
+            7,
+            10
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 585,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 586,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "| Area    | Work to be done                                    | Notes                                                |",
+              "source_line": 588,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "|---------|----------------------------------------------------|------------------------------------------------------|",
+              "source_line": 589,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "| Kitchen | Replace the 7 [__________] in the door             | Fix tomorrow                                         |",
+              "source_line": 590,
+              "blanks": [
+                {
+                  "question_number": 7,
+                  "start": 24,
+                  "end": 38
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "| Kitchen | Paint wall above the 8 [__________]               | Strip paint and plaster approximately one 9 [____] in advance |",
+              "source_line": 591,
+              "blanks": [
+                {
+                  "question_number": 8,
+                  "start": 33,
+                  "end": 47
+                },
+                {
+                  "question_number": 9,
+                  "start": 106,
+                  "end": 114
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "| Garden  | One 10 [__________] needs replacing (end of garden) |                                                      |",
+              "source_line": 592,
+              "blanks": [
+                {
+                  "question_number": 10,
+                  "start": 16,
+                  "end": 31
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 588,
+                "cells": [
+                  {
+                    "text": "Area",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Work to be done",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Notes",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 590,
+                "cells": [
+                  {
+                    "text": "Kitchen",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Replace the 7 [__________] in the door",
+                    "question_numbers": [
+                      7
+                    ]
+                  },
+                  {
+                    "text": "Fix tomorrow",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 591,
+                "cells": [
+                  {
+                    "text": "Kitchen",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Paint wall above the 8 [__________]",
+                    "question_numbers": [
+                      8
+                    ]
+                  },
+                  {
+                    "text": "Strip paint and plaster approximately one 9 [____] in advance",
+                    "question_numbers": [
+                      9
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 592,
+                "cells": [
+                  {
+                    "text": "Garden",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "One 10 [__________] needs replacing (end of garden)",
+                    "question_numbers": [
+                      10
+                    ]
+                  },
+                  {
+                    "text": "",
+                    "question_numbers": []
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 584,
+            "line_end": 597,
+            "pdf_pages": [
+              72,
+              73
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q07",
+              "question_number": 7,
+              "prompt": "| Kitchen | Replace the 7 [__________] in the door             | Fix tomorrow                                         |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 590,
+                  "start": 24,
+                  "end": 38,
+                  "text": "| Kitchen | Replace the 7 [__________] in the door             | Fix tomorrow                                         |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587"
+                ],
+                "printed_question_number": 7,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q08",
+              "question_number": 8,
+              "prompt": "| Kitchen | Paint wall above the 8 [__________]               | Strip paint and plaster approximately one 9 [____] in advance |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 591,
+                  "start": 33,
+                  "end": 47,
+                  "text": "| Kitchen | Paint wall above the 8 [__________]               | Strip paint and plaster approximately one 9 [____] in advance |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587"
+                ],
+                "printed_question_number": 8,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q09",
+              "question_number": 9,
+              "prompt": "| Kitchen | Paint wall above the 8 [__________]               | Strip paint and plaster approximately one 9 [____] in advance |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 591,
+                  "start": 106,
+                  "end": 114,
+                  "text": "| Kitchen | Paint wall above the 8 [__________]               | Strip paint and plaster approximately one 9 [____] in advance |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587"
+                ],
+                "printed_question_number": 9,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q10",
+              "question_number": 10,
+              "prompt": "| Garden  | One 10 [__________] needs replacing (end of garden) |                                                      |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 592,
+                  "start": 16,
+                  "end": 31,
+                  "text": "| Garden  | One 10 [__________] needs replacing (end of garden) |                                                      |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587"
+                ],
+                "printed_question_number": 10,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-0a4b4fb5a0b6c23fa59afa322210ee5f383ea62f5bbebc160a269ce7972fed6e",
+          "question_range": [
+            1,
+            6
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587",
+          "question_range": [
+            7,
+            10
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 2,
+      "question_range": [
+        11,
+        20
+      ],
+      "display_order": 2,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 598,
+        "line_end": 647,
+        "pdf_pages": [
+          74,
+          75
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-12f86ac512d13094016f84cfee30fc08681f5502c746295ba66c734c24fbdabd",
+        "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 2
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-04-p2-g11-15",
+          "question_range": [
+            11,
+            15
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-12f86ac512d13094016f84cfee30fc08681f5502c746295ba66c734c24fbdabd"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 603,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "MANHAM PORT",
+              "source_line": 605,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "11. Why did a port originally develop at Manham?",
+              "source_line": 607,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  It was safe from enemy attack.",
+              "source_line": 608,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  It was convenient for river transport.",
+              "source_line": 609,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  It had a good position on the sea coast.",
+              "source_line": 610,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "12. What caused Manham's sudden expansion during the Industrial Revolution?",
+              "source_line": 612,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  the improvement in mining techniques",
+              "source_line": 613,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  the increase in demand for metals",
+              "source_line": 614,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  the discovery of tin in the area",
+              "source_line": 615,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "13. Why did rocks have to be sent away from Manham to be processed?",
+              "source_line": 617,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  shortage of fuel",
+              "source_line": 618,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  poor transport systems",
+              "source_line": 619,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  lack of skills among local people",
+              "source_line": 620,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "14. What happened when the port declined in the twentieth century?",
+              "source_line": 622,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  The workers went away.",
+              "source_line": 623,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  Traditional skills were lost.",
+              "source_line": 624,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  Buildings were used for new purposes.",
+              "source_line": 625,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "15. What did the Manham Trust hope to do?",
+              "source_line": 627,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  discover the location of the original port",
+              "source_line": 628,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  provide jobs for the unemployed",
+              "source_line": 629,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  rebuild the port complex",
+              "source_line": 630,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q11"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q12"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q13"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q14"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q15"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 602,
+            "line_end": 631,
+            "pdf_pages": [
+              74,
+              75
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q11",
+              "question_number": 11,
+              "prompt": "11. Why did a port originally develop at Manham?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "It was safe from enemy attack.",
+                  "source_line": 608
+                },
+                {
+                  "label": "B",
+                  "text": "It was convenient for river transport.",
+                  "source_line": 609
+                },
+                {
+                  "label": "C",
+                  "text": "It had a good position on the sea coast.",
+                  "source_line": 610
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 607,
+                  "start": 0,
+                  "end": 48,
+                  "text": "11. Why did a port originally develop at Manham?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q12",
+              "question_number": 12,
+              "prompt": "12. What caused Manham's sudden expansion during the Industrial Revolution?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "the improvement in mining techniques",
+                  "source_line": 613
+                },
+                {
+                  "label": "B",
+                  "text": "the increase in demand for metals",
+                  "source_line": 614
+                },
+                {
+                  "label": "C",
+                  "text": "the discovery of tin in the area",
+                  "source_line": 615
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 612,
+                  "start": 0,
+                  "end": 75,
+                  "text": "12. What caused Manham's sudden expansion during the Industrial Revolution?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q13",
+              "question_number": 13,
+              "prompt": "13. Why did rocks have to be sent away from Manham to be processed?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "shortage of fuel",
+                  "source_line": 618
+                },
+                {
+                  "label": "B",
+                  "text": "poor transport systems",
+                  "source_line": 619
+                },
+                {
+                  "label": "C",
+                  "text": "lack of skills among local people",
+                  "source_line": 620
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 617,
+                  "start": 0,
+                  "end": 67,
+                  "text": "13. Why did rocks have to be sent away from Manham to be processed?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q14",
+              "question_number": 14,
+              "prompt": "14. What happened when the port declined in the twentieth century?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "The workers went away.",
+                  "source_line": 623
+                },
+                {
+                  "label": "B",
+                  "text": "Traditional skills were lost.",
+                  "source_line": 624
+                },
+                {
+                  "label": "C",
+                  "text": "Buildings were used for new purposes.",
+                  "source_line": 625
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 622,
+                  "start": 0,
+                  "end": 66,
+                  "text": "14. What happened when the port declined in the twentieth century?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q15",
+              "question_number": 15,
+              "prompt": "15. What did the Manham Trust hope to do?",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "discover the location of the original port",
+                  "source_line": 628
+                },
+                {
+                  "label": "B",
+                  "text": "provide jobs for the unemployed",
+                  "source_line": 629
+                },
+                {
+                  "label": "C",
+                  "text": "rebuild the port complex",
+                  "source_line": 630
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 627,
+                  "start": 0,
+                  "end": 41,
+                  "text": "15. What did the Manham Trust hope to do?",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-04-p2-g16-20",
+          "question_range": [
+            16,
+            20
+          ],
+          "question_type": "table_completion",
+          "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+          "constraints": {
+            "max_words": 2,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "image_backed",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the table below.",
+              "source_line": 633,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write NO MORE THAN TWO WORDS for each answer.",
+              "source_line": 634,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Tourist attractions in Manham",
+              "source_line": 636,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "| Place                    | Features and activities                                  | Advice                                              |",
+              "source_line": 638,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "|--------------------------|----------------------------------------------------------|-----------------------------------------------------|",
+              "source_line": 639,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "| copper mine              | specially adapted miners' 16 [____] take visitors into the mountain | the mine is 17 [____] and enclosed — unsuitable for children and animals |",
+              "source_line": 640,
+              "blanks": [
+                {
+                  "question_number": 16,
+                  "start": 55,
+                  "end": 64
+                },
+                {
+                  "question_number": 17,
+                  "start": 111,
+                  "end": 120
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "| village school           | classrooms and a special exhibition of 18 [____]        | a 19 [____] is recommended                          |",
+              "source_line": 641,
+              "blanks": [
+                {
+                  "question_number": 18,
+                  "start": 68,
+                  "end": 77
+                },
+                {
+                  "question_number": 19,
+                  "start": 89,
+                  "end": 98
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "| 'The George' (old sailing ship) | the ship's wheel (was lost but has now been restored) | children shouldn't use the 20 [____]                |",
+              "source_line": 642,
+              "blanks": [
+                {
+                  "question_number": 20,
+                  "start": 119,
+                  "end": 128
+                }
+              ]
+            }
+          ],
+          "structured_layout": {
+            "kind": "table",
+            "rows": [
+              {
+                "source_line": 638,
+                "cells": [
+                  {
+                    "text": "Place",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Features and activities",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "Advice",
+                    "question_numbers": []
+                  }
+                ]
+              },
+              {
+                "source_line": 640,
+                "cells": [
+                  {
+                    "text": "copper mine",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "specially adapted miners' 16 [____] take visitors into the mountain",
+                    "question_numbers": [
+                      16
+                    ]
+                  },
+                  {
+                    "text": "the mine is 17 [____] and enclosed — unsuitable for children and animals",
+                    "question_numbers": [
+                      17
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 641,
+                "cells": [
+                  {
+                    "text": "village school",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "classrooms and a special exhibition of 18 [____]",
+                    "question_numbers": [
+                      18
+                    ]
+                  },
+                  {
+                    "text": "a 19 [____] is recommended",
+                    "question_numbers": [
+                      19
+                    ]
+                  }
+                ]
+              },
+              {
+                "source_line": 642,
+                "cells": [
+                  {
+                    "text": "'The George' (old sailing ship)",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "the ship's wheel (was lost but has now been restored)",
+                    "question_numbers": []
+                  },
+                  {
+                    "text": "children shouldn't use the 20 [____]",
+                    "question_numbers": [
+                      20
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 632,
+            "line_end": 647,
+            "pdf_pages": [
+              74,
+              75
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q16",
+              "question_number": 16,
+              "prompt": "| copper mine              | specially adapted miners' 16 [____] take visitors into the mountain | the mine is 17 [____] and enclosed — unsuitable for children and animals |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 640,
+                  "start": 55,
+                  "end": 64,
+                  "text": "| copper mine              | specially adapted miners' 16 [____] take visitors into the mountain | the mine is 17 [____] and enclosed — unsuitable for children and animals |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+                ],
+                "printed_question_number": 16,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q17",
+              "question_number": 17,
+              "prompt": "| copper mine              | specially adapted miners' 16 [____] take visitors into the mountain | the mine is 17 [____] and enclosed — unsuitable for children and animals |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 640,
+                  "start": 111,
+                  "end": 120,
+                  "text": "| copper mine              | specially adapted miners' 16 [____] take visitors into the mountain | the mine is 17 [____] and enclosed — unsuitable for children and animals |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+                ],
+                "printed_question_number": 17,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q18",
+              "question_number": 18,
+              "prompt": "| village school           | classrooms and a special exhibition of 18 [____]        | a 19 [____] is recommended                          |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 641,
+                  "start": 68,
+                  "end": 77,
+                  "text": "| village school           | classrooms and a special exhibition of 18 [____]        | a 19 [____] is recommended                          |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+                ],
+                "printed_question_number": 18,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q19",
+              "question_number": 19,
+              "prompt": "| village school           | classrooms and a special exhibition of 18 [____]        | a 19 [____] is recommended                          |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 641,
+                  "start": 89,
+                  "end": 98,
+                  "text": "| village school           | classrooms and a special exhibition of 18 [____]        | a 19 [____] is recommended                          |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+                ],
+                "printed_question_number": 19,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            },
+            {
+              "question_id": "cambridge-10-test-04-q20",
+              "question_number": 20,
+              "prompt": "| 'The George' (old sailing ship) | the ship's wheel (was lost but has now been restored) | children shouldn't use the 20 [____]                |",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 642,
+                  "start": 119,
+                  "end": 128,
+                  "text": "| 'The George' (old sailing ship) | the ship's wheel (was lost but has now been restored) | children shouldn't use the 20 [____]                |",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 2,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the table below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": [],
+              "visual_binding": {
+                "asset_ids": [
+                  "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea"
+                ],
+                "printed_question_number": 20,
+                "source_location": null,
+                "presentation": "original_image_with_numbered_response_field"
+              }
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-12f86ac512d13094016f84cfee30fc08681f5502c746295ba66c734c24fbdabd",
+          "question_range": [
+            11,
+            15
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea",
+          "question_range": [
+            16,
+            20
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 3,
+      "question_range": [
+        21,
+        30
+      ],
+      "display_order": 3,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 648,
+        "line_end": 698,
+        "pdf_pages": [
+          76,
+          77
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d",
+        "asset-54aa3f941213b9bd5d3f92cbe0d0e61ba19526c18c05e2ff1c1d9f04ef1ec3d1"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 3
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-04-p3-g21-22",
+          "question_range": [
+            21,
+            22
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO skills did Laura improve as a result of her work placement?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO skills did Laura improve as a result of her work placement?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-04-p3-g21-22-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "communication",
+                "source_line": 655
+              },
+              {
+                "label": "B",
+                "text": "design",
+                "source_line": 656
+              },
+              {
+                "label": "C",
+                "text": "IT",
+                "source_line": 657
+              },
+              {
+                "label": "D",
+                "text": "marketing",
+                "source_line": 658
+              },
+              {
+                "label": "E",
+                "text": "organisation",
+                "source_line": 659
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              21,
+              22
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 653,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO skills did Laura improve as a result of her work placement?",
+              "source_line": 654,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  communication",
+              "source_line": 655,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  design",
+              "source_line": 656,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  IT",
+              "source_line": 657,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  marketing",
+              "source_line": 658,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  organisation",
+              "source_line": 659,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "21. [__________]",
+              "source_line": 660,
+              "blanks": [
+                {
+                  "question_number": 21,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "22. [__________]",
+              "source_line": 661,
+              "blanks": [
+                {
+                  "question_number": 22,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 652,
+            "line_end": 662,
+            "pdf_pages": [
+              76,
+              77
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q21",
+              "question_number": 21,
+              "prompt": "21. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 660,
+                  "start": 0,
+                  "end": 16,
+                  "text": "21. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO skills did Laura improve as a result of her work placement?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q22",
+              "question_number": 22,
+              "prompt": "22. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g21-22-bank",
+              "blank_references": [
+                {
+                  "line": 661,
+                  "start": 0,
+                  "end": 16,
+                  "text": "22. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO skills did Laura improve as a result of her work placement?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-04-p3-g23-24",
+          "question_range": [
+            23,
+            24
+          ],
+          "question_type": "multiple_choice_multiple",
+          "instructions": "Choose TWO letters, A–E.\nWhich TWO immediate benefits did the company get from Laura's work placement?",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose TWO letters, A–E.\nWhich TWO immediate benefits did the company get from Laura's work placement?",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-04-p3-g23-24-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "updates for its software",
+                "source_line": 666
+              },
+              {
+                "label": "B",
+                "text": "cost savings",
+                "source_line": 667
+              },
+              {
+                "label": "C",
+                "text": "an improved image",
+                "source_line": 668
+              },
+              {
+                "label": "D",
+                "text": "new clients",
+                "source_line": 669
+              },
+              {
+                "label": "E",
+                "text": "a growth in sales",
+                "source_line": 670
+              }
+            ]
+          },
+          "selection": {
+            "answer_slots": [
+              23,
+              24
+            ],
+            "distinct": true,
+            "order": "unordered",
+            "minimum_selected": 2,
+            "maximum_selected": 2
+          },
+          "supporting_assets": [
+            "asset-190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose TWO letters, A–E.",
+              "source_line": 664,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Which TWO immediate benefits did the company get from Laura's work placement?",
+              "source_line": 665,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  updates for its software",
+              "source_line": 666,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  cost savings",
+              "source_line": 667,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  an improved image",
+              "source_line": 668,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  new clients",
+              "source_line": 669,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  a growth in sales",
+              "source_line": 670,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "23. [__________]",
+              "source_line": 671,
+              "blanks": [
+                {
+                  "question_number": 23,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "24. [__________]",
+              "source_line": 672,
+              "blanks": [
+                {
+                  "question_number": 24,
+                  "start": 0,
+                  "end": 16
+                }
+              ]
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 663,
+            "line_end": 673,
+            "pdf_pages": [
+              76,
+              77
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q23",
+              "question_number": 23,
+              "prompt": "23. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 671,
+                  "start": 0,
+                  "end": 16,
+                  "text": "23. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO immediate benefits did the company get from Laura's work placement?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q24",
+              "question_number": 24,
+              "prompt": "24. [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g23-24-bank",
+              "blank_references": [
+                {
+                  "line": 672,
+                  "start": 0,
+                  "end": 16,
+                  "text": "24. [__________]",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose TWO letters, A–E.\nWhich TWO immediate benefits did the company get from Laura's work placement?",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-04-p3-g25-30",
+          "question_range": [
+            25,
+            30
+          ],
+          "question_type": "matching",
+          "instructions": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": {
+            "bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+            "options": [
+              {
+                "label": "A",
+                "text": "company manager",
+                "source_line": 679
+              },
+              {
+                "label": "B",
+                "text": "company's personnel department",
+                "source_line": 680
+              },
+              {
+                "label": "C",
+                "text": "personal tutor",
+                "source_line": 681
+              },
+              {
+                "label": "D",
+                "text": "psychology department",
+                "source_line": 682
+              },
+              {
+                "label": "E",
+                "text": "mentor",
+                "source_line": 683
+              },
+              {
+                "label": "F",
+                "text": "university careers officer",
+                "source_line": 684
+              },
+              {
+                "label": "G",
+                "text": "internet",
+                "source_line": 685
+              }
+            ]
+          },
+          "selection": null,
+          "supporting_assets": [
+            "asset-54aa3f941213b9bd5d3f92cbe0d0e61ba19526c18c05e2ff1c1d9f04ef1ec3d1"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "What source of information should Tim use at each of the following stages of the work placement?",
+              "source_line": 675,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Choose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+              "source_line": 676,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  company manager",
+              "source_line": 679,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  company's personnel department",
+              "source_line": 680,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  personal tutor",
+              "source_line": 681,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "D  psychology department",
+              "source_line": 682,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "E  mentor",
+              "source_line": 683,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "F  university careers officer",
+              "source_line": 684,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "G  internet",
+              "source_line": 685,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Stages of the work placement procedure",
+              "source_line": 687,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "25. obtaining booklet                      [__________]",
+              "source_line": 688,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "26. discussing options                     [__________]",
+              "source_line": 689,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "27. getting updates                        [__________]",
+              "source_line": 690,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "28. responding to invitation for interview [__________]",
+              "source_line": 691,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "29. informing about outcome of interview   [__________]",
+              "source_line": 692,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "30. requesting a reference                 [__________]",
+              "source_line": 693,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q25"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q26"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q27"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q28"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q29"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q30"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 674,
+            "line_end": 698,
+            "pdf_pages": [
+              76,
+              77
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q25",
+              "question_number": 25,
+              "prompt": "25. obtaining booklet                      [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 688,
+                  "start": 0,
+                  "end": 55,
+                  "text": "25. obtaining booklet                      [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q26",
+              "question_number": 26,
+              "prompt": "26. discussing options                     [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 689,
+                  "start": 0,
+                  "end": 55,
+                  "text": "26. discussing options                     [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q27",
+              "question_number": 27,
+              "prompt": "27. getting updates                        [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 690,
+                  "start": 0,
+                  "end": 55,
+                  "text": "27. getting updates                        [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q28",
+              "question_number": 28,
+              "prompt": "28. responding to invitation for interview [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 691,
+                  "start": 0,
+                  "end": 55,
+                  "text": "28. responding to invitation for interview [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q29",
+              "question_number": 29,
+              "prompt": "29. informing about outcome of interview   [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 692,
+                  "start": 0,
+                  "end": 55,
+                  "text": "29. informing about outcome of interview   [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q30",
+              "question_number": 30,
+              "prompt": "30. requesting a reference                 [__________]",
+              "input_type": "select",
+              "options": [],
+              "answer_bank_id": "cambridge-10-test-04-p3-g25-30-bank",
+              "blank_references": [
+                {
+                  "line": 693,
+                  "start": 0,
+                  "end": 55,
+                  "text": "30. requesting a reference                 [__________]",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "What source of information should Tim use at each of the following stages of the work placement?\nChoose SIX answers from the box and write the correct letter, A–G, next to questions 25–30.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d",
+          "question_range": [
+            21,
+            24
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-54aa3f941213b9bd5d3f92cbe0d0e61ba19526c18c05e2ff1c1d9f04ef1ec3d1",
+          "question_range": [
+            30,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    },
+    {
+      "part_number": 4,
+      "question_range": [
+        31,
+        40
+      ],
+      "display_order": 4,
+      "instructions": [],
+      "source_reference": {
+        "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+        "line_start": 699,
+        "line_end": 751,
+        "pdf_pages": [
+          78,
+          79
+        ],
+        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+      },
+      "supporting_assets": [
+        "asset-b0419e1f40c09fbb4ddd20ccd213f25ffeec6f7b30244ce880493518058868d6",
+        "asset-6f9084ffa19b01adc33211e028c9c26c6a64efb5a730be743b55e08fd9142a24"
+      ],
+      "audio_mapping_key": {
+        "book": 10,
+        "printed_test_number": 4,
+        "local_ordinal": 4,
+        "part_number": 4
+      },
+      "groups": [
+        {
+          "group_id": "cambridge-10-test-04-p4-g31-33",
+          "question_range": [
+            31,
+            33
+          ],
+          "question_type": "multiple_choice_single",
+          "instructions": "Choose the correct letter, A, B or C.",
+          "constraints": {
+            "max_words": null,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Choose the correct letter, A, B or C.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-b0419e1f40c09fbb4ddd20ccd213f25ffeec6f7b30244ce880493518058868d6"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Choose the correct letter, A, B or C.",
+              "source_line": 704,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Nanotechnology: technology on a small scale",
+              "source_line": 706,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "31. The speaker says that one problem with nanotechnology is that",
+              "source_line": 708,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  it could threaten our way of life.",
+              "source_line": 709,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  it could be used to spy on people.",
+              "source_line": 710,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  it is misunderstood by the public.",
+              "source_line": 711,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "32. According to the speaker, some scientists believe that nano-particles",
+              "source_line": 713,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  should be restricted to secure environments.",
+              "source_line": 714,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  should be used with more caution.",
+              "source_line": 715,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  should only be developed for essential products.",
+              "source_line": 716,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "33. In the speaker's opinion, research into nanotechnology",
+              "source_line": 718,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "A  has yet to win popular support.",
+              "source_line": 719,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "B  could be seen as unethical.",
+              "source_line": 720,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "C  ought to be continued.",
+              "source_line": 721,
+              "blanks": []
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q31"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q32"
+            },
+            {
+              "kind": "answer_field",
+              "question_id": "cambridge-10-test-04-q33"
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 703,
+            "line_end": 722,
+            "pdf_pages": [
+              78,
+              79
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q31",
+              "question_number": 31,
+              "prompt": "31. The speaker says that one problem with nanotechnology is that",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "it could threaten our way of life.",
+                  "source_line": 709
+                },
+                {
+                  "label": "B",
+                  "text": "it could be used to spy on people.",
+                  "source_line": 710
+                },
+                {
+                  "label": "C",
+                  "text": "it is misunderstood by the public.",
+                  "source_line": 711
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 708,
+                  "start": 0,
+                  "end": 65,
+                  "text": "31. The speaker says that one problem with nanotechnology is that",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q32",
+              "question_number": 32,
+              "prompt": "32. According to the speaker, some scientists believe that nano-particles",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "should be restricted to secure environments.",
+                  "source_line": 714
+                },
+                {
+                  "label": "B",
+                  "text": "should be used with more caution.",
+                  "source_line": 715
+                },
+                {
+                  "label": "C",
+                  "text": "should only be developed for essential products.",
+                  "source_line": 716
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 713,
+                  "start": 0,
+                  "end": 73,
+                  "text": "32. According to the speaker, some scientists believe that nano-particles",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q33",
+              "question_number": 33,
+              "prompt": "33. In the speaker's opinion, research into nanotechnology",
+              "input_type": "select",
+              "options": [
+                {
+                  "label": "A",
+                  "text": "has yet to win popular support.",
+                  "source_line": 719
+                },
+                {
+                  "label": "B",
+                  "text": "could be seen as unethical.",
+                  "source_line": 720
+                },
+                {
+                  "label": "C",
+                  "text": "ought to be continued.",
+                  "source_line": 721
+                }
+              ],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 718,
+                  "start": 0,
+                  "end": 58,
+                  "text": "33. In the speaker's opinion, research into nanotechnology",
+                  "kind": "numbered_row"
+                }
+              ],
+              "constraints": {
+                "max_words": null,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Choose the correct letter, A, B or C.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": 1
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        },
+        {
+          "group_id": "cambridge-10-test-04-p4-g34-40",
+          "question_range": [
+            34,
+            40
+          ],
+          "question_type": "note_completion",
+          "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+          "constraints": {
+            "max_words": 1,
+            "max_numbers": null,
+            "allows_number": false,
+            "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+            "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+            "spelling": "exact_official_alternatives_only"
+          },
+          "presentation_mode": "structured",
+          "answer_bank": null,
+          "selection": null,
+          "supporting_assets": [
+            "asset-6f9084ffa19b01adc33211e028c9c26c6a64efb5a730be743b55e08fd9142a24"
+          ],
+          "content_blocks": [
+            {
+              "kind": "source_line",
+              "text": "Complete the notes below.",
+              "source_line": 724,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Write ONE WORD ONLY for each answer.",
+              "source_line": 725,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Uses of Nanotechnology",
+              "source_line": 727,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "Transport",
+              "source_line": 729,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Nanotechnology could allow the development of stronger 34 [__________].",
+              "source_line": 730,
+              "blanks": [
+                {
+                  "question_number": 34,
+                  "start": 57,
+                  "end": 72
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Planes would be much lighter in weight.",
+              "source_line": 731,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• 35 [__________] travel will be made available to the masses.",
+              "source_line": 732,
+              "blanks": [
+                {
+                  "question_number": 35,
+                  "start": 2,
+                  "end": 17
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Technology",
+              "source_line": 734,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Computers will be even smaller, faster, and will have a greater",
+              "source_line": 735,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "  36 [__________].",
+              "source_line": 736,
+              "blanks": [
+                {
+                  "question_number": 36,
+                  "start": 2,
+                  "end": 17
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• 37 [__________] energy will become more affordable.",
+              "source_line": 737,
+              "blanks": [
+                {
+                  "question_number": 37,
+                  "start": 2,
+                  "end": 17
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "The Environment",
+              "source_line": 739,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Nano-robots could rebuild the ozone layer.",
+              "source_line": 740,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Pollutants such as 38 [__________] could be removed from water more easily.",
+              "source_line": 741,
+              "blanks": [
+                {
+                  "question_number": 38,
+                  "start": 21,
+                  "end": 36
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• There will be no 39 [__________] from manufacturing.",
+              "source_line": 742,
+              "blanks": [
+                {
+                  "question_number": 39,
+                  "start": 19,
+                  "end": 34
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "Health and Medicine",
+              "source_line": 744,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• New methods of food production could eradicate famine.",
+              "source_line": 745,
+              "blanks": []
+            },
+            {
+              "kind": "source_line",
+              "text": "• Analysis of medical 40 [__________] will be speeded up.",
+              "source_line": 746,
+              "blanks": [
+                {
+                  "question_number": 40,
+                  "start": 22,
+                  "end": 37
+                }
+              ]
+            },
+            {
+              "kind": "source_line",
+              "text": "• Life expectancy could be increased.",
+              "source_line": 747,
+              "blanks": []
+            }
+          ],
+          "structured_layout": null,
+          "source_reference": {
+            "file": "Cambridge_IELTS_10/Cambridge_IELTS_10_Listening.txt",
+            "line_start": 723,
+            "line_end": 751,
+            "pdf_pages": [
+              78,
+              79
+            ],
+            "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+          },
+          "questions": [
+            {
+              "question_id": "cambridge-10-test-04-q34",
+              "question_number": 34,
+              "prompt": "• Nanotechnology could allow the development of stronger 34 [__________].",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 730,
+                  "start": 57,
+                  "end": 72,
+                  "text": "• Nanotechnology could allow the development of stronger 34 [__________].",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q35",
+              "question_number": 35,
+              "prompt": "• 35 [__________] travel will be made available to the masses.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 732,
+                  "start": 2,
+                  "end": 17,
+                  "text": "• 35 [__________] travel will be made available to the masses.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q36",
+              "question_number": 36,
+              "prompt": "36 [__________].",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 736,
+                  "start": 2,
+                  "end": 17,
+                  "text": "  36 [__________].",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q37",
+              "question_number": 37,
+              "prompt": "• 37 [__________] energy will become more affordable.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 737,
+                  "start": 2,
+                  "end": 17,
+                  "text": "• 37 [__________] energy will become more affordable.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q38",
+              "question_number": 38,
+              "prompt": "• Pollutants such as 38 [__________] could be removed from water more easily.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 741,
+                  "start": 21,
+                  "end": 36,
+                  "text": "• Pollutants such as 38 [__________] could be removed from water more easily.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q39",
+              "question_number": 39,
+              "prompt": "• There will be no 39 [__________] from manufacturing.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 742,
+                  "start": 19,
+                  "end": 34,
+                  "text": "• There will be no 39 [__________] from manufacturing.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            },
+            {
+              "question_id": "cambridge-10-test-04-q40",
+              "question_number": 40,
+              "prompt": "• Analysis of medical 40 [__________] will be speeded up.",
+              "input_type": "text",
+              "options": [],
+              "answer_bank_id": null,
+              "blank_references": [
+                {
+                  "line": 746,
+                  "start": 22,
+                  "end": 37,
+                  "text": "• Analysis of medical 40 [__________] will be speeded up.",
+                  "kind": "numbered_blank"
+                }
+              ],
+              "constraints": {
+                "max_words": 1,
+                "max_numbers": null,
+                "allows_number": false,
+                "instruction": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+                "normalization": "unicode_nfc_casefold_trim_collapse_spaces",
+                "spelling": "exact_official_alternatives_only",
+                "required_choices": null
+              },
+              "parsed": true,
+              "renderable": true,
+              "verification": {
+                "status": "needs_review",
+                "method": "prepared_txt_only"
+              },
+              "issues": []
+            }
+          ]
+        }
+      ],
+      "visual_materials": [
+        {
+          "asset_id": "asset-b0419e1f40c09fbb4ddd20ccd213f25ffeec6f7b30244ce880493518058868d6",
+          "question_range": [
+            31,
+            33
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-6f9084ffa19b01adc33211e028c9c26c6a64efb5a730be743b55e08fd9142a24",
+          "question_range": [
+            34,
+            40
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-0a4b4fb5a0b6c23fa59afa322210ee5f383ea62f5bbebc160a269ce7972fed6e",
+      "relative_path": "assets/public/0a4b4fb5a0b6c23fa59afa322210ee5f383ea62f5bbebc160a269ce7972fed6e.jpg",
+      "sha256": "0a4b4fb5a0b6c23fa59afa322210ee5f383ea62f5bbebc160a269ce7972fed6e",
+      "byte_size": 145768,
+      "width": 1359,
+      "height": 1812
+    },
+    {
+      "asset_id": "asset-12f86ac512d13094016f84cfee30fc08681f5502c746295ba66c734c24fbdabd",
+      "relative_path": "assets/public/12f86ac512d13094016f84cfee30fc08681f5502c746295ba66c734c24fbdabd.jpg",
+      "sha256": "12f86ac512d13094016f84cfee30fc08681f5502c746295ba66c734c24fbdabd",
+      "byte_size": 209658,
+      "width": 1254,
+      "height": 1907
+    },
+    {
+      "asset_id": "asset-190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d",
+      "relative_path": "assets/public/190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d.jpg",
+      "sha256": "190918a00d63c76ad5b2616be2086378973193b8450c92b230dbc827519eea1d",
+      "byte_size": 145876,
+      "width": 1327,
+      "height": 1861
+    },
+    {
+      "asset_id": "asset-3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587",
+      "relative_path": "assets/public/3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587.jpg",
+      "sha256": "3d7d36dfc8eec88c8b51fb644f86b9f941392da9a064e48756147ff78aecb587",
+      "byte_size": 144561,
+      "width": 1351,
+      "height": 1870
+    },
+    {
+      "asset_id": "asset-54aa3f941213b9bd5d3f92cbe0d0e61ba19526c18c05e2ff1c1d9f04ef1ec3d1",
+      "relative_path": "assets/public/54aa3f941213b9bd5d3f92cbe0d0e61ba19526c18c05e2ff1c1d9f04ef1ec3d1.jpg",
+      "sha256": "54aa3f941213b9bd5d3f92cbe0d0e61ba19526c18c05e2ff1c1d9f04ef1ec3d1",
+      "byte_size": 233772,
+      "width": 1348,
+      "height": 1912
+    },
+    {
+      "asset_id": "asset-6f9084ffa19b01adc33211e028c9c26c6a64efb5a730be743b55e08fd9142a24",
+      "relative_path": "assets/public/6f9084ffa19b01adc33211e028c9c26c6a64efb5a730be743b55e08fd9142a24.jpg",
+      "sha256": "6f9084ffa19b01adc33211e028c9c26c6a64efb5a730be743b55e08fd9142a24",
+      "byte_size": 209910,
+      "width": 1330,
+      "height": 1858
+    },
+    {
+      "asset_id": "asset-915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea",
+      "relative_path": "assets/public/915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea.jpg",
+      "sha256": "915557afea6f9b608bad2712712797b0b172fc5d2fc76d9d7338f3b26559b8ea",
+      "byte_size": 196244,
+      "width": 1411,
+      "height": 1905
+    },
+    {
+      "asset_id": "asset-b0419e1f40c09fbb4ddd20ccd213f25ffeec6f7b30244ce880493518058868d6",
+      "relative_path": "assets/public/b0419e1f40c09fbb4ddd20ccd213f25ffeec6f7b30244ce880493518058868d6.jpg",
+      "sha256": "b0419e1f40c09fbb4ddd20ccd213f25ffeec6f7b30244ce880493518058868d6",
+      "byte_size": 184985,
+      "width": 1308,
+      "height": 1872
+    }
+  ],
+  "validation": {
+    "parsed_questions": 40,
+    "interactive_questions": 40,
+    "source_verified_questions": 0,
+    "keys_present": 40,
+    "key_verified_positions": 0,
+    "missing_positions": [],
+    "blocked_positions": [],
+    "complete_question_content": true,
+    "complete_verified_keys": false,
+    "ready_for_stage2": false
+  }
+}
