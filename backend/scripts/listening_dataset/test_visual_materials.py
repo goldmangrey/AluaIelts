@@ -45,9 +45,9 @@ class VisualMaterialsTest(unittest.TestCase):
     def test_table_keeps_instruction_page_and_continuation(self):
         part = exam(4, 3)["parts"][3]
         table = next(g for g in part["groups"] if g["question_range"] == [33, 37])
-        self.assertEqual(table["supporting_assets"], part["supporting_assets"])
+        self.assertEqual(table["supporting_assets"], part["supporting_assets"][:2])
         standalone = next(g for g in part["groups"] if g["question_range"] == [39, 39])
-        self.assertEqual(standalone["supporting_assets"], [])
+        self.assertEqual(standalone["supporting_assets"], [part["supporting_assets"][-1]])
         self.assertTrue(any(b["kind"] == "source_line" for b in standalone["content_blocks"]))
 
     def test_metadata_application_is_idempotent_and_rejects_unknown_material(self):

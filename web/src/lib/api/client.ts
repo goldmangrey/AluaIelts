@@ -1,5 +1,6 @@
+export interface ValidationDetail {loc:(string|number)[];type:string}
 export class ApiError extends Error {
-  constructor(public readonly status: number, public readonly code: string) {
+  constructor(public readonly status: number, public readonly code: string, public readonly detail?:ValidationDetail[]) {
     super(code);
     this.name = "ApiError";
   }
@@ -49,14 +50,20 @@ export function createApiClient(getToken: TokenProvider, timeoutMilliseconds = 1
         if (response.status === 401 && attempt === 0 && !options) continue;
         if (!response.ok) {
           let code = "request_failed";
+          let detail:ValidationDetail[]|undefined;
           try {
             const body: unknown = await response.json();
             if (body && typeof body === "object" && "error" in body && body.error &&
                 typeof body.error === "object" && "code" in body.error && typeof body.error.code === "string") {
               code = body.error.code;
             }
+            if(response.status===422&&body&&typeof body==="object"&&"detail" in body&&Array.isArray(body.detail)){
+              // Never retain Pydantic's input/ctx: these may contain answer text.
+              detail=body.detail.filter((d):d is {loc:(string|number)[];type:string}=>!!d&&typeof d==="object"&&Array.isArray(d.loc)&&d.loc.every((v:unknown)=>typeof v==="string"||typeof v==="number")&&typeof d.type==="string").map(d=>({loc:d.loc,type:d.type}));
+              if(detail.length)code="request_validation_error";
+            }
           } catch { /* Error bodies may be non-JSON at an upstream gateway. */ }
-          throw new ApiError(response.status, code);
+          throw new ApiError(response.status, code, detail);
         }
         try { return responseType === "blob" ? await response.blob() : await response.json(); }
         catch {

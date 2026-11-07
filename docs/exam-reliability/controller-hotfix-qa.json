@@ -1,0 +1,140 @@
+[
+  {
+    "controllerFailureMatrix": [
+      {
+        "kind": "listening",
+        "scenario": "reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "timeout-replay",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "timeout-reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "offline",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "storage-failure",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "conflict",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "newer-input",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "return-to-test",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "validation",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "validation-reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "listening",
+        "scenario": "pending-validation-reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "timeout-replay",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "timeout-reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "offline",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "storage-failure",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "conflict",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "newer-input",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "return-to-test",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "deadline",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "multi-select-conflict",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "final-conflict",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "validation",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "validation-reload",
+        "status": "PASS"
+      },
+      {
+        "kind": "reading",
+        "scenario": "pending-validation-reload",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "privateCache": "concurrent dedup + reuse + pinned LRU + dispose PASS"
+  },
+  {
+    "legacyListening": "copied to IndexedDB adapter, source retained PASS"
+  },
+  {
+    "validationDiagnostics": "loc/type preserved, input discarded PASS"
+  }
+]

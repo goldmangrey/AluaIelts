@@ -1,0 +1,54 @@
+[
+  {
+    "kind": "listening",
+    "count": 15,
+    "submit": "PASS",
+    "final_snapshot": "PASS",
+    "result_retained": 15,
+    "idempotency": "PASS",
+    "changed_payload_rejected": "PASS",
+    "existing_attempt_after_422": "PASS",
+    "review": "PASS"
+  },
+  {
+    "kind": "listening",
+    "count": 40,
+    "submit": "PASS",
+    "final_snapshot": "PASS",
+    "result_retained": 40,
+    "idempotency": "PASS",
+    "changed_payload_rejected": "PASS",
+    "existing_attempt_after_422": "PASS",
+    "review": "PASS"
+  },
+  {
+    "kind": "reading",
+    "count": 15,
+    "submit": "PASS",
+    "final_snapshot": "PASS",
+    "result_retained": 15,
+    "idempotency": "PASS",
+    "changed_payload_rejected": "PASS",
+    "existing_attempt_after_422": "PASS",
+    "review": "PASS"
+  },
+  {
+    "kind": "reading",
+    "count": 40,
+    "submit": "PASS",
+    "final_snapshot": "PASS",
+    "result_retained": 40,
+    "idempotency": "PASS",
+    "changed_payload_rejected": "PASS",
+    "existing_attempt_after_422": "PASS",
+    "review": "PASS"
+  },
+  {
+    "kind": "listening",
+    "legacy_submit": "PASS"
+  },
+  {
+    "kind": "reading",
+    "legacy_submit": "PASS"
+  }
+]

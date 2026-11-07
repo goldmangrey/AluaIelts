@@ -7,6 +7,7 @@ from uuid import uuid4
 from sqlalchemy import select
 
 from app.core.exceptions import ConflictError, ValidationError
+from app.modules.exam_integrity import answers_checksum, validate_final
 from app.modules.reading.catalog import ReadingCatalog, questions
 from app.modules.reading.grading import result_for
 from app.modules.reading.models import ReadingAttemptRow, ReadingMutationRow
@@ -161,6 +162,7 @@ class ReadingService:
             "attempt_id": row.id,
             **row.result,
             "completion_reason": "deadline" if expired else "submitted",
+            "answers_checksum": answers_checksum(row.answers, self.selected_questions(row)),
         }
 
     def expire(self, row, now):
@@ -191,6 +193,7 @@ class ReadingService:
             else None,
             "elapsed_seconds": self.elapsed(row, row.submitted_at or now),
             "answers": copy.deepcopy(row.answers),
+            "answers_checksum": answers_checksum(row.answers, self.selected_questions(row)),
             "state": copy.deepcopy(row.state),
             "content_status": row.snapshot["metadata"]["content_status"],
             "not_fully_proofread": row.snapshot["metadata"]["not_fully_proofread"],
@@ -285,6 +288,9 @@ class ReadingService:
 
     def mutate(self, uid, aid, operation, request, *, question_id=None):
         payload = request.model_dump(mode="json")
+        if operation == "submit" and request.answers is None:
+            for field in ("answers", "answers_checksum", "local_revision"):
+                payload.pop(field, None)
         fingerprint = self.mutation_hash(operation, aid, {**payload, "question_id": question_id})
         with self.repo.transaction(uid) as session:
             row = self.repo.attempt(session, uid, aid)
@@ -296,7 +302,23 @@ class ReadingService:
                 return replay
             if row.status != "in_progress":
                 if operation == "submit":
+                    if getattr(request, "answers", None) is not None:
+                        validate_final(request, self.selected_questions(row))
+                    if (
+                        row.status == "submitted"
+                        and request.answers is not None
+                        and request.answers_checksum
+                        != answers_checksum(row.answers, self.selected_questions(row))
+                    ):
+                        raise ConflictError(
+                            "Another final snapshot was submitted.",
+                            "reading_final_snapshot_conflict",
+                        )
                     response = self.view(row, now) | {"result": row.result}
+                    if request.answers is not None:
+                        response["final_snapshot_accepted"] = row.status == "submitted"
+                        if row.status == "expired":
+                            response["rejection_reason"] = "deadline_passed"
                 elif row.status == "expired":
                     response = self.view(row, now) | {
                         "mutation_applied": False,
@@ -356,6 +378,16 @@ class ReadingService:
                     ),
                 }
             elif operation == "submit":
+                if request.answers is not None:
+                    final = validate_final(request, selected)
+                    if any(
+                        final[qid] != row.answers.get(qid, "")
+                        for qid in row.state["checked_question_ids"]
+                    ):
+                        raise ConflictError(
+                            "Checked practice answers are frozen.", "reading_answer_checked"
+                        )
+                    row.answers = final
                 self.finish(row, now)
             else:
                 raise ValueError("Unknown Reading mutation")
@@ -365,6 +397,8 @@ class ReadingService:
             response = self.view(row, now) | {"mutation_applied": True}
             if operation == "submit":
                 response["result"] = row.result
+                if request.answers is not None:
+                    response["final_snapshot_accepted"] = True
             elif operation == "check":
                 response["checked_result"] = result_for(
                     row.snapshot,

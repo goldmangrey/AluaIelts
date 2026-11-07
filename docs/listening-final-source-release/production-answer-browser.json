@@ -1,0 +1,154 @@
+{
+  "origin": "https://alua.study",
+  "results": [
+    {
+      "kind": "listening",
+      "count": 15,
+      "viewport": "desktop",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 15,
+      "review": "PASS",
+      "player": "PASS",
+      "duplicate_asset_GETs_on_return": 0
+    },
+    {
+      "kind": "listening",
+      "count": 40,
+      "viewport": "mobile",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 40,
+      "review": "PASS",
+      "player": "PASS",
+      "duplicate_asset_GETs_on_return": 0
+    },
+    {
+      "kind": "reading",
+      "count": 15,
+      "viewport": "mobile",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 15,
+      "review": "PASS",
+      "player": null,
+      "duplicate_asset_GETs_on_return": null
+    },
+    {
+      "kind": "reading",
+      "count": 40,
+      "viewport": "desktop",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 40,
+      "review": "PASS",
+      "player": null,
+      "duplicate_asset_GETs_on_return": null
+    }
+  ],
+  "page_errors": [],
+  "assetResponses": [
+    {
+      "asset": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1",
+      "status": 200
+    },
+    {
+      "asset": "asset-ff3406bb9005ce6ead351795e6907cb5c2bcd77431acccab132a1e59ed3a3a5c",
+      "status": 200
+    },
+    {
+      "asset": "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254",
+      "status": 200
+    },
+    {
+      "asset": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1",
+      "status": 200
+    },
+    {
+      "asset": "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254",
+      "status": 200
+    },
+    {
+      "asset": "asset-ff3406bb9005ce6ead351795e6907cb5c2bcd77431acccab132a1e59ed3a3a5c",
+      "status": 200
+    },
+    {
+      "asset": "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea",
+      "status": 200
+    },
+    {
+      "asset": "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+      "status": 200
+    },
+    {
+      "asset": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1",
+      "status": 200
+    },
+    {
+      "asset": "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254",
+      "status": 200
+    },
+    {
+      "asset": "asset-ff3406bb9005ce6ead351795e6907cb5c2bcd77431acccab132a1e59ed3a3a5c",
+      "status": 200
+    },
+    {
+      "asset": "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea",
+      "status": 200
+    },
+    {
+      "asset": "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+      "status": 200
+    },
+    {
+      "asset": "asset-f3098101a6b9c3f21a1129f33b3763601a1fe517017617f65c1e510d3d6d77d0",
+      "status": 200
+    },
+    {
+      "asset": "asset-fd87b64a7714b849625759af802242c2a72effbbdccb297dbc07d5ff41e9a5a1",
+      "status": 200
+    },
+    {
+      "asset": "asset-ff3406bb9005ce6ead351795e6907cb5c2bcd77431acccab132a1e59ed3a3a5c",
+      "status": 200
+    },
+    {
+      "asset": "asset-b3c1f7510fa4cb5d65274dd6f90170702822b00b9ba3f689ec7d321bfc8b3254",
+      "status": 200
+    },
+    {
+      "asset": "asset-0285f980c75a6fbd269a6470c35f2f7109c9056800a5da58832379299d688dea",
+      "status": 200
+    },
+    {
+      "asset": "asset-f0e2b898c46488cc6180d1a6eb7b0436f4aa545715ced76dbbcfecb18d415327",
+      "status": 200
+    }
+  ],
+  "assetFailures": [
+    {
+      "asset": "asset-f3098101a6b9c3f21a1129f33b3763601a1fe517017617f65c1e510d3d6d77d0",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "asset": "asset-f3098101a6b9c3f21a1129f33b3763601a1fe517017617f65c1e510d3d6d77d0",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "asset": "cambridge-18-test-01-p-1-g-04-07-asset-20-1",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "asset": "cambridge-18-test-01-p-1-g-04-07-asset-20-1",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

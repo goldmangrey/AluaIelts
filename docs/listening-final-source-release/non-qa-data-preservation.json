@@ -1,0 +1,55 @@
+{
+  "non_qa_rows_unchanged": true,
+  "tables": [
+    "listening_attempts",
+    "listening_mutations",
+    "reading_attempts",
+    "reading_mutations",
+    "firebase_identities"
+  ],
+  "method": "Read-only row digests excluding only the guarded QA learner; no DB restore or direct writes",
+  "before": {
+    "listening_attempts": {
+      "count": 23,
+      "digest": "96e15614bfb9de20dc3a5757a4b3e8db"
+    },
+    "listening_mutations": {
+      "count": 799,
+      "digest": "ea75d0e2a29515b796ab40b21dd5adb0"
+    },
+    "reading_attempts": {
+      "count": 28,
+      "digest": "8696a9ff530a7df59baad6d57ae5a70e"
+    },
+    "reading_mutations": {
+      "count": 324,
+      "digest": "7252b71f0cd0cec91c7f2d9f8644e2d1"
+    },
+    "firebase_identities": {
+      "count": 3,
+      "digest": "eb5a9df2b3f5ebd348857597f3c516ee"
+    }
+  },
+  "after": {
+    "listening_attempts": {
+      "count": 23,
+      "digest": "96e15614bfb9de20dc3a5757a4b3e8db"
+    },
+    "listening_mutations": {
+      "count": 799,
+      "digest": "ea75d0e2a29515b796ab40b21dd5adb0"
+    },
+    "reading_attempts": {
+      "count": 28,
+      "digest": "8696a9ff530a7df59baad6d57ae5a70e"
+    },
+    "reading_mutations": {
+      "count": 324,
+      "digest": "7252b71f0cd0cec91c7f2d9f8644e2d1"
+    },
+    "firebase_identities": {
+      "count": 3,
+      "digest": "eb5a9df2b3f5ebd348857597f3c516ee"
+    }
+  }
+}

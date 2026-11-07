@@ -31,7 +31,7 @@ export async function releaseBackend(context:BrowserContext,{existing=true,secon
      view();if(a.status!=="in_progress"){await route.fulfill({json:{...view(),mutation_applied:false}});return}
      if(body.expected_version!==a.version){await error(409,"reading_version_conflict");return}
      if(path.endsWith("/sync")){a={...a,answers:{...a.answers,...body.answers},version:a.version+1};replays.set(body.event_id,{...view(),mutation_applied:true});if(unknownSave){await route.abort("failed");return}await route.fulfill({json:{...view(),mutation_applied:true}});return}
-     if(path.endsWith("/submit")){a={...a,status:"submitted",version:a.version+1,submitted_at:new Date().toISOString()};replays.set(body.event_id,view());if(unknownSubmit){await error(503,"unknown_submit");return}await route.fulfill({json:view()});return}
+     if(path.endsWith("/submit")){a={...a,status:"submitted",answers:body.answers||a.answers,answers_checksum:body.answers_checksum,final_snapshot_accepted:true,version:a.version+1,submitted_at:new Date().toISOString()};replays.set(body.event_id,view());if(unknownSubmit){await error(503,"unknown_submit");return}await route.fulfill({json:view()});return}
    }
    await error(404,"missing_fixture_route");
  });

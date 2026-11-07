@@ -1,0 +1,132 @@
+[
+  {
+    "kind": "listening",
+    "count": 15,
+    "status": 422,
+    "detail": [
+      {
+        "loc": [
+          "body",
+          "answers"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "answers_checksum"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "local_revision"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "state"
+        ],
+        "type": "extra_forbidden"
+      }
+    ],
+    "side_effects": false
+  },
+  {
+    "kind": "listening",
+    "count": 40,
+    "status": 422,
+    "detail": [
+      {
+        "loc": [
+          "body",
+          "answers"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "answers_checksum"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "local_revision"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "state"
+        ],
+        "type": "extra_forbidden"
+      }
+    ],
+    "side_effects": false
+  },
+  {
+    "kind": "reading",
+    "count": 15,
+    "status": 422,
+    "detail": [
+      {
+        "loc": [
+          "body",
+          "answers"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "answers_checksum"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "local_revision"
+        ],
+        "type": "extra_forbidden"
+      }
+    ],
+    "side_effects": false
+  },
+  {
+    "kind": "reading",
+    "count": 40,
+    "status": 422,
+    "detail": [
+      {
+        "loc": [
+          "body",
+          "answers"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "answers_checksum"
+        ],
+        "type": "extra_forbidden"
+      },
+      {
+        "loc": [
+          "body",
+          "local_revision"
+        ],
+        "type": "extra_forbidden"
+      }
+    ],
+    "side_effects": false
+  }
+]

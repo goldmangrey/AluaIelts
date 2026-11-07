@@ -1,0 +1,33 @@
+{
+  "status": "SUCCESS \u2014 authorized partial-source release",
+  "production_url": "https://alua.study",
+  "source_fidelity": {
+    "verified": 287,
+    "total": 288,
+    "unresolved": [
+      "cambridge-14-test-03-p1"
+    ],
+    "new_source_assets": 37,
+    "stage2_assets_protected": 45
+  },
+  "backend_before": "submit-hotfix-20261107-e32ccee9a645",
+  "backend_after": "source-fidelity-20261107-9689a3afffa3",
+  "backend_payload_sha256": "a2933b1a6b16dc8b4e9deb252a192098f47f4fc7cab91d6ca21f8dc641126a57",
+  "worker_before": "df984c2e-270e-45a4-a4cd-a23a8746cd46",
+  "worker_after": "2a752cce-890a-4860-9350-01741f5877bc",
+  "cloudflare_deployment_id": "44cf4940-0c27-4b0f-9524-efe8177fe82b",
+  "source_exam_review": "PASS 4/4 public cases",
+  "answer_exam_review": "PASS Listening 15/15 and 40/40; Reading 15/15 and 40/40; 422 recovery/reload/idempotency/results/review",
+  "non_qa_data_preservation": "PASS",
+  "rollback": {
+    "ready": true,
+    "previous_pair_restored_twice": true,
+    "database_restored": false,
+    "backup": "/var/backups/alua/pre-source-fidelity-20261107-9689a3afffa3"
+  },
+  "git_commit_push": "Release commit is the commit containing this document; remote push verification is reported after commit. Locate with git log -1 -- docs/ALUA_FINAL_SOURCE_RELEASE.md",
+  "release_policy": "Authorized partial-source release; not fully source-verified",
+  "image_http_errors_final_suites": 0,
+  "compact_v5": "PASS",
+  "player_v4": "PASS"
+}

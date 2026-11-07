@@ -1,0 +1,87 @@
+{
+  "cases": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "mode": "exam",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "durable reload + two-tab lease PASS"
+    },
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "mode": "review",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "readonly"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "mode": "exam",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "durable reload + two-tab lease PASS"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "mode": "review",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "readonly"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "mode": "exam",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "durable reload + two-tab lease PASS"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "mode": "review",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "readonly"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "mode": "exam",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "durable reload + two-tab lease PASS"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "mode": "review",
+      "status": "PASS",
+      "duplicateAssetGetsOnReturn": 0,
+      "uniqueRequests": 8,
+      "scroll": "PASS",
+      "indexedDB": "readonly"
+    }
+  ],
+  "errors": [],
+  "unverified": [],
+  "fixture": "/var/folders/_g/xbptzdhs4k7440tn19h7zq6w0000gp/T/alua-listening-ui-VRjXRa"
+}

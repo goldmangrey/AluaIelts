@@ -1,0 +1,28 @@
+{
+  "/health": {
+    "http": 200,
+    "status": "PASS"
+  },
+  "/me": {
+    "http": 200,
+    "status": "PASS"
+  },
+  "/listening/exams": {
+    "http": 200,
+    "status": "PASS",
+    "count": 72
+  },
+  "/reading/exams": {
+    "http": 200,
+    "status": "PASS",
+    "count": 72
+  },
+  "https://alua.study": {
+    "http": 200,
+    "status": "PASS"
+  },
+  "https://alua-api.flora-flowers.kz/api/v1/health": {
+    "http": 200,
+    "status": "PASS"
+  }
+}

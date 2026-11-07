@@ -1,0 +1,27 @@
+{
+  "url": "https://alua-api.flora-flowers.kz/openapi.json",
+  "openapi_sha256": "d377c2917bd46de6e47f91946d0a0da3bef257d3bf902c082a2e22247f26e0da",
+  "cases": [
+    {
+      "kind": "listening",
+      "schema": "#/components/schemas/Mutation",
+      "missing": [
+        "answers",
+        "answers_checksum",
+        "local_revision",
+        "state"
+      ],
+      "status": "FAIL"
+    },
+    {
+      "kind": "reading",
+      "schema": "#/components/schemas/SubmitMutation",
+      "missing": [
+        "answers",
+        "answers_checksum",
+        "local_revision"
+      ],
+      "status": "FAIL"
+    }
+  ]
+}

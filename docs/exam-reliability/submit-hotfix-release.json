@@ -1,0 +1,28 @@
+{
+  "candidate_backend_id": "submit-hotfix-20261107-e32ccee9a645",
+  "local_head": "941fefabf1f60cf8601d503c01a8d3a881ce0006",
+  "backend_files": {
+    "app/modules/exam_integrity.py": "baa370d82f4902a3b1e026146c56803a653eb64d7bf017f056283c3ee6adb4f1",
+    "app/modules/listening/router.py": "bb5ce4d7c526e744dbeaa40fd0d361ed1286e1829910d3161e3f1a92c5537c0b",
+    "app/modules/listening/schemas.py": "ca7c81851575e04bbacb57996d88d24ba6ed5d197cdc48d2f2cfa7e356141653",
+    "app/modules/listening/service.py": "e336d34f13073abea99f5982c419a7b2cdb9b5fb7cfd6d85765402191a53759c",
+    "app/modules/reading/schemas.py": "d5575071c119921c977a1c40146d60c0a8ac6b69f33244c9f5ac6ef4b377ee97",
+    "app/modules/reading/service.py": "db0d909de45fc942eeef9646a369dbb17da8bd69b5bc0673a12dd8ceb7fee1a7"
+  },
+  "archive": "/tmp/alua-submit-hotfix-e32ccee9a645.tar.gz",
+  "archive_sha256": "be65e7eb08e54e4346cae41d40e3525fc518c2d64ba15d77fd890ee01b61eab7",
+  "backend_deployed": true,
+  "frontend_deployed": true,
+  "database_migration": false,
+  "production_url": "https://alua.study",
+  "backend_previous": "listening-visuals-20261106-61433b63",
+  "worker_previous": "29ce57d8-7263-4957-b3e9-863362890d02",
+  "worker_version": "df984c2e-270e-45a4-a4cd-a23a8746cd46",
+  "cloudflare_deployment_id": "01db8273-ead6-4afb-b1f5-5f094b65f9a1",
+  "rollout": "SUCCESS",
+  "initial_backend_rollback": "COMPLETED: private Reading file ownership fixed before reactivation",
+  "final_rollback": "NOT NEEDED",
+  "production_smoke": "PASS",
+  "non_qa_data_unchanged": true,
+  "qa_scope": "Dedicated registered ALUA QA Release learner only; standard authenticated APIs; no direct DB mutation"
+}

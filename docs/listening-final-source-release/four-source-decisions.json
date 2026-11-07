@@ -1,0 +1,70 @@
+{
+  "decisions": [
+    {
+      "part": "cambridge-04-test-01-p4",
+      "status": "FIXED",
+      "pdf_sha256": "5fffd323880791928596474e59b78aeb5aae7eeb2ac144d1b992e64853a30499",
+      "source_page": 12,
+      "new_asset_id": null,
+      "verification": "Original layout/instructions/ranges visually checked; recovered pixel equality verified for C04/C06"
+    },
+    {
+      "part": "cambridge-06-test-02-p1",
+      "status": "FIXED",
+      "pdf_sha256": "91cccbe5d53c8ae3c236a1e6ac376ab3470bd5bb7d766bb0ad5b65a4174dc403",
+      "source_page": 29,
+      "new_asset_id": null,
+      "verification": "Original layout/instructions/ranges visually checked; recovered pixel equality verified for C04/C06"
+    },
+    {
+      "part": "cambridge-07-test-04-p1",
+      "status": "FIXED",
+      "pdf_sha256": "34376d7bb8180d9e1846a505932b16a9512f1ff10c3e3201761d826138f26da7",
+      "source_page": 82,
+      "new_asset_id": "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9",
+      "verification": "Original layout/instructions/ranges visually checked; recovered pixel equality verified for C04/C06"
+    },
+    {
+      "part": "cambridge-14-test-03-p1",
+      "status": "UNRESOLVED",
+      "pdf_sha256": "da500aa90ef5867e4301691b06becdb1a4f09bf1847927988e707d5e9ff4917c",
+      "source_page": 1,
+      "new_asset_id": null,
+      "verification": "Current PNG matches pinned retype pixels, content corroborated; original layout unavailable"
+    }
+  ],
+  "new_asset": {
+    "file": "backend/scripts/listening_dataset/sources/cambridge-07-test-04-part-1-clean.png",
+    "book": 7,
+    "test": 4,
+    "part": 1,
+    "pdf_page": 85,
+    "comparison_pdf_page": 85,
+    "source_pdf_page": 82,
+    "replaces_pages": [
+      85
+    ],
+    "source_url": "https://www.pfcedu.com/data/upload/file/20170616/Cambridge_IELTS7.pdf",
+    "pdf_sha256": "34376d7bb8180d9e1846a505932b16a9512f1ff10c3e3201761d826138f26da7",
+    "render_recipe": {
+      "finding_id": "C014-final-original",
+      "source_pdf_sha256": "34376d7bb8180d9e1846a505932b16a9512f1ff10c3e3201761d826138f26da7",
+      "pdf_page": 82,
+      "clip_normalized": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dpi": 250,
+      "padding_px": 12,
+      "new_asset_id": "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9"
+    }
+  },
+  "rejected_candidates": {
+    "namdu": "Returned a PDF of the university website, not Cambridge book",
+    "studylib": "Public text accessible, binary image/PDF download HTTP403; no bypass",
+    "studocu": "No independently verified source page obtained",
+    "scribd": "Available preview starts later Listening questions; not proof of P1 original layout"
+  }
+}

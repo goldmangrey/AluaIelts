@@ -1,3 +1,4 @@
+import type {SubmissionEvent} from "../src/features/exam-reliability/final-snapshot";
 import {test,expect} from "@playwright/test";
 import {ReliableAnswers} from "../src/features/reading/exam/reliable-answers";
 import type {Draft,DraftStore} from "../src/features/reading/exam/draft-storage";
@@ -20,11 +21,11 @@ function environment(){
    if(server.status!=="in_progress")return structuredClone(server);
    server={...server,version:server.version+1,answers:{...server.answers,...e.answers},mutation_applied:true};replays.set(e.event_id,structuredClone(server));
    if(unknown)throw new ApiError(0,"timeout");return structuredClone(server);
- },submit:async(e:{event_id:string;expected_version:number})=>{
+ },submit:async(e:SubmissionEvent)=>{
    expect(draft?.submit).toEqual(e);submits.push(e);
    if(replays.has(e.event_id))return structuredClone(replays.get(e.event_id)!);
    if(e.expected_version!==server.version)throw new ApiError(409,"reading_version_conflict");
-   server={...server,status:"submitted",version:server.version+1};replays.set(e.event_id,structuredClone(server));
+   server={...server,status:"submitted",version:server.version+1,answers:e.answers||server.answers,answers_checksum:e.answers_checksum,final_snapshot_accepted:true};replays.set(e.event_id,structuredClone(server));
    if(unknownSubmit)throw new ApiError(0,"timeout");return structuredClone(server);
  }};
  return {q,options,events,submits,session:()=>new ReliableAnswers(structuredClone(server),options),server:()=>server,setServer:(a:Partial<Attempt>)=>{server={...server,...a}},draft:()=>draft,offline:(v:boolean)=>{online=!v},failLocal:()=>{failLocal=true},unknown:(v:boolean)=>{unknown=v},unknownSubmit:(v:boolean)=>{unknownSubmit=v}};

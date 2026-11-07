@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "algorithm": "2048 time-aligned bins; FFmpeg 8kHz mono, 64ms RMS; energy aggregation; sqrt dynamic-range compression; uint8",
+  "exams": {
+    "cambridge-04-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-04-test-01-4cbcc7ea73d4860c.json",
+      "sha256": "4cbcc7ea73d4860c54fa9579b5622a5ae2517a55261575d6cf598b192fb70e7b"
+    },
+    "cambridge-04-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-04-test-02-8ec31f1ee58beace.json",
+      "sha256": "8ec31f1ee58beace35b24ad469fc671b7672c7b7aba2d281e225b8879a39f6ba"
+    },
+    "cambridge-04-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-04-test-03-73b15abddfe79db2.json",
+      "sha256": "73b15abddfe79db2b0e16f8c92857e29f3a3d915e610a672be252e566b368be9"
+    },
+    "cambridge-04-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-04-test-04-de4b97dd346b453c.json",
+      "sha256": "de4b97dd346b453ceb0bbaf54f424f4cefca17b6938e0cad6d6601252aa03d93"
+    },
+    "cambridge-05-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-05-test-01-d1504d78414834fd.json",
+      "sha256": "d1504d78414834fd745ddf4ba8a522b3ebc06e1485d4c95932e18edfeadfdeb6"
+    },
+    "cambridge-05-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-05-test-02-ccbf0e36af85e522.json",
+      "sha256": "ccbf0e36af85e52254739d7ffc1433873644bd50245f6e86f2ca4211c8dd9e45"
+    },
+    "cambridge-05-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-05-test-03-c829bef4c735eace.json",
+      "sha256": "c829bef4c735eacef81b971afd65d979010d80e070e0c114f5b82814569e8b59"
+    },
+    "cambridge-05-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-05-test-04-8a5961ce1a6f7526.json",
+      "sha256": "8a5961ce1a6f7526a18abf06ac10519e7313e12242c976da19a7974faf255674"
+    },
+    "cambridge-06-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-06-test-01-f43653bb4d43001e.json",
+      "sha256": "f43653bb4d43001ee24262ef36da878412c1864b2b37bf9dc91e4254781979a8"
+    },
+    "cambridge-06-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-06-test-02-5c09bb0f14e9cfcd.json",
+      "sha256": "5c09bb0f14e9cfcd9595f9cd097939ecae23ec6d8cb12df5c0570542ce092910"
+    },
+    "cambridge-06-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-06-test-03-d666c6b62825b5fc.json",
+      "sha256": "d666c6b62825b5fc7324877c125e31dd995c2b85f9163d92afaf345d8ae8dce6"
+    },
+    "cambridge-06-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-06-test-04-6cb750ef1d47260f.json",
+      "sha256": "6cb750ef1d47260f7fd6dcadcb68db2b3652ed87ae6730c10247135a87be8ffe"
+    },
+    "cambridge-07-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-07-test-01-57bc843235743189.json",
+      "sha256": "57bc843235743189ab8b8c56460222963aa7093266b0f280a5d48905b6ecf469"
+    },
+    "cambridge-07-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-07-test-02-72604253feeb0a2d.json",
+      "sha256": "72604253feeb0a2d39f2461473f8a3b0f6f5974a0db8e0bba704be29fbb57466"
+    },
+    "cambridge-07-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-07-test-03-b5c44dc7afb5a518.json",
+      "sha256": "b5c44dc7afb5a5183a9ecfb2c53a34d4797fe030259a9fa4c1ad2633bba370f8"
+    },
+    "cambridge-07-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-07-test-04-b9f8b16353be65d6.json",
+      "sha256": "b9f8b16353be65d6277de0f9aa70d5dd82819b0f3bba5fd6d1a3dc6d27c8959b"
+    },
+    "cambridge-08-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-08-test-01-92f11c7e1b8b4aeb.json",
+      "sha256": "92f11c7e1b8b4aeb9b276cbc8079ff25082b1e9e15e02c61d547d75ad058676c"
+    },
+    "cambridge-08-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-08-test-02-914240ba9deddce6.json",
+      "sha256": "914240ba9deddce690be6f43b63feaa30c330cc1f7c84008c79ad84807032198"
+    },
+    "cambridge-08-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-08-test-03-0ad213cd9e281eb4.json",
+      "sha256": "0ad213cd9e281eb4f661e57f99c91baa975e1f2c265b872ec35c4f22d6792831"
+    },
+    "cambridge-08-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-08-test-04-6220507eb24680e4.json",
+      "sha256": "6220507eb24680e4f70ba5937f22d796d1230d8f8e9d1dfa8966aadd2a3c0f44"
+    },
+    "cambridge-09-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-09-test-01-c2ad3b65b29851e9.json",
+      "sha256": "c2ad3b65b29851e9d649d89832c98cd8191659e5f5e3e2a629a93c1a5cdf9297"
+    },
+    "cambridge-09-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-09-test-02-289504ed333ee2a7.json",
+      "sha256": "289504ed333ee2a7f48a5ccde322ef814db59f9cc84985f7f6c7af2b440067b3"
+    },
+    "cambridge-09-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-09-test-03-9515c4a6e71ccf0b.json",
+      "sha256": "9515c4a6e71ccf0bbf9ffe59c06ef80ee96cdd798c8d481349b147b0ba908cf0"
+    },
+    "cambridge-09-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-09-test-04-bfe5ec092578c6c1.json",
+      "sha256": "bfe5ec092578c6c156aee4f341352c28b6a395c79f76aac4b8cd5261bba07162"
+    },
+    "cambridge-10-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-10-test-01-6ebc5f96780bc15f.json",
+      "sha256": "6ebc5f96780bc15f2ed7fcd20b30222d43dd35d6454ca3ec075a81a08788ad16"
+    },
+    "cambridge-10-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-10-test-02-8ad0d434b5b85e7a.json",
+      "sha256": "8ad0d434b5b85e7acf8e837bdd86340816e5405d61dec79daf9be43c8cb1f22e"
+    },
+    "cambridge-10-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-10-test-03-74e2fca305ebe4de.json",
+      "sha256": "74e2fca305ebe4de8b02ea0cf98388b91da795068d26bf0ee5ffb791e677faa8"
+    },
+    "cambridge-10-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-10-test-04-caa209fe69998109.json",
+      "sha256": "caa209fe69998109d00e20c3a28b9c2c1918dce2e890ee2bbf59fc1bad6158da"
+    },
+    "cambridge-11-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-11-test-01-6532d0971c5cfc82.json",
+      "sha256": "6532d0971c5cfc82d6b69120008b2d0b71c1f3ae6abe32912d09f0553241d1e6"
+    },
+    "cambridge-11-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-11-test-02-b4796b48768aca1b.json",
+      "sha256": "b4796b48768aca1b54b56ad3919cc19c2f0ddd91a65e0a68ebf57baad07ad65a"
+    },
+    "cambridge-11-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-11-test-03-5981264256d91017.json",
+      "sha256": "5981264256d910172580b2f0168339977f75e8846f162bd2a779fca80e5e197c"
+    },
+    "cambridge-11-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-11-test-04-2a6f19aee64a996c.json",
+      "sha256": "2a6f19aee64a996c5028c1b6c11834614c7ccc0b2804f46271a22d054f8e69a0"
+    },
+    "cambridge-12-test-05": {
+      "url": "/listening-waveforms/v1/cambridge-12-test-05-c490833b98c2d8b9.json",
+      "sha256": "c490833b98c2d8b9ff9b75005674ca4ac9a22dfb52ebca74d04110f35a3c2e00"
+    },
+    "cambridge-12-test-06": {
+      "url": "/listening-waveforms/v1/cambridge-12-test-06-8af0e8c6a4e3b60e.json",
+      "sha256": "8af0e8c6a4e3b60e26c66590ff6dca742b801a4dd4f30020aa4b82598b076bea"
+    },
+    "cambridge-12-test-07": {
+      "url": "/listening-waveforms/v1/cambridge-12-test-07-392ea84d2b4ca8fc.json",
+      "sha256": "392ea84d2b4ca8fc3ef882e175170a0f5aaf94c8c7735663552466b8bc661988"
+    },
+    "cambridge-12-test-08": {
+      "url": "/listening-waveforms/v1/cambridge-12-test-08-02805b118db117e4.json",
+      "sha256": "02805b118db117e4db722384802d663fac3d22ef8bccfd013c68cdb0ba2fc006"
+    },
+    "cambridge-13-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-13-test-01-dd7f40e2b7df6854.json",
+      "sha256": "dd7f40e2b7df68542d3c97377b4fa73c6de5152952601d284f703e3b409d7c98"
+    },
+    "cambridge-13-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-13-test-02-ba073a458042ff17.json",
+      "sha256": "ba073a458042ff176a5651adb76ed6d489f99485b8141d199c3b5d352cf144f8"
+    },
+    "cambridge-13-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-13-test-03-001a1e9f526c9749.json",
+      "sha256": "001a1e9f526c9749d9d34330b31dbba3dbb809cee39a62825d773e7509818ebf"
+    },
+    "cambridge-13-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-13-test-04-3069d276507bc8de.json",
+      "sha256": "3069d276507bc8de47cabb7e2465f6fdd0683a464af7bc6d1eabd923d5177be6"
+    },
+    "cambridge-14-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-14-test-01-0b0b0f268b8e6ee0.json",
+      "sha256": "0b0b0f268b8e6ee0a0f566ae8bcb0c43c473c3d9c30bf0ea72692b8529685aa1"
+    },
+    "cambridge-14-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-14-test-02-446526168ca3ca57.json",
+      "sha256": "446526168ca3ca57fae3ab7aa0edd278acfab3a7a24c3def2658146c1f062dc2"
+    },
+    "cambridge-14-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-14-test-03-8785d9036e105da7.json",
+      "sha256": "8785d9036e105da7785f8b70fa82beac9f9a68e782fa03c066d4aa52f5748aa7"
+    },
+    "cambridge-14-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-14-test-04-2fb5c01155808b0e.json",
+      "sha256": "2fb5c01155808b0ec5214200bac27c05131a52cd3c6115bac3244e9d226f0bba"
+    },
+    "cambridge-15-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-15-test-01-9bc0bef07be475ba.json",
+      "sha256": "9bc0bef07be475ba2ad3d1c486cae2eefaf4fb5cf6b16e93bbcf2fcccd1b7737"
+    },
+    "cambridge-15-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-15-test-02-0c21be94f2574efc.json",
+      "sha256": "0c21be94f2574efce922a5847e3e8944917c6a350043fe22bd58833de3ee1654"
+    },
+    "cambridge-15-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-15-test-03-ed9b0bd2351d7f67.json",
+      "sha256": "ed9b0bd2351d7f67e2bf2fa16e8b24b1212d7e54924415f0adcd6abe1e428aeb"
+    },
+    "cambridge-15-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-15-test-04-102d37ccd2d0391a.json",
+      "sha256": "102d37ccd2d0391a40165ccbceb8032d3a468d1d84048123571b7ea10f7379e5"
+    },
+    "cambridge-16-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-16-test-01-dda93de01a89cefe.json",
+      "sha256": "dda93de01a89cefe729ef80765b22fa7463d8bb348b6ad150522d0c3bae2738a"
+    },
+    "cambridge-16-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-16-test-02-f61d8cc0dc27cd44.json",
+      "sha256": "f61d8cc0dc27cd44e1e16f7279e0713082ac3661fca77421676d368f29096c0d"
+    },
+    "cambridge-16-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-16-test-03-4ad91b734c4cf934.json",
+      "sha256": "4ad91b734c4cf934846f204d5b957451e50e17d96b364a5850e955556055b7e5"
+    },
+    "cambridge-16-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-16-test-04-8b6c5c238aca7bf5.json",
+      "sha256": "8b6c5c238aca7bf5382ff9c8193532d8c57b655c5f29759d3cc0cf23434347bb"
+    },
+    "cambridge-17-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-17-test-01-2fa68866ffba5580.json",
+      "sha256": "2fa68866ffba5580bf3fea5156d6763d4fc986a7c67c89969b485ed68b576f3c"
+    },
+    "cambridge-17-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-17-test-02-29192b173d173579.json",
+      "sha256": "29192b173d1735792a9e3df50c6b097085f375979c76bd9aa0ffc763d15c21c8"
+    },
+    "cambridge-17-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-17-test-03-81d7f636c76cf301.json",
+      "sha256": "81d7f636c76cf3015f6b396698ceca0998aa99edac38e8c3ba2fc6f42718e009"
+    },
+    "cambridge-17-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-17-test-04-47a40932475c6e02.json",
+      "sha256": "47a40932475c6e025efd262f707a63ba65a876a484383c072b2fe58ab8b503aa"
+    },
+    "cambridge-18-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-18-test-01-d633da2c7c7b446e.json",
+      "sha256": "d633da2c7c7b446ec0f3e70d34ce14ada518429b91b5bb49ade022819af43ffe"
+    },
+    "cambridge-18-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-18-test-02-fdaf4685f84a3d3f.json",
+      "sha256": "fdaf4685f84a3d3fb663242e00c923c9c0693699eb8cec8a6e52adf0f19a46f6"
+    },
+    "cambridge-18-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-18-test-03-b55caf441db25a54.json",
+      "sha256": "b55caf441db25a54df4de6499982bf41fdaaf8cc93f2bc0f9024e16110283891"
+    },
+    "cambridge-18-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-18-test-04-5c5ff6ac1e095007.json",
+      "sha256": "5c5ff6ac1e09500759f28ccd2496864e83eaa5e064f9927d007110fc6c60fbe6"
+    },
+    "cambridge-19-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-19-test-01-9e37bc468ebe14f7.json",
+      "sha256": "9e37bc468ebe14f77f22028e79b212174aba0adcca628bd15202394273c9e29d"
+    },
+    "cambridge-19-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-19-test-02-a3667515c508c155.json",
+      "sha256": "a3667515c508c1557a2a04622c0110a93d4c7f1ccda8aeb969dffde630700346"
+    },
+    "cambridge-19-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-19-test-03-95402385799dc51c.json",
+      "sha256": "95402385799dc51c4dd98073f3c64d1352c0707dfc0e3a7cd0d7888415f798e2"
+    },
+    "cambridge-19-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-19-test-04-07762dc9e2163171.json",
+      "sha256": "07762dc9e21631719c95267aeeafb9d04cf8fd80ae0c16fd9daabf1a76eb25ed"
+    },
+    "cambridge-20-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-20-test-01-b33895356e844064.json",
+      "sha256": "b33895356e84406444345adb358e2398c29b4067951ddc95716d5f68eb6fd89c"
+    },
+    "cambridge-20-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-20-test-02-04bae17584a1bd09.json",
+      "sha256": "04bae17584a1bd09659b3d9112ee4ced7f5358f2f0ddd786d08ca955561f6f40"
+    },
+    "cambridge-20-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-20-test-03-1f74fc3efcd1b5f4.json",
+      "sha256": "1f74fc3efcd1b5f4937bef8a43443aadf4cd4fcc79637c107a7d73624fa29b08"
+    },
+    "cambridge-20-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-20-test-04-13a0125d1cf1b3ce.json",
+      "sha256": "13a0125d1cf1b3ce64e89bfa70b2ab6cd06d17483ccf0f8c55bcf6e0fd747740"
+    },
+    "cambridge-21-test-01": {
+      "url": "/listening-waveforms/v1/cambridge-21-test-01-dc914a9b6da11b51.json",
+      "sha256": "dc914a9b6da11b512a6ca7843294f59e7855c14a9f719b4ed741c7c0db74916c"
+    },
+    "cambridge-21-test-02": {
+      "url": "/listening-waveforms/v1/cambridge-21-test-02-8c08cbf243f4742f.json",
+      "sha256": "8c08cbf243f4742fa101d8638c39038b915e6fdba61b1442baf31fd16fa5d0d2"
+    },
+    "cambridge-21-test-03": {
+      "url": "/listening-waveforms/v1/cambridge-21-test-03-ae90707914951e22.json",
+      "sha256": "ae90707914951e225a95f744ea0b17f9baa48da5a8778f534db9337c3b06b566"
+    },
+    "cambridge-21-test-04": {
+      "url": "/listening-waveforms/v1/cambridge-21-test-04-c8cf2c19fdd10c07.json",
+      "sha256": "c8cf2c19fdd10c0796dd56bbf26636715d0f6780deee71fa380cc4ba2bce52d5"
+    }
+  }
+}

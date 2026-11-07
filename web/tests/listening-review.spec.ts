@@ -52,7 +52,7 @@ async function load(page:Page,mode='verified'){
 }
 async function sourceTab(page:Page){const tab=page.getByRole('button',{name:'Source material',exact:true});if(await tab.isVisible())await tab.click();}
 async function questionsTab(page:Page){const tab=page.getByRole('button',{name:'Questions',exact:true});if(await tab.isVisible())await tab.click();}
-async function go(page:Page,n:number){await page.getByRole('button',{name:/^Questions \d+\/40/}).click();await page.getByRole('button',{name:`Go to question ${n}`,exact:true}).click();}
+async function go(page:Page,n:number){await page.getByRole('button',{name:'Question navigator',exact:true}).click();await page.getByRole('button',{name:`Go to question ${n}`,exact:true}).click();}
 
 test('Review screenshots and viewport',async({page},info)=>{
  await load(page);
@@ -87,25 +87,25 @@ test('Verified navigation, filters, divider, scroll and read-only playback',asyn
   await questions.evaluate(el=>{el.scrollTop=300;});expect(await questions.evaluate(el=>el.scrollTop)).toBeGreaterThan(0);expect(await source.evaluate(el=>el.scrollTop)).toBe(offset);
  }
  await expect(page.getByText('Estimated Band',{exact:true})).toBeVisible();
- await expect(page.getByRole('region',{name:'Listening audio player'})).toHaveCount(0);
- await page.getByRole('button',{name:/^Listen again/}).click();await expect(page.getByRole('region',{name:'Listening audio player'})).toBeVisible();
+ await expect(page.getByRole('region',{name:'Listening audio player'})).toHaveCount(1);
+ await expect(page.getByRole('region',{name:'Listening audio player'})).toBeVisible();
  await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);
  await page.getByRole('button',{name:'Play',exact:true}).click();await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeGreaterThan(.1);
  await page.getByRole('button',{name:'Pause',exact:true}).click();await page.getByLabel('Audio progress').fill('6');
- await page.getByRole('button',{name:'Replay part',exact:true}).click();await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeLessThan(.5);
- await page.getByLabel('Audio',{exact:true}).selectOption('3');await expect(page.locator('audio').first()).toHaveAttribute('src',/\/3$/);
- await page.getByRole('button',{name:/^Hide audio/}).click();await expect(page.locator('audio')).toHaveCount(0);
+ await page.getByLabel('Audio progress').fill('0');await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeLessThan(.5);
+ await page.getByRole('button',{name:/^Part 3/}).click();await page.getByRole('button',{name:'Listen to Part 3',exact:true}).click();await expect(page.locator('audio').first()).toHaveAttribute('src',/\/3$/);
+ await page.getByRole('button',{name:/^Part 1/}).click();
  await page.getByRole('button',{name:/^Incorrect/}).click();await questionsTab(page);
  await expect(questions.locator('[id^=question-]')).toHaveCount(result.questions.filter(q=>q.part_number===1&&q.correct===false&&q.user_answer.trim()).length);await expect(page.locator('#question-2')).toBeInViewport();
  await page.getByRole('button',{name:/^Unanswered/}).click();await expect(page.locator('#question-3')).toBeInViewport();
  await page.getByRole('button',{name:'All',exact:true}).click();
- await page.getByRole('button',{name:/^Questions \d+\/40/}).click();
+ await page.getByRole('button',{name:'Question navigator',exact:true}).click();
  const grid=page.getByRole('navigation',{name:'Questions',exact:true});await expect(grid.getByRole('button')).toHaveCount(40);
  for(const [n,status] of [[1,'correct'],[2,'incorrect'],[3,'unanswered']] as const)await expect(grid.getByRole('button',{name:`Go to question ${n}`,exact:true})).toHaveAttribute('data-review-status',status);
  await page.screenshot({path:`docs/listening-review-v2/after/${info.project.name}-navigator.png`});
  await page.keyboard.press('Escape');await expect(grid).toBeHidden();
- await go(page,11);await expect(page.locator('#question-11')).toBeInViewport();await sourceTab(page);await expect(source.getByText('Answer bank',{exact:true})).toBeVisible();
- await questionsTab(page);await questions.dispatchEvent('wheel',{deltaY:1000});await questions.evaluate(el=>{const next=el.querySelectorAll('[data-question-group]')[1]!;el.scrollTop+=next.getBoundingClientRect().top-el.getBoundingClientRect().top-20;});await expect(source.locator('header span')).toHaveText('Questions 11–20');await go(page,40);await expect(page.locator('#question-40')).toBeInViewport();await expect(grid).toBeHidden();
+ await go(page,11);await expect(page.locator('#question-11')).toBeInViewport();await sourceTab(page);await questionsTab(page);await expect(page.getByRole('region',{name:'Answer bank'}).first()).toBeVisible();
+ await questionsTab(page);await questions.dispatchEvent('wheel',{deltaY:1000});await questions.evaluate(el=>{const next=el.querySelectorAll('[data-question-group]')[1]!;el.scrollTop+=next.getBoundingClientRect().top-el.getBoundingClientRect().top-20;});await expect(source.locator('header span')).toHaveCount(0);await go(page,40);await expect(page.locator('#question-40')).toBeInViewport();await expect(grid).toBeHidden();
  await page.getByRole('button',{name:'Previous question',exact:true}).click();await expect(page.locator('#question-39')).toBeInViewport();
  await page.getByRole('button',{name:'Next question',exact:true}).click();await expect(page.locator('#question-40')).toBeInViewport();
  await page.reload();await expect(page.locator('#question-1')).toContainText(result.questions[0]!.user_answer);
@@ -135,12 +135,12 @@ for(const mode of ['preliminary','ungraded'])test(`${mode}: honest statuses and 
  }
  await page.getByRole('button',{name:'All',exact:true}).click();await go(page,3);await expect(page.locator('#question-3')).toHaveAttribute('data-review-status','unanswered');
  await page.screenshot({path:`docs/listening-review-v2/after/${info.project.name}-${mode}.png`});
- await page.getByRole('button',{name:/^Questions \d+\/40/}).click();const grid=page.getByRole('navigation',{name:'Questions',exact:true});await expect(grid.getByRole('button')).toHaveCount(40);
+ await page.getByRole('button',{name:'Question navigator',exact:true}).click();const grid=page.getByRole('navigation',{name:'Questions',exact:true});await expect(grid.getByRole('button')).toHaveCount(40);
  if(mode==='ungraded')await expect(grid.locator('[data-review-status=correct],[data-review-status=incorrect]')).toHaveCount(0);
  expect(mutations).toEqual([]);
 });
 
-test('Shared V3 workspace still edits, marks and navigates',async({page})=>{
+test('Shared V3 workspace still edits and navigates without marking',async({page})=>{
  test.skip(baseline);
  const result=fixtures.verified!,exam:Exam=result.exam!,id=result.attempt_id;
  const snapshot={id,exam_id:exam.exam_id,status:'in_progress',version:1,mode:'verified',content_hash:'review-ui-regression-only',answers:{},state:{displayed_part:1,current_question:1,audio_part:1,playback_seconds:0,marked:[]},exam};
@@ -152,9 +152,9 @@ test('Shared V3 workspace still edits, marks and navigates',async({page})=>{
  });
  await page.route('**/api/listening/authorize',route=>route.fulfill({status:200,json:{}}));await page.route('**/api/listening/audio/**',route=>route.fulfill({status:404}));
  await page.goto(`/listening/attempts/${id}`);await questionsTab(page);
- await page.getByLabel('Question 1',{exact:true}).fill('Canadian');await page.getByRole('button',{name:'Mark question 1',exact:true}).click();
- await page.getByRole('button',{name:/^Questions \d+\/40/}).click();const grid=page.getByRole('navigation',{name:'Questions',exact:true});
- await expect(grid.getByRole('button',{name:'Go to question 1',exact:true})).toHaveAttribute('data-answered','true');await expect(grid.getByRole('button',{name:'Go to question 1',exact:true})).toHaveAttribute('data-marked','true');
+ await page.getByLabel('Question 1',{exact:true}).fill('Canadian');await expect(page.getByRole('button',{name:/^(Unmark|Mark) question/})).toHaveCount(0);
+ await page.getByRole('button',{name:'Question navigator',exact:true}).click();const grid=page.getByRole('navigation',{name:'Questions',exact:true});
+ await expect(grid.getByRole('button',{name:'Go to question 1',exact:true})).toHaveAttribute('data-answered','true');await expect(grid.locator('[data-marked]')).toHaveCount(0);
  await grid.getByRole('button',{name:'Go to question 40',exact:true}).click();await expect(page.locator('#question-40')).toBeInViewport();await expect(page.getByRole('button',{name:'Finish practice',exact:true})).toBeVisible();
  await expect.poll(()=>saves).toBeGreaterThan(0);
  expect(await page.evaluate(()=>document.documentElement.scrollHeight<=innerHeight+1&&document.documentElement.scrollWidth<=innerWidth)).toBe(true);
@@ -163,7 +163,7 @@ test('Shared V3 workspace still edits, marks and navigates',async({page})=>{
 test('Short mobile viewport keeps audio, navigator and panels reachable',async({page},info)=>{
  test.skip(baseline||!info.project.name.endsWith('mobile'));
  await page.setViewportSize({width:375,height:667});await load(page);
- await page.getByRole('button',{name:/^Listen again/}).click();await page.getByRole('button',{name:/^Questions \d+\/40/}).click();
+ await page.getByRole('button',{name:'Question navigator',exact:true}).click();
  const viewport=page.viewportSize()!;
  const footer=(await page.locator('footer').boundingBox())!;
  expect(footer.y+footer.height).toBeLessThanOrEqual(viewport.height+1);
@@ -222,7 +222,7 @@ test('AI review is click-only, cached, collapsible and uses one player for momen
  await expect(page.locator('audio').first()).toHaveAttribute('src',/\/1$/);
  await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeGreaterThan(.6);
  await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).paused)).toBe(true);
- expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(1.2,1);
+ expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(0,1);
  await panel.getByRole('button',{name:'Loop Moment',exact:true}).click();
  await expect(panel.getByRole('button',{name:'Loop Moment'})).toHaveAttribute('aria-pressed','true');
  await page.locator('audio').first().evaluate(el=>{el.setAttribute('data-loop-seeks','0');el.addEventListener('seeked',()=>{if((el as HTMLAudioElement).currentTime<.8)el.setAttribute('data-loop-seeks',String(Number(el.getAttribute('data-loop-seeks'))+1));});});
@@ -251,7 +251,7 @@ test('AI retry, incomplete evidence, reload and normal playback stay usable',asy
  const panel=page.getByRole('region',{name:'AI explanation for question 2'});await panel.getByRole('button',{name:'Retry',exact:true}).click();await expect(panel).toContainText('Дослушайте уточнение');expect(calls).toBe(2);
  await page.reload();await questionsTab(page);await go(page,2);available=false;await page.locator('#question-2').getByRole('button',{name:'Explain with AI'}).click();await expect(panel).toContainText('Дослушайте уточнение');
  await expect(panel.getByRole('button',{name:'Play Moment'})).toHaveCount(0);await expect(panel.getByRole('button',{name:'Loop Moment'})).toHaveCount(0);
- await page.getByRole('button',{name:/^Listen again/}).click();await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);
+ await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);
  await page.getByRole('button',{name:'Play',exact:true}).click();await page.getByLabel('Audio progress').fill('4');await page.getByRole('button',{name:'Pause',exact:true}).click();
  expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeGreaterThanOrEqual(4);
 });

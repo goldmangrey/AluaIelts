@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "kind": "listening",
+      "count": 15,
+      "viewport": "desktop",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 15,
+      "review": "PASS",
+      "player": "PASS",
+      "duplicate_asset_GETs_on_return": 0
+    },
+    {
+      "kind": "listening",
+      "count": 40,
+      "viewport": "mobile",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 40,
+      "review": "PASS",
+      "player": "PASS",
+      "duplicate_asset_GETs_on_return": 0
+    },
+    {
+      "kind": "reading",
+      "count": 15,
+      "viewport": "mobile",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 15,
+      "review": "PASS",
+      "player": null,
+      "duplicate_asset_GETs_on_return": null
+    },
+    {
+      "kind": "reading",
+      "count": 40,
+      "viewport": "desktop",
+      "exam": "PASS",
+      "real_backend_422_recovery": "PASS",
+      "reload": "PASS",
+      "submit": "PASS",
+      "backend_result_count": 40,
+      "review": "PASS",
+      "player": null,
+      "duplicate_asset_GETs_on_return": null
+    }
+  ],
+  "page_errors": []
+}

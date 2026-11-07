@@ -1,0 +1,55 @@
+{
+  "suites": [
+    {
+      "suite": "atomic 15/40 + silent saves, reload, 422 retry",
+      "cases": 18,
+      "status": "PASS",
+      "backend": "Real local Next proxy + FastAPI + disposable PostgreSQL",
+      "engines": [
+        "chromium",
+        "webkit"
+      ]
+    },
+    {
+      "suite": "IndexedDB failure warning and blocked Finish",
+      "cases": 6,
+      "status": "PASS",
+      "backend": "Real local Next proxy + FastAPI + disposable PostgreSQL",
+      "engines": [
+        "chromium",
+        "webkit"
+      ]
+    },
+    {
+      "suite": "compact layout, drag/keyboard resize and question navigation",
+      "cases": 6,
+      "status": "PASS",
+      "backend": "Real local Next proxy + FastAPI + disposable PostgreSQL",
+      "engines": [
+        "chromium",
+        "webkit"
+      ]
+    }
+  ],
+  "cases_passed": 30,
+  "network_scope": "localhost only, external requests blocked",
+  "answer_counts_verified_in_backend_result": [
+    15,
+    40
+  ],
+  "controller_fault_matrix": "25 cases PASS",
+  "typescript": "PASS",
+  "eslint": "PASS",
+  "production_build": "PASS",
+  "production_deploy": false,
+  "player_v4": {
+    "cases_passed": 8,
+    "waveforms_validated": 288,
+    "status": "PASS"
+  },
+  "navigation": {
+    "cases_passed": 8,
+    "duplicate_asset_GETs_on_return": 0,
+    "scroll_restoration": "PASS"
+  }
+}

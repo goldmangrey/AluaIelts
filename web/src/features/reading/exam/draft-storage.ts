@@ -1,10 +1,11 @@
+import type {SubmissionEvent} from "@/features/exam-reliability/final-snapshot";
 import type { SaveEvent } from "./answers";
 export interface Highlight { id: string; passageId: string; block: number; start: number; end: number; quote: string }
 export interface ViewDraft { passage: number; current: string | null; review: string[]; size: number; split: number; mobile: "passage" | "questions"; views: [number, { passageId: string; textScrollTop: number; questionsScrollTop: number; lastFocusedQuestionId: string | null }][]; highlights: Highlight[] }
 export interface Draft {
   key: string; uid: string; attemptId: string; hash: string; revision: number; modified: number;
-  version: number; base: Record<string,string>; answers: Record<string,string>; pending?: SaveEvent;
-  submit?: { event_id: string; expected_version: number }; finalizing?: boolean; conflicts?:{id:string;local:string;server:string}[]; view?: ViewDraft;
+  version: number; base: Record<string,string>; answers: Record<string,string>; pending?: SaveEvent; pendingRevision?:number;
+  submit?: SubmissionEvent; rejectedSubmit?:SubmissionEvent; legacySubmit?:SubmissionEvent; listening?:unknown; finalizing?: boolean; finalAnswers?:Record<string,string>; conflicts?:{id:string;local:string;server:string}[]; view?: ViewDraft;
 }
 export interface DraftStore { read(): Promise<Draft | undefined>; write(value: Draft): Promise<void>; acquire(): Promise<boolean>; release(): Promise<void> }
 const revoked = new Set<string>();
@@ -45,7 +46,7 @@ export function browserDraftStore(uid:string, id:string, hash:string, owner:stri
       const database=await db();
       await new Promise<void>((resolve,reject)=>{
         const tx=database.transaction(["drafts","leases"],"readwrite");const r=tx.objectStore("leases").get(key);
-        r.onsuccess=()=>{if(revoked.has(uid)||r.result?.owner!==owner||r.result.expires<=Date.now()){tx.abort();return}tx.objectStore("drafts").put(value)};
+        r.onsuccess=()=>{if(revoked.has(uid)||r.result?.owner!==owner||r.result.expires<=Date.now()){tx.abort();return}const drafts=tx.objectStore("drafts");const previous=drafts.get(key);previous.onsuccess=()=>{if(previous.result&&previous.result.revision>value.revision){tx.abort();return}drafts.put({...value,key})}};
         const timer=setTimeout(()=>{tx.abort();reject(new Error("Local storage timed out"))},5000);
         tx.oncomplete=()=>{clearTimeout(timer);resolve()};tx.onerror=()=>{clearTimeout(timer);reject(tx.error)};tx.onabort=()=>{clearTimeout(timer);reject(new Error("Local draft lease expired. Reload to recover safely."))};
       });

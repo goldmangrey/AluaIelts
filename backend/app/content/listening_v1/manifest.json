@@ -1182,20 +1182,24 @@
   "generator_sha256": {
     "image_repairs.json": "ef0eb861965b7d7575f01bb924afb5e3ca07cfb4b2a71c6d46ed678b9cb1b597",
     "image_repairs.py": "a25ac3c8cf0e82de6c8394197d14c9db3d2c52cc7842604e9355ce9190aad00b",
-    "importer.py": "c67f9b0fd1762b345abb4891c2cd0785599031b44573ab9657fcb41938561201",
+    "importer.py": "28b31ea3f06e3fae3f517141db353a6128b0c71566b658116de5d3e491c1c786",
     "repair_images.py": "7ff78a6d539d2bf85f682ae69d1e3b2d66bfdfc9211d1cdf829c18df61fad879",
     "report.py": "42d7e2cf902f1799c6d3fcf96a0780bfa044281c8e61a3a863a4350e8076bc09",
+    "report_source_fidelity.py": "d5b3ddf6d80d87c04a18631ecdee7b3fa1a9a0080159ab35a643bd87984a9e2a",
     "schema.py": "c7e6cdfc5f62b41b3218fb3dbb0839ef1410b7736f5f6be16b50907c7a936690",
-    "source_reviews.json": "8439d95d56bdb3c50e201a8b79bb07c3b48f5bee124fd964eadec08bd46f8cb3",
+    "source_fidelity.json": "700f9d1a62d49a088ec79ef21064ae5f080f22f92aef3d93cf4dfe580c45a47d",
+    "source_fidelity.py": "e755bec774f9461c15b082fceb2a39aff2e8ecefbd574ef8fc72f33fe2436558",
+    "source_reviews.json": "3c8afaf0c294e11078293f058bb72190160ee7de2133a8df26b64c935913bdd4",
     "test_contract.py": "2be34100c20f7f9772e7bec79cfe3895c62e7943da09a21eff17257b947b8e29",
     "test_image_repairs.py": "474befbcd3d01c1f9049baf6869c4953aa53a63cb04ffcef03b8238c36bae07d",
-    "test_visual_materials.py": "ae7729a65db407304d38a31011ffee603a2c6eae7c1b440566ec511591294df5",
+    "test_source_fidelity.py": "9d8f51085f2b3b8e7a1a7cac6ae61e232a4199d95a3fc51a10e1009027815b3a",
+    "test_visual_materials.py": "5928034d0c9989bb601bd4a58fdd9816908fd1f49571b6570ae1716af7ed4493",
     "validator.py": "f22ddcb207117c98d63a8d88230517c23625b0c740cd8fd34a65213eecebf2cb",
-    "visual_materials.py": "74ff173900883e545610bd33ae0a0960ed67cf3d8c3825a09b107d967e9cbd85"
+    "visual_materials.py": "9237d841d074e3801c03b3fd60e759fb9e62e527225ffc9cb7a0652aa88fe3b2"
   },
   "schema_sha256": {
     "listening_exam.schema.json": "77c599321fbbc33b4d97d3b09dda80321b0621bd9e72f75ef40b2a0e2989c829",
     "listening_private_key.schema.json": "735943f6f43b42ff50c9e0ffd47c4253fb5216a15292d8b8b9b28050e8ba7900"
   },
-  "visual_materials_sha256": "c7ae6411a22fa8b717b7130a1b726ece9579f64a82579208b17aa6daf716e3c0"
+  "visual_materials_sha256": "3e1eaeb68497434066a0b4929c93e69b666637d2dec6c42135ccd92f2989713e"
 }

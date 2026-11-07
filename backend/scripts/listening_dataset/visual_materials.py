@@ -28,6 +28,16 @@ def apply_visual_materials(exam, registry=None):
         key = f"{exam['exam_id']}-p{part['part_number']}"
         policy = registry["parts"][key]
         materials = policy["materials"]
+        fidelity = policy.get("source_fidelity", {})
+        if (
+            fidelity.get("update_source_reference")
+            and fidelity.get("pdf_pages")
+            and "source_reference" in part
+        ):
+            part["source_reference"]["pdf_pages"] = fidelity["pdf_pages"]
+            part["source_reference"]["pdf_page_basis"] = (
+                "source_fidelity_v2_original_pdf_boundaries"
+            )
         covered = {a for m in materials for a in [m["asset_id"], *m["alternative_asset_ids"]]}
         excluded = set(policy.get("excluded_asset_ids", []))
         actual = set(part["supporting_assets"])

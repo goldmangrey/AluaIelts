@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "kind": "source",
+      "exam_id": "cambridge-04-test-01",
+      "part": 4,
+      "viewport": "desktop",
+      "exam": "PASS",
+      "review": "PASS",
+      "ordered_assets": [
+        "asset-46cf8087c6b2ecfce5c5cd182c3328477f898859e46ae4c65201c3fbcdfae06e"
+      ],
+      "focus_invariance": "PASS",
+      "source_fidelity": "VERIFIED"
+    },
+    {
+      "kind": "source",
+      "exam_id": "cambridge-06-test-02",
+      "part": 1,
+      "viewport": "mobile",
+      "exam": "PASS",
+      "review": "PASS",
+      "ordered_assets": [
+        "asset-f3b18bdf58d5a232baaca6da50d1a7d3ce4c3cc9bd120281d7f4ea8d239ad99b",
+        "asset-1ab319d4dff1ce6fcde22c5f6db4d3c9d12456f57018a54229f374081146e03a"
+      ],
+      "focus_invariance": "PASS",
+      "source_fidelity": "VERIFIED"
+    }
+  ],
+  "page_errors": [
+    {
+      "type": "check_failure",
+      "message": "page.waitForFunction: Timeout 35000ms exceeded."
+    }
+  ]
+}

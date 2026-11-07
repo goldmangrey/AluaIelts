@@ -8,7 +8,13 @@ export interface Part {part_number:number;question_range:number[];groups:Group[]
 export interface Exam {exam_id:string;book:number;printed_test_number:number;local_ordinal:number;parts:Part[];assets:{asset_id:string;relative_path:string;width:number;height:number}[]}
 export interface Entry {exam_id:string;book:number;printed_test_number:number;local_ordinal:number;content_mode:Mode;can_start:boolean;block_reason:string|null;question_count:number;renderable_count:number;active_attempt_id:string|null;answered_count:number;completed_count:number;audio:{technically_available:boolean;available_parts:number[];decode_verified_parts:number;content_mapping_verified_parts:number}}
 export interface State {displayed_part:number;current_question:number;audio_part:number;playback_seconds:number;marked:number[]}
-export interface Attempt {id:string;exam_id:string;status:"in_progress"|"submitted";version:number;mode:Mode;content_hash:string;answers:Record<string,string>;state:State;exam?:Exam}
+export interface Attempt {answers_checksum?:string;final_snapshot_accepted?:boolean;id:string;exam_id:string;status:"in_progress"|"submitted";version:number;mode:Mode;content_hash:string;answers:Record<string,string>;state:State;exam?:Exam}
 export interface ResultRow {question_id:string;question_number:number;part_number:number;user_answer:string;correct:boolean|null;correct_answer:string|null;grading_issue:string|null;key_verified:boolean}
-export interface Result {attempt_id:string;mode:Mode;label:string;correct_count:number|null;total_questions:number;graded_count:number;answered_count:number;accuracy:number|null;estimated_band:number|null;band_table_version:string|null;parts:{part_number:number;correct:number|null;answered:number;total:number;graded:number}[];questions:ResultRow[];exam?:Exam;grading_issues:Record<string,string>}
+export interface Result {content_hash?:string;attempt_id:string;mode:Mode;label:string;correct_count:number|null;total_questions:number;graded_count:number;answered_count:number;accuracy:number|null;estimated_band:number|null;band_table_version:string|null;parts:{part_number:number;correct:number|null;answered:number;total:number;graded:number}[];questions:ResultRow[];exam?:Exam;grading_issues:Record<string,string>}
 export interface Sync {event_id:string;expected_version:number;answers:Record<string,string>;state:State}
+/** Presentation-only source flow; never part of an answer or mutable draft. */
+export interface SourceSegment {
+ id:string;part:number;questionRange:number[];order:number;kind:"image"|"text"|"options";
+ assetId?:string;sourceGroupId?:string;lines?:Extract<Block,{kind:"source_line"}>[];
+ instructions?:string;provenance:{pdfPages:number[];pdfSha256?:string;verified:boolean};
+}

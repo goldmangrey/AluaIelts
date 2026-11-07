@@ -69,6 +69,20 @@ class StateMutation(StrictModel):
 class SubmitMutation(StrictModel):
     event_id: UUID
     expected_version: int = Field(ge=0)
+    answers: dict[str, str] | None = Field(default=None, max_length=40)
+    answers_checksum: str | None = Field(default=None, pattern=r"^[0-9a-f]{64}$")
+    local_revision: int | None = Field(default=None, ge=0)
+
+    @model_validator(mode="after")
+    def final_snapshot(self):
+        if self.answers is not None:
+            if self.answers_checksum is None or self.local_revision is None:
+                raise ValueError("Complete final snapshot required")
+            if any(len(k) > 100 or len(v) > 500 for k, v in self.answers.items()):
+                raise ValueError("Answer exceeds limits")
+        elif self.answers_checksum is not None or self.local_revision is not None:
+            raise ValueError("Final answers required")
+        return self
 
 
 class CheckMutation(StrictModel):

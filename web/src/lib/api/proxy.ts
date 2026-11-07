@@ -23,7 +23,7 @@ async function read(stream: ReadableStream<Uint8Array> | null, limit: number, si
 function failure(status: number, code: string) {
   return Response.json({ error: { code, message: "The Alua API request could not complete." } }, { status, headers: PRIVATE_HEADERS });
 }
-export async function proxyAlua(request: Request, segments: string[], configured = process.env.NEXT_PUBLIC_API_BASE_URL, timeout = 12_000): Promise<Response> {
+export async function proxyAlua(request: Request, segments: string[], configured = process.env.NEXT_PUBLIC_API_BASE_URL, timeout?: number): Promise<Response> {
   if (!configured) return failure(503, "api_not_configured");
   let base: URL;
   try {
@@ -36,7 +36,12 @@ export async function proxyAlua(request: Request, segments: string[], configured
   target.search = new URL(request.url).search;
   const controller = new AbortController();
   const abort = () => controller.abort(); request.signal.addEventListener("abort", abort, { once: true });
-  const timer = setTimeout(abort, timeout);
+  // Private full-page images can outlive the JSON budget on the Worker-to-origin hop.
+  // Keep mutation/deadline behavior unchanged; cancellation and body limits still apply.
+  const listeningImage = request.method === "GET" && segments.length === 5 &&
+    segments[0] === "listening" && segments[1] === "attempts" && segments[3] === "assets" &&
+    /^[0-9a-f-]{36}$/i.test(segments[2]!) && /^asset-[0-9a-f]{64}$/i.test(segments[4]!);
+  const timer = setTimeout(abort, timeout ?? (listeningImage ? 60_000 : 12_000));
   try {
     if (request.signal.aborted) controller.abort();
     const headers = new Headers();

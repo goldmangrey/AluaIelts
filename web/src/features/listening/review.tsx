@@ -2,6 +2,7 @@
 import Link from "next/link";
 import {useCallback,useRef,useState} from "react";
 import type {Group,Question,Result,ResultRow} from "./models";
+import {AudioProgress} from "./audio-progress";
 import {Player,type Moment} from "./player";
 import {AIExplanation,type AIExplanationData} from "./ai-explanation";
 import {WorkspaceQuestions} from "./workspace-questions";
@@ -39,7 +40,7 @@ export function ListeningReview({result,uid}:{result:Result;uid:string}) {
   const [current,setCurrent]=useState(result.questions[0]?.question_number||1);
   const [navigation,setNavigation]=useState(0);
   const [filter,setFilter]=useState<Filter>("all");
-  const [audioOpen,setAudioOpen]=useState(false),[audioPart,setAudioPart]=useState(1),[replay,setReplay]=useState(0);
+  const [audioProgress]=useState(()=>new AudioProgress(uid,result.attempt_id,result.exam?.exam_id||result.attempt_id));
   const rows=new Map(result.questions.map(q=>[q.question_number,q]));
   const byId=new Map(result.questions.map(q=>[q.question_id,q]));
   const counts:Record<ReviewStatus,number>={correct:0,incorrect:0,unanswered:0,ungraded:0};
@@ -53,8 +54,10 @@ export function ListeningReview({result,uid}:{result:Result;uid:string}) {
   function playMoment(data:AIExplanationData,loop:boolean){
     const e=data.evidence;if(!e.available||e.clip_start===null||e.clip_end===null||opened===null)return;
     if(loop&&moment?.loop&&moment.question===opened){setMoment(undefined);return;}
-    setAudioOpen(true);setAudioPart(e.part);setMoment({request:++momentRequest.current,part:e.part,start:e.clip_start,end:e.clip_end,loop,question:opened});
+    setMoment({request:++momentRequest.current,part:e.part,start:e.clip_start,end:e.clip_end,loop,question:opened});
   }
+  const lastQuestions=useRef(new Map<number,number>());
+  function viewPart(p:number){lastQuestions.current.set(part,current);const saved=lastQuestions.current.get(p);const next=filtered.find(q=>q.part_number===p&&q.question_number===saved)||filtered.find(q=>q.part_number===p)||result.questions.find(q=>q.part_number===p);if(next)go(next.question_number);}
   function go(n:number) {
     if(visible&&!visible.has(n))setFilter("all");
     focus(n);setNavigation(v=>v+1);
@@ -78,13 +81,13 @@ export function ListeningReview({result,uid}:{result:Result;uid:string}) {
       </dl>
       {result.graded_count<result.total_questions&&<p className={r.keyNotice}>Partial score · {result.graded_count}/{result.total_questions} questions graded.</p>}
       <div className={r.controls}>
-        <nav className={s.tabs} aria-label="Review parts">{[1,2,3,4].map(p=><button type="button" key={p} aria-pressed={part===p} onClick={()=>{const next=filtered.find(q=>q.part_number===p)||result.questions.find(q=>q.part_number===p);if(next)go(next.question_number);setMoment(undefined);setAudioPart(p);}}>Part {p}</button>)}</nav>
+
         <nav className={r.filters} aria-label="Review filters"><button type="button" aria-pressed={filter==="all"} onClick={()=>applyFilter("all")}>All</button>{counts.incorrect>0&&<button type="button" aria-pressed={filter==="incorrect"} onClick={()=>applyFilter("incorrect")}>Incorrect <span>{counts.incorrect}</span></button>}{counts.unanswered>0&&<button type="button" aria-pressed={filter==="unanswered"} onClick={()=>applyFilter("unanswered")}>Unanswered <span>{counts.unanswered}</span></button>}</nav>
-        {exam&&<button type="button" className={r.audioToggle} aria-expanded={audioOpen} aria-controls="review-audio" onClick={()=>{setMoment(undefined);setAudioOpen(v=>!v);}}>{audioOpen?"Hide audio":"Listen again"}<span aria-hidden="true"> {audioOpen?"⌃":"⌄"}</span></button>}
+
       </div>
-      {audioOpen&&exam&&<div id="review-audio" className={r.audioRow}><div className={r.audioPart}><label htmlFor="review-audio-part">Audio</label><select id="review-audio-part" value={audioPart} onChange={e=>{setMoment(undefined);setAudioPart(Number(e.target.value));}}>{[1,2,3,4].map(p=><option key={p} value={p}>Part {p}</option>)}</select><button type="button" onClick={()=>{setMoment(undefined);setReplay(v=>v+1);}}>Replay part</button></div><div className={w.audio}><Player key={replay} uid={uid} attemptId={result.attempt_id} book={exam.book} part={audioPart} position={0} onCheckpoint={ignoreAnswer} onPart={p=>{setMoment(undefined);setAudioPart(p);}} moment={moment} onMomentStop={stopMoment}/></div></div>}
+      {exam&&<div className={w.audio}><Player uid={uid} attemptId={result.attempt_id} examId={exam.exam_id} initialPart={1} position={0} progress={audioProgress} visiblePart={part} onVisiblePart={viewPart} onCheckpoint={ignoreAnswer} onPart={p=>go((p-1)*10+1)} moment={moment} onMomentStop={stopMoment}/></div>}
     </header>
-    {exam?<WorkspaceQuestions exam={exam} part={part} current={current} navigation={navigation} uid={uid} id={result.attempt_id} answers={Object.fromEntries(result.questions.map(q=>[q.question_id,q.user_answer]))} onAnswer={ignoreAnswer} onFocus={focus} disabled visibleQuestions={visible} questionStatus={q=>reviewStatus(byId.get(q.question_id))} renderAnswer={(question,group)=><><SavedAnswer row={byId.get(question.question_id)} question={question} group={group}/>{reviewStatus(byId.get(question.question_id))==="incorrect"&&<div className={r.aiReview}><button type="button" aria-expanded={opened===question.question_number} onClick={()=>{focus(question.question_number);setMoment(undefined);setOpened(v=>v===question.question_number?null:question.question_number);}}>Explain with AI</button>{opened===question.question_number&&<AIExplanation key={question.question_id} uid={uid} attemptId={result.attempt_id} number={question.question_number} initial={explanationCache.current.get(question.question_number)} onLoaded={cacheExplanation} onPlay={playMoment} looping={!!moment?.loop&&moment.question===question.question_number}/>}</div>}</>}/>:<section className={r.unavailable} role="status">Original question material is unavailable for this saved result. <Link href={`/listening/attempts/${result.attempt_id}/results`}>View the saved answer breakdown</Link>.</section>}
+    {exam?<WorkspaceQuestions contentHash={result.content_hash} exam={exam} part={part} current={current} navigation={navigation} uid={uid} id={result.attempt_id} answers={Object.fromEntries(result.questions.map(q=>[q.question_id,q.user_answer]))} onAnswer={ignoreAnswer} onFocus={focus} disabled visibleQuestions={visible} questionStatus={q=>reviewStatus(byId.get(q.question_id))} renderAnswer={(question,group)=><><SavedAnswer row={byId.get(question.question_id)} question={question} group={group}/>{reviewStatus(byId.get(question.question_id))==="incorrect"&&<div className={r.aiReview}><button type="button" aria-expanded={opened===question.question_number} onClick={()=>{focus(question.question_number);setMoment(undefined);setOpened(v=>v===question.question_number?null:question.question_number);}}>Explain with AI</button>{opened===question.question_number&&<AIExplanation key={question.question_id} uid={uid} attemptId={result.attempt_id} number={question.question_number} initial={explanationCache.current.get(question.question_number)} onLoaded={cacheExplanation} onPlay={playMoment} looping={!!moment?.loop&&moment.question===question.question_number}/>}</div>}</>}/>:<section className={r.unavailable} role="status">Original question material is unavailable for this saved result. <Link href={`/listening/attempts/${result.attempt_id}/results`}>View the saved answer breakdown</Link>.</section>}
     <WorkspaceNavigator navigation={navigation} current={current} onGo={go} questions={Array.from({length:result.total_questions},(_,i)=>{const number=i+1,row=rows.get(number),status=reviewStatus(row);return {number,answered:!!row?.user_answer.trim(),status,title:`Question ${number} · ${reviewStatusLabel[status]}`};})}
       description={`${result.answered_count}/${result.total_questions} answered${filter!=="all"?` · Showing ${filter}`:""}`} legend={graded?"Green: correct · Red: incorrect · Grey: unanswered · Blue: not graded":"Grey: unanswered · Blue: not graded"}
       leading={<span className={r.readOnly}>Read-only review</span>}/>

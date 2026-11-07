@@ -22,7 +22,7 @@
           1,
           2
         ],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
         "asset-5d5797fc540a6809abe3cc84e3e4b1c331f4c3a9be431d8bbe0984509705afca",
@@ -750,9 +750,10 @@
           3,
           4
         ],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
+        "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
         "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
       ],
       "audio_mapping_key": {
@@ -782,7 +783,7 @@
           "answer_bank": null,
           "selection": null,
           "supporting_assets": [
-            "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
+            "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8"
           ],
           "content_blocks": [
             {
@@ -991,6 +992,7 @@
           "answer_bank": null,
           "selection": null,
           "supporting_assets": [
+            "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
             "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
           ],
           "content_blocks": [
@@ -1224,6 +1226,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 14,
@@ -1265,6 +1268,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 15,
@@ -1306,6 +1310,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 16,
@@ -1347,6 +1352,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 17,
@@ -1388,6 +1394,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 18,
@@ -1429,6 +1436,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 19,
@@ -1470,6 +1478,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
                   "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
                 ],
                 "printed_question_number": 20,
@@ -1482,12 +1491,22 @@
       ],
       "visual_materials": [
         {
-          "asset_id": "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd",
+          "asset_id": "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
           "question_range": [
             11,
             20
           ],
           "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd",
+          "question_range": [
+            14,
+            20
+          ],
+          "display_order": 2,
           "asset_role": "source_page",
           "alternative_asset_ids": []
         }
@@ -1510,9 +1529,11 @@
           6,
           7
         ],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
+        "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+        "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
         "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
       ],
       "audio_mapping_key": {
@@ -1542,7 +1563,7 @@
           "answer_bank": null,
           "selection": null,
           "supporting_assets": [
-            "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
+            "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad"
           ],
           "content_blocks": [
             {
@@ -1810,7 +1831,8 @@
           },
           "selection": null,
           "supporting_assets": [
-            "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
+            "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+            "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f"
           ],
           "content_blocks": [
             {
@@ -2232,6 +2254,7 @@
           },
           "selection": null,
           "supporting_assets": [
+            "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
             "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
           ],
           "content_blocks": [
@@ -2481,6 +2504,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
                   "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
                 ],
                 "printed_question_number": 28,
@@ -2522,6 +2546,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
                   "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
                 ],
                 "printed_question_number": 29,
@@ -2563,6 +2588,7 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
+                  "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
                   "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
                 ],
                 "printed_question_number": 30,
@@ -2575,12 +2601,32 @@
       ],
       "visual_materials": [
         {
-          "asset_id": "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944",
+          "asset_id": "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
           "question_range": [
             21,
-            30
+            27
           ],
           "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
+          "question_range": [
+            23,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944",
+          "question_range": [
+            28,
+            30
+          ],
+          "display_order": 3,
           "asset_role": "source_page",
           "alternative_asset_ids": []
         }
@@ -2601,7 +2647,7 @@
         "pdf_pages": [
           8
         ],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
         "asset-46cf8087c6b2ecfce5c5cd182c3328477f898859e46ae4c65201c3fbcdfae06e"
@@ -3183,6 +3229,22 @@
   ],
   "assets": [
     {
+      "asset_id": "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+      "relative_path": "assets/public/0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad.png",
+      "sha256": "0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+      "byte_size": 240388,
+      "width": 2092,
+      "height": 2948
+    },
+    {
+      "asset_id": "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
+      "relative_path": "assets/public/187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8.png",
+      "sha256": "187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
+      "byte_size": 199499,
+      "width": 2092,
+      "height": 2948
+    },
+    {
       "asset_id": "asset-46cf8087c6b2ecfce5c5cd182c3328477f898859e46ae4c65201c3fbcdfae06e",
       "relative_path": "assets/public/46cf8087c6b2ecfce5c5cd182c3328477f898859e46ae4c65201c3fbcdfae06e.png",
       "sha256": "46cf8087c6b2ecfce5c5cd182c3328477f898859e46ae4c65201c3fbcdfae06e",
@@ -3205,6 +3267,14 @@
       "byte_size": 48138,
       "width": 1191,
       "height": 1684
+    },
+    {
+      "asset_id": "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
+      "relative_path": "assets/public/ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f.png",
+      "sha256": "ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
+      "byte_size": 158159,
+      "width": 2092,
+      "height": 2948
     },
     {
       "asset_id": "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd",

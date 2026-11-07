@@ -67,6 +67,9 @@ export function parseAttempt(v: unknown, requireExam = false): Attempt {
   if (!Number.isFinite(Date.parse(a.server_now)) || (a.deadline_at !== null && !Number.isFinite(Date.parse(a.deadline_at))) || (a.mode === "full_exam" && !a.deadline_at)) fail();
   if(o.started_at!==undefined)a.started_at=text(o.started_at);
   if(o.submitted_at!==undefined)a.submitted_at=o.submitted_at===null?null:text(o.submitted_at);
+  if(o.answers_checksum!==undefined)a.answers_checksum=text(o.answers_checksum);
+  if(o.final_snapshot_accepted!==undefined)a.final_snapshot_accepted=bool(o.final_snapshot_accepted);
+  if(o.rejection_reason!==undefined)a.rejection_reason=text(o.rejection_reason);
   if (o.mutation_applied !== undefined) a.mutation_applied = bool(o.mutation_applied);
   if (o.exam !== undefined) { a.exam = parseExam(o.exam); if (a.exam.id !== a.exam_id) fail(); const ids = new Set(allQuestions(a.exam).map((q) => q.id)); if (Object.keys(answers).some((id) => !ids.has(id))) fail(); }
   if (a.mode === "full_exam" && a.status === "in_progress") noKeys({ ...o, answers: undefined });

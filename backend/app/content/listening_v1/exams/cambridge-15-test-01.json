@@ -18,8 +18,10 @@
         "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
         "line_start": 30,
         "line_end": 62,
-        "pdf_pages": [],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_pages": [
+          12
+        ],
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
         "asset-d744e4d1767553d7453b80982af166eb979fc8ce5b5025c45deced279a087827"
@@ -602,10 +604,14 @@
         "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
         "line_start": 63,
         "line_end": 126,
-        "pdf_pages": [],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
+        "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
         "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2"
       ],
       "audio_mapping_key": {
@@ -635,7 +641,7 @@
           "answer_bank": null,
           "selection": null,
           "supporting_assets": [
-            "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2"
+            "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a"
           ],
           "content_blocks": [
             {
@@ -1428,12 +1434,22 @@
       ],
       "visual_materials": [
         {
-          "asset_id": "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2",
+          "asset_id": "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
           "question_range": [
             11,
-            20
+            14
           ],
           "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2",
+          "question_range": [
+            15,
+            20
+          ],
+          "display_order": 2,
           "asset_role": "source_page",
           "alternative_asset_ids": []
         }
@@ -1451,10 +1467,16 @@
         "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
         "line_start": 127,
         "line_end": 178,
-        "pdf_pages": [],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
-      "supporting_assets": [],
+      "supporting_assets": [
+        "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+        "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+      ],
       "audio_mapping_key": {
         "book": 15,
         "printed_test_number": 1,
@@ -1525,7 +1547,9 @@
             ]
           },
           "selection": null,
-          "supporting_assets": [],
+          "supporting_assets": [
+            "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2"
+          ],
           "content_blocks": [
             {
               "kind": "source_line",
@@ -1888,7 +1912,9 @@
           "presentation_mode": "structured",
           "answer_bank": null,
           "selection": null,
-          "supporting_assets": [],
+          "supporting_assets": [
+            "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+          ],
           "content_blocks": [
             {
               "kind": "source_line",
@@ -2119,7 +2145,9 @@
             "minimum_selected": 2,
             "maximum_selected": 2
           },
-          "supporting_assets": [],
+          "supporting_assets": [
+            "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+          ],
           "content_blocks": [
             {
               "kind": "source_line",
@@ -2266,7 +2294,28 @@
           ]
         }
       ],
-      "visual_materials": []
+      "visual_materials": [
+        {
+          "asset_id": "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+          "question_range": [
+            21,
+            26
+          ],
+          "display_order": 1,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        },
+        {
+          "asset_id": "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f",
+          "question_range": [
+            27,
+            30
+          ],
+          "display_order": 2,
+          "asset_role": "source_page",
+          "alternative_asset_ids": []
+        }
+      ]
     },
     {
       "part_number": 4,
@@ -2280,8 +2329,10 @@
         "file": "Cambridge_IELTS_15/Cambridge_IELTS_15_Listening.txt",
         "line_start": 179,
         "line_end": 221,
-        "pdf_pages": [],
-        "pdf_page_basis": "prepared_source_metadata_not_independently_confirmed"
+        "pdf_pages": [
+          17
+        ],
+        "pdf_page_basis": "source_fidelity_v2_original_pdf_boundaries"
       },
       "supporting_assets": [
         "asset-0e536766259672c99efcc5eb53549ca3db4ddfebb1113210ef12f860136b035a"
@@ -2895,12 +2946,36 @@
       "height": 2274
     },
     {
+      "asset_id": "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
+      "relative_path": "assets/public/b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a.png",
+      "sha256": "b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
+      "byte_size": 961871,
+      "width": 2091,
+      "height": 2948
+    },
+    {
+      "asset_id": "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f",
+      "relative_path": "assets/public/c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f.png",
+      "sha256": "c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f",
+      "byte_size": 1066042,
+      "width": 2091,
+      "height": 2948
+    },
+    {
       "asset_id": "asset-d744e4d1767553d7453b80982af166eb979fc8ce5b5025c45deced279a087827",
       "relative_path": "assets/public/d744e4d1767553d7453b80982af166eb979fc8ce5b5025c45deced279a087827.jpg",
       "sha256": "d744e4d1767553d7453b80982af166eb979fc8ce5b5025c45deced279a087827",
       "byte_size": 270387,
       "width": 1608,
       "height": 2274
+    },
+    {
+      "asset_id": "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+      "relative_path": "assets/public/dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2.png",
+      "sha256": "dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+      "byte_size": 888518,
+      "width": 2091,
+      "height": 2948
     }
   ],
   "validation": {

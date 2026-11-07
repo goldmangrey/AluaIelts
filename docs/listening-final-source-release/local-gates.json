@@ -1,0 +1,25 @@
+{
+  "gates": {
+    "backend_tests": true,
+    "listening_submit": true,
+    "reading_submit": true,
+    "source_browser": true,
+    "image_tests": true,
+    "open_next": true,
+    "ruff": true,
+    "image_transport_regression": true,
+    "navigation_after_transport": true,
+    "cloudflare_readonly_canary": true,
+    "typescript": true,
+    "eslint": true,
+    "production_build": true,
+    "reading_contracts_12": true
+  },
+  "release_policy": "GO with explicit C14 T3 P1 original-layout exception",
+  "production_deployed": true,
+  "source_verified_parts": 287,
+  "source_unresolved_parts": [
+    "cambridge-14-test-03-p1"
+  ],
+  "production_smoke": "PASS \u2014 final public answer 4/4 and source 4/4"
+}

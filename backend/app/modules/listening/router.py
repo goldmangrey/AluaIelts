@@ -7,7 +7,7 @@ from fastapi.responses import FileResponse
 from app.core.auth import AuthenticatedUser, get_current_user
 from app.db.database import get_database
 from app.modules.listening.catalog import audio_mime, get_catalog
-from app.modules.listening.schemas import CreateAttempt, Mutation, Sync
+from app.modules.listening.schemas import CreateAttempt, Submit, Sync
 from app.modules.listening.service import ListeningService
 
 
@@ -57,7 +57,7 @@ def sync(attempt_id: UUID, body: Sync, identity: Identity, service: Service):
 
 
 @router.post("/attempts/{attempt_id}/submit")
-def submit(attempt_id: UUID, body: Mutation, identity: Identity, service: Service):
+def submit(attempt_id: UUID, body: Submit, identity: Identity, service: Service):
     return service.mutate(identity.uid, str(attempt_id), "submit", body)
 
 

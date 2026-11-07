@@ -1,0 +1,73 @@
+{
+  "waveforms_validated": 288,
+  "cases": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "mode": "exam",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "chromium-desktop-exam-player.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "mode": "review",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "chromium-desktop-review-player.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "mode": "exam",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "chromium-mobile-exam-player.png"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "mode": "review",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "chromium-mobile-review-player.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "mode": "exam",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "webkit-desktop-exam-player.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "mode": "review",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "webkit-desktop-review-player.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "mode": "exam",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "webkit-mobile-exam-player.png"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "mode": "review",
+      "status": "PASS",
+      "real_audio": true,
+      "screenshot": "webkit-mobile-review-player.png"
+    }
+  ],
+  "unverified": [],
+  "errors": [],
+  "fixture": "/var/folders/_g/xbptzdhs4k7440tn19h7zq6w0000gp/T/alua-listening-ui-Y7mIFd",
+  "scope": "Real local Cambridge MP3 and production UI; synthetic local identity/attempt/AI responses. No production connections."
+}

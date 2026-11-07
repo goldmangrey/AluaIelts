@@ -1,0 +1,24 @@
+{
+  "base_commit": "941fefabf1f60cf8601d503c01a8d3a881ce0006",
+  "overlay": {
+    "src/features/listening/source-material.ts": "f291d3d1fa0ad29d63ad57290de6d1379059f6d45602db7c0aa2a1dfb37b1593",
+    "src/features/listening/visual-materials.json": "3e1eaeb68497434066a0b4929c93e69b666637d2dec6c42135ccd92f2989713e",
+    "src/features/listening/workspace.module.css": "e218e4b4823988008cef119d02a9b6ff1368d43808f28e319713d724534ee7d4",
+    "src/features/listening/workspace-navigator.tsx": "efef8b66bedcc1a580f7ebdc9e62c6e4a0a2ebcada6fa6c2e4ff267e0e559d6c",
+    "src/features/listening/player.module.css": "ac43ddb5cf4bf3eb97eaccca13c67ec84775fa9c67117d6853dc3fb244b6a7fb",
+    "src/features/listening/models.ts": "d9db2bc84d15f60d91af2d15c11ccf1711bc1ba8e431e42aedee4035b097eda2",
+    "src/features/listening/pages.tsx": "c4543b382b6047a068d5d33f7dbd0373249016e44277a60e3b4420644d723c90",
+    "src/features/listening/player.tsx": "559e7e7dcf31dde067d30c34e73f8246fcb5b02d2b3ce2da29df1ab88c4170b2",
+    "src/features/listening/workspace-questions.tsx": "5500bb2b8f089f2c8d8cdb5f08b0355ae9a5001b94599cc633a161fda77185b6",
+    "src/lib/api/proxy.ts": "a76264a244658492d34069150e98bb5982f300f53cd178adce9d889027d22b39",
+    "src/features/listening/api.ts": "0741cee446b19ca86bb6db3a6c4ececc5eef07348a08343d26f0c10f92f54103",
+    "src/features/listening/asset-cache.ts": "418169e5b41c0769978d711c23f03d52fa5f414ce7b09597706cc029e8e4d956"
+  },
+  "preserved_production_file": {
+    "path": "web/src/features/reading/exam/exam.module.css",
+    "git_source": "0f81eb4",
+    "sha256": "d8b56e8da5492738762ede8b9c17d35f00b6cc7969051831656a4842c726ec2b",
+    "reason": "Preserve prior deployed Reading layout; no Reading design change in this release."
+  },
+  "worker_version": "2a752cce-890a-4860-9350-01741f5877bc"
+}

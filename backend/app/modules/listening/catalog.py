@@ -8,6 +8,7 @@ from pathlib import Path
 
 from app.core.config import get_settings
 from app.core.exceptions import NotFoundError, ValidationError
+from app.modules.listening.source_materials import enrich_sources
 
 CONTENT = Path(__file__).resolve().parents[2] / "content"
 
@@ -208,8 +209,8 @@ class ListeningCatalog:
             }
         )
 
-    @staticmethod
-    def public_exam(exam):
+    def public_exam(self, exam):
+        exam = enrich_sources(exam, self.exams.get(exam["exam_id"]))
         # Explicit top-level allowlist: private keys and QA are never part of this projection.
         return copy.deepcopy(
             {
@@ -227,6 +228,7 @@ class ListeningCatalog:
         )
 
     def asset(self, exam, aid):
+        exam = enrich_sources(exam, self.exams.get(exam["exam_id"]))
         record = next((a for a in exam["assets"] if a["asset_id"] == aid), None)
         if not record or not record["relative_path"].startswith("assets/public/"):
             raise NotFoundError("Image not found.")

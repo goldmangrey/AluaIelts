@@ -21,6 +21,7 @@ import fitz
 from image_repairs import add_repaired_assets
 from PIL import Image
 from schema import write as write_schemas
+from source_fidelity import add_source_fidelity_assets
 from visual_materials import REGISTRY as VISUAL_REGISTRY
 from visual_materials import apply_visual_materials, reviewed_associations
 
@@ -1142,6 +1143,7 @@ def run(input_root, output, pdf_root):
         # Reviewed Stage 2 derivatives enter the same asset registry/allowlist.
         # Missing or changed original PDFs fail closed instead of reviving old crops.
         repair_ids = add_repaired_assets(assets, pdfs[0] if pdfs else None, b)
+        repair_ids += add_source_fidelity_assets(assets, pdfs[0] if pdfs else None, b)
         for ordinal, t in enumerate(expected_tests, 1):
             eid = f"cambridge-{b:02}-test-{t:02}"
             if b == 12:

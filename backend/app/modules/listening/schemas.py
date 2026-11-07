@@ -41,3 +41,21 @@ class Sync(Mutation):
         if any(len(k) > 100 or len(v) > 500 for k, v in self.answers.items()):
             raise ValueError("Answer exceeds limits")
         return self
+
+
+class Submit(Mutation):
+    answers: dict[str, str] | None = Field(default=None, max_length=40)
+    state: State | None = None
+    answers_checksum: str | None = Field(default=None, pattern=r"^[0-9a-f]{64}$")
+    local_revision: int | None = Field(default=None, ge=0)
+
+    @model_validator(mode="after")
+    def final_snapshot(self):
+        if self.answers is not None:
+            if self.state is None or self.answers_checksum is None or self.local_revision is None:
+                raise ValueError("Complete final snapshot required")
+            if any(len(k) > 100 or len(v) > 500 for k, v in self.answers.items()):
+                raise ValueError("Answer exceeds limits")
+        elif any(v is not None for v in (self.state, self.answers_checksum, self.local_revision)):
+            raise ValueError("Final answers required")
+        return self

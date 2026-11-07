@@ -685,8 +685,8 @@
       "supporting_assets": [
         "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
         "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
-        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
       ],
       "audio_mapping_key": {
         "book": 20,
@@ -1339,8 +1339,8 @@
           },
           "selection": null,
           "supporting_assets": [
-            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
           ],
           "content_blocks": [
             {
@@ -1474,8 +1474,8 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
-                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
                 ],
                 "printed_question_number": 17,
                 "source_location": null,
@@ -1516,8 +1516,8 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
-                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
                 ],
                 "printed_question_number": 18,
                 "source_location": null,
@@ -1558,8 +1558,8 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
-                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
                 ],
                 "printed_question_number": 19,
                 "source_location": null,
@@ -1600,8 +1600,8 @@
               "issues": [],
               "visual_binding": {
                 "asset_ids": [
-                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+                  "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+                  "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
                 ],
                 "printed_question_number": 20,
                 "source_location": null,
@@ -1633,26 +1633,26 @@
           "alternative_asset_ids": []
         },
         {
-          "asset_id": "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
+          "asset_id": "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
           "question_range": [
             17,
-            19
+            20
           ],
           "display_order": 3,
           "asset_role": "source_page",
-          "alternative_asset_ids": []
+          "alternative_asset_ids": [
+            "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352"
+          ]
         },
         {
-          "asset_id": "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+          "asset_id": "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
           "question_range": [
             17,
             20
           ],
           "display_order": 4,
           "asset_role": "source_page",
-          "alternative_asset_ids": [
-            "asset-e5e5248c8f932e02b56f06a5bc0056b7781c554cc425f66e7fa828284ac8b352"
-          ]
+          "alternative_asset_ids": []
         }
       ]
     },

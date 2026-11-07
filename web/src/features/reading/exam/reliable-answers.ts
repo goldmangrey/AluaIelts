@@ -1,3 +1,6 @@
+import {rejectedSubmit} from "@/features/exam-reliability/submit-errors";
+import {answersChecksum,canonicalAnswers,type SubmissionEvent} from "@/features/exam-reliability/final-snapshot";
+import {allQuestions} from "./models";
 import { ApiError } from "@/lib/api/client";
 import type { Attempt } from "./models";
 import type { SaveEvent, SaveAnswers } from "./answers";
@@ -8,20 +11,20 @@ export type Phase = "loading" | "in_progress" | "finalizing" | "submission_unkno
 export interface Conflict { id:string; local:string; server:string }
 export interface ReliableSnapshot {
   answers: Record<string,string>; dirty:number; saving:boolean; error:unknown; terminal:boolean;
-  phase:Phase; localSaving:boolean; localError:unknown; offline:boolean; conflicts:Conflict[]; otherTab:boolean;
+  phase:Phase; rejected?:boolean; rejectionReason?:"deadline"|"different_snapshot"; localSaving:boolean; localError:unknown; offline:boolean; conflicts:Conflict[]; otherTab:boolean;
   clock: { serverNow:string; deadline:string|null; revision:number }; view?:ViewDraft; version:number;
 }
 export interface ReliabilityOptions {
   store:DraftStore; uid:string; get:()=>Promise<Attempt>; save:SaveAnswers;
-  submit:(event:{event_id:string;expected_version:number})=>Promise<Attempt>;
+  submit:(event:SubmissionEvent)=>Promise<Attempt>;
   tokenRefresh?:()=>Promise<unknown>; online?:()=>boolean; onUnauthorized?:()=>void;
 }
 /** Durable outbox; the server alone owns acceptance, time and scoring. */
 export class ReliableAnswers {
-  private state:ReliableSnapshot; private base:Record<string,string>; private pending?:SaveEvent;
-  private submission?:{event_id:string;expected_version:number}; private revision=0; private listeners=new Set<()=>void>();
+  private state:ReliableSnapshot; private base:Record<string,string>; private pending?:SaveEvent; private pendingRevision?:number;
+  private rejectedSubmission?:SubmissionEvent; private legacySubmission?:SubmissionEvent; private submission?:SubmissionEvent; private finalAnswers?:Record<string,string>; private revision=0; private listeners=new Set<()=>void>();
   private flight?:Promise<void>; private writes=Promise.resolve(); private debounce?:ReturnType<typeof setTimeout>;
-  private retry?:ReturnType<typeof setTimeout>; private retries=0; private disposed=false; private mounted=0;
+  private retry?:ReturnType<typeof setTimeout>; private retries=0; private finalConflicts=0; private disposed=false; private mounted=0;
   private lease?:ReturnType<typeof setInterval>; private leased=false; private view?:ViewDraft;
   private terminalAttempt?:Attempt; private initialized=false;
   constructor(private attempt:Attempt, private options:ReliabilityOptions) {
@@ -36,7 +39,7 @@ export class ReliableAnswers {
     this.state.dirty=Object.keys(this.state.answers).filter(id=>(this.state.answers[id]??"")!==(this.base[id]??"")).length;
     this.listeners.forEach(fn=>fn());
   }
-  private record():Draft {return {key:JSON.stringify([this.options.uid,this.attempt.id,this.attempt.content_hash]),uid:this.options.uid,attemptId:this.attempt.id,hash:this.attempt.content_hash,revision:++this.revision,modified:Date.now(),version:this.state.version,base:{...this.base},answers:{...this.state.answers},pending:this.pending?structuredClone(this.pending):undefined,submit:this.submission,finalizing:this.state.phase==="finalizing"||this.state.phase==="submission_unknown",conflicts:this.state.conflicts,view:this.view}}
+  private record():Draft {return {key:JSON.stringify([this.options.uid,this.attempt.id,this.attempt.content_hash]),uid:this.options.uid,attemptId:this.attempt.id,hash:this.attempt.content_hash,revision:++this.revision,modified:Date.now(),version:this.state.version,base:{...this.base},answers:{...this.state.answers},pending:this.pending?structuredClone(this.pending):undefined,pendingRevision:this.pendingRevision,submit:this.submission,rejectedSubmit:this.rejectedSubmission,legacySubmit:this.legacySubmission,finalAnswers:this.finalAnswers,finalizing:this.state.phase==="finalizing"||this.state.phase==="submission_unknown",conflicts:this.state.conflicts,view:this.view}}
   private persist():Promise<void> {
     if(!this.leased || this.disposed)return Promise.reject(new Error("This tab cannot write the local draft."));
     const value=this.record();this.publish({localSaving:true});
@@ -54,11 +57,16 @@ export class ReliableAnswers {
       if(this.disposed){await this.options.store.release();return}
       if(draft && draft.uid===this.options.uid && draft.attemptId===this.attempt.id && draft.hash===this.attempt.content_hash) {
         validateDraft(draft,this.attempt,this.options.uid);
-        this.base=draft.base;this.pending=draft.pending;this.submission=draft.submit;this.view=draft.view;this.revision=draft.revision;
-        this.publish({answers:draft.answers,version:draft.version,view:draft.view,conflicts:draft.conflicts??[],phase:draft.finalizing?"submission_unknown":"in_progress"});
+        this.base=draft.base;this.pending=draft.pending;this.pendingRevision=draft.pendingRevision;this.submission=draft.submit;this.rejectedSubmission=draft.rejectedSubmit;this.legacySubmission=draft.legacySubmit;this.finalAnswers=draft.finalAnswers;this.view=draft.view;this.revision=draft.revision;
+        this.publish({answers:draft.answers,version:draft.version,view:draft.view,conflicts:draft.conflicts??[],error:draft.rejectedSubmit?new ApiError(422,"request_validation_error"):null,phase:draft.finalizing?"submission_unknown":"in_progress"});
       } else this.publish({phase:"in_progress"});
-      if(this.attempt.status!=="in_progress")this.acceptTerminal(this.attempt);
-      else if(!this.pending&&!this.submission)this.merge(this.attempt);
+      if(this.attempt.status!=="in_progress"){
+        if(this.submission)await this.confirmSubmission(this.attempt,false);
+        else this.acceptTerminal(this.attempt);
+      }else if(this.submission&&!this.submission.answers){
+        // Retain the exact legacy event for reconciliation; the atomic event gets a new UUID.
+        this.legacySubmission=this.submission;this.submission=undefined;this.finalAnswers=canonicalAnswers(this.ids(),this.state.answers);
+      }else if(!this.pending&&!this.submission)this.merge(this.attempt);
       this.initialized=true;
       await this.persist();
       this.lease=setInterval(()=>void this.renew(),1000);
@@ -74,8 +82,22 @@ export class ReliableAnswers {
     clearTimeout(this.debounce);this.debounce=setTimeout(()=>void this.flush(),600);
   };
   saveView=(view:ViewDraft)=>{if(!this.initialized||this.state.localError||this.state.otherTab||this.state.phase==="loading")return;this.view=view;void this.persist().catch(()=>{})};
+  private ids(){return allQuestions(this.attempt.exam!).map(q=>q.id);}
+  private async finalEvent():Promise<SubmissionEvent>{
+    const answers=this.finalAnswers||canonicalAnswers(this.ids(),this.state.answers);
+    if(JSON.stringify(answers)!==JSON.stringify(canonicalAnswers(this.ids(),this.state.answers)))throw new ApiError(409,"reading_final_snapshot_changed");
+    return {event_id:eventId(),expected_version:this.state.version,answers,answers_checksum:await answersChecksum(answers),local_revision:this.revision};
+  }
+  private async confirmSubmission(server:Attempt,requireAcceptance=true){
+    if(server.status==="expired"){this.acceptTerminal(server);this.publish({rejected:true,rejectionReason:"deadline",error:new ApiError(409,"reading_deadline_rejected")});return;}
+    const expected=this.submission?.answers_checksum||await answersChecksum(this.finalAnswers||canonicalAnswers(this.ids(),this.state.answers));
+    if(server.status!=="submitted"||server.answers_checksum!==expected||requireAcceptance&&server.final_snapshot_accepted!==true||await answersChecksum(canonicalAnswers(this.ids(),server.answers))!==expected)throw new ApiError(409,"reading_final_snapshot_mismatch");
+    this.finalConflicts=0;this.acceptTerminal(server);
+  }
   private acceptTerminal(server:Attempt) {
     if(server.id!==this.attempt.id||server.exam_id!==this.attempt.exam_id||server.content_hash!==this.attempt.content_hash)throw new ApiError(502,"unexpected_reading_response");
+    const unaccepted=Object.keys(this.state.answers).some(id=>(this.state.answers[id]??"")!==(server.answers[id]??""));
+    if(unaccepted)this.publish({rejected:true,rejectionReason:server.status==="expired"?"deadline":"different_snapshot",error:new ApiError(409,server.status==="expired"?"reading_deadline_rejected":"reading_final_snapshot_mismatch")});
     this.terminalAttempt=server;
     this.base={...server.answers};
     this.publish({terminal:true,phase:"terminal",version:server.version,clock:{serverNow:server.server_now,deadline:server.deadline_at,revision:this.state.clock.revision+1},saving:false});
@@ -119,7 +141,7 @@ export class ReliableAnswers {
       try{await this.writes}catch(error){this.publish({localError:error,error});return}
       if(this.options.online?.()===false){this.publish({offline:true,error:new ApiError(0,"network_error")});return}
       await this.work();
-    })();await this.flight;this.flight=undefined;
+    })();const flight=this.flight;try{await flight}finally{if(this.flight===flight)this.flight=undefined;this.publish({})};
   };
   private async send<T>(fn:()=>Promise<T>):Promise<T> {
     try{return await fn()}catch(error){if(error instanceof ApiError&&error.status===401&&this.options.tokenRefresh){await this.options.tokenRefresh();return fn()}throw error}
@@ -129,9 +151,9 @@ export class ReliableAnswers {
     try {
       let conflicts=0;
       while(!this.disposed&&!this.state.terminal&&!this.state.conflicts.length) {
-        if(this.submission){await this.persist();const ack=await this.send(()=>this.options.submit(this.submission!));if(ack.status==="in_progress")throw new ApiError(502,"unexpected_reading_response");this.acceptTerminal(ack);await this.persist();break}
+        if(this.submission){await this.persist();const remote=await this.options.get();if(remote.status!=="in_progress"){await this.confirmSubmission(remote,false);await this.persist();break;}const ack=await this.send(()=>this.options.submit(this.submission!));if(ack.status==="in_progress")throw new ApiError(502,"unexpected_reading_response");await this.confirmSubmission(ack);await this.persist();break}
         if(!this.state.dirty&&!this.pending)break;
-        this.pending??={event_id:eventId(),expected_version:this.state.version,answers:Object.fromEntries(Object.entries(this.state.answers).filter(([id,v])=>v!==(this.base[id]??"")))};
+        if(!this.pending){this.pending={event_id:eventId(),expected_version:this.state.version,answers:Object.fromEntries(Object.entries(this.state.answers).filter(([id,v])=>v!==(this.base[id]??"")))};this.pendingRevision=this.revision;}
         // Never transmit a mutation before its exact replay data commits locally.
         await this.persist();const event=this.pending;
         try {
@@ -139,7 +161,7 @@ export class ReliableAnswers {
           if(ack.id!==this.attempt.id)throw new ApiError(502,"unexpected_reading_response");
           if(ack.status!=="in_progress"){this.acceptTerminal(ack);await this.persist();break}
           if(ack.mutation_applied!==true||ack.version!==event.expected_version+1)throw new ApiError(409,"reading_version_conflict");
-          this.base={...this.base,...event.answers};this.pending=undefined;this.publish({version:ack.version});
+          this.base={...this.base,...event.answers};this.pending=undefined;this.pendingRevision=undefined;this.publish({version:ack.version});
           await this.persist();
           // Replayed acknowledgements may predate subsequent writes on another device.
           if(this.options.get)this.merge(await this.options.get());
@@ -147,28 +169,34 @@ export class ReliableAnswers {
         }catch(error){
           if(error instanceof ApiError&&error.status===409&&error.code==="reading_version_conflict"){
             // 409 explicitly rejects this event; a fresh CAS event is allowed after merge.
-            const server=await this.options.get();this.pending=undefined;this.merge(server);await this.persist();if(this.state.conflicts.length||this.state.terminal)break;if(++conflicts>=3)throw new ApiError(409,"reading_version_conflict");continue;
+            const server=await this.options.get();this.pending=undefined;this.pendingRevision=undefined;this.merge(server);await this.persist();if(this.state.conflicts.length||this.state.terminal)break;if(++conflicts>=3)throw new ApiError(409,"reading_version_conflict");continue;
           }
           throw error;
         }
       }
       if(!this.state.terminal&&!this.state.conflicts.length&&this.state.phase!=="in_progress") {
-        this.submission={event_id:eventId(),expected_version:this.state.version};await this.persist();
-        const ack=await this.send(()=>this.options.submit(this.submission!));if(ack.status==="in_progress")throw new ApiError(502,"unexpected_reading_response");this.acceptTerminal(ack);await this.persist();
+        this.submission=await this.finalEvent();await this.persist();
+        const ack=await this.send(()=>this.options.submit(this.submission!));if(ack.status==="in_progress")throw new ApiError(502,"unexpected_reading_response");await this.confirmSubmission(ack);await this.persist();
       }
       this.retries=0;this.publish({saving:false});
     }catch(error){
+      if(this.submission&&rejectedSubmit(error)){
+        this.rejectedSubmission=this.submission;this.submission=undefined;this.finalAnswers=undefined;
+        this.publish({saving:false,error,phase:"in_progress"});try{await this.persist()}catch(localError){this.publish({localError})}return;
+      }
       if(this.submission && error instanceof ApiError && error.code==="reading_version_conflict") {
-        try{this.submission=undefined;this.merge(await this.options.get());await this.persist();this.publish({saving:false,error:null});this.retry=setTimeout(()=>void this.flush(),0);return}catch(next){error=next}
+        try{this.submission=undefined;this.merge(await this.options.get());await this.persist();if(++this.finalConflicts>=3)throw error;this.publish({saving:false,error:null});this.retry=setTimeout(()=>void this.flush(),0);return}catch(next){error=next}
       }
       if(error instanceof ApiError&&error.status===401)this.options.onUnauthorized?.();
       this.publish({saving:false,error,phase:this.submission?"submission_unknown":this.state.phase});this.schedule(error);
     }
   }
   canReturnToTest=()=>!this.submission&&!this.flight&&this.state.phase==="finalizing";
-  returnToTest=()=>{if(!this.canReturnToTest())return;this.publish({phase:"in_progress",error:null});void this.persist().catch(()=>{})};
+  returnToTest=async()=>{if(!this.canReturnToTest())return;try{const remote=await this.options.get();this.merge(remote);if(!this.state.terminal){this.finalAnswers=undefined;this.finalConflicts=0;this.publish({phase:"in_progress",error:null});}await this.persist()}catch(error){this.publish({error})}};
   finish=async()=>{
     if(this.state.phase!=="in_progress"||this.state.terminal||this.state.otherTab||this.state.conflicts.length)return;
+    if(this.state.localError||!this.initialized||!this.leased)return;
+    this.rejectedSubmission=undefined;this.finalAnswers=canonicalAnswers(this.ids(),this.state.answers);
     this.publish({phase:"finalizing"});
     try{await this.persist();await this.flush()}catch(error){this.publish({error,localError:error})}
   };

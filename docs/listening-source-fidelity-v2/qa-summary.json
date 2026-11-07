@@ -1,0 +1,329 @@
+{
+  "source_browser_cases": 2304,
+  "post_binding_browser_cases": 64,
+  "source_browser_errors": [],
+  "player": {
+    "waveforms_validated": 288,
+    "cases": [
+      {
+        "engine": "chromium",
+        "mobile": false,
+        "mode": "exam",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "chromium-desktop-exam-player.png"
+      },
+      {
+        "engine": "chromium",
+        "mobile": false,
+        "mode": "review",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "chromium-desktop-review-player.png"
+      },
+      {
+        "engine": "chromium",
+        "mobile": true,
+        "mode": "exam",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "chromium-mobile-exam-player.png"
+      },
+      {
+        "engine": "chromium",
+        "mobile": true,
+        "mode": "review",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "chromium-mobile-review-player.png"
+      },
+      {
+        "engine": "webkit",
+        "mobile": false,
+        "mode": "exam",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "webkit-desktop-exam-player.png"
+      },
+      {
+        "engine": "webkit",
+        "mobile": false,
+        "mode": "review",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "webkit-desktop-review-player.png"
+      },
+      {
+        "engine": "webkit",
+        "mobile": true,
+        "mode": "exam",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "webkit-mobile-exam-player.png"
+      },
+      {
+        "engine": "webkit",
+        "mobile": true,
+        "mode": "review",
+        "status": "PASS",
+        "real_audio": true,
+        "screenshot": "webkit-mobile-review-player.png"
+      }
+    ],
+    "unverified": [],
+    "errors": [],
+    "fixture": "/var/folders/_g/xbptzdhs4k7440tn19h7zq6w0000gp/T/alua-listening-ui-Ts2ogB",
+    "scope": "Real local Cambridge MP3 and production UI; synthetic local identity/attempt/AI responses. No production connections."
+  },
+  "navigation": {
+    "cases": [
+      {
+        "engine": "chromium",
+        "mobile": false,
+        "mode": "exam",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "durable reload + two-tab lease PASS"
+      },
+      {
+        "engine": "chromium",
+        "mobile": false,
+        "mode": "review",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "readonly"
+      },
+      {
+        "engine": "chromium",
+        "mobile": true,
+        "mode": "exam",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "durable reload + two-tab lease PASS"
+      },
+      {
+        "engine": "chromium",
+        "mobile": true,
+        "mode": "review",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "readonly"
+      },
+      {
+        "engine": "webkit",
+        "mobile": false,
+        "mode": "exam",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "durable reload + two-tab lease PASS"
+      },
+      {
+        "engine": "webkit",
+        "mobile": false,
+        "mode": "review",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "readonly"
+      },
+      {
+        "engine": "webkit",
+        "mobile": true,
+        "mode": "exam",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "durable reload + two-tab lease PASS"
+      },
+      {
+        "engine": "webkit",
+        "mobile": true,
+        "mode": "review",
+        "status": "PASS",
+        "duplicateAssetGetsOnReturn": 0,
+        "uniqueRequests": 8,
+        "scroll": "PASS",
+        "indexedDB": "readonly"
+      }
+    ],
+    "errors": [],
+    "unverified": [],
+    "fixture": "/var/folders/_g/xbptzdhs4k7440tn19h7zq6w0000gp/T/alua-listening-ui-eaU7jL"
+  },
+  "compact_v5": {
+    "cases": [
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "height": 900,
+        "header": 44,
+        "player": 108,
+        "footer": 0,
+        "workspace": 729,
+        "workspaceBottom": 900,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "chromium",
+        "width": 1366,
+        "height": 768,
+        "header": 44,
+        "player": 108,
+        "footer": 0,
+        "workspace": 597,
+        "workspaceBottom": 768,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "chromium",
+        "width": 1280,
+        "height": 720,
+        "header": 44,
+        "player": 108,
+        "footer": 0,
+        "workspace": 549,
+        "workspaceBottom": 720,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "height": 844,
+        "header": 44,
+        "player": 102,
+        "footer": 0,
+        "workspace": 643,
+        "workspaceBottom": 844,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "chromium",
+        "width": 375,
+        "height": 667,
+        "header": 44,
+        "player": 102,
+        "footer": 0,
+        "workspace": 466,
+        "workspaceBottom": 667,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "height": 900,
+        "header": 44,
+        "player": 108,
+        "footer": 0,
+        "workspace": 729,
+        "workspaceBottom": 900,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "webkit",
+        "width": 1366,
+        "height": 768,
+        "header": 44,
+        "player": 108,
+        "footer": 0,
+        "workspace": 597,
+        "workspaceBottom": 768,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "webkit",
+        "width": 1280,
+        "height": 720,
+        "header": 44,
+        "player": 108,
+        "footer": 0,
+        "workspace": 549,
+        "workspaceBottom": 720,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "height": 844,
+        "header": 44,
+        "player": 102,
+        "footer": 0,
+        "workspace": 643,
+        "workspaceBottom": 844,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      },
+      {
+        "engine": "webkit",
+        "width": 375,
+        "height": 667,
+        "header": 44,
+        "player": 102,
+        "footer": 0,
+        "workspace": 466,
+        "workspaceBottom": 667,
+        "leftBeforeRight": true,
+        "overflow": false,
+        "status": "PASS"
+      }
+    ],
+    "errors": [],
+    "unverified": []
+  },
+  "backend_tests": {
+    "passed": 17,
+    "source_compatibility_tests": 4,
+    "database": "disposable local PostgreSQL only"
+  },
+  "atomic_submit": {
+    "status": "PASS",
+    "browser_cases": 12,
+    "accepted_answer_counts": [
+      15,
+      40
+    ],
+    "scope": "Real local Next + FastAPI + disposable PostgreSQL. Includes 422/reload/retry/Review; no production"
+  },
+  "image_recipe_tests": {
+    "passed": 11,
+    "post_binding_metadata_recheck": 9,
+    "regenerated_new_assets": 36,
+    "stage2_canonical_assets_preserved": 45
+  },
+  "typecheck": "PASS",
+  "eslint": "PASS",
+  "ruff_changed_python": "PASS",
+  "production_build": "PASS",
+  "dataset_technical_integrity": "PASS",
+  "source_release_gate": "NO-GO",
+  "production_connections": false,
+  "commit_push_deploy": false
+}

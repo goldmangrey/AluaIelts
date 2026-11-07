@@ -1,0 +1,20 @@
+{
+  "first_failure": {
+    "worker": "86ca4cc8-abe2-44e0-b6fd-e459119a2935",
+    "reason": "Confirmed new PNG proxy 504 at original 12-second image budget",
+    "paired_rollback": "COMPLETED"
+  },
+  "second_failure": {
+    "worker": "2a752cce-890a-4860-9350-01741f5877bc",
+    "reason": "C07 browser decode wait exceeded 80 seconds; no HTTP trace captured in this early run",
+    "paired_rollback": "COMPLETED"
+  },
+  "subsequent_evidence": [
+    "preview-production-source-browser.json",
+    "production-source-browser.json",
+    "public-image-probe.json"
+  ],
+  "current_status": "Final public source 4/4 and stricter answer 4/4 PASS; image HTTP errors zero",
+  "previous_backend": "submit-hotfix-20261107-e32ccee9a645",
+  "previous_worker": "df984c2e-270e-45a4-a4cd-a23a8746cd46"
+}

@@ -15692,7 +15692,8 @@
     "backend/scripts/listening_dataset/sources/answer_keys_04_18.txt": "de43f2f7994fe149639a122cea27cde4ad3c8a48655233f5edb723bb0fcbdc78",
     "ieltsbooks/Cambridge-IELTS-19.pdf": "5b460d32f81cba72576e097dba82d8817717f8ae6a261b428916b49dcbdb86c2",
     "ieltsbooks/Cambridge-IELTS-21.pdf": "380b27bc658e606a72f1313e8b3375ab878865479e847d9b8598bbc8fa17d661",
-    "backend/scripts/listening_dataset/sources/cambridge-06-test-02-part-1.png": "1ab319d4dff1ce6fcde22c5f6db4d3c9d12456f57018a54229f374081146e03a"
+    "backend/scripts/listening_dataset/sources/cambridge-06-test-02-part-1.png": "1ab319d4dff1ce6fcde22c5f6db4d3c9d12456f57018a54229f374081146e03a",
+    "backend/scripts/listening_dataset/sources/cambridge-07-test-04-part-1-clean.png": "408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9"
   },
   "review_notes": [
     {
@@ -15778,6 +15779,34 @@
       ],
       "source_url": "https://karatalk.com/wp-content/uploads/Cambridge-IELTS-6.pdf",
       "pdf_sha256": "91cccbe5d53c8ae3c236a1e6ac376ab3470bd5bb7d766bb0ad5b65a4174dc403"
+    },
+    {
+      "file": "backend/scripts/listening_dataset/sources/cambridge-07-test-04-part-1-clean.png",
+      "book": 7,
+      "test": 4,
+      "part": 1,
+      "pdf_page": 85,
+      "comparison_pdf_page": 85,
+      "source_pdf_page": 82,
+      "replaces_pages": [
+        85
+      ],
+      "source_url": "https://www.pfcedu.com/data/upload/file/20170616/Cambridge_IELTS7.pdf",
+      "pdf_sha256": "34376d7bb8180d9e1846a505932b16a9512f1ff10c3e3201761d826138f26da7",
+      "render_recipe": {
+        "finding_id": "C014-final-original",
+        "source_pdf_sha256": "34376d7bb8180d9e1846a505932b16a9512f1ff10c3e3201761d826138f26da7",
+        "pdf_page": 82,
+        "clip_normalized": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "dpi": 250,
+        "padding_px": 12,
+        "new_asset_id": "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9"
+      }
     }
   ]
 }

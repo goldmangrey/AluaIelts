@@ -3,31 +3,31 @@
     "tests": 72,
     "parts": 288,
     "groups": 568,
-    "parts_with_multiple_unique_images": 177,
+    "parts_with_multiple_unique_images": 196,
     "confirmed_missing_render_parts": 0,
     "confirmed_missing_render_states": 0,
     "initial_missing_render_parts": 0,
     "states_checked": 568,
     "suspected_cases": 0,
-    "browser_verified_parts": 15,
-    "browser_verified_mode_cases": 30,
+    "browser_verified_parts": 0,
+    "browser_verified_mode_cases": 0,
     "union_duplicate_pairs": 0,
     "union_order_inversions": 0,
     "wrong_part": 0,
-    "empty_image_groups": 16,
-    "browser_status": "COMPLETED"
+    "empty_image_groups": 0,
+    "browser_status": "NOT RUN"
   },
   "definitions": {
     "actual": "Initial current = first question; contexts list every group-first current. Expected = canonical ordered union of suitable group assets for all visible Part questions.",
     "scope": "Current dataset, Exam and Review All. Filtered Review must union materials for visible questions only. No assertion of full physical crop quality."
   },
   "source_sha256": {
-    "web/src/features/listening/source-material.ts": "3d22a0ad914009b065f815210ecfda0c1e6dcd50458dfb9ef696473338fe7ff7",
-    "web/src/features/listening/workspace-questions.tsx": "c5a05f6f004aaea72d77ccb243c21b8c22904f8a313df5844ee89e315149cc55",
-    "web/src/features/listening/questions.tsx": "ed1a82a488878bcf00f587a7b221a7dafbf4b2ef23e78b6d493be4dc66c3d9ee",
-    "web/src/features/listening/pages.tsx": "8b47e79d46307f024ec528c9effae4b891a0134d9d265ddba0c6b1c5086f7696",
-    "web/src/features/listening/review.tsx": "20d3c2a3c6e97094b0e05106401eb50b8bf628c82c5256d24c9b10182b8719e9",
-    "web/src/features/listening/visual-materials.json": "c7ae6411a22fa8b717b7130a1b726ece9579f64a82579208b17aa6daf716e3c0"
+    "web/src/features/listening/source-material.ts": "f291d3d1fa0ad29d63ad57290de6d1379059f6d45602db7c0aa2a1dfb37b1593",
+    "web/src/features/listening/workspace-questions.tsx": "5500bb2b8f089f2c8d8cdb5f08b0355ae9a5001b94599cc633a161fda77185b6",
+    "web/src/features/listening/questions.tsx": "5e8a19002b45201c30c17eefbf7fd1211b14a27596e3025e7527cb230a864a23",
+    "web/src/features/listening/pages.tsx": "c4543b382b6047a068d5d33f7dbd0373249016e44277a60e3b4420644d723c90",
+    "web/src/features/listening/review.tsx": "32dd1bb7d6c5a8bac32ad503aca6dfc2f6477be319b8ed8ca14abad4233c62ce",
+    "web/src/features/listening/visual-materials.json": "3e1eaeb68497434066a0b4929c93e69b666637d2dec6c42135ccd92f2989713e"
   },
   "parts": [
     {
@@ -59,7 +59,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 1,
@@ -113,9 +113,11 @@
         ]
       ],
       "expected_asset_ids": [
+        "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
         "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
       ],
       "actual_asset_ids": [
+        "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
         "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
       ],
       "missing_asset_ids": [],
@@ -129,6 +131,7 @@
             13
           ],
           "actual_asset_ids": [
+            "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
             "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
           ],
           "missing_asset_ids": [],
@@ -143,6 +146,7 @@
             20
           ],
           "actual_asset_ids": [
+            "asset-187666f62a15efb86e1d38267de4301c93da0a2772fc63bf50f41ad7639efbe8",
             "asset-cf6f3bb8fe7b194730fbcd8f88aa9de8caea2e2dc826216be5218c611b30f3cd"
           ],
           "missing_asset_ids": [],
@@ -176,9 +180,13 @@
         ]
       ],
       "expected_asset_ids": [
+        "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+        "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
         "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
       ],
       "actual_asset_ids": [
+        "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+        "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
         "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
       ],
       "missing_asset_ids": [],
@@ -192,6 +200,8 @@
             22
           ],
           "actual_asset_ids": [
+            "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+            "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
             "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
           ],
           "missing_asset_ids": [],
@@ -206,6 +216,8 @@
             27
           ],
           "actual_asset_ids": [
+            "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+            "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
             "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
           ],
           "missing_asset_ids": [],
@@ -220,6 +232,8 @@
             30
           ],
           "actual_asset_ids": [
+            "asset-0093e4d95f7df936123bd786cd138b483e16770e8b30cb16a5ee2bae84f0f5ad",
+            "asset-ce841c22f37e580affbf8324139aa3582c2766ad0970eb2b92fcf66d4e23ce6f",
             "asset-d82ace27fb8d9e15330a215924aacdd31ebc8b8ef340b341d72c342a771d3944"
           ],
           "missing_asset_ids": [],
@@ -294,10 +308,14 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798"
+        "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798",
+        "asset-52bc3247cf164a9ed46a4380b375d9fd110f993c4bff3d07d17ab54b2a87563f",
+        "asset-08403edfd0c50798a91e1de07b3a1cafd73174a30226a42c1238de998f996a57"
       ],
       "actual_asset_ids": [
-        "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798"
+        "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798",
+        "asset-52bc3247cf164a9ed46a4380b375d9fd110f993c4bff3d07d17ab54b2a87563f",
+        "asset-08403edfd0c50798a91e1de07b3a1cafd73174a30226a42c1238de998f996a57"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -310,7 +328,9 @@
             5
           ],
           "actual_asset_ids": [
-            "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798"
+            "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798",
+            "asset-52bc3247cf164a9ed46a4380b375d9fd110f993c4bff3d07d17ab54b2a87563f",
+            "asset-08403edfd0c50798a91e1de07b3a1cafd73174a30226a42c1238de998f996a57"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -324,7 +344,9 @@
             8
           ],
           "actual_asset_ids": [
-            "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798"
+            "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798",
+            "asset-52bc3247cf164a9ed46a4380b375d9fd110f993c4bff3d07d17ab54b2a87563f",
+            "asset-08403edfd0c50798a91e1de07b3a1cafd73174a30226a42c1238de998f996a57"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -338,7 +360,9 @@
             10
           ],
           "actual_asset_ids": [
-            "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798"
+            "asset-84bac291955080a49aa247d5350e74717c38cac0ea1b56b36f0d3fdc83d80798",
+            "asset-52bc3247cf164a9ed46a4380b375d9fd110f993c4bff3d07d17ab54b2a87563f",
+            "asset-08403edfd0c50798a91e1de07b3a1cafd73174a30226a42c1238de998f996a57"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -362,11 +386,17 @@
           20
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-64630d66be5ac08e9110f299e24c7878d4107d12348dc2304e002c1493c06390",
+        "asset-be059377932d372c07f59d8974088d76c63de629494626ccefe13e9157b54baf"
+      ],
+      "actual_asset_ids": [
+        "asset-64630d66be5ac08e9110f299e24c7878d4107d12348dc2304e002c1493c06390",
+        "asset-be059377932d372c07f59d8974088d76c63de629494626ccefe13e9157b54baf"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 11,
@@ -374,7 +404,10 @@
             11,
             20
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-64630d66be5ac08e9110f299e24c7878d4107d12348dc2304e002c1493c06390",
+            "asset-be059377932d372c07f59d8974088d76c63de629494626ccefe13e9157b54baf"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -488,10 +521,14 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2"
+        "asset-0a9b20310252814e3649c35a34a73f3de94dea147bf29a5aa15d2daa485a081a",
+        "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2",
+        "asset-daac3ade00e74a8acd5f7deb6066a68d7c1d7391aa4386d3b1d3325751903a78"
       ],
       "actual_asset_ids": [
-        "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2"
+        "asset-0a9b20310252814e3649c35a34a73f3de94dea147bf29a5aa15d2daa485a081a",
+        "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2",
+        "asset-daac3ade00e74a8acd5f7deb6066a68d7c1d7391aa4386d3b1d3325751903a78"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -504,7 +541,9 @@
             32
           ],
           "actual_asset_ids": [
-            "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2"
+            "asset-0a9b20310252814e3649c35a34a73f3de94dea147bf29a5aa15d2daa485a081a",
+            "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2",
+            "asset-daac3ade00e74a8acd5f7deb6066a68d7c1d7391aa4386d3b1d3325751903a78"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -518,7 +557,9 @@
             38
           ],
           "actual_asset_ids": [
-            "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2"
+            "asset-0a9b20310252814e3649c35a34a73f3de94dea147bf29a5aa15d2daa485a081a",
+            "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2",
+            "asset-daac3ade00e74a8acd5f7deb6066a68d7c1d7391aa4386d3b1d3325751903a78"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -532,7 +573,9 @@
             40
           ],
           "actual_asset_ids": [
-            "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2"
+            "asset-0a9b20310252814e3649c35a34a73f3de94dea147bf29a5aa15d2daa485a081a",
+            "asset-6ad46291e13941cb25efd9592b32289e803e81bfa41e7977925580f00c5d2ce2",
+            "asset-daac3ade00e74a8acd5f7deb6066a68d7c1d7391aa4386d3b1d3325751903a78"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -565,10 +608,12 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908"
+        "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908",
+        "asset-43086d8ca4e7bfe8e036f14f311f702709e0ca7327130c1e85324a19190cb549"
       ],
       "actual_asset_ids": [
-        "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908"
+        "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908",
+        "asset-43086d8ca4e7bfe8e036f14f311f702709e0ca7327130c1e85324a19190cb549"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -581,7 +626,8 @@
             4
           ],
           "actual_asset_ids": [
-            "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908"
+            "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908",
+            "asset-43086d8ca4e7bfe8e036f14f311f702709e0ca7327130c1e85324a19190cb549"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -595,7 +641,8 @@
             7
           ],
           "actual_asset_ids": [
-            "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908"
+            "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908",
+            "asset-43086d8ca4e7bfe8e036f14f311f702709e0ca7327130c1e85324a19190cb549"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -609,7 +656,8 @@
             10
           ],
           "actual_asset_ids": [
-            "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908"
+            "asset-cac1df85e6a9f4f4369fc9c0ef89f44729a905075146132b4a5c1c5306646908",
+            "asset-43086d8ca4e7bfe8e036f14f311f702709e0ca7327130c1e85324a19190cb549"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -638,9 +686,11 @@
         ]
       ],
       "expected_asset_ids": [
+        "asset-39e3c13cc2bc1e8cb1146830c8a14f2097f890b80a7297e52e1827d6d309fa9a",
         "asset-4ea40a41dd284f795640c14422c4a5cbb976779c02037be853360b006e92be54"
       ],
       "actual_asset_ids": [
+        "asset-39e3c13cc2bc1e8cb1146830c8a14f2097f890b80a7297e52e1827d6d309fa9a",
         "asset-4ea40a41dd284f795640c14422c4a5cbb976779c02037be853360b006e92be54"
       ],
       "missing_asset_ids": [],
@@ -654,6 +704,7 @@
             14
           ],
           "actual_asset_ids": [
+            "asset-39e3c13cc2bc1e8cb1146830c8a14f2097f890b80a7297e52e1827d6d309fa9a",
             "asset-4ea40a41dd284f795640c14422c4a5cbb976779c02037be853360b006e92be54"
           ],
           "missing_asset_ids": [],
@@ -668,6 +719,7 @@
             20
           ],
           "actual_asset_ids": [
+            "asset-39e3c13cc2bc1e8cb1146830c8a14f2097f890b80a7297e52e1827d6d309fa9a",
             "asset-4ea40a41dd284f795640c14422c4a5cbb976779c02037be853360b006e92be54"
           ],
           "missing_asset_ids": [],
@@ -696,8 +748,16 @@
           30
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-c3fd90a571c01db2d01918a7beb3264203d91c0589da22633b197aa44e25ea0e",
+        "asset-fc73897ed994fca18841aba6c1bf62b952cd44569f1da1d736076c45ccb18abf",
+        "asset-0b20fbf49660ea8d8158fd8e2233fad22a6d4e0af526bd471f7a57933f9f4add"
+      ],
+      "actual_asset_ids": [
+        "asset-c3fd90a571c01db2d01918a7beb3264203d91c0589da22633b197aa44e25ea0e",
+        "asset-fc73897ed994fca18841aba6c1bf62b952cd44569f1da1d736076c45ccb18abf",
+        "asset-0b20fbf49660ea8d8158fd8e2233fad22a6d4e0af526bd471f7a57933f9f4add"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
       "evidence": "component verified",
@@ -708,7 +768,11 @@
             21,
             25
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-c3fd90a571c01db2d01918a7beb3264203d91c0589da22633b197aa44e25ea0e",
+            "asset-fc73897ed994fca18841aba6c1bf62b952cd44569f1da1d736076c45ccb18abf",
+            "asset-0b20fbf49660ea8d8158fd8e2233fad22a6d4e0af526bd471f7a57933f9f4add"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -720,7 +784,11 @@
             26,
             30
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-c3fd90a571c01db2d01918a7beb3264203d91c0589da22633b197aa44e25ea0e",
+            "asset-fc73897ed994fca18841aba6c1bf62b952cd44569f1da1d736076c45ccb18abf",
+            "asset-0b20fbf49660ea8d8158fd8e2233fad22a6d4e0af526bd471f7a57933f9f4add"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -761,11 +829,13 @@
       ],
       "expected_asset_ids": [
         "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-        "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+        "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+        "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
       ],
       "actual_asset_ids": [
         "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-        "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+        "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+        "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -779,7 +849,8 @@
           ],
           "actual_asset_ids": [
             "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+            "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -794,7 +865,8 @@
           ],
           "actual_asset_ids": [
             "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+            "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -809,7 +881,8 @@
           ],
           "actual_asset_ids": [
             "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+            "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -824,7 +897,8 @@
           ],
           "actual_asset_ids": [
             "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+            "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -839,7 +913,8 @@
           ],
           "actual_asset_ids": [
             "asset-9315de6a08003966fc0ea249fc7b0f932408ee7ed565c618a315d93971f6daad",
-            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630"
+            "asset-f67fe4e6288c1de06836ed9883b7c911da421256199663e6dec32ba1d37ba630",
+            "asset-92240fb3e25883d51507b0d25ae571307fa6717be02c2d3ab426ee0c7acfe677"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -912,9 +987,11 @@
         ]
       ],
       "expected_asset_ids": [
+        "asset-340683bd5a22d7ba38d54175107347c70246c3907e9e58f9b64e4839004649c5",
         "asset-266397e7c082ebaf36bbe83d1b5c3d7ab0720e6bad5b45a4c7cb8529b83db48f"
       ],
       "actual_asset_ids": [
+        "asset-340683bd5a22d7ba38d54175107347c70246c3907e9e58f9b64e4839004649c5",
         "asset-266397e7c082ebaf36bbe83d1b5c3d7ab0720e6bad5b45a4c7cb8529b83db48f"
       ],
       "missing_asset_ids": [],
@@ -928,6 +1005,7 @@
             15
           ],
           "actual_asset_ids": [
+            "asset-340683bd5a22d7ba38d54175107347c70246c3907e9e58f9b64e4839004649c5",
             "asset-266397e7c082ebaf36bbe83d1b5c3d7ab0720e6bad5b45a4c7cb8529b83db48f"
           ],
           "missing_asset_ids": [],
@@ -942,6 +1020,7 @@
             20
           ],
           "actual_asset_ids": [
+            "asset-340683bd5a22d7ba38d54175107347c70246c3907e9e58f9b64e4839004649c5",
             "asset-266397e7c082ebaf36bbe83d1b5c3d7ab0720e6bad5b45a4c7cb8529b83db48f"
           ],
           "missing_asset_ids": [],
@@ -971,10 +1050,12 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11"
+        "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11",
+        "asset-05b47496611e109313a4da8d4b0cdf7dcf568c64f07c6fcc1e4f7979cc809fdf"
       ],
       "actual_asset_ids": [
-        "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11"
+        "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11",
+        "asset-05b47496611e109313a4da8d4b0cdf7dcf568c64f07c6fcc1e4f7979cc809fdf"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -987,7 +1068,8 @@
             26
           ],
           "actual_asset_ids": [
-            "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11"
+            "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11",
+            "asset-05b47496611e109313a4da8d4b0cdf7dcf568c64f07c6fcc1e4f7979cc809fdf"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -1001,7 +1083,8 @@
             30
           ],
           "actual_asset_ids": [
-            "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11"
+            "asset-7203d3f9aba872d70a43b79e40ab526d6458205b037dfe3cd97cf27c24097f11",
+            "asset-05b47496611e109313a4da8d4b0cdf7dcf568c64f07c6fcc1e4f7979cc809fdf"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -1034,10 +1117,14 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd"
+        "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd",
+        "asset-0951baeb28e999d74887a779bfe9306eb7ea687f3276e7b20a8b8cf847851e2f",
+        "asset-b542c19481ea26e0fe3d2289ebcb716e47bb993b3a4155ebb54578baa56dc1c8"
       ],
       "actual_asset_ids": [
-        "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd"
+        "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd",
+        "asset-0951baeb28e999d74887a779bfe9306eb7ea687f3276e7b20a8b8cf847851e2f",
+        "asset-b542c19481ea26e0fe3d2289ebcb716e47bb993b3a4155ebb54578baa56dc1c8"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -1050,7 +1137,9 @@
             34
           ],
           "actual_asset_ids": [
-            "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd"
+            "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd",
+            "asset-0951baeb28e999d74887a779bfe9306eb7ea687f3276e7b20a8b8cf847851e2f",
+            "asset-b542c19481ea26e0fe3d2289ebcb716e47bb993b3a4155ebb54578baa56dc1c8"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -1064,7 +1153,9 @@
             38
           ],
           "actual_asset_ids": [
-            "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd"
+            "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd",
+            "asset-0951baeb28e999d74887a779bfe9306eb7ea687f3276e7b20a8b8cf847851e2f",
+            "asset-b542c19481ea26e0fe3d2289ebcb716e47bb993b3a4155ebb54578baa56dc1c8"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -1078,7 +1169,9 @@
             40
           ],
           "actual_asset_ids": [
-            "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd"
+            "asset-4d0a53b4ad01e67f11ccaba0476c075d99327e4a9be8c5f3868d28c5e26774dd",
+            "asset-0951baeb28e999d74887a779bfe9306eb7ea687f3276e7b20a8b8cf847851e2f",
+            "asset-b542c19481ea26e0fe3d2289ebcb716e47bb993b3a4155ebb54578baa56dc1c8"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -1120,7 +1213,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 1,
@@ -1881,7 +1974,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 11,
@@ -2769,7 +2862,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 21,
@@ -3757,11 +3850,11 @@
       ],
       "expected_asset_ids": [
         "asset-6b15dcbeb6d7f4cb3f908718164519c472664817308a82afb60ddf56f46a9360",
-        "asset-f5ab4ba50efdeb3013bb5006b9bd1e61fffdcd2fb8cd74a2354fb39cfe2d20ff"
+        "asset-6b683a8171e765a5ed7f68c22ac252bda00b4fe3f4c9033eb9472dab791865c1"
       ],
       "actual_asset_ids": [
         "asset-6b15dcbeb6d7f4cb3f908718164519c472664817308a82afb60ddf56f46a9360",
-        "asset-f5ab4ba50efdeb3013bb5006b9bd1e61fffdcd2fb8cd74a2354fb39cfe2d20ff"
+        "asset-6b683a8171e765a5ed7f68c22ac252bda00b4fe3f4c9033eb9472dab791865c1"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -3775,7 +3868,7 @@
           ],
           "actual_asset_ids": [
             "asset-6b15dcbeb6d7f4cb3f908718164519c472664817308a82afb60ddf56f46a9360",
-            "asset-f5ab4ba50efdeb3013bb5006b9bd1e61fffdcd2fb8cd74a2354fb39cfe2d20ff"
+            "asset-6b683a8171e765a5ed7f68c22ac252bda00b4fe3f4c9033eb9472dab791865c1"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -3790,7 +3883,7 @@
           ],
           "actual_asset_ids": [
             "asset-6b15dcbeb6d7f4cb3f908718164519c472664817308a82afb60ddf56f46a9360",
-            "asset-f5ab4ba50efdeb3013bb5006b9bd1e61fffdcd2fb8cd74a2354fb39cfe2d20ff"
+            "asset-6b683a8171e765a5ed7f68c22ac252bda00b4fe3f4c9033eb9472dab791865c1"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -3969,16 +4062,16 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9",
         "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
       ],
       "actual_asset_ids": [
-        "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+        "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9",
         "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 1,
@@ -3987,7 +4080,7 @@
             6
           ],
           "actual_asset_ids": [
-            "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+            "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9",
             "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
           ],
           "missing_asset_ids": [],
@@ -4002,7 +4095,7 @@
             10
           ],
           "actual_asset_ids": [
-            "asset-2d699765d75235aa6ec60a141a5011ed1349bffb7c57443faf06b55459a2f7ec",
+            "asset-408349f54c4955e20cd153c541f90c2448383274d258c76c2f2059129988eba9",
             "asset-d04971525e7b57b63c9016f73a2093406d57bcab0b46d22a08bba25a53bcf3ac"
           ],
           "missing_asset_ids": [],
@@ -4197,11 +4290,11 @@
       ],
       "expected_asset_ids": [
         "asset-fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
-        "asset-56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e"
+        "asset-f0f4699f6162c5518700221cddd0a43c2c2dff05655d6f0bc4b1f8b63e7651e2"
       ],
       "actual_asset_ids": [
         "asset-fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
-        "asset-56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e"
+        "asset-f0f4699f6162c5518700221cddd0a43c2c2dff05655d6f0bc4b1f8b63e7651e2"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -4215,7 +4308,7 @@
           ],
           "actual_asset_ids": [
             "asset-fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
-            "asset-56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e"
+            "asset-f0f4699f6162c5518700221cddd0a43c2c2dff05655d6f0bc4b1f8b63e7651e2"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -4230,7 +4323,7 @@
           ],
           "actual_asset_ids": [
             "asset-fcf217c0e72c8aa0b6f8ff0baf1514845e297395a71123fdfdd370b9de3da290",
-            "asset-56cc904097a50cdc6107b0ede3bd6657fb1ba75c499a2a0a0ce71c8359fd573e"
+            "asset-f0f4699f6162c5518700221cddd0a43c2c2dff05655d6f0bc4b1f8b63e7651e2"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -5607,7 +5700,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 11,
@@ -7911,7 +8004,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 21,
@@ -10057,7 +10150,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 1,
@@ -10331,7 +10424,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 11,
@@ -11006,9 +11099,11 @@
         ]
       ],
       "expected_asset_ids": [
+        "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
         "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2"
       ],
       "actual_asset_ids": [
+        "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
         "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2"
       ],
       "missing_asset_ids": [],
@@ -11022,6 +11117,7 @@
             14
           ],
           "actual_asset_ids": [
+            "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
             "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2"
           ],
           "missing_asset_ids": [],
@@ -11036,6 +11132,7 @@
             20
           ],
           "actual_asset_ids": [
+            "asset-b86ad580500368f6cb63261ff331749e7d959f8f07406891f8b8730444496a4a",
             "asset-392c6f0d754995de84a5b7a3315af88e59ddea295c8ee6650a61e42004bbbdc2"
           ],
           "missing_asset_ids": [],
@@ -11068,8 +11165,14 @@
           30
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+        "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+      ],
+      "actual_asset_ids": [
+        "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+        "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
       "evidence": "component verified",
@@ -11080,7 +11183,10 @@
             21,
             26
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+            "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11092,7 +11198,10 @@
             27,
             28
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+            "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11104,7 +11213,10 @@
             29,
             30
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-dd778e35e8757235a48f3fcaa7f58ca87029ec74ea4553a9d056d2ff494f18a2",
+            "asset-c8caf9dafd2d07a2b151faf2fb10bb163beb68e1f255455e737aa007411c035f"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11232,10 +11344,12 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+        "asset-428e25552b3881b4f86d0751e53023b35bc0662804f5bd7f8395e7f1b9776b47",
+        "asset-113b1485f224f7bebe7daa76e46d124f628a5fd4b3acbbce476c028a5b49e2a6"
       ],
       "actual_asset_ids": [
-        "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+        "asset-428e25552b3881b4f86d0751e53023b35bc0662804f5bd7f8395e7f1b9776b47",
+        "asset-113b1485f224f7bebe7daa76e46d124f628a5fd4b3acbbce476c028a5b49e2a6"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -11248,7 +11362,8 @@
             14
           ],
           "actual_asset_ids": [
-            "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+            "asset-428e25552b3881b4f86d0751e53023b35bc0662804f5bd7f8395e7f1b9776b47",
+            "asset-113b1485f224f7bebe7daa76e46d124f628a5fd4b3acbbce476c028a5b49e2a6"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -11262,7 +11377,8 @@
             20
           ],
           "actual_asset_ids": [
-            "asset-c8fd097daa49581922dbf579cefffa0599c2b778fcdf555aba6fbbfc80080adf"
+            "asset-428e25552b3881b4f86d0751e53023b35bc0662804f5bd7f8395e7f1b9776b47",
+            "asset-113b1485f224f7bebe7daa76e46d124f628a5fd4b3acbbce476c028a5b49e2a6"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -11294,8 +11410,14 @@
           30
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-7dd31e575696f4f267271483b160fc1d733e09c24e40c334165447839015e397",
+        "asset-ba35d990b63ce2c9a09406190e436bfdb454bd162f2de8293db8e3590d048bab"
+      ],
+      "actual_asset_ids": [
+        "asset-7dd31e575696f4f267271483b160fc1d733e09c24e40c334165447839015e397",
+        "asset-ba35d990b63ce2c9a09406190e436bfdb454bd162f2de8293db8e3590d048bab"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
       "evidence": "component verified",
@@ -11306,7 +11428,10 @@
             21,
             22
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-7dd31e575696f4f267271483b160fc1d733e09c24e40c334165447839015e397",
+            "asset-ba35d990b63ce2c9a09406190e436bfdb454bd162f2de8293db8e3590d048bab"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11318,7 +11443,10 @@
             23,
             24
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-7dd31e575696f4f267271483b160fc1d733e09c24e40c334165447839015e397",
+            "asset-ba35d990b63ce2c9a09406190e436bfdb454bd162f2de8293db8e3590d048bab"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11330,7 +11458,10 @@
             25,
             30
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-7dd31e575696f4f267271483b160fc1d733e09c24e40c334165447839015e397",
+            "asset-ba35d990b63ce2c9a09406190e436bfdb454bd162f2de8293db8e3590d048bab"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11395,10 +11526,12 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-b8e9d2b3ace840260b97eec12921caf385d11d3877e330d07023d524b4cb47c4"
+        "asset-b8e9d2b3ace840260b97eec12921caf385d11d3877e330d07023d524b4cb47c4",
+        "asset-8db6ad9f9825b00dfe5854e0e0b1d7c3f69c33f29f762ef702fd3c0c5c6ea561"
       ],
       "actual_asset_ids": [
-        "asset-b8e9d2b3ace840260b97eec12921caf385d11d3877e330d07023d524b4cb47c4"
+        "asset-b8e9d2b3ace840260b97eec12921caf385d11d3877e330d07023d524b4cb47c4",
+        "asset-8db6ad9f9825b00dfe5854e0e0b1d7c3f69c33f29f762ef702fd3c0c5c6ea561"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -11411,7 +11544,8 @@
             10
           ],
           "actual_asset_ids": [
-            "asset-b8e9d2b3ace840260b97eec12921caf385d11d3877e330d07023d524b4cb47c4"
+            "asset-b8e9d2b3ace840260b97eec12921caf385d11d3877e330d07023d524b4cb47c4",
+            "asset-8db6ad9f9825b00dfe5854e0e0b1d7c3f69c33f29f762ef702fd3c0c5c6ea561"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -11443,8 +11577,14 @@
           20
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-b542a7ab037ca5c8e96e243b10abdda4cd0b09ad85d6050a97fd7ca5ee6c825d",
+        "asset-5657edee77c3616e59890ebfe1d57f3aff621efef06ec3fc7e7f3264d45020db"
+      ],
+      "actual_asset_ids": [
+        "asset-b542a7ab037ca5c8e96e243b10abdda4cd0b09ad85d6050a97fd7ca5ee6c825d",
+        "asset-5657edee77c3616e59890ebfe1d57f3aff621efef06ec3fc7e7f3264d45020db"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
       "evidence": "component verified",
@@ -11455,7 +11595,10 @@
             11,
             16
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-b542a7ab037ca5c8e96e243b10abdda4cd0b09ad85d6050a97fd7ca5ee6c825d",
+            "asset-5657edee77c3616e59890ebfe1d57f3aff621efef06ec3fc7e7f3264d45020db"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11467,7 +11610,10 @@
             17,
             18
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-b542a7ab037ca5c8e96e243b10abdda4cd0b09ad85d6050a97fd7ca5ee6c825d",
+            "asset-5657edee77c3616e59890ebfe1d57f3aff621efef06ec3fc7e7f3264d45020db"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11479,7 +11625,10 @@
             19,
             20
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-b542a7ab037ca5c8e96e243b10abdda4cd0b09ad85d6050a97fd7ca5ee6c825d",
+            "asset-5657edee77c3616e59890ebfe1d57f3aff621efef06ec3fc7e7f3264d45020db"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11506,8 +11655,12 @@
           30
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-46f97884ae9852d4e30b392447ed9f50aa937082cffbea1e9dbb4d179142fc98"
+      ],
+      "actual_asset_ids": [
+        "asset-46f97884ae9852d4e30b392447ed9f50aa937082cffbea1e9dbb4d179142fc98"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
       "evidence": "component verified",
@@ -11518,7 +11671,9 @@
             21,
             26
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-46f97884ae9852d4e30b392447ed9f50aa937082cffbea1e9dbb4d179142fc98"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11530,7 +11685,9 @@
             27,
             30
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-46f97884ae9852d4e30b392447ed9f50aa937082cffbea1e9dbb4d179142fc98"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11644,10 +11801,12 @@
         ]
       ],
       "expected_asset_ids": [
-        "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+        "asset-22243cef320fbd03390af113705b20ac4e487c14f7533e7a08fec96ba944d91a",
+        "asset-70a976e26431b8d8636d9852416a7b2ef19915aa3fd5d6751d8b8e5bc029e2e2"
       ],
       "actual_asset_ids": [
-        "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+        "asset-22243cef320fbd03390af113705b20ac4e487c14f7533e7a08fec96ba944d91a",
+        "asset-70a976e26431b8d8636d9852416a7b2ef19915aa3fd5d6751d8b8e5bc029e2e2"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -11660,7 +11819,8 @@
             16
           ],
           "actual_asset_ids": [
-            "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+            "asset-22243cef320fbd03390af113705b20ac4e487c14f7533e7a08fec96ba944d91a",
+            "asset-70a976e26431b8d8636d9852416a7b2ef19915aa3fd5d6751d8b8e5bc029e2e2"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -11674,7 +11834,8 @@
             18
           ],
           "actual_asset_ids": [
-            "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+            "asset-22243cef320fbd03390af113705b20ac4e487c14f7533e7a08fec96ba944d91a",
+            "asset-70a976e26431b8d8636d9852416a7b2ef19915aa3fd5d6751d8b8e5bc029e2e2"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -11688,7 +11849,8 @@
             20
           ],
           "actual_asset_ids": [
-            "asset-b8afef06b16caced431bbeb4a936101ff9f0c8a282ae350686bb323cec30b8fb"
+            "asset-22243cef320fbd03390af113705b20ac4e487c14f7533e7a08fec96ba944d91a",
+            "asset-70a976e26431b8d8636d9852416a7b2ef19915aa3fd5d6751d8b8e5bc029e2e2"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -11716,8 +11878,14 @@
           30
         ]
       ],
-      "expected_asset_ids": [],
-      "actual_asset_ids": [],
+      "expected_asset_ids": [
+        "asset-eb8012187f0e76b782eec8448abd4152332cc93295272725e8f145de86f17e20",
+        "asset-2fa71dcc9ea6219f7fec0af1f46bf03266c5646a9175b5b3b5fb63c4a4a2bef3"
+      ],
+      "actual_asset_ids": [
+        "asset-eb8012187f0e76b782eec8448abd4152332cc93295272725e8f145de86f17e20",
+        "asset-2fa71dcc9ea6219f7fec0af1f46bf03266c5646a9175b5b3b5fb63c4a4a2bef3"
+      ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
       "evidence": "component verified",
@@ -11728,7 +11896,10 @@
             21,
             24
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-eb8012187f0e76b782eec8448abd4152332cc93295272725e8f145de86f17e20",
+            "asset-2fa71dcc9ea6219f7fec0af1f46bf03266c5646a9175b5b3b5fb63c4a4a2bef3"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -11740,7 +11911,10 @@
             25,
             30
           ],
-          "actual_asset_ids": [],
+          "actual_asset_ids": [
+            "asset-eb8012187f0e76b782eec8448abd4152332cc93295272725e8f145de86f17e20",
+            "asset-2fa71dcc9ea6219f7fec0af1f46bf03266c5646a9175b5b3b5fb63c4a4a2bef3"
+          ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
           "evidence": "component verified (actual WorkspaceQuestions SSR)",
@@ -14157,7 +14331,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 31,
@@ -14202,7 +14376,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 1,
@@ -14736,7 +14910,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 11,
@@ -15190,7 +15364,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 1,
@@ -16216,14 +16390,14 @@
       "expected_asset_ids": [
         "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
         "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
-        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
       ],
       "actual_asset_ids": [
         "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
         "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
-        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+        "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+        "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
@@ -16238,8 +16412,8 @@
           "actual_asset_ids": [
             "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
             "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
-            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -16255,8 +16429,8 @@
           "actual_asset_ids": [
             "asset-c9d624c24629d35ed4c23ed746c52991fedf3843087cb1732c39e5876629e4e8",
             "asset-553775d0bad66c0489a6183815005dcc577f042d4aea30433d2d448d10808d6c",
-            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0",
-            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48"
+            "asset-fc9097eeee495a9e588bff05b9e16b927b0517935daa9ca2c4512786ba5a3d48",
+            "asset-6af99e38d09ecdf8f73b81049173e573a18b59799a00b4dc25f931ca2eaf1ad0"
           ],
           "missing_asset_ids": [],
           "missing_question_ranges": [],
@@ -17025,7 +17199,7 @@
       ],
       "missing_asset_ids": [],
       "status": "COVERED_IN_COMPONENT",
-      "evidence": "browser verified + component verified",
+      "evidence": "component verified",
       "contexts": [
         {
           "current_question": 21,
@@ -17623,216 +17797,7 @@
       ]
     }
   ],
-  "empty_image_groups": [
-    {
-      "test_id": "cambridge-04-test-02",
-      "part": 2,
-      "range": [
-        11,
-        20
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_single",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-04-test-03",
-      "part": 3,
-      "range": [
-        21,
-        25
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_single",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-04-test-03",
-      "part": 3,
-      "range": [
-        26,
-        30
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_single",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-01",
-      "part": 3,
-      "range": [
-        21,
-        26
-      ],
-      "presentation": "structured",
-      "question_type": "matching",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-01",
-      "part": 3,
-      "range": [
-        27,
-        28
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_single",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-01",
-      "part": 3,
-      "range": [
-        29,
-        30
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_multiple",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-02",
-      "part": 3,
-      "range": [
-        21,
-        22
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_multiple",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-02",
-      "part": 3,
-      "range": [
-        23,
-        24
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_multiple",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-02",
-      "part": 3,
-      "range": [
-        25,
-        30
-      ],
-      "presentation": "structured",
-      "question_type": "matching",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-03",
-      "part": 2,
-      "range": [
-        11,
-        16
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_single",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-03",
-      "part": 2,
-      "range": [
-        17,
-        18
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_multiple",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-03",
-      "part": 2,
-      "range": [
-        19,
-        20
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_multiple",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-03",
-      "part": 3,
-      "range": [
-        21,
-        26
-      ],
-      "presentation": "structured",
-      "question_type": "note_completion",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-03",
-      "part": 3,
-      "range": [
-        27,
-        30
-      ],
-      "presentation": "structured",
-      "question_type": "matching",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-04",
-      "part": 3,
-      "range": [
-        21,
-        24
-      ],
-      "presentation": "structured",
-      "question_type": "multiple_choice_single",
-      "has_source_lines": true,
-      "has_answer_bank": false,
-      "status": "textual_group_no_image_expected"
-    },
-    {
-      "test_id": "cambridge-15-test-04",
-      "part": 3,
-      "range": [
-        25,
-        30
-      ],
-      "presentation": "structured",
-      "question_type": "matching",
-      "has_source_lines": true,
-      "has_answer_bank": true,
-      "status": "textual_group_no_image_expected"
-    }
-  ],
+  "empty_image_groups": [],
   "filtered_reproductions": [
     {
       "test_id": "cambridge-04-test-01",

@@ -2,14 +2,7 @@
 .workspace.workspace{width:100%;max-width:none;height:100dvh;margin:0;padding:0;display:flex;flex-direction:column;overflow:hidden;background:var(--background)}
 .topbar{flex:0 0 auto;border-bottom:1px solid var(--border);background:#fff}
 .workspace .examHead{height:36px;min-height:36px;margin:0;padding:0 28px;border-bottom:1px solid #eef0ee;flex-wrap:nowrap}
-.audio>section{position:static;margin:0;border:0;border-radius:0;box-shadow:none;padding:2px 28px;background:#fff;display:flex;align-items:center;gap:20px;min-height:48px}
-.audio>section>[data-player=title],.audio>section>[data-player=status]{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
-.audio>section>[data-player=seek]{order:2;flex:1;min-width:0;margin:0;gap:12px}
-.audio>section>[data-player=controls]{order:1;gap:8px}
-.audio>section>[data-player=controls] button{min-width:40px;min-height:40px;width:40px;height:40px}
-.workspace .partNavigation{height:44px;margin:0;padding:0 28px 4px;gap:12px;flex-wrap:nowrap}
-.partNavigation>div{padding:2px}.partNavigation>div button{min-height:32px;padding:4px 20px}
-.audioIndicator{font-size:12px;color:#087f63}.partHint{font-size:11px;color:#747c77}
+.audio{padding:16px 24px 20px;background:#f8f9f7}
 .panels{flex:1;min-height:0;position:relative;display:grid;grid-template-columns:minmax(0,var(--source-width,55%)) minmax(0,1fr)}
 .panels[data-layout=single]{grid-template-columns:minmax(0,1fr)}
 .sourcePane,.questionsPane{min-width:0;min-height:0;overflow:auto;overflow-anchor:none;overscroll-behavior:contain;scrollbar-gutter:stable;padding:24px clamp(22px,3vw,52px) 40px}
@@ -20,20 +13,28 @@
 .mobilePanels{display:none}
 .workspace .footer{flex:0 0 auto;margin:0;padding:0 28px env(safe-area-inset-bottom);border-top:1px solid var(--border);border-radius:0;background:#fff}
 .toolbar{height:60px;display:flex;align-items:center;gap:20px}.toolbar button{min-height:40px}
-.gridToggle,.markButton,.steps button{border:0;background:transparent;color:#087f63;border-radius:10px;font-size:13px!important;padding:8px}
-.gridToggle{display:flex;align-items:center;gap:12px;font-weight:600!important}.gridToggle span:first-child{color:#747c77;font-weight:400;font-variant-numeric:tabular-nums}.markButton[aria-pressed=true]{color:#947124;background:#fbf6e8}
+.gridToggle,.steps button{border:0;background:transparent;color:#087f63;border-radius:10px;font-size:13px!important;padding:8px}
+.gridToggle{display:flex;align-items:center;gap:12px;font-weight:600!important}
 .steps{margin-left:auto;display:flex;align-items:center;gap:12px;font-size:12px;color:#747c77;font-variant-numeric:tabular-nums}.steps button{width:40px}.steps button:disabled{opacity:.35;cursor:default}.toolbar>button:last-child{min-height:40px;padding:8px 22px!important}
 .gridPanel{max-height:35dvh;overflow:auto;padding:4px 4px 16px}.gridPanel[hidden]{display:none}.gridHeading{display:flex;justify-content:space-between;gap:12px;font-size:11px;color:#747c77;margin-bottom:12px}
 .workspace .questionMap{margin:0;display:grid;grid-template-columns:repeat(20,minmax(0,1fr));gap:6px;padding:3px;overflow:visible}.workspace .questionMap button{min-height:40px}.workspace .footer>p{font-size:12px;margin:0 0 8px}
 .workspace .conflict{flex:0 0 auto;max-height:25dvh;overflow:auto;margin:0;border-radius:0}
 @media(max-width:759px){
-.workspace .examHead{padding:0 12px;font-size:10px;gap:6px}.mode{display:none}.audio>section{padding:2px 10px;gap:8px}.audio>section>[data-player=seek]{gap:6px}.audio>section>[data-player=controls]{gap:0}.audio>section>[data-player=controls] button{min-width:38px;width:38px}
-.workspace .partNavigation{padding:0 12px 4px;gap:6px}.partNavigation>div button{padding:4px 12px;font-size:12px}.partHint{font-size:10px}
+.workspace .examHead{padding:0 12px;font-size:10px;gap:6px}.mode{display:none}.audio{padding:12px 10px 16px}
 .mobilePanels{flex:0 0 auto;height:44px;display:flex;gap:6px;padding:4px 12px;border-bottom:1px solid var(--border)}.mobilePanels button{min-height:36px;padding:5px 12px;border:0;border-radius:8px;background:transparent;color:#747c77;font-size:12px}.mobilePanels button[aria-pressed=true]{background:#e7f3ec;color:#0b6b4a}
 .panels{display:flex;flex-direction:column}.divider{display:none}.sourcePane,.questionsPane{flex:1;padding:24px 18px 36px}.sourcePane{border-right:0}.panels[data-layout=split][data-mobile-panel=questions] .sourcePane,.panels[data-layout=split][data-mobile-panel=source] .questionsPane{display:none}
-.workspace .footer{padding:0 10px env(safe-area-inset-bottom)}.toolbar{height:60px;gap:6px}.gridToggle{gap:5px;font-size:12px!important;padding:6px}.markButton{font-size:11px!important;padding:6px}.markWord{display:none}.steps{gap:0}.steps span{display:none}.steps button{width:28px;padding:4px}.toolbar>button:last-child{padding:8px 12px!important;font-size:11px;white-space:nowrap}.gridHeading{flex-direction:column;gap:4px}.workspace .questionMap{grid-template-columns:repeat(8,minmax(0,1fr));gap:5px}.gridPanel{max-height:40dvh}
+.workspace .footer{padding:0 10px env(safe-area-inset-bottom)}.toolbar{height:60px;gap:6px}.gridToggle{gap:5px;font-size:12px!important;padding:6px}.steps{gap:0}.steps button{width:28px;padding:4px}.toolbar>button:last-child{padding:8px 12px!important;font-size:11px;white-space:nowrap}.gridHeading{flex-direction:column;gap:4px}.workspace .questionMap{grid-template-columns:repeat(8,minmax(0,1fr));gap:5px}.gridPanel{max-height:40dvh}
 }
 @media(prefers-reduced-motion:reduce){.question.question{transition:none}}
-/* Interruptions remain visible and take space instead of covering exam content. */
-.audio>section:has([data-issue=true]){flex-wrap:wrap}
-.audio>section>div[data-issue=true]{position:static;width:100%;height:auto;clip-path:none;order:3;margin:0;text-align:left;color:#946027}
+/* Compact Exam V5: three non-overlapping zones, no bottom action bar. */
+.workspace[data-exam-mode=compact] .examHead{height:44px;min-height:44px;padding:0 20px;gap:10px;color:#6a7970;font-size:12px}
+.examIdentity{margin-left:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.headerQuestions,.workspace .headerFinish{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex-shrink:0;min-height:34px;padding:6px 12px;border:1px solid #e1e8e3;border-radius:12px;font-size:12px;font-weight:550;background:white;color:#426353;position:relative}
+.headerQuestions::before,.headerFinish::before{content:"";position:absolute;inset:-5px 0}.workspace .headerFinish{background:#087f63;border-color:#087f63;color:#fff}.headerFinish:disabled{opacity:.5;cursor:default}
+.workspace[data-exam-mode=compact] .audio{padding:8px 16px 10px}
+.examNotice{flex:0 0 auto;display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;padding:8px 20px;background:#fff8e9;border-bottom:1px solid #eee2c5;color:#77552b;font-size:12px;max-height:22dvh;overflow:auto}
+.examNotice p{margin:0}.examNotice a,.examNotice button{color:inherit;font:inherit}.examNotice button{border:1px solid #ddcda9;border-radius:8px;padding:5px 10px;background:#fff}
+.navigatorDialog{position:fixed;inset:50px 18px auto auto;margin:0;width:min(480px,calc(100vw - 24px));max-height:calc(100dvh - 66px);overflow:auto;padding:16px;border:1px solid #e0e8e2;border-radius:18px;box-shadow:0 16px 48px #173b2829;color:#476052;background:white}
+.navigatorDialog::backdrop{background:#18352620}.navigatorHeading{display:flex;align-items:center;justify-content:space-between;font-size:12px;margin-bottom:10px}.navigatorHeading button{border:0;background:transparent;width:36px;height:36px;color:#476052;font-size:22px;border-radius:10px}
+.workspace .headerQuestionMap{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px;margin:0;padding:3px;overflow:visible}.workspace .headerQuestionMap button{min-width:0;min-height:36px;touch-action:manipulation}.navigatorLegend{font-size:11px;color:#78857d;margin:12px 0 0}
+@media(max-width:759px){.workspace[data-exam-mode=compact] .examHead{padding:0 10px;gap:6px;font-size:11px}.examIdentity{font-size:10px}.headerQuestions,.workspace .headerFinish{font-size:11px;padding:6px 9px;gap:5px}.headerQuestions svg{width:12px;height:12px}.workspace[data-exam-mode=compact] .audio{padding:6px 8px 8px}.workspace[data-exam-mode=compact] .mobilePanels{height:40px;padding-top:2px;padding-bottom:2px}.examNotice{padding:7px 12px}.navigatorDialog{right:12px}.workspace .headerQuestionMap{grid-template-columns:repeat(8,minmax(0,1fr));gap:5px}.workspace .headerQuestionMap button{min-height:38px}}

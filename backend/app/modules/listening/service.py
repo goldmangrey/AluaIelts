@@ -9,6 +9,7 @@ from sqlalchemy import delete, select, text
 from sqlalchemy.orm import load_only
 
 from app.core.exceptions import ConflictError, NotFoundError, UnauthorizedError, ValidationError
+from app.modules.exam_integrity import answers_checksum, validate_final
 from app.modules.listening.catalog import digest, questions
 from app.modules.listening.grading import result_for
 from app.modules.listening.models import (
@@ -79,6 +80,7 @@ class ListeningService:
             "key_hash": row.snapshot["key_hash"],
             "dataset_version": row.snapshot["dataset_version"],
             "answers": copy.deepcopy(row.answers),
+            "answers_checksum": answers_checksum(row.answers, questions(row.snapshot["exam"])),
             "state": copy.deepcopy(row.state),
             "started_at": row.started_at.astimezone(UTC).isoformat(),
             "submitted_at": row.submitted_at.astimezone(UTC).isoformat()
@@ -177,9 +179,11 @@ class ListeningService:
             return self.view(self.owned(session, uid, aid), True)
 
     def mutate(self, uid, aid, operation, request):
-        fp = digest(
-            {"operation": operation, "attempt_id": aid, "payload": request.model_dump(mode="json")}
-        )
+        payload = request.model_dump(mode="json")
+        if operation == "submit" and getattr(request, "answers", None) is None:
+            for field in ("answers", "state", "answers_checksum", "local_revision"):
+                payload.pop(field, None)
+        fp = digest({"operation": operation, "attempt_id": aid, "payload": payload})
         with self.transaction(uid) as session:
             row = self.owned(session, uid, aid)
             replay = self.replay(session, uid, request.event_id, fp)
@@ -188,7 +192,19 @@ class ListeningService:
             if row.status == "submitted":
                 if operation != "submit":
                     raise ConflictError("Finished attempts cannot change.", "listening_terminal")
+                if getattr(request, "answers", None) is not None:
+                    validate_final(request, questions(row.snapshot["exam"]))
+                if getattr(
+                    request, "answers", None
+                ) is not None and request.answers_checksum != answers_checksum(
+                    row.answers, questions(row.snapshot["exam"])
+                ):
+                    raise ConflictError(
+                        "Another final snapshot was submitted.", "listening_final_snapshot_conflict"
+                    )
                 response = self.view(row)
+                if getattr(request, "answers", None) is not None:
+                    response["final_snapshot_accepted"] = True
                 self.record(session, uid, request.event_id, aid, fp, response)
                 return response
             if request.expected_version != row.version:
@@ -202,12 +218,20 @@ class ListeningService:
                 row.answers = copy.deepcopy(request.answers)
                 row.state = request.state.model_dump(mode="json")
             else:
+                if getattr(request, "answers", None) is not None:
+                    row.answers = validate_final(request, questions(row.snapshot["exam"]))
+                    row.state = request.state.model_dump(mode="json")
                 row.result = result_for(row.snapshot, row.answers)
+                row.result["answers_checksum"] = answers_checksum(
+                    row.answers, questions(row.snapshot["exam"])
+                )
                 row.status = "submitted"
                 row.submitted_at = self.clock()
             row.version += 1
             row.updated_at = self.clock()
             response = self.view(row)
+            if operation == "submit" and getattr(request, "answers", None) is not None:
+                response["final_snapshot_accepted"] = True
             self.record(session, uid, request.event_id, aid, fp, response)
             return response
 
@@ -220,6 +244,7 @@ class ListeningService:
             if review:
                 result["exam"] = self.catalog.public_exam(row.snapshot["exam"])
             result["attempt_id"] = aid
+            result["content_hash"] = row.snapshot["content_hash"]
             return result
 
     def grant(self, uid, aid):

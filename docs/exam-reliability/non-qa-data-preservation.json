@@ -1,0 +1,31 @@
+{
+  "scope": "Read-only row fingerprints excluding dedicated QA learner; full production browser smoke window",
+  "tables": {
+    "listening_attempts": {
+      "before_count": 21,
+      "after_count": 21,
+      "unchanged": true
+    },
+    "listening_mutations": {
+      "before_count": 499,
+      "after_count": 499,
+      "unchanged": true
+    },
+    "reading_attempts": {
+      "before_count": 28,
+      "after_count": 28,
+      "unchanged": true
+    },
+    "reading_mutations": {
+      "before_count": 324,
+      "after_count": 324,
+      "unchanged": true
+    },
+    "firebase_identities": {
+      "before_count": 3,
+      "after_count": 3,
+      "unchanged": true
+    }
+  },
+  "unchanged": true
+}
