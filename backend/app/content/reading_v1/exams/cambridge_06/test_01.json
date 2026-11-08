@@ -1415,21 +1415,98 @@
         {
           "id": "cambridge-06-test-01-p-2-g-23-26",
           "type": "summary_completion",
-          "instructions": "Questions 23-26\nComplete the summary using the list of words, A-K, below.\nWrite the correct letter, A-K, in boxes 23-26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 .. as the\n\nbusiness of moving freight around the world becomes increasingly streamlined.\nManufacturers of computers, for instance, are able to import 24\n\nfrom overseas, rather than having to rely on a local supplier. The introduction of\n\nhas meant that bulk cargo can be safely and efficiently moved over long\ndistances. While international shipping is now efficient, there is still a need for governments to\nFECUCE 26 ..,.nssssvesersosesereee in order to free up the domestic cargo sector.\n\ntariffs components C container ships\noutput employees F insurance costs\n\ntrade freight I fares\nsoftware international standards",
+          "instructions": "Questions 23–26\nComplete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 23–26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 ______ as the business of moving freight around the world becomes increasingly streamlined. Manufacturers of computers, for instance, are able to import 24 ______ from overseas, rather than having to rely on a local supplier. The introduction of 25 ______ has meant that bulk cargo can be safely and efficiently moved over long distances. While international shipping is now efficient, there is still a need for governments to reduce 26 ______ in order to free up the domestic cargo sector.",
           "question_numbers": [
             23,
             24,
             25,
             26
           ],
-          "options": [],
+          "options": [
+            {
+              "label": "A",
+              "text": "tariffs"
+            },
+            {
+              "label": "B",
+              "text": "components"
+            },
+            {
+              "label": "C",
+              "text": "container ships"
+            },
+            {
+              "label": "D",
+              "text": "output"
+            },
+            {
+              "label": "E",
+              "text": "employees"
+            },
+            {
+              "label": "F",
+              "text": "insurance costs"
+            },
+            {
+              "label": "G",
+              "text": "trade"
+            },
+            {
+              "label": "H",
+              "text": "freight"
+            },
+            {
+              "label": "I",
+              "text": "fares"
+            },
+            {
+              "label": "J",
+              "text": "software"
+            },
+            {
+              "label": "K",
+              "text": "international standards"
+            }
+          ],
           "content_blocks": [
             {
               "type": "rich_text",
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 23-26\nComplete the summary using the list of words, A-K, below.\nWrite the correct letter, A-K, in boxes 23-26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 .. as the\n\nbusiness of moving freight around the world becomes increasingly streamlined.\nManufacturers of computers, for instance, are able to import 24\n\nfrom overseas, rather than having to rely on a local supplier. The introduction of\n\nhas meant that bulk cargo can be safely and efficiently moved over long\ndistances. While international shipping is now efficient, there is still a need for governments to\nFECUCE 26 ..,.nssssvesersosesereee in order to free up the domestic cargo sector.\n\ntariffs components C container ships\noutput employees F insurance costs\n\ntrade freight I fares\nsoftware international standards"
+                  "text": "Complete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 23–26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on "
+                },
+                {
+                  "type": "blank",
+                  "number": 23
+                },
+                {
+                  "type": "text",
+                  "text": " as the business of moving freight around the world becomes increasingly streamlined. Manufacturers of computers, for instance, are able to import "
+                },
+                {
+                  "type": "blank",
+                  "number": 24
+                },
+                {
+                  "type": "text",
+                  "text": " from overseas, rather than having to rely on a local supplier. The introduction of "
+                },
+                {
+                  "type": "blank",
+                  "number": 25
+                },
+                {
+                  "type": "text",
+                  "text": " has meant that bulk cargo can be safely and efficiently moved over long distances. While international shipping is now efficient, there is still a need for governments to reduce "
+                },
+                {
+                  "type": "blank",
+                  "number": 26
+                },
+                {
+                  "type": "text",
+                  "text": " in order to free up the domestic cargo sector."
                 }
               ]
             }
@@ -1438,7 +1515,19 @@
           "constraints": {
             "max_words": null,
             "allow_number": false,
-            "allowed_values": [],
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J",
+              "K"
+            ],
             "reuse_allowed": false,
             "selection_count": null
           },
@@ -1448,13 +1537,25 @@
               "number": 23,
               "group_id": "cambridge-06-test-01-p-2-g-23-26",
               "type": "summary_completion",
-              "prompt": "Questions 23-26\nComplete the summary using the list of words, A-K, below.\nWrite the correct letter, A-K, in boxes 23-26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 .. as the\n\nbusiness of moving freight around the world becomes increasingly streamlined.\nManufacturers of computers, for instance, are able to import 24\n\nfrom overseas, rather than having to rely on a local supplier. The introduction of\n\nhas meant that bulk cargo can be safely and efficiently moved over long\ndistances. While international shipping is now efficient, there is still a need for governments to\nFECUCE 26 ..,.nssssvesersosesereee in order to free up the domestic cargo sector.\n\ntariffs components C container ships\noutput employees F insurance costs\n\ntrade freight I fares\nsoftware international standards",
-              "answer_input_type": "text",
+              "prompt": "Questions 23–26\nComplete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 23–26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 ______ as the business of moving freight around the world becomes increasingly streamlined. Manufacturers of computers, for instance, are able to import 24 ______ from overseas, rather than having to rely on a local supplier. The introduction of 25 ______ has meant that bulk cargo can be safely and efficiently moved over long distances. While international shipping is now efficient, there is still a need for governments to reduce 26 ______ in order to free up the domestic cargo sector.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K"
+                ],
                 "reuse_allowed": false,
                 "selection_count": null
               },
@@ -1477,13 +1578,25 @@
               "number": 24,
               "group_id": "cambridge-06-test-01-p-2-g-23-26",
               "type": "summary_completion",
-              "prompt": "Questions 23-26\nComplete the summary using the list of words, A-K, below.\nWrite the correct letter, A-K, in boxes 23-26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 .. as the\n\nbusiness of moving freight around the world becomes increasingly streamlined.\nManufacturers of computers, for instance, are able to import 24\n\nfrom overseas, rather than having to rely on a local supplier. The introduction of\n\nhas meant that bulk cargo can be safely and efficiently moved over long\ndistances. While international shipping is now efficient, there is still a need for governments to\nFECUCE 26 ..,.nssssvesersosesereee in order to free up the domestic cargo sector.\n\ntariffs components C container ships\noutput employees F insurance costs\n\ntrade freight I fares\nsoftware international standards",
-              "answer_input_type": "text",
+              "prompt": "Questions 23–26\nComplete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 23–26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 ______ as the business of moving freight around the world becomes increasingly streamlined. Manufacturers of computers, for instance, are able to import 24 ______ from overseas, rather than having to rely on a local supplier. The introduction of 25 ______ has meant that bulk cargo can be safely and efficiently moved over long distances. While international shipping is now efficient, there is still a need for governments to reduce 26 ______ in order to free up the domestic cargo sector.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K"
+                ],
                 "reuse_allowed": false,
                 "selection_count": null
               },
@@ -1506,13 +1619,25 @@
               "number": 25,
               "group_id": "cambridge-06-test-01-p-2-g-23-26",
               "type": "summary_completion",
-              "prompt": "Questions 23-26\nComplete the summary using the list of words, A-K, below.\nWrite the correct letter, A-K, in boxes 23-26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 .. as the\n\nbusiness of moving freight around the world becomes increasingly streamlined.\nManufacturers of computers, for instance, are able to import 24\n\nfrom overseas, rather than having to rely on a local supplier. The introduction of\n\nhas meant that bulk cargo can be safely and efficiently moved over long\ndistances. While international shipping is now efficient, there is still a need for governments to\nFECUCE 26 ..,.nssssvesersosesereee in order to free up the domestic cargo sector.\n\ntariffs components C container ships\noutput employees F insurance costs\n\ntrade freight I fares\nsoftware international standards",
-              "answer_input_type": "text",
+              "prompt": "Questions 23–26\nComplete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 23–26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 ______ as the business of moving freight around the world becomes increasingly streamlined. Manufacturers of computers, for instance, are able to import 24 ______ from overseas, rather than having to rely on a local supplier. The introduction of 25 ______ has meant that bulk cargo can be safely and efficiently moved over long distances. While international shipping is now efficient, there is still a need for governments to reduce 26 ______ in order to free up the domestic cargo sector.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K"
+                ],
                 "reuse_allowed": false,
                 "selection_count": null
               },
@@ -1535,13 +1660,25 @@
               "number": 26,
               "group_id": "cambridge-06-test-01-p-2-g-23-26",
               "type": "summary_completion",
-              "prompt": "Questions 23-26\nComplete the summary using the list of words, A-K, below.\nWrite the correct letter, A-K, in boxes 23-26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 .. as the\n\nbusiness of moving freight around the world becomes increasingly streamlined.\nManufacturers of computers, for instance, are able to import 24\n\nfrom overseas, rather than having to rely on a local supplier. The introduction of\n\nhas meant that bulk cargo can be safely and efficiently moved over long\ndistances. While international shipping is now efficient, there is still a need for governments to\nFECUCE 26 ..,.nssssvesersosesereee in order to free up the domestic cargo sector.\n\ntariffs components C container ships\noutput employees F insurance costs\n\ntrade freight I fares\nsoftware international standards",
-              "answer_input_type": "text",
+              "prompt": "Questions 23–26\nComplete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 23–26 on your answer sheet.\n\nTHE TRANSPORT REVOLUTION\n\nModern cargo-handling methods have had a significant effect on 23 ______ as the business of moving freight around the world becomes increasingly streamlined. Manufacturers of computers, for instance, are able to import 24 ______ from overseas, rather than having to rely on a local supplier. The introduction of 25 ______ has meant that bulk cargo can be safely and efficiently moved over long distances. While international shipping is now efficient, there is still a need for governments to reduce 26 ______ in order to free up the domestic cargo sector.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J",
+                  "K"
+                ],
                 "reuse_allowed": false,
                 "selection_count": null
               },

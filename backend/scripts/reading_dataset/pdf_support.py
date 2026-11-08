@@ -83,11 +83,17 @@ def crop_group(pdf, pp, nums, base, group_id, *, allow_continuation=False):
     reviews = json.loads(review_path.read_text())
     for crop in reviews["crops"]:
         if crop["group_id"] == group_id:
+            if (
+                crop.get("pdf_sha256")
+                and hashlib.sha256(pdf.read_bytes()).hexdigest() != crop["pdf_sha256"]
+            ):
+                raise ValueError("Reviewed crop PDF changed: " + group_id)
             n = crop["pdf_page"]
             rect = crop["crop_box"]
+            revision = "-" + crop["revision"] if crop.get("revision") else ""
             path = (
                 f"assets/cambridge_{int(group_id.split('-')[1]):02}/"
-                f"{group_id}-pdf-{n:03}-diagram.png"
+                f"{group_id}-pdf-{n:03}-diagram{revision}.png"
             )
             dest = base / path
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -96,7 +102,7 @@ def crop_group(pdf, pp, nums, base, group_id, *, allow_continuation=False):
                 pix.save(dest)
             return [
                 {
-                    "id": f"{group_id}-asset-{n}-diagram",
+                    "id": f"{group_id}-asset-{n}-diagram{revision}",
                     "path": path,
                     "mime_type": "image/png",
                     "pdf_file": str(pdf),
@@ -124,6 +130,24 @@ def crop_group(pdf, pp, nums, base, group_id, *, allow_continuation=False):
             if len(line["text"]) > 65:
                 continue
             ymax = hs[ix + 1][2] - 8 if ix + 1 < len(hs) else data["height"] * 0.935
+            # Fail closed if the inferred footer boundary would hide a task number.
+            # A reviewed, hash-bound crop above is required to extend that boundary.
+            # Preserve unchanged crop bytes/IDs used by historical snapshots.
+            if ix + 1 == len(hs):
+                for tail in data["lines"]:
+                    match = re.match(r"^\s*(\d{1,2})(?:\s+|[.)]\s*|$)", tail["text"])
+                    if not match or int(match[1]) not in wanted or tail["bbox"][1] <= ymax:
+                        continue
+                    companions = any(
+                        other is not tail
+                        and abs(other["bbox"][1] - tail["bbox"][1]) < 4
+                        and re.search(r"[A-Za-z]", other["text"])
+                        for other in data["lines"]
+                    )
+                    if tail["text"][match.end() :].strip() or companions:
+                        raise ValueError(
+                            "Question below automatic crop; add reviewed crop: " + group_id
+                        )
             ymin = max(0, y - 6)
             relevant = [line for line in data["lines"] if ymin <= line["bbox"][1] <= ymax]
             if not relevant:

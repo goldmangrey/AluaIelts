@@ -1153,25 +1153,44 @@
         {
           "id": "cambridge-16-test-03-p-2-g-20-22",
           "type": "summary_completion",
-          "instructions": "Questions 20-22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20-22 on your answer sheet.\nInteresting finds at an archaeological site\nOrganic materials such as animal skins and textiles are not discovered very often at\narchaeological sites. They have little protection agaiNst 20. ecssssssseesemeeneeeeeenee 9\nwhich means that they decay relatively quickly. But this is not always the case.\nIf temperatures are low enough, fragile artefacts can be preserved for thousands\nof years.\nA team of archaeologists have been working in the mountains in Oppland in Norway\nto recover artefacts revealed by shrinking ice cover. In the past, there were trade\nroutes through these MOUNEAINS AN 21 oes Gathered there in\nthe summer months to avoid being attacked by 22 once ON LOWEr\nground. The people who used these mountains left things behind and it is those\nobjects that are of interest to archaeologists.",
+          "instructions": "Questions 20–22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20–22 on your answer sheet.\n\nInteresting finds at an archaeological site\n\nOrganic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against 20 ______ , which means that they decay relatively quickly. But this is not always the case. If temperatures are low enough, fragile artefacts can be preserved for thousands of years.\n\nA team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and 21 ______ gathered there in the summer months to avoid being attacked by 22 ______ on lower ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists.",
           "question_numbers": [
             20,
             21,
             22
           ],
-          "options": [
-            {
-              "label": "A",
-              "text": "team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these MOUNEAINS AN 21 oes Gathered there in the summer months to avoid being attacked by 22 once ON LOWEr ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists."
-            }
-          ],
+          "options": [],
           "content_blocks": [
             {
               "type": "rich_text",
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 20-22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20-22 on your answer sheet.\nInteresting finds at an archaeological site\nOrganic materials such as animal skins and textiles are not discovered very often at\narchaeological sites. They have little protection agaiNst 20. ecssssssseesemeeneeeeeenee 9\nwhich means that they decay relatively quickly. But this is not always the case.\nIf temperatures are low enough, fragile artefacts can be preserved for thousands\nof years.\nA team of archaeologists have been working in the mountains in Oppland in Norway\nto recover artefacts revealed by shrinking ice cover. In the past, there were trade\nroutes through these MOUNEAINS AN 21 oes Gathered there in\nthe summer months to avoid being attacked by 22 once ON LOWEr\nground. The people who used these mountains left things behind and it is those\nobjects that are of interest to archaeologists."
+                  "text": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20–22 on your answer sheet.\n\nInteresting finds at an archaeological site\n\nOrganic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against "
+                },
+                {
+                  "type": "blank",
+                  "number": 20
+                },
+                {
+                  "type": "text",
+                  "text": " , which means that they decay relatively quickly. But this is not always the case. If temperatures are low enough, fragile artefacts can be preserved for thousands of years.\n\nA team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and "
+                },
+                {
+                  "type": "blank",
+                  "number": 21
+                },
+                {
+                  "type": "text",
+                  "text": " gathered there in the summer months to avoid being attacked by "
+                },
+                {
+                  "type": "blank",
+                  "number": 22
+                },
+                {
+                  "type": "text",
+                  "text": " on lower ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists."
                 }
               ]
             }
@@ -1180,9 +1199,7 @@
           "constraints": {
             "max_words": 1,
             "allow_number": false,
-            "allowed_values": [
-              "A"
-            ],
+            "allowed_values": [],
             "reuse_allowed": false,
             "selection_count": null
           },
@@ -1192,15 +1209,13 @@
               "number": 20,
               "group_id": "cambridge-16-test-03-p-2-g-20-22",
               "type": "summary_completion",
-              "prompt": "Questions 20-22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20-22 on your answer sheet.\nInteresting finds at an archaeological site\nOrganic materials such as animal skins and textiles are not discovered very often at\narchaeological sites. They have little protection agaiNst 20. ecssssssseesemeeneeeeeenee 9\nwhich means that they decay relatively quickly. But this is not always the case.\nIf temperatures are low enough, fragile artefacts can be preserved for thousands\nof years.\nA team of archaeologists have been working in the mountains in Oppland in Norway\nto recover artefacts revealed by shrinking ice cover. In the past, there were trade\nroutes through these MOUNEAINS AN 21 oes Gathered there in\nthe summer months to avoid being attacked by 22 once ON LOWEr\nground. The people who used these mountains left things behind and it is those\nobjects that are of interest to archaeologists.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 20–22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20–22 on your answer sheet.\n\nInteresting finds at an archaeological site\n\nOrganic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against 20 ______ , which means that they decay relatively quickly. But this is not always the case. If temperatures are low enough, fragile artefacts can be preserved for thousands of years.\n\nA team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and 21 ______ gathered there in the summer months to avoid being attacked by 22 ______ on lower ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
+                "allowed_values": [],
                 "reuse_allowed": false,
                 "selection_count": null
               },
@@ -1223,15 +1238,13 @@
               "number": 21,
               "group_id": "cambridge-16-test-03-p-2-g-20-22",
               "type": "summary_completion",
-              "prompt": "Questions 20-22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20-22 on your answer sheet.\nInteresting finds at an archaeological site\nOrganic materials such as animal skins and textiles are not discovered very often at\narchaeological sites. They have little protection agaiNst 20. ecssssssseesemeeneeeeeenee 9\nwhich means that they decay relatively quickly. But this is not always the case.\nIf temperatures are low enough, fragile artefacts can be preserved for thousands\nof years.\nA team of archaeologists have been working in the mountains in Oppland in Norway\nto recover artefacts revealed by shrinking ice cover. In the past, there were trade\nroutes through these MOUNEAINS AN 21 oes Gathered there in\nthe summer months to avoid being attacked by 22 once ON LOWEr\nground. The people who used these mountains left things behind and it is those\nobjects that are of interest to archaeologists.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 20–22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20–22 on your answer sheet.\n\nInteresting finds at an archaeological site\n\nOrganic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against 20 ______ , which means that they decay relatively quickly. But this is not always the case. If temperatures are low enough, fragile artefacts can be preserved for thousands of years.\n\nA team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and 21 ______ gathered there in the summer months to avoid being attacked by 22 ______ on lower ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
+                "allowed_values": [],
                 "reuse_allowed": false,
                 "selection_count": null
               },
@@ -1254,15 +1267,13 @@
               "number": 22,
               "group_id": "cambridge-16-test-03-p-2-g-20-22",
               "type": "summary_completion",
-              "prompt": "Questions 20-22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20-22 on your answer sheet.\nInteresting finds at an archaeological site\nOrganic materials such as animal skins and textiles are not discovered very often at\narchaeological sites. They have little protection agaiNst 20. ecssssssseesemeeneeeeeenee 9\nwhich means that they decay relatively quickly. But this is not always the case.\nIf temperatures are low enough, fragile artefacts can be preserved for thousands\nof years.\nA team of archaeologists have been working in the mountains in Oppland in Norway\nto recover artefacts revealed by shrinking ice cover. In the past, there were trade\nroutes through these MOUNEAINS AN 21 oes Gathered there in\nthe summer months to avoid being attacked by 22 once ON LOWEr\nground. The people who used these mountains left things behind and it is those\nobjects that are of interest to archaeologists.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 20–22\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 20–22 on your answer sheet.\n\nInteresting finds at an archaeological site\n\nOrganic materials such as animal skins and textiles are not discovered very often at archaeological sites. They have little protection against 20 ______ , which means that they decay relatively quickly. But this is not always the case. If temperatures are low enough, fragile artefacts can be preserved for thousands of years.\n\nA team of archaeologists have been working in the mountains in Oppland in Norway to recover artefacts revealed by shrinking ice cover. In the past, there were trade routes through these mountains and 21 ______ gathered there in the summer months to avoid being attacked by 22 ______ on lower ground. The people who used these mountains left things behind and it is those objects that are of interest to archaeologists.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
+                "allowed_values": [],
                 "reuse_allowed": false,
                 "selection_count": null
               },

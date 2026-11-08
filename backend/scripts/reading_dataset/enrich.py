@@ -154,6 +154,9 @@ def enrich_exam(e, k, base):
     from repairs import apply_repairs
 
     apply_repairs(e)
+    from confirmed_hotfixes import apply_confirmed_hotfixes
+
+    apply_confirmed_hotfixes(e, base)
     e["source_references"][0]["pdf_pages"] = sorted(
         {n for p in e["passages"] for n in p["source_pages"]}
     )

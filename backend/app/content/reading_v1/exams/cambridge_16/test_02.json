@@ -1177,7 +1177,7 @@
         {
           "id": "cambridge-16-test-02-p-2-g-17-20",
           "type": "summary_completion",
-          "instructions": "Questions 17-20\nComplete the summary using the list of words, A—H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.\nWe should be more tolerant of microbes\nYong’s book argues that we should be more tolerant of microbes. Many have a\nbeneficial effect, and only a relatively small number lead t0 17 occ «ANd\nalthough it is misleading to think of microbes as ‘friendly’, we should also stop thinking of\nthem as the enemy. In fact, we should accept that our relationship with microbes is one\nbased On 18 wesscscmcaresneacceneane s\nNew research shows that microbes have numerous benefits for humans. Amongst other\nthings, they aid digestion, remove poisons, produce vitamins and may even help reduce\nobesity. However, there is a growing problem. OUr POOF 19 uu... .sssesssssee » OUP\noveruse of antibiotics, and our excessive FOCUS ON 20 __________  eee are upsetting the\nbacterial balance and may be contributing to the huge increase in allergies and immune\nsystem problems.\nA solution B _ partnership C_ destruction\nD exaggeration E cleanliness F regulations\nG _ illness H nutrition",
+          "instructions": "Questions 17–20\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 17–20 on your answer sheet.\n\nWe should be more tolerant of microbes\n\nYong’s book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to 17 ______ . And although it is misleading to think of microbes as ‘friendly’, we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on 18 ______ .\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor 19 ______ , our overuse of antibiotics, and our excessive focus on 20 ______ are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems.",
           "question_numbers": [
             17,
             18,
@@ -1191,7 +1191,11 @@
             },
             {
               "label": "B",
-              "text": "partnership C_ destruction"
+              "text": "partnership"
+            },
+            {
+              "label": "C",
+              "text": "destruction"
             },
             {
               "label": "D",
@@ -1220,7 +1224,31 @@
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 17-20\nComplete the summary using the list of words, A—H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.\nWe should be more tolerant of microbes\nYong’s book argues that we should be more tolerant of microbes. Many have a\nbeneficial effect, and only a relatively small number lead t0 17 occ «ANd\nalthough it is misleading to think of microbes as ‘friendly’, we should also stop thinking of\nthem as the enemy. In fact, we should accept that our relationship with microbes is one\nbased On 18 wesscscmcaresneacceneane s\nNew research shows that microbes have numerous benefits for humans. Amongst other\nthings, they aid digestion, remove poisons, produce vitamins and may even help reduce\nobesity. However, there is a growing problem. OUr POOF 19 uu... .sssesssssee » OUP\noveruse of antibiotics, and our excessive FOCUS ON "
+                  "text": "Complete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 17–20 on your answer sheet.\n\nWe should be more tolerant of microbes\n\nYong’s book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to "
+                },
+                {
+                  "type": "blank",
+                  "number": 17
+                },
+                {
+                  "type": "text",
+                  "text": " . And although it is misleading to think of microbes as ‘friendly’, we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on "
+                },
+                {
+                  "type": "blank",
+                  "number": 18
+                },
+                {
+                  "type": "text",
+                  "text": " .\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor "
+                },
+                {
+                  "type": "blank",
+                  "number": 19
+                },
+                {
+                  "type": "text",
+                  "text": " , our overuse of antibiotics, and our excessive focus on "
                 },
                 {
                   "type": "blank",
@@ -1228,7 +1256,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "  eee are upsetting the\nbacterial balance and may be contributing to the huge increase in allergies and immune\nsystem problems.\nA solution B _ partnership C_ destruction\nD exaggeration E cleanliness F regulations\nG _ illness H nutrition"
+                  "text": " are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems."
                 }
               ]
             }
@@ -1240,6 +1268,7 @@
             "allowed_values": [
               "A",
               "B",
+              "C",
               "D",
               "E",
               "F",
@@ -1255,7 +1284,7 @@
               "number": 17,
               "group_id": "cambridge-16-test-02-p-2-g-17-20",
               "type": "summary_completion",
-              "prompt": "Questions 17-20\nComplete the summary using the list of words, A—H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.\nWe should be more tolerant of microbes\nYong’s book argues that we should be more tolerant of microbes. Many have a\nbeneficial effect, and only a relatively small number lead t0 17 occ «ANd\nalthough it is misleading to think of microbes as ‘friendly’, we should also stop thinking of\nthem as the enemy. In fact, we should accept that our relationship with microbes is one\nbased On 18 wesscscmcaresneacceneane s\nNew research shows that microbes have numerous benefits for humans. Amongst other\nthings, they aid digestion, remove poisons, produce vitamins and may even help reduce\nobesity. However, there is a growing problem. OUr POOF 19 uu... .sssesssssee » OUP\noveruse of antibiotics, and our excessive FOCUS ON 20 __________  eee are upsetting the\nbacterial balance and may be contributing to the huge increase in allergies and immune\nsystem problems.\nA solution B _ partnership C_ destruction\nD exaggeration E cleanliness F regulations\nG _ illness H nutrition",
+              "prompt": "Questions 17–20\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 17–20 on your answer sheet.\n\nWe should be more tolerant of microbes\n\nYong’s book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to 17 ______ . And although it is misleading to think of microbes as ‘friendly’, we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on 18 ______ .\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor 19 ______ , our overuse of antibiotics, and our excessive focus on 20 ______ are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -1264,6 +1293,7 @@
                 "allowed_values": [
                   "A",
                   "B",
+                  "C",
                   "D",
                   "E",
                   "F",
@@ -1293,7 +1323,7 @@
               "number": 18,
               "group_id": "cambridge-16-test-02-p-2-g-17-20",
               "type": "summary_completion",
-              "prompt": "Questions 17-20\nComplete the summary using the list of words, A—H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.\nWe should be more tolerant of microbes\nYong’s book argues that we should be more tolerant of microbes. Many have a\nbeneficial effect, and only a relatively small number lead t0 17 occ «ANd\nalthough it is misleading to think of microbes as ‘friendly’, we should also stop thinking of\nthem as the enemy. In fact, we should accept that our relationship with microbes is one\nbased On 18 wesscscmcaresneacceneane s\nNew research shows that microbes have numerous benefits for humans. Amongst other\nthings, they aid digestion, remove poisons, produce vitamins and may even help reduce\nobesity. However, there is a growing problem. OUr POOF 19 uu... .sssesssssee » OUP\noveruse of antibiotics, and our excessive FOCUS ON 20 __________  eee are upsetting the\nbacterial balance and may be contributing to the huge increase in allergies and immune\nsystem problems.\nA solution B _ partnership C_ destruction\nD exaggeration E cleanliness F regulations\nG _ illness H nutrition",
+              "prompt": "Questions 17–20\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 17–20 on your answer sheet.\n\nWe should be more tolerant of microbes\n\nYong’s book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to 17 ______ . And although it is misleading to think of microbes as ‘friendly’, we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on 18 ______ .\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor 19 ______ , our overuse of antibiotics, and our excessive focus on 20 ______ are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -1302,6 +1332,7 @@
                 "allowed_values": [
                   "A",
                   "B",
+                  "C",
                   "D",
                   "E",
                   "F",
@@ -1331,7 +1362,7 @@
               "number": 19,
               "group_id": "cambridge-16-test-02-p-2-g-17-20",
               "type": "summary_completion",
-              "prompt": "Questions 17-20\nComplete the summary using the list of words, A—H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.\nWe should be more tolerant of microbes\nYong’s book argues that we should be more tolerant of microbes. Many have a\nbeneficial effect, and only a relatively small number lead t0 17 occ «ANd\nalthough it is misleading to think of microbes as ‘friendly’, we should also stop thinking of\nthem as the enemy. In fact, we should accept that our relationship with microbes is one\nbased On 18 wesscscmcaresneacceneane s\nNew research shows that microbes have numerous benefits for humans. Amongst other\nthings, they aid digestion, remove poisons, produce vitamins and may even help reduce\nobesity. However, there is a growing problem. OUr POOF 19 uu... .sssesssssee » OUP\noveruse of antibiotics, and our excessive FOCUS ON 20 __________  eee are upsetting the\nbacterial balance and may be contributing to the huge increase in allergies and immune\nsystem problems.\nA solution B _ partnership C_ destruction\nD exaggeration E cleanliness F regulations\nG _ illness H nutrition",
+              "prompt": "Questions 17–20\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 17–20 on your answer sheet.\n\nWe should be more tolerant of microbes\n\nYong’s book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to 17 ______ . And although it is misleading to think of microbes as ‘friendly’, we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on 18 ______ .\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor 19 ______ , our overuse of antibiotics, and our excessive focus on 20 ______ are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -1340,6 +1371,7 @@
                 "allowed_values": [
                   "A",
                   "B",
+                  "C",
                   "D",
                   "E",
                   "F",
@@ -1369,7 +1401,7 @@
               "number": 20,
               "group_id": "cambridge-16-test-02-p-2-g-17-20",
               "type": "summary_completion",
-              "prompt": "Questions 17-20\nComplete the summary using the list of words, A—H, below.\nWrite the correct letter, A-H, in boxes 17-20 on your answer sheet.\nWe should be more tolerant of microbes\nYong’s book argues that we should be more tolerant of microbes. Many have a\nbeneficial effect, and only a relatively small number lead t0 17 occ «ANd\nalthough it is misleading to think of microbes as ‘friendly’, we should also stop thinking of\nthem as the enemy. In fact, we should accept that our relationship with microbes is one\nbased On 18 wesscscmcaresneacceneane s\nNew research shows that microbes have numerous benefits for humans. Amongst other\nthings, they aid digestion, remove poisons, produce vitamins and may even help reduce\nobesity. However, there is a growing problem. OUr POOF 19 uu... .sssesssssee » OUP\noveruse of antibiotics, and our excessive FOCUS ON 20 __________  eee are upsetting the\nbacterial balance and may be contributing to the huge increase in allergies and immune\nsystem problems.\nA solution B _ partnership C_ destruction\nD exaggeration E cleanliness F regulations\nG _ illness H nutrition",
+              "prompt": "Questions 17–20\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 17–20 on your answer sheet.\n\nWe should be more tolerant of microbes\n\nYong’s book argues that we should be more tolerant of microbes. Many have a beneficial effect, and only a relatively small number lead to 17 ______ . And although it is misleading to think of microbes as ‘friendly’, we should also stop thinking of them as the enemy. In fact, we should accept that our relationship with microbes is one based on 18 ______ .\n\nNew research shows that microbes have numerous benefits for humans. Amongst other things, they aid digestion, remove poisons, produce vitamins and may even help reduce obesity. However, there is a growing problem. Our poor 19 ______ , our overuse of antibiotics, and our excessive focus on 20 ______ are upsetting the bacterial balance and may be contributing to the huge increase in allergies and immune system problems.",
               "answer_input_type": "single_select",
               "options": [],
               "constraints": {
@@ -1378,6 +1410,7 @@
                 "allowed_values": [
                   "A",
                   "B",
+                  "C",
                   "D",
                   "E",
                   "F",

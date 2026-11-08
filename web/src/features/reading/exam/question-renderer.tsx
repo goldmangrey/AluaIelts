@@ -114,6 +114,12 @@ function MultiChoice({ group: g, actions: a }: { group: Group; actions: Question
     </label>)}</fieldset>{selected.size > 0 && <button type="button" className="text-button" disabled={a.disabled || g.questions.some((q) => a.locked.has(q.id))} onClick={() => a.change(Object.fromEntries(g.questions.map((q) => [q.id, ""])))}>Clear selection</button>}</>;
 }
 function normalized(text: string) { return text.replace(/\s+/g, " ").trim(); }
+function withoutRepeatedGroupHeading(text: string, group: Group) {
+  const first = group.question_numbers[0], last = group.question_numbers.at(-1);
+  const range = first === last ? `${first}` : `${first}\\s*[-–—]\\s*${last}`;
+  // The section already supplies this exact numbered heading. Keep all task wording.
+  return text.replace(new RegExp(`^\\s*Questions?\\s+${range}\\s*\\n`, "i"), "");
+}
 function withoutOptionAppendix(text: string, options: ReturnType<typeof questionOptions>) {
   if (!options.length || options.some((o) => o.label === o.text)) return text;
   const escape = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -143,7 +149,7 @@ export function QuestionGroup({ group: g, actions, uid, active }: { group: Group
   const qByNumber = new Map(g.questions.map((q) => [q.number, q]));
   const shown = new Set<number>();
   const segmentNodes = (segments: Segment[]): ReactNode => segments.map((s, i) => {
-    if (s.type === "text") return <Fragment key={i}>{withoutOptionAppendix(s.text, bank)}</Fragment>;
+    if (s.type === "text") return <Fragment key={i}>{withoutRepeatedGroupHeading(withoutOptionAppendix(s.text, bank), g)}</Fragment>;
     const q = qByNumber.get(s.number);
     if (!q) return <strong key={i} role="alert">Missing question {s.number}</strong>;
     if (shown.has(q.number)) return <span key={i}>[see answer {q.number}]</span>;
@@ -171,6 +177,7 @@ export function QuestionGroup({ group: g, actions, uid, active }: { group: Group
     if (at > 0 && instructions.slice(at).trim() === first.prompt.trim()) instructions = instructions.slice(0, at).replace(new RegExp(`\\n\\s*${first.number}\\s*[.]?$`), "").trim();
   }
   if (g.type === "multiple_choice_multiple" && g.options.length) instructions = withoutOptionAppendix(instructions, g.options);
+  instructions = withoutRepeatedGroupHeading(instructions, g);
   const inline = !imageMode && g.questions.every((q) => q.answer_input_type === "text" || q.answer_input_type === "single_select") && g.content_blocks.some((b) => b.type === "rich_text" && b.segments.some((s) => s.type === "blank") || b.type === "table");
   // Compute block nodes now so `shown` correctly tracks fields before fallback rows.
   const content = inline ? g.content_blocks.map(blocks) : null;

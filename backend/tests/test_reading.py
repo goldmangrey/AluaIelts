@@ -58,7 +58,7 @@ def perfect(key):
 
 def test_catalog_and_all_grading_types():
     c = get_catalog()
-    assert len(c.entries) == 72 and len(c.assets) == 60
+    assert len(c.entries) == 72 and len(c.assets) == 60 + len(c.manifest.get("retained_assets", []))
     enabled = [e for e in c.entries.values() if e["enabled_for_private_practice"]]
     assert len(enabled) == 69
     assert all(e["content_status"] == "needs_review" and e["not_fully_proofread"] for e in enabled)

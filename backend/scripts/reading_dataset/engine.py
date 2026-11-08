@@ -140,7 +140,7 @@ def options(s, roman=False):
     if not roman:
         expanded = []
         for line in s.splitlines():
-            markers = list(re.finditer(r"(?<!\w)([A-Z])[.)]?[ \t]+", line))
+            markers = list(re.finditer(r"(?<!\w)([A-Z])[.)_]?[ \t_]+", line))
             labels = [m[1] for m in markers]
             if (
                 len(markers) > 1
@@ -166,7 +166,9 @@ def options(s, roman=False):
         body = re.split(r"\n\s*(?:\d{1,2}[.)]?\s|Questions?\s+\d)", body)[0].strip()
         if body:
             out.append({"label": m[1], "text": " ".join(body.split())})
-    return out
+    # A lone prose paragraph ("A team...", "A major reason...") is not a bank.
+    # A usable choice bank has at least two distinct labels.
+    return out if len({item["label"] for item in out}) >= 2 else []
 
 
 def classify(s, nums):
@@ -259,7 +261,8 @@ def rich_text(s, nums):
     """Lossless text plus explicit answer slots, not guessed table coordinates."""
     segments = []
     last = 0
-    pat = r"(?<!\d)(\d{1,2})[.)]?\s*(?:\[)?_{2,}(?:\])?|_{2,}\s*\(?(\d{1,2})\)?"
+    leader = r"(?:_{2,}|\.{3,}|…{2,}|[.·][ \t]*[.·][ \t]*[.·](?:[.· \t])*)"
+    pat = rf"(?<!\d)(\d{{1,2}})[.)]?[ \t]*(?:\[)?{leader}(?:\])?|_{{2,}}\s*\(?(\d{{1,2}})\)?"
     for m in re.finditer(pat, s):
         n = int(m[1] or m[2])
         if n not in nums:
@@ -1084,6 +1087,12 @@ def build(destination=DEST):
     from repairs import records
 
     edits += [dict(row, kind=kind) for kind, rows in records().items() for row in rows]
+    from confirmed_hotfixes import materialize_assets
+    from confirmed_hotfixes import records as confirmed_records
+
+    hotfixes = confirmed_records()
+    edits += [dict(row, kind="confirmed_fidelity_v1") for row in hotfixes["repairs"]]
+    materialize_assets(hotfixes, destination)
     (destination / "corrections.jsonl").write_text(
         "".join(json.dumps(x, ensure_ascii=False) + "\n" for x in edits), encoding="utf-8"
     )
@@ -1105,6 +1114,7 @@ def build(destination=DEST):
                 "exams": entries,
                 "generator": generator,
                 "schemas": schema_hashes,
+                "retained_assets": hotfixes["retained_assets"],
             },
             sort_keys=True,
         ).encode()
@@ -1120,6 +1130,7 @@ def build(destination=DEST):
             "books": sorted({e["source_book"] for e in entries}),
             "sources": sources,
             "exams": entries,
+            "retained_assets": hotfixes["retained_assets"],
         },
     )
     key_verification = collections.Counter(

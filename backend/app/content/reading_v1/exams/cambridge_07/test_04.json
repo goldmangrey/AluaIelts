@@ -1839,7 +1839,7 @@
         {
           "id": "cambridge-07-test-04-p-3-g-30-34",
           "type": "summary_completion",
-          "instructions": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS",
+          "instructions": "Questions 30–34\nComplete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which 30 ______ noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to 31 ______ noise. The predictable noise group 32 ______ the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise 33 ______ the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that 34 ______ noise produces fatigue but that this manifests itself later.",
           "question_numbers": [
             30,
             31,
@@ -1847,14 +1847,95 @@
             33,
             34
           ],
-          "options": [],
+          "options": [
+            {
+              "label": "A",
+              "text": "no control over"
+            },
+            {
+              "label": "B",
+              "text": "unexpected"
+            },
+            {
+              "label": "C",
+              "text": "intense"
+            },
+            {
+              "label": "D",
+              "text": "the same amount of"
+            },
+            {
+              "label": "E",
+              "text": "performed better than"
+            },
+            {
+              "label": "F",
+              "text": "performed at about the same level as"
+            },
+            {
+              "label": "G",
+              "text": "no"
+            },
+            {
+              "label": "H",
+              "text": "showed more irritation than"
+            },
+            {
+              "label": "I",
+              "text": "made more mistakes than"
+            },
+            {
+              "label": "J",
+              "text": "different types of"
+            }
+          ],
           "content_blocks": [
             {
               "type": "rich_text",
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS"
+                  "text": "Complete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which "
+                },
+                {
+                  "type": "blank",
+                  "number": 30
+                },
+                {
+                  "type": "text",
+                  "text": " noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to "
+                },
+                {
+                  "type": "blank",
+                  "number": 31
+                },
+                {
+                  "type": "text",
+                  "text": " noise. The predictable noise group "
+                },
+                {
+                  "type": "blank",
+                  "number": 32
+                },
+                {
+                  "type": "text",
+                  "text": " the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise "
+                },
+                {
+                  "type": "blank",
+                  "number": 33
+                },
+                {
+                  "type": "text",
+                  "text": " the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that "
+                },
+                {
+                  "type": "blank",
+                  "number": 34
+                },
+                {
+                  "type": "text",
+                  "text": " noise produces fatigue but that this manifests itself later."
                 }
               ]
             }
@@ -1863,7 +1944,18 @@
           "constraints": {
             "max_words": null,
             "allow_number": false,
-            "allowed_values": [],
+            "allowed_values": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J"
+            ],
             "reuse_allowed": true,
             "selection_count": null
           },
@@ -1873,13 +1965,24 @@
               "number": 30,
               "group_id": "cambridge-07-test-04-p-3-g-30-34",
               "type": "summary_completion",
-              "prompt": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS",
-              "answer_input_type": "text",
+              "prompt": "Questions 30–34\nComplete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which 30 ______ noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to 31 ______ noise. The predictable noise group 32 ______ the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise 33 ______ the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that 34 ______ noise produces fatigue but that this manifests itself later.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
                 "reuse_allowed": true,
                 "selection_count": null
               },
@@ -1903,13 +2006,24 @@
               "number": 31,
               "group_id": "cambridge-07-test-04-p-3-g-30-34",
               "type": "summary_completion",
-              "prompt": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS",
-              "answer_input_type": "text",
+              "prompt": "Questions 30–34\nComplete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which 30 ______ noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to 31 ______ noise. The predictable noise group 32 ______ the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise 33 ______ the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that 34 ______ noise produces fatigue but that this manifests itself later.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
                 "reuse_allowed": true,
                 "selection_count": null
               },
@@ -1933,13 +2047,24 @@
               "number": 32,
               "group_id": "cambridge-07-test-04-p-3-g-30-34",
               "type": "summary_completion",
-              "prompt": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS",
-              "answer_input_type": "text",
+              "prompt": "Questions 30–34\nComplete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which 30 ______ noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to 31 ______ noise. The predictable noise group 32 ______ the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise 33 ______ the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that 34 ______ noise produces fatigue but that this manifests itself later.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
                 "reuse_allowed": true,
                 "selection_count": null
               },
@@ -1963,13 +2088,24 @@
               "number": 33,
               "group_id": "cambridge-07-test-04-p-3-g-30-34",
               "type": "summary_completion",
-              "prompt": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS",
-              "answer_input_type": "text",
+              "prompt": "Questions 30–34\nComplete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which 30 ______ noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to 31 ______ noise. The predictable noise group 32 ______ the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise 33 ______ the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that 34 ______ noise produces fatigue but that this manifests itself later.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
                 "reuse_allowed": true,
                 "selection_count": null
               },
@@ -1993,13 +2129,24 @@
               "number": 34,
               "group_id": "cambridge-07-test-04-p-3-g-30-34",
               "type": "summary_completion",
-              "prompt": "Questions 30-34\n\nComplete the summary using the list of words and phrases, A—J, below.\nWrite the correct letter, A-J, in boxes 30-34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have\nless effect on performance than circumstances in which 30 .....0.. noise\noccurs. Subjects were divided into groups to perform a task. Some heard loud bursts\nof noise, others soft. For some subjects, the noise was predictable, while for others its\noccurrence was random. All groups were exposed to 31.0... noise. The\npredictable noise group 32 ............:ccce the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task\nto complete under conditions of no noise. They were required to check written material\nfor errors. The group which had been exposed to unpredictable noise 33.0...\nthe group which had been exposed to predictable noise. The group which had been\nexposed to loud predictable noise performed better than those who had heard soft,\nunpredictable bursts. The results suggest that 34 oe. noise produces\nfatigue but that this manifests itself later.\n\nno control over\n\nunexpected\n\nintense\n\nthe same amount of\n\nperformed better than\n\nperformed at about the same level as\nno\n\nshowed more irritation than\n\nmade more mistakes than\n\ndifferent types of\n\na= TOA DADAMS",
-              "answer_input_type": "text",
+              "prompt": "Questions 30–34\nComplete the summary using the list of words and phrases, A–J, below.\nWrite the correct letter, A–J, in boxes 30–34 on your answer sheet.\nNB You may use any letter more than once.\n\nGlass and Singer (1972) showed that situations in which there is intense noise have less effect on performance than circumstances in which 30 ______ noise occurs. Subjects were divided into groups to perform a task. Some heard loud bursts of noise, others soft. For some subjects, the noise was predictable, while for others its occurrence was random. All groups were exposed to 31 ______ noise. The predictable noise group 32 ______ the unpredictable noise group on this task.\n\nIn the second part of the experiment, the four groups were given a proofreading task to complete under conditions of no noise. They were required to check written material for errors. The group which had been exposed to unpredictable noise 33 ______ the group which had been exposed to predictable noise. The group which had been exposed to loud predictable noise performed better than those who had heard soft, unpredictable bursts. The results suggest that 34 ______ noise produces fatigue but that this manifests itself later.",
+              "answer_input_type": "single_select",
               "options": [],
               "constraints": {
                 "max_words": null,
                 "allow_number": false,
-                "allowed_values": [],
+                "allowed_values": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H",
+                  "I",
+                  "J"
+                ],
                 "reuse_allowed": true,
                 "selection_count": null
               },
