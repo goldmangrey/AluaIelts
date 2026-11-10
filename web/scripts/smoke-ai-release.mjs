@@ -1,0 +1,28 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';import {chromium,expect} from '@playwright/test';
+const a=JSON.parse(readFileSync('/tmp/alua-submit-hotfix-qa-private.json')),attempt=JSON.parse(readFileSync('/tmp/alua-qa-reading-attempt-private.json'));const base='https://alua.study',headers={Authorization:'Bearer '+a.idToken};
+const profile=await fetch(base+'/api/alua/me',{headers}).then(r=>r.json());if(profile.uid!==a.learner_id||profile.display_name!=='ALUA QA Release')throw Error('Dedicated QA guard');
+const user={uid:a.uid,email:a.email,emailVerified:true,isAnonymous:false,providerData:[],stsTokenManager:{refreshToken:a.refreshToken,accessToken:a.idToken,expirationTime:Date.now()+Number(a.expiresIn)*1000},apiKey:a.apiKey,appName:'alua-web'};
+const browser=await chromium.launch({headless:true}),c=await browser.newContext({viewport:{width:1366,height:900}});await c.addInitScript(({key,user})=>localStorage.setItem(key,JSON.stringify(user)),{key:`firebase:authUser:${a.apiKey}:alua-web`,user});
+const page=await c.newPage();page.setDefaultTimeout(60000);let calls=0,aiMeta;page.on('request',r=>{if(r.url().endsWith('/api/reading/review'))calls++});page.on('response',async r=>{if(r.url().endsWith('/api/reading/review')){try{let d=await r.json();aiMeta={http:r.status(),cached:d.cached,evidence_status:d.review?.evidence_status,evidence_count:d.review?.evidence?.length};}catch{}}});
+const output='/tmp/alua-ai-production-evidence';mkdirSync(output,{recursive:true});const results={};
+try{
+ await page.goto(base+'/');expect(await page.title()).toBeTruthy();results.homepage='PASS';
+ await page.goto(base+'/reading/attempts/'+attempt.id+'/review?question=7');
+ const trigger=page.getByRole('button',{name:'Explain question 7 with AI',exact:true});await expect(trigger).toBeVisible();results.auth='PASS';results.reading_review='PASS';
+ await trigger.click();const card=page.getByRole('region',{name:'AI explanation for question 7',exact:true});
+ await expect(card.getByRole('button',{name:'Show in passage'})).toBeVisible({timeout:60000});results.reading_ai='PASS';results.ai=aiMeta;
+ await page.screenshot({path:output+'/reading-ai-open.png'});
+ await card.getByRole('button',{name:'Show in passage'}).click();const mark=page.locator('[data-reading-ai="true"]').first();await expect(mark).toBeVisible();
+ expect(await mark.evaluate(e=>{let r=e.getBoundingClientRect(),p=e.closest('.passage-scroll').getBoundingClientRect();return r.top>=p.top&&r.top<p.bottom})).toBe(true);results.highlight='PASS';await page.screenshot({path:output+'/reading-ai-evidence.png'});
+ await page.getByRole('button',{name:'Back to Q7',exact:true}).click();await expect(card).toBeVisible();results.back='PASS';
+ const before=calls;await trigger.click();await expect(card).toHaveCount(0);await trigger.click();await expect(card.getByText('Saved explanation')).toBeVisible();expect(calls).toBe(before);results.client_cache='PASS';
+ const q=attempt.exam.passages.flatMap(p=>p.question_groups.flatMap(g=>g.questions)).find(q=>q.number===7);
+ let r=await fetch(base+'/api/reading/review',{method:'POST',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify({attempt_id:attempt.id,question_id:q.id})});let d=await r.json();expect(r.status).toBe(200);expect(d.cached).toBe(true);results.backend_cache='PASS';
+ // Exact actual-source selection, no text/prompt stored in diagnostic output.
+ const passage=attempt.exam.passages[0],block=passage.content.findIndex(b=>b.type==='paragraph');const text=passage.content[block].text;const selected=/[A-Za-z]{5,}/.exec(text);const at=selected.index;const sentence=text.slice(0,Math.min(text.length,600));
+ r=await fetch(base+'/api/translate',{method:'POST',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify({attemptId:attempt.id,passageId:passage.id,block,sentence,selected:selected[0],start:at,end:at+selected[0].length})});d=await r.json();expect(r.status).toBe(200);expect(/[а-яё]/i.test(d.translation)).toBe(true);expect(sentence.includes(d.expression)).toBe(true);results.smart_translation='PASS';
+ // Create and submit only a new dedicated-QA attempt through ordinary UI/API.
+ r=await fetch(base+'/api/alua/reading/attempts',{method:'POST',headers:{...headers,'Content-Type':'application/json'},body:JSON.stringify({event_id:crypto.randomUUID(),exam_id:'cambridge-07-test-01',mode:'full_exam',reuse_active:false})});d=await r.json();expect(r.status).toBe(201);const created=d.id;
+ await c.route('**/api/alua/reading/attempts/**',route=>{if(!['GET','HEAD'].includes(route.request().method()))expect(new URL(route.request().url()).pathname.includes('/attempts/'+created)).toBe(true);return route.continue()});
+ await page.goto(base+'/reading/attempts/'+created);await expect(page.getByRole('button',{name:'Finish',exact:true})).toBeVisible();await page.getByLabel('Answer 1',{exact:true}).fill('qa');await page.getByRole('button',{name:'Finish',exact:true}).click();const submitted=page.waitForResponse(r=>r.url().endsWith('/submit')&&r.request().method()==='POST');await page.getByRole('button',{name:'Finish test',exact:true}).click();expect((await submitted).status()).toBe(200);await page.waitForURL('**/result');await expect(page.getByRole('heading',{name:'Your result.'})).toBeVisible();results.reading_exam_submit='PASS';results.reading_results='PASS';
+}catch(e){results.failure={name:e.name,message:e.message.slice(0,300)};await page.screenshot({path:output+'/failure.png'}).catch(()=>{});process.exitCode=1;}finally{writeFileSync(output+'/results.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));await browser.close();}
