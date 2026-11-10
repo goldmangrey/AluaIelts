@@ -22,7 +22,10 @@
     "deploy:workers": "opennextjs-cloudflare deploy -- --keep-vars",
     "upload:workers": "opennextjs-cloudflare upload -- --keep-vars",
     "cf:typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "test:workers": "node scripts/test-workers.mjs"
+    "test:workers": "node scripts/test-workers.mjs",
+    "test:reading-ai": "playwright test --config=playwright.ai.config.ts reading-ai-contracts.spec.ts",
+    "test:ai:worker": "node scripts/test-ai-worker.mjs",
+    "test:ai": "playwright test --config=playwright.ai.config.ts"
   },
   "dependencies": {
     "firebase": "^13.1.0",

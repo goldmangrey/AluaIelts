@@ -6,13 +6,16 @@ import { eventId } from "./api";
 import { TranslationPopover } from "../translate/translation-popover";
 import translateStyles from "../translate/translation.module.css";
 import styles from "./passage.module.css";
+import aiStyles from "../ai/review.module.css";
+import type {Evidence} from "../ai/contract";
 
 type Comfort = { uid: string; attemptId: string; onSizeChange: (size: number) => void };
 function Icon({ name }: { name: "focus" | "highlight" | "bookmark" | "clear" }) {
   return <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{name === "bookmark" ? <path d="M6 4h12v17l-6-4-6 4V4Z" /> : name === "focus" ? <><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M8 12h8" /></> : name === "clear" ? <path d="m14 3 7 7-11 11H6l-4-4L14 3Zm-8 10 7 7m-3 1h12" /> : <><path d="m15 3 6 6-10 10-6-6L15 3ZM5 13l-2 8 8-2M14 4l6 6" /></>}</svg>;
 }
-export const PassagePane = memo(function PassagePane({ passage, size, highlights = [], onHighlights, translation, comfort }: {
+export const PassagePane = memo(function PassagePane({ passage, size, highlights = [], onHighlights, translation, comfort, evidence = [], evidenceQuestion }: {
   passage: Passage; size: number; highlights?: Highlight[]; onHighlights?: (value: Highlight[]) => void;
+  evidence?: Evidence[]; evidenceQuestion?:number;
   translation?: { uid: string; attemptId: string }; comfort?: Comfort;
 }) {
   const article = useRef<HTMLElement>(null);
@@ -73,13 +76,12 @@ export const PassagePane = memo(function PassagePane({ passage, size, highlights
   }
   function content(text: string, index: number) {
     const ranges = highlights.filter(h => h.passageId === passage.id && h.block === index && text.slice(h.start, h.end) === h.quote).sort((a, b) => a.start - b.start);
-    let offset = 0; const parts = [];
-    for (const h of ranges) {
-      if (h.start < offset) continue;
-      parts.push(text.slice(offset, h.start));
-      parts.push(<mark key={h.id} title="Click to remove highlight" onClick={() => onHighlights?.(highlights.filter(v => v.id !== h.id))}>{text.slice(h.start, h.end)}</mark>); offset = h.end;
-    }
-    parts.push(text.slice(offset)); return parts;
+    const ai=evidence.filter(e=>e.passage_id===passage.id&&e.block_index===index&&text.slice(e.start,e.end)===e.quote);
+    const points=[...new Set([0,text.length,...ranges.flatMap(h=>[h.start,h.end]),...ai.flatMap(e=>[e.start,e.end])])].sort((a,b)=>a-b);
+    return points.slice(0,-1).map((start,i)=>{
+      const end=points[i+1]!,h=ranges.find(h=>h.start<=start&&h.end>=end),e=ai.find(e=>e.start<=start&&e.end>=end),value=text.slice(start,end);
+      return h||e?<mark key={start} data-reading-ai={e?'true':undefined} tabIndex={e?-1:undefined} className={e?(h?aiStyles.userEvidence:aiStyles.evidence):undefined} title={e?`Evidence · Q${evidenceQuestion}`:'Click to remove highlight'} onClick={h?()=>onHighlights?.(highlights.filter(v=>v.id!==h.id)):undefined}>{value}</mark>:value;
+    });
   }
   const hasHighlights = highlights.some(h => h.passageId === passage.id);
   const translate = translation && <TranslationPopover key={`${translation.uid}:${passage.id}`} root={article} uid={translation.uid} attemptId={translation.attemptId} passageId={passage.id} highlightExpression={!!comfort} />;
@@ -103,7 +105,7 @@ export const PassagePane = memo(function PassagePane({ passage, size, highlights
     {!comfort && onHighlights && <div className="highlight-actions">{selection?.passageId === passage.id && <button type="button" onMouseDown={event => event.preventDefault()} onClick={highlight}>Highlight</button>}{hasHighlights && <button type="button" onClick={() => onHighlights(highlights.filter(h => h.passageId !== passage.id))}>Clear passage highlights</button>}</div>}
     {passage.content.map((b, i) => b.type === "heading" ? b.text.trim().toLocaleLowerCase() === passage.title.trim().toLocaleLowerCase() ? null : <h2 key={i}>{b.text}</h2> : <p key={i} data-paragraph={comfort ? i : undefined} tabIndex={comfort ? -1 : undefined} className={comfort ? `${styles.paragraph}${focus && focused === `${passage.id}:${i}` ? ` ${styles.focused}` : ""}` : undefined}>
       {comfort && <button type="button" className={styles.bookmark} aria-label={`Bookmark paragraph ${b.label || i + 1}`} aria-pressed={marked.includes(i)} onClick={() => toggleBookmark(i)}><Icon name="bookmark" /></button>}
-      {b.label && <strong className="paragraph-label">{b.label} </strong>}<span data-highlight-block={i} onClick={comfort ? select : undefined}>{content(b.text, i)}</span>
+      {evidence.some(e=>e.passage_id===passage.id&&e.block_index===i)&&<span className={aiStyles.label}>Evidence · Q{evidenceQuestion}</span>}{b.label && <strong className="paragraph-label">{b.label} </strong>}<span data-highlight-block={i} onClick={comfort ? select : undefined}>{content(b.text, i)}</span>
     </p>)}
   </article>;
 });

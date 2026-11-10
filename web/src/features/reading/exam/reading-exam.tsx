@@ -16,6 +16,9 @@ import type { Highlight } from "./draft-storage";
 import { elapsedSeconds,remainingSeconds } from "./clock";
 import type { ReadingResult } from "./results";
 import styles from "./exam.module.css";
+import {browserDraftStore} from "./draft-storage";
+import {useReadingAI,ReadingAIExplanation} from "../ai/explanation";
+import aiStyles from "../ai/review.module.css";
 import { canTranslateAttempt } from "../translate/context";
 
 function Deadline({ deadline, serverNow, expired }: { deadline: string | null; serverNow: string; expired: () => void }) {
@@ -76,6 +79,15 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
   const [navigation, setNavigation] = useState(0);
   const [visited, setVisited] = useState(() => new Set([reviewPassage ?? saved?.passage ?? exam.passages.find((p) => p.number === attempt.state.current_passage)?.number ?? exam.passages[0]!.number]));
   const [current, setCurrent] = useState<string | null>(reviewQuestion?.id??saved?.current??null);
+  const ai=useReadingAI(uid,attempt.id,exam,current);
+  const [evidenceFor,setEvidenceFor]=useState<string|null>(null);
+  const evidenceJump=useRef(false);
+  const aiData=result&&ai.active?ai.state.data:undefined;
+  useEffect(()=>{
+    if(!result)return;let active=true;
+    void browserDraftStore(uid,attempt.id,attempt.content_hash,'review-readonly').read().then(d=>{if(active&&d?.view?.highlights)setHighlights(d.view.highlights);}).catch(()=>{});
+    return()=>{active=false;};
+  },[uid,attempt.id,attempt.content_hash,result]);
   const [review, setReview] = useState<Set<string>>(() => new Set(saved?.review??[]));
   const [size, setSize] = useState(result ? saved?.size??16 : 18); const [split, setSplit] = useState(saved?.split??50);
   const sizeKey = `alua:reading:text-size:v2:${uid}`;
@@ -131,11 +143,18 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
       const target = nodes.current.get(id);
       if (target && right.current) {
         right.current.scrollTop += target.getBoundingClientRect().top - right.current.getBoundingClientRect().top - 20;
-        target.querySelector<HTMLElement>("input,select,button")?.focus({ preventScroll: true });
+        if(result)target.focus({preventScroll:true});
+        else target.querySelector<HTMLElement>("input,select,button")?.focus({ preventScroll: true });
       }
       jump.current = null;
     }
-  }, [passage, mobile, navigation]);
+    if(evidenceJump.current&&left.current){
+      const mark=left.current.querySelector<HTMLElement>('[data-reading-ai="true"]');
+      if(mark){left.current.scrollTop+=mark.getBoundingClientRect().top-left.current.getBoundingClientRect().top-60;mark.focus({preventScroll:true});}
+      evidenceJump.current=false;
+    }
+  }, [passage, mobile, navigation,result]);
+
   useEffect(() => {
     const prevent = (event: BeforeUnloadEvent) => { if (editor.snapshot().dirty || editor.snapshot().saving || controller?.snapshot().localSaving) event.preventDefault(); };
     window.addEventListener("beforeunload", prevent);
@@ -143,7 +162,8 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
   }, [editor,controller]);
   useEffect(() => { editor.mount(); return () => editor.unmount(); }, [editor]);
   const toggleReview = (id: string) => setReview((previous) => { const next = new Set(previous); if (next.has(id)) next.delete(id); else next.add(id); return next; });
-  const actions: QuestionActions = { answers: state.answers, review, locked: new Set(attempt.state.checked_question_ids), disabled: state.terminal || timeOver || !!result || !!advanced?.localError || advanced?.otherTab || advanced?.phase!==undefined&&advanced.phase!=="in_progress" || !!advanced?.conflicts.length || !controller&&state.error instanceof ApiError && state.error.status === 409, results:result?.positions, change: editor.change, toggleReview, register: (id, node) => { if (node) nodes.current.set(id, node); else nodes.current.delete(id); }, focus: setCurrent };
+  const verdicts=new Map(result?.positions.map(p=>[p.question_id,p]));
+  const actions: QuestionActions = { explain:result?{questionId:ai.active?ai.state.questionId:null,open:(id)=>{setCurrent(id);if(ai.active&&ai.state.questionId===id)ai.close();else void ai.open(id);}}:undefined, answers: state.answers, review, locked: new Set(attempt.state.checked_question_ids), disabled: state.terminal || timeOver || !!result || !!advanced?.localError || advanced?.otherTab || advanced?.phase!==undefined&&advanced.phase!=="in_progress" || !!advanced?.conflicts.length || !controller&&state.error instanceof ApiError && state.error.status === 409, results:result?.positions, change: editor.change, toggleReview, register: (id, node) => { if (node) nodes.current.set(id, node); else nodes.current.delete(id); }, focus: setCurrent };
   function chooseConflict(id:string,choice:"local"|"server") {
     const group=exam.passages.flatMap(p=>p.question_groups).find(g=>g.questions.some(q=>q.id===id));
     const ids=group?.type==="multiple_choice_multiple"?group.questions.map(q=>q.id):[id];
@@ -169,14 +189,14 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
       {advanced?.rejected?<><span role="alert">{advanced.rejectionReason==="deadline"?"Deadline passed. ":"Another final snapshot was accepted. "}Local unaccepted answers are retained on this device; only server-accepted answers were graded.</span><Link href={`/reading/attempts/${attempt.id}/result`}>View server result</Link></>:advanced?.localError?<><span role="alert">Local storage failed. Keep this page open; answers are not safely stored on this device. Reload only after server save is confirmed.</span><button type="button" onClick={()=>void controller?.retryStorage()}>Retry device save</button></>:advanced?.otherTab?<span role="alert">This attempt is being edited in another tab. Close that tab, then reload here to continue.</span>:state.error ? <><span role="alert">{readingMessage(state.error)}</span>{(!advanced?.conflicts.length && (controller || !(state.error instanceof ApiError && state.error.status === 409))) && <button type="button" onClick={() => void editor.flush()}>Retry save</button>}{controller?.canReturnToTest()&&<button type="button" onClick={controller.returnToTest}>Return to test</button>}</> : timeOver ? <span>Time has elapsed. Editing is paused while the server confirms expiry. Local unsent answers may not be included.</span> : <span>Private practice · This test has not been fully proofread.</span>}
     </div>}
     <div className="exam-workspace" ref={workspace} style={{ "--passage-width": `${split}%` } as React.CSSProperties}>
-      <div className="passage-scroll exam-scroll" ref={left} onScroll={()=>{remember();clearTimeout(scrollTimer.current);scrollTimer.current=setTimeout(()=>changeView(n=>n+1),200)}} aria-label="Reading passage" tabIndex={0}><PassagePane comfort={!result?{uid,attemptId:attempt.id,onSizeChange:changeSize}:undefined} passage={active} translation={translationAllowed?{uid,attemptId:attempt.id}:undefined} size={size} highlights={highlights} onHighlights={controller?setHighlights:undefined} /></div>
+      <div className="passage-scroll exam-scroll" ref={left} onScroll={()=>{remember();clearTimeout(scrollTimer.current);scrollTimer.current=setTimeout(()=>changeView(n=>n+1),200)}} aria-label="Reading passage" tabIndex={0}>{result&&aiData&&evidenceFor===current&&<button type="button" className={aiStyles.back} onClick={()=>{setMobile('questions');setNavigation(n=>n+1);requestAnimationFrame(()=>right.current?.querySelector<HTMLElement>(`[id="reading-ai-${current}"]`)?.focus({preventScroll:true}));}}>← Back to Q{questions.find(q=>q.id===current)?.number}</button>}<PassagePane evidence={aiData?.review.evidence} evidenceQuestion={questions.find(q=>q.id===current)?.number} comfort={!result?{uid,attemptId:attempt.id,onSizeChange:changeSize}:undefined} passage={active} translation={translationAllowed?{uid,attemptId:attempt.id}:undefined} size={size} highlights={highlights} onHighlights={controller?setHighlights:undefined} /></div>
       <div className="column-separator" role="separator" aria-label="Resize passage and questions" aria-orientation="vertical" aria-valuemin={40} aria-valuemax={60} aria-valuenow={Math.round(split)} tabIndex={0}
         onKeyDown={(e) => { if (["ArrowLeft", "ArrowRight", "Home", "End"].includes(e.key)) { e.preventDefault(); setSplit((n) => e.key === "Home" ? 40 : e.key === "End" ? 60 : Math.max(40, Math.min(60, n + (e.key === "ArrowRight" ? 2 : -2)))); } }}
         onPointerDown={(e) => { e.currentTarget.setPointerCapture(e.pointerId); }} onPointerMove={(e) => { if (!e.currentTarget.hasPointerCapture(e.pointerId) || !workspace.current) return; const rect = workspace.current.getBoundingClientRect(); setSplit(Math.max(40, Math.min(60, (e.clientX - rect.left) / rect.width * 100))); }} onPointerUp={(e) => e.currentTarget.releasePointerCapture(e.pointerId)} />
       <div className="questions-scroll exam-scroll" ref={right} onScroll={()=>{remember();clearTimeout(scrollTimer.current);scrollTimer.current=setTimeout(()=>changeView(n=>n+1),200)}} aria-label="Reading questions" tabIndex={0}>
         {exam.passages.map((p) => <section key={p.id} hidden={p.number !== passage} aria-label={`Questions for passage ${p.number}`}>
           <p className="eyebrow questions-heading">Questions {p.question_numbers[0]}–{p.question_numbers.at(-1)}</p>
-          {p.question_groups.map((g) => <QuestionGroup key={g.id} group={g} actions={actions} uid={uid} active={visited.has(p.number)} />)}
+          {p.question_groups.map((g) => <div key={g.id}><QuestionGroup group={g} actions={actions} uid={uid} active={visited.has(p.number)} />{result&&p.number===passage&&ai.active&&ai.state.questionId&&g.questions.some(q=>q.id===ai.state.questionId)&&<ReadingAIExplanation verdict={verdicts.get(ai.state.questionId)} question={g.questions.find(q=>q.id===ai.state.questionId)!} ai={ai} onShow={()=>{remember();setEvidenceFor(current);evidenceJump.current=true;setMobile('passage');setNavigation(n=>n+1);}}/>}</div>)}
         </section>)}
       </div>
     </div>

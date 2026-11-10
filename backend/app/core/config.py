@@ -96,6 +96,13 @@ class Settings(BaseSettings):
     enrollment_code_ttl_minutes: int = Field(
         default=30, ge=5, le=1440, validation_alias="ENROLLMENT_CODE_TTL_MINUTES"
     )
+    reading_ai_enabled: bool = Field(default=True, validation_alias="READING_AI_ENABLED")
+    reading_ai_worker_url: str = Field(
+        default="https://alua.study/api/reading/explain", validation_alias="READING_AI_WORKER_URL"
+    )
+    reading_ai_cache_root: str = Field(
+        default="/tmp/alua-reading-ai", validation_alias="READING_AI_CACHE_ROOT"
+    )
     listening_ai_worker_url: str = Field(
         default="https://alua.study/api/listening/explain",
         validation_alias="LISTENING_AI_WORKER_URL",

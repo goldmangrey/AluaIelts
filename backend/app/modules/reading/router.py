@@ -1,7 +1,7 @@
 from typing import Annotated
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, Query, Request, Response
+from fastapi import APIRouter, Depends, Path, Query, Request, Response
 from fastapi.responses import FileResponse
 
 from app.core.auth import AuthenticatedUser, get_current_user
@@ -138,3 +138,32 @@ def asset(asset_id: str, request: Request, identity: Identity):
     if request.headers.get("if-none-match") == etag:
         return Response(status_code=304, headers=headers)
     return FileResponse(catalog.path(value["path"]), media_type="image/png", headers=headers)
+
+
+@router.get("/attempts/{attempt_id}/ai-review/{question_id}/context")
+def ai_context(
+    attempt_id: UUID,
+    question_id: Annotated[str, Path(min_length=1, max_length=96, pattern=r"^[-A-Za-z0-9_]+$")],
+    identity: Identity,
+    service: Service,
+):
+    from app.modules.reading.ai_review import ReadingAIReview, context_quota
+
+    context = ReadingAIReview(service).context(identity.uid, str(attempt_id), question_id)
+    context_quota(identity.uid)
+    return context
+
+
+@router.post("/attempts/{attempt_id}/ai-review/{question_id}")
+def ai_explanation(
+    attempt_id: UUID,
+    question_id: Annotated[str, Path(min_length=1, max_length=96, pattern=r"^[-A-Za-z0-9_]+$")],
+    request: Request,
+    identity: Identity,
+    service: Service,
+):
+    from app.modules.reading.ai_review import ReadingAIReview
+
+    return ReadingAIReview(service).explain(
+        identity.uid, str(attempt_id), question_id, request.headers.get("authorization", "")
+    )

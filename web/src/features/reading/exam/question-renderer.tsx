@@ -4,7 +4,9 @@ import type { Group, Question, Segment, Block } from "./models";
 import type { ResultPosition } from "./results";
 import { AssetImage } from "./asset-image";
 import styles from "./question-options.module.css";
+import aiStyles from "../ai/review.module.css";
 export interface QuestionActions {
+  explain?: {questionId:string|null; open:(id:string)=>void};
   results?:ResultPosition[];
   answers: Record<string, string>; review: ReadonlySet<string>; locked: ReadonlySet<string>; disabled: boolean;
   change: (changes: Record<string, string>) => void;
@@ -70,7 +72,7 @@ function GroupOptions({ group, options }: { group: Group; options: ReturnType<ty
 }
 function Review({ q, a, compact = false }: { q: Question; a: QuestionActions; compact?: boolean }) {
   const result=a.results?.find(p=>p.question_id===q.id);
-  if(result)return <span className="answer-review"><strong>{result.is_correct?"Correct":result.unanswered?"Unanswered":"Incorrect"}</strong><span>Your answer: {result.user_answer||"Blank"}</span><span>Correct answer: {result.correct_answer}</span>{result.unordered_group&&<span>Letters in this group are graded together; order does not matter.</span>}{result.accepted_answers.length>1&&<span>Accepted alternatives: {result.accepted_answers.join(" / ")}</span>}</span>;
+  if(result)return <span className="answer-review"><strong>{result.is_correct?"Correct":result.unanswered?"Unanswered":"Incorrect"}</strong><span>Your answer: {result.user_answer||"Blank"}</span><span>Correct answer: {result.correct_answer}</span>{result.unordered_group&&<span>Letters in this group are graded together; order does not matter.</span>}{a.explain&&<button type="button" className={aiStyles.trigger} aria-label={`Explain question ${q.number} with AI`} aria-expanded={a.explain.questionId===q.id} aria-controls={`reading-ai-${q.id}`} onClick={()=>a.explain!.open(q.id)}>✦ Explain with AI</button>}{result.accepted_answers.length>1&&<span>Accepted alternatives: {a.explain&&<button type="button" className={aiStyles.trigger} aria-label={`Explain question ${q.number} with AI`} aria-expanded={a.explain.questionId===q.id} aria-controls={`reading-ai-${q.id}`} onClick={()=>a.explain!.open(q.id)}>✦ Explain with AI</button>}{result.accepted_answers.join(" / ")}</span>}</span>;
   return <button type="button" className={compact ? "review-toggle inline-review" : "review-toggle"} title={compact ? `Review question ${q.number}` : undefined} aria-label={`${a.review.has(q.id) ? "Unmark" : "Mark"} question ${q.number} for review`} aria-pressed={a.review.has(q.id)} onClick={() => a.toggleReview(q.id)}>{compact ? <svg width="14" height="14" viewBox="0 0 20 20" fill={a.review.has(q.id) ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M4 18V3h11l-2 4 2 4H4" /></svg> : a.review.has(q.id) ? "Marked for review" : "Mark for review"}</button>;
 }
 function Field({ q, g, a, inline = false }: { q: Question; g: Group; a: QuestionActions; inline?: boolean }) {
@@ -93,7 +95,7 @@ function Field({ q, g, a, inline = false }: { q: Question; g: Group; a: Question
 }
 function Anchor({ q, a, children, inline = false }: { q: Question; a: QuestionActions; children: ReactNode; inline?: boolean }) {
   const Tag = inline ? "span" : "div";
-  return <Tag className={inline ? "inline-question" : "reading-question"} data-question={q.number} ref={(node) => a.register(q.id, node)} onFocusCapture={() => a.focus(q.id)}>
+  return <Tag className={inline ? "inline-question" : "reading-question"} data-question={q.number} tabIndex={a.results?-1:undefined} ref={(node) => a.register(q.id, node)} onFocusCapture={() => a.focus(q.id)}>
     <span className="question-number">{q.number}.</span> {children}{inline && !a.results && <Review q={q} a={a} compact />} {(!inline || a.results) && <Review q={q} a={a} />}
   </Tag>;
 }
