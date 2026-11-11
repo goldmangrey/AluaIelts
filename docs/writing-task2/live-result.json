@@ -1,0 +1,21 @@
+{
+  "live": true,
+  "modelCalls": 1,
+  "routeCalls": 1,
+  "events": [],
+  "results": [
+    {
+      "name": "live-desktop",
+      "valid": true,
+      "band": 9,
+      "provider": "cloudflare",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "issues": 0,
+      "cached": true,
+      "modelCalls": 1
+    }
+  ],
+  "native_next_route": true,
+  "validation_scope": "Schema, source evidence, backend scoring and persistence before the final generic-advice guard",
+  "final_quality_gate": "FAIL: observed generic complexity advice is rejected by the final validator; final prompt/guard not live verified"
+}

@@ -1,0 +1,85 @@
+{
+  "live": false,
+  "modelCalls": 7,
+  "routeCalls": 5,
+  "events": [
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure"
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "cloudflare",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure"
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "success",
+      "latency_ms": 1,
+      "fallback_reason": null
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "success",
+      "latency_ms": 0,
+      "fallback_reason": null
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure"
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "cloudflare",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure"
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "success",
+      "latency_ms": 0,
+      "fallback_reason": null
+    }
+  ],
+  "results": [
+    {
+      "name": "desktop",
+      "valid": true,
+      "band": 6,
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "issues": 1,
+      "cached": true,
+      "modelCalls": 4
+    },
+    {
+      "name": "mobile",
+      "valid": true,
+      "band": 6,
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "issues": 1,
+      "cached": true,
+      "modelCalls": 7
+    }
+  ]
+}

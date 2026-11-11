@@ -58,7 +58,7 @@ def perfect(key):
 
 def test_catalog_and_all_grading_types():
     c = get_catalog()
-    assert len(c.entries) == 72 and len(c.assets) == 60
+    assert len(c.entries) == 72 and len(c.assets) == 60 + len(c.manifest.get("retained_assets", []))
     enabled = [e for e in c.entries.values() if e["enabled_for_private_practice"]]
     assert len(enabled) == 69
     assert all(e["content_status"] == "needs_review" and e["not_fully_proofread"] for e in enabled)
@@ -427,6 +427,8 @@ def test_assets_and_request_scope(system):
 
 def test_migration_from_previous_revision(system):
     db, _, cfg = system
+    from alembic.script import ScriptDirectory
+
     from alembic import command
 
     # Existing initial migration builds current metadata. Simulate an actual 0004 DB
@@ -438,7 +440,8 @@ def test_migration_from_previous_revision(system):
     command.upgrade(cfg, "head")
     with db.session() as s:
         assert (
-            s.execute(text("SELECT version_num FROM alembic_version")).scalar() == "20261104_0007"
+            s.execute(text("SELECT version_num FROM alembic_version")).scalar()
+            == ScriptDirectory.from_config(cfg).get_current_head()
         )
         assert s.execute(text("SELECT count(*) FROM reading_attempts")).scalar() == 0
 

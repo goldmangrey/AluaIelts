@@ -1,0 +1,30 @@
+{
+  "live": true,
+  "modelCalls": 1,
+  "routeCalls": 1,
+  "events": [
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "configuration_failure"
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "cloudflare",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "outcome": "failure",
+      "latency_ms": 12539,
+      "fallback_reason": "invalid_output"
+    }
+  ],
+  "results": [
+    {
+      "name": "live-desktop",
+      "valid": false,
+      "modelCalls": 1
+    }
+  ]
+}

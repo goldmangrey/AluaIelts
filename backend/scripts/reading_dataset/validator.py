@@ -223,6 +223,11 @@ def validate(base=DEST):
                 "exams": manifest["exams"],
                 "generator": manifest["generator_sha256"],
                 "schemas": manifest["schema_sha256"],
+                **(
+                    {"retained_assets": manifest["retained_assets"]}
+                    if "retained_assets" in manifest
+                    else {}
+                ),
             },
             sort_keys=True,
         ).encode()

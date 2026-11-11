@@ -8,8 +8,8 @@ import {displayedPart,visibleSourceMaterial} from "./source-material";
 import s from "./listening.module.css";
 import w from "./workspace.module.css";
 
-export function WorkspaceQuestions({exam,part,current,navigation,uid,id,answers,onAnswer,onFocus,disabled,renderAnswer,visibleQuestions,questionStatus,contentHash}: {
-  contentHash?:string;exam:Exam;part:number;current:number;navigation:number;uid:string;id:string;answers:Record<string,string>;
+export function WorkspaceQuestions({exam,part,current,navigation,uid,id,answers,onAnswer,onFocus,disabled,renderAnswer,visibleQuestions,questionStatus,contentHash,toolbar,revealOnNavigate=false}: {
+  revealOnNavigate?:boolean;toolbar?:ReactNode;contentHash?:string;exam:Exam;part:number;current:number;navigation:number;uid:string;id:string;answers:Record<string,string>;
   onAnswer:(id:string,value:string)=>void;onFocus:(number:number)=>void;disabled:boolean;
   questionStatus?:(question:Question)=>string;renderAnswer?:(question:Question,group:Group)=>ReactNode;visibleQuestions?:ReadonlySet<number>;
 }) {
@@ -23,8 +23,9 @@ export function WorkspaceQuestions({exam,part,current,navigation,uid,id,answers,
   const sourceRange=numbers.length?[numbers[0]!,numbers[numbers.length-1]!]:[];
   const split=material.hasMaterial;
   const scope=JSON.stringify([selectedPart.part_number,groups.map(g=>g.group_id)]);
-  const [panelsByPart,setPanelsByPart]=useState<Record<number,"source"|"questions">>({});
-  const panel=panelsByPart[selectedPart.part_number]||"questions";
+  const [panelsByPart,setPanelsByPart]=useState<Record<number,{panel:"source"|"questions";navigation:number}>>({});
+  const chosen=panelsByPart[selectedPart.part_number];
+  const panel=chosen&&(!revealOnNavigate||chosen.navigation===navigation)?chosen.panel:"questions";
   function saveView(patch:Partial<{source:number;questions:number;current:number;panel:"source"|"questions"}>){views.current.set(scope,{source:0,questions:0,current,panel,...views.current.get(scope),...patch});}
   const [widths,setWidths]=useState<Record<number,number>>({});
   const width=widths[selectedPart.part_number]??55;
@@ -33,6 +34,7 @@ export function WorkspaceQuestions({exam,part,current,navigation,uid,id,answers,
   const source=useRef<HTMLElement>(null);
   const pane=useRef<HTMLDivElement>(null);
   const lastNavigation=useRef<string>(null);
+  const navigationInset=toolbar?52:24;
   const navigationKey=`${selectedPart.part_number}:${navigation}`;
 
   // Focus changes the answer context, not the visible source set. Keep manual
@@ -50,16 +52,16 @@ export function WorkspaceQuestions({exam,part,current,navigation,uid,id,answers,
     const el=pane.current,target=document.getElementById(`question-${current}`);
     const saved=views.current.get(scope);
     if(saved?.current===current)return;
-    if(el&&target){el.scrollTop+=target.getBoundingClientRect().top-el.getBoundingClientRect().top-24;if(navigation>0)target.focus({preventScroll:true});}
-  },[navigationKey,current,navigation,scope]);
+    if(el&&target){el.scrollTop+=target.getBoundingClientRect().top-el.getBoundingClientRect().top-navigationInset;if(navigation>0)target.focus({preventScroll:true});}
+  },[navigationKey,current,navigation,scope,navigationInset]);
 
   // Passive scrolling never changes current/group/source. Explicit navigation and
   // focusing an answer remain the only ways to select another question context.
 
   return <>
     {split&&<nav className={w.mobilePanels} aria-label="Listening panels">
-      <button type="button" aria-pressed={panel==="source"} onClick={()=>{setPanelsByPart(v=>({...v,[selectedPart.part_number]:"source"}));saveView({panel:"source"});}}>Source material</button>
-      <button type="button" aria-pressed={panel==="questions"} onClick={()=>{setPanelsByPart(v=>({...v,[selectedPart.part_number]:"questions"}));saveView({panel:"questions"});}}>Questions</button>
+      <button type="button" aria-pressed={panel==="source"} onClick={()=>{setPanelsByPart(v=>({...v,[selectedPart.part_number]:{panel:"source",navigation}}));saveView({panel:"source"});}}>Source material</button>
+      <button type="button" aria-pressed={panel==="questions"} onClick={()=>{setPanelsByPart(v=>({...v,[selectedPart.part_number]:{panel:"questions",navigation}}));saveView({panel:"questions"});}}>Questions</button>
     </nav>}
     <div ref={panels} style={{"--source-width":`${width}%`} as CSSProperties} className={w.panels} data-layout={split?"split":"single"} data-mobile-panel={panel}>
       {split&&<section ref={source} className={w.sourcePane} onScroll={e=>saveView({source:e.currentTarget.scrollTop})} aria-label="Listening source material" tabIndex={0}>
@@ -77,7 +79,8 @@ export function WorkspaceQuestions({exam,part,current,navigation,uid,id,answers,
         onPointerDown={e=>{e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);}}
         onPointerMove={e=>{if(!e.currentTarget.hasPointerCapture(e.pointerId))return;const rect=panels.current!.getBoundingClientRect();setWidth(Math.max(30,Math.min(70,(e.clientX-rect.left)/rect.width*100)));}}
         onPointerUp={e=>{if(e.currentTarget.hasPointerCapture(e.pointerId))e.currentTarget.releasePointerCapture(e.pointerId);}}><span/></div>}
-      <div key={selectedPart.part_number} ref={pane} className={w.questionsPane} onScroll={e=>saveView({questions:e.currentTarget.scrollTop})} role="region" aria-label="Listening questions" tabIndex={0}>
+      <div key={selectedPart.part_number} ref={pane} style={renderAnswer?{overflowAnchor:"none"}:undefined} className={w.questionsPane} onScroll={e=>saveView({questions:e.currentTarget.scrollTop})} role="region" aria-label="Listening questions" tabIndex={0}>
+        {toolbar}
         <div className={w.questionContent}>{!groups.length&&<p className={s.instructions} role="status">No matching questions in this part. Choose another part or show all questions.</p>}{groups.map(group=><section className={w.questionGroup} key={group.group_id} data-question-group={group.group_id}>
           <header><span className={s.eyebrow}>Questions {group.question_range.join("–")}</span><p className={s.instructions}>{group.instructions}</p></header>
           <AnswerBank group={group}/>

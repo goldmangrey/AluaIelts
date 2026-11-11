@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import Annotated, Any, Literal
 
-from pydantic import BeforeValidator, Field
+from pydantic import BeforeValidator, Field, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -96,16 +96,31 @@ class Settings(BaseSettings):
     enrollment_code_ttl_minutes: int = Field(
         default=30, ge=5, le=1440, validation_alias="ENROLLMENT_CODE_TTL_MINUTES"
     )
+    reading_ai_enabled: bool = Field(default=True, validation_alias="READING_AI_ENABLED")
+    reading_ai_worker_url: str = Field(
+        default="https://alua.study/api/reading/explain", validation_alias="READING_AI_WORKER_URL"
+    )
+    reading_ai_cache_root: str = Field(default="", validation_alias="READING_AI_CACHE_ROOT")
     listening_ai_worker_url: str = Field(
         default="https://alua.study/api/listening/explain",
         validation_alias="LISTENING_AI_WORKER_URL",
     )
-    listening_ai_cache_root: str = Field(
-        default="/tmp/alua-listening-ai", validation_alias="LISTENING_AI_CACHE_ROOT"
-    )
+    listening_ai_cache_root: str = Field(default="", validation_alias="LISTENING_AI_CACHE_ROOT")
     listening_audio_root: str = Field(
         default="/opt/alua/shared/listening/audio", validation_alias="LISTENING_AUDIO_ROOT"
     )
+
+    @model_validator(mode="after")
+    def ai_cache_defaults(self):
+        base = (
+            "/opt/alua/shared/ai-cache"
+            if self.environment == "production"
+            else "/tmp/alua-ai-cache"
+        )
+        self.reading_ai_cache_root = self.reading_ai_cache_root or base + "/reading"
+        self.listening_ai_cache_root = self.listening_ai_cache_root or base + "/listening"
+        return self
+
     allowed_origins: Origins = Field(default_factory=list, validation_alias="ALLOWED_ORIGINS")
 
 

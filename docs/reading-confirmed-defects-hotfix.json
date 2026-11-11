@@ -1,0 +1,1968 @@
+{
+  "answer_keys_unchanged": true,
+  "browser_evidence": "reading-confirmed-defects-hotfix/browser-qa.json",
+  "changed_files": [
+    "backend/app/content/reading_v1/assets/cambridge_07/cambridge-07-test-01-p-2-g-14-20-pdf-026-diagram-fidelity-v1.png",
+    "backend/app/content/reading_v1/corrections.jsonl",
+    "backend/app/content/reading_v1/exams/cambridge_06/test_01.json",
+    "backend/app/content/reading_v1/exams/cambridge_07/test_01.json",
+    "backend/app/content/reading_v1/exams/cambridge_07/test_04.json",
+    "backend/app/content/reading_v1/exams/cambridge_14/test_02.json",
+    "backend/app/content/reading_v1/exams/cambridge_16/test_02.json",
+    "backend/app/content/reading_v1/exams/cambridge_16/test_03.json",
+    "backend/app/content/reading_v1/manifest.json",
+    "backend/app/modules/reading/catalog.py",
+    "backend/scripts/reading_dataset/apply_confirmed_hotfix.py",
+    "backend/scripts/reading_dataset/confirmed_hotfixes.json",
+    "backend/scripts/reading_dataset/confirmed_hotfixes.py",
+    "backend/scripts/reading_dataset/engine.py",
+    "backend/scripts/reading_dataset/enrich.py",
+    "backend/scripts/reading_dataset/pdf_support.py",
+    "backend/scripts/reading_dataset/source_reviews.json",
+    "backend/scripts/reading_dataset/validator.py",
+    "backend/tests/test_reading.py",
+    "backend/tests/test_reading_confirmed_hotfix.py",
+    "docs/READING_CONFIRMED_DEFECTS_HOTFIX.md",
+    "docs/reading-confirmed-defects-hotfix.json",
+    "web/scripts/test-reading-confirmed-hotfix.mjs",
+    "web/src/features/reading/exam/passage-pane.tsx",
+    "web/src/features/reading/exam/question-renderer.tsx"
+  ],
+  "eslint": "PASS",
+  "exam_review_browser_qa": "PASS",
+  "issues": [
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-06-test-01:chromium",
+        "cambridge-06-test-01:webkit"
+      ],
+      "canonical_after_sha256": "24245eec65c163820e8b1b7e18672830141b25deb10eb96558ad878631b14d85",
+      "category": "WRONG_MISSING_OPTIONS",
+      "exam_id": "cambridge-06-test-01",
+      "issue_id": "RCF1-02B70C3EF7E7",
+      "original_json_paths": [
+        "$.passages[1].question_groups[2].options",
+        "$.passages[1].question_groups[2].instructions",
+        "$.passages[1].question_groups[2].content_blocks[0].segments[0].text",
+        "$.passages[1].question_groups[2].questions[0].prompt",
+        "$.passages[1].question_groups[2].questions[1].prompt",
+        "$.passages[1].question_groups[2].questions[2].prompt",
+        "$.passages[1].question_groups[2].questions[3].prompt"
+      ],
+      "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-02B70C3EF7E7]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            35,
+            145,
+            485,
+            405
+          ],
+          "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+          "physical_pdf_page": 26,
+          "printed_page": 25,
+          "reference": "evidence/c06-pdf026-transport-summary-q23-q26.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-06-test-01-p-2-g-23-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-04:chromium",
+        "cambridge-07-test-04:webkit"
+      ],
+      "canonical_after_sha256": "06f0df3235390b94a4a3caa3e1ad3287e857916b2a52ebdf19551c637dabea1d",
+      "category": "WRONG_MISSING_OPTIONS",
+      "exam_id": "cambridge-07-test-04",
+      "issue_id": "RCF1-0955C13AED76",
+      "original_json_paths": [
+        "$.passages[2].question_groups[1].options",
+        "$.passages[2].question_groups[1].constraints.allowed_values",
+        "$.passages[2].question_groups[1].instructions",
+        "$.passages[2].question_groups[1].content_blocks[0].segments[0].text",
+        "$.passages[2].question_groups[1].questions[0].prompt",
+        "$.passages[2].question_groups[1].questions[1].prompt",
+        "$.passages[2].question_groups[1].questions[2].prompt",
+        "$.passages[2].question_groups[1].questions[3].prompt",
+        "$.passages[2].question_groups[1].questions[4].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 103,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-0955C13AED76]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            490,
+            485
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 103,
+          "printed_page": 99,
+          "reference": "evidence/c07-pdf103-t4-g30-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-04-p-3-g-30-34"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "a25c23f062e107eb18a2e940a6d43df154e41c949fe92ac39e97566ee49c3309",
+      "category": "CHANGED_PUNCTUATION",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-0C06D02228E8",
+      "original_json_paths": [
+        "$.passages[0].content[5].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 22,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-0C06D02228E8]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            50,
+            575,
+            485,
+            620
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 22,
+          "printed_page": 18,
+          "reference": "evidence/c07-pdf022-p1-c-punctuation.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "cda0341085439c133ff16f57680442e260e89d3be8cde854231ca71a4861a6a7",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-1124A49FF103",
+      "original_json_paths": [
+        "$.passages[2].question_groups[2].instructions",
+        "$.passages[2].question_groups[2].content_blocks[0].segments[0].text",
+        "$.passages[2].question_groups[2].questions[0].prompt",
+        "$.passages[2].question_groups[2].questions[1].prompt",
+        "$.passages[2].question_groups[2].questions[2].prompt",
+        "$.passages[2].question_groups[2].questions[3].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 33,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-1124A49FF103]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            340,
+            490,
+            610
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 33,
+          "printed_page": 29,
+          "reference": "evidence/c07-pdf033-educating-psyche-q37-q40.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-37-40"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "d89792d36303ad50881530914b888dc6cb32ae365d9608583dbd6867692c2aa7",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-172506EE5BCB",
+      "original_json_paths": [
+        "$.passages[2].question_groups[0].questions[0].options[1].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 32,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-172506EE5BCB]",
+      "repaired_fields": [
+        "content_blocks",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            120,
+            485,
+            410
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 32,
+          "printed_page": 28,
+          "reference": "evidence/c07-pdf032-mcq-options.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-27-30"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "a25c23f062e107eb18a2e940a6d43df154e41c949fe92ac39e97566ee49c3309",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-17A052135363",
+      "original_json_paths": [
+        "$.passages[0].content[1].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 22,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-17A052135363]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            45,
+            120,
+            485,
+            150
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 22,
+          "printed_page": 18,
+          "reference": "evidence/c07-pdf022-timing-question-range.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "cda0341085439c133ff16f57680442e260e89d3be8cde854231ca71a4861a6a7",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-1BA74340B43E",
+      "original_json_paths": [
+        "$.passages[2].question_groups[2].instructions",
+        "$.passages[2].question_groups[2].content_blocks[0].segments[0].text",
+        "$.passages[2].question_groups[2].questions[0].prompt",
+        "$.passages[2].question_groups[2].questions[1].prompt",
+        "$.passages[2].question_groups[2].questions[2].prompt",
+        "$.passages[2].question_groups[2].questions[3].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 33,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-1BA74340B43E]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            340,
+            490,
+            610
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 33,
+          "printed_page": 29,
+          "reference": "evidence/c07-pdf033-educating-psyche-q37-q40.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-37-40"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "d89792d36303ad50881530914b888dc6cb32ae365d9608583dbd6867692c2aa7",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-1E4179966DFD",
+      "original_json_paths": [
+        "$.passages[2].question_groups[0].questions[2].options[3].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 32,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-1E4179966DFD]",
+      "repaired_fields": [
+        "content_blocks",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            120,
+            485,
+            410
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 32,
+          "printed_page": 28,
+          "reference": "evidence/c07-pdf032-mcq-options.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-27-30"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "11be7b5901643de52006a140be3cd99d04a9a1b5e26efbe620f328b8309a59ce",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-1E736A3417C1",
+      "original_json_paths": [
+        "$.passages[1].content[0].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 27,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-1E736A3417C1]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            320,
+            115
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 27,
+          "printed_page": 23,
+          "reference": "evidence/c07-pdf027-making-every-drop-title.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-03:chromium",
+        "cambridge-16-test-03:webkit"
+      ],
+      "canonical_after_sha256": "8ae3828cfda17ae131222f30c5afb6092b08dca37e0f885f4cd95a13ed0553e0",
+      "category": "WRONG_INPUT_TYPE",
+      "exam_id": "cambridge-16-test-03",
+      "issue_id": "RCF1-28CE7C79B031",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].questions[*].answer_input_type",
+        "$.passages[1].question_groups[1].questions[*].constraints.allowed_values"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 69,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-28CE7C79B031]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            295,
+            475,
+            650
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 69,
+          "printed_page": 67,
+          "reference": "evidence/c16-pdf069-t3-g20-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-03-p-2-g-20-22"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-02:chromium",
+        "cambridge-16-test-02:webkit"
+      ],
+      "canonical_after_sha256": "5dc97cf8be90870c7c36518985acf3803ec2583919816aab8ea1c19022512950",
+      "category": "WRONG_MISSING_OPTIONS",
+      "exam_id": "cambridge-16-test-02",
+      "issue_id": "RCF1-2AD9ABA7475B",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].options",
+        "$.passages[1].question_groups[1].constraints.allowed_values"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 47,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-2AD9ABA7475B]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            50,
+            475,
+            450
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 47,
+          "printed_page": 45,
+          "reference": "evidence/c16-pdf047-t2-g17-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-02-p-2-g-17-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "85d34308635aac74b735da53f5ef258eee00c7d80712dc0bfb0c4b23b8fe81fe",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-2CC9ABD3BAC4",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].questions[*].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 29,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-2CC9ABD3BAC4]",
+      "repaired_fields": [
+        "assets",
+        "content_blocks",
+        "instructions",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            485,
+            290
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 29,
+          "printed_page": 25,
+          "reference": "evidence/c07-pdf029-q21-q26.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2-g-21-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "9450b62b1988f5359ad70286d997db7e3352512943c8d65ae69686ef4e3f3b04",
+      "category": "MISSING_CONTENT",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-3A03FFF3B8EB",
+      "original_json_paths": [
+        "$.passages[1].question_groups[0].questions[5].prompt",
+        "$.passages[1].question_groups[0].questions[6].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-3A03FFF3B8EB]",
+      "repaired_fields": [
+        "assets",
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            110,
+            220,
+            440,
+            440
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 26,
+          "printed_page": 22,
+          "reference": "evidence/c07-pdf026-headings-list-v.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2-g-14-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "d9f8da7d6140f3b31243a8464bc0c30ed687d4f143a55cbdb681adffc6572530",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-4187C52CBDB0",
+      "original_json_paths": [
+        "$.passages[0].question_groups[0].instructions"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 24,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-4187C52CBDB0]",
+      "repaired_fields": [
+        "content_blocks",
+        "instructions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            45,
+            480,
+            270
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 24,
+          "printed_page": 20,
+          "reference": "evidence/c07-pdf024-q1-q5-instructions.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1-g-01-05"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-06-test-01:chromium",
+        "cambridge-06-test-01:webkit"
+      ],
+      "canonical_after_sha256": "24245eec65c163820e8b1b7e18672830141b25deb10eb96558ad878631b14d85",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-06-test-01",
+      "issue_id": "RCF1-4461BA121C86",
+      "original_json_paths": [
+        "$.passages[1].question_groups[2].instructions",
+        "$.passages[1].question_groups[2].content_blocks[0].segments[0].text",
+        "$.passages[1].question_groups[2].questions[0].prompt",
+        "$.passages[1].question_groups[2].questions[1].prompt",
+        "$.passages[1].question_groups[2].questions[2].prompt",
+        "$.passages[1].question_groups[2].questions[3].prompt"
+      ],
+      "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-4461BA121C86]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            35,
+            145,
+            485,
+            405
+          ],
+          "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+          "physical_pdf_page": 26,
+          "printed_page": 25,
+          "reference": "evidence/c06-pdf026-transport-summary-q23-q26.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-06-test-01-p-2-g-23-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-06-test-01:chromium",
+        "cambridge-06-test-01:webkit"
+      ],
+      "canonical_after_sha256": "24245eec65c163820e8b1b7e18672830141b25deb10eb96558ad878631b14d85",
+      "category": "MISSING_CONTENT",
+      "exam_id": "cambridge-06-test-01",
+      "issue_id": "RCF1-507F15EEAB8A",
+      "original_json_paths": [
+        "$.passages[1].question_groups[2].instructions",
+        "$.passages[1].question_groups[2].content_blocks[0].segments[0].text",
+        "$.passages[1].question_groups[2].questions[0].prompt",
+        "$.passages[1].question_groups[2].questions[1].prompt",
+        "$.passages[1].question_groups[2].questions[2].prompt",
+        "$.passages[1].question_groups[2].questions[3].prompt"
+      ],
+      "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-507F15EEAB8A]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            35,
+            145,
+            485,
+            405
+          ],
+          "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+          "physical_pdf_page": 26,
+          "printed_page": 25,
+          "reference": "evidence/c06-pdf026-transport-summary-q23-q26.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-06-test-01-p-2-g-23-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "f38402b07f9b6d8b6017da7163ef9b63b3c15915daffb02a4ba2f051692c82c5",
+      "category": "STRUCTURAL_RENDERING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-5B0763E3704B",
+      "original_json_paths": [
+        "$.passages[2].title",
+        "$.passages[2].content[0]"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 30,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-5B0763E3704B]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            430,
+            150
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 30,
+          "printed_page": 26,
+          "reference": "evidence/c07-pdf030-p3-single-title.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "c09a52ec7f632b99fb36e69b37d0fef474cb04a25f2d9a0c8ea9a5a8ede96175",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-665D1C364C75",
+      "original_json_paths": [
+        "$.passages[2].question_groups[1].questions[3].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 33,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-665D1C364C75]",
+      "repaired_fields": [
+        "content_blocks",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            485,
+            340
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 33,
+          "printed_page": 29,
+          "reference": "evidence/c07-pdf033-q31-q36.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-31-36"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "cda0341085439c133ff16f57680442e260e89d3be8cde854231ca71a4861a6a7",
+      "category": "INCORRECT_BLANKS",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-6BD269A17EDC",
+      "original_json_paths": [
+        "$.passages[2].question_groups[2].content_blocks"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 33,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-6BD269A17EDC]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            340,
+            490,
+            610
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 33,
+          "printed_page": 29,
+          "reference": "evidence/c07-pdf033-educating-psyche-q37-q40.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-37-40"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-14-test-02:chromium",
+        "cambridge-14-test-02:webkit"
+      ],
+      "canonical_after_sha256": "64a9b3f9c06513208b0f47c220b1a63496567331e00dab0410ee17623b9f0883",
+      "category": "CHANGED_PUNCTUATION",
+      "exam_id": "cambridge-14-test-02",
+      "issue_id": "RCF1-73F41866BDDF",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].instructions",
+        "$.passages[1].question_groups[1].options[0].text",
+        "$.passages[1].question_groups[1].content_blocks[0].segments[12].text",
+        "$.passages[1].question_groups[1].questions[0].prompt",
+        "$.passages[1].question_groups[1].questions[1].prompt",
+        "$.passages[1].question_groups[1].questions[2].prompt",
+        "$.passages[1].question_groups[1].questions[3].prompt",
+        "$.passages[1].question_groups[1].questions[4].prompt",
+        "$.passages[1].question_groups[1].questions[5].prompt",
+        "$.passages[1].question_groups[1].questions[6].prompt",
+        "$.passages[1].question_groups[1].questions[7].prompt"
+      ],
+      "pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+      "physical_pdf_page": 45,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-73F41866BDDF]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            35,
+            70,
+            545,
+            500
+          ],
+          "pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+          "physical_pdf_page": 45,
+          "printed_page": 45,
+          "reference": "evidence/c14-pdf045-t2-g19-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-14.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-14-test-02-p-2-g-19-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-06-test-01:chromium",
+        "cambridge-06-test-01:webkit"
+      ],
+      "canonical_after_sha256": "24245eec65c163820e8b1b7e18672830141b25deb10eb96558ad878631b14d85",
+      "category": "INCORRECT_BLANKS",
+      "exam_id": "cambridge-06-test-01",
+      "issue_id": "RCF1-74AB88794267",
+      "original_json_paths": [
+        "$.passages[1].question_groups[2].content_blocks"
+      ],
+      "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-74AB88794267]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            35,
+            145,
+            485,
+            405
+          ],
+          "pdf_sha256": "a5d4812f970087a7c6dcd7333450c875ed9a401b294a6237c1071ff2629dfc6f",
+          "physical_pdf_page": 26,
+          "printed_page": 25,
+          "reference": "evidence/c06-pdf026-transport-summary-q23-q26.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-06.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-06-test-01-p-2-g-23-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "cda0341085439c133ff16f57680442e260e89d3be8cde854231ca71a4861a6a7",
+      "category": "WRONG_MISSING_OPTIONS",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-85063C0DDF2B",
+      "original_json_paths": [
+        "$.passages[2].question_groups[2].options",
+        "$.passages[2].question_groups[2].constraints.allowed_values",
+        "$.passages[2].question_groups[2].instructions",
+        "$.passages[2].question_groups[2].content_blocks[0].segments[0].text",
+        "$.passages[2].question_groups[2].questions[0].prompt",
+        "$.passages[2].question_groups[2].questions[1].prompt",
+        "$.passages[2].question_groups[2].questions[2].prompt",
+        "$.passages[2].question_groups[2].questions[3].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 33,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-85063C0DDF2B]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            340,
+            490,
+            610
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 33,
+          "printed_page": 29,
+          "reference": "evidence/c07-pdf033-educating-psyche-q37-q40.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3-g-37-40"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-04:chromium",
+        "cambridge-07-test-04:webkit"
+      ],
+      "canonical_after_sha256": "06f0df3235390b94a4a3caa3e1ad3287e857916b2a52ebdf19551c637dabea1d",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-07-test-04",
+      "issue_id": "RCF1-868BD867D31B",
+      "original_json_paths": [
+        "$.passages[2].question_groups[1].instructions",
+        "$.passages[2].question_groups[1].content_blocks[0].segments[0].text",
+        "$.passages[2].question_groups[1].questions[0].prompt",
+        "$.passages[2].question_groups[1].questions[1].prompt",
+        "$.passages[2].question_groups[1].questions[2].prompt",
+        "$.passages[2].question_groups[1].questions[3].prompt",
+        "$.passages[2].question_groups[1].questions[4].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 103,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-868BD867D31B]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            490,
+            485
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 103,
+          "printed_page": 99,
+          "reference": "evidence/c07-pdf103-t4-g30-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-04-p-3-g-30-34"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "9450b62b1988f5359ad70286d997db7e3352512943c8d65ae69686ef4e3f3b04",
+      "category": "KEY_OPTION_BINDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-985B8844C1C1",
+      "original_json_paths": [
+        "$.passages[1].question_groups[0].options"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 157,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-985B8844C1C1]",
+      "repaired_fields": [
+        "assets",
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            65,
+            345,
+            340
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 157,
+          "printed_page": 153,
+          "reference": "evidence/c07-pdf157-reading-key-q1-q40.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2-g-14-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-02:chromium",
+        "cambridge-16-test-02:webkit"
+      ],
+      "canonical_after_sha256": "5dc97cf8be90870c7c36518985acf3803ec2583919816aab8ea1c19022512950",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-16-test-02",
+      "issue_id": "RCF1-9A85D18E2721",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].instructions",
+        "$.passages[1].question_groups[1].content_blocks[0].segments[0].text",
+        "$.passages[1].question_groups[1].questions[0].prompt",
+        "$.passages[1].question_groups[1].questions[1].prompt",
+        "$.passages[1].question_groups[1].questions[2].prompt",
+        "$.passages[1].question_groups[1].questions[3].prompt"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 47,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-9A85D18E2721]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            50,
+            475,
+            450
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 47,
+          "printed_page": 45,
+          "reference": "evidence/c16-pdf047-t2-g17-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-02-p-2-g-17-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-14-test-02:chromium",
+        "cambridge-14-test-02:webkit"
+      ],
+      "canonical_after_sha256": "64a9b3f9c06513208b0f47c220b1a63496567331e00dab0410ee17623b9f0883",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-14-test-02",
+      "issue_id": "RCF1-A55663FA8399",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].instructions",
+        "$.passages[1].question_groups[1].content_blocks[0].segments[4].text",
+        "$.passages[1].question_groups[1].questions[0].prompt",
+        "$.passages[1].question_groups[1].questions[1].prompt",
+        "$.passages[1].question_groups[1].questions[2].prompt",
+        "$.passages[1].question_groups[1].questions[3].prompt",
+        "$.passages[1].question_groups[1].questions[4].prompt",
+        "$.passages[1].question_groups[1].questions[5].prompt",
+        "$.passages[1].question_groups[1].questions[6].prompt",
+        "$.passages[1].question_groups[1].questions[7].prompt"
+      ],
+      "pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+      "physical_pdf_page": 45,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-A55663FA8399]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            35,
+            70,
+            545,
+            500
+          ],
+          "pdf_sha256": "f0f0d86e7cf93b37154696851b2e61be4f1194b05bd1651c1711e221720018ba",
+          "physical_pdf_page": 45,
+          "printed_page": 45,
+          "reference": "evidence/c14-pdf045-t2-g19-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-14.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-14.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-14-test-02-p-2-g-19-26"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-04:chromium",
+        "cambridge-07-test-04:webkit"
+      ],
+      "canonical_after_sha256": "06f0df3235390b94a4a3caa3e1ad3287e857916b2a52ebdf19551c637dabea1d",
+      "category": "INCORRECT_BLANKS",
+      "exam_id": "cambridge-07-test-04",
+      "issue_id": "RCF1-AF84CF92A53A",
+      "original_json_paths": [
+        "$.passages[2].question_groups[1].content_blocks"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 103,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-AF84CF92A53A]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            490,
+            485
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 103,
+          "printed_page": 99,
+          "reference": "evidence/c07-pdf103-t4-g30-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-04-p-3-g-30-34"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-03:chromium",
+        "cambridge-16-test-03:webkit"
+      ],
+      "canonical_after_sha256": "8ae3828cfda17ae131222f30c5afb6092b08dca37e0f885f4cd95a13ed0553e0",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-16-test-03",
+      "issue_id": "RCF1-BDB9C38AB823",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].instructions",
+        "$.passages[1].question_groups[1].options[0].text",
+        "$.passages[1].question_groups[1].content_blocks[0].segments[0].text",
+        "$.passages[1].question_groups[1].questions[0].prompt",
+        "$.passages[1].question_groups[1].questions[1].prompt",
+        "$.passages[1].question_groups[1].questions[2].prompt"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 69,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-BDB9C38AB823]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            295,
+            475,
+            650
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 69,
+          "printed_page": 67,
+          "reference": "evidence/c16-pdf069-t3-g20-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-03-p-2-g-20-22"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "11be7b5901643de52006a140be3cd99d04a9a1b5e26efbe620f328b8309a59ce",
+      "category": "CHANGED_WORDING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-BEAFF5DED815",
+      "original_json_paths": [
+        "$.passages[1].content[10].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 28,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-BEAFF5DED815]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            600,
+            220,
+            632
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 28,
+          "printed_page": 24,
+          "reference": "evidence/c07-pdf028-gallon-footnote.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "a25c23f062e107eb18a2e940a6d43df154e41c949fe92ac39e97566ee49c3309",
+      "category": "CHANGED_PUNCTUATION",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-BFBD4D1320D9",
+      "original_json_paths": [
+        "$.passages[0].content[8].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 23,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-BFBD4D1320D9]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            325,
+            490,
+            390
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 23,
+          "printed_page": 19,
+          "reference": "evidence/c07-pdf023-p1-e-punctuation.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "f38402b07f9b6d8b6017da7163ef9b63b3c15915daffb02a4ba2f051692c82c5",
+      "category": "STRUCTURAL_RENDERING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-C6F312B02BA3",
+      "original_json_paths": [
+        "$.passages[2].content[5]",
+        "$.passages[2].content[6]"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 31,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-C6F312B02BA3]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            45,
+            485,
+            100
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 31,
+          "printed_page": 27,
+          "reference": "evidence/c07-pdf031-p3-continuation.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-3"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "11be7b5901643de52006a140be3cd99d04a9a1b5e26efbe620f328b8309a59ce",
+      "category": "STRUCTURAL_RENDERING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-CBB0CF59E6E4",
+      "original_json_paths": [
+        "$.passages[1].title",
+        "$.passages[1].content[0]"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 27,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-CBB0CF59E6E4]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            25,
+            45,
+            430,
+            150
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 27,
+          "printed_page": 23,
+          "reference": "evidence/c07-pdf027-p2-single-title.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "a25c23f062e107eb18a2e940a6d43df154e41c949fe92ac39e97566ee49c3309",
+      "category": "STRUCTURAL_RENDERING",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-D2733CD9BC3E",
+      "original_json_paths": [
+        "$.passages[0].content[5]",
+        "$.passages[0].content[6]"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 23,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-D2733CD9BC3E]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            45,
+            485,
+            100
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 23,
+          "printed_page": 19,
+          "reference": "evidence/c07-pdf023-p1-continuation.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "36fe066c44cd15a32de07883508a2eab80d18d259d9f019a335ad28196e19c75",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-D75E9D33A63B",
+      "original_json_paths": [
+        "$.passages[0].question_groups[1].instructions",
+        "$.passages[0].question_groups[1].content_blocks[0].segments[0].text",
+        "$.passages[0].question_groups[1].questions[0].prompt",
+        "$.passages[0].question_groups[1].questions[1].prompt",
+        "$.passages[0].question_groups[1].questions[2].prompt",
+        "$.passages[0].question_groups[1].questions[3].prompt"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 24,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-D75E9D33A63B]",
+      "repaired_fields": [
+        "content_blocks",
+        "instructions",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            45,
+            285,
+            490,
+            520
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 24,
+          "printed_page": 20,
+          "reference": "evidence/c07-pdf024-facial-vision-q6-q9.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1-g-06-09"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "9450b62b1988f5359ad70286d997db7e3352512943c8d65ae69686ef4e3f3b04",
+      "category": "MISSING_CONTENT",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-D918D2FDC204",
+      "original_json_paths": [
+        "$.passages[1].question_groups[0].assets[0].crop_box"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-D918D2FDC204]",
+      "repaired_fields": [
+        "assets",
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            40,
+            585,
+            245,
+            632
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 26,
+          "printed_page": 22,
+          "reference": "evidence/c07-pdf026-q20-below-production-crop.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        },
+        {
+          "crop_box_pixels": [
+            0,
+            1007,
+            1167,
+            1237
+          ],
+          "note": "Bottom of the unchanged production fallback image: ends after Q19.",
+          "reference": "evidence/production-c07-q20-missing-tail.png",
+          "source_asset": "backend/app/content/reading_v1/assets/cambridge_07/cambridge-07-test-01-p-2-g-14-20-pdf-026-0.png",
+          "source_asset_sha256": "16ba37ca9d9046e9dd9c1328216769aef3c036dfb709dcf0040d9a4a8003d4a1"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2-g-14-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "36fe066c44cd15a32de07883508a2eab80d18d259d9f019a335ad28196e19c75",
+      "category": "INCORRECT_BLANKS",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-D93F3E5B82AC",
+      "original_json_paths": [
+        "$.passages[0].question_groups[1].content_blocks"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 24,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-D93F3E5B82AC]",
+      "repaired_fields": [
+        "content_blocks",
+        "instructions",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            45,
+            285,
+            490,
+            520
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 24,
+          "printed_page": 20,
+          "reference": "evidence/c07-pdf024-facial-vision-q6-q9.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1-g-06-09"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "a25c23f062e107eb18a2e940a6d43df154e41c949fe92ac39e97566ee49c3309",
+      "category": "OCR_ARTIFACT",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-DEBFC960F33E",
+      "original_json_paths": [
+        "$.passages[0].content[2].text"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 22,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-DEBFC960F33E]",
+      "repaired_fields": [
+        "content"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            185,
+            150,
+            420,
+            265
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 22,
+          "printed_page": 18,
+          "reference": "evidence/c07-pdf022-decorative-title.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-1"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-07-test-01:chromium",
+        "cambridge-07-test-01:webkit"
+      ],
+      "canonical_after_sha256": "9450b62b1988f5359ad70286d997db7e3352512943c8d65ae69686ef4e3f3b04",
+      "category": "WRONG_MISSING_OPTIONS",
+      "exam_id": "cambridge-07-test-01",
+      "issue_id": "RCF1-E713EE3A4843",
+      "original_json_paths": [
+        "$.passages[1].question_groups[0].options",
+        "$.passages[1].question_groups[0].constraints.allowed_values",
+        "$.passages[1].question_groups[0].questions[*].constraints.allowed_values"
+      ],
+      "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+      "physical_pdf_page": 26,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-E713EE3A4843]",
+      "repaired_fields": [
+        "assets",
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            110,
+            220,
+            440,
+            440
+          ],
+          "pdf_sha256": "b0d7be939b192c4ea7601b2315049770b7705542f04ae9b87a19e37daac1c971",
+          "physical_pdf_page": 26,
+          "printed_page": 22,
+          "reference": "evidence/c07-pdf026-headings-list-v.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-07-test-01-p-2-g-14-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-03:chromium",
+        "cambridge-16-test-03:webkit"
+      ],
+      "canonical_after_sha256": "8ae3828cfda17ae131222f30c5afb6092b08dca37e0f885f4cd95a13ed0553e0",
+      "category": "INCORRECT_BLANKS",
+      "exam_id": "cambridge-16-test-03",
+      "issue_id": "RCF1-EBD22B88D632",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].content_blocks"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 69,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-EBD22B88D632]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            295,
+            475,
+            650
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 69,
+          "printed_page": 67,
+          "reference": "evidence/c16-pdf069-t3-g20-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-03-p-2-g-20-22"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-02:chromium",
+        "cambridge-16-test-02:webkit"
+      ],
+      "canonical_after_sha256": "5dc97cf8be90870c7c36518985acf3803ec2583919816aab8ea1c19022512950",
+      "category": "INCORRECT_BLANKS",
+      "exam_id": "cambridge-16-test-02",
+      "issue_id": "RCF1-ED9D600CE291",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].content_blocks"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 47,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-ED9D600CE291]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            50,
+            475,
+            450
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 47,
+          "printed_page": 45,
+          "reference": "evidence/c16-pdf047-t2-g17-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-02-p-2-g-17-20"
+    },
+    {
+      "blocked_reason": null,
+      "browser_cases": [
+        "cambridge-16-test-03:chromium",
+        "cambridge-16-test-03:webkit"
+      ],
+      "canonical_after_sha256": "8ae3828cfda17ae131222f30c5afb6092b08dca37e0f885f4cd95a13ed0553e0",
+      "category": "INVENTED_OPTIONS",
+      "exam_id": "cambridge-16-test-03",
+      "issue_id": "RCF1-F36111F42714",
+      "original_json_paths": [
+        "$.passages[1].question_groups[1].options",
+        "$.passages[1].question_groups[1].constraints.allowed_values"
+      ],
+      "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+      "physical_pdf_page": 69,
+      "regression_test": "test_each_original_issue_has_applied_source_bound_repair[RCF1-F36111F42714]",
+      "repaired_fields": [
+        "constraints",
+        "content_blocks",
+        "instructions",
+        "options",
+        "questions"
+      ],
+      "source_comparison": "Reviewed V1 evidence and relevant original page images; faithful transcription, labels and blank positions; no inferred source wording.",
+      "source_evidence": [
+        {
+          "coordinate_system": "PDF points, top-left",
+          "crop_box_pdf_points": [
+            30,
+            295,
+            475,
+            650
+          ],
+          "pdf_sha256": "11675fa3dcb124e93afbf44371c174f676a78a260b01ebc190aae5f5fed3912e",
+          "physical_pdf_page": 69,
+          "printed_page": 67,
+          "reference": "evidence/c16-pdf069-t3-g20-complete-group.png",
+          "render_scale": 2,
+          "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf"
+        }
+      ],
+      "source_pdf": "ieltsbooks/Cambridge-IELTS-16.pdf",
+      "status": "FIXED_VERIFIED",
+      "target_id": "cambridge-16-test-03-p-2-g-20-22"
+    }
+  ],
+  "library_fidelity_certified": false,
+  "local_release_readiness": "GO",
+  "metrics": {
+    "affected_exams": 6,
+    "blocked": 0,
+    "confirmed_issues": 41,
+    "fixed_verified": 41,
+    "image_crop_fixes": 1,
+    "incorrect_single_select_questions_restored_to_text": 11,
+    "inline_blank_positions_restored": 23,
+    "inline_blank_positions_verified": 32,
+    "input_type_fields_changed": 24,
+    "letter_answer_questions_restored_to_selectors": 13,
+    "missing_option_labels_restored": 34,
+    "ocr_artifact_issues_fixed": 8,
+    "option_banks_repaired": 5
+  },
+  "notes": [
+    "V1 remains an immutable historical audit, not a report on the repaired revision.",
+    "All six tests remain needs_review; this hotfix does not certify unaudited content.",
+    "No full OCR, corpus audit, full reimport, production DB access, commit, push or deploy."
+  ],
+  "old_attempts_compatibility": "PASS",
+  "production_build": "PASS",
+  "reading_submit": "PASS",
+  "ruff": "PASS",
+  "safety_evidence": "reading-confirmed-defects-hotfix/safety.json",
+  "scope": "41 confirmed V1 defects only",
+  "test_evidence": "reading-confirmed-defects-hotfix/backend-tests.xml",
+  "title": "ALUA READING HOTFIX RESULT",
+  "typescript": "PASS",
+  "unchanged_out_of_scope": {
+    "other_exam_files": 66,
+    "source_ambiguities": 2,
+    "source_files": 36,
+    "unconfirmed_candidates": 2343,
+    "unresolved_questions": 5
+  }
+}

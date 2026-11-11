@@ -1,0 +1,88 @@
+{
+  "adjudicated_distinct_findings": 43,
+  "books_inventoried": 18,
+  "browser_exam_question_records": 2880,
+  "browser_review_question_records": 2880,
+  "browser_tests_inspected": 72,
+  "classifications": {
+    "group": {
+      "CORRUPTED": 12,
+      "NOT_AUDITED": 598,
+      "UNRESOLVED": 1,
+      "VERIFIED": 2
+    },
+    "heading": {
+      "CORRUPTED": 1,
+      "NOT_AUDITED": 99
+    },
+    "paragraph": {
+      "CORRUPTED": 6,
+      "NOT_AUDITED": 2699,
+      "VERIFIED": 23
+    },
+    "passage": {
+      "CORRUPTED": 3,
+      "NOT_AUDITED": 213
+    },
+    "question": {
+      "CORRUPTED": 53,
+      "NOT_AUDITED": 2805,
+      "UNRESOLVED": 5,
+      "VERIFIED": 17
+    },
+    "test": {
+      "CORRUPTED": 6,
+      "NOT_AUDITED": 66
+    }
+  },
+  "confirmed_corruption_issues": 41,
+  "confirmed_distinct_issues": 43,
+  "confirmed_distinct_issues_note": "Legacy field includes adjudicated SOURCE_AMBIGUITY; use confirmed_corruption_issues for confirmed defects.",
+  "confirmed_issue_categories": {
+    "CHANGED_PUNCTUATION": 3,
+    "CHANGED_WORDING": 9,
+    "INCORRECT_BLANKS": 6,
+    "INVENTED_OPTIONS": 1,
+    "KEY_OPTION_BINDING": 1,
+    "MISSING_CONTENT": 3,
+    "OCR_ARTIFACT": 8,
+    "STRUCTURAL_RENDERING": 4,
+    "WRONG_INPUT_TYPE": 1,
+    "WRONG_MISSING_OPTIONS": 5
+  },
+  "current_exam_file_statuses": {
+    "blocked": 3,
+    "needs_review": 69
+  },
+  "groups_individually_classified": 613,
+  "key_classifications": {
+    "KEY_UNVERIFIED": 2836,
+    "KEY_VERIFIED": 44
+  },
+  "note": "Inspected/recognized is NOT source-verified. NOT_AUDITED includes every item lacking complete original-source comparison. No correctness percentage is calculated.",
+  "passages_individually_classified": 216,
+  "possible_scoring_impact_issues": 27,
+  "question_types": {
+    "diagram_labelling": 42,
+    "flow_chart_completion": 17,
+    "matching_features": 221,
+    "matching_headings": 200,
+    "matching_information": 277,
+    "matching_sentence_endings": 90,
+    "multiple_choice_multiple": 90,
+    "multiple_choice_single": 246,
+    "note_completion": 226,
+    "sentence_completion": 105,
+    "short_answer": 39,
+    "summary_completion": 435,
+    "table_completion": 101,
+    "true_false_not_given": 511,
+    "yes_no_not_given": 280
+  },
+  "questions_individually_classified": 2880,
+  "source_ambiguity_issues": 2,
+  "tests_full_source_comparison": 1,
+  "tests_fully_source_verified": 0,
+  "tests_inventoried": 72,
+  "unconfirmed_candidates": 2343
+}

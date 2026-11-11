@@ -1,0 +1,42 @@
+{
+  "commands": [
+    {
+      "command": "ALUA_RUN_READING_HOTFIX_BROWSER=1 .venv/bin/python -m pytest tests/test_reading_confirmed_hotfix.py tests/test_reading.py tests/test_reading_web_release.py -q --disable-warnings --maxfail=1 --junitxml=/tmp/alua-hotfix-final.xml",
+      "cwd": "backend",
+      "exit_code": 0,
+      "result": "87 passed"
+    },
+    {
+      "command": "ALUA_RUN_READING_HOTFIX_BROWSER=1 .venv/bin/python -m pytest tests/test_reading_confirmed_hotfix.py -q -k browser --disable-warnings --junitxml=/tmp/alua-hotfix-browser-final.xml",
+      "cwd": "backend",
+      "exit_code": 0,
+      "result": "1 passed; final renderer; 12 browser cases"
+    },
+    {
+      "command": "pnpm typecheck && pnpm lint && pnpm build",
+      "cwd": "web",
+      "exit_code": 0,
+      "result": "TypeScript / ESLint / production build PASS"
+    },
+    {
+      "command": "backend/.venv/bin/ruff check backend/tests/{test_reading.py,test_reading_confirmed_hotfix.py} backend/app/modules/reading/catalog.py backend/scripts/reading_dataset/{engine.py,enrich.py,pdf_support.py,validator.py,confirmed_hotfixes.py,apply_confirmed_hotfix.py}",
+      "cwd": ".",
+      "exit_code": 0,
+      "result": "All checks passed"
+    },
+    {
+      "command": ".venv/bin/python scripts/reading_dataset/validator.py",
+      "cwd": "backend",
+      "exit_code": 0,
+      "result": "Artifact gate passed; no source audit performed"
+    }
+  ],
+  "artifact_validation": {
+    "artifact_validation_passed": true,
+    "errors": [],
+    "source_hashes_verified": 36,
+    "schema_documents_validated": 144,
+    "release_ready": 0
+  },
+  "note": "87 backend tests passed before the final exact-duplicate-heading renderer change. The real browser integration and web checks were rerun after that change."
+}

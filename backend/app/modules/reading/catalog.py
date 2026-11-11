@@ -104,6 +104,21 @@ class ReadingCatalog:
                 "warnings": warnings,
                 "practice_policy_version": POLICY_VERSION,
             }
+        # Frozen attempts still reference the original image IDs/checksums.
+        # Only explicitly retained, hash-checked local assets may outlive a revision.
+        for asset in self.manifest.get("retained_assets", []):
+            if asset["id"] in self.assets:
+                if self.assets[asset["id"]] != asset:
+                    raise ValueError("Retained Reading asset ID collision")
+                continue
+            raw = self.path(asset["path"]).read_bytes()
+            if (
+                digest(raw) != asset["sha256"]
+                or raw[:8] != b"\x89PNG\r\n\x1a\n"
+                or struct.unpack(">II", raw[16:24]) != (asset["width"], asset["height"])
+            ):
+                raise ValueError("Invalid retained Reading asset")
+            self.assets[asset["id"]] = copy.deepcopy(asset)
 
     def path(self, relative: str) -> Path:
         path = (self.base / relative).resolve()

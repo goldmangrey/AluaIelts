@@ -1,0 +1,43 @@
+Error: expect(locator).toContainText(expected) failed
+
+Locator: getByRole('region', { name: 'Questions for passage 2', exact: true }).locator('[data-question="23"]')
+Expected substring: "Correct answer:"
+Received string:    "23. ABCDEFGHIJK "
+Timeout: 5000ms
+
+Call log:
+  - Expect "toContainText" getByRole('region', { name: 'Questions for passage 2', exact: true }).locator('[data-question="23"]') with timeout 5000ms
+  - waiting for getByRole('region', { name: 'Questions for passage 2', exact: true }).locator('[data-question="23"]')
+    14 × locator resolved to <span tabindex="-1" data-question="23" class="inline-question" data-review-status="correct">…</span>
+       - unexpected value "23. ABCDEFGHIJK "
+
+
+▲ Next.js 16.4.3 (webpack)
+- Local:         http://127.0.0.1:3316
+- Network:       http://127.0.0.1:3316
+✓ Ready in 211ms
+✓ Running next.config.ts took 21ms
+
+✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable.
+ GET / 200 in 206ms (next.js: 113ms, application-code: 93ms)
+ GET /reading/cambridge-6/cambridge-06-test-01 200 in 341ms (next.js: 293ms, application-code: 48ms)
+ GET /api/alua/reading/books 200 in 314ms (next.js: 273ms, application-code: 41ms)
+ GET /api/alua/reading/books 200 in 15ms (next.js: 1.9ms, application-code: 14ms)
+ POST /api/alua/reading/attempts 201 in 19ms (next.js: 0.6ms, application-code: 18ms)
+ GET /reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea 200 in 276ms (next.js: 256ms, application-code: 19ms)
+ GET /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea 200 in 13ms (next.js: 2ms, application-code: 11ms)
+ GET /api/alua/reading/books 200 in 18ms (next.js: 0.6ms, application-code: 17ms)
+ GET /api/alua/reading/assets/cambridge-06-test-01-p-2-g-14-17-asset-25-0 200 in 17ms (next.js: 3ms, application-code: 14ms)
+ GET /api/alua/reading/assets/cambridge-06-test-01-p-2-g-18-22-asset-25-1 200 in 17ms (next.js: 0.6ms, application-code: 17ms)
+ POST /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea/sync 200 in 16ms (next.js: 3ms, application-code: 13ms)
+ GET /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea 200 in 11ms (next.js: 0.4ms, application-code: 11ms)
+ POST /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea/submit 200 in 14ms (next.js: 1.4ms, application-code: 12ms)
+ GET /reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea/result 200 in 256ms (next.js: 244ms, application-code: 12ms)
+ GET /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea 200 in 12ms (next.js: 2ms, application-code: 10ms)
+ GET /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea/result 200 in 8ms (next.js: 0.4ms, application-code: 7ms)
+ GET /reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea/review 200 in 261ms (next.js: 248ms, application-code: 13ms)
+ GET /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea 200 in 12ms (next.js: 1.9ms, application-code: 10ms)
+ GET /api/alua/reading/attempts/b39e2ad2-fc82-453f-8c6d-1114a28396ea/result 200 in 7ms (next.js: 0.3ms, application-code: 7ms)
+ GET /api/alua/reading/books 200 in 16ms (next.js: 0.5ms, application-code: 15ms)
+ GET /api/alua/reading/assets/cambridge-06-test-01-p-2-g-14-17-asset-25-0 200 in 12ms (next.js: 3ms, application-code: 9ms)
+ GET /api/alua/reading/assets/cambridge-06-test-01-p-2-g-18-22-asset-25-1 200 in 8ms (next.js: 0.5ms, application-code: 8ms)

@@ -1,0 +1,14 @@
+{
+  "total_real_provider_calls": 3,
+  "provider": "cloudflare",
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "groq_tested": false,
+  "results": [
+    "Rejected invalid output (initial offsets contract)",
+    "Rejected altered candidate quote and incomplete improvements",
+    "Native Next route: schema/evidence/persistence/cache passed; generic advice failed subsequent content review"
+  ],
+  "final_contract_live_verified": false,
+  "expert_calibration": "NOT VERIFIED",
+  "final_status": "PARTIAL"
+}

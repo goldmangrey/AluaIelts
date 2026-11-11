@@ -1,0 +1,23 @@
+{
+  "status": 429,
+  "body": {
+    "error": {
+      "code": "ai_rate_limit",
+      "message": "Writing AI quota reached."
+    }
+  },
+  "method": "POST",
+  "backend_path": "/api/v1/writing/attempts/{attempt_id}/assessment/claim",
+  "browser_url": "http://localhost:3000/api/writing/assess",
+  "browser_body": {
+    "error": {
+      "code": "AI_UNAVAILABLE"
+    }
+  },
+  "retry_after": null,
+  "request_id": null,
+  "rate_limit_headers": null,
+  "provider_calls_for_rejected_claim": 0,
+  "unchanged": true,
+  "reproduction": "Existing authenticated handler with internal identity; no HTTP token emitted; limiter throws before mutation"
+}

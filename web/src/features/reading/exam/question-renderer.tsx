@@ -4,8 +4,11 @@ import type { Group, Question, Segment, Block } from "./models";
 import type { ResultPosition } from "./results";
 import { AssetImage } from "./asset-image";
 import styles from "./question-options.module.css";
+import aiStyles from "../ai/review.module.css";
 export interface QuestionActions {
   results?:ResultPosition[];
+  explain?: {isOpen:(id:string)=>boolean; open:(id:string)=>void; render?:(question:Question)=>ReactNode};
+  visibleQuestions?:ReadonlySet<string>;
   answers: Record<string, string>; review: ReadonlySet<string>; locked: ReadonlySet<string>; disabled: boolean;
   change: (changes: Record<string, string>) => void;
   toggleReview: (id: string) => void;
@@ -68,9 +71,16 @@ function GroupOptions({ group, options }: { group: Group; options: ReturnType<ty
       <header><h3>Options</h3><button type="button" autoFocus aria-label="Close options" onClick={() => dialog.current?.close()}>×</button></header><OptionList options={options} />
     </dialog></>;
 }
+function choiceStatus(q:Question,g:Group,a:QuestionActions,label:string){
+  if(!a.results)return undefined;
+  const rows=a.results.filter(r=>r.question_id===q.id||r.unordered_group&&g.questions.some(q=>q.id===r.question_id));
+  const selected=rows.find(r=>r.user_answer===label);
+  if(selected)return selected.is_correct?'correct':selected.unanswered?'unanswered':'incorrect';
+  return rows.some(r=>r.accepted_answers.includes(label))?'correct':'neutral';
+}
 function Review({ q, a, compact = false }: { q: Question; a: QuestionActions; compact?: boolean }) {
   const result=a.results?.find(p=>p.question_id===q.id);
-  if(result)return <span className="answer-review"><strong>{result.is_correct?"Correct":result.unanswered?"Unanswered":"Incorrect"}</strong><span>Your answer: {result.user_answer||"Blank"}</span><span>Correct answer: {result.correct_answer}</span>{result.unordered_group&&<span>Letters in this group are graded together; order does not matter.</span>}{result.accepted_answers.length>1&&<span>Accepted alternatives: {result.accepted_answers.join(" / ")}</span>}</span>;
+  if(result)return <span className="answer-review" data-review-status={result.unanswered?"unanswered":result.is_correct?"correct":"incorrect"}><span className="review-question-label">Q{q.number}</span><strong>{result.is_correct?"Correct":result.unanswered?"Unanswered":"Incorrect"}</strong><span className="saved-answer-value">Your answer: {result.user_answer||"Blank"}</span><span className="correct-answer">Correct answer: {result.correct_answer}</span>{result.unordered_group&&<span>Letters in this group are graded together; order does not matter.</span>}{a.explain&&<button type="button" className={aiStyles.trigger} aria-label={`Explain question ${q.number} with AI`} aria-expanded={a.explain.isOpen(q.id)} aria-controls={`reading-ai-${q.id}`} onClick={()=>a.explain!.open(q.id)}>✦ Explain with AI</button>}{result.accepted_answers.length>1&&<span>Accepted alternatives: {result.accepted_answers.join(" / ")}</span>}</span>;
   return <button type="button" className={compact ? "review-toggle inline-review" : "review-toggle"} title={compact ? `Review question ${q.number}` : undefined} aria-label={`${a.review.has(q.id) ? "Unmark" : "Mark"} question ${q.number} for review`} aria-pressed={a.review.has(q.id)} onClick={() => a.toggleReview(q.id)}>{compact ? <svg width="14" height="14" viewBox="0 0 20 20" fill={a.review.has(q.id) ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M4 18V3h11l-2 4 2 4H4" /></svg> : a.review.has(q.id) ? "Marked for review" : "Mark for review"}</button>;
 }
 function Field({ q, g, a, inline = false }: { q: Question; g: Group; a: QuestionActions; inline?: boolean }) {
@@ -83,7 +93,7 @@ function Field({ q, g, a, inline = false }: { q: Question; g: Group; a: Question
   const limitWords = ["", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN"];
   const limitInInstructions = inline && max !== null && new RegExp(`\\b(?:${max}${limitWords[max] ? `|${limitWords[max]}` : ""})\\s+WORDS?\\b`, "i").test(g.instructions);
   const input = choice && opts.length ? <span className="answer-choices" role="group" aria-label={`Answer ${q.number}`}>
-    {opts.map((o, index) => <button type="button" key={`${o.label}:${index}`} aria-pressed={value === o.label}
+    {opts.map((o, index) => <button type="button" key={`${o.label}:${index}`} data-choice-status={choiceStatus(q,g,a,o.label)} aria-pressed={value === o.label}
       disabled={a.disabled || a.locked.has(q.id) || value !== o.label && q.type.startsWith("matching_") && !q.constraints.reuse_allowed && !g.constraints.reuse_allowed && g.questions.some((other) => other.id !== q.id && a.answers[other.id] === o.label)}
       title={o.text !== o.label ? o.text : undefined} onFocus={() => a.focus(q.id)} onClick={() => a.change({ [q.id]: value === o.label ? "" : o.label })}>{o.label}</button>)}
   </span> : <input aria-label={`Answer ${q.number}`} autoComplete="off" autoCapitalize="none" spellCheck={false} value={value} maxLength={500} disabled={a.disabled || a.locked.has(q.id)} aria-invalid={over || undefined} onFocus={() => a.focus(q.id)} onChange={(e) => a.change({ [q.id]: e.target.value })} />;
@@ -93,8 +103,8 @@ function Field({ q, g, a, inline = false }: { q: Question; g: Group; a: Question
 }
 function Anchor({ q, a, children, inline = false }: { q: Question; a: QuestionActions; children: ReactNode; inline?: boolean }) {
   const Tag = inline ? "span" : "div";
-  return <Tag className={inline ? "inline-question" : "reading-question"} data-question={q.number} ref={(node) => a.register(q.id, node)} onFocusCapture={() => a.focus(q.id)}>
-    <span className="question-number">{q.number}.</span> {children}{inline && !a.results && <Review q={q} a={a} compact />} {(!inline || a.results) && <Review q={q} a={a} />}
+  return <Tag className={inline ? "inline-question" : "reading-question"} data-question={q.number} data-review-status={a.results?(()=>{const p=a.results.find(p=>p.question_id===q.id);return p?.unanswered?"unanswered":p?.is_correct?"correct":"incorrect";})():undefined} hidden={a.visibleQuestions?!a.visibleQuestions.has(q.id):undefined} tabIndex={a.results?-1:undefined} ref={(node) => a.register(q.id, node)} onFocusCapture={() => a.focus(q.id)}>
+    <span className="question-number">{q.number}.</span> {children}{inline && !a.results && <Review q={q} a={a} compact />} {!inline && <><Review q={q} a={a} />{a.explain?.render?.(q)}</>}
   </Tag>;
 }
 export function multipleSelection(g: Group, answers: Record<string, string>, label: string): Record<string, string> {
@@ -108,12 +118,18 @@ function MultiChoice({ group: g, actions: a }: { group: Group; actions: Question
   const selected = new Set(g.questions.map((q) => a.answers[q.id]).filter(Boolean));
   const limit = g.constraints.selection_count ?? g.questions.length;
   return <><div className="multi-positions">{g.questions.map((q) => <Anchor key={q.id} q={q} a={a}><span className="sr-only">Answer position {q.number}</span></Anchor>)}</div>
-    <fieldset className="choice-list"><legend>Choose {limit} letters <span className="muted">· {selected.size} selected</span></legend>{opts.map((o, index) => <label key={`${o.label}:${index}`} className={selected.has(o.label) ? "choice-selected" : undefined}>
+    <fieldset className="choice-list"><legend>Choose {limit} letters <span className="muted">· {selected.size} selected</span></legend>{opts.map((o, index) => <label key={`${o.label}:${index}`} data-choice-status={choiceStatus(g.questions[0]!,g,a,o.label)} className={selected.has(o.label) ? "choice-selected" : undefined}>
       <input type="checkbox" checked={selected.has(o.label)} disabled={a.disabled || g.questions.some((q) => a.locked.has(q.id)) || (!selected.has(o.label) && selected.size >= limit)} onFocus={() => a.focus(g.questions[0]!.id)} onChange={() => a.change(multipleSelection(g, a.answers, o.label))} />
       <span><strong>{o.label}</strong> {o.text}</span>
     </label>)}</fieldset>{selected.size > 0 && <button type="button" className="text-button" disabled={a.disabled || g.questions.some((q) => a.locked.has(q.id))} onClick={() => a.change(Object.fromEntries(g.questions.map((q) => [q.id, ""])))}>Clear selection</button>}</>;
 }
 function normalized(text: string) { return text.replace(/\s+/g, " ").trim(); }
+function withoutRepeatedGroupHeading(text: string, group: Group) {
+  const first = group.question_numbers[0], last = group.question_numbers.at(-1);
+  const range = first === last ? `${first}` : `${first}\\s*[-–—]\\s*${last}`;
+  // The section already supplies this exact numbered heading. Keep all task wording.
+  return text.replace(new RegExp(`^\\s*Questions?\\s+${range}\\s*\\n`, "i"), "");
+}
 function withoutOptionAppendix(text: string, options: ReturnType<typeof questionOptions>) {
   if (!options.length || options.some((o) => o.label === o.text)) return text;
   const escape = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -131,7 +147,7 @@ function withoutOptionAppendix(text: string, options: ReturnType<typeof question
   return text.slice(0, starts[0]!.index).trim();
 }
 function RadioQuestion({ q, g, a, prompt = q.prompt }: { q: Question; g: Group; a: QuestionActions; prompt?: string }) {
-  return <Anchor q={q} a={a}><fieldset className="choice-list"><legend>{withoutOptionAppendix(prompt, questionOptions(q, g))}</legend>{questionOptions(q, g).map((o, index) => <label key={`${o.label}:${index}`} className={a.answers[q.id] === o.label ? "choice-selected" : undefined}>
+  return <Anchor q={q} a={a}><fieldset className="choice-list"><legend>{withoutOptionAppendix(prompt, questionOptions(q, g))}</legend>{questionOptions(q, g).map((o, index) => <label key={`${o.label}:${index}`} data-choice-status={choiceStatus(q,g,a,o.label)} className={a.answers[q.id] === o.label ? "choice-selected" : undefined}>
     <input type="radio" name={q.id} checked={a.answers[q.id] === o.label} value={o.label} disabled={a.disabled || a.locked.has(q.id)} onFocus={() => a.focus(q.id)} onClick={() => { if (a.answers[q.id] === o.label) a.change({ [q.id]: "" }); }} onChange={() => a.change({ [q.id]: o.label })} /><span>{o.label === o.text ? o.text : `${o.label}  ${o.text}`}</span>
   </label>)}</fieldset></Anchor>;
 }
@@ -143,19 +159,27 @@ export function QuestionGroup({ group: g, actions, uid, active }: { group: Group
   const qByNumber = new Map(g.questions.map((q) => [q.number, q]));
   const shown = new Set<number>();
   const segmentNodes = (segments: Segment[]): ReactNode => segments.map((s, i) => {
-    if (s.type === "text") return <Fragment key={i}>{withoutOptionAppendix(s.text, bank)}</Fragment>;
+    if (s.type === "text") return <Fragment key={i}>{withoutRepeatedGroupHeading(withoutOptionAppendix(s.text, bank), g)}</Fragment>;
     const q = qByNumber.get(s.number);
     if (!q) return <strong key={i} role="alert">Missing question {s.number}</strong>;
     if (shown.has(q.number)) return <span key={i}>[see answer {q.number}]</span>;
     shown.add(q.number);
     return <Anchor key={q.id} q={q} a={a} inline><Field q={q} g={g} a={a} inline /></Anchor>;
   });
+  // Emit saved review controls once, beside the source block containing their blank.
+  // Fallback questions remain owned by their non-inline Anchor.
+  const inlineContent = (segments: Segment[]): ReactNode => {
+    const previous = new Set(shown);
+    const nodes = segmentNodes(segments);
+    const local = g.questions.filter(q => shown.has(q.number) && !previous.has(q.number));
+    return <>{nodes}{a.results && local.length > 0 && <div className={styles.inlineReviews} aria-label="Saved answers">{local.map(q => <div key={q.id} data-review-for={q.number}><Review q={q} a={a}/>{a.explain?.render?.(q)}</div>)}</div>}</>;
+  };
   const blocks = (b: Block, i: number): ReactNode => {
     switch (b.type) {
-      case "rich_text": return <div className="task-text" key={i}>{segmentNodes(b.segments)}</div>;
+      case "rich_text": return <div className="task-text" key={i}>{inlineContent(b.segments)}</div>;
       case "heading": return <h3 key={i}>{b.text}</h3>;
-      case "list": return <ul className="task-list" key={i}>{b.items.map((item, j) => <li key={j}>{segmentNodes(item)}</li>)}</ul>;
-      case "table": return <div className="task-table-scroll" key={i}><table><thead><tr>{b.columns.map((col, j) => <th key={j} scope="col">{col}</th>)}</tr></thead><tbody>{b.rows.map((row, j) => <tr key={j}>{row.map((cell, k) => <td key={k}>{segmentNodes(cell.segments)}</td>)}</tr>)}</tbody></table></div>;
+      case "list": return <ul className="task-list" key={i}>{b.items.map((item, j) => <li key={j}>{inlineContent(item)}</li>)}</ul>;
+      case "table": return <div className="task-table-scroll" key={i}><table><thead><tr>{b.columns.map((col, j) => <th key={j} scope="col">{col}</th>)}</tr></thead><tbody>{b.rows.map((row, j) => <tr key={j}>{row.map((cell, k) => <td key={k}>{inlineContent(cell.segments)}</td>)}</tr>)}</tbody></table></div>;
       case "image": { const asset = g.assets.find((asset) => asset.id === b.asset_id); return asset ? <AssetImage key={asset.id} asset={asset} uid={uid} active={active} alt={b.alt} /> : <p key={i} role="alert">Required task image is missing.</p>; }
     }
   };
@@ -171,10 +195,11 @@ export function QuestionGroup({ group: g, actions, uid, active }: { group: Group
     if (at > 0 && instructions.slice(at).trim() === first.prompt.trim()) instructions = instructions.slice(0, at).replace(new RegExp(`\\n\\s*${first.number}\\s*[.]?$`), "").trim();
   }
   if (g.type === "multiple_choice_multiple" && g.options.length) instructions = withoutOptionAppendix(instructions, g.options);
+  instructions = withoutRepeatedGroupHeading(instructions, g);
   const inline = !imageMode && g.questions.every((q) => q.answer_input_type === "text" || q.answer_input_type === "single_select") && g.content_blocks.some((b) => b.type === "rich_text" && b.segments.some((s) => s.type === "blank") || b.type === "table");
   // Compute block nodes now so `shown` correctly tracks fields before fallback rows.
   const content = inline ? g.content_blocks.map(blocks) : null;
-  return <section className="question-group" data-question-type={g.type} data-representation={g.representation}>
+  return <section className={`question-group ${a.results?styles.completed:""}`} hidden={a.visibleQuestions?!g.questions.some(q=>a.visibleQuestions!.has(q.id)):undefined} data-question-type={g.type} data-representation={g.representation}>
     <h3 className="group-heading">{g.question_numbers.length === 1 ? `Question ${g.question_numbers[0]}` : `Questions ${g.question_numbers[0]}–${g.question_numbers.at(-1)}`}</h3>
     {integrity.length > 0 && <p className={styles.warning} role="alert">This task needs content review. Answer entry is unavailable; existing answers are preserved.{process.env.NODE_ENV === "development" && <code>{g.id}: {integrity.join(", ")}</code>}</p>}
     {!imageMode && bank.length > 0 && <GroupOptions group={g} options={bank} />}

@@ -17,9 +17,9 @@ test("home → catalog → explicit Start → durable answers → Finish → rea
  await page.reload();await expect(page.getByLabel("Answer 1",{exact:true})).toHaveValue("lettuce");await expect(page.getByRole("button",{name:"Unmark question 1 for review",exact:true})).toBeVisible();
  await page.getByRole("button",{name:"Finish",exact:true}).click();await expect(page.getByRole("dialog",{name:"Finish your test?"})).toContainText("2 of 40");await page.getByRole("button",{name:"Return to test"}).click();expect(backend.events.filter(e=>e.path.endsWith("/submit"))).toHaveLength(0);
  await page.getByRole("button",{name:"Finish",exact:true}).click();await page.getByRole("button",{name:"Finish test",exact:true}).click();
- await expect(page).toHaveURL(`${page.url().split("/reading")[0]}${path}/result`);await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();
- await page.getByRole("link",{name:/^Review (?:\d+ mistakes?|all answers)$/}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page.getByText("Review · Read only",{exact:true})).toBeVisible();
- await page.getByRole("link",{name:"Result",exact:true}).click();await page.getByRole("link",{name:"Back to Reading",exact:true}).click();await page.getByRole("link",{name:"My attempts",exact:true}).click();await expect(page.getByRole("heading",{name:"My attempts."})).toBeVisible();await expect(page.getByRole("link",{name:"View result"})).toBeVisible();
+ await expect(page).toHaveURL(`${page.url().split("/reading")[0]}${path}/result`);await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();
+ await page.getByRole("link",{name:/^Review test/}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page.locator("main footer")).toHaveCount(0);
+ await page.getByRole("link",{name:"← Results",exact:true}).click();await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();await page.goto("/reading");await page.getByRole("link",{name:"My attempts",exact:true}).click();await expect(page.getByRole("heading",{name:"My attempts."})).toBeVisible();await expect(page.getByRole("link",{name:"View result"})).toBeVisible();
  expect(backend.events.filter(e=>e.path.endsWith("/submit"))).toHaveLength(1);
 });
 
@@ -46,14 +46,14 @@ test("unknown sync replays UUID; unknown Finish recovers terminal result without
  const backend=await releaseBackend(context);backend.unknownSave(true);await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("lettuce");await page.getByLabel("Answer 2",{exact:true}).fill("tomato");
  await expect.poll(()=>backend.events.filter(e=>e.path.endsWith("/sync")).length).toBeGreaterThan(1);const saves=backend.events.filter(e=>e.path.endsWith("/sync"));expect(saves.length).toBeGreaterThan(1);expect(saves[0]!.body).toEqual(saves[1]!.body);
  backend.unknownSubmit(true);await page.getByRole("button",{name:"Finish",exact:true}).click();await page.getByRole("button",{name:"Finish test",exact:true}).click();await expect(page.getByText("Submission unknown — retry safely")).toBeVisible();
- page.on("dialog",d=>d.accept());await page.reload();await page.getByRole("link",{name:"View result"}).click();await expect(page.getByRole("heading",{name:"Your result."})).toBeVisible();
+ page.on("dialog",d=>d.accept());await page.reload();await page.getByRole("link",{name:"View result"}).click();await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();
  const submits=backend.events.filter(e=>e.path.endsWith("/submit"));expect(new Set(submits.map(e=>e.body.event_id)).size).toBe(1);
 });
 
 test("server expiry rejects late local edits and direct result/review is terminal readonly",async({page,context})=>{
  const backend=await releaseBackend(context);await page.goto(path);await expect(page.getByLabel("Answer 1",{exact:true})).toBeEnabled();backend.expire();await page.getByLabel("Answer 1",{exact:true}).fill("too late");
- await expect(page.getByText("Deadline passed — local answers were not accepted",{exact:true})).toBeVisible();await page.getByRole("link",{name:"View server result"}).click();await expect(page).toHaveURL(new RegExp(`${path}/result$`));await expect(page.getByText("Time expired · Academic Reading",{exact:true})).toBeVisible();await expect(page.getByText(/local answers differ from the server result/)).toBeVisible();
- await page.getByRole("link",{name:/^Review (?:\d+ mistakes?|all answers)$/}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();expect(backend.events.some(e=>e.path.endsWith("/submit"))).toBe(false);
+ await expect(page.getByText("Deadline passed — local answers were not accepted",{exact:true})).toBeVisible();await page.getByRole("link",{name:"View server result"}).click();await expect(page).toHaveURL(new RegExp(`${path}/result$`));await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();
+ await page.getByRole("link",{name:/^Review test/}).click();await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();expect(backend.events.some(e=>e.path.endsWith("/submit"))).toBe(false);
 });
 
 test("stable text highlights and view preferences survive resizing, passages and refresh",async({page,context})=>{
@@ -69,7 +69,7 @@ test("deadline reached offline pauses editing, reconnect confirms server expiry 
  await page.clock.install();const backend=await releaseBackend(context,{seconds:10});await page.goto(path);await expect(page.getByLabel("Answer 1",{exact:true})).toBeEnabled();
  await context.setOffline(true);await page.getByLabel("Answer 1",{exact:true}).fill("offline late draft");await expect(page.getByText("Offline — saved on device",{exact:true})).toBeVisible();
  backend.expire();await page.clock.fastForward(11000);await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();await expect(page).toHaveURL(new RegExp(`${path}$`));
- await context.setOffline(false);await expect(page.getByText("Deadline passed — local answers were not accepted",{exact:true})).toBeVisible();await page.getByRole("link",{name:"View server result"}).click();await expect(page.getByText("Time expired · Academic Reading",{exact:true})).toBeVisible();await expect(page.getByText(/local answers differ from the server result/)).toBeVisible();expect(backend.server().answers).toEqual({});
+ await context.setOffline(false);await expect(page.getByText("Deadline passed — local answers were not accepted",{exact:true})).toBeVisible();await page.getByRole("link",{name:"View server result"}).click();await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();expect(backend.server().answers).toEqual({});
 });
 
 test("logout cleanup removes the owner's actual IndexedDB drafts and leases",async({page,context})=>{
@@ -138,54 +138,27 @@ test("Reading library: loading, empty, API failure, retry and permissions", asyn
  await expect(page.getByRole("main").getByRole("link",{name:"Log in",exact:true})).toHaveAttribute("href","/login?next=%2Freading");
 });
 
-test("Result V2: confirmed verdict map, edge scores, responsive layout and exact Review links",async({page,context},info)=>{
+test("Result V2: minimal summary and readonly Review",async({page,context})=>{
  const backend=await releaseBackend(context);
- // UI-only API scenarios clone the existing terminal fixture; no answer key is
- // changed and no attempt is created/submitted. Grading is not tested here.
  const base=structuredClone(data.release_results[0]!.result);
  const attempt:Attempt={...structuredClone(backend.server()),status:"submitted",submitted_at:"2026-11-02T10:30:00Z"};
- let result:ReadingResult={...base,attempt_id:attemptId,estimated_band:7.5,raw_score:32,completion_reason:"submitted" as "submitted"|"deadline",
-  positions:base.positions.map((position,i)=>({...position,is_correct:i<32,unanswered:i>=36,user_answer:i>=36?"":"fixture answer"})).reverse()};
+ let result:ReadingResult={...base,attempt_id:attemptId,estimated_band:7,raw_score:32,completion_reason:"submitted",
+  positions:base.positions.map((position,i)=>({...position,is_correct:i<32})).reverse()};
  await page.route(`**/api/alua/reading/attempts/${attemptId}`,route=>route.fulfill({json:attempt}));
  await page.route(`**/api/alua/reading/attempts/${attemptId}/result`,route=>route.fulfill({json:result}));
  await page.goto(`${path}/result`);
- const map=page.getByRole("region",{name:"Your 40 answers",exact:true});
- await expect(map.getByRole("link")).toHaveCount(40);
- await expect(map.getByRole("link",{name:/^Question \d+, correct$/})).toHaveCount(32);
- await expect(map.getByRole("link",{name:/^Question \d+, incorrect$/})).toHaveCount(4);
- await expect(map.getByRole("link",{name:/^Question \d+, unanswered$/})).toHaveCount(4);
- await expect(page.getByRole("link",{name:"Review 8 mistakes"})).toBeVisible();
- await expect(page.getByText("7.5",{exact:true})).toBeVisible();
- await expect(map).toHaveCSS("opacity","1");
- for(const [width,height] of [[1440,900],[1280,800],[768,1024],[390,844],[320,844]]){
-  await page.setViewportSize({width:width!,height:height!});
-  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-  for(const row of exam.passages)await expect(map.getByRole("region",{name:`Passage ${row.number}`,exact:true}).getByRole("link")).toHaveCount(row.question_numbers.length);
-  if(info.project.name==="release-chromium"&&(width===1440||width===390))await page.screenshot({path:`docs/result-v2/${width===1440?"desktop":"mobile"}.png`,scale:"css"});
- }
- await page.emulateMedia({reducedMotion:"reduce"});await expect(map).toHaveCSS("animation-name","none");
- const target=base.positions.find(p=>p.number===33)!;
- const cell=map.getByRole("link",{name:`Question 33, ${result.positions.find(p=>p.question_id===target.question_id)!.is_correct?"correct":"incorrect"}`});
- await expect(cell).toHaveAttribute("href",`${path}/review?question=${encodeURIComponent(target.question_id)}`);
- await cell.focus();await page.keyboard.press("Enter");
- await expect(page.getByRole("button",{name:"Passage 3",exact:true})).toHaveAttribute("aria-current","true");
- await expect(page.getByRole("button",{name:/^Question 33,/})).toHaveAttribute("aria-current","true");
- await expect(page.getByLabel("Answer 33",{exact:true})).toBeVisible();await expect(page.getByLabel("Answer 33",{exact:true})).toBeDisabled();
- await page.goto(`${path}/result`);await page.getByRole("link",{name:"Back to Reading",exact:true}).click();await expect(page).toHaveURL(/\/reading$/);
- // Entirely unanswered, no estimate: raw score is primary, no fabricated band.
+ await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();
+ await expect(page.getByText("32 correct · 8 incorrect")).toBeVisible();
+ await expect(page.getByLabel("Estimated IELTS band score",{exact:true})).toHaveText("7.0");
+ await expect(page.getByRole("region",{name:"Your 40 answers",exact:true})).toHaveCount(0);
+ await page.getByRole("link",{name:/^Review test/}).click();
+ await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();
  result={...result,raw_score:0,estimated_band:null,positions:base.positions.map(p=>({...p,is_correct:false,unanswered:true,user_answer:""}))};
- await page.goto(`${path}/result`);await expect(page.getByRole("link",{name:"Review 40 mistakes"})).toBeVisible();await expect(page.getByText("Estimated IELTS band",{exact:true})).toHaveCount(0);
- await expect(map.getByRole("link",{name:/unanswered$/})).toHaveCount(40);
+ await page.goto(`${path}/result`);
+ await expect(page.getByLabel("Estimated IELTS band score",{exact:true})).toHaveText("—");
+ await expect(page.getByText("0 correct · 40 incorrect")).toBeVisible();
  result={...result,raw_score:40,estimated_band:9,positions:base.positions.map(p=>({...p,is_correct:true,unanswered:false}))};
- await page.reload();await expect(page.getByRole("link",{name:"Review all answers"})).toBeVisible();await expect(page.getByText("100% correct",{exact:true})).toBeVisible();
- // Move one intact group in the snapshot to exercise nonstandard 7/19/14
- // membership without modifying question IDs, options or answer keys.
- const moved=attempt.exam!.passages[0]!.question_groups.pop()!;
- attempt.exam!.passages[1]!.question_groups.unshift(moved);
- for(const passage of attempt.exam!.passages)passage.question_numbers=passage.question_groups.flatMap(g=>g.questions.map(q=>q.number));
- attempt.status="expired";result={...result,completion_reason:"deadline",positions:result.positions.map(p=>({...p,passage_number:attempt.exam!.passages.find(passage=>passage.question_numbers.includes(p.number))!.number}))};
- await page.reload();await expect(page.getByText("Time expired · Academic Reading",{exact:true})).toBeVisible();
- for(const passage of attempt.exam!.passages)await expect(map.getByRole("region",{name:`Passage ${passage.number}`,exact:true}).getByRole("link")).toHaveCount(passage.question_numbers.length);
+ await page.reload();await expect(page.getByText("40 correct · 0 incorrect")).toBeVisible();
  expect(backend.events).toEqual([]);
 });
 

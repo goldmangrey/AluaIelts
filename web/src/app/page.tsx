@@ -7,7 +7,7 @@ import s from "./home.module.css";
 const sections = [
   { name: "Listening", key: "listening", detail: "4 sections · 40 questions", label: "4 sections, 40 questions", width: 914, height: 960 },
   { name: "Reading", key: "reading", detail: "3 passages · 40 questions", label: "3 passages, 40 questions", width: 960, height: 952 },
-  { name: "Writing", key: "writing", detail: "2 tasks · 60 min", label: "2 tasks, 60 min", width: 960, height: 957 },
+  { name: "Writing", key: "writing", detail: "Task 2 · 40 min", label: "Task 2, 40 min", width: 960, height: 957 },
   { name: "Speaking", key: "speaking", detail: "3 parts · 11–14 min", label: "3 parts, 11–14 min", width: 737, height: 960 },
 ];
 

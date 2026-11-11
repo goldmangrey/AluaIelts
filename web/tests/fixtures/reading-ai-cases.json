@@ -1,0 +1,48 @@
+{
+  "context": {
+    "learner_id": "fixture",
+    "fingerprint": "fixture",
+    "question_id": "q1",
+    "question_type": "summary_completion",
+    "passage_id": "p1",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "label": "B",
+        "text": "😀 Bats use sounds to find obstacles in the dark."
+      }
+    ],
+    "correct_answer": "sounds",
+    "user_answer": "touch",
+    "is_correct": false,
+    "not_given": false,
+    "unavailable_reason": null,
+    "grounding": {
+      "mode": "text",
+      "targets": [
+        "sounds"
+      ]
+    },
+    "candidates": [
+      {
+        "id": "2b3974a9b0d56571eedeaca6",
+        "block_index": 0,
+        "quote": "😀 Bats use sounds to find obstacles in the dark.",
+        "start": 0,
+        "end": 49
+      }
+    ]
+  },
+  "raw": {
+    "why_user_answer_wrong": "В ответе указано другое средство ориентации.",
+    "why_correct_answer_works": "Текст связывает ориентацию со звуками.",
+    "ielts_tip": "Для пропуска проверьте форму слова и ограничение количества слов.",
+    "evidence_status": "found",
+    "evidence": [
+      {
+        "candidate_id": "2b3974a9b0d56571eedeaca6",
+        "kind": "support"
+      }
+    ]
+  }
+}

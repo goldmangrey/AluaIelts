@@ -93,7 +93,7 @@ export function TranslationPopover({ root, uid, attemptId, passageId, highlightE
       // Translating a highlighted word must not remove its highlight.
       event.stopPropagation();
       const { block, input, rect } = hit;
-      const key = JSON.stringify([uid, passageId, block.dataset.highlightBlock, input]);
+      const key = JSON.stringify([uid, attemptId, passageId, block.dataset.highlightBlock, input]);
       if (key === last) return;
       close(); last = key;
       if (!rect.width || !rect.height) return;
@@ -123,10 +123,11 @@ export function TranslationPopover({ root, uid, attemptId, passageId, highlightE
             const code = error && typeof error === "object" && "code" in error && typeof error.code === "string" && /^[a-z_]{1,80}$/.test(error.code) ? error.code : "unexpected_response";
             console.warn("[smart-translate]", { status: response.status, code });
           }
-          errorMessage = response.status === 429 ? "Слишком много запросов. Подождите минуту." :
+          errorMessage = response.status === 429 ? (payload&&typeof payload==='object'&&'error' in payload&&(payload.error as {code?:string})?.code==='translate_busy'?"Предыдущий перевод ещё готовится. Повторите через секунду.":"Слишком много запросов. Подождите минуту.") :
             response.status === 401 ? "Войдите в аккаунт для перевода." :
             response.status === 403 ? "Перевод недоступен для этой попытки." :
             [400, 422].includes(response.status) ? "Не удалось определить слово. Нажмите на него ещё раз." :
+            response.status === 504 ? "Перевод занял слишком много времени. Попробуйте ещё раз." :
             response.status === 502 ? "Не удалось получить точный перевод. Нажмите на слово ещё раз." : errorMessage;
           throw Error();
         }

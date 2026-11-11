@@ -141,7 +141,11 @@ def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
     first = client.post(base + "/ai-review/1", headers=h)
     assert first.status_code == 200, first.text
     assert first.json()["evidence"]["available"]
-    assert client.post(base + "/ai-review/1", headers=h).json() == first.json()
+    cached = client.post(base + "/ai-review/1", headers=h).json()
+    assert cached.pop("cached") is True
+    first_data = first.json()
+    assert first_data.pop("cached") is False
+    assert cached == first_data
     assert len(calls) == 1 and set(calls[0]["json"]) == {"attempt_id", "question_number"}
     assert client.get(base + "/review", headers=h).json() == before
     assert client.post(base + "/ai-review/2", headers=h).status_code == 422

@@ -1,0 +1,100 @@
+{
+  "live": false,
+  "actualNewLiveCalls": 0,
+  "modelCalls": 7,
+  "routeCalls": 9,
+  "events": [
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure",
+      "http_status": 503
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "cloudflare",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure",
+      "http_status": 503
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "success",
+      "latency_ms": 1,
+      "fallback_reason": null
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "success",
+      "latency_ms": 0,
+      "fallback_reason": null
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure",
+      "http_status": 503
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "cloudflare",
+      "model": "@cf/google/gemma-4-26b-a4b-it",
+      "outcome": "failure",
+      "latency_ms": 0,
+      "fallback_reason": "synthetic_failure",
+      "http_status": 503
+    },
+    {
+      "task": "writing_assessment",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "outcome": "success",
+      "latency_ms": 0,
+      "fallback_reason": null
+    }
+  ],
+  "results": [
+    {
+      "name": "desktop",
+      "visual": {
+        "pageBackground": "rgb(255, 255, 255)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "overflow": false
+      },
+      "valid": true,
+      "band": 6,
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "issues": 1,
+      "cached": true,
+      "modelCalls": 4
+    },
+    {
+      "name": "mobile",
+      "visual": {
+        "pageBackground": "rgb(255, 255, 255)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "overflow": false
+      },
+      "valid": true,
+      "band": 6,
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "issues": 1,
+      "cached": true,
+      "modelCalls": 7
+    }
+  ]
+}

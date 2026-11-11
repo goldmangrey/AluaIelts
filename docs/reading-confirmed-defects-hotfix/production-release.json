@@ -1,0 +1,66 @@
+{
+  "status": "DEPLOYED",
+  "commit": "e515eda1b0690e0c35fe03df74f8c07abb9efc2d",
+  "branch": "release/reading-confirmed-hotfix-20261108",
+  "backend_release": "reading-hotfix-20261108-e515eda1b069",
+  "backend_health": "PASS",
+  "cloudflare_platform": "Workers (explicitly confirmed by owner)",
+  "cloudflare_deployment_id": "7666c892-2fcf-4858-b73c-1705541311d2",
+  "cloudflare_version_id": "0750697a-9a7d-4f13-94da-a863b08d3bb9",
+  "production_reading_smoke": {
+    "status": "PASS",
+    "cases": [
+      {
+        "exam_id": "cambridge-07-test-01",
+        "questions": [
+          6,
+          7,
+          8,
+          9,
+          16,
+          20,
+          37,
+          38,
+          39,
+          40
+        ],
+        "content_hash": "e43514e69ae9fcbbe08fbd37d80d7724baeec1a018d4d35865b08da9b0bcb1dc",
+        "exam": "PASS",
+        "submit": "PASS",
+        "results": "PASS",
+        "review": "PASS",
+        "image_sha256": "a20d192d76ae7311929813052384b761b345a255b649017d62fa10cefccbd3c9",
+        "errors": []
+      },
+      {
+        "exam_id": "cambridge-16-test-03",
+        "questions": [
+          20,
+          21,
+          22
+        ],
+        "content_hash": "75a1a22c0fd8f99bae3b71954d7d61cdb2fdf1c490d537edee0a607f8919d475",
+        "exam": "PASS",
+        "submit": "PASS",
+        "results": "PASS",
+        "review": "PASS",
+        "image_sha256": null,
+        "errors": []
+      }
+    ]
+  },
+  "rollback_available": true,
+  "previous_backend": "source-fidelity-20261107-9689a3afffa3",
+  "previous_worker_version": "2a752cce-890a-4860-9350-01741f5877bc",
+  "backend_backup": "/var/backups/alua/pre-reading-hotfix-20261108-e515eda1b069",
+  "rollback_backend_release": "reading-hotfix-20261108-e515eda1b069-rollback",
+  "preserved_answer_keys": 72,
+  "production_db_direct_changes": false,
+  "existing_user_attempts_results_changed": false,
+  "listening_source_changed": false,
+  "notes": [
+    "Only new attempts on the existing guarded ALUA QA Release profile were submitted through normal APIs.",
+    "Initial smoke used an incorrect /review suffix selector; existing production uses /review?question=...; smoke-only selector fixed, no application workaround.",
+    "Original dirty checkout preserved. Isolated release excludes Results/Review V2 and pending Listening edits."
+  ]
+}

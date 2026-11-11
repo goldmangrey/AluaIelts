@@ -144,6 +144,7 @@ def test_admin_success_and_emulator_block(monkeypatch):
 
 
 def test_upgrade_from_0005_preserves_learners(system):
+    from alembic.script import ScriptDirectory
     from sqlalchemy import text
 
     from alembic import command
@@ -159,5 +160,5 @@ def test_upgrade_from_0005_preserves_learners(system):
         assert session.scalar(select(func.count()).select_from(FirebaseIdentityRow)) == 0
         assert (
             session.execute(text("SELECT version_num FROM alembic_version")).scalar()
-            == "20261104_0007"
+            == ScriptDirectory.from_config(cfg).get_current_head()
         )

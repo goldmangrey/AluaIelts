@@ -1,0 +1,61 @@
+{
+  "scope": "Offline report dashboard only; not corpus source-fidelity certification or production UI QA",
+  "results": [
+    {
+      "browser": "chromium",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "tests": 72,
+      "all_item_navigation": true,
+      "source_crops_load": true,
+      "filtering": true,
+      "unconfirmed_labels": true,
+      "no_horizontal_overflow": true,
+      "javascript_errors": []
+    },
+    {
+      "browser": "chromium",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "tests": 72,
+      "all_item_navigation": true,
+      "source_crops_load": true,
+      "filtering": true,
+      "unconfirmed_labels": true,
+      "no_horizontal_overflow": true,
+      "javascript_errors": []
+    },
+    {
+      "browser": "webkit",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "tests": 72,
+      "all_item_navigation": true,
+      "source_crops_load": true,
+      "filtering": true,
+      "unconfirmed_labels": true,
+      "no_horizontal_overflow": true,
+      "javascript_errors": []
+    },
+    {
+      "browser": "webkit",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "tests": 72,
+      "all_item_navigation": true,
+      "source_crops_load": true,
+      "filtering": true,
+      "unconfirmed_labels": true,
+      "no_horizontal_overflow": true,
+      "javascript_errors": []
+    }
+  ]
+}

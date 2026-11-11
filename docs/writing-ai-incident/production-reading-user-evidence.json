@@ -1,0 +1,18 @@
+{
+  "source": "User-provided existing DevTools response",
+  "url": "https://alua.study/api/reading/review",
+  "method": "POST",
+  "status": 503,
+  "response": {
+    "error": {
+      "code": "reading_ai_unavailable",
+      "message": "Reading AI is unavailable."
+    }
+  },
+  "retry_after": null,
+  "request_id": null,
+  "cf_ray": null,
+  "timestamp": null,
+  "current_runtime_flag": "NOT VERIFIED",
+  "interpretation": "Application unavailable response; exact current cause not established. Matching local code branches: Reading disabled or worker URL rejected. No provider 429 evidence."
+}

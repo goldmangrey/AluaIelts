@@ -1,20 +1,23 @@
 {
   "dataset_version": "1.0.0",
-  "content_revision": "02aae2c9dfda0b052f8835311af6ce6cc5856dffb3ae677f7d983a84a5a099b9",
+  "content_revision": "4bcec0b8206d925418a62eb9e5a8fd35d2e473d677a073adba3c7e62833cfd33",
   "generator_sha256": {
+    "apply_confirmed_hotfix.py": "1d3977df3bc0feb4703156e9783aac3ff44b9dd1ff77d5882157512b94778c39",
+    "confirmed_hotfixes.json": "e1590bddce3ffa3f21d713d8d66a86028881982d847d601a51eceed265f46e6a",
+    "confirmed_hotfixes.py": "76f088886f9dc7c334700ede6c8d5d18deec9f99a34da5731bffaa558b079e2b",
     "content_repairs.json": "404d2a377bf531ba38efa28755e3c5d1dad86607e643f7ef5020d775bc8ae54b",
-    "engine.py": "5a904585c2faf143472c9037d97362d989685d533d371282bc0eb7be5f407497",
-    "enrich.py": "cd21ef82569628b9fc1fe2dcf9b942c3ae1a7f7f985a2e666a7ebf91a69748e4",
+    "engine.py": "7703ff9c11f09f7d0446fcb94dc71a5f6d8bccd7cd1cd98665e8e478dfe9ce65",
+    "enrich.py": "7a77252e1547ff0cd0495db233e943b5311c0160215020e6ca148abad02483c6",
     "generate.py": "62b65223e8c403f5e4a34a4b9e0972732f8cde351106bf65f894c27e60a2ad25",
     "grading.py": "52418a240fb5debb1ffc3b4512a48a3b7e8763985bf3b947391764e9cf2d7d29",
     "labels.py": "ccda2b56d98bd7cb28bda8669bf812a63590997fcdec3305f5bfaf7214bc8bdf",
     "paragraph_labels.json": "828a29d53479e3d25cedd1583225486897a7b07bef08aff168a634c1f217056b",
-    "pdf_support.py": "c2668b31b6aa4c5286d77e6d041c5cf2bdd7a154a4b370c6ffaa0e7948c11110",
+    "pdf_support.py": "1bd9fe2ea3fc552e1b383a4b39b73370fed6f73f3155f5dc6893f7fffdfee44b",
     "repairs.py": "fe20a1993fa22b555d7f38e0fb4c96404ab600163bd628d67ae659cc5c7f9bd6",
     "requirements.txt": "b450e1537ac3d01ab1f12159f0097b33825dd3db493a61a3c5ad116731495c62",
     "source_edits.json": "c91fb8af2856b8165c47bc8a5986f4bfa1a39a18eed98c016b14f6ed3539395e",
-    "source_reviews.json": "2abe095ac6bfed24698fb39a92afb438e7394672506ed4049cb572b8238e9bce",
-    "validator.py": "fe8db396d19d315d5289b07a023107dce745145a2afdf7021f13542ac91308f8"
+    "source_reviews.json": "c74ad5d3fc9f14d3784ea66423d21f2f7a5a0b60114be4211014dea955425859",
+    "validator.py": "7b811cfda091c76de941617c1b0d4a0a234ce203a0a73566bc613c71099bdbe7"
   },
   "schema_sha256": {
     "reading_answer_key.schema.json": "f0422cf27c29e4a5f2237a6d1c7be4dbf7c0900af1f69d99fc2ab82218aa1504",
@@ -240,7 +243,7 @@
         "assets/cambridge_06/cambridge-06-test-01-p-2-g-14-17-pdf-025-0.png",
         "assets/cambridge_06/cambridge-06-test-01-p-2-g-18-22-pdf-025-1.png"
       ],
-      "sha256": "6ac4b6cd555138cf1df4d80b403696616ce2c76fb2a21f74df880ca8e115d558",
+      "sha256": "d9412f43d6bf62624e79adbb77db1e1c51eaf567abf43d8c8746e256c864a573",
       "answer_key_sha256": "8f9f81b26e2602df2709c1d5d2bc7c3f94cd3fe160802c647c1ae7521e828b81"
     },
     {
@@ -316,10 +319,10 @@
       "question_count": 40,
       "answer_count": 40,
       "assets": [
-        "assets/cambridge_07/cambridge-07-test-01-p-2-g-14-20-pdf-026-0.png",
+        "assets/cambridge_07/cambridge-07-test-01-p-2-g-14-20-pdf-026-diagram-fidelity-v1.png",
         "assets/cambridge_07/cambridge-07-test-01-p-2-g-21-26-pdf-029-0.png"
       ],
-      "sha256": "58f90ccba769d21cfccbd9e4ad86548899342ea86e53c0b84210f43e268be0f2",
+      "sha256": "e43514e69ae9fcbbe08fbd37d80d7724baeec1a018d4d35865b08da9b0bcb1dc",
       "answer_key_sha256": "49c78f630d9a760a939b1ffb6f8151c4866087fa68b7313af63d366af05cae0c"
     },
     {
@@ -377,7 +380,7 @@
         "assets/cambridge_07/cambridge-07-test-04-p-2-g-14-20-pdf-098-0.png",
         "assets/cambridge_07/cambridge-07-test-04-p-3-g-27-29-pdf-102-0.png"
       ],
-      "sha256": "10ce0f776cae6d813f583da0c049f90728f91b02bbbc5a6fbf71145a93f72563",
+      "sha256": "4eed62412a280860f214d0e6a5b4dc9410e59de4b054df67d6484a43b3673947",
       "answer_key_sha256": "85d6be2ec6db0da3eede55777f3b4fc41050cb2c2c44444d6957b01024547a3e"
     },
     {
@@ -822,7 +825,7 @@
       "question_count": 40,
       "answer_count": 40,
       "assets": [],
-      "sha256": "bb15b54d86f6624587c04fee24d271d54dd3e5f12da99a750959dd9fc205b273",
+      "sha256": "c9ed89d746b0ede20ca6be745b7fa6e60443272ec6c81639173d159dfb6e702f",
       "answer_key_sha256": "f2d9e180e7231948108004b532c06acaaf01925d3f83ac8f2795ab6ed8abe383"
     },
     {
@@ -960,7 +963,7 @@
       "question_count": 40,
       "answer_count": 40,
       "assets": [],
-      "sha256": "39c71a9ccba7a9fc131e79cf47ff21c6ce74c652f55869205f5299bb07bdccdc",
+      "sha256": "4b776496313d64d758b4d119257b53231ddc1b112680e81d8d0c0da6ae068ffd",
       "answer_key_sha256": "07bb45fdc3c821ff3a5ca3eba8ee2aec0dd54476bd25c29078de974dcc4aded4"
     },
     {
@@ -976,7 +979,7 @@
       "question_count": 40,
       "answer_count": 40,
       "assets": [],
-      "sha256": "19ca0e3c724c241ba38f757885a7ee570ce66fe9fdf5962c06993ae7550efd3a",
+      "sha256": "75a1a22c0fd8f99bae3b71954d7d61cdb2fdf1c490d537edee0a607f8919d475",
       "answer_key_sha256": "b2a53b6a012840600dfec48da198afd35cf7bb707029a479b743203f820e2b25"
     },
     {
@@ -1328,6 +1331,36 @@
       ],
       "sha256": "edc8d12de6957f85af37ff5aa74534c6f49cd72c90966b9a7c09cca6416c0c54",
       "answer_key_sha256": "20525908ccb256e0ec964f0746dcc6b1650228007313ef5bb046a5454509600d"
+    }
+  ],
+  "retained_assets": [
+    {
+      "id": "cambridge-07-test-01-p-2-g-14-20-asset-26-0",
+      "path": "assets/cambridge_07/cambridge-07-test-01-p-2-g-14-20-pdf-026-0.png",
+      "mime_type": "image/png",
+      "pdf_file": "ieltsbooks/Cambridge-IELTS-07.pdf",
+      "pdf_page": 26,
+      "crop_box": [
+        35.49,
+        117.0,
+        501.93,
+        611.49
+      ],
+      "coordinate_system": "pdf_points_top_left",
+      "render_scale": 2.5,
+      "width": 1167,
+      "height": 1237,
+      "sha256": "16ba37ca9d9046e9dd9c1328216769aef3c036dfb709dcf0040d9a4a8003d4a1",
+      "verification_status": "extracted_needs_visual_review",
+      "question_numbers": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
     }
   ]
 }

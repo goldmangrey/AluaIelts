@@ -1,0 +1,22 @@
+.page { min-height: 100svh; width: 100%; display: grid; place-items: center; padding: 24px; background: #f5f5f7; color: #202725; }
+.card { width: 100%; max-width: 464px; padding: 40px 36px 36px; border-radius: 24px; background: #fff; box-shadow: 0 8px 36px rgb(24 39 33 / 6%), 0 2px 6px rgb(24 39 33 / 3%); text-align: center; }
+.title { margin: 0; font-size: 15px; font-weight: 500; line-height: 1.5; letter-spacing: 0; overflow-wrap: anywhere; }
+.label { margin: 30px 0 6px; font-size: 11px; font-weight: 400; line-height: 1.6; letter-spacing: 1.6px; color: #777d7b; text-transform: uppercase; }
+.band { margin: 0; font-size: 104px; font-weight: 600; line-height: 1.15; letter-spacing: -6px; font-variant-numeric: tabular-nums; color: #087f63; }
+.summary { margin: 12px 0 0; font-size: 13px; line-height: 1.6; color: #777d7b; }
+.status { margin-top: 6px; font-size: 12px; line-height: 1.5; color: #777d7b; }
+.actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 36px; }
+.primary, .secondary { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; height: 52px; padding: 0 8px; border: 1px solid transparent; border-radius: 10px; font-size: 14px; font-weight: 500; line-height: 1.2; white-space: nowrap; cursor: pointer; }
+.primary { background: #087f63; color: #fff; }
+.primary:hover { background: #066c54; }
+.secondary { background: #fafbfa; border-color: #dfe4e1; color: #26332e; }
+.secondary:hover { background: #f0f4f1; }
+.secondary:disabled { opacity: .6; cursor: wait; }
+.badge { position: absolute; top: -11px; right: 8px; display: inline-flex; align-items: center; justify-content: center; gap: 4px; height: 22px; padding: 0 7px; border: 1px solid #b8e8cf; border-radius: 6px; background: #d9f5e5; color: #08634d; font-size: 10px; line-height: 1; font-weight: 600; pointer-events: none; }
+.error { margin-top: 16px; color: #a33d35; font-size: 12px; line-height: 1.5; }
+@media (max-width: 480px) {
+  .page { padding: 20px; }
+  .card { padding: 36px 24px 28px; }
+  .band { font-size: 100px; }
+  .actions { gap: 10px; }
+}

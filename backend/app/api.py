@@ -21,9 +21,11 @@ from app.modules.users.router import router as users_router
 from app.modules.vocabulary.router import router as vocabulary_router
 from app.modules.vocabulary_review.router import router as vocabulary_review_router
 from app.modules.widgets.router import router as widgets_router
+from app.modules.writing.router import router as writing_router
 from app.shared.schemas import HealthResponse
 
 api_router = APIRouter()
+api_router.include_router(writing_router)
 api_router.include_router(registration_router)
 api_router.include_router(reading_router)
 api_router.include_router(listening_router)

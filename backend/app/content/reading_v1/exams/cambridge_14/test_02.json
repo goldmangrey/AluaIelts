@@ -1228,7 +1228,7 @@
         {
           "id": "cambridge-14-test-02-p-2-g-19-26",
           "type": "summary_completion",
-          "instructions": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
+          "instructions": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
           "question_numbers": [
             19,
             20,
@@ -1239,19 +1239,14 @@
             25,
             26
           ],
-          "options": [
-            {
-              "label": "A",
-              "text": "major reason for improving ventilation in 19th-century hospitals was the demand from the 24__________ for protection against bad air, known as 25__________ These were blamed for the spread of disease for hundreds of years, including epidemics of 26__________ in London and Paris in the middle of the 19th century."
-            }
-          ],
+          "options": [],
           "content_blocks": [
             {
               "type": "rich_text",
               "segments": [
                 {
                   "type": "text",
-                  "text": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural "
+                  "text": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural "
                 },
                 {
                   "type": "blank",
@@ -1259,7 +1254,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " of hospitals to ensure they had good ventilation.\nHe calculated that "
+                  "text": " of hospitals to ensure they had good ventilation. He calculated that "
                 },
                 {
                   "type": "blank",
@@ -1267,7 +1262,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "in the air comi ng from patie nts sufferi ng from\n"
+                  "text": " in the air coming from patients suffering from "
                 },
                 {
                   "type": "blank",
@@ -1275,7 +1270,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " would not have harmed other patients. He also found that the air\nin "
+                  "text": " would not have harmed other patients. He also found that the air in "
                 },
                 {
                   "type": "blank",
@@ -1283,7 +1278,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n"
+                  "text": " in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in "
                 },
                 {
                   "type": "blank",
@@ -1291,7 +1286,7 @@
                 },
                 {
                   "type": "text",
-                  "text": " areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe "
+                  "text": " areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the "
                 },
                 {
                   "type": "blank",
@@ -1307,7 +1302,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof "
+                  "text": " . These were blamed for the spread of disease for hundreds of years, including epidemics of "
                 },
                 {
                   "type": "blank",
@@ -1324,10 +1319,8 @@
           "constraints": {
             "max_words": 1,
             "allow_number": false,
-            "allowed_values": [
-              "A"
-            ],
-            "reuse_allowed": true,
+            "allowed_values": [],
+            "reuse_allowed": false,
             "selection_count": null
           },
           "questions": [
@@ -1336,16 +1329,14 @@
               "number": 19,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1367,16 +1358,14 @@
               "number": 20,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1398,16 +1387,14 @@
               "number": 21,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1429,16 +1416,14 @@
               "number": 22,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1460,16 +1445,14 @@
               "number": 23,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1491,16 +1474,14 @@
               "number": 24,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1522,16 +1503,14 @@
               "number": 25,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {
@@ -1553,16 +1532,14 @@
               "number": 26,
               "group_id": "cambridge-14-test-02-p-2-g-19-26",
               "type": "summary_completion",
-              "prompt": "Questions 19-26\n\nComplete the summary below.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 19-26 on your answer sheet.\n\n                    Ventilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the\narchitectural 19__________ of hospitals to ensure they had good ventilation.\nHe calculated that 20__________in the air comi ng from patie nts sufferi ng from\n21__________ would not have harmed other patients. He also found that the air\nin 22__________ in hospitals could change as often as in a modern operating\ntheatre. He suggests that energy use could be reduced by locating more patients in\n23__________ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from\nthe 24__________ for protection against bad air, known as 25__________\nThese were blamed for the spread of disease for hundreds of years, including epidemics\nof 26__________ in London and Paris in the middle of the 19th century.",
-              "answer_input_type": "single_select",
+              "prompt": "Questions 19–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 19–26 on your answer sheet.\n\nVentilation in 19th-century hospital wards\n\nProfessor Alan Short examined the work of John Shaw Billings, who influenced the architectural 19 ______ of hospitals to ensure they had good ventilation. He calculated that 20 ______ in the air coming from patients suffering from 21 ______ would not have harmed other patients. He also found that the air in 22 ______ in hospitals could change as often as in a modern operating theatre. He suggests that energy use could be reduced by locating more patients in 23 ______ areas.\n\nA major reason for improving ventilation in 19th-century hospitals was the demand from the 24 ______ for protection against bad air, known as 25 ______ . These were blamed for the spread of disease for hundreds of years, including epidemics of 26 ______ in London and Paris in the middle of the 19th century.",
+              "answer_input_type": "text",
               "options": [],
               "constraints": {
                 "max_words": 1,
                 "allow_number": false,
-                "allowed_values": [
-                  "A"
-                ],
-                "reuse_allowed": true,
+                "allowed_values": [],
+                "reuse_allowed": false,
                 "selection_count": null
               },
               "source_reference": {

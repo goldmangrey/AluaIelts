@@ -1,0 +1,16 @@
+{
+  "typescript": "PASS",
+  "eslint": "PASS",
+  "ruff_scoped": "PASS",
+  "git_diff_check": "PASS",
+  "ai_contract_tests": 112,
+  "backend_regression_tests": 110,
+  "backend_browser_deselected": 2,
+  "writing_targeted_tests": 15,
+  "writing_browser_desktop_mobile": "PASS mock only",
+  "listening_navigation_browser_tests": 4,
+  "new_real_ai_calls": 0,
+  "stack": "frontend/backend RUNNING; persistent PostgreSQL readable",
+  "backend_source_loaded_in_persistent_process": false,
+  "production_changed": false
+}
