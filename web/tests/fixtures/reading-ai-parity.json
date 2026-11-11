@@ -1,0 +1,10 @@
+[
+  {"name":"word suffix", "prefix":"Мотивы не заметны сразу.", "accept":true},
+  {"name":"direct accusation", "prefix":"Вы не заметили контекст.", "accept":false},
+  {"name":"numeric boundary", "prefix":"2вы не заметили контекст.", "accept":true},
+  {"name":"underscore boundary", "prefix":"_вы не заметили контекст.", "accept":true},
+  {"name":"astral limit", "prefix":"Р", "unit":"😀", "count":899, "accept":true},
+  {"name":"astral over limit", "prefix":"Р", "unit":"😀", "count":900, "accept":false},
+  {"name":"unicode regex distance", "prefix":"Вы ", "unit":"😀", "count":60, "suffix":"не заметили контекст.", "accept":false},
+  {"name":"paragraph word suffix", "prefix":"Сравните текст в абзаце Aналогия.", "accept":true}
+]

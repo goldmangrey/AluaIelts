@@ -33,9 +33,8 @@ function SavedAnswer({row,question,group}: {row?:ResultRow;question:Question;gro
 
 /** Review owns only local navigation/playback state. It never creates a ListeningDraft. */
 export function ListeningReview({result,uid}:{result:Result;uid:string}) {
-  const [opened,setOpened]=useState<number|null>(null),[moment,setMoment]=useState<(Moment&{question:number})|undefined>();
-  const explanationCache=useRef(new Map<number,AIExplanationData>()),momentRequest=useRef(0);
-  const cacheExplanation=useCallback((data:AIExplanationData)=>{if(opened!==null)explanationCache.current.set(opened,data);},[opened]);
+  const [opened,setOpened]=useState<Set<number>>(()=>new Set()),[moment,setMoment]=useState<(Moment&{question:number})|undefined>();
+  const explanationCache=useRef(new Map<string,AIExplanationData>()),momentRequest=useRef(0);
   const stopMoment=useCallback(()=>setMoment(undefined),[]);
   const [current,setCurrent]=useState(result.questions[0]?.question_number||1);
   const [navigation,setNavigation]=useState(0);
@@ -50,11 +49,16 @@ export function ListeningReview({result,uid}:{result:Result;uid:string}) {
   const part=rows.get(current)?.part_number||Math.ceil(current/10);
   const exam=result.exam;
   const graded=result.correct_count!==null;
-  function focus(n:number){if(n!==current){setOpened(null);setMoment(undefined);}setCurrent(n);}
-  function playMoment(data:AIExplanationData,loop:boolean){
-    const e=data.evidence;if(!e.available||e.clip_start===null||e.clip_end===null||opened===null)return;
-    if(loop&&moment?.loop&&moment.question===opened){setMoment(undefined);return;}
-    setMoment({request:++momentRequest.current,part:e.part,start:e.clip_start,end:e.clip_end,loop,question:opened});
+  function focus(n:number){
+    // Retire only a temporary AI clip; Player restores its saved origin.
+    // Normal question/Part navigation leaves ordinary playback untouched.
+    if(n!==current)setMoment(undefined);
+    setCurrent(n);
+  }
+  function playMoment(number:number,data:AIExplanationData,loop:boolean){
+    const e=data.evidence;if(!e.available||e.clip_start===null||e.clip_end===null)return;
+    if(loop&&moment?.loop&&moment.question===number){setMoment(undefined);return;}
+    setMoment({request:++momentRequest.current,part:e.part,start:e.clip_start,end:e.clip_end,loop,question:number});
   }
   const lastQuestions=useRef(new Map<number,number>());
   function viewPart(p:number){lastQuestions.current.set(part,current);const saved=lastQuestions.current.get(p);const next=filtered.find(q=>q.part_number===p&&q.question_number===saved)||filtered.find(q=>q.part_number===p)||result.questions.find(q=>q.part_number===p);if(next)go(next.question_number);}
@@ -87,7 +91,7 @@ export function ListeningReview({result,uid}:{result:Result;uid:string}) {
       </div>
       {exam&&<div className={w.audio}><Player uid={uid} attemptId={result.attempt_id} examId={exam.exam_id} initialPart={1} position={0} progress={audioProgress} visiblePart={part} onVisiblePart={viewPart} onCheckpoint={ignoreAnswer} onPart={p=>go((p-1)*10+1)} moment={moment} onMomentStop={stopMoment}/></div>}
     </header>
-    {exam?<WorkspaceQuestions contentHash={result.content_hash} exam={exam} part={part} current={current} navigation={navigation} uid={uid} id={result.attempt_id} answers={Object.fromEntries(result.questions.map(q=>[q.question_id,q.user_answer]))} onAnswer={ignoreAnswer} onFocus={focus} disabled visibleQuestions={visible} questionStatus={q=>reviewStatus(byId.get(q.question_id))} renderAnswer={(question,group)=><><SavedAnswer row={byId.get(question.question_id)} question={question} group={group}/>{reviewStatus(byId.get(question.question_id))==="incorrect"&&<div className={r.aiReview}><button type="button" aria-expanded={opened===question.question_number} onClick={()=>{focus(question.question_number);setMoment(undefined);setOpened(v=>v===question.question_number?null:question.question_number);}}>Explain with AI</button>{opened===question.question_number&&<AIExplanation key={question.question_id} uid={uid} attemptId={result.attempt_id} number={question.question_number} initial={explanationCache.current.get(question.question_number)} onLoaded={cacheExplanation} onPlay={playMoment} looping={!!moment?.loop&&moment.question===question.question_number}/>}</div>}</>}/>:<section className={r.unavailable} role="status">Original question material is unavailable for this saved result. <Link href={`/listening/attempts/${result.attempt_id}/results`}>View the saved answer breakdown</Link>.</section>}
+    {exam?<WorkspaceQuestions contentHash={result.content_hash} exam={exam} part={part} current={current} navigation={navigation} uid={uid} id={result.attempt_id} answers={Object.fromEntries(result.questions.map(q=>[q.question_id,q.user_answer]))} onAnswer={ignoreAnswer} onFocus={focus} disabled visibleQuestions={visible} questionStatus={q=>reviewStatus(byId.get(q.question_id))} renderAnswer={(question,group)=><><SavedAnswer row={byId.get(question.question_id)} question={question} group={group}/>{reviewStatus(byId.get(question.question_id))==="incorrect"&&reviewKey(byId.get(question.question_id))&&<div className={r.aiReview}><button type="button" aria-expanded={opened.has(question.question_number)} onClick={()=>{focus(question.question_number);setOpened(v=>{const next=new Set(v);if(next.has(question.question_number))next.delete(question.question_number);else next.add(question.question_number);return next;});}}><span aria-hidden="true">✧ </span>Explain with AI</button>{opened.has(question.question_number)&&<AIExplanation key={question.question_id} uid={uid} attemptId={result.attempt_id} number={question.question_number} initial={explanationCache.current.get(JSON.stringify([uid,result.attempt_id,question.question_number]))} onLoaded={data=>explanationCache.current.set(JSON.stringify([uid,result.attempt_id,question.question_number]),data)} onPlay={(data,loop)=>playMoment(question.question_number,data,loop)} looping={!!moment?.loop&&moment.question===question.question_number}/>}</div>}</>}/>:<section className={r.unavailable} role="status">Original question material is unavailable for this saved result. <Link href={`/listening/attempts/${result.attempt_id}/results`}>View the saved answer breakdown</Link>.</section>}
     <WorkspaceNavigator navigation={navigation} current={current} onGo={go} questions={Array.from({length:result.total_questions},(_,i)=>{const number=i+1,row=rows.get(number),status=reviewStatus(row);return {number,answered:!!row?.user_answer.trim(),status,title:`Question ${number} · ${reviewStatusLabel[status]}`};})}
       description={`${result.answered_count}/${result.total_questions} answered${filter!=="all"?` · Showing ${filter}`:""}`} legend={graded?"Green: correct · Red: incorrect · Grey: unanswered · Blue: not graded":"Grey: unanswered · Blue: not graded"}
       leading={<span className={r.readOnly}>Read-only review</span>}/>

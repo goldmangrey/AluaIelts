@@ -19,6 +19,7 @@ from pydantic import ValidationError as ModelError
 
 from app.core.config import get_settings
 from app.core.exceptions import AluaError, ConflictError, ExternalServiceError, ValidationError
+from app.modules import private_ai_cache as cache
 from app.modules.listening.catalog import CONTENT, digest, questions
 
 VERSION = "listening-ai-v1"
@@ -269,9 +270,24 @@ class AIReview:
             / f"{digest([uid, aid, number, context['fingerprint']])}.json"
         )
         try:
-            cached = json.loads(path.read_text())
-            if cached["fingerprint"] == context["fingerprint"]:
-                return cached["review"]
+            cache.directory(path.parent)
+        except OSError:
+            raise ExternalServiceError(
+                "AI cache is unavailable.", "ai_review_cache_unavailable"
+            ) from None
+        try:
+            cached = cache.load(path)
+            if cached and cached["fingerprint"] == context["fingerprint"]:
+                if context["unavailable_reason"]:
+                    return dict(
+                        unavailable(context["part"], context["unavailable_reason"]), cached=True
+                    )
+                value = cached["review"]
+                e = value["evidence"]
+                raw = {k: value[k] for k in ("what_happened", "why", "next_time")}
+                raw.update(segment_ids=e["segment_ids"], quote=e["quote"] or "")
+                validated = self.validate(context, raw)
+                return dict(validated, cached=True)
         except (OSError, ValueError, KeyError):
             pass
         with allowance(uid):
@@ -310,18 +326,9 @@ class AIReview:
                         "ai_review_unavailable",
                     ) from None
             try:
-                path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
-                temporary = path.with_suffix(".tmp")
-                temporary.write_text(
-                    json.dumps(
-                        {"fingerprint": context["fingerprint"], "review": result},
-                        ensure_ascii=False,
-                    )
-                )
-                temporary.chmod(0o600)
-                temporary.replace(path)
+                cache.save(path, {"fingerprint": context["fingerprint"], "review": result})
             except OSError:
                 raise ExternalServiceError(
                     "AI review cache is unavailable.", "ai_review_cache_unavailable"
                 ) from None
-            return result
+            return dict(result, cached=False)

@@ -2,9 +2,8 @@
 
 import hashlib
 import json
-import os
+import logging
 import re
-import tempfile
 import threading
 import time
 from contextlib import contextmanager
@@ -15,9 +14,11 @@ import httpx
 
 from app.core.config import get_settings
 from app.core.exceptions import AluaError, ConflictError, ExternalServiceError, NotFoundError
+from app.modules import private_ai_cache as cache
 from app.modules.reading.catalog import CRITICAL_ISSUES, questions
+from app.modules.reading.evidence import candidates, public_candidates
 
-VERSION = "reading-review-v1.1"
+VERSION = "reading-review-v1.4-typed-context"
 FIELDS = {
     "why_user_answer_wrong",
     "why_correct_answer_works",
@@ -25,6 +26,7 @@ FIELDS = {
     "evidence",
     "evidence_status",
 }
+_log = logging.getLogger(__name__)
 _guard = threading.Lock()
 _usage = {}
 _context_usage = {}
@@ -74,7 +76,7 @@ def words(text):
     }
 
 
-def focus_terms(group, question):
+def blank_units(group, question):
     lists = []
     for block in group["content_blocks"]:
         if block["type"] == "rich_text":
@@ -83,6 +85,15 @@ def focus_terms(group, question):
             lists.extend(cell["segments"] for row in block["rows"] for cell in row)
         elif block["type"] == "list":
             lists.extend(block["items"])
+    return [
+        segments
+        for segments in lists
+        if any(s["type"] == "blank" and s["number"] == question["number"] for s in segments)
+    ]
+
+
+def focus_terms(group, question):
+    lists = blank_units(group, question)
     focus = question["prompt"]
     for segments in lists:
         for i, segment in enumerate(segments):
@@ -139,6 +150,32 @@ def focus_terms(group, question):
     return sorted(words(focus) - generic)
 
 
+def allowed_evidence_kinds(context):
+    if context["not_given"]:
+        return ["relevant_context"]
+    if context["correct_answer"] in {"FALSE", "NO"}:
+        return ["contradiction"]
+    if context["correct_answer"] in {"TRUE", "YES"}:
+        return ["support"]
+    return ["support", "contradiction", "relevant_context"]
+
+
+def paragraph_labels(blocks):
+    """Only uniquely labelled, intact paragraphs from this frozen source."""
+    labels = [b.get("label") for b in blocks]
+    return {
+        b["label"]
+        for b in blocks
+        if isinstance(b.get("label"), str)
+        and re.fullmatch(r"[A-Z]", b["label"])
+        and labels.count(b["label"]) == 1
+        and b.get("type") == "paragraph"
+        and isinstance(b.get("text"), str)
+        and b["text"].strip()
+        and not re.search(r"[\ufffd\x00]", b["text"])
+    }
+
+
 def validate(context, raw):
     """Exact anchors first; conservative key linkage second. Return UTF-16 offsets."""
     if not isinstance(raw, dict) or set(raw) != FIELDS:
@@ -153,7 +190,7 @@ def validate(context, raw):
         ):
             raise ValueError("prose")
         if re.search(
-            r"(?:ты|вы|ученик)\b[^.!?]{0,70}"
+            r"(?<!\w)(?:ты|вы|ученик)(?!\w)[^.!?]{0,70}"
             r"(?:невнимател|не замет|подум|перепут|не уч[её]л|не понял)",
             text,
             re.I,
@@ -167,36 +204,22 @@ def validate(context, raw):
     if raw["evidence_status"] != "found" or not evidence or context["unavailable_reason"]:
         raise ValueError("status")
     anchors = []
+    owned = {c["id"]: c for c in candidates(context["passage_id"], context["blocks"])}
     for item in evidence:
-        if not isinstance(item, dict) or set(item) != {"block_index", "quote", "kind"}:
+        if not isinstance(item, dict) or set(item) != {"candidate_id", "kind"}:
             raise ValueError("anchor_schema")
-        index, quote, kind = item["block_index"], item["quote"], item["kind"]
-        if type(index) is not int or not 0 <= index < len(context["blocks"]):
-            raise ValueError("block")
+        candidate = (
+            owned.get(item["candidate_id"]) if isinstance(item["candidate_id"], str) else None
+        )
+        if candidate is None:
+            raise ValueError("unknown_candidate")
+        index, quote, kind = candidate["block_index"], candidate["quote"], item["kind"]
+        if kind not in {"support", "contradiction", "relevant_context"}:
+            raise ValueError("kind")
         block = context["blocks"][index]
-        if (
-            block["type"] != "paragraph"
-            or not isinstance(quote, str)
-            or not 8 <= len(quote) <= 1200
-            or kind not in {"support", "contradiction", "relevant_context"}
-        ):
-            raise ValueError("quote")
-        text = block["text"]
-        at = text.find(quote)
-        if (
-            at < 0
-            or text.find(quote, at + 1) >= 0
-            or any(quote in b["text"] for n, b in enumerate(context["blocks"]) if n != index)
-        ):
-            raise ValueError("ambiguous_or_missing_quote")
-        if context["not_given"] and kind != "relevant_context":
-            raise ValueError("not_given_is_not_proof")
-        if (
-            not context["not_given"]
-            and context["correct_answer"] in {"FALSE", "NO"}
-            and kind == "support"
-        ):
-            raise ValueError("contradiction_required")
+        text, at = block["text"], candidate["start_codepoint"]
+        if kind not in allowed_evidence_kinds(context):
+            raise ValueError("invalid_evidence_kind")
         if anchors and (
             index < anchors[-1]["block_index"]
             or index == anchors[-1]["block_index"]
@@ -221,42 +244,15 @@ def validate(context, raw):
     references = re.findall(r"(?:paragraph|абзац(?:е|а)?)\s+([A-Z])\b", prose, re.I)
     if any(label.upper() not in labels for label in references):
         raise ValueError("unsupported_paragraph_reference")
-    combined = " ".join(a["quote"] for a in anchors)
     grounding = context["grounding"]
-    if grounding["mode"] == "text":
-        if not any(
-            re.search(r"(?<!\w)" + re.escape(t) + r"(?!\w)", combined, re.I)
-            for t in grounding["targets"]
-        ):
-            raise ValueError("key_not_grounded")
-        focus = grounding.get("focus")
-        if focus is not None and not (words(combined) & set(focus)):
-            raise ValueError("blank_context_not_grounded")
-    elif grounding["mode"] == "paragraph":
-        if not any(
-            context["blocks"][a["block_index"]].get("label") in grounding["targets"]
-            for a in anchors
+    if grounding["mode"] in {"paragraph", "heading"}:
+        targets = grounding["targets"]
+        if not targets or any(
+            context["blocks"][a["block_index"]].get("label") not in targets for a in anchors
         ):
             raise ValueError("wrong_paragraph")
-    elif grounding["mode"] == "heading":
-        if grounding["targets"] and any(
-            context["blocks"][a["block_index"]].get("label") not in grounding["targets"]
-            for a in anchors
-        ):
-            raise ValueError("wrong_heading_paragraph")
-        if not all(
-            len(a["quote"]) >= 0.6 * len(context["blocks"][a["block_index"]]["text"])
-            for a in anchors
-        ):
-            raise ValueError("heading_needs_main_idea")
-    else:
-        # A literal answer/option occurrence or shared source concepts is a necessary
-        # check, not a claim that lexical overlap proves semantic entailment.
-        targets = " ".join(grounding["targets"])
-        if len(words(combined) & words(targets)) < min(2, len(words(targets))) or not words(
-            targets
-        ):
-            raise ValueError("key_context_not_grounded")
+    # Exact source identity + trusted paragraph constraints are deterministic checks.
+    # Lexical overlap and quote length do not prove the model's semantic explanation.
     for a in anchors:
         a.pop("end_codepoint")
     result = dict(raw, evidence=anchors, reason=None)
@@ -366,15 +362,26 @@ class ReadingAIReview:
                 for r in row.result["positions"]
                 if r.get("grading_group") and r["grading_group"] == saved.get("grading_group")
             ]
+            valid_paragraphs = paragraph_labels(passage["content"])
             targets = list(key["accepted_answers"])
             mode = "text" if question["answer_input_type"] == "text" else "concepts"
             if question["type"] == "matching_information":
                 mode = "paragraph"
             if question["type"] == "matching_headings":
                 mode = "heading"
+                # Preserve established Paragraph forms; Section must be an explicit target,
+                # never a label found inside a mixed task/example bank.
                 target = re.search(r"\bparagraph\s+([A-Z])\b", question["prompt"], re.I)
+                if not target:
+                    target = re.fullmatch(r"\s*section\s+([A-Z])\s*", question["prompt"], re.I)
+                # A separately marked example is not the question target. Multiple
+                # target references elsewhere are ambiguous, even in frozen rows.
+                target_text = re.split(r"\nExample:", question["prompt"], maxsplit=1)[0]
+                references = re.findall(r"\b(?:paragraph|section)\s+([A-Z])\b", target_text, re.I)
+                if len(references) != 1:
+                    target = None
                 targets = [target[1].upper()] if target else []
-                if not targets:
+                if not targets or any(t not in valid_paragraphs for t in targets):
                     reason = "heading_context_unavailable"
             options = question["options"] or group["options"]
             if options and mode == "concepts":
@@ -387,8 +394,20 @@ class ReadingAIReview:
             labels = [o["label"] for o in options]
             if options and (
                 len(set(labels)) != len(labels)
-                or any(o["text"].strip() == o["label"] for o in options)
+                or (
+                    question["type"]
+                    not in {"true_false_not_given", "yes_no_not_given", "matching_information"}
+                    and any(o["text"].strip() == o["label"] for o in options)
+                )
                 or not all(a in labels for a in key["accepted_answers"])
+            ):
+                reason = "incomplete_options"
+            if question["type"] == "matching_information" and (
+                not options
+                or any(label not in valid_paragraphs for label in labels)
+                or not all(a in labels for a in key["accepted_answers"])
+                or key["canonical_answer"] not in labels
+                or any(not o["text"].strip() for o in options)
             ):
                 reason = "incomplete_options"
             if (
@@ -427,10 +446,12 @@ class ReadingAIReview:
                 "passage_id": passage["id"],
                 "passage_title": passage["title"],
                 "blocks": passage["content"],
+                "candidates": public_candidates(passage["id"], passage["content"]),
                 "question_type": question["type"],
                 "question": question["prompt"],
                 "instructions": group["instructions"],
                 "group_content": group["content_blocks"],
+                "blank_context": blank_units(group, question),
                 "options": options,
                 "constraints": question["constraints"],
                 "user_answer": saved["user_answer"],
@@ -453,22 +474,34 @@ class ReadingAIReview:
                 "source_status": metadata["content_status"],
                 "unavailable_reason": reason,
             }
-            if len(json.dumps(context).encode()) > 80_000:
+            context["allowed_evidence_kinds"] = allowed_evidence_kinds(context)
+            if len(context["candidates"]) > 160 or len(json.dumps(context).encode()) > 80_000:
                 context["unavailable_reason"] = "context_budget_exceeded"
                 context["blocks"] = []
+                context["candidates"] = []
             return context
 
     def explain(self, uid, aid, qid, authorization):
         context = self.context(uid, aid, qid)
         root = Path(get_settings().reading_ai_cache_root)
+        try:
+            cache.directory(root)
+        except OSError:
+            raise ExternalServiceError(
+                "Reading AI cache is unavailable.", "reading_ai_unavailable"
+            ) from None
         path = root / (digest([uid, aid, qid, context["fingerprint"]]) + ".json")
 
         def cached():
             try:
-                if path.stat().st_size > 20_000 or path.stat().st_mtime < time.time() - 30 * 86400:
+                data = cache.load(path)
+                if data is None:
                     return None
-                data = json.loads(path.read_text())
-                if data["fingerprint"] == context["fingerprint"]:
+                if (
+                    data["fingerprint"] == context["fingerprint"]
+                    and isinstance(data["raw"], dict)
+                    and data["raw"].get("evidence_status") == "found"
+                ):
                     return validate(context, data["raw"])
             except (OSError, ValueError, KeyError, TypeError):
                 pass
@@ -486,11 +519,13 @@ class ReadingAIReview:
                 }
             with allowance(uid):
                 if context["unavailable_reason"]:
+                    _log.info("reading_ai category=source_blocked")
                     return {
                         "question_id": qid,
                         "fingerprint": context["fingerprint"],
                         "review": unavailable(context["unavailable_reason"]),
                         "cached": False,
+                        "retryable": False,
                         "source_status": context["source_status"],
                     }
                 url = get_settings().reading_ai_worker_url
@@ -537,24 +572,17 @@ class ReadingAIReview:
                     raise ExternalServiceError(
                         "Reading AI is temporarily unavailable.", "reading_ai_unavailable"
                     ) from None
+                if result["evidence_status"] != "found":
+                    return {
+                        "question_id": qid,
+                        "fingerprint": context["fingerprint"],
+                        "review": unavailable("models_unavailable"),
+                        "cached": False,
+                        "retryable": True,
+                        "source_status": context["source_status"],
+                    }
                 try:
-                    root.mkdir(parents=True, exist_ok=True, mode=0o700)
-                    files = sorted(
-                        root.glob("[0-9a-f]" * 64 + ".json"), key=lambda p: p.stat().st_mtime
-                    )
-                    for old in files[: max(0, len(files) - 999)]:
-                        old.unlink(missing_ok=True)
-                    fd, temporary = tempfile.mkstemp(dir=root, suffix=".tmp")
-                    try:
-                        with os.fdopen(fd, "w") as file:
-                            json.dump(
-                                {"fingerprint": context["fingerprint"], "raw": raw},
-                                file,
-                                ensure_ascii=False,
-                            )
-                        os.replace(temporary, path)
-                    finally:
-                        Path(temporary).unlink(missing_ok=True)
+                    cache.save(path, {"fingerprint": context["fingerprint"], "raw": raw})
                 except OSError:
                     raise ExternalServiceError(
                         "Reading AI cache is unavailable.", "reading_ai_unavailable"

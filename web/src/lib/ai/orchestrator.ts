@@ -17,7 +17,7 @@ export function createAI(options: {adapters?: Partial<Record<Provider, Adapter>>
         new TextEncoder().encode(JSON.stringify(messages)).length > 96_000) throw new ProviderError(503, false, 'invalid_task_input');
     const until = now() + route.deadline;
     for (const [key, expires] of cooldown) if (expires <= now()) cooldown.delete(key);
-    let invalid: ProviderError | undefined;
+    let invalid: ProviderError | undefined, abstained=false;
     const eligible = candidates(task, env);
     for (const candidate of eligible) {
       const {provider, model} = candidate, key = `${provider}:${model}`, start = now();
@@ -32,24 +32,25 @@ export function createAI(options: {adapters?: Partial<Record<Provider, Adapter>>
             const value = validate(output);
             if (value === null || value === undefined || value === false) throw Error();
             return value;
-          } catch (error) {throw error instanceof ProviderError && ['invalid_model_json','invalid_translation'].includes(error.reason) ? error : new ProviderError(502, true, 'invalid_output');}
+          } catch (error) {throw error instanceof ProviderError && ['invalid_model_json','invalid_translation','model_abstained'].includes(error.reason) ? error : new ProviderError(502, true, 'invalid_output');}
         }, Math.min(candidate.provider === 'cloudflare' && eligible.length === 2 ? (task === 'listening_review' ? 18_000 : remaining) : candidate.timeout, remaining));
         if (now() >= until) throw new ProviderError(504, true, 'deadline');
         log({task, provider, model, outcome: 'success', latency_ms: Math.round(now() - start), fallback_reason: null});
         return result;
       } catch (error) {
         const e = error instanceof ProviderError ? error : new ProviderError(503, true, 'network_error');
+        if (e.reason==='model_abstained') abstained=true;
         if (['invalid_output','invalid_model_json','invalid_translation'].includes(e.reason)) invalid = e;
         log({task, provider, model, outcome: 'failure', latency_ms: Math.round(now() - start), fallback_reason: e.reason});
         // Configuration/model errors also advance, never become user authentication errors.
-        if (e.status === 429 || [408,500,502,503,504].includes(e.status) && !['invalid_output','invalid_model_json','invalid_translation','configuration_failure'].includes(e.reason)) {
+        if (e.status === 429 || [408,500,502,503,504].includes(e.status) && !['invalid_output','invalid_model_json','invalid_translation','model_abstained','configuration_failure'].includes(e.reason)) {
           if (cooldown.size >= 64) cooldown.clear();
           cooldown.set(key, now() + (e.status === 429 ? Math.max(1000, e.retryAfterMs || 30_000) : 2000));
         }
       }
     }
     if (invalid) throw invalid;
-    throw new ProviderError(503, false, 'all_providers_unavailable');
+    throw new ProviderError(503, false, abstained?'model_abstained':'all_providers_unavailable');
   }};
 }
 export const ai = createAI();

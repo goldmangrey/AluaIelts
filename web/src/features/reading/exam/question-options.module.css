@@ -13,3 +13,15 @@
 .dialog header button { font-size: 20px; padding: 1px 8px; }
 .warning { padding: 12px 14px; border: 1px solid #e6d7b7; border-radius: 8px; background: #fcfaf4; color: #705d36; font-size: 13px; line-height: 1.6; }
 .warning code { display: block; margin-top: 6px; overflow-wrap: anywhere; font-size: 11px; }
+
+/* Completed Review only: saved verdicts, never selected=correct. */
+.completed [data-choice-status]{opacity:1!important;color:#68756d!important;border-color:#dfe5e1!important;background:#fafbfa!important}
+.completed [data-choice-status=correct]{color:#087f63!important;border-color:#acd8c5!important;background:#edf8f2!important}
+.completed [data-choice-status=incorrect]{color:#a83e38!important;border-color:#e3b1ab!important;background:#fff1ef!important}
+.completed :global([data-review-status=correct]) input,.completed :global(.answer-review)[data-review-status=correct] :global(.saved-answer-value){color:#087f63!important;border-color:#acd8c5;background:#edf8f2}
+.completed :global([data-review-status=incorrect]) input,.completed :global(.answer-review)[data-review-status=incorrect] :global(.saved-answer-value){color:#a83e38!important;border-color:#e3b1ab;background:#fff1ef}
+.completed :global([data-review-status=unanswered]) input,.completed :global(.answer-review)[data-review-status=unanswered] :global(.saved-answer-value){color:#78837d!important;background:#f3f5f4}
+.completed :global(.answer-review) :global(.correct-answer){color:#087f63!important}
+.completed :global(.answer-review)[data-review-status=correct]>strong{color:#087f63!important}.completed :global(.answer-review)[data-review-status=incorrect]>strong{color:#a83e38!important}.completed :global(.answer-review)[data-review-status=unanswered]>strong{color:#78837d!important}
+.inlineReviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:14px 0}.inlineReviews>div{padding:10px;border:1px solid #e3e9e5;border-radius:8px;min-width:0}
+.completed :global(.answer-review){display:flex;flex-direction:column;gap:3px;font-size:12px;white-space:normal;overflow-wrap:anywhere}.completed :global(.review-question-label){font-size:11px;color:#748078}

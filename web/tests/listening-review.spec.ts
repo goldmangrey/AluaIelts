@@ -218,16 +218,17 @@ test('AI review is click-only, cached, collapsible and uses one player for momen
  await expect(page.locator('#question-3').getByRole('button',{name:'Explain with AI'})).toHaveCount(0);
  await go(page,2);await page.locator('#question-2').getByRole('button',{name:'Explain with AI'}).click();
  const panel=page.getByRole('region',{name:'AI explanation for question 2'});await expect(panel).toContainText('Дослушайте уточнение');expect(calls).toBe(1);
+ await page.locator('audio').first().evaluate(el=>{el.setAttribute('data-moment-max','0');el.addEventListener('timeupdate',()=>el.setAttribute('data-moment-max',String(Math.max(Number(el.getAttribute('data-moment-max')),(el as HTMLAudioElement).currentTime))));});
  await panel.getByRole('button',{name:'Play Moment',exact:true}).click();
  await expect(page.locator('audio').first()).toHaveAttribute('src',/\/1$/);
- await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeGreaterThan(.6);
+ await expect.poll(()=>page.locator('audio').first().evaluate(el=>Number(el.getAttribute('data-moment-max')))).toBeGreaterThan(.6);
  await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).paused)).toBe(true);
  expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(0,1);
  await panel.getByRole('button',{name:'Loop Moment',exact:true}).click();
  await expect(panel.getByRole('button',{name:'Loop Moment'})).toHaveAttribute('aria-pressed','true');
  await page.locator('audio').first().evaluate(el=>{el.setAttribute('data-loop-seeks','0');el.addEventListener('seeked',()=>{if((el as HTMLAudioElement).currentTime<.8)el.setAttribute('data-loop-seeks',String(Number(el.getAttribute('data-loop-seeks'))+1));});});
  await expect.poll(()=>page.locator('audio').first().getAttribute('data-loop-seeks')).toMatch(/^[2-9]/);
- expect(await page.locator('audio').evaluateAll(els=>els.filter(el=>!(el as HTMLAudioElement).paused).length)).toBe(1);
+ await expect.poll(()=>page.locator('audio').evaluateAll(els=>els.filter(el=>!(el as HTMLAudioElement).paused).length)).toBe(1);
  await page.screenshot({path:`docs/listening-review-v2/ai/${info.project.name}.png`});
  await panel.getByRole('button',{name:'Loop Moment',exact:true}).click();await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).paused)).toBe(true);
  await page.locator('#question-2').getByRole('button',{name:'Explain with AI'}).click();await expect(panel).toHaveCount(0);
@@ -239,7 +240,7 @@ test('AI review is click-only, cached, collapsible and uses one player for momen
  await expect.poll(()=>page.locator('audio').first().getAttribute('data-end-loops')).toMatch(/^[2-9]/);
  await expect(page.locator('audio').first()).toHaveAttribute('src',/\/2$/);
  await go(page,1);await expect(second).toHaveCount(0);await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).paused)).toBe(true);
- await go(page,2);await page.locator('#question-2').getByRole('button',{name:'Explain with AI'}).click();await panel.getByRole('button',{name:'Loop Moment'}).click();
+ await go(page,2);const reopen=page.locator('#question-2').getByRole('button',{name:'Explain with AI'});if(await reopen.getAttribute('aria-expanded')!=='true')await reopen.click();await panel.getByRole('button',{name:'Loop Moment'}).click();
  await page.getByRole('link',{name:'← Results',exact:true}).click();await expect(page.locator('audio')).toHaveCount(0);
  expect(mutations).toEqual([]);
 });
@@ -254,4 +255,48 @@ test('AI retry, incomplete evidence, reload and normal playback stay usable',asy
  await expect.poll(()=>page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);
  await page.getByRole('button',{name:'Play',exact:true}).click();await page.getByLabel('Audio progress').fill('4');await page.getByRole('button',{name:'Pause',exact:true}).click();
  expect(await page.locator('audio').first().evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeGreaterThanOrEqual(4);
+});
+
+
+test('AI loop navigation stops the temporary clip and restores the original position',async({page})=>{
+ await page.route('**/api/listening/review',route=>route.fulfill({status:200,json:explanation(12)}));
+ const {mutations}=await load(page,'practice');await questionsTab(page);
+ const audio=page.locator('audio').first();
+ await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);
+ await page.getByLabel('Audio progress').fill('3.2');
+ await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(3.2,1);
+ await go(page,12);await page.locator('#question-12').getByRole('button',{name:'Explain with AI'}).click();
+ const panel=page.getByRole('region',{name:'AI explanation for question 12'});
+ await panel.getByRole('button',{name:'Loop Moment'}).click();
+ await expect(audio).toHaveAttribute('src',/\/2$/);
+ await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).paused)).toBe(false);
+ await go(page,1);
+ await expect(audio).toHaveAttribute('src',/\/1$/);
+ await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).paused)).toBe(true);
+ await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(3.2,1);
+ expect(mutations).toEqual([]);
+});
+
+test('Part 1–4 navigation preserves each normal audio position',async({page})=>{
+ await load(page,'practice');const audio=page.locator('audio').first();
+ for(const part of [1,2,3,4]){
+  await page.getByRole('button',{name:new RegExp('^Part '+part+'\\b')}).click();
+  const listen=page.getByRole('button',{name:'Listen to Part '+part,exact:true});if(await listen.count())await listen.click();
+  await expect(audio).toHaveAttribute('src',new RegExp('/'+part+'$'));
+  await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).readyState)).toBeGreaterThan(0);
+  await audio.evaluate(el=>(el as HTMLAudioElement).pause());
+  await page.getByLabel('Audio progress').fill(String(part+2));
+  await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(part+2,1);
+ }
+ for(const part of [1,2,3,4]){
+  const source=await audio.getAttribute('src'),at=await audio.evaluate(el=>(el as HTMLAudioElement).currentTime);
+  await page.getByRole('button',{name:new RegExp('^Part '+part+'\\b')}).click();
+  expect(await audio.getAttribute('src')).toBe(source);
+  expect(await audio.evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeCloseTo(at,1);
+  const listen=page.getByRole('button',{name:'Listen to Part '+part,exact:true});if(await listen.count())await listen.click();
+  await expect(audio).toHaveAttribute('src',new RegExp('/'+part+'$'));
+  await expect.poll(()=>audio.evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeGreaterThanOrEqual(part+2-.1);
+  await audio.evaluate(el=>(el as HTMLAudioElement).pause());
+  expect(await audio.evaluate(el=>(el as HTMLAudioElement).currentTime)).toBeLessThan(part+3);
+ }
 });
