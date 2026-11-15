@@ -50,6 +50,7 @@ async function load(page: Page, section: "reading" | "listening", score = 30, pa
       if (unknownCreate && posts.length === 1) { await route.abort("failed"); return; }
       await route.fulfill({ status: 201, json: { ...attempt, id: newId, status: "in_progress", answers: {} } }); return;
     }
+    if (path.startsWith("/api/alua/practice/history/")) { await route.fulfill({ json: { module: section } }); return; }
     if (path.endsWith("/review") || path.endsWith("/result")) { await route.fulfill({ json: result }); return; }
     if (path.includes("/assets/")) { await route.fulfill({ status: 404 }); return; }
     await route.fulfill({ json: path.endsWith(newId) ? { ...attempt, id: newId, status: "in_progress", answers: {} } : attempt });
@@ -97,6 +98,14 @@ for (const section of ["listening", "reading"] as const) {
       await expect(page.getByLabel("Correct answers score", { exact: true })).toHaveText(`${score}/40`);
       if (score === 40) await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("9.0");
     }
+  });
+  test(`${section}: History View Results opens the saved score rather than question review`, async ({ page }) => {
+    await load(page, section, 30);
+    await page.goto(`/practice/history/${oldId}`);
+    await expect(page.getByLabel("Correct answers score", { exact: true })).toHaveText("30/40");
+    await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("7.0");
+    await page.getByRole("link", { name: /^Review test/ }).click();
+    await expect(page).toHaveURL(new RegExp(`/${section}/attempts/${oldId}/review$`));
   });
   test(`${section}: fresh Retake, double-click guarded, previous result retained`, async ({ page }) => {
     const { posts, url } = await load(page, section);
