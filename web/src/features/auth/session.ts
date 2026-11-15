@@ -2,6 +2,7 @@
 import type { Auth, User } from "firebase/auth";
 import { useSyncExternalStore } from "react";
 import { getFirebaseAuth } from "@/lib/firebase/client";
+import { safeReturnPath } from "./redirect";
 import { withTimeout } from "@/lib/timeout";
 import { ApiError } from "@/lib/api/client";
 import { loadLearner, type LearnerProfile } from "./api";
@@ -69,7 +70,19 @@ async function observeFirebase(auth: Auth) {
 async function start() {
   if (started) return;
   started = true;
-  try { await observeFirebase(await getFirebaseAuth()); }
+  try {
+    const auth=await getFirebaseAuth();
+    let destination:string|null=null;
+    try { destination=sessionStorage.getItem("alua:auth:return");sessionStorage.removeItem("alua:auth:return"); } catch {}
+    if(destination){
+      const sdk=await import("firebase/auth");
+      const redirected=await sdk.getRedirectResult(auth);
+      if(redirected?.user)await resolveUser(redirected.user);
+      if(auth.currentUser){await resolveUser(auth.currentUser);window.location.replace(safeReturnPath(destination));return;}
+      throw {code:"auth/redirect-incomplete"};
+    }
+    await observeFirebase(auth);
+  }
   catch (error) { started = false; clear("error", error); }
 }
 function subscribe(listener: () => void) {
@@ -108,7 +121,7 @@ export async function authenticate(mode: "login" | "register", email: string, pa
   } finally { action = false; }
 }
 // Restored from the Nov 3 production build; prepare before the popup click.
-export async function prepareGoogleAuth(mode: "sign-in" | "link" = "sign-in") {
+export async function prepareGoogleAuth(mode: "sign-in" | "link" = "sign-in", destination = "/") {
   const [auth, sdk] = await Promise.all([getFirebaseAuth(), import("firebase/auth")]);
   await observeFirebase(auth);
   return async () => {
@@ -119,7 +132,19 @@ export async function prepareGoogleAuth(mode: "sign-in" | "link" = "sign-in") {
       provider.setCustomParameters({ prompt: "select_account" });
       const current = auth.currentUser;
       if (mode === "link" && (!current || state.status !== "ready" || state.user?.uid !== current.uid)) throw new ApiError(401, "sign_in_required");
-      const { user } = await (mode === "link" && current ? sdk.linkWithPopup(current, provider) : sdk.signInWithPopup(auth, provider));
+      const redirect = async () => {
+        sessionStorage.setItem("alua:auth:return",safeReturnPath(destination));
+        try { await sdk.signInWithRedirect(auth,provider); }
+        catch(error){sessionStorage.removeItem("alua:auth:return");throw error;}
+      };
+      if(mode==="sign-in"&&/Instagram|FBAN|FBAV|Threads|; wv\)/i.test(navigator.userAgent)){await redirect();return;}
+      let credential;
+      try { credential=await (mode === "link" && current ? sdk.linkWithPopup(current, provider) : sdk.signInWithPopup(auth, provider)); }
+      catch(error){const code=error&&typeof error==="object"&&"code" in error?error.code:"";
+        if(mode==="sign-in"&&["auth/popup-blocked","auth/operation-not-supported-in-this-environment"].includes(String(code))){await redirect();return;}
+        throw error;
+      }
+      const {user}=credential;
       if (auth.currentUser?.uid !== user.uid) throw new ApiError(401, "session_changed");
       job = undefined;
       await resolveUser(user, user.displayName?.replace(/[\x00-\x1f]/g, "").trim().slice(0, 80));

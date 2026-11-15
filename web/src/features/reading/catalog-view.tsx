@@ -1,4 +1,5 @@
 "use client";
+import {GuestCatalog} from "@/features/guest/catalog";
 import Link from "next/link";
 import styles from "./library.module.css";
 import { StartButton } from "./exam/start-button";
@@ -45,7 +46,7 @@ export function CatalogView({ bookNumber, examId }: { bookNumber?: number; examI
     });
     return () => controller.abort();
   }, [revision, session.status, session.generation]);
-  if (session.status === "signed_out") return <CatalogError error={new ApiError(401, "sign_in_required")} retry={() => {}} returnPath={pathname} />;
+  if (session.status === "signed_out") return <GuestCatalog module="reading" book={bookNumber} examId={examId} compact/>;
   if (session.status === "error") return <CatalogError error={session.error instanceof ApiError ? session.error : new ApiError(0, "network_error")} retry={() => { void retrySession().catch(() => {}); }} returnPath={pathname} />;
   if (session.status === "loading" || state.kind === "loading" || state.owner !== session.generation) return <p className="loading-text" role="status">Loading practice tests…</p>;
   if (state.kind === "error") return <CatalogError returnPath={pathname} error={state.error} retry={() => { setState({ kind: "loading" }); setRevision((r) => r + 1); }} />;

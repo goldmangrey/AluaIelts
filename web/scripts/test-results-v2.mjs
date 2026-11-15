@@ -24,7 +24,15 @@ export interface Session {status:'loading'|'signed_out'|'ready'|'error';user:{ui
 const initial:Session={status:'loading',user:null,profile:null,generation:0};
 const ready:Session={status:'ready',user:{uid:'review-fixture',email:null},profile:null,generation:1};
 export function useSession(){return useSyncExternalStore(()=>()=>{},()=>ready,()=>initial)}
-export async function prepareGoogleAuth(_mode?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
+export async function prepareGoogleAuth(_mode?:string,_destination?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
+ if(process.env.ALUA_GUEST_TEST)await file('src/features/auth/session.ts',`"use client";
+import {useSyncExternalStore} from 'react';
+export interface Session {status:'loading'|'signed_out'|'ready'|'error';user:{uid:string;email:string|null}|null;profile:import('./api').LearnerProfile|null;generation:number;error?:unknown}
+const initial:Session={status:'loading',user:null,profile:null,generation:0};
+let state:Session={status:'signed_out',user:null,profile:null,generation:1};const listeners=new Set<()=>void>();
+export function useSession(){return useSyncExternalStore(f=>{listeners.add(f);return()=>{listeners.delete(f)}},()=>state,()=>initial)}
+export async function prepareGoogleAuth(_mode?:string,_destination?:string){return async()=>{state={status:'ready',user:{uid:'guest-test',email:null},profile:{uid:'guest-test',email:null,display_name:'QA'},generation:2};listeners.forEach(f=>f())}}
+export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
  if(process.env.ALUA_REVIEW_PRODUCTION==='1')await new Promise((done,fail)=>{const child=spawn(process.execPath,[require.resolve('next/dist/bin/next'),'build','--webpack'],{cwd:sandbox,env,stdio:'inherit'});child.on('error',fail);child.on('exit',code=>code===0?done():fail(Error(`Sandbox build exited ${code}`)));});
  await new Promise((done,fail)=>{const child=spawn(process.execPath,[join(dirname(require.resolve('@playwright/test/package.json')),'cli.js'),'test','--config=playwright.results-v2.config.ts',...process.argv.slice(2)],{cwd:root,env,stdio:'inherit'});child.on('error',fail);child.on('exit',code=>code===0?done():fail(Error(`Review browser checks exited ${code}`)));});
 } finally {await rm(sandbox,{recursive:true,force:true});}

@@ -35,11 +35,11 @@ export function AuthForm({ mode }: { mode: "login" | "register" | "reset" }) {
   useEffect(() => {
     if (!login) return;
     let live = true;
-    Promise.all([prepareGoogleAuth(), prepareGoogleAuth("link")]).then(([signIn, link]) => {
+    Promise.all([prepareGoogleAuth("sign-in", destination), prepareGoogleAuth("link")]).then(([signIn, link]) => {
       if (live) { google.current = signIn; googleLink.current = link; setGoogleReady(true); }
     }).catch(failure => { if (live) { google.current = googleLink.current = async () => { throw failure; }; setGoogleReady(true); } });
     return () => { live = false; };
-  }, [login]);
+  }, [login, destination]);
   async function connectGoogle(link = false) {
     const run = link ? googleLink.current : google.current;
     if (locked.current || !run) return;

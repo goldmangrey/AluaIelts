@@ -1,4 +1,6 @@
 "use client";
+import {GuestCatalog} from "@/features/guest/catalog";
+import {AuthRequired} from "@/features/auth/guest-access";
 import Link from "next/link";
 import {ResultCard,ResultPage} from "@/features/results/result-card";
 import {retakeTest} from "@/features/results/retake";
@@ -18,7 +20,7 @@ import s from "./listening.module.css";
 export function ListeningPage({kind,id,reviewQuestion}:{reviewQuestion?:number;kind:"library"|"prepare"|"attempt"|"result"|"review";id?:string}){const session=useSession();const [loaded,setLoaded]=useState<{owner:number;resource:string;data:Entry[]|{exam:Exam;metadata:Entry}|Attempt|Result;editor?:ListeningDraft}>(),[error,setError]=useState<{value:unknown;resource:string;owner:number}>(),[revision,setRevision]=useState(0);
  useEffect(()=>{if(session.status!=="ready"||!session.user)return;let live=true;let editor:ListeningDraft|undefined;const uid=session.user.uid;const promise=kind==="library"?catalog(uid):kind==="prepare"?details(uid,id!):kind==="attempt"?attempt(uid,id!):results(uid,id!,true);promise.then(async data=>{if(!live)return;if(kind==="attempt"&&(data as Attempt).status==="in_progress"){editor=new ListeningDraft(data as Attempt,uid);await editor.initialize();if(!live){editor.dispose();return;}}setLoaded({owner:session.generation,resource:`${kind}:${id||""}`,data,editor});}).catch(e=>{if(live)setError({value:e,resource:`${kind}:${id||""}`,owner:session.generation});});return()=>{live=false;editor?.dispose();};},[kind,id,revision,session.status,session.user,session.generation]);
  const retry=()=>{setError(undefined);setLoaded(undefined);setRevision(n=>n+1);};
- if(session.status==="signed_out")return <main id="main" className={s.shell}><h1>Your Listening practice</h1><p>Log in to save your progress and continue across devices.</p><Link href={`/login?next=${encodeURIComponent(typeof window!=="undefined"?window.location.pathname:"/listening")}`}>Log in</Link></main>;
+ if(session.status==="signed_out")return <main id="main">{kind==='library'||kind==='prepare'?<GuestCatalog module="listening" examId={kind==='prepare'?id:undefined}/>:<AuthRequired destination={`/listening/attempts/${id}${kind==='result'?'/results':kind==='review'?'/review':''}`}/>}</main>;
  if(session.status==="error")return <main id="main" className={s.shell}><h1>Your session couldn’t load</h1><button onClick={()=>void retrySession().catch(()=>{})}>Try again</button></main>;
  if(error&&error.resource===`${kind}:${id||""}`&&error.owner===session.generation)return <main id="main" className={s.shell}><h1>Listening</h1><p role="alert">{message(error.value)}</p><button onClick={retry}>Try again</button><Link href="/listening">Back to library</Link></main>;
  if(!loaded||loaded.owner!==session.generation||loaded.resource!==`${kind}:${id||""}`||!session.user)return <main id="main" className={s.shell} role="status">Loading your Listening practice…</main>;

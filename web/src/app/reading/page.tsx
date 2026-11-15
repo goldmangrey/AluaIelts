@@ -1,3 +1,4 @@
+import {PersonalLink} from "@/features/auth/guest-access";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { CatalogView } from "@/features/reading/catalog-view";
@@ -9,7 +10,7 @@ export default function Reading() {
   return <><SiteHeader /><main id="main" className={styles.library}>
     <nav className={styles.navigation} aria-label="Reading navigation">
       <Link href="/"><span aria-hidden="true">←</span> All sections</Link>
-      <Link href="/reading/history">My attempts <span aria-hidden="true">↗</span></Link>
+      <PersonalLink href="/reading/history">My attempts <span aria-hidden="true">↗</span></PersonalLink>
     </nav>
     <div className={styles.intro}>
       <p className={styles.eyebrow}>IELTS Academic</p>

@@ -1,4 +1,5 @@
 'use client';
+import {AuthRequired} from '@/features/auth/guest-access';
 import Link from 'next/link';
 import {useEffect,useMemo,useState} from 'react';
 import {PageShell} from '@/components/page-shell';
@@ -11,9 +12,9 @@ import {practiceApi,dateLabel,type HistoryData,type Module} from './api';
 import s from './practice.module.css';
 import {Drafts} from './learning';
 
-function Gate({loading=false}:{loading?:boolean}){return loading?<p role="status">Loading your practice…</p>:<StatusPanel title="Your practice, saved for you" href="/login?next=%2Fpractice%2Fhistory" label="Log in">Sign in to view your own results and saved reviews.</StatusPanel>;}
+function Gate({loading=false}:{loading?:boolean}){return loading?<p role="status">Loading your practice…</p>:<AuthRequired title="Your practice history, all in one place."/>;}
 export function HistoryPage({day}:{day?:string}){
- const session=useSession();return <PageShell><section className={s.shell}><p className={s.eyebrow}>YOUR LEARNING RECORD</p><h1>My Practice History</h1><p className={s.muted}>Every session is a step forward. Revisit your results and saved AI reviews.</p>{session.status==='ready'&&session.user?<HistoryList key={`${session.user.uid}:${session.generation}`} uid={session.user.uid} day={day}/>:<Gate loading={session.status==='loading'}/>}</section></PageShell>;
+ const session=useSession();if(session.status!=='ready')return <PageShell><Gate loading={session.status==='loading'}/></PageShell>;return <PageShell><section className={s.shell}><p className={s.eyebrow}>YOUR LEARNING RECORD</p><h1>My Practice History</h1><p className={s.muted}>Every session is a step forward. Revisit your results and saved AI reviews.</p>{session.status==='ready'&&session.user?<HistoryList key={`${session.user.uid}:${session.generation}`} uid={session.user.uid} day={day}/>:<Gate/>}</section></PageShell>;
 }
 function HistoryList({uid,day}:{uid:string;day?:string}){
  const [status,setStatus]=useState('completed');

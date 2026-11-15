@@ -1,4 +1,5 @@
 "use client";
+import {AuthRequired} from "@/features/auth/guest-access";
 import Link from "next/link";
 import { ResultCard, ResultPage } from "@/features/results/result-card";
 import { retakeTest } from "@/features/results/retake";
@@ -35,7 +36,7 @@ export function RecordsPage({id,review=false,reviewQuestionId}:{id?:string;revie
     return()=>abort.abort();
   },[id,offset,retry,session.status,session.generation,session.user,request]);
   const content=()=>{
-    if(session.status==="signed_out")return <StatusPanel title="Log in to view your Reading." href={`/login?next=${encodeURIComponent(path)}`} label="Log in">Only your own attempts are available.</StatusPanel>;
+    if(session.status==="signed_out")return <AuthRequired destination={path}/>;
     if(session.status==="error")return <StatusPanel title="Your session couldn’t load." retry={()=>void retrySession().catch(()=>{})}>{readingMessage(session.error)} <Link href={`/login?next=${encodeURIComponent(path)}`}>Log in</Link></StatusPanel>;
     if(session.status!=="ready"||(state.owner!==session.generation||state.request!==request))return <p role="status">Loading your Reading…</p>;
     if(state.error)return <StatusPanel title="Your Reading couldn’t load." retry={()=>setRetry(n=>n+1)}>{readingMessage(state.error)}</StatusPanel>;

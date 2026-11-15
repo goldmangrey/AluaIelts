@@ -16,6 +16,8 @@ export function authMessage(error: unknown): string {
   const code = error && typeof error === "object" && "code" in error ? error.code : "";
   switch (code) {
     case "auth/popup-closed-by-user": case "auth/cancelled-popup-request": return "Google sign-in was cancelled. You can try again whenever you’re ready.";
+    case "auth/redirect-incomplete": return "Sign-in was not completed. Your selected practice is preserved. Try again in Safari or Chrome; no practice attempt has been created.";
+    case "auth/disallowed-useragent": case "auth/operation-not-supported-in-this-environment": return "Open Alua in Safari or Chrome from your browser menu to sign in with Google. Your selected practice is kept in this page’s URL.";
     case "auth/popup-blocked": return "Your browser blocked the Google window. Allow popups for this website and try again.";
     case "auth/provider-already-linked": return "Google is already connected to this account. Choose Continue to return to your practice.";
     case "auth/credential-already-in-use": return "This Google account is connected to another identity. Use its existing sign-in method; your accounts have not been merged.";
