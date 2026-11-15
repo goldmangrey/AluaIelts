@@ -43,7 +43,7 @@ export function RecordsPage({id,review=false,reviewQuestionId}:{id?:string;revie
     if(state.attempt&&!state.result)return <StatusPanel title="This test is still in progress." href={`/reading/attempts/${id}`} label="Continue test">Results are available only after the server completes your attempt.</StatusPanel>;
     const a=state.attempt,r=state.result;if(!a||!r)return null;
     return <ResultCard title={`Cambridge ${a.exam!.source_book} · Test ${a.exam!.source_test_number}`}
-      band={a.mode==="full_exam"?r.estimated_band:null} correct={r.raw_score} total={r.total_questions}
+      total={r.total_questions} onRetry={()=>setRetry(n=>n+1)} band={a.mode==="full_exam"?r.estimated_band:null} correct={r.raw_score} incorrect={r.positions.filter(p=>!p.is_correct&&!p.unanswered).length} unanswered={r.positions.filter(p=>p.unanswered).length}
       status={r.estimated_band===null?(a.mode!=="full_exam"?"Band unavailable for passage practice":"Score below the available band range"):undefined}
       reviewHref={`/reading/attempts/${a.id}/review`}
       onRetake={async()=>{const next=await retakeTest("reading",session.user!.uid,a.id,a.exam_id,body=>readingApi(session.user!.uid)("/reading/attempts",undefined,{method:"POST",body}));router.push(`/reading/attempts/${next}`);}} />;

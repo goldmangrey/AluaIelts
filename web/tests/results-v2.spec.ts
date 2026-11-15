@@ -23,13 +23,13 @@ print(json.dumps({'listening':l,'reading':r,'readingExam':catalog.public_exam(sn
 `], { cwd: resolve("../backend"), encoding: "utf8" }));
 const oldId = "11111111-2222-4333-8444-555555555555", newId = "22222222-2222-4333-8444-555555555555";
 
-async function load(page: Page, section: "reading" | "listening", score = 30, partial = false, unknownCreate = false) {
+async function load(page: Page, section: "reading" | "listening", score = 30, partial = false, unknownCreate = false, missingBandTable = false) {
   const isReading = section === "reading";
   const result = structuredClone(fixtures[section]);
   const exam = isReading ? fixtures.readingExam : result.exam;
   const examId = isReading ? exam.id : exam.exam_id;
   const positions = isReading ? result.positions : result.questions;
-  positions.forEach((p: Record<string, unknown>, i: number) => { p[isReading ? "is_correct" : "correct"] = i < score; });
+  positions.forEach((p: Record<string, unknown>, i: number) => { p[isReading ? "is_correct" : "correct"] = i < score; p.user_answer=score?"fixture answer":""; if(isReading)p.unanswered=!score; });
   if (isReading) { result.raw_score = score; result.estimated_band = fixtures.readingBands[score]; }
   else {
     result.correct_count = score;
@@ -37,6 +37,7 @@ async function load(page: Page, section: "reading" | "listening", score = 30, pa
     result.estimated_band = partial ? 9 : result.band_table.find(([cutoff]: number[]) => score >= cutoff!)?.[1] ?? null;
     if (partial) result.questions[20].correct = null;
   }
+  if (missingBandTable) { result.band_table_version = null; result.estimated_band = null; }
   result.attempt_id = oldId;
   if (isReading) result.completion_reason = "submitted";
   const attempt = { id: oldId, exam_id: examId, content_hash: isReading ? fixtures.hash : "fixture-hash", status: "submitted", mode: isReading ? "full_exam" : "verified", version: 1,
@@ -63,7 +64,8 @@ for (const section of ["listening", "reading"] as const) {
   test(`${section}: minimal centred result, badge, responsive and Review`, async ({ page }, info) => {
     const { posts } = await load(page, section);
     await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("7.0");
-    await expect(page.getByText("30 correct · 10 incorrect")).toBeVisible();
+    await expect(page.getByText("30 correct · 10 incorrect · 0 unanswered")).toBeVisible();
+    await expect(page.getByLabel("Correct answers score", { exact: true })).toHaveText("30/40");
     await expect(page.getByRole("heading")).toHaveText(section === "listening" ? "Cambridge 14 · Test 1" : "Cambridge 18 · Test 1");
     await expect(page.getByText("Question breakdown")).toHaveCount(0);
     const layout = await page.evaluate(() => {
@@ -86,13 +88,23 @@ for (const section of ["listening", "reading"] as const) {
     await expect(page.getByRole("region", { name: "Test result" })).toHaveCount(0);
     expect(posts).toHaveLength(0);
   });
+  test(`${section}: score survives refresh at zero and full marks without requiring a band`, async ({ page }) => {
+    for (const score of [0, 1, 40]) {
+      await page.unroute("**/api/alua/**");
+      await load(page, section, score);
+      await expect(page.getByLabel("Correct answers score", { exact: true })).toHaveText(`${score}/40`);
+      await page.reload();
+      await expect(page.getByLabel("Correct answers score", { exact: true })).toHaveText(`${score}/40`);
+      if (score === 40) await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("9.0");
+    }
+  });
   test(`${section}: fresh Retake, double-click guarded, previous result retained`, async ({ page }) => {
     const { posts, url } = await load(page, section);
     await page.getByRole("button", { name: "Retake test" }).dblclick();
     await expect(page).toHaveURL(new RegExp(`/${section}/attempts/${newId}$`));
     expect(posts).toHaveLength(1); expect(posts[0]!.reuse_active).toBe(false);
     expect(posts[0]!.exam_id).toBe(section === "reading" ? "cambridge-18-test-01" : "cambridge-14-test-01");
-    await page.goto(url); await expect(page.getByText("30 correct · 10 incorrect")).toBeVisible();
+    await page.goto(url); await expect(page.getByText("30 correct · 10 incorrect · 0 unanswered")).toBeVisible();
   });
   test(`${section}: unknown Retake response retries same event`, async ({ page }) => {
     const { posts } = await load(page, section, 30, false, true);
@@ -106,13 +118,19 @@ for (const section of ["listening", "reading"] as const) {
     await load(page, section, 32);
     await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText(section === "reading" ? "7.0" : "7.5");
     await page.unroute("**/api/alua/**"); await load(page, section, 0);
-    await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("—");
-    await expect(page.getByText("0 correct · 40 incorrect")).toBeVisible();
+    await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("Not available");
+    await expect(page.getByText("0 correct · 0 incorrect · 40 unanswered")).toBeVisible();
   });
 }
 test("Listening: unconfirmed grading suppresses band and summary counts", async ({ page }) => {
   await load(page, "listening", 8, true);
-  await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("—");
+  await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("Not available");
   await expect(page.getByText("Grading not confirmed", { exact: true })).toBeVisible();
   await expect(page.getByText(/\d+ correct · \d+ incorrect/)).toHaveCount(0);
+});
+
+test("Listening: complete raw score is independent of band table availability", async ({ page }) => {
+  await load(page, "listening", 30, false, false, true);
+  await expect(page.getByLabel("Correct answers score", { exact: true })).toHaveText("30/40");
+  await expect(page.getByLabel("Estimated IELTS band score", { exact: true })).toHaveText("Not available");
 });

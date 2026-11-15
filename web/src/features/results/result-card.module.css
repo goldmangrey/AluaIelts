@@ -2,7 +2,7 @@
 .card { width: 100%; max-width: 464px; padding: 40px 36px 36px; border-radius: 24px; background: #fff; box-shadow: 0 8px 36px rgb(24 39 33 / 6%), 0 2px 6px rgb(24 39 33 / 3%); text-align: center; }
 .title { margin: 0; font-size: 15px; font-weight: 500; line-height: 1.5; letter-spacing: 0; overflow-wrap: anywhere; }
 .label { margin: 30px 0 6px; font-size: 11px; font-weight: 400; line-height: 1.6; letter-spacing: 1.6px; color: #777d7b; text-transform: uppercase; }
-.band { margin: 0; font-size: 104px; font-weight: 600; line-height: 1.15; letter-spacing: -6px; font-variant-numeric: tabular-nums; color: #087f63; }
+.band { margin: 0; font-size: 32px; font-weight: 600; line-height: 1.15; letter-spacing: -1px; font-variant-numeric: tabular-nums; color: #087f63; }
 .summary { margin: 12px 0 0; font-size: 13px; line-height: 1.6; color: #777d7b; }
 .status { margin-top: 6px; font-size: 12px; line-height: 1.5; color: #777d7b; }
 .actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 36px; }
@@ -17,6 +17,13 @@
 @media (max-width: 480px) {
   .page { padding: 20px; }
   .card { padding: 36px 24px 28px; }
-  .band { font-size: 100px; }
+  .band { font-size: 32px; }
   .actions { gap: 10px; }
 }
+
+.history{display:inline-block;font-size:13px;color:#61766b;text-underline-offset:4px}.history:hover{color:#206449;text-decoration:underline}
+
+.exitLinks{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:24px}.home{font-size:13px;color:#23664f;padding:8px 0;text-underline-offset:4px}.home:hover{text-decoration:underline}
+
+.score { margin: 0; font-size: 64px; font-weight: 600; line-height: 1.15; letter-spacing: -2px; font-variant-numeric: tabular-nums; color: #087f63; }
+.bandLabel { margin: 18px 0 4px; font-size: 12px; color: #777d7b; }
