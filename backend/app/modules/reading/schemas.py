@@ -28,13 +28,21 @@ class AnswerMutation(StrictModel):
     answer: str = Field(max_length=500)
 
 
+class Navigation(StrictModel):
+    current_passage: int = Field(ge=1, le=3)
+    current_question_id: str | None = Field(default=None, max_length=100)
+
+
 class BatchMutation(StrictModel):
     event_id: UUID
     expected_version: int = Field(ge=0)
-    answers: dict[str, str] = Field(min_length=1, max_length=40)
+    answers: dict[str, str] = Field(max_length=40)
+    navigation: Navigation | None = None
 
     @model_validator(mode="after")
     def bound_answers(self):
+        if not self.answers and self.navigation is None:
+            raise ValueError("Answers or navigation required")
         if any(len(k) > 100 or len(v) > 500 for k, v in self.answers.items()):
             raise ValueError("Answer too long")
         return self

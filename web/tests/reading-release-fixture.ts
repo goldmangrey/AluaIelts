@@ -14,7 +14,13 @@ export async function releaseBackend(context:BrowserContext,{existing=true,secon
    const request=route.request(),path=new URL(request.url()).pathname.replace("/api/alua","");
    const error=async(status:number,code:string)=>route.fulfill({status,json:{error:{code}}});
    if(request.headers().authorization!=="Bearer fixture-A"){await error(404,"reading_attempt_not_found");return}
+   if(path==='/me'){await route.fulfill({json:{uid:'fixture-A',display_name:'Release QA',email:null,target_ielts_band:null}});return}
+   if(path==='/practice/activity'){await route.fulfill({json:{days:[],current_streak:0,longest_streak:0,active_days:0,undated_sessions:0,tests_completed:0,total_practice_sessions:0,timezone:'Asia/Almaty'}});return}
+   if(path==='/practice/analytics'){await route.fulfill({json:{counts:{reading:0,listening:0,writing:0,speaking:0},mistakes:{total:0,reviewed:0},charts:{},weak_areas:[],writing_criteria:[]}});return}
+   if(path==='/practice/drafts'||path==='/practice/history'){await route.fulfill({json:{items:[],total:0,page:1,limit:20}});return}
+   if(path==='/practice/avatar'){await error(404,'not_found');return}
    if(path==="/reading/books"){await route.fulfill({json:{dataset_version:"1",items:[{book_number:18,exams:[{exam_id:exam.id,source_book:18,source_test_number:1,test_ordinal:1,enabled_for_private_practice:true,content_status:"needs_review",not_fully_proofread:true,question_count:40,passage_count:3,in_progress_attempt_ids:created&&view().status==="in_progress"?[attemptId]:[]}]}]}});return}
+   if(path===`/reading/exams/${exam.id}`){await route.fulfill({json:exam});return}
    if(path.startsWith("/reading/assets/")){const id=decodeURIComponent(path.split("/").at(-1)!);await route.fulfill({path:data.assets[id],contentType:"image/png"});return}
    if(path===`/reading/attempts/${attemptId}/result`){if(view().status==="in_progress"){await error(409,"reading_result_unavailable");return}
      const sample=data.release_results.find(r=>Object.keys({...r.answers,...a.answers}).every(q=>(r.answers[q]??"")===(a.answers[q]??"")));

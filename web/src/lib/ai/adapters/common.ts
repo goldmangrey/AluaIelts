@@ -17,6 +17,8 @@ export const transient = (s: number) => [408, 429, 500, 502, 503, 504].includes(
 export interface AdapterInput {
   messages: {role: 'system' | 'user' | 'assistant'; content: string}[];
   temperature: number; maxTokens: number;
+  /** Server-owned, Writing only. No fallback to JSON mode on rejection. */
+  writingSchema?: Record<string,unknown>;
 }
 export type Adapter = (env: AIEnv, model: string, input: AdapterInput, signal: AbortSignal) => Promise<unknown>;
 export function retryAfter(value: string | null, now = Date.now()): number {

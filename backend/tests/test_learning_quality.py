@@ -7,9 +7,26 @@ from uuid import uuid4
 from test_household_bootstrap import bootstrap, headers, postgres_url, system  # noqa: F401
 
 
+def get_vocabulary_learning_service():
+    # Shared learning engine remains in use; its retired HTTP router is not a factory.
+    from app.db.database import get_database
+    from app.modules.users.repository import UserRepository
+    from app.modules.vocabulary_review.lexicon_repository import get_canonical_lexicon_repository
+    from app.modules.vocabulary_review.repository import VocabularyReviewRepository
+    from app.modules.vocabulary_review.scheduler import DeterministicVocabularyScheduler
+    from app.modules.vocabulary_review.service import VocabularyLearningService
+
+    db = get_database()
+    return VocabularyLearningService(
+        repository=VocabularyReviewRepository(db),
+        vocabulary=get_canonical_lexicon_repository(),
+        scheduler=DeterministicVocabularyScheduler(),
+        users=UserRepository(db),
+    )
+
+
 def test_placement_isolated_resume_and_material_selection(system):
     from app.modules.learning_quality.questions import QUESTIONS
-    from app.modules.vocabulary_review.router import get_vocabulary_learning_service
 
     db, client, _ = system
     devices = [bootstrap(client, role)[0] for role in ("husband", "wife")]
@@ -36,7 +53,6 @@ def test_card_actions_preserve_history_and_filter_future(system):
     from app.modules.learning_quality.repository import QualityRepository
     from app.modules.vocabulary_review.models import ReviewRating
     from app.modules.vocabulary_review.repository import VocabularyReviewRepository
-    from app.modules.vocabulary_review.router import get_vocabulary_learning_service
     from app.modules.vocabulary_review.schemas import SubmitReviewResponseRequest
 
     db, client, _ = system

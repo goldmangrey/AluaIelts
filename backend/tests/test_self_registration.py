@@ -96,7 +96,6 @@ def test_distinct_standalone_learners_and_learning_apis(signup):
             "/api/v1/me",
             "/api/v1/reading/books",
             "/api/v1/partner/status",
-            "/api/v1/vocabulary",
             "/api/v1/grammar",
             "/api/v1/curriculum/me",
             "/api/v1/progress",

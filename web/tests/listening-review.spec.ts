@@ -204,7 +204,7 @@ test('Practice scoring and review use verdicts regardless of editorial metadata'
  await expect(page.locator('main')).not.toContainText(/Verified|Preliminary|Ungraded|preliminary key/);
  await page.getByRole('link',{name:'← Results',exact:true}).click();
  await expect(page.getByText('Estimated IELTS band',{exact:true})).toBeVisible();
- await expect(page.getByText(`${result.correct_count} correct · ${40-result.correct_count!} incorrect`,{exact:true})).toBeVisible();
+ await expect(page.getByText(`${result.correct_count} correct · ${result.questions.filter(q=>q.correct===false&&q.user_answer.trim()).length} incorrect · ${result.questions.filter(q=>!q.user_answer.trim()).length} unanswered`,{exact:true})).toBeVisible();
  await expect(page.locator('main')).not.toContainText(/Verified|Preliminary|Ungraded|preliminary key/);
  expect(mutations).toEqual([]);
 });

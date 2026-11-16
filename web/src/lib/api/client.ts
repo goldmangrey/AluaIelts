@@ -41,9 +41,11 @@ export function createApiClient(getToken: TokenProvider, timeoutMilliseconds = 1
         });
         controller.signal.throwIfAborted();
         if (!token) throw new ApiError(401, "sign_in_required");
+        const body=options?JSON.stringify(options.body):undefined;
+        const draftWrite=!!body&&/^\/(listening|reading|writing)\/attempts\/[^/]+(?:\/sync)?$/.test(path)&&new TextEncoder().encode(body).length<60000;
         const response = await fetch(`${endpoint}${path}`, {
           method: options?.method ?? "GET",
-          body: options ? JSON.stringify(options.body) : undefined,
+          body, keepalive:draftWrite,
           headers: { Accept: "application/json", Authorization: `Bearer ${token}`, ...(options ? { "Content-Type": "application/json" } : {}) },
           cache: "no-store", credentials: "omit", redirect: "error", signal: controller.signal,
         });

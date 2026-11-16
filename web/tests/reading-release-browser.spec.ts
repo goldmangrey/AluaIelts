@@ -9,7 +9,7 @@ test.beforeEach(async({context})=>{await context.setOffline(false)});
 test("home → catalog → explicit Start → durable answers → Finish → real backend result fixture → readonly review → history",async({page,context})=>{
  const backend=await releaseBackend(context,{existing:false});
  await page.goto("/");await page.getByRole("link",{name:/Reading/}).click();await page.getByRole("link",{name:"18 Cambridge IELTS"}).click();await page.getByRole("link",{name:/Test 1/}).click();
- await page.getByRole("button",{name:"Start test",exact:true}).dblclick();await expect(page.getByRole("button",{name:"Finish",exact:true})).toBeVisible();
+ await page.getByRole("button",{name:"Start Reading →",exact:true}).dblclick();await expect(page.getByRole("button",{name:"Finish",exact:true})).toBeVisible();
  expect(backend.events.filter(e=>e.path==="/reading/attempts")).toHaveLength(1);
  await page.getByLabel("Answer 1",{exact:true}).fill("lettuce");await page.getByLabel("Answer 2",{exact:true}).fill("tomato");await expect(page.locator(".save-status")).toHaveText("All changes saved");
  await page.getByRole("button",{name:"Mark question 1 for review",exact:true}).click();await page.getByRole("button",{name:"20px · Large"}).click();
@@ -75,7 +75,7 @@ test("deadline reached offline pauses editing, reconnect confirms server expiry 
 test("logout cleanup removes the owner's actual IndexedDB drafts and leases",async({page,context})=>{
  await releaseBackend(context);await page.goto(path);await page.getByLabel("Answer 1",{exact:true}).fill("saved draft");await expect(page.locator(".save-status")).toHaveText("All changes saved");
  const count=()=>page.evaluate(()=>new Promise<number>((resolve,reject)=>{const request=indexedDB.open("alua-reading-drafts",1);request.onsuccess=()=>{const tx=request.result.transaction("drafts");const all=tx.objectStore("drafts").getAll();all.onsuccess=()=>resolve(all.result.filter(v=>v.uid==="fixture-A").length);all.onerror=()=>reject(all.error)}}));
- expect(await count()).toBe(1);await page.goto("/profile");await page.getByRole("button",{name:"Log out",exact:true}).click();await expect(page).toHaveURL("http://127.0.0.1:3300/");expect(await count()).toBe(0);
+ expect(await count()).toBe(1);await page.goto("/profile");await page.getByText("Account settings",{exact:true}).click();await page.getByRole("button",{name:"Log out",exact:true}).click();await expect(page).toHaveURL("http://127.0.0.1:3300/");expect(await count()).toBe(0);
 });
 
 
@@ -90,7 +90,7 @@ test("Reading library: API availability, responsive index, keyboard, hover and n
  const index = page.getByRole("navigation",{name:"Cambridge IELTS collections"});
  const rows = index.getByRole("link");
  await expect(rows).toHaveCount(books.length);
- await expect(page.getByRole("link",{name:"Account"})).toHaveAttribute("href","/profile");
+ await expect(page.getByRole("link",{name:"Profile",exact:true})).toHaveAttribute("href","/profile");
  for (let i=0;i<books.length;i++) await expect(rows.nth(i)).toHaveAttribute("href",`/reading/cambridge-${books[i]}`);
  if (info.project.name === "release-chromium") await page.screenshot({path:"docs/reading-library/desktop.png"});
  for (const width of [320,390,430,768]) {
@@ -133,9 +133,10 @@ test("Reading library: loading, empty, API failure, retry and permissions", asyn
  mode="empty";await page.getByRole("button",{name:"Try again"}).click();await expect(page.getByRole("heading",{name:"No practice tests available."})).toBeVisible();
  mode="forbidden";await page.reload();await expect(page.getByRole("heading",{name:"Practice tests aren’t available for this account."})).toBeVisible();
  await page.evaluate(()=>localStorage.setItem("release-signed-out","1"));await page.reload();
- await expect(page.getByRole("heading",{name:"Log in to view practice tests."})).toBeVisible();
- await expect(page.getByRole("banner").getByRole("link",{name:"Log in",exact:true})).toHaveAttribute("href","/login");
- await expect(page.getByRole("main").getByRole("link",{name:"Log in",exact:true})).toHaveAttribute("href","/login?next=%2Freading");
+ await expect(page.getByRole('region',{name:'reading public catalog'})).toBeVisible();
+ await expect(page.getByRole("banner").getByRole("link",{name:"Get started",exact:true})).toHaveAttribute("href","/login");
+ await page.getByRole('button',{name:'Start Practice',exact:true}).first().click();
+ await expect(page.getByRole('dialog',{name:'Ready for Reading?'})).toBeVisible();
 });
 
 test("Result V2: minimal summary and readonly Review",async({page,context})=>{
@@ -143,22 +144,22 @@ test("Result V2: minimal summary and readonly Review",async({page,context})=>{
  const base=structuredClone(data.release_results[0]!.result);
  const attempt:Attempt={...structuredClone(backend.server()),status:"submitted",submitted_at:"2026-11-02T10:30:00Z"};
  let result:ReadingResult={...base,attempt_id:attemptId,estimated_band:7,raw_score:32,completion_reason:"submitted",
-  positions:base.positions.map((position,i)=>({...position,is_correct:i<32})).reverse()};
+  positions:base.positions.map((position,i)=>({...position,is_correct:i<32,unanswered:false,user_answer:"fixture answer"})).reverse()};
  await page.route(`**/api/alua/reading/attempts/${attemptId}`,route=>route.fulfill({json:attempt}));
  await page.route(`**/api/alua/reading/attempts/${attemptId}/result`,route=>route.fulfill({json:result}));
  await page.goto(`${path}/result`);
  await expect(page.getByRole("region",{name:"Test result"})).toBeVisible();
- await expect(page.getByText("32 correct · 8 incorrect")).toBeVisible();
+ await expect(page.getByText("32 correct · 8 incorrect · 0 unanswered")).toBeVisible();
  await expect(page.getByLabel("Estimated IELTS band score",{exact:true})).toHaveText("7.0");
  await expect(page.getByRole("region",{name:"Your 40 answers",exact:true})).toHaveCount(0);
  await page.getByRole("link",{name:/^Review test/}).click();
  await expect(page.getByLabel("Answer 1",{exact:true})).toBeDisabled();
  result={...result,raw_score:0,estimated_band:null,positions:base.positions.map(p=>({...p,is_correct:false,unanswered:true,user_answer:""}))};
  await page.goto(`${path}/result`);
- await expect(page.getByLabel("Estimated IELTS band score",{exact:true})).toHaveText("—");
- await expect(page.getByText("0 correct · 40 incorrect")).toBeVisible();
+ await expect(page.getByLabel("Estimated IELTS band score",{exact:true})).toHaveText("Not available");
+ await expect(page.getByText("0 correct · 0 incorrect · 40 unanswered")).toBeVisible();
  result={...result,raw_score:40,estimated_band:9,positions:base.positions.map(p=>({...p,is_correct:true,unanswered:false}))};
- await page.reload();await expect(page.getByText("40 correct · 0 incorrect")).toBeVisible();
+ await page.reload();await expect(page.getByText("40 correct · 0 incorrect · 0 unanswered")).toBeVisible();
  expect(backend.events).toEqual([]);
 });
 

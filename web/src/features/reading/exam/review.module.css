@@ -24,3 +24,7 @@
 .review :global(.passage-scroll),.review :global(.questions-scroll){padding:14px 16px 20px;height:100%}
 .filters{gap:2px}.filters button{padding:5px 8px;font-size:11px}.navigator{right:12px}.navigator :global(.question-overview-grid){grid-template-columns:repeat(8,minmax(0,1fr))}
 }
+
+@media(max-width:650px){.review .header{padding:0 12px;gap:10px}.header>span{display:none}}
+
+@media(max-width:720px){.review .header{height:auto;min-height:76px;flex-basis:auto;flex-wrap:wrap;padding:8px 12px;gap:8px 12px}.header>a{min-height:28px;display:inline-flex;align-items:center}.header>span{display:none}}

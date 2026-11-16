@@ -4,6 +4,8 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { PersonalNavigation } from "@/features/auth/guest-access";
 import s from "./home.module.css";
+import { HomeHero } from "@/features/home/hero";
+import { HomeWelcome } from "@/features/home/lua-message";
 
 const sections = [
   { name: "Listening", key: "listening", detail: "4 sections · 40 questions", label: "4 sections, 40 questions", width: 914, height: 960 },
@@ -19,13 +21,8 @@ export default function Home() {
       <PersonalNavigation className="account-nav"/>
     </header>
     <main id="main" className={`${s.container} ${s.main}`}>
-      <section className={s.hero} aria-labelledby="home-title">
-        <p className={s.eyebrow}>ALUA · IELTS PREPARATION</p>
-        <h1 id="home-title" className={s.title}>Your IELTS journey starts here.</h1>
-        <p className={s.subtitle}>Practice with confidence. Build your skills and get closer to your target band, one session at a time.</p>
-      </section>
+      <HomeWelcome><HomeHero/></HomeWelcome>
       <ContinuePractice/>
-      <h2 className={s.sectionHeading}>What would you like to practice today?</h2>
       <nav className={s.grid} aria-label="IELTS sections">{sections.map((section, i) =>
         <div className={s.entrance} style={{ "--order": i } as CSSProperties} key={section.key}>
           <Link href={`/${section.key}`} className={`${s.card} ${s[section.key]}`} aria-label={`${section.name}, ${section.label}`}>

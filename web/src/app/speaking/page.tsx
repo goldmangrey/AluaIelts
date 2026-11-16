@@ -1,3 +1,3 @@
-import { ComingSoon } from "@/components/coming-soon";
-export const metadata = { title: "Speaking" };
-export default function Page() { return <ComingSoon name="Speaking" />; }
+import {SpeakingPage} from '@/features/speaking/page';
+export const metadata={title:'Speaking Practice'};
+export default function Page(){return <SpeakingPage/>;}

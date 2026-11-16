@@ -127,5 +127,5 @@ export class ListeningDraft {
   canReturnToTest=()=>this.snapshot.submitting&&!this.submitBody&&!this.flight&&this.base.status==='in_progress';
   returnToTest=async()=>{if(!this.canReturnToTest())return;try{const remote=await this.getRemote();if(remote.status==='submitted'){this.merge(remote);return;}this.frozen=undefined;this.merge(remote);this.publish({submitting:false});await this.persist();}catch{this.publish({status:"Submission not confirmed · Retry"});}};
   hasUnsaved=()=>this.snapshot.localSaving||!!this.pending||this.serial>this.savedSerial||this.snapshot.submitting;
-  dispose(){this.stopped=true;clearTimeout(this.timer);clearInterval(this.lease);this.listeners.clear();void this.writes.catch(()=>{}).then(()=>this.store.release()).catch(()=>{});}
+  dispose(){if(this.stopped)return;const saving=this.ready&&!this.snapshot.otherTab&&!this.snapshot.conflict?this.flush():Promise.resolve();clearTimeout(this.timer);clearInterval(this.lease);this.listeners.clear();void saving.catch(()=>{}).then(()=>{this.stopped=true;return this.writes.catch(()=>{});}).then(()=>this.store.release()).catch(()=>{});}
 }

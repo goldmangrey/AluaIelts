@@ -1,5 +1,6 @@
 "use client";
 
+import {LuaMascot} from '@/components/lua-mascot';
 import Link from "next/link";
 import { useRef, useState, type ReactNode } from "react";
 import styles from "./result-card.module.css";
@@ -26,7 +27,7 @@ export function ResultCard({ title, band, correct, total, incorrect, unanswered,
   const hasScore = correct !== null && Number.isInteger(correct) && correct >= 0 && Number.isInteger(total) && total > 0 && correct <= total;
   const hasBand = band !== null && Number.isFinite(band) && band >= 0 && band <= 9;
   return <section className={styles.card} aria-label="Test result">
-    <h1 className={styles.title}>{title}</h1>
+    <div className={styles.resultHeading}><h1 className={styles.title}>{title}</h1><LuaMascot emotion="celebration" size={64}/></div>
     <p className={styles.label}>Correct answers</p>
     <p className={styles.score} aria-label="Correct answers score">{hasScore ? `${correct}/${total}` : "Result unavailable"}</p>
     <p className={styles.bandLabel}>IELTS Band Estimate</p>

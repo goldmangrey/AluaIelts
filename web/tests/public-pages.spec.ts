@@ -1,28 +1,31 @@
 import { test, expect } from "@playwright/test";
 
-test("approved home, responsive grid, keyboard and Reading navigation", async ({ page, browserName }, info) => {
+test("home hero, four IELTS cards and retired Vocabulary routes", async ({ page, browserName }, info) => {
   const errors: string[] = [];
-  const apiRequests: string[] = [];
-  page.on("pageerror", (error) => errors.push(error.message));
-  page.on("request", (request) => { if (request.url().includes("/api/v1/")) apiRequests.push(request.url()); });
+  page.on("pageerror", error => errors.push(error.message));
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: "Practice tests." })).toBeVisible();
-  const cards = page.getByRole("navigation", { name: "IELTS sections" }).getByRole("link");
+  await expect(page.getByRole("heading", {name:"Don't just practise. Understand your mistakes."})).toBeVisible();
+  await expect(page.getByText("Free forever", {exact:true})).toBeVisible();
+  await expect(page.getByText("AI explanations", {exact:true})).toBeVisible();
+  const cards = page.getByRole("navigation", {name:"IELTS sections"}).getByRole("link");
   await expect(cards).toHaveCount(4);
-  const first = await cards.nth(0).boundingBox();
-  const second = await cards.nth(1).boundingBox();
+  await expect(page.locator('a[href*="vocabulary"]')).toHaveCount(0);
+  const first=await cards.nth(0).boundingBox(), second=await cards.nth(1).boundingBox();
   expect(first).not.toBeNull(); expect(second).not.toBeNull();
-  if (info.project.name === "mobile") expect(second!.y).toBeGreaterThan(first!.y);
+  if(info.project.name==="mobile")expect(second!.y).toBeGreaterThan(first!.y);
   else expect(second!.y).toBe(first!.y);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  // WebKit follows Safari’s default Option-Tab navigation for links.
-  await page.keyboard.press(browserName === "webkit" ? "Alt+Tab" : "Tab");
-  await expect(page.getByRole("link", { name: "Skip to content" })).toBeFocused();
-  expect(apiRequests).toEqual([]);
-  await page.getByRole("link", { name: /02 Reading Practice tests/ }).click();
-  await expect(page).toHaveURL(/\/reading$/);
-  await expect(page.getByRole("heading", { name: "Reading." })).toBeVisible();
-  await expect(page.getByRole("heading", { name: "Practice tests aren’t available yet." })).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await page.keyboard.press(browserName==="webkit"?"Alt+Tab":"Tab");
+  await expect(page.getByRole("link",{name:"Skip to content"})).toBeFocused();
+  for(const section of ["listening","reading","writing","speaking"]){
+    await page.goto("/");
+    await page.locator(`nav[aria-label="IELTS sections"] a[href="/${section}"]`).click();
+    await expect(page).toHaveURL(new RegExp(`/${section}$`));
+    await expect(page.locator("main")).toBeVisible();
+  }
+  for(const path of ["/vocabulary","/vocabulary/library","/vocabulary/intensive","/vocabulary/my","/vocabulary/sources","/vocabulary/word/lex_achievement_d52681089fc2"]){
+    const response=await page.goto(path);expect(response?.status()).toBe(404);
+  }
   expect(errors).toEqual([]);
 });
 

@@ -26,6 +26,7 @@ class WritingAttemptRow(Base):
     status: Mapped[str] = mapped_column(String(16), default="draft")
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
     updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     assessment: Mapped[dict | None] = mapped_column(JSONDocument, nullable=True)
     ai_status: Mapped[str] = mapped_column(String(24), default="idle")
     ai_lease: Mapped[str | None] = mapped_column(String(36), nullable=True)

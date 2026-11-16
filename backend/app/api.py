@@ -12,19 +12,19 @@ from app.modules.learning_quality.router import router as learning_quality_route
 from app.modules.listening.router import router as listening_router
 from app.modules.mastery.router import router as mastery_router
 from app.modules.partner.router import router as partner_router
+from app.modules.practice.router import router as practice_router
 from app.modules.progress.router import router as progress_router
 from app.modules.reading.router import router as reading_router
 from app.modules.registration.router import router as registration_router
 from app.modules.student_model.router import router as student_model_router
 from app.modules.study.router import router as study_router
 from app.modules.users.router import router as users_router
-from app.modules.vocabulary.router import router as vocabulary_router
-from app.modules.vocabulary_review.router import router as vocabulary_review_router
 from app.modules.widgets.router import router as widgets_router
 from app.modules.writing.router import router as writing_router
 from app.shared.schemas import HealthResponse
 
 api_router = APIRouter()
+api_router.include_router(practice_router)
 api_router.include_router(writing_router)
 api_router.include_router(registration_router)
 api_router.include_router(reading_router)
@@ -44,8 +44,6 @@ api_router.include_router(mastery_router)
 api_router.include_router(partner_router)
 api_router.include_router(progress_router)
 api_router.include_router(student_model_router)
-api_router.include_router(vocabulary_router)
-api_router.include_router(vocabulary_review_router)
 api_router.include_router(widgets_router)
 
 

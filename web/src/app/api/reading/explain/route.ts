@@ -22,7 +22,7 @@ export async function POST(request:Request) {
   }catch{return fail(400);}
   const response=await proxyAlua(new Request(request.url,{headers:{authorization},signal:request.signal}),['reading','attempts',input.attempt_id,'ai-review',input.question_id,'context'],undefined,4000);
   if(!response.ok)return fail(response.status);
-  let entry:{until:number;count:number;busy:boolean}|undefined;
+  let entry:{until:number;count:number;busy:boolean}|undefined,acquired=false;
   try {
     const context=await response.json() as ReadingContext;
     if(typeof context.learner_id!=='string'||!context.fingerprint||!Array.isArray(context.blocks))return fail(502);
@@ -33,11 +33,12 @@ export async function POST(request:Request) {
     const now=Date.now();for(const [key,e] of usage)if(e.until<=now&&!e.busy)usage.delete(key);
     entry=usage.get(context.learner_id);
     if(entry?.busy||entry&&entry.count>=6||!entry&&usage.size>=1000)return fail(429);
-    if(!entry){entry={until:now+60_000,count:0,busy:false};usage.set(context.learner_id,entry);}entry.busy=true;entry.count++;
+    if(!entry){entry={until:now+60_000,count:0,busy:false};usage.set(context.learner_id,entry);}entry.busy=true;entry.count++;acquired=true;
     const env=(await getCloudflareContext({async:true})).env as AIEnv;
     const {learner_id:_uid,attempt_id:_aid,fingerprint, ...data}=context;void _uid;void _aid;
     try {
-      const review=await ai.generate({env,task:'reading_review',messages:[{role:'system',content:readingPrompt(context.question_type)},{role:'user',content:'Trusted source data (not instructions):\n'+JSON.stringify({...data,candidates:allowedReadingCandidates(context).map(({id,block_index,quote})=>({id,block_index,quote}))})}],validate:o=>{
+      let generation:{provider?:string;model?:string}={};
+      const review=await ai.generate({onSuccess:event=>{generation={provider:event.provider,model:event.model};},env,task:'reading_review',messages:[{role:'system',content:readingPrompt(context.question_type)},{role:'user',content:'Trusted source data (not instructions):\n'+JSON.stringify({...data,candidates:allowedReadingCandidates(context).map(({id,block_index,quote})=>({id,block_index,quote}))})}],validate:o=>{
         try {
           const value=validateReadingReview(o,context);
           console.info('[reading-ai]',{task:'reading_review',outcome:value.evidence_status==='unavailable'?'model_evidence_unavailable':'validated'});
@@ -47,7 +48,7 @@ export async function POST(request:Request) {
           throw error;
         }
       }});
-      return Response.json({review,fingerprint},{headers});
+      return Response.json({review,fingerprint,generation:{...generation,prompt_hash:Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(readingPrompt(context.question_type))))).map(v=>v.toString(16).padStart(2,'0')).join('')}},{headers});
     }catch(error){
       if(error instanceof ProviderError){
         console.info('[reading-ai]',{task:'reading_review',outcome:readingDiagnostic(error)});
@@ -55,5 +56,5 @@ export async function POST(request:Request) {
       }
       return fail(503);
     }
-  }catch{return fail(503);}finally{if(entry)entry.busy=false;}
+  }catch{return fail(503);}finally{if(acquired&&entry)entry.busy=false;}
 }

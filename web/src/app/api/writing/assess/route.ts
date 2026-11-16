@@ -5,6 +5,7 @@ import type {AIEnv} from '@/lib/ai/adapters/common';
 import {proxyAlua} from '@/lib/api/proxy';
 import {bridge} from '@/features/writing/bridge';
 import {validateModelReview,evidenceCandidates,type Task,type Attempt} from '@/features/writing/contract';
+import {writingSchema} from '@/features/writing/schema';
 import {writingPrompt} from '@/features/writing/prompt';
 export const runtime='nodejs';export const dynamic='force-dynamic';
 const privateHeaders={'Cache-Control':'private, no-store',Vary:'Authorization','X-Content-Type-Options':'nosniff'};
@@ -24,6 +25,7 @@ export async function POST(request:Request){
   try{while(true){const v=await reader.read();if(v.done)break;size+=v.value.byteLength;if(size>200)throw Error();body+=new TextDecoder().decode(v.value);}}finally{void reader.cancel();}
   const value=JSON.parse(body);if(Object.keys(value).join()!=='attempt_id'||!/^[-a-f0-9]{36}$/i.test(value.attempt_id))throw Error();id=value.attempt_id;
  }catch{return fail(400,'invalid_request');}
+ let serverKey:string|undefined;
  let phase='ownership',lease:string|undefined,failureProtocol=false,providerCalls=0;
  const upstreamFailure=async(response:Response)=>{
   let code='writing_upstream_unavailable',retryable=true;
@@ -42,15 +44,17 @@ export async function POST(request:Request){
   if(attempt.assessment)return Response.json(attempt,{headers});
   if(attempt.status!=='submitted')return fail(409,'writing_not_submitted');
   phase='environment';
-  const env=(await getCloudflareContext({async:true})).env as AIEnv;
+  const env=(await getCloudflareContext({async:true})).env as AIEnv&{WRITING_BRIDGE_SECRET?:string};
+  serverKey=env.WRITING_BRIDGE_SECRET??process.env.WRITING_BRIDGE_SECRET;
+  if(process.env.ALUA_LOCAL_STACK!=='true'&&(!serverKey||serverKey.length<32))throw new ProviderError(503,false,'configuration_failure');
   const available=candidates('writing_assessment',env).some(c=>c.provider==='cloudflare'?!!env.AI:!!env[c.provider==='groq'?'GROQ_API_KEY':c.provider==='gemini'?'GEMINI_API_KEY':'OPENROUTER_API_KEY']?.trim());
   if(!available)throw new ProviderError(503,false,'configuration_failure');
-  phase='claim';const claimed=await bridge(authorization,id,'claim');if(!claimed.ok)return await upstreamFailure(claimed);
+  phase='claim';const claimed=await bridge(authorization,id,'claim',{},serverKey);if(!claimed.ok)return await upstreamFailure(claimed);
   const context=await claimed.json() as {cached:boolean;attempt?:Attempt;lease:string;essay:string;task:Task;failure_protocol?:number};
   if(context.cached)return Response.json(context.attempt,{headers});lease=context.lease;failureProtocol=context.failure_protocol===1;
   phase='inference';let metadata={provider:'',model:''};
-  const review=await ai.generate({env,task:'writing_assessment',messages:[{role:'system',content:writingPrompt},{role:'user',content:JSON.stringify({task:context.task,essay:context.essay,evidence_candidates:evidenceCandidates(context.essay).map((anchor,i)=>({candidate_id:`s${i}`,quote:anchor.quote}))})}],validate:o=>validateModelReview(o,context.essay),onSuccess:e=>{metadata={provider:e.provider,model:e.model};},onAttempt:()=>{providerCalls++;}});
-  phase='persistence';const saved=await bridge(authorization,id,'complete',{lease,review,...metadata});if(!saved.ok)return await upstreamFailure(saved);
+  const review=await ai.generate({env,task:'writing_assessment',writingSchema,messages:[{role:'system',content:writingPrompt},{role:'user',content:JSON.stringify({prompt:context.task.practice_prompt,essay:context.essay,evidence_candidates:evidenceCandidates(context.essay).map((anchor,i)=>({candidate_id:`s${i}`,quote:anchor.quote}))})}],validate:o=>validateModelReview(o,context.essay),onSuccess:e=>{metadata={provider:e.provider,model:e.model};},onAttempt:()=>{providerCalls++;}});
+  phase='persistence';const saved=await bridge(authorization,id,'complete',{lease,review,...metadata},serverKey);if(!saved.ok)return await upstreamFailure(saved);
   console.info('[writing-ai]',{request_id:requestId,stage:phase,outcome:'saved',provider_calls:providerCalls,...metadata});
   return Response.json(await saved.json(),{headers});
  }catch(error){
@@ -59,7 +63,7 @@ export async function POST(request:Request){
   const kind=phase==='environment'?'configuration_error':invalid?'invalid_response':providerError?.status===429?'rate_limited':phase==='ownership'||phase==='claim'||phase==='persistence'?'transport_error':'provider_unavailable';
   const source=phase==='environment'?'environment':kind==='transport_error'?'transport':'provider';
   const code=kind==='rate_limited'?'writing_provider_rate_limited':kind==='invalid_response'?'writing_invalid_response':kind==='configuration_error'?'writing_configuration_unavailable':kind==='transport_error'?'writing_transport_error':'writing_provider_unavailable';
-  if(lease&&phase!=='persistence')try{await bridge(authorization,id,'complete',{lease,...(failureProtocol?{failure_kind:kind}:{})});}catch{}
+  if(lease&&phase!=='persistence')try{await bridge(authorization,id,'complete',{lease,...(failureProtocol?{failure_kind:kind}:{})},serverKey);}catch{}
   console.info('[writing-ai]',{request_id:requestId,stage:phase,outcome:'failed',code,provider_calls:providerCalls,...(phase==='environment'?{environment_diagnostic:providerError?.reason??(/module|import|require/i.test(String((error as Error)?.message))?'module_resolution':/closed|disposed/i.test(String((error as Error)?.message))?'closed_context':'context_initialization')}:{ }),...(providerError?{provider_reason:providerError.reason,provider_request_id:providerError.requestId}: {})});
   return fail(kind==='rate_limited'?429:kind==='invalid_response'?502:503,code,kind,source,phase!=='persistence',providerError?.retryAfterMs,providerError?.requestId);
  }

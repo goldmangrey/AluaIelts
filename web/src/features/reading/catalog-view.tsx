@@ -1,4 +1,6 @@
 "use client";
+import {TestStartModal, useTestSelection} from "@/components/test-start-modal";
+import {readingApi} from "./exam/api";
 import {GuestCatalog} from "@/features/guest/catalog";
 import Link from "next/link";
 import styles from "./library.module.css";
@@ -29,6 +31,18 @@ function CatalogError({ error, retry, returnPath }: { error: ApiError; retry: ()
 }
 export function CatalogView({ bookNumber, examId }: { bookNumber?: number; examId?: string }) {
   const session = useSession();
+  const selection = useTestSelection();
+  const [detail, setDetail] = useState<{id:string;owner:number;minutes?:number;error?:string}>();
+  useEffect(() => {
+    if (!selection.selected || session.status !== "ready" || !session.user) return;
+    const abort = new AbortController(), id = selection.selected, owner = session.generation;
+    readingApi(session.user.uid)(`/reading/exams/${id}`, abort.signal).then(value => {
+      const data = value as {id:string;duration_seconds:number};
+      if(data.id !== id || !Number.isSafeInteger(data.duration_seconds) || data.duration_seconds <= 0) throw Error();
+      if(!abort.signal.aborted)setDetail({id,owner,minutes:data.duration_seconds/60});
+    }).catch(() => {if(!abort.signal.aborted)setDetail({id,owner,error:"Test details couldn’t load. Close and try again."});});
+    return () => abort.abort();
+  }, [selection.selected, session.status, session.user, session.generation]);
   const pathname = usePathname();
   const [state, setState] = useState<State>({ kind: "loading" });
   const [revision, setRevision] = useState(0);
@@ -54,26 +68,20 @@ export function CatalogView({ bookNumber, examId }: { bookNumber?: number; examI
   if (bookNumber && !book) return <StatusPanel title="Collection unavailable." href="/reading" label="Back to Reading">
     This collection has no available practice tests.
   </StatusPanel>;
-  if (examId) {
-    const exam = book?.exams.find((exam) => exam.exam_id === examId);
-    if (!exam) return <StatusPanel title="Test unavailable." href="/reading" label="Back to Reading">
-      This test is currently unavailable for practice.
-    </StatusPanel>;
-    const hasAttempt = exam.in_progress_attempt_ids.length > 0;
-    return <section className="test-preparation" aria-label="Test details">
-      <dl className="test-facts"><div><dt>Time</dt><dd>60 <span>minutes</span></dd></div>
-        <div><dt>Reading</dt><dd>{exam.passage_count} <span>passages</span></dd></div>
-        <div><dt>Questions</dt><dd>{exam.question_count} <span>questions</span></dd></div></dl>
-      {exam.not_fully_proofread && <p className="small-note">This test is available for private practice and has not been fully proofread.</p>}
-      {hasAttempt && <p className="small-note">You have an unfinished attempt. Your existing progress is preserved.</p>}
-      <StartButton examId={exam.exam_id} uid={session.user!.uid} learnerId={session.profile!.uid} hasAttempt={hasAttempt} />
-    </section>;
+  if (book) {
+    const exam = book.exams.find(e => e.exam_id === selection.selected);
+    const current = detail?.id === exam?.exam_id && detail?.owner === session.generation ? detail : undefined;
+    return <><nav className="test-list" aria-label="Available tests">{book.exams.map(exam =>
+      <Link className="list-row" key={exam.exam_id} href={`?test=${exam.exam_id}`} scroll={false} onClick={e=>e.currentTarget.focus({preventScroll:true})} onNavigate={e => {e.preventDefault(); selection.open(exam.exam_id);}}>
+        <span>Test {exam.source_test_number}</span><span className="row-end">{exam.in_progress_attempt_ids.length > 0 && <small>In progress</small>}<span aria-hidden="true">→</span></span>
+      </Link>)}
+    </nav>{selection.selected && (exam ? <TestStartModal key={`${exam.exam_id}:${session.generation}`} skill="Reading" book={book.book_number} test={exam.source_test_number}
+      onClose={selection.close} loading={!current} error={current?.error}
+      facts={[...(current?.minutes ? [{value:current.minutes,label:"Minutes"}] : []),{value:exam.passage_count,label:"Passages"},{value:exam.question_count,label:"Questions"}]}
+      note={exam.not_fully_proofread ? "Practice material · Not fully proofread" : undefined}>
+      {current?.minutes && <StartButton examId={exam.exam_id} uid={session.user!.uid} learnerId={session.profile!.uid} hasAttempt={exam.in_progress_attempt_ids.length > 0}/>}
+    </TestStartModal> : <TestStartModal skill="Reading" book={book.book_number} test={0} facts={[]} error="This test is unavailable." onClose={selection.close}/>)}</>;
   }
-  if (book) return <nav className="test-list" aria-label="Available tests">{book.exams.map((exam) =>
-    <Link className="list-row" key={exam.exam_id} href={`/reading/cambridge-${book.book_number}/${exam.exam_id}`}>
-      <span>Test {exam.source_test_number}</span><span className="row-end">{exam.in_progress_attempt_ids.length > 0 && <small>In progress</small>}<span aria-hidden="true">→</span></span>
-    </Link>)}
-  </nav>;
   if (!state.books.length) return <StatusPanel title="No practice tests available.">Please check back soon.</StatusPanel>;
   return <nav className={styles.index} aria-label="Cambridge IELTS collections">{state.books.map((book) =>
     <Link className={styles.row} key={book.book_number} href={`/reading/cambridge-${book.book_number}`}>

@@ -32,6 +32,11 @@ async function transaction<T>(name: string, run: (store: IDBObjectStore, done:(v
 export function allowDraftOwner(uid:string) { revoked.delete(uid); }
 export async function clearDraftOwner(uid:string) {
   revoked.add(uid);
+  // Remove the pre-IndexedDB Listening fallback as well; never recover it after logout.
+  if(typeof localStorage!=="undefined"){
+    const prefix=`alua:listening:${uid}:`;
+    for(let i=localStorage.length-1;i>=0;i--){const key=localStorage.key(i);if(key?.startsWith(prefix))localStorage.removeItem(key);}
+  }
   if(typeof indexedDB==="undefined")return;
   for(const name of ["drafts","leases"]) await transaction<void>(name,(store,done)=>{
     const req=store.openCursor();req.onsuccess=()=>{const cursor=req.result;if(!cursor){done();return}if(cursor.value.uid===uid)cursor.delete();cursor.continue()};

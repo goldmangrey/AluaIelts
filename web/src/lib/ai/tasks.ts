@@ -20,6 +20,8 @@ export function candidates(task: Task, env: AIEnv) {
   if (!route.active) return [];
   const externalAllowed = !route.sensitive || (env.AI_EXTERNAL_TASKS ?? '').split(',').map(s => s.trim()).includes(task);
   return order.filter(provider => {
+    // Numeric Writing is Groq-only until another provider passes an independent quality gate.
+    if(task==='writing_assessment'&&provider!=='groq')return false;
     if (provider === 'groq') return true;
     if (provider === 'cloudflare') return true;
     if (!externalAllowed) return false;

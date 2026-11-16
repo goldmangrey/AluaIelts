@@ -11,7 +11,8 @@ export interface Telemetry {task: Task; provider: Provider; model: string; outco
 export function createAI(options: {adapters?: Partial<Record<Provider, Adapter>>; now?: () => number; log?: (event: Telemetry) => void} = {}) {
   const cooldown = new Map<string, {until:number;status:number;retryUntil?:number;requestId?:string}>(), now = options.now ?? (() => performance.now());
   const log = options.log ?? ((event: Telemetry) => console.info('[ai]', event));
-  return {async generate<T>({env, task, messages, validate, deadlineMs, onSuccess, onAttempt}: {env: AIEnv; task: Task; deadlineMs?:number; onSuccess?:(event:Telemetry)=>void; onAttempt?:(provider:Provider)=>void; messages: AdapterInput['messages']; validate: (output: unknown) => T}): Promise<T> {
+  return {async generate<T>({env, task, messages, validate, deadlineMs, onSuccess, onAttempt, writingSchema}: {env: AIEnv; task: Task; writingSchema?:Record<string,unknown>; deadlineMs?:number; onSuccess?:(event:Telemetry)=>void; onAttempt?:(provider:Provider)=>void; messages: AdapterInput['messages']; validate: (output: unknown) => T}): Promise<T> {
+    if(writingSchema&&task!=='writing_assessment')throw new ProviderError(503,false,'invalid_task_input');
     const route = tasks[task];
     if (!route?.active || !messages.length || messages.length > 8 || messages.some(m => !['system','user','assistant'].includes(m.role) || typeof m.content !== 'string') ||
         new TextEncoder().encode(JSON.stringify(messages)).length > 96_000) throw new ProviderError(503, false, 'invalid_task_input');
@@ -29,7 +30,7 @@ export function createAI(options: {adapters?: Partial<Record<Provider, Adapter>>
           const configured=provider==='cloudflare'?!!env.AI:!!env[provider==='groq'?'GROQ_API_KEY':provider==='gemini'?'GEMINI_API_KEY':'OPENROUTER_API_KEY']?.trim();
           if(configured||options.adapters?.[provider])onAttempt?.(provider);
           const output = await (options.adapters?.[provider] ?? adapters[provider])(env, model,
-            {messages, maxTokens: route.tokens, temperature: route.temperature}, signal);
+            {messages, maxTokens: route.tokens, temperature: route.temperature,...(writingSchema?{writingSchema}:{})}, signal);
           try {
             const value = validate(output);
             if (value === null || value === undefined || value === false) throw Error();

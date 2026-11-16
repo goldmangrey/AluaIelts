@@ -152,10 +152,22 @@ def test_completed_ownership_snapshot_cache_and_no_mutation(system, monkeypatch,
     assert ctx["unavailable_reason"] is None
     raw, calls = model_for(ctx), []
     monkeypatch.setattr(ai.httpx, "stream", lambda *a, **kw: fake_stream(ctx, raw, calls, *a, **kw))
-    response = client.post(endpoint, headers=h)
-    assert response.status_code == 200, response.text
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        responses = list(pool.map(lambda _: client.post(endpoint, headers=h), range(4)))
+    assert all(r.status_code == 200 for r in responses)
+    response = responses[0]
+    read = f"/api/v1/practice/reviews/reading/{aid}"
+    assert client.get(read, headers=h).json() == {"questions": [qid]}
+    stored = client.get(read + f"?question={qid}", headers=h).json()["response"]
+    assert stored["review"] == response.json()["review"]
+    assert client.get(read, headers=headers(other)).status_code == 404
+    assert client.get(read).status_code == 401
+    assert len(calls) == 1
     assert response.json()["review"]["evidence_status"] == "found"
+    old_version = ai.VERSION
+    monkeypatch.setattr(ai, "VERSION", "future-prompt-version")
     assert client.post(endpoint, headers=h).json()["cached"] is True
+    monkeypatch.setattr(ai, "VERSION", old_version)
     assert len(calls) == 1 and set(calls[0]["json"]) == {"attempt_id", "question_id"}
     assert client.post(base + "/ai-review/unknown", headers=h).status_code == 404
     after = client.get(base, headers=h).json()
@@ -189,7 +201,7 @@ def test_negative_cache_bypassed_and_temporary_failure_retries(monkeypatch, tmp_
         ai.httpx, "stream", lambda *a, **kw: fake_stream(context, negative, calls, *a, **kw)
     )
     for _ in range(2):
-        value = service.explain(uid, aid, qid, "Bearer synthetic")
+        value = service._generate(uid, aid, qid, "Bearer synthetic")
         assert value["retryable"] is True and value["cached"] is False
         assert value["review"]["reason"] == "models_unavailable"
         assert path.read_bytes() == old  # no new negative write, no destructive cleanup
@@ -200,9 +212,9 @@ def test_negative_cache_bypassed_and_temporary_failure_retries(monkeypatch, tmp_
         lambda *a, **kw: fake_stream(context, FIXTURE["raw"], calls, *a, **kw),
     )
     assert (
-        service.explain(uid, aid, qid, "Bearer synthetic")["review"]["evidence_status"] == "found"
+        service._generate(uid, aid, qid, "Bearer synthetic")["review"]["evidence_status"] == "found"
     )
-    assert service.explain(uid, aid, qid, "Bearer synthetic")["cached"] is True
+    assert service._generate(uid, aid, qid, "Bearer synthetic")["cached"] is True
     assert len(calls) == 3
 
 
@@ -247,17 +259,17 @@ def test_singleflight_same_key_and_rate_limit(monkeypatch, tmp_path):
 
     def run(_):
         try:
-            return service.explain("singleflight", "a", "q", "Bearer synthetic")
+            return service._generate("singleflight", "a", "q", "Bearer synthetic")
         except ai.AluaError as error:
             return error.status_code
 
     with ThreadPoolExecutor(max_workers=2) as pool:
         results = list(pool.map(run, range(2)))
     assert len(calls) == 1 and 429 in results
-    assert service.explain("singleflight", "a", "q", "Bearer synthetic")["cached"] is True
+    assert service._generate("singleflight", "a", "q", "Bearer synthetic")["cached"] is True
     ai._usage["limited"] = {"until": time.monotonic() + 60, "count": 6, "busy": False}
     with pytest.raises(ai.AluaError) as error:
-        service.explain("limited", "a", "q", "Bearer synthetic")
+        service._generate("limited", "a", "q", "Bearer synthetic")
     assert error.value.status_code == 429
 
 
@@ -269,6 +281,21 @@ def test_reading_ai_browser_real_endpoints(system, monkeypatch, tmp_path):
     import uvicorn
 
     _, client, _ = system
+    # Browser suite intentionally requests several distinct reviews rapidly with a
+    # synthetic provider. Keep busy protection; rate-limit behavior has separate tests.
+    original_allowance = ai.allowance
+
+    @contextmanager
+    def browser_allowance(uid):
+        with ai._guard:
+            entry = ai._usage.get(uid)
+            if entry and not entry["busy"]:
+                entry["count"] = 0
+        with original_allowance(uid):
+            yield
+
+    monkeypatch.setattr(ai, "allowance", browser_allowance)
+    monkeypatch.setattr(ai, "context_quota", lambda uid: None)
     owner, _ = bootstrap(client, "husband")
     h = headers(owner)
     attempt, _ = start(client, h, eid="cambridge-07-test-01")
@@ -301,12 +328,23 @@ def test_reading_ai_browser_real_endpoints(system, monkeypatch, tmp_path):
         "end": len(text[: at + len(item["quote"])].encode("utf-16-le")) // 2,
         "quote": item["quote"],
     }
+    mobile, _ = start(client, h, eid="cambridge-07-test-01")
+    assert (
+        client.post(
+            f"/api/v1/reading/attempts/{mobile['id']}/submit",
+            headers=h,
+            json=submit_payload(mobile, answer),
+        ).status_code
+        == 200
+    )
+    mobile = client.get(f"/api/v1/reading/attempts/{mobile['id']}", headers=h).json()
     fixture.write_text(
         json.dumps(
             {
                 "token": owner["token"],
                 "uid": owner["profile"]["uid"],
                 "attempt": attempt,
+                "attempts": {"desktop": attempt, "mobile": mobile},
                 "highlight": highlight,
                 "target": next(
                     t for t in ctx["grounding"]["targets"] if t.lower() in item["quote"].lower()
@@ -447,7 +485,7 @@ def test_unavailable_visual_does_not_invoke_provider(monkeypatch, tmp_path):
     monkeypatch.setattr(
         ai.httpx, "stream", lambda *a, **kw: pytest.fail("No model should be called")
     )
-    value = service.explain("visual", "a", "q", "Bearer fixture")
+    value = service._generate("visual", "a", "q", "Bearer fixture")
     assert value["review"]["evidence_status"] == "unavailable"
     assert value["retryable"] is False
 

@@ -97,6 +97,7 @@ def main():
         path = STATE / (name + ".pid")
         if not (path.exists() and alive(int(path.read_text()))):
             with socket.socket() as sock:
+                sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
                 sock.bind(("127.0.0.1", port))
     # Read public Firebase identifiers without copying or displaying credentials.
     public = {}
@@ -181,7 +182,16 @@ def main():
     wait("http://127.0.0.1:8000/api/v1/health")
     start(
         "frontend",
-        [shutil.which("pnpm"), "dev", "--hostname", "127.0.0.1", "--port", "3000"],
+        [
+            shutil.which("node"),
+            ROOT / "web/node_modules/next/dist/bin/next",
+            "dev",
+            "--webpack",
+            "--hostname",
+            "127.0.0.1",
+            "--port",
+            "3000",
+        ],
         ROOT / "web",
         env,
     )

@@ -349,6 +349,29 @@ class ReadingService:
                         "Checked practice answers are frozen.", "reading_answer_checked"
                     )
                 row.answers = {**row.answers, **changes}
+                navigation = getattr(request, "navigation", None)
+                if navigation is not None:
+                    passages = [
+                        p
+                        for p in row.snapshot["exam"]["passages"]
+                        if row.selected_passage is None or p["number"] == row.selected_passage
+                    ]
+                    passage = next(
+                        (p for p in passages if p["number"] == navigation.current_passage), None
+                    )
+                    ids = (
+                        {q["id"] for g in passage["question_groups"] for q in g["questions"]}
+                        if passage
+                        else set()
+                    )
+                    if (
+                        passage is None
+                        or navigation.current_question_id is not None
+                        and navigation.current_question_id not in ids
+                    ):
+                        raise ValidationError("Navigation is outside this attempt.")
+                    row.state = {**row.state, **navigation.model_dump()}
+
             elif operation == "state":
                 self.update_state(row, request, now)
             elif operation == "check":

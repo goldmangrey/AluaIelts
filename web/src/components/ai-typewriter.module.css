@@ -1,0 +1,10 @@
+.frame{position:relative;min-width:0;max-width:100%}
+.layers{display:grid;min-width:0}
+.reserve,.output{grid-area:1/1;min-width:0}
+.reserve{visibility:hidden;pointer-events:none;user-select:none}
+.output{align-self:start}
+.cursor{display:inline-block;width:0;overflow:visible;font-weight:400;animation:blink .85s steps(1,end) infinite;user-select:none;pointer-events:none}
+.control{position:absolute;right:0;top:-28px;text-align:right}
+.frame .control button{min-height:24px;padding:2px 4px;border:0;background:transparent;color:inherit;font:inherit;font-size:11px;opacity:.7;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+@keyframes blink{0%,45%{opacity:1}46%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.cursor{animation:none}}

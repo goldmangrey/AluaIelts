@@ -9,7 +9,7 @@ test('unavailable Reading evidence never claims an exact citation',async({page},
   review:{why_user_answer_wrong:'Нет подтверждённого контекста.',why_correct_answer_works:'Подтверждение недоступно.',ielts_tip:'Сравните условие с текстом.',evidence_status:'unavailable',evidence:[],reason:'evidence_not_found'}
  }}));
  if(info.project.name.includes('mobile'))await page.getByRole('button',{name:'Questions',exact:true}).click();
- await page.getByRole('button',{name:'Explain question 1 with AI',exact:true}).click();
+ await page.getByRole('button',{name:/^(Explain question 1 with AI|View AI explanation for question 1)$/}).click();
  const card=page.getByRole('region',{name:'AI explanation for question 1',exact:true});
  await expect(card).toContainText('Подсветка недоступна');
  await expect(card.getByText('Цитата точно относится',{exact:false})).toHaveCount(0);
@@ -25,13 +25,13 @@ test('temporary unavailable retries a fresh request and retains only found in me
    review:{why_user_answer_wrong:'Сравните ответ с текстом.',why_correct_answer_works:'Сохранённый контекст подтверждает объяснение.',ielts_tip:'Проверьте условие.',evidence_status:found?'found':'unavailable',reason:found?null:'models_unavailable',evidence:found?[{passage_id:passage.id,block_index:block,start:0,end:80,quote:passage.content[block].text.slice(0,80),kind:'support'}]:[]}}});
  });
  if(info.project.name.includes('mobile'))await page.getByRole('button',{name:'Questions',exact:true}).click();
- const trigger=page.getByRole('button',{name:'Explain question 1 with AI',exact:true}),card=page.getByRole('region',{name:'AI explanation for question 1',exact:true});
+ const trigger=page.getByRole('button',{name:/^(Explain question 1 with AI|View AI explanation for question 1)$/}),card=page.getByRole('region',{name:'AI explanation for question 1',exact:true});
  await trigger.click();await expect(card.getByRole('button',{name:'Retry',exact:true})).toBeVisible();
  await card.getByRole('button',{name:'Close AI explanation'}).click();await trigger.click();await expect(card.getByRole('button',{name:'Retry',exact:true})).toBeVisible();expect(calls).toBe(2);
  const panel=page.locator('[aria-label="Reading questions"]'),before=await panel.evaluate(e=>e.scrollTop);
  await card.getByRole('button',{name:'Retry',exact:true}).evaluate(e=>{(e as HTMLButtonElement).click();(e as HTMLButtonElement).click();});
  await expect(card.getByRole('button',{name:'Show in passage'})).toBeVisible();expect(calls).toBe(3);expect(await panel.evaluate(e=>e.scrollTop)).toBe(before);
- await card.getByRole('button',{name:'Close AI explanation'}).click();await trigger.click();await expect(card.getByText('Saved explanation')).toBeVisible();expect(calls).toBe(3);
+ await card.getByRole('button',{name:'Close AI explanation'}).click();await trigger.click();await expect(card.getByRole('button',{name:'Show in passage'})).toBeVisible();await expect(card.getByText('Saved explanation')).toHaveCount(0);expect(calls).toBe(3);
 });
 test('Reading multi-open, no-jump, exact navigation, verdict colors and reload cache',async({page},info)=>{
  const row=fixture.reading.positions[1];row.user_answer='synthetic wrong';fixture.answers[row.question_id]=row.user_answer;
@@ -46,7 +46,7 @@ test('Reading multi-open, no-jump, exact navigation, verdict colors and reload c
   }await new Promise(r=>setTimeout(r,100));await route.fulfill({json:{...data,cached}});
  });
  const mobile=info.project.name.includes('mobile');if(mobile)await page.getByRole('button',{name:'Questions',exact:true}).click();
- const panel=page.locator('[aria-label="Reading questions"]'),first=page.getByRole('button',{name:'Explain question 1 with AI',exact:true}),card=page.getByRole('region',{name:'AI explanation for question 1',exact:true});
+ const panel=page.locator('[aria-label="Reading questions"]'),first=page.getByRole('button',{name:/^(Explain question 1 with AI|View AI explanation for question 1)$/}),card=page.getByRole('region',{name:'AI explanation for question 1',exact:true});
  // A normal click must reveal the response beside its own saved answer, rather
  // than silently appending it below the remaining questions in the group.
  await first.click();await expect(card.getByRole('button',{name:'Show in passage'})).toBeVisible();
@@ -63,7 +63,7 @@ test('Reading multi-open, no-jump, exact navigation, verdict colors and reload c
  await expect(page.locator('[data-question="9"] [aria-pressed="true"]')).toHaveAttribute('data-choice-status','incorrect');await expect(page.locator('[data-question="8"] [data-choice-status="correct"]')).toHaveCount(1);
  await expect(page.locator('[data-question="1"]')).toHaveAttribute('data-review-status','correct');await expect(page.locator('[data-question="3"]')).toHaveAttribute('data-review-status','unanswered');expect(await page.locator('.inline-question .answer-review').count()).toBe(0);
  mkdirSync(screenshots,{recursive:true});await page.screenshot({path:`${screenshots}/reading-${info.project.name}.png`});
- const count=generations;await page.reload();if(mobile)await page.getByRole('button',{name:'Questions',exact:true}).click();await first.click();await expect(card.getByText('Saved explanation')).toBeVisible();expect(generations).toBe(count);
+ const count=generations;await page.reload();if(mobile)await page.getByRole('button',{name:'Questions',exact:true}).click();await first.click();await expect(card.getByRole('button',{name:'Show in passage'})).toBeVisible();await expect(card.getByText('Saved explanation')).toHaveCount(0);expect(generations).toBe(count);
 });
 test('Listening first-click, independent cards, dedup and own loop evidence',async({page},info)=>{
  for(const n of [1,3]){const q=fixture.listening.questions.find((q:{question_number:number})=>q.question_number===n);q.user_answer='synthetic wrong';q.correct=false;}
@@ -71,8 +71,8 @@ test('Listening first-click, independent cards, dedup and own loop evidence',asy
  await page.route('**/api/listening/review',async route=>{calls++;const n=route.request().postDataJSON().question_number;await new Promise(r=>setTimeout(r,120));await route.fulfill({json:{cached:false,what_happened:`Вопрос ${n}.`,why:'Сравните сохранённый ответ.',next_time:'Проверьте ключ.',evidence:{available:true,reason:null,part:1,quote:'Synthetic fixture',segment_ids:['seg-0001'],clip_start:n,clip_end:n+1}}})});
  if(info.project.name.includes('mobile'))await page.getByRole('button',{name:'Questions',exact:true}).click();
  const q1=page.locator('#question-1'),q3=page.locator('#question-3'),a1=page.getByRole('region',{name:'AI explanation for question 1',exact:true}),a3=page.getByRole('region',{name:'AI explanation for question 3',exact:true});
- await q1.getByRole('button',{name:'Explain with AI'}).click();await q3.getByRole('button',{name:'Explain with AI'}).click();await expect(a1).toContainText('Вопрос 1.');await expect(a3).toContainText('Вопрос 3.');expect(calls).toBe(2);
- await q3.getByRole('button',{name:'Explain with AI'}).click();await expect(a1).toBeAttached();await expect(a3).toHaveCount(0);await q3.getByRole('button',{name:'Explain with AI'}).click();expect(calls).toBe(2);
+ await q1.getByRole('button',{name:/^(Explain with AI|View AI Explanation)$/}).click();await q3.getByRole('button',{name:/^(Explain with AI|View AI Explanation)$/}).click();await expect(a1).toContainText('Вопрос 1.');await expect(a3).toContainText('Вопрос 3.');expect(calls).toBe(2);
+ await q3.getByRole('button',{name:/^(Explain with AI|View AI Explanation)$/}).click();await expect(a1).toBeAttached();await expect(a3).toHaveCount(0);await q3.getByRole('button',{name:/^(Explain with AI|View AI Explanation)$/}).click();expect(calls).toBe(2);
  await a1.getByRole('button',{name:'Loop Moment'}).click();await expect(a1.getByRole('button',{name:'Loop Moment'})).toHaveAttribute('aria-pressed','true');await expect(a3.getByRole('button',{name:'Loop Moment'})).toHaveAttribute('aria-pressed','false');
  mkdirSync(screenshots,{recursive:true});await page.screenshot({path:`${screenshots}/listening-${info.project.name}.png`});expect(await page.locator('audio').count()).toBe(audioCount);
 });

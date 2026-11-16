@@ -10,11 +10,12 @@ export function validateDraft(value:Draft,attempt:Attempt,uid:string) {
  const event=(v:{event_id:string;expected_version:number})=>/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(v.event_id)&&integer(v.expected_version);
  if(value.uid!==uid||value.attemptId!==attempt.id||value.hash!==attempt.content_hash||!integer(value.version)||!integer(value.revision)||!answers(value.base)||!answers(value.answers))fail();
  if(value.pendingRevision!==undefined&&(!integer(value.pendingRevision)||value.pendingRevision>value.revision))fail();
- if(value.pending&&(!event(value.pending)||!answers(value.pending.answers)||!Object.keys(value.pending.answers).length))fail();
+ if(value.pending&&(!event(value.pending)||!answers(value.pending.answers)||(!Object.keys(value.pending.answers).length&&!value.pending.navigation)))fail();
  if(value.legacySubmit&&!event(value.legacySubmit))fail();
  if(value.finalAnswers&&!answers(value.finalAnswers))fail();
  if(value.submit&&(!event(value.submit)||value.submit.answers&&(!answers(value.submit.answers)||Object.keys(value.submit.answers).length!==ids.size||!/^([a-f0-9]{64})$/.test(value.submit.answers_checksum||""))))fail();
  if(value.conflicts&&(!Array.isArray(value.conflicts)||value.conflicts.length>40||value.conflicts.some(c=>!ids.has(c.id)||typeof c.local!=="string"||typeof c.server!=="string")))fail();
+ if(value.pending?.navigation){const n=value.pending.navigation;const passage=attempt.exam!.passages.find(p=>p.number===n.current_passage);if(!passage||n.current_question_id!==null&&!passage.question_groups.some(g=>g.questions.some(q=>q.id===n.current_question_id)))fail();}
  const view=value.view;if(!view)return;
  const passages=attempt.exam!.passages;
  if(!passages.some(p=>p.number===view.passage)||typeof view.size!=="number"||view.size<14||view.size>22||typeof view.split!=="number"||view.split<40||view.split>60||!["passage","questions"].includes(view.mobile)||!Array.isArray(view.review)||view.review.length>40||view.review.some(id=>!ids.has(id))||!Array.isArray(view.views)||view.views.length>3||!Array.isArray(view.highlights)||view.highlights.length>300)fail();

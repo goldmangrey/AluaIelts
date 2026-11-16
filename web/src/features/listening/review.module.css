@@ -28,3 +28,7 @@
 .review.review [aria-label="Listening panels"]{height:36px;padding:0 12px}.review.review [aria-label="Listening panels"] button{min-height:32px;padding:4px 10px}
 .review .filters{gap:2px}.review .filters button{padding:5px 8px;font-size:11px}.selectedLabel{display:none}
 }
+
+.home{flex-shrink:0}.identity{gap:12px}@media(max-width:650px){.identity{padding:0 12px;gap:10px}.testName{display:none}}
+
+@media(max-width:720px){.identity{height:auto;min-height:76px;flex-wrap:wrap;padding:8px 12px;gap:8px 12px}.identity>a{min-height:28px;display:inline-flex;align-items:center}.identity .testName{display:none}}

@@ -24,7 +24,7 @@ export interface Session {status:'loading'|'signed_out'|'ready'|'error';user:{ui
 const initial:Session={status:'loading',user:null,profile:null,generation:0};
 const ready:Session={status:'ready',user:{uid:'review-fixture',email:null},profile:null,generation:1};
 export function useSession(){return useSyncExternalStore(()=>()=>{},()=>ready,()=>initial)}
-export async function prepareGoogleAuth(_mode?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
+export async function prepareGoogleAuth(_mode?:string,_next?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
  await file('src/app/ai-ux-fixture/page.tsx',`"use client";
 import {QuestionGroup,type QuestionActions} from '@/features/reading/exam/question-renderer';
 import type {Group,Constraints} from '@/features/reading/exam/models';

@@ -27,3 +27,5 @@
 
 .score { margin: 0; font-size: 64px; font-weight: 600; line-height: 1.15; letter-spacing: -2px; font-variant-numeric: tabular-nums; color: #087f63; }
 .bandLabel { margin: 18px 0 4px; font-size: 12px; color: #777d7b; }
+
+.resultHeading { display: flex; align-items: center; justify-content: center; gap: 12px; }

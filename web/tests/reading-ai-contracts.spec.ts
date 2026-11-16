@@ -1,3 +1,5 @@
+import {resolve} from 'node:path';
+import {runInNewContext} from 'node:vm';
 import {test,expect} from '@playwright/test';
 import fixture from './fixtures/reading-ai-cases.json';
 import {validateReadingReview,type ReadingContext} from '../src/features/reading/ai/contract';
@@ -138,6 +140,30 @@ test('matching explanations cannot cite an uncited paragraph even when the candi
   expect(()=>validateReadingReview(output(bad),ctx)).toThrow('prose_reference');
   const safe={...bad,why_user_answer_wrong:'Выбранный абзац описывает другой факт. Сравните нужную связь с цитатой.'};
   expect(()=>validateReadingReview(output(safe),ctx)).not.toThrow();
-  expect(readingPrompt(type)).toContain('Не называй букву ошибочно выбранного пользователем');
+  expect(readingPrompt(type)).toContain('вообще не называй абзацы буквами или римскими номерами');
+  expect(readingPrompt(type)).toContain('Не меняй candidate_id и не удаляй evidence');
  }
+});
+
+
+test('rejected concurrent worker requests cannot release another review lock',async()=>{
+ const source=readFileSync(resolve('src/app/api/reading/explain/route.ts'),'utf8');
+ const code=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+ let release!:()=>void,started!:()=>void,calls=0;
+ const gate=new Promise<void>(r=>{release=r;}),begin=new Promise<void>(r=>{started=r;});
+ const exports:{POST?:(request:Request)=>Promise<Response>}={};
+ runInNewContext(code,{exports,Request,Response,Headers,URL,TextEncoder,TextDecoder,crypto:globalThis.crypto,console,require:(name:string)=>{
+  if(name.includes('cloudflare'))return {getCloudflareContext:async()=>({env:{}})};
+  if(name.includes('proxy'))return {proxyAlua:async()=>Response.json({learner_id:'qa-owner',fingerprint:'qa-inputs',blocks:[]})};
+  if(name.includes('orchestrator'))return {ai:{generate:async()=>{calls++;started();await gate;return fixture.raw;}},ProviderError:class extends Error {}};
+  if(name.includes('prompt'))return {readingPrompt:()=>''};
+  return {allowedReadingCandidates:()=>[]};
+ }});
+ const request=()=>new Request('http://localhost/api/reading/explain',{method:'POST',headers:{authorization:'Bearer qa-token'},body:JSON.stringify({attempt_id:'11111111-1111-4111-8111-111111111111',question_id:'q-1'})});
+ const first=exports.POST!(request());await Promise.race([begin,first.then(r=>{throw Error(`Review returned ${r.status} before the provider started`);})]);
+ try{
+  expect((await exports.POST!(request())).status).toBe(429);
+  const third=await Promise.race([exports.POST!(request()),new Promise<null>(r=>setTimeout(()=>r(null),1000))]);
+  expect(third?.status).toBe(429);expect(calls).toBe(1);
+ }finally{release();await first;}
 });

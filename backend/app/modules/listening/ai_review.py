@@ -12,8 +12,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import httpx
-from mutagen import File as AudioFile
-from mutagen import MutagenError
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic import ValidationError as ModelError
 
@@ -21,6 +19,17 @@ from app.core.config import get_settings
 from app.core.exceptions import AluaError, ConflictError, ExternalServiceError, ValidationError
 from app.modules import private_ai_cache as cache
 from app.modules.listening.catalog import CONTENT, digest, questions
+
+# A stale deployment interpreter must fail as a controlled service error, not HTTP500.
+try:
+    from mutagen import File as AudioFile
+    from mutagen import MutagenError
+except ModuleNotFoundError as exc:
+    if exc.name != "mutagen":
+        raise
+    raise ExternalServiceError(
+        "Audio verification is temporarily unavailable.", "ai_review_unavailable"
+    ) from None
 
 VERSION = "listening-ai-v1"
 TRANSCRIPTS = CONTENT / "listening_transcripts_v1"
@@ -264,6 +273,19 @@ class AIReview:
         }
 
     def explain(self, uid, aid, number, authorization):
+        from app.modules.practice.reviews import saved_review
+
+        return saved_review(
+            self.service,
+            "listening",
+            uid,
+            aid,
+            number,
+            lambda: self._generate(uid, aid, number, authorization),
+            VERSION,
+        )
+
+    def _generate(self, uid, aid, number, authorization):
         context = self.context(uid, aid, number)
         path = (
             Path(get_settings().listening_ai_cache_root)
@@ -313,6 +335,8 @@ class AIReview:
                         timeout=50,
                         follow_redirects=False,
                     )
+                    if response.status_code == 429:
+                        raise AluaError("Please try again shortly.", "ai_review_rate_limited", 429)
                     if response.status_code != 200:
                         raise ValueError("Provider unavailable")
                     raw = response.json()
@@ -320,6 +344,12 @@ class AIReview:
                     if raw.get("fingerprint") != context["fingerprint"]:
                         raise ValueError("Context changed")
                     result = self.validate(context, raw["review"])
+                    if isinstance(raw.get("generation"), dict):
+                        result["generation"] = {
+                            k: str(v)[:128]
+                            for k, v in raw["generation"].items()
+                            if k in {"provider", "model", "prompt_hash"}
+                        }
                 except (httpx.HTTPError, ValueError, KeyError):
                     raise ExternalServiceError(
                         "AI review is temporarily unavailable. Please retry.",

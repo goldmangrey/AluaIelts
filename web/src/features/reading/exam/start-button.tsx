@@ -30,7 +30,7 @@ export function StartButton({ examId, uid, learnerId, hasAttempt }: { examId: st
     } catch (failure) { setError(readingMessage(failure)); }
     finally { starts.delete(key); lock.current = false; setBusy(false); }
   }
-  return <><button className="button" disabled={busy} onClick={() => void start()}>{busy ? "Opening test…" : hasAttempt ? "Continue test" : "Start test"}</button>
+  return <><button className="button" disabled={busy} onClick={() => void start()}>{busy ? "Opening test…" : hasAttempt ? "Continue Reading" : "Start Reading →"}</button>
     {error && <p className="form-error" role="alert">{error} Retry uses the same start event.</p>}
     {choices.length > 0 && <div className="attempt-choices"><p>Choose an existing attempt to continue.</p>{choices.map((id, i) => <button className="text-button" key={id} onClick={() => router.push(`/reading/attempts/${id}`)}>Continue attempt {i + 1}</button>)}</div>}
   </>;

@@ -1,0 +1,18 @@
+.list { display: flex; flex-direction: column; }
+.tabs { display: inline-flex; gap: 4px; margin-bottom: 24px; padding: 4px; border: 1px solid #e2e8e3; border-radius: 10px; background: #f6f8f6; }
+.tabs button { padding: 9px 16px; border: 0; border-radius: 7px; background: transparent; color: #718077; font: inherit; font-size: 13px; font-weight: 550; cursor: pointer; transition: background-color 180ms ease, color 180ms ease; }
+.tabs button[aria-pressed="true"] { background: #fff; color: #176b50; }
+.tabs button:hover { color: #176b50; }
+.tabs button:focus-visible, .pagination button:focus-visible { outline: 2px solid #278461; outline-offset: 3px; }
+.details { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.details > div { min-width: 0; }
+.score { flex-shrink: 0; color: #244e39; font-size: 17px; font-weight: 600; white-space: nowrap; }
+.day { margin: 0 0 20px; color: #718077; font-size: 13px; }
+.day a { color: #176b50; }
+.pagination button { padding: 10px 0; border: 0; background: transparent; color: #227455; font: inherit; cursor: pointer; }
+.pagination button:disabled { color: #9aa69e; cursor: default; }
+@media (max-width:650px) {
+  .details { display: block; }
+  .score { display: block; margin-top: 10px; font-size: 14px; }
+}
+@media (prefers-reduced-motion:reduce) { .tabs button { transition: none; } }

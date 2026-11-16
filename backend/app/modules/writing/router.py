@@ -249,6 +249,8 @@ def submit(aid: UUID, data: Version, identity: Identity):
         if a.word_count < 250:
             raise ValidationError("Write at least 250 words before AI review.", "essay_too_short")
         a.status = "submitted"
+        if a.completed_at is None:
+            a.completed_at = datetime.now(UTC)
         return serial(a)
 
 

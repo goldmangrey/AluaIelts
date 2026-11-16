@@ -149,21 +149,18 @@ def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
     assert len(calls) == 1 and set(calls[0]["json"]) == {"attempt_id", "question_number"}
     assert client.get(base + "/review", headers=h).json() == before
     assert client.post(base + "/ai-review/2", headers=h).status_code == 422
-    # A changed QA revision invalidates the cache and does not call AI for incomplete data.
+    # Saved explanations remain immutable when current QA/prompt/rate state changes.
+    # Fresh generations still use transcript/evidence validation below.
     original["complete"] = False
-    incomplete = client.post(base + "/ai-review/1", headers=h).json()
-    assert incomplete["evidence"]["reason"] == "transcript_incomplete" and len(calls) == 1
+    assert client.post(base + "/ai-review/1", headers=h).json()["cached"] is True
     original["complete"] = True
     original["source_audio"] = "IELTS04-Test 2-Section 1.mp3"
-    assert (
-        client.post(base + "/ai-review/1", headers=h).json()["evidence"]["reason"]
-        == "audio_identity_mismatch"
-    )
-    # Rate limit is scoped to the verified owner and does not alter attempts.
+    assert client.post(base + "/ai-review/1", headers=h).json()["cached"] is True
     uid = ctx["learner_id"]
     ai._usage[uid] = {"until": ai.time.monotonic() + 60, "count": 6, "busy": False}
     original["text"] += " changed"
-    assert client.post(base + "/ai-review/1", headers=h).status_code == 429
+    assert client.post(base + "/ai-review/1", headers=h).status_code == 200
+    assert len(calls) == 1
     assert client.get(base + "/review", headers=h).json() == before
 
 
@@ -264,3 +261,45 @@ def test_legacy_cambridge05_audio_is_not_silently_remapped(listening, monkeypatc
     assert client.get(base + "/review", headers=h).json() == before
     with service.db.session() as session:
         assert session.get(ListeningAttemptRow, aid).snapshot == legacy
+
+
+def test_missing_audio_dependency_returns_503_before_inference(listening, monkeypatch):
+    import builtins
+    import sys
+
+    _, client, _, _ = listening
+    owner, _ = bootstrap(client, "husband")
+    original = builtins.__import__
+
+    def without_mutagen(name, *args, **kwargs):
+        if name == "mutagen":
+            raise ModuleNotFoundError("Missing deployment dependency", name="mutagen")
+        return original(name, *args, **kwargs)
+
+    monkeypatch.delitem(sys.modules, "app.modules.listening.ai_review")
+    monkeypatch.setattr(builtins, "__import__", without_mutagen)
+    base = f"/api/v1/listening/attempts/{uuid4()}/ai-review/1"
+    for method, path in [("GET", base + "/context"), ("POST", base)]:
+        response = client.request(method, path, headers=headers(owner))
+        assert response.status_code == 503
+        assert response.json()["error"]["code"] == "ai_review_unavailable"
+
+
+def test_worker_rate_limit_and_provider_failures_remain_controlled(monkeypatch, tmp_path):
+    from app.core.exceptions import AluaError
+
+    context = dict(sample(), fingerprint="isolated-test", unavailable_reason=None)
+    review = AIReview(None)
+    monkeypatch.setattr(review, "context", lambda *_: context)
+    monkeypatch.setattr(get_settings(), "listening_ai_cache_root", str(tmp_path))
+    monkeypatch.setattr(
+        get_settings(), "listening_ai_worker_url", "https://alua.study/api/listening/explain"
+    )
+    for status in (429, 503):
+        monkeypatch.setattr(
+            ai.httpx, "post", lambda *a, **kw: type("Reply", (), {"status_code": status})()
+        )
+        with pytest.raises(AluaError) as error:
+            review._generate("isolated-qa", "test-attempt", 1, "Bearer synthetic")
+        assert error.value.status_code == status
+    assert not list(tmp_path.glob("*.json"))

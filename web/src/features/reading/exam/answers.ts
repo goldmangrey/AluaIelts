@@ -1,7 +1,7 @@
 import type { Attempt } from "./models";
 import { eventId } from "./api";
 import { ApiError } from "@/lib/api/client";
-export interface SaveEvent { event_id: string; expected_version: number; answers: Record<string, string> }
+export interface SaveEvent { event_id: string; expected_version: number; answers: Record<string, string>; navigation?:{current_passage:number;current_question_id:string|null} }
 export type SaveAnswers = (event: SaveEvent) => Promise<Attempt>;
 interface Snapshot { answers: Record<string, string>; dirty: number; saving: boolean; error: unknown; terminal: boolean }
 /** One in-flight CAS write; explicit retry replays the exact UUID and payload. No offline queue. */

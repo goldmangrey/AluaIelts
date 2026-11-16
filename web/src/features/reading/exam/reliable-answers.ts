@@ -21,14 +21,17 @@ export interface ReliabilityOptions {
 }
 /** Durable outbox; the server alone owns acceptance, time and scoring. */
 export class ReliableAnswers {
+  private savedNavigation:string;
+  private navigation(){return {current_passage:this.view?.passage??this.attempt.state.current_passage,current_question_id:this.view?this.view.current:this.attempt.state.current_question_id??null};}
   private state:ReliableSnapshot; private base:Record<string,string>; private pending?:SaveEvent; private pendingRevision?:number;
   private rejectedSubmission?:SubmissionEvent; private legacySubmission?:SubmissionEvent; private submission?:SubmissionEvent; private finalAnswers?:Record<string,string>; private revision=0; private listeners=new Set<()=>void>();
   private flight?:Promise<void>; private writes=Promise.resolve(); private debounce?:ReturnType<typeof setTimeout>;
-  private retry?:ReturnType<typeof setTimeout>; private retries=0; private finalConflicts=0; private disposed=false; private mounted=0;
+  private retry?:ReturnType<typeof setTimeout>; private retries=0; private finalConflicts=0; private disposed=false;private closing=false; private mounted=0;
   private lease?:ReturnType<typeof setInterval>; private leased=false; private view?:ViewDraft;
   private terminalAttempt?:Attempt; private initialized=false;
   constructor(private attempt:Attempt, private options:ReliabilityOptions) {
     this.base={...attempt.answers};
+    this.savedNavigation=JSON.stringify({current_passage:attempt.state.current_passage,current_question_id:attempt.state.current_question_id??null});
     this.state={answers:{...attempt.answers},dirty:0,saving:false,error:null,terminal:attempt.status!=="in_progress",phase:"loading",localSaving:false,localError:null,offline:false,conflicts:[],otherTab:false,clock:{serverNow:attempt.server_now,deadline:attempt.deadline_at,revision:0},version:attempt.version};
   }
   snapshot=()=>this.state;
@@ -81,7 +84,7 @@ export class ReliableAnswers {
     void this.persist().catch(()=>{});
     clearTimeout(this.debounce);this.debounce=setTimeout(()=>void this.flush(),600);
   };
-  saveView=(view:ViewDraft)=>{if(!this.initialized||this.state.localError||this.state.otherTab||this.state.phase==="loading")return;this.view=view;void this.persist().catch(()=>{})};
+  saveView=(view:ViewDraft)=>{if(!this.initialized||this.state.localError||this.state.otherTab||this.state.phase==="loading")return;const previous=JSON.stringify(this.navigation());this.view=view;void this.persist().catch(()=>{});if(previous!==JSON.stringify(this.navigation())&&this.state.phase==="in_progress"){clearTimeout(this.debounce);this.debounce=setTimeout(()=>void this.flush(),600);}};
   private ids(){return allQuestions(this.attempt.exam!).map(q=>q.id);}
   private async finalEvent():Promise<SubmissionEvent>{
     const answers=this.finalAnswers||canonicalAnswers(this.ids(),this.state.answers);
@@ -152,8 +155,8 @@ export class ReliableAnswers {
       let conflicts=0;
       while(!this.disposed&&!this.state.terminal&&!this.state.conflicts.length) {
         if(this.submission){await this.persist();const remote=await this.options.get();if(remote.status!=="in_progress"){await this.confirmSubmission(remote,false);await this.persist();break;}const ack=await this.send(()=>this.options.submit(this.submission!));if(ack.status==="in_progress")throw new ApiError(502,"unexpected_reading_response");await this.confirmSubmission(ack);await this.persist();break}
-        if(!this.state.dirty&&!this.pending)break;
-        if(!this.pending){this.pending={event_id:eventId(),expected_version:this.state.version,answers:Object.fromEntries(Object.entries(this.state.answers).filter(([id,v])=>v!==(this.base[id]??"")))};this.pendingRevision=this.revision;}
+        if(!this.state.dirty&&!this.pending&&(this.state.phase!=="in_progress"||JSON.stringify(this.navigation())===this.savedNavigation))break;
+        if(!this.pending){this.pending={event_id:eventId(),expected_version:this.state.version,navigation:this.navigation(),answers:Object.fromEntries(Object.entries(this.state.answers).filter(([id,v])=>v!==(this.base[id]??"")))};this.pendingRevision=this.revision;}
         // Never transmit a mutation before its exact replay data commits locally.
         await this.persist();const event=this.pending;
         try {
@@ -161,7 +164,7 @@ export class ReliableAnswers {
           if(ack.id!==this.attempt.id)throw new ApiError(502,"unexpected_reading_response");
           if(ack.status!=="in_progress"){this.acceptTerminal(ack);await this.persist();break}
           if(ack.mutation_applied!==true||ack.version!==event.expected_version+1)throw new ApiError(409,"reading_version_conflict");
-          this.base={...this.base,...event.answers};this.pending=undefined;this.pendingRevision=undefined;this.publish({version:ack.version});
+          this.base={...this.base,...event.answers};if(event.navigation)this.savedNavigation=JSON.stringify(event.navigation);this.pending=undefined;this.pendingRevision=undefined;this.publish({version:ack.version});
           await this.persist();
           // Replayed acknowledgements may predate subsequent writes on another device.
           if(this.options.get)this.merge(await this.options.get());
@@ -216,9 +219,9 @@ export class ReliableAnswers {
     await this.flight;this.flight=undefined;
     if((this.state.dirty||this.state.phase==="finalizing"||this.state.phase==="submission_unknown")&&!this.state.conflicts.length&&!this.state.terminal)void this.flush();
   };
-  suspend=()=>{void this.writes.catch(()=>{}).then(()=>this.options.store.release()).catch(()=>{})};
+  suspend=()=>{void this.flush().finally(()=>this.writes.catch(()=>{}).then(()=>this.options.store.release())).catch(()=>{})};
   resume=async()=>{await this.renew();if(this.leased)await this.refresh()};
   mount(){this.mounted++}
   unmount(){this.mounted--;queueMicrotask(()=>{if(!this.mounted)this.dispose()})}
-  dispose(){if(this.disposed)return;this.disposed=true;clearTimeout(this.debounce);clearTimeout(this.retry);clearInterval(this.lease);this.listeners.clear();void this.writes.catch(()=>{}).then(()=>this.options.store.release()).catch(()=>{})}
+  dispose(){if(this.disposed||this.closing)return;this.closing=true;const saving=this.flush();clearTimeout(this.debounce);clearTimeout(this.retry);clearInterval(this.lease);this.listeners.clear();void saving.catch(()=>{}).then(()=>{this.disposed=true;return this.writes.catch(()=>{});}).then(()=>this.options.store.release()).catch(()=>{})}
 }

@@ -174,14 +174,17 @@ def test_authorization_and_existing_features(system):
     for path, operations in paths.items():
         if path in ["/", "/api/v1/health", "/api/v1/enrollment"]:
             continue
-        for method in operations:
+        for method, operation in operations.items():
+            if not operation.get("security"):
+                continue  # Signed playback grants have separate Listening security tests.
             if method not in {"get", "post", "patch", "delete", "put"}:
                 continue
             url = re.sub(r"\{[^}]+\}", str(uuid4()), path)
             response = client.request(method, url, json={})
             assert response.status_code == 401, (method, path, response.text)
             count += 1
-    assert count == 69  # Existing 68 endpoints plus authenticated Firebase registration.
+    assert count > 0
+    assert not any(path.startswith("/api/v1/vocabulary") for path in paths)
     assert client.post("/api/v1/enrollment", json={"code": "0" * 32}).status_code == 401
     assert (
         client.post(
@@ -221,9 +224,6 @@ def test_authorization_and_existing_features(system):
     for path in [
         "/curriculum/me",
         "/grammar",
-        "/vocabulary/tracks",
-        "/vocabulary-learning/today",
-        "/vocabulary-learning/weekly",
         "/progress",
         "/student-model",
         "/partner/status",
@@ -237,34 +237,10 @@ def test_authorization_and_existing_features(system):
     snapshot = client.get("/api/v1/widgets/snapshot", headers=headers(husband))
     assert snapshot.status_code == 200, snapshot.text
     assert snapshot.json()["schema_version"] == 5
-    today = client.get("/api/v1/vocabulary-learning/today", headers=headers(husband)).json()
-    # Read session identifiers from the response contract, then check foreign ownership.
-    for key in ["midday_session", "evening_session"]:
-        session_id = today[key]["session_id"]
-        assert (
-            client.get(
-                f"/api/v1/vocabulary-learning/review-sessions/{session_id}", headers=headers(wife)
-            ).status_code
-            == 404
-        )
-
-    session_id = today["midday_session"]["session_id"]
-    cards = client.get(
-        f"/api/v1/vocabulary-learning/review-sessions/{session_id}", headers=headers(husband)
-    ).json()["cards"]
-    assert cards
-    submission = {
-        "event_id": str(uuid4()),
-        "lexical_item_id": cards[0]["lexical_item_id"],
-        "rating": "good",
-    }
-    route = f"/api/v1/vocabulary-learning/review-sessions/{session_id}/responses"
-    assert client.post(route, headers=headers(wife), json=submission).status_code == 422
-    first = client.post(route, headers=headers(husband), json=submission)
-    assert first.status_code == 200, first.text
-    repeat = client.post(route, headers=headers(husband), json=submission)
-    assert repeat.status_code == 200, repeat.text
-    assert repeat.json() == first.json()
+    # Retired standalone Vocabulary endpoints must stay absent, with or without auth.
+    for path in ("/vocabulary", "/vocabulary-learning/today", "/vocabulary-v1/snapshot"):
+        assert client.get("/api/v1" + path, headers=headers(husband)).status_code == 404
+        assert client.get("/api/v1" + path).status_code == 404
     invite = client.post("/api/v1/partner/invitations", headers=headers(husband))
     assert invite.status_code == 200, invite.text
     accepted = client.post(

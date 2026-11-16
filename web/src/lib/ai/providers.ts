@@ -1,5 +1,5 @@
 /** Compatibility facade for the existing AI layer. All task routing lives in orchestrator.ts. */
-import {ai} from './orchestrator';
+import {ai,type Telemetry} from './orchestrator';
 import {groqAdapter} from './adapters/groq';
 import {cloudflareAdapter} from './adapters/cloudflare';
 import {type AIEnv, type AdapterInput, ProviderError, timed} from './adapters/common';
@@ -20,8 +20,8 @@ export async function cloudflare(env: AIEnv, model: string, value: Record<string
 export async function fallback<T>(primary: () => Promise<T>, secondary: () => Promise<T>): Promise<T> {
   try {return await primary();} catch (e) {if (!(e instanceof ProviderError) || !e.retryable) throw e; return secondary();}
 }
-export async function listeningInference<T = unknown>(env: AIEnv, value: Record<string, unknown>, validate: (output: unknown) => T = (o => {modelJSON(o); return o as T;})) {
-  return ai.generate({env, task: 'listening_review', messages: input(value).messages, validate});
+export async function listeningInference<T = unknown>(env: AIEnv, value: Record<string, unknown>, validate: (output: unknown) => T = (o => {modelJSON(o); return o as T;}), onSuccess?:(event:Telemetry)=>void) {
+  return ai.generate({env, task: 'listening_review', messages: input(value).messages, validate, onSuccess});
 }
 export async function readingInference<T = unknown>(env: AIEnv, value: Record<string, unknown>, validate: (output: unknown) => T = (o => {modelJSON(o); return o as T;}), deadlineMs?:number) {
   return ai.generate({env, task: 'smart_translate', messages: input(value).messages, validate, deadlineMs});

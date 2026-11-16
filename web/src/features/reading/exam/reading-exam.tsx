@@ -69,7 +69,7 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
   useEffect(()=>{if(advanced?.conflicts.length&&!conflictModal.current?.open)conflictModal.current?.showModal();else if(!advanced?.conflicts.length)conflictModal.current?.close()},[advanced?.conflicts]);
   useEffect(()=>{
     if(!controller)return;
-    const refresh=()=>{if(!document.hidden)void controller.refresh()};
+    const refresh=()=>{if(!document.hidden)void controller.refresh();else void controller.flush();};
     window.addEventListener("pagehide",controller.suspend);window.addEventListener("pageshow",controller.resume);
     window.addEventListener("online",refresh);window.addEventListener("focus",refresh);document.addEventListener("visibilitychange",refresh);
     const timer=setInterval(refresh,30000);
@@ -80,8 +80,8 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
   const [navigation, setNavigation] = useState(0);
   const [reviewFilter,setReviewFilter]=useState<"all"|"incorrect"|"unanswered">("all");
   const [visited, setVisited] = useState(() => new Set([reviewPassage ?? saved?.passage ?? exam.passages.find((p) => p.number === attempt.state.current_passage)?.number ?? exam.passages[0]!.number]));
-  const [current, setCurrent] = useState<string | null>(reviewQuestion?.id??saved?.current??null);
-  const ai=useReadingAI(uid,attempt.id,exam,current);
+  const [current, setCurrent] = useState<string | null>(reviewQuestion?.id??(saved?saved.current:attempt.state.current_question_id??null));
+  const ai=useReadingAI(uid,attempt.id,exam,current,!!result);
   const [evidenceFor,setEvidenceFor]=useState<string|null>(null);
   const evidenceJump=useRef(false);
   const aiData=result&&ai.active?ai.state.data:undefined;
@@ -109,13 +109,13 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
     try { localStorage.setItem(sizeKey, String(value)); } catch { /* Keep available in memory. */ }
   }
 
-  const [mobile, setMobile] = useState<"passage" | "questions">(reviewQuestion?"questions":saved?.mobile??"passage");
+  const [mobile, setMobile] = useState<"passage" | "questions">(reviewQuestion?"questions":saved?.mobile??(attempt.state.current_question_id?"questions":"passage"));
   const [expiredRevision,setExpiredRevision]=useState(-1);
   const timeOver=expiredRevision===(advanced?.clock.revision??0);
   const left = useRef<HTMLDivElement>(null); const right = useRef<HTMLDivElement>(null); const workspace = useRef<HTMLDivElement>(null);
   const view = useRef(new Map<number, PassageViewState>(saved?.views??[]));
   const nodes = useRef(new Map<string, HTMLElement>());
-  const jump = useRef<string | null>(reviewQuestion?.id??null); const modal = useRef<HTMLDialogElement>(null); const allButton = useRef<HTMLButtonElement>(null);
+  const jump = useRef<string | null>(reviewQuestion?.id??(saved?saved.current:attempt.state.current_question_id??null)); const modal = useRef<HTMLDialogElement>(null); const allButton = useRef<HTMLButtonElement>(null);
   const active = exam.passages.find((p) => p.number === passage)!;
   const questions = allQuestions(exam);
   const expired = useCallback(() => {setExpiredRevision(advanced?.clock.revision??0);if(controller)void controller.refresh()}, [controller,advanced?.clock.revision]);
@@ -167,7 +167,7 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
   const verdicts=new Map(result?.positions.map(p=>[p.question_id,p]));
   const statusOf=(id:string)=>{const p=verdicts.get(id);return !p?"ungraded":p.unanswered?"unanswered":p.is_correct?"correct":"incorrect";};
   const visibleQuestions=result&&reviewFilter!=="all"?new Set(result.positions.filter(p=>statusOf(p.question_id)===reviewFilter).map(p=>p.question_id)):undefined;
-  const actions: QuestionActions = { explain:result?{isOpen:(id)=>ai.forQuestion(id).active,open:(id)=>{setCurrent(id);const card=ai.forQuestion(id);if(card.active)card.close();else void card.open(id);},render:(q)=>ai.forQuestion(q.id).active&&(!visibleQuestions||visibleQuestions.has(q.id))&&<ReadingAIExplanation key={q.id} verdict={verdicts.get(q.id)} question={q} ai={ai.forQuestion(q.id)} onShow={()=>{remember();setCurrent(q.id);setEvidenceFor(q.id);evidenceJump.current=true;setMobile('passage');setNavigation(n=>n+1);}}/>}:undefined, visibleQuestions, answers: state.answers, review, locked: new Set(attempt.state.checked_question_ids), disabled: state.terminal || timeOver || !!result || !!advanced?.localError || advanced?.otherTab || advanced?.phase!==undefined&&advanced.phase!=="in_progress" || !!advanced?.conflicts.length || !controller&&state.error instanceof ApiError && state.error.status === 409, results:result?.positions, change: editor.change, toggleReview, register: (id, node) => { if (node) nodes.current.set(id, node); else nodes.current.delete(id); }, focus: setCurrent };
+  const actions: QuestionActions = { explain:result?{isSaved:ai.isSaved,isOpen:(id)=>ai.forQuestion(id).active,open:(id)=>{setCurrent(id);const card=ai.forQuestion(id);if(card.active)card.close();else void card.open(id);},render:(q)=>ai.forQuestion(q.id).active&&(!visibleQuestions||visibleQuestions.has(q.id))&&<ReadingAIExplanation showMascot={current===q.id} key={q.id} verdict={verdicts.get(q.id)} question={q} ai={ai.forQuestion(q.id)} onShow={()=>{remember();setCurrent(q.id);setEvidenceFor(q.id);evidenceJump.current=true;setMobile('passage');setNavigation(n=>n+1);}}/>}:undefined, visibleQuestions, answers: state.answers, review, locked: new Set(attempt.state.checked_question_ids), disabled: state.terminal || timeOver || !!result || !!advanced?.localError || advanced?.otherTab || advanced?.phase!==undefined&&advanced.phase!=="in_progress" || !!advanced?.conflicts.length || !controller&&state.error instanceof ApiError && state.error.status === 409, results:result?.positions, change: editor.change, toggleReview, register: (id, node) => { if (node) nodes.current.set(id, node); else nodes.current.delete(id); }, focus: setCurrent };
   function chooseConflict(id:string,choice:"local"|"server") {
     const group=exam.passages.flatMap(p=>p.question_groups).find(g=>g.questions.some(q=>q.id===id));
     const ids=group?.type==="multiple_choice_multiple"?group.questions.map(q=>q.id):[id];
@@ -178,7 +178,7 @@ export function ReadingExam({ attempt, uid, save, controller, result, reviewQues
     return <button type="button" key={q.id} className={`question-nav-number ${answered ? "answered" : ""} ${marked ? "marked" : ""}`} aria-label={`Question ${q.number}${answered ? ", answered" : ", unanswered"}${marked ? ", marked for review" : ""}`} data-review-status={result?statusOf(q.id):undefined} aria-current={current === q.id ? "true" : undefined} onClick={() => go(q)}>{q.number}{marked && <span aria-hidden="true">·</span>}</button>;
   }
   return <main id="main" className={`reading-exam ${result?reviewStyles.review:styles.focus}`} data-mobile-panel={mobile}>
-    {result?<header className={`exam-header ${reviewStyles.header}`}><Link href={`/reading/attempts/${attempt.id}/result`}>← Results</Link><span>· Cambridge {exam.source_book} · Test {exam.source_test_number}</span><button type="button" ref={allButton} aria-label="Question navigator" aria-haspopup="dialog" onClick={()=>modal.current?.showModal()}>Questions</button></header>:<header className="exam-header"><Link className="wordmark" href="/reading" aria-label="Back to Reading" onNavigate={(event) => {
+    {result?<header className={`exam-header ${reviewStyles.header}`}><Link href={`/reading/attempts/${attempt.id}/result`}>← Results</Link><Link href="/">← Back to Home</Link><Link href="/practice/history">Back to History</Link><Link href="/practice/mistakes">Review Mistakes</Link><span>· Cambridge {exam.source_book} · Test {exam.source_test_number}</span><button type="button" ref={allButton} aria-label="Question navigator" aria-haspopup="dialog" onClick={()=>modal.current?.showModal()}>Questions</button></header>:<header className="exam-header"><Link className="wordmark" href="/reading" aria-label="Back to Reading" onNavigate={(event) => {
       if (state.dirty || state.saving) {
         event.preventDefault();
         void editor.flush().then(() => { if (!editor.snapshot().dirty && !editor.snapshot().error) router.push("/reading"); });

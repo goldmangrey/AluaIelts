@@ -6,7 +6,8 @@ import {resolve,dirname,join} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawn} from 'node:child_process';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),require=createRequire(import.meta.url);
-const {chromium,webkit,expect}=require('@playwright/test');
+const {chromium,webkit,expect:baseExpect}=require('@playwright/test');
+const expect=baseExpect.configure({timeout:20000});
 if(!process.env.ALUA_READING_AI_FIXTURE)throw Error('Run through pytest disposable backend fixture.');
 const fixture=JSON.parse(await readFile(process.env.ALUA_READING_AI_FIXTURE,'utf8'));
 const temp=await mkdtemp(join(tmpdir(),'alua-reading-ai-browser-')),output=join(root,'docs/reading-ai-review-v1');
@@ -18,7 +19,7 @@ try{
  await file('src/lib/firebase/client.ts',`import type {Auth} from 'firebase/auth';export function firebaseConfigured(){return true}export async function getFirebaseAuth():Promise<Auth>{throw Error('Local fixture only')}export async function getIdToken(){return ${JSON.stringify(fixture.token)}}`);
  await file('src/features/auth/session.ts',`'use client';import {useSyncExternalStore} from 'react';const initial={status:'loading' as const,user:null,profile:null,generation:0};const ready={status:'ready' as const,user:{uid:${JSON.stringify(fixture.uid)},email:null},profile:null,generation:1};export function useSession(){return useSyncExternalStore(()=>()=>{},()=>ready,()=>initial)}export async function prepareGoogleAuth(){return async()=>{}}export async function retrySession(){}export async function logout(){}export async function authenticate(){}export function rejectSession(){}`);
  let route=await readFile(join(root,'src/app/api/reading/explain/route.ts'),'utf8');
- route=route.replace("import {getCloudflareContext} from '@opennextjs/cloudflare';",'').replace('const env=(await getCloudflareContext({async:true})).env as AIEnv;',"const env:AIEnv={GROQ_API_KEY:'local-fixture-only'};");
+ route=route.replace('entry.count>=6','entry.count>=60').replace("import {getCloudflareContext} from '@opennextjs/cloudflare';",'').replace('const env=(await getCloudflareContext({async:true})).env as AIEnv;',"const env:AIEnv={GROQ_API_KEY:'local-fixture-only'};");
  await file('src/app/api/reading/explain/route.ts',route);
  await file('src/lib/ai/adapters/groq.ts',`import type {Adapter} from './common';
 export const groqAdapter:Adapter=async(_env,_model,input,signal)=>{
@@ -37,6 +38,7 @@ export const groqAdapter:Adapter=async(_env,_model,input,signal)=>{
  for(const [name,engine,viewport]of [['desktop',chromium,{width:1366,height:768}],['mobile',webkit,{width:390,height:844}]]){
   const browser=await engine.launch({headless:true});
   try{
+   fixture.attempt=fixture.attempts?.[name]??fixture.attempt;
    const context=await browser.newContext({viewport}),page=await context.newPage();page.setDefaultTimeout(20000);
    const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.route('**/*',r=>{const u=r.request().url();return u.startsWith('blob:')||['localhost','127.0.0.1'].includes(new URL(u).hostname)?r.continue():r.abort();});
@@ -51,7 +53,7 @@ export const groqAdapter:Adapter=async(_env,_model,input,signal)=>{
    await page.locator(`a[href="/reading/attempts/${aid}/review"]`).first().click();
    await expect(page.getByRole('button',{name:'Question navigator',exact:true})).toBeVisible();
    async function go(number){await page.getByRole('button',{name:'Question navigator',exact:true}).click();await page.getByRole('button',{name:new RegExp('^Question '+number+',')}).click();}
-   await go(7);const explain=page.getByRole('button',{name:'Explain question 7 with AI',exact:true});
+   await go(7);const explain=page.getByRole('button',{name:/^(Explain question 7 with AI|View AI explanation for question 7)$/});
    await expect(explain).toBeVisible();await page.screenshot({path:join(output,`${name}-closed.png`),fullPage:true});
    await explain.focus();await page.keyboard.press('Enter');
    const card=page.getByRole('region',{name:'AI explanation for question 7',exact:true});
@@ -76,11 +78,13 @@ export const groqAdapter:Adapter=async(_env,_model,input,signal)=>{
    expect(await page.evaluate(f=>localStorage.getItem(`alua:reading:bookmarks:v2:${f.uid}:${f.attempt.id}:${f.highlight.passageId}`),fixture)).toBe('[3]');
 
    await page.getByRole('button',{name:/Back to Q7$/}).click();await expect(card).toBeVisible();
-   const before=requests;await explain.click();await expect(card).toHaveCount(0);await explain.click();await expect(card.getByText('Saved explanation')).toBeVisible();expect(requests).toBe(before);
+   const before=requests;await explain.click();await expect(card).toHaveCount(0);await explain.click();await expect(card.getByRole('button',{name:'Show in passage'}).first()).toBeVisible();await expect(card.getByText('Saved explanation',{exact:true})).toHaveCount(0);expect(requests).toBe(before);
+   const savedRequests=requests;await page.goto(`http://127.0.0.1:3327/reading/attempts/${aid}/review?question=cambridge-07-test-01-q-07`);
+   await expect(page.getByRole('region',{name:'AI explanation for question 7',exact:true}).getByRole('button',{name:'Show in passage'}).first()).toBeVisible();await expect(page.getByText('Saved explanation',{exact:true})).toHaveCount(0);expect(requests).toBe(savedRequests);
    // A different question/passage clears the active evidence. Late responses cannot attach to Q7.
    await go(8);await page.getByRole('button',{name:'Explain question 8 with AI',exact:true}).click();await go(7);
    await expect(page.getByRole('region',{name:'AI explanation for question 7',exact:true})).toBeVisible();await page.waitForTimeout(1000);
-   expect(await page.getByRole('region',{name:'AI explanation for question 8',exact:true}).count()).toBe(1);
+   expect(await page.getByRole('region',{name:'AI explanation for question 8',exact:true}).count()).toBe(1);await expect(page.getByRole('region',{name:'AI explanation for question 8',exact:true}).locator('[aria-live="polite"]')).not.toContainText('Сопоставляем');
    await page.getByRole('button',{name:'Passage 2',exact:true}).click();expect(await page.locator('[data-reading-ai="true"]').count()).toBe(0);
    // Error/retry state: transport is mocked only for this explicit negative case.
    await go(6);let fail='rate';await page.route('**/api/reading/review',r=>fail?r.fulfill({status:fail==='rate'?429:503,json:{error:{code:'reading_ai_unavailable'}}}):r.continue());

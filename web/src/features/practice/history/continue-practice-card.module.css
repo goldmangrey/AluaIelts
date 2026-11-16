@@ -1,0 +1,74 @@
+.card {
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  position: relative;
+  margin: 0 0 30px;
+  padding: 32px 36px 20px;
+  border: 1px solid #acd5c1;
+  border-radius: 20px;
+  background: radial-gradient(ellipse at 100% 0%, #dff2e8 0%, transparent 57%), #fcfefd;
+  color: #1b3028;
+  box-shadow: 0 12px 28px -24px #245d4533;
+  transition: transform 330ms var(--ease), box-shadow 330ms var(--ease), border-color 330ms var(--ease);
+  animation: arrive 450ms var(--ease);
+}
+.card::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 32px;
+  bottom: 32px;
+  width: 3px;
+  border-radius: 0 4px 4px 0;
+  background: #168960;
+}
+.topRow { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.label { display: flex; align-items: center; gap: 13px; margin: 0; color: #228260; font-size: 11px; font-weight: 700; line-height: 1.6; letter-spacing: .24em; text-transform: uppercase; }
+.dot { position: relative; width: 8px; height: 8px; flex-shrink: 0; border-radius: 50%; background: #16a36d; }
+.dot::after { content: ''; position: absolute; inset: -4px; border-radius: inherit; background: #16a36d24; animation: pulse 3s ease-in-out infinite; }
+.badge { flex-shrink: 0; color: #628879; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.slash { margin-inline: 12px; color: #b9d0c4; }
+.main { display: flex; align-items: center; justify-content: space-between; gap: 48px; margin-top: 30px; }
+.content { min-width: 0; max-width: 34rem; }
+.title { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; overflow-wrap: anywhere; margin: 0; font-size: 24px; font-weight: 700; line-height: 1.25; letter-spacing: -.045em; }
+.progress { display: flex; flex-wrap: wrap; margin: 17px 0 0; color: #73887e; font-size: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+.separator { margin-inline: 12px; }
+.action { display: inline-flex; align-items: center; justify-content: space-between; gap: 32px; flex-shrink: 0; min-height: 60px; padding: 16px 22px; border-radius: 12px; background: #136c54; color: #fff; font-size: 16px; font-weight: 600; line-height: 1.5; box-shadow: 0 8px 18px #136c5414; transition: background 330ms var(--ease), box-shadow 330ms var(--ease), transform 330ms var(--ease); }
+.arrow { display: inline-block; font-size: 25px; font-weight: 400; line-height: 1; transition: transform 330ms var(--ease); }
+.footer { display: flex; align-items: center; gap: 24px; margin-top: 32px; }
+.footer::before { content: ''; height: 1px; flex: 1; background: linear-gradient(90deg, #d3e7dc, #e9f3ed66); }
+.otherSessions { display: inline-flex; align-items: center; gap: 12px; min-height: 32px; color: #507e6c; font-size: 13px; line-height: 1.5; }
+.action:focus-visible, .otherSessions:focus-visible { outline: 2px solid #136c54; outline-offset: 5px; }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover { transform: translateY(-3px); border-color: #87bba3; box-shadow: 0 16px 32px -20px #245d4530; }
+  .action:hover { background: #105e49; box-shadow: 0 10px 22px #136c5429; }
+  .action:hover .arrow { transform: translate(3px, -3px); }
+  .otherSessions:hover { color: #136c54; }
+}
+.action:active { transform: scale(.97); }
+@keyframes arrive { from { opacity: 0; translate: 0 8px; } to { opacity: 1; translate: 0 0; } }
+@keyframes pulse { 0%, 100% { opacity: .25; transform: scale(.7); } 50% { opacity: .65; transform: scale(1.2); } }
+@media (max-width: 900px) {
+  .card { padding: 28px 28px 18px; }
+  .main { gap: 24px; }
+  .label { letter-spacing: .17em; font-size: 10px; }
+  .badge { font-size: 10px; }
+  .action { gap: 20px; padding-inline: 18px; }
+}
+@media (max-width: 639px) {
+  .card { padding: 24px 22px 16px; }
+  .card::before { top: 28px; bottom: 28px; }
+  .label { gap: 10px; font-size: 9px; letter-spacing: .13em; }
+  .badge { display: none; }
+  .main { flex-direction: column; align-items: stretch; gap: 24px; margin-top: 24px; }
+  .title { font-size: 22px; }
+  .progress { margin-top: 14px; font-size: 13px; }
+  .separator { margin-inline: 8px; }
+  .action { width: 100%; min-height: 54px; }
+  .footer { gap: 16px; margin-top: 20px; }
+  .otherSessions { font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card, .dot::after { animation: none; }
+  .card, .action, .arrow { transition: none; }
+  .card:hover, .action:active, .action:hover .arrow { transform: none; }
+}

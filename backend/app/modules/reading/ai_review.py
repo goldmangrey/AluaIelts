@@ -482,6 +482,19 @@ class ReadingAIReview:
             return context
 
     def explain(self, uid, aid, qid, authorization):
+        from app.modules.practice.reviews import saved_review
+
+        return saved_review(
+            self.service,
+            "reading",
+            uid,
+            aid,
+            qid,
+            lambda: self._generate(uid, aid, qid, authorization),
+            VERSION,
+        )
+
+    def _generate(self, uid, aid, qid, authorization):
         context = self.context(uid, aid, qid)
         root = Path(get_settings().reading_ai_cache_root)
         try:
@@ -593,4 +606,9 @@ class ReadingAIReview:
                     "review": result,
                     "cached": False,
                     "source_status": context["source_status"],
+                    "generation": {
+                        k: str(v)[:128]
+                        for k, v in data.get("generation", {}).items()
+                        if k in {"provider", "model", "prompt_hash"}
+                    },
                 }

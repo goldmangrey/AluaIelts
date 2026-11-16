@@ -57,41 +57,50 @@
   outline:2px solid #008f63
 }
 .main{
-  padding-top:24px
+  padding-top:0
+}
+.hero{
+  max-width:850px;
+  padding:34px 0 42px
 }
 .eyebrow{
-  color:#008f63;
-  letter-spacing:.15em;
-  align-items:center;
-  gap:18px;
-  font-size:19px;
-  font-weight:700;
-  line-height:26px;
-  display:flex
+  margin:0 0 18px;
+  color:#00835b;
+  font-size:12px;
+  font-weight:650;
+  letter-spacing:.17em;
+  line-height:1.5
 }
-.eyebrow span{
-  background:currentColor;
-  width:45px;
-  height:2px
-}
-.hero h1{
-  letter-spacing:-.02em;
-  margin:10px 0 0;
-  font-size:84px;
-  font-weight:800;
-  line-height:1.05
+.title{
+  margin:0;
+  max-width:820px;
+  color:#1c2925;
+  font-size:clamp(38px,4.2vw,58px);
+  font-weight:650;
+  letter-spacing:-.045em;
+  line-height:1.08;
+  text-wrap:balance
 }
 .subtitle{
-  color:#71717a;
-  margin-top:14px;
-  font-size:28px;
-  font-weight:400;
-  line-height:1.35
+  margin:22px 0 0;
+  max-width:650px;
+  color:#66736d;
+  font-size:18px;
+  line-height:1.7;
+  text-wrap:pretty
+}
+.sectionHeading{
+  margin:0;
+  color:#34433c;
+  font-size:20px;
+  font-weight:550;
+  letter-spacing:-.025em;
+  line-height:1.4
 }
 .grid{
   grid-template-columns:repeat(2,minmax(0,1fr));
   gap:40px 24px;
-  margin-top:52px;
+  margin-top:82px;
   display:grid
 }
 .entrance{
@@ -281,9 +290,6 @@
   }
 }
 @media (min-width:640px) and (max-width:1100px){
-  .hero h1{
-    font-size:72px
-  }
   .grid{
     gap:38px 22px
   }
@@ -332,15 +338,6 @@
   }
 }
 @media (min-width:640px) and (max-width:850px){
-  .main{
-    padding-top:24px
-  }
-  .hero h1{
-    font-size:64px
-  }
-  .subtitle{
-    font-size:24px
-  }
   .card{
     --object-width:180px;
     --object-top:-38px;
@@ -407,32 +404,15 @@
     width:18px;
     height:18px
   }
-  .main{
-    padding-top:22px
-  }
-  .eyebrow{
-    gap:14px;
-    font-size:14px;
-    line-height:22px
-  }
-  .eyebrow span{
-    width:34px
-  }
-  .hero h1{
-    letter-spacing:-.035em;
-    margin-top:12px;
-    font-size:clamp(40px,10.4vw,64px)
-  }
-  .subtitle{
-    max-width:330px;
-    margin-top:14px;
-    font-size:20px;
-    line-height:1.45
-  }
+  .hero{padding:24px 0 30px}
+  .eyebrow{font-size:10px;letter-spacing:.15em;margin-bottom:16px}
+  .title{font-size:38px;line-height:1.1}
+  .subtitle{font-size:16px;line-height:1.65;margin-top:18px}
+  .sectionHeading{font-size:18px;max-width:290px}
   .grid{
     grid-template-columns:minmax(0,1fr);
     gap:44px;
-    margin-top:49px
+    margin-top:66px
   }
   .card{
     --object-width:190px;
@@ -487,9 +467,6 @@
   .container{
     width:calc(100% - 36px);
     padding-inline:18px
-  }
-  .subtitle{
-    font-size:18px
   }
   .card{
     --object-width:180px;

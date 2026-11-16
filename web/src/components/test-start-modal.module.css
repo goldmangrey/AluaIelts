@@ -1,0 +1,22 @@
+.dialog{box-sizing:border-box;width:min(680px,calc(100% - 32px));max-width:680px;max-height:calc(100dvh - 32px - env(safe-area-inset-top) - env(safe-area-inset-bottom));margin:auto;padding:28px;border:1px solid #d9e3da;border-radius:24px;background:#f5f7f3;color:#193a2f;box-shadow:0 24px 80px #142f2526;overflow-y:auto;overscroll-behavior:contain;animation:enter .18s ease-out}
+.dialog::backdrop{background:#152b254d;backdrop-filter:blur(5px)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.top p{margin:0;color:#196e59;font-size:12px;font-weight:600;letter-spacing:.065em}
+.close{flex:none;display:grid;place-items:center;width:40px;height:40px;border:0;border-radius:50%;background:transparent;color:#63766c;font-size:28px;cursor:pointer}
+.close:hover{background:#e5ece4}
+.dialog h2{margin:0;font-size:clamp(25px,4vw,34px);font-weight:650;line-height:1.16;letter-spacing:-.035em;outline:none}
+.description{margin:18px 0 24px;color:#63766c;font-size:16px;line-height:1.6}
+.facts{display:flex;gap:12px;margin:0 0 20px}
+.facts div{display:flex;flex:1;min-width:0;flex-direction:column-reverse;gap:8px;padding:20px;border:1px solid #d9e3da;border-radius:16px;background:#fff}
+.facts dt{font-size:13px;color:#63766c}
+.facts dd{margin:0;font-size:30px;font-weight:600;line-height:1.1;letter-spacing:-.03em}
+.note{font-size:13px;line-height:1.5;color:#63766c;margin:16px 0}
+.actions{margin-top:22px}
+.actions>button,.actions> a,.actions> .button{display:flex;align-items:center;justify-content:center;gap:12px;box-sizing:border-box;width:100%;min-height:54px;padding:14px 18px;border:0;border-radius:14px;background:#196e59;color:white;font-size:17px;font-weight:550;text-decoration:none;cursor:pointer}
+.actions>button:disabled{opacity:.55;cursor:wait}
+.actions>button:hover:not(:disabled),.actions>a:hover{background:#145c49}
+.actions p{line-height:1.5}
+.dialog :focus-visible{outline:2px solid #196e59;outline-offset:3px}
+@keyframes enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:480px){.dialog{width:calc(100% - 24px);padding:20px;border-radius:22px}.top{margin-bottom:16px;gap:4px}.top p{font-size:10px;letter-spacing:.04em}.description{font-size:14px;margin:14px 0 20px}.facts{gap:8px}.facts div{padding:16px 10px;gap:8px;border-radius:13px}.facts dd{font-size:27px}.facts dt{font-size:12px}.actions{margin-top:18px}.note{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.dialog{animation:none}.dialog::backdrop{backdrop-filter:none}}

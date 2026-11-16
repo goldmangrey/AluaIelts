@@ -6,7 +6,9 @@ from alembic import context
 from app.core.config import get_settings
 from app.db.models import Base
 from app.modules.listening import models as listening_models  # noqa: F401
+from app.modules.practice import models as practice_models  # noqa: F401
 from app.modules.reading import models as reading_models  # noqa: F401
+from app.modules.vocabulary_v1 import models as vocabulary_v1_models  # noqa: F401
 from app.modules.writing import models as writing_models  # noqa: F401
 
 config = context.config

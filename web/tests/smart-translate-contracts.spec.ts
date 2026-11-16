@@ -1,3 +1,5 @@
+import {createHash} from 'node:crypto';
+import {models} from '../src/lib/ai/tasks';
 import {validateReview} from '../src/lib/ai/review';
 import {readingInference,listeningInference,groq,cloudflare,fallback,ProviderError,modelJSON,reviewJSON,type AIEnv} from "../src/lib/ai/providers";
 import { test, expect } from "@playwright/test";
@@ -139,20 +141,32 @@ test("Provider deadlines are bounded and malformed data allows failover",async()
 
 test("Listening Worker accepts only owned completed server context and ignores client-supplied answers",async()=>{
  const code=ts.transpileModule(readFileSync('src/app/api/listening/explain/route.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
- const exports:{POST?:(r:Request)=>Promise<Response>}={};let owned=true,calls=0,status=200;
+ const exports:{POST?:(r:Request)=>Promise<Response>}={};let owned=true,calls=0,status=200,prompt='',invalid=false;
  const ai={what_happened:'В аудио названа другая сумма.',why:'Ответ не совпадает с ключом.',next_time:'Слушайте число внимательно.',segment_ids:['seg-0001'],quote:'Forty pounds.'};
  const original=globalThis.fetch;
- globalThis.fetch=async()=>{calls++;return status===200?Response.json({choices:[{message:{content:JSON.stringify(ai),reasoning:'secret internal'}}]}):Response.json({}, {status});};
+ globalThis.fetch=async(_url,options)=>{calls++;
+  const payload=JSON.parse(String(options?.body)) as {model:string;messages:{role:string;content:string}[]};
+  expect(payload.model).toBe(models.groq);prompt=payload.messages.find(m=>m.role==='system')!.content;
+  return status===200?Response.json({choices:[{message:{content:JSON.stringify(invalid?{...ai,quote:'invented evidence'}:ai),reasoning:'secret internal'}}]}):Response.json({}, {status});
+ };
  const context={learner_id:'real-owner',fingerprint:'server-hash',duration:12,part:1,book:4,test:1,unavailable_reason:null,user_answer:'wrong',correct_answer:'forty',segments:[{id:'seg-0001',start:1,end:2,text:'Forty pounds.'}]};
- new Function('require','exports',code)((name:string)=>name.includes('cloudflare')?{getCloudflareContext:()=>({env:{GROQ_API_KEY:'test-only',AI:{run:async()=>{calls++;return {response:JSON.stringify(ai)};}}}})}:name.includes('proxy')?{proxyAlua:async(_r:Request,segments:string[])=>{expect(segments.slice(-3)).toEqual(['ai-review','2','context']);return Response.json(context,{status:owned?200:403});}}:name.includes('/review')?{validateReview}:{listeningInference,reviewJSON},exports);
+ new Function('require','exports',code)((name:string)=>name.includes('cloudflare')?{getCloudflareContext:()=>({env:{GROQ_API_KEY:'test-only',AI:{run:async()=>{calls++;return {response:JSON.stringify(invalid?{...ai,quote:'invented evidence'}:ai)};}}}})}:name.includes('proxy')?{proxyAlua:async(_r:Request,segments:string[])=>{expect(segments.slice(-3)).toEqual(['ai-review','2','context']);return Response.json(context,{status:owned?200:403});}}:name.includes('/review')?{validateReview}:{listeningInference,reviewJSON,ProviderError},exports);
+ // The backend persists these provenance fields with a validated review.
+ // Keep exact DTO equality and check the hash against the actual outbound system prompt.
+ const assertReview=async(response:Response,provider:'groq'|'cloudflare')=>{
+  expect(response.status).toBe(200);expect(response.headers.get('cache-control')).toContain('no-store');expect(prompt).not.toBe('');
+  expect(await response.json()).toEqual({review:ai,fingerprint:'server-hash',generation:{provider,model:models[provider],prompt_hash:createHash('sha256').update(prompt).digest('hex')}});
+ };
  const request=(patch={},auth='Bearer trusted.jwt.token')=>exports.POST!(new Request('https://alua.test/api/listening/explain',{method:'POST',headers:{Authorization:auth},body:JSON.stringify({attempt_id:'11111111-2222-4333-8444-555555555555',question_number:2,...patch})}));
  try{
   expect((await request({},'')).status).toBe(401);
   expect((await request({correct_answer:'fabricated'})).status).toBe(400);
   owned=false;expect((await request()).status).toBe(403);expect(calls).toBe(0);
-  owned=true;expect(await (await request()).json()).toEqual({review:ai,fingerprint:'server-hash'});expect(calls).toBe(1);
-  status=429;expect((await request()).status).toBe(200);expect(calls).toBe(3);
-  status=401;expect((await request()).status).toBe(200);expect(calls).toBe(4);
+  owned=true;await assertReview(await request(),'groq');expect(calls).toBe(1);
+  status=429;await assertReview(await request(),'cloudflare');expect(calls).toBe(3);
+  status=401;await assertReview(await request(),'cloudflare');expect(calls).toBe(4);
+  invalid=true;const rejected=await request();expect(rejected.status).toBe(503);
+  expect(await rejected.json()).toEqual({error:{code:'ai_review_unavailable'}});expect(calls).toBe(5);
  }finally{globalThis.fetch=original;}
 });
 

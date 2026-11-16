@@ -23,9 +23,9 @@ export async function getIdToken(_force=false,_expectedUid?:string){return ${JSO
 import {useSyncExternalStore} from "react";
 export interface Session {status:"loading"|"signed_out"|"ready"|"error";user:{uid:string;email:string|null}|null;profile:import("./api").LearnerProfile|null;error?:unknown;generation:number};
 const initial:Session={status:"loading",user:null,profile:null,generation:0};
-const ready:Session={status:"ready",user:{uid:"listening-fixture",email:"fixture@example.invalid"},profile:null,generation:1};
+const ready:Session={status:"ready",user:{uid:"listening-fixture",email:"fixture@example.invalid"},profile:{uid:"listening-fixture",email:"fixture@example.invalid",display_name:"QA learner"},generation:1};
 export function useSession(){return useSyncExternalStore(()=>()=>{},()=>ready,()=>initial)}
-export async function prepareGoogleAuth(_mode?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
+export async function prepareGoogleAuth(_mode?:string,_destination?:string){return async()=>{}};export async function retrySession(){};export async function logout(){};export async function authenticate(..._args:unknown[]){};export function rejectSession(_generation:number){};`);
  await run(process.execPath,[require.resolve("next/dist/bin/next"),"build","--webpack"],sandbox);
  await run(process.execPath,[join(dirname(require.resolve("@playwright/test/package.json")),"cli.js"),"test","--config=playwright.listening.config.ts",...(process.env.ALUA_LISTENING_TEST_GREP?["--grep",process.env.ALUA_LISTENING_TEST_GREP]:[])],root);
 }finally{await rm(sandbox,{recursive:true,force:true});}
