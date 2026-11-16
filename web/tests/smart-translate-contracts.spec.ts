@@ -146,6 +146,7 @@ test("Listening Worker accepts only owned completed server context and ignores c
  const original=globalThis.fetch;
  globalThis.fetch=async(_url,options)=>{calls++;
   const payload=JSON.parse(String(options?.body)) as {model:string;messages:{role:string;content:string}[]};
+  expect(payload.messages.at(-1)!.content).toContain(JSON.stringify({user_answer:context.user_answer}).slice(1,-1));
   expect(payload.model).toBe(models.groq);prompt=payload.messages.find(m=>m.role==='system')!.content;
   return status===200?Response.json({choices:[{message:{content:JSON.stringify(invalid?{...ai,quote:'invented evidence'}:ai),reasoning:'secret internal'}}]}):Response.json({}, {status});
  };
@@ -163,10 +164,12 @@ test("Listening Worker accepts only owned completed server context and ignores c
   expect((await request({correct_answer:'fabricated'})).status).toBe(400);
   owned=false;expect((await request()).status).toBe(403);expect(calls).toBe(0);
   owned=true;await assertReview(await request(),'groq');expect(calls).toBe(1);
-  status=429;await assertReview(await request(),'cloudflare');expect(calls).toBe(3);
-  status=401;await assertReview(await request(),'cloudflare');expect(calls).toBe(4);
+  expect(prompt).toContain('Если user_answer пустой');expect(prompt).toContain('не выдумывай выбранный вариант');
+  context.user_answer='';await assertReview(await request(),'groq');expect(calls).toBe(2);
+  status=429;await assertReview(await request(),'cloudflare');expect(calls).toBe(4);
+  status=401;await assertReview(await request(),'cloudflare');expect(calls).toBe(5);
   invalid=true;const rejected=await request();expect(rejected.status).toBe(503);
-  expect(await rejected.json()).toEqual({error:{code:'ai_review_unavailable'}});expect(calls).toBe(5);
+  expect(await rejected.json()).toEqual({error:{code:'ai_review_unavailable'}});expect(calls).toBe(6);
  }finally{globalThis.fetch=original;}
 });
 

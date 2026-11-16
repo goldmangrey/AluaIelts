@@ -21,7 +21,7 @@ function Trouble({retry}:{retry:()=>void}){return <p role="alert">Could not load
 export function ContinuePractice(){
  const session=useSession(),uid=session.status==='ready'?session.user?.uid:undefined;
  const {data}=useResource<Page<Draft>>(uid,'/practice/drafts?limit=1');
- if(!data?.items.length)return null;const d=data.items[0]!;
+ if(!data?.items?.length)return null;const d=data.items[0]!;
  return <ContinuePracticeCard draft={d} otherSessions={data.total-1}/>;
 }
 export function ContinuePage(){const session=useSession();if(session.status!=='ready')return <PageShell>{session.status==='loading'?<p role="status">Loading your practice…</p>:<AuthRequired/>}</PageShell>;return <PageShell><section className={s.shell}><p className={s.eyebrow}>YOUR SAVED PRACTICE</p><h1>Continue Practice</h1><Owned>{uid=><Drafts key={uid} uid={uid}/>}</Owned></section></PageShell>;}

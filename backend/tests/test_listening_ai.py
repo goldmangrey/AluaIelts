@@ -78,7 +78,9 @@ def test_evidence_is_server_calculated_and_bad_ids_quotes_are_not_evidence():
     assert not AIReview.validate(c, output())["evidence"]["available"]
 
 
+@pytest.mark.parametrize("answer", ["wrong", ""])
 def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
+    answer,
     listening,
     monkeypatch,
     tmp_path,  # noqa: F811
@@ -97,13 +99,14 @@ def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
     assert client.post(base + "/ai-review/1").status_code == 401
     assert client.get(base + "/ai-review/1/context", headers=headers(other)).status_code == 404
     assert client.get(base + "/ai-review/1/context", headers=h).status_code == 409
+    assert client.post(base + "/ai-review/1", headers=h).status_code == 409
     saved = client.post(
         base + "/sync",
         headers=h,
         json={
             "event_id": str(uuid4()),
             "expected_version": 0,
-            "answers": {"cambridge-04-test-01-q01": "wrong"},
+            "answers": {"cambridge-04-test-01-q01": answer},
             "state": created["state"],
         },
     )
@@ -124,7 +127,7 @@ def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
     monkeypatch.setattr(ai, "probe_duration", lambda *_: 12)
     monkeypatch.setattr(get_settings(), "listening_ai_cache_root", str(tmp_path / "cache"))
     ctx = client.get(base + "/ai-review/1/context", headers=h).json()
-    assert ctx["correct_answer"] and ctx["user_answer"] == "wrong"
+    assert ctx["correct_answer"] and ctx["user_answer"] == answer
     calls = []
 
     class Response:
@@ -138,7 +141,14 @@ def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
         return Response()
 
     monkeypatch.setattr(ai.httpx, "post", provider)
-    first = client.post(base + "/ai-review/1", headers=h)
+    from concurrent.futures import ThreadPoolExecutor
+
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        responses = list(
+            pool.map(lambda _: client.post(base + "/ai-review/1", headers=h), range(4))
+        )
+    assert all(r.status_code == 200 for r in responses)
+    first = next(r for r in responses if not r.json()["cached"])
     assert first.status_code == 200, first.text
     assert first.json()["evidence"]["available"]
     cached = client.post(base + "/ai-review/1", headers=h).json()
@@ -148,7 +158,7 @@ def test_completed_ownership_context_cache_rate_and_snapshot_preservation(
     assert cached == first_data
     assert len(calls) == 1 and set(calls[0]["json"]) == {"attempt_id", "question_number"}
     assert client.get(base + "/review", headers=h).json() == before
-    assert client.post(base + "/ai-review/2", headers=h).status_code == 422
+    assert client.get(base + "/ai-review/2/context", headers=h).json()["user_answer"] == ""
     # Saved explanations remain immutable when current QA/prompt/rate state changes.
     # Fresh generations still use transcript/evidence validation below.
     original["complete"] = False

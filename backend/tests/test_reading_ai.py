@@ -128,7 +128,8 @@ def submit_payload(attempt, answers):
     )
 
 
-def test_completed_ownership_snapshot_cache_and_no_mutation(system, monkeypatch, tmp_path):
+@pytest.mark.parametrize("answer", ["touch", ""])
+def test_completed_ownership_snapshot_cache_and_no_mutation(system, monkeypatch, tmp_path, answer):
     db, client, _ = system
     owner, _ = bootstrap(client, "husband")
     other, _ = bootstrap(client, "wife")
@@ -141,14 +142,14 @@ def test_completed_ownership_snapshot_cache_and_no_mutation(system, monkeypatch,
     assert client.post(endpoint, headers=h).status_code == 409
     assert client.get(endpoint + "/context", headers=headers(other)).status_code == 404
     assert client.get(endpoint + "/context").status_code == 401
-    submit = client.post(base + "/submit", headers=h, json=submit_payload(attempt, {qid: "touch"}))
+    submit = client.post(base + "/submit", headers=h, json=submit_payload(attempt, {qid: answer}))
     assert submit.status_code == 200, submit.text
     before = client.get(base, headers=h).json()
     before_result = client.get(base + "/result", headers=h).json()
     settings = get_settings()
     monkeypatch.setattr(settings, "reading_ai_cache_root", str(tmp_path))
     ctx = client.get(endpoint + "/context", headers=h).json()
-    assert ctx["correct_answer"] == "echoes/obstacles" and ctx["user_answer"] == "touch"
+    assert ctx["correct_answer"] == "echoes/obstacles" and ctx["user_answer"] == answer
     assert ctx["unavailable_reason"] is None
     raw, calls = model_for(ctx), []
     monkeypatch.setattr(ai.httpx, "stream", lambda *a, **kw: fake_stream(ctx, raw, calls, *a, **kw))

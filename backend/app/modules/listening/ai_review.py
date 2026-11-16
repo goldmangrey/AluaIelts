@@ -145,13 +145,10 @@ class AIReview:
             saved = next(
                 (q for q in row.result["questions"] if q["question_number"] == number), None
             )
-            if (
-                not saved
-                or saved["correct"] is not False
-                or not saved["user_answer"].strip()
-                or saved.get("grading_issue")
-            ):
-                raise ValidationError("AI review is available for scored incorrect answers only.")
+            if not saved or saved["correct"] is not False or saved.get("grading_issue"):
+                raise ValidationError(
+                    "AI review is available for scored incorrect or unanswered questions only."
+                )
             snap = row.snapshot
             part, group, q = questions(snap["exam"])[saved["question_id"]]
             part_number = part["part_number"]
@@ -253,7 +250,11 @@ class AIReview:
         )
         safe = {
             "what_happened": "В этом фрагменте есть фраза для сравнения с ключом.",
-            "why": "Ответ не совпадает с ключом. Сравните его с цитатой.",
+            "why": (
+                "Ответ не указан. Найдите подтверждение правильного ответа в цитате."
+                if context.get("user_answer") == ""
+                else "Ответ не совпадает с ключом. Сравните его с цитатой."
+            ),
             "next_time": "Прослушайте фрагмент ещё раз и сравните его с вопросом.",
         }
         for field, text in prose.items():

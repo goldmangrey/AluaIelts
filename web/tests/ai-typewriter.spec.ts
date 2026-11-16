@@ -7,8 +7,9 @@ test.use({video:'on'});
 const output=resolve('../work/ai-typewriter');mkdirSync(output,{recursive:true});
 const unicode='Кириллица и English, café, á, 👩‍👩‍👧‍👦 и 🐉. ';
 const prose=unicode.repeat(7);
-async function setup(page:Page,skill:'reading'|'listening',saved=false){
- if(skill==='listening')for(const n of [2,3]){const row=fixture.listening.questions.find((q:{question_number:number})=>q.question_number===n);row.correct=false;row.user_answer='fixture wrong';}
+async function setup(page:Page,skill:'reading'|'listening',saved=false,unanswered=false){
+ if(skill==='listening')for(const n of [2,3]){const row=fixture.listening.questions.find((q:{question_number:number})=>q.question_number===n);row.correct=false;row.user_answer=unanswered?'':'fixture wrong';}
+ if(skill==='reading'){const row=fixture.reading.positions[1];row.user_answer=unanswered?'':'wrong';row.unanswered=unanswered;row.is_correct=false;}
  await loadReview(page,skill);let calls=0;
  const responses=new Map<string,object>();
  const response=(id:string)=>{
@@ -35,6 +36,34 @@ async function setup(page:Page,skill:'reading'|'listening',saved=false){
  return {calls:()=>calls,card,open,close,mobile};
 }
 for(const skill of ['reading','listening'] as const){
+ test(`${skill}: unanswered uses existing review, evidence controls and saved cache`,async({page},info)=>{
+  await page.emulateMedia({reducedMotion:'reduce'});
+  const ui=await setup(page,skill,false,true);
+  const answer=page.locator(skill==='reading'?'[data-question="2"]':'#question-2');
+  await expect(answer).toContainText('Not answered');
+  await expect(answer).toContainText('Correct answer');
+  await ui.open(2);const card=ui.card(2);
+  await expect(card.locator('[data-ai-typing]')).toHaveAttribute('data-ai-typing','false');
+  if(skill==='reading'){
+   await expect(card).toContainText('Finding the answer');
+   await card.getByRole('button',{name:'Show in passage'}).click();
+   await expect(page.locator('[data-reading-ai="true"]').first()).toBeVisible();
+   await page.getByRole('button',{name:/Back to Q2$/}).click();
+  }else{
+   await card.getByRole('button',{name:'Play Moment'}).click();
+   await expect(page.getByRole('button',{name:'Pause',exact:true})).toBeVisible();
+   await card.getByRole('button',{name:'Loop Moment'}).click();
+   await expect(card.getByRole('button',{name:'Loop Moment'})).toHaveAttribute('aria-pressed','true');
+  }
+  await page.screenshot({path:resolve(output,`${skill}-${info.project.name}-unanswered.png`)});
+  await ui.close(2);await ui.open(2);expect(ui.calls()).toBe(1);
+  await page.reload();if(ui.mobile)await page.getByRole('button',{name:'Questions',exact:true}).click();
+  const trigger=skill==='reading'?page.getByRole('button',{name:'View AI explanation for question 2',exact:true}):page.locator('#question-2').getByRole('button',{name:'View AI Explanation',exact:true});
+  await expect(trigger).toBeVisible();if(await trigger.getAttribute('aria-expanded')!=='true')await trigger.click();
+  await expect(ui.card(2)).toBeVisible();expect(ui.calls()).toBe(1);
+  await expect(page.locator(skill==='reading'?'[data-question="2"]':'#question-2')).toContainText('Not answered');
+ });
+
  test(`${skill}: progressive Unicode, cursor, Skip, stable layout, replay and evidence actions`,async({page,context},info)=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));const ui=await setup(page,skill);
   await ui.open(2);const card=ui.card(2),typing=card.locator('[data-ai-typing]');
