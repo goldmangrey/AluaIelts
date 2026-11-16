@@ -14,18 +14,18 @@ const neutral:Message = {emotion:'support', title:'A little practice goes a long
 
 /** Only timestamped completions from the last hour qualify as a current event. */
 export function selectLuaMessage({history, analytics, drafts, now}:Context):Message {
-  const latest = history?.items.find(item => {
+  const latest = (Array.isArray(history?.items) ? history.items : []).find(item => {
     const age = now - Date.parse(item.completed_at ?? '');
-    return age >= 0 && age < 60 * 60 * 1000;
+    return typeof item.id === 'string' && item.id.length > 0 && age >= 0 && age < 60 * 60 * 1000;
   });
   if (latest) return {emotion:'celebration', title:"That's another test completed!", detail:'Your latest results are ready whenever you want to revisit them.', href:`/practice/history/${encodeURIComponent(latest.id)}`, link:'View results →'};
-  const total = analytics?.mistakes.total, reviewed = analytics?.mistakes.reviewed;
+  const total = analytics?.mistakes?.total, reviewed = analytics?.mistakes?.reviewed;
   if (Number.isSafeInteger(total) && Number.isSafeInteger(reviewed) && total! >= reviewed! && reviewed! >= 0) {
     const remaining = total! - reviewed!;
     if (remaining > 0) return {emotion:'support', title:'I found something worth reviewing.', detail:`You have ${remaining} ${remaining === 1 ? 'mistake' : 'mistakes'} ready for another look.`, href:'/practice/mistakes', link:'Review mistakes →'};
     if (total! > 0) return {emotion:'proud', title:"You've reviewed your mistakes.", detail:"Ready to put what you've learned into practice?"};
   }
-  if (history?.total === 0 && drafts?.total === 0 && analytics && Object.values(analytics.counts).every(count => count === 0) && total === 0) {
+  if (history?.total === 0 && drafts?.total === 0 && analytics?.counts && (['listening','reading','writing','speaking'] as const).every(skill => analytics.counts[skill] === 0) && total === 0) {
     return {emotion:'wave', title:"Let's find your starting point.", detail:'Choose a skill below and start your first practice.'};
   }
   return neutral;

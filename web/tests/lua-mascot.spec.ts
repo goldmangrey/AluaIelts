@@ -131,7 +131,7 @@ test('catalog companions, real draft condition and positive streak condition',as
   draft=true;await page.reload();await expect(page.locator('img[src$="happy.webp"]')).toBeVisible();
   await page.screenshot({path:`${output}/continue-draft.png`,fullPage:true});
   await page.goto('/');await expect(page.getByRole('heading',{name:'Real draft'})).toBeVisible();
-  await expect(page.locator('[data-lua-context="continue"]')).toBeVisible();
+  await expect(page.locator('[data-lua-context="continue"]')).toBeHidden();
   await expect(page.locator('#home-title')).toHaveCount(0);
   await expect(page.locator('#lua-message-title')).toBeVisible();
   await page.goto('/profile');await expect(page.locator('img[src$="proud.webp"]')).toBeVisible();

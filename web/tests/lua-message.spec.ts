@@ -4,11 +4,13 @@ import {resolve} from 'node:path';
 test('Lua uses real context, bounded completion recency and neutral error fallback',async({page},info)=>{
   let history={items:[] as {id:string;completed_at:string|null}[],total:0};
   let mistakes={total:0,reviewed:0};
-  let drafts=0,fail=false;
+  let drafts=0,fail=false,malformed=false;
   const posts:string[]=[];
+  const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
   page.on('request',r=>{if(r.method()==='POST')posts.push(r.url());});
   await page.route('**/api/alua/practice/**',route=>{
     if(fail)return route.fulfill({status:503,json:{}});
+    if(malformed)return route.fulfill({json:{}});
     const path=new URL(route.request().url()).pathname;
     return route.fulfill({json:path.endsWith('/history')?history:path.endsWith('/analytics')?{mistakes,counts:{reading:history.total,listening:0,writing:0,speaking:0}}:{items:[],total:drafts}});
   });
@@ -34,6 +36,8 @@ test('Lua uses real context, bounded completion recency and neutral error fallba
   history={items:[],total:0};mistakes={total:0,reviewed:0};drafts=1;
   await page.reload();await expect(title).toHaveText('A little practice goes a long way.');
   fail=true;await page.reload();await expect(title).toHaveText('A little practice goes a long way.');
+  fail=false;malformed=true;await page.reload();await expect(title).toHaveText('A little practice goes a long way.');
   await expect(page.locator('#home-title')).toHaveCount(0);
   expect(posts).toEqual([]);
+  expect(errors).toEqual([]);
 });

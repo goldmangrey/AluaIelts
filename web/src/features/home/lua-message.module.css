@@ -7,5 +7,6 @@
 .detail{margin:7px 0 0;font-size:14px;line-height:1.5;color:#52685E}
 .link{display:inline-block;margin-top:8px;font-size:13px;font-weight:600;color:#14664F;text-underline-offset:3px}
 .pending{min-height:170px}
+.message ~ section :global([data-lua-context="continue"]){display:none}
 @media(max-width:600px){.message{gap:10px;padding:14px 12px;border-radius:20px;min-height:150px}.lua{width:72px!important;height:72px!important}.bubble{padding:13px 14px;border-radius:15px}.detail{font-size:12px;line-height:1.45}.bubble h1{font-size:18px}.link{font-size:12px}.label{font-size:9px}}
 @media(max-width:350px){.message{gap:8px;padding:12px 10px}.lua{width:54px!important;height:54px!important}.bubble{padding:12px}.bubble h1{font-size:17px}}
