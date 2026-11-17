@@ -83,11 +83,20 @@ class Settings(BaseSettings):
     self_registration_enabled: bool = Field(
         default=True, validation_alias="SELF_REGISTRATION_ENABLED"
     )
+    # Per bearer token before verification AND per verified Firebase UID afterwards.
     registration_requests_per_minute: int = Field(
         default=120, ge=1, le=10000, validation_alias="REGISTRATION_REQUESTS_PER_MINUTE"
     )
+    # Global creation circuit breaker for identities without verified Google sign-in.
     registration_creations_per_hour: int = Field(
         default=20, ge=1, le=10000, validation_alias="REGISTRATION_CREATIONS_PER_HOUR"
+    )
+    # High site-wide emergency ceiling also stops creation floods across Google UIDs.
+    registration_google_creations_per_hour: int = Field(
+        default=1000,
+        ge=100,
+        le=100000,
+        validation_alias="REGISTRATION_GOOGLE_CREATIONS_PER_HOUR",
     )
     firebase_auth_enabled: bool = Field(default=False, validation_alias="FIREBASE_AUTH_ENABLED")
     legacy_auth_enabled: bool = Field(default=True, validation_alias="LEGACY_AUTH_ENABLED")

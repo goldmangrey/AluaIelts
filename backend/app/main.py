@@ -35,7 +35,9 @@ def create_app() -> FastAPI:
     @application.exception_handler(AluaError)
     async def alua_error_handler(_: Request, exc: AluaError) -> JSONResponse:
         payload = ErrorResponse(error=ErrorDetail(code=exc.code, message=exc.message))
-        return JSONResponse(status_code=exc.status_code, content=payload.model_dump())
+        return JSONResponse(
+            status_code=exc.status_code, content=payload.model_dump(), headers=exc.headers
+        )
 
     @application.exception_handler(Exception)
     async def unexpected_error_handler(request: Request, exc: Exception) -> JSONResponse:

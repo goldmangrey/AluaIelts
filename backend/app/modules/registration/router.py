@@ -1,6 +1,8 @@
 """Self-service provisioning; passwords and client identity claims are never accepted."""
 
-from collections import deque
+from collections import OrderedDict, deque
+from hashlib import sha256
+from math import ceil
 from threading import Lock
 from time import monotonic
 from typing import Annotated
@@ -16,7 +18,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from app.core.auth import bearer_scheme
 from app.core.config import get_settings
 from app.core.exceptions import AluaError, ExternalServiceError, UnauthorizedError
-from app.core.firebase_auth import verify_firebase_token
+from app.core.firebase_auth import verify_firebase_identity
 from app.db.database import Database, get_database
 from app.db.models import FirebaseIdentityRow, LearnerProfileRow
 from app.db.serialization import document
@@ -24,9 +26,9 @@ from app.modules.users.models import UserProfile
 from app.modules.users.schemas import UserProfileResponse
 
 router = APIRouter(prefix="/auth", tags=["authentication"])
-# Bounded, process-local pre-verification budget; no forwarded-header/IP trust.
-# Database creation cap below is durable and shared across all API workers.
-_verification_times: deque[float] = deque()
+# Bounded process-local token/verified-UID budgets; never trust client IP headers.
+# Token budget protects verification; UID budget also covers ID-token rotation.
+_verification_times: OrderedDict[str, deque[float]] = OrderedDict()
 _budget_lock = Lock()
 
 
@@ -44,17 +46,32 @@ class RegisterRequest(BaseModel):
         return value
 
 
-def consume_verification_budget() -> None:
+def throttled(seconds: float) -> AluaError:
+    return AluaError(
+        "Please retry later.",
+        "registration_throttled",
+        429,
+        headers={"Retry-After": str(max(1, ceil(seconds))), "Cache-Control": "no-store"},
+    )
+
+
+def consume_verification_budget(key: str) -> None:
     now = monotonic()
     with _budget_lock:
-        while _verification_times and _verification_times[0] <= now - 60:
-            _verification_times.popleft()
-        if len(_verification_times) >= get_settings().registration_requests_per_minute:
-            raise AluaError("Please retry later.", "registration_throttled", 429)
-        _verification_times.append(now)
+        times = _verification_times.pop(key, deque())
+        while times and times[0] <= now - 60:
+            times.popleft()
+        _verification_times[key] = times
+        if len(_verification_times) > 10000:
+            _verification_times.popitem(last=False)
+        if len(times) >= get_settings().registration_requests_per_minute:
+            raise throttled(times[0] + 60 - now)
+        times.append(now)
 
 
-def provision(database: Database, firebase_uid: str, name: str | None) -> UserProfile:
+def provision(
+    database: Database, firebase_uid: str, name: str | None, verified_google: bool = False
+) -> UserProfile:
     try:
         with database.session() as session:
             # Shared with private identity administration; serializes same-UID retries
@@ -71,8 +88,24 @@ def provision(database: Database, firebase_uid: str, name: str | None) -> UserPr
                 .select_from(FirebaseIdentityRow)
                 .where(FirebaseIdentityRow.created_at > func.now() - text("INTERVAL '1 hour'"))
             )
-            if recent >= get_settings().registration_creations_per_hour:
-                raise AluaError("Please retry later.", "registration_throttled", 429)
+            # Signed Google identities use a high emergency flood ceiling, not the
+            # low unverified-account cap. Both are durable and shared across workers.
+            settings = get_settings()
+            creation_limit = (
+                settings.registration_google_creations_per_hour
+                if verified_google
+                else settings.registration_creations_per_hour
+            )
+            if recent >= creation_limit:
+                reset_at = session.scalar(
+                    select(FirebaseIdentityRow.created_at)
+                    .where(FirebaseIdentityRow.created_at > func.now() - text("INTERVAL '1 hour'"))
+                    .order_by(FirebaseIdentityRow.created_at.desc())
+                    .offset(creation_limit - 1)
+                    .limit(1)
+                )
+                now = session.scalar(select(func.now()))
+                raise throttled(3600 - (now - reset_at).total_seconds())
             now = session.scalar(select(func.now()))
             profile = UserProfile(
                 uid=str(uuid4()), display_name=name or "Learner", created_at=now, updated_at=now
@@ -123,7 +156,10 @@ async def register(
         or len(credentials.credentials) > 16384
     ):
         raise UnauthorizedError("A Firebase ID token is required.")
-    consume_verification_budget()
-    uid = await run_in_threadpool(verify_firebase_token, credentials.credentials)
-    profile = await run_in_threadpool(provision, database, uid, body.display_name)
+    consume_verification_budget("token:" + sha256(credentials.credentials.encode()).hexdigest())
+    identity = await run_in_threadpool(verify_firebase_identity, credentials.credentials)
+    consume_verification_budget("uid:" + identity.uid)
+    profile = await run_in_threadpool(
+        provision, database, identity.uid, body.display_name, identity.verified_google
+    )
     return UserProfileResponse.from_profile(profile)

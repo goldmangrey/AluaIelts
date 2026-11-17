@@ -11,9 +11,20 @@ function profile(value: unknown): LearnerProfile {
   return { uid: value.uid, email: value.email, display_name: value.display_name };
 }
 export async function loadLearner(displayName?: string | null, expectedUid?: string): Promise<LearnerProfile> {
-  return resolveLearner(createApiClient((force) => getIdToken(force, expectedUid)), displayName);
+  return resolveLearner(createApiClient((force) => getIdToken(force, expectedUid)), displayName, expectedUid);
 }
-export async function resolveLearner(request: ReturnType<typeof createApiClient>, displayName?: string | null): Promise<LearnerProfile> {
+const pendingLearners = new Map<string, Promise<LearnerProfile>>();
+export function resolveLearner(request: ReturnType<typeof createApiClient>, displayName?: string | null, expectedUid?: string): Promise<LearnerProfile> {
+  if (!expectedUid) return fetchLearner(request, displayName);
+  const pending = pendingLearners.get(expectedUid);
+  if (pending) return pending;
+  const promise = fetchLearner(request, displayName).finally(() => {
+    if (pendingLearners.get(expectedUid) === promise) pendingLearners.delete(expectedUid);
+  });
+  pendingLearners.set(expectedUid, promise);
+  return promise;
+}
+async function fetchLearner(request: ReturnType<typeof createApiClient>, displayName?: string | null): Promise<LearnerProfile> {
   try { return profile(await request("/me")); }
   catch (error) {
     // Exact recovery contract used by iOS. Other 403s must never provision.

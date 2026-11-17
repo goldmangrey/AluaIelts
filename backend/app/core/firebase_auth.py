@@ -1,6 +1,7 @@
 """Firebase authenticates identity only; all learner data stays in PostgreSQL."""
 
 import os
+from dataclasses import dataclass
 from threading import Lock
 
 import firebase_admin
@@ -31,13 +32,29 @@ def firebase_app() -> firebase_admin.App:
         return app
 
 
-def verify_firebase_token(token: str) -> str:
+@dataclass(frozen=True)
+class VerifiedFirebaseIdentity:
+    uid: str
+    verified_google: bool = False
+
+
+def verify_firebase_identity(token: str) -> VerifiedFirebaseIdentity:
     try:
         claims = auth.verify_id_token(token, app=firebase_app(), check_revoked=True)
         uid = claims.get("uid")
         if not isinstance(uid, str) or not 1 <= len(uid) <= 128:
             raise ValueError("Invalid subject")
-        return uid
+        firebase = claims.get("firebase")
+        return VerifiedFirebaseIdentity(
+            uid=uid,
+            verified_google=(
+                isinstance(firebase, dict)
+                and firebase.get("sign_in_provider") == "google.com"
+                and claims.get("email_verified") is True
+                and isinstance(claims.get("email"), str)
+                and bool(claims["email"].strip())
+            ),
+        )
     except (
         auth.InvalidIdTokenError,
         auth.RevokedIdTokenError,
@@ -49,3 +66,7 @@ def verify_firebase_token(token: str) -> str:
     except (exceptions.FirebaseError, GoogleAuthError) as error:
         # Never turn a verifier outage into legacy fallback or leak SDK/credential details.
         raise ExternalServiceError("Authentication is unavailable.", "auth_unavailable") from error
+
+
+def verify_firebase_token(token: str) -> str:
+    return verify_firebase_identity(token).uid

@@ -8,7 +8,9 @@ export function authMessage(error: unknown): string {
     if (error.code === "timeout") return "The connection is taking too long. Please try again.";
     if (error.status === 401) return "Your session has expired. Please log in again.";
     if (error.status === 403) return "This account does not have Alua access.";
-    if (error.status === 429) return "Too many requests. Please try again later.";
+    if (error.status === 429) return error.retryAfterSeconds
+      ? `Too many requests. Please try again in ${error.retryAfterSeconds} seconds.`
+      : "Too many requests. Please try again later.";
     if (error.code === "registration_disabled") return "Registration is temporarily unavailable. Your Firebase account is preserved; try completing setup later.";
     if (error.status >= 500) return "The Alua service is temporarily unavailable. Please try again.";
     return "Couldn’t connect to Alua. Check your connection and try again.";

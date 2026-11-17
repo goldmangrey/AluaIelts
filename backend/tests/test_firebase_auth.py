@@ -162,3 +162,36 @@ def test_upgrade_from_0005_preserves_learners(system):
             session.execute(text("SELECT version_num FROM alembic_version")).scalar()
             == ScriptDirectory.from_config(cfg).get_current_head()
         )
+
+
+@pytest.mark.parametrize(
+    "provider,verified,email,allowed",
+    [
+        ("google.com", True, "learner@example.org", True),
+        ("google.com", False, "learner@example.org", False),
+        ("google.com", "true", "learner@example.org", False),
+        ("google.com", True, None, False),
+        ("password", True, "learner@example.org", False),
+        (None, True, "learner@example.org", False),
+    ],
+)
+def test_google_policy_requires_verified_signed_claims(
+    monkeypatch, provider, verified, email, allowed
+):
+    from app.core.firebase_auth import verify_firebase_identity
+
+    monkeypatch.setattr("app.core.firebase_auth.firebase_app", lambda: object())
+
+    def verify(token, *, app, check_revoked):
+        assert check_revoked is True
+        return {
+            "uid": "trusted-uid",
+            "email_verified": verified,
+            "email": email,
+            "firebase": {"sign_in_provider": provider},
+        }
+
+    monkeypatch.setattr(auth, "verify_id_token", verify)
+    identity = verify_firebase_identity("signed.token.only")
+    assert identity.uid == "trusted-uid"
+    assert identity.verified_google is allowed

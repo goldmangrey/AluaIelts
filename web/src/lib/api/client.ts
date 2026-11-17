@@ -1,6 +1,6 @@
 export interface ValidationDetail {loc:(string|number)[];type:string}
 export class ApiError extends Error {
-  constructor(public readonly status: number, public readonly code: string, public readonly detail?:ValidationDetail[]) {
+  constructor(public readonly status: number, public readonly code: string, public readonly detail?:ValidationDetail[], public readonly retryAfterSeconds?: number) {
     super(code);
     this.name = "ApiError";
   }
@@ -65,7 +65,10 @@ export function createApiClient(getToken: TokenProvider, timeoutMilliseconds = 1
               if(detail.length)code="request_validation_error";
             }
           } catch { /* Error bodies may be non-JSON at an upstream gateway. */ }
-          throw new ApiError(response.status, code, detail);
+          const retryAfter = response.headers.get("Retry-After");
+          const seconds = retryAfter === null ? NaN : /^\d+$/.test(retryAfter)
+            ? Number(retryAfter) : Math.ceil((Date.parse(retryAfter) - Date.now()) / 1000);
+          throw new ApiError(response.status, code, detail, Number.isFinite(seconds) ? Math.max(0, seconds) : undefined);
         }
         try { return responseType === "blob" ? await response.blob() : await response.json(); }
         catch {

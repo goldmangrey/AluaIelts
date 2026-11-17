@@ -78,7 +78,7 @@ async function start() {
       const sdk=await import("firebase/auth");
       const redirected=await sdk.getRedirectResult(auth);
       if(redirected?.user)await resolveUser(redirected.user);
-      if(auth.currentUser){await resolveUser(auth.currentUser);window.location.replace(safeReturnPath(destination));return;}
+      if(auth.currentUser){if(state.status!=="ready"||state.user?.uid!==auth.currentUser.uid)await resolveUser(auth.currentUser);window.location.replace(safeReturnPath(destination));return;}
       throw {code:"auth/redirect-incomplete"};
     }
     await observeFirebase(auth);
@@ -116,7 +116,6 @@ export async function authenticate(mode: "login" | "register", email: string, pa
       try { await withTimeout(sdk.updateProfile(user, { displayName: name.trim() })); }
       catch { /* Metadata outage must not repeat account creation; backend still receives name. */ }
     }
-    job = undefined;
     await resolveUser(user, mode === "register" ? name : undefined);
   } finally { action = false; }
 }
@@ -146,7 +145,6 @@ export async function prepareGoogleAuth(mode: "sign-in" | "link" = "sign-in", de
       }
       const {user}=credential;
       if (auth.currentUser?.uid !== user.uid) throw new ApiError(401, "session_changed");
-      job = undefined;
       await resolveUser(user, user.displayName?.replace(/[\x00-\x1f]/g, "").trim().slice(0, 80));
       if (auth.currentUser?.uid !== user.uid || state.status !== "ready" || state.user?.uid !== user.uid) {
         const error = new ApiError(401, "session_changed"); clear("error", error); throw error;
