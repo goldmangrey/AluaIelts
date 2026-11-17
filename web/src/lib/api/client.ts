@@ -1,3 +1,5 @@
+import { ME_CLIENT_TIMEOUT_MS } from "./deadlines";
+
 export interface ValidationDetail {loc:(string|number)[];type:string}
 export class ApiError extends Error {
   constructor(public readonly status: number, public readonly code: string, public readonly detail?:ValidationDetail[], public readonly retryAfterSeconds?: number) {
@@ -8,7 +10,7 @@ export class ApiError extends Error {
 export type TokenProvider = (forceRefresh?: boolean) => Promise<string | null>;
 
 /** Direct FastAPI client. Private payloads never enter a shared Next.js cache. */
-export function createApiClient(getToken: TokenProvider, timeoutMilliseconds = 15_000) {
+export function createApiClient(getToken: TokenProvider, timeoutMilliseconds?: number) {
   return async function request(path: `/${string}`, signal?: AbortSignal, options?: { method: "POST" | "PUT" | "PATCH"; body: unknown }, responseType: "json" | "blob" = "json"): Promise<unknown> {
     const configured = process.env.NEXT_PUBLIC_API_BASE_URL;
     if (!configured) throw new ApiError(0, "api_not_configured");
@@ -24,7 +26,7 @@ export function createApiClient(getToken: TokenProvider, timeoutMilliseconds = 1
     const abort = () => controller.abort();
     signal?.addEventListener("abort", abort, { once: true });
     if (signal?.aborted) controller.abort();
-    const timer = setTimeout(abort, timeoutMilliseconds);
+    const timer = setTimeout(abort, timeoutMilliseconds ?? (path === "/me" && !options ? ME_CLIENT_TIMEOUT_MS : 15_000));
     try {
       // Bounded retry only for a stale ID token; no automatic retry of mutations.
       for (let attempt = 0; attempt < 2; attempt++) {

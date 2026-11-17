@@ -14,6 +14,7 @@ export interface Session {
   profile: LearnerProfile | null;
   error?: unknown;
   generation: number;
+  retrying?: boolean;
 }
 const initial: Session = { status: "loading", user: null, profile: null, generation: 0 };
 let state = initial;
@@ -22,15 +23,18 @@ let started = false;
 let observing = false;
 let epoch = 0;
 let action = false;
-let job: { uid: string; promise: Promise<void> } | undefined;
+let job: { uid: string; promise: Promise<void>; controller: AbortController } | undefined;
 function publish(next: Session) { state = next; listeners.forEach((listener) => listener()); }
 function clear(status: Session["status"] = "signed_out", error?: unknown) {
   epoch++;
+  job?.controller.abort();
   job = undefined;
   publish({ status, user: null, profile: null, generation: epoch, error });
 }
 async function resolveUser(user: User, name?: string): Promise<void> {
   if (job?.uid === user.uid) return job.promise;
+  job?.controller.abort();
+  const controller = new AbortController();
   const previous=state.user?.uid;
   const current = ++epoch;
   const identity = { uid: user.uid, email: user.email };
@@ -38,16 +42,21 @@ async function resolveUser(user: User, name?: string): Promise<void> {
   const promise = (async () => {
     try {
       const drafts=await import("@/features/reading/exam/draft-storage");
+      controller.signal.throwIfAborted();
       if(previous && previous!==user.uid)await drafts.clearDraftOwner(previous);
+      controller.signal.throwIfAborted();
       drafts.allowDraftOwner(user.uid);
-      const profile = await loadLearner(name ?? user.displayName, user.uid);
+      const profile = await loadLearner(name ?? user.displayName, user.uid, {
+        signal: controller.signal,
+        onRetry: () => { if (epoch === current) publish({ ...state, retrying: true }); },
+      });
       if (epoch === current) publish({ status: "ready", user: identity, profile, generation: current });
     } catch (error) {
       if (epoch === current) publish({ status: "error", user: error instanceof ApiError && error.status === 401 ? null : identity, profile: null, error, generation: current });
       throw error;
     } finally { if (epoch === current) job = undefined; }
   })();
-  job = { uid: user.uid, promise };
+  job = { uid: user.uid, promise, controller };
   return promise;
 }
 async function observeFirebase(auth: Auth) {
@@ -56,7 +65,14 @@ async function observeFirebase(auth: Auth) {
   if (observing) return;
   observing = true;
   onAuthStateChanged(auth, (user) => {
-    if (action) return;
+    if (action) {
+      if (job && job.uid !== user?.uid) {
+        const previous = state.user?.uid;
+        clear(user ? "loading" : "signed_out");
+        if (previous) void import("@/features/reading/exam/draft-storage").then(m => m.clearDraftOwner(previous)).catch(() => {});
+      }
+      return;
+    }
     if (!user) {
       const previous=state.user?.uid;
       clear();
@@ -83,7 +99,11 @@ async function start() {
     }
     await observeFirebase(auth);
   }
-  catch (error) { started = false; clear("error", error); }
+  catch (error) {
+    started = false;
+    // resolveUser already published an owned terminal error; retain its Firebase identity.
+    if (!(error instanceof DOMException && error.name === "AbortError") && !(state.status === "error" && state.error === error)) clear("error", error);
+  }
 }
 function subscribe(listener: () => void) {
   listeners.add(listener);

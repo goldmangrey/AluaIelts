@@ -32,6 +32,14 @@ export function AuthForm({ mode }: { mode: "login" | "register" | "reset" }) {
   const googleLink = useRef<(() => Promise<void>) | null>(null);
   const [googleReady, setGoogleReady] = useState(false);
   const [linkAfterPassword, setLinkAfterPassword] = useState(false);
+  const navigating = useRef(false);
+  useEffect(() => {
+    // A restored Firebase login still needs backend authorization before navigation.
+    // Password-to-Google linking deliberately stays on this page until linking completes.
+    if (!login || linkAfterPassword || busy || session.status !== "ready" || !session.user || !session.profile || navigating.current) return;
+    navigating.current = true;
+    router.replace(destination);
+  }, [login, linkAfterPassword, busy, session.status, session.user, session.profile, destination, router]);
   useEffect(() => {
     if (!login) return;
     let live = true;
@@ -44,7 +52,7 @@ export function AuthForm({ mode }: { mode: "login" | "register" | "reset" }) {
     const run = link ? googleLink.current : google.current;
     if (locked.current || !run) return;
     locked.current = true; setBusy(true); setError(null);
-    try { await run(); setPassword(""); router.replace(destination); router.refresh(); }
+    try { await run(); setPassword(""); if (link) { router.replace(destination); router.refresh(); } }
     catch (failure) { setError(authMessage(failure)); }
     finally { locked.current = false; setBusy(false); }
   }
@@ -65,7 +73,7 @@ export function AuthForm({ mode }: { mode: "login" | "register" | "reset" }) {
         setSent(true);
       } else {
         await authenticate(register ? "register" : "login", email, password, name);
-        setPassword(""); if (!linkAfterPassword) { router.replace(destination); router.refresh(); }
+        setPassword(""); if (!login && !linkAfterPassword) { router.replace(destination); router.refresh(); }
       }
     } catch (failure) { setError(authMessage(failure)); }
     finally { locked.current = false; setBusy(false); }
@@ -73,7 +81,7 @@ export function AuthForm({ mode }: { mode: "login" | "register" | "reset" }) {
   async function recover() {
     if (locked.current) return;
     locked.current = true; setBusy(true); setError(null);
-    try { await retrySession(); if (!linkAfterPassword) { router.replace(destination); router.refresh(); } }
+    try { await retrySession(); if (!login && !linkAfterPassword) { router.replace(destination); router.refresh(); } }
     catch (failure) { setError(authMessage(failure)); }
     finally { locked.current = false; setBusy(false); }
   }
@@ -83,9 +91,9 @@ export function AuthForm({ mode }: { mode: "login" | "register" | "reset" }) {
     {mode !== "reset" && session.user ? <div className="auth-form">
       <p className="small-note">Signed in as {session.user.email ?? "your Alua account"}.</p>
       {session.status === "error" && <p role="alert" className="form-error">{authMessage(session.error)} Your sign-in is saved. Retry account setup without creating another account.</p>}
-      {session.status === "loading" && <p role="status">Preparing your Alua profile…</p>}
+      {session.status === "loading" && <p role="status">{session.retrying ? "Connection interrupted. Retrying your session…" : "Preparing your Alua profile…"}</p>}
       <button className="button" disabled={busy || session.status === "loading"} onClick={() => { if (session.status === "ready") router.replace(destination); else void recover(); }}>
-        {busy ? "Please wait…" : session.status === "ready" ? "Continue" : "Retry account setup"}
+        {busy ? "Please wait…" : session.status === "loading" ? "Preparing account…" : session.status === "ready" ? "Continue" : "Retry account setup"}
       </button>
       {login && session.status === "ready" && <button type="button" className={s.social} disabled={busy || !googleReady} onClick={() => void connectGoogle(true)}><GoogleIcon />Connect Google to this account</button>}
       <button className="text-button" disabled={busy} onClick={async () => { try { await logout(); } catch (failure) { setError(authMessage(failure)); } }}>Use another account</button>

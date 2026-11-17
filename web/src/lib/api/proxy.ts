@@ -1,3 +1,5 @@
+import { ME_PROXY_TIMEOUT_MS } from "./deadlines";
+
 /** Fixed Alua upstream only. No cookies, forwarding headers, redirects or shared cache. */
 const RESPONSE_LIMIT = 16 * 1024 * 1024;
 const REQUEST_LIMIT = 4 * 1024 * 1024;
@@ -41,7 +43,8 @@ export async function proxyAlua(request: Request, segments: string[], configured
   const listeningImage = request.method === "GET" && segments.length === 5 &&
     segments[0] === "listening" && segments[1] === "attempts" && segments[3] === "assets" &&
     /^[0-9a-f-]{36}$/i.test(segments[2]!) && /^asset-[0-9a-f]{64}$/i.test(segments[4]!);
-  const timer = setTimeout(abort, timeout ?? (listeningImage ? 60_000 : 12_000));
+  const me = request.method === "GET" && segments.length === 1 && segments[0] === "me";
+  const timer = setTimeout(abort, timeout ?? (listeningImage ? 60_000 : me ? ME_PROXY_TIMEOUT_MS : 12_000));
   try {
     if (request.signal.aborted) controller.abort();
     const headers = new Headers();
